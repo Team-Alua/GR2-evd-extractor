@@ -1,47 +1,47 @@
 {
     "animset 0x120": {
         "stay 0x160": {
-            "blendDuration 0x1b8": 0.10000000149011612,
-            "file 0x1c8": "man01_stay_00",
-            "repeatCount 0x1d8": -1.0
+            "blendDuration 0x1bc": 0.10000000149011612,
+            "file 0x1cc": "man01_stay_00",
+            "repeatCount 0x1dc": -1.0
         }
     },
     "brain 0x1e0": {
-        "ai_type 0x228": "npc",
-        "type 0x238": "EnemyBrain"
+        "ai_type 0x22c": "npc",
+        "type 0x23c": "EnemyBrain"
     },
     "enemy_action_common 0x240": {
-        "find 0x288": 40.0,
-        "lose 0x298": 45.0
+        "find 0x28c": 40.0,
+        "lose 0x29c": 45.0
     },
     "enemy_body 0x2a0": {
-        "health 0x2e8": 9999.0,
-        "hit 0x2f8": "01000000"
+        "health 0x2ec": 9999.0,
+        "hit 0x2fc": true
     },
     "npc_param 0x300": {
         "param 0x380": {
-            "category 0x3d8": "other",
-            "damage_type 0x3e8": 0.0,
-            "grabbed_type 0x3f8": 0.0
+            "category 0x3dc": "other",
+            "damage_type 0x3ec": 0.0,
+            "grabbed_type 0x3fc": 0.0
         },
         "sight 0x400": {
-            "degree_h 0x488": 60.0,
-            "degree_v 0x498": 45.0,
-            "in_length 0x4a8": 4.0,
-            "out_length 0x4b8": 6.0,
-            "valid 0x4c8": "00000000"
+            "degree_h 0x48c": 60.0,
+            "degree_v 0x49c": 45.0,
+            "in_length 0x4ac": 4.0,
+            "out_length 0x4bc": 6.0,
+            "valid 0x4cc": false
         },
-        "valid 0x378": "01000000"
+        "valid 0x37c": true
     },
     "puppet 0x4d0": {
-        "animset 0x558": "npc/no_model",
+        "animset 0x55c": "npc/no_model",
         "collision 0x5a0": {
-            "center_y 0x5f8": 0.0,
-            "height 0x608": 0.0,
-            "radius 0x618": 0.0
+            "center_y 0x5fc": 0.0,
+            "height 0x60c": 0.0,
+            "radius 0x61c": 0.0
         },
-        "modelName 0x578": "man01_base",
-        "scale 0x588": 1.0,
-        "type 0x598": "Puppet"
+        "modelName 0x57c": "man01_base",
+        "scale 0x58c": 1.0,
+        "type 0x59c": "Puppet"
     }
 }

@@ -1,67 +1,67 @@
 {
-    "name 0xc8": "k_test",
+    "name 0xcc": "k_test",
     "page1 0x120": {
         "bg 0x1d0": {
-            "id 0x208": "k_bg1_aki"
+            "id 0x20c": "k_bg1_aki"
         },
         "lchar 0x270": {
-            "id 0x2a8": "k_eco01_egao"
+            "id 0x2ac": "k_eco01_egao"
         },
         "rchar 0x210": {
-            "anim 0x268": "framein",
-            "id 0x258": "k_kit01_odoroki"
+            "anim 0x26c": "framein",
+            "id 0x25c": "k_kit01_odoroki"
         },
         "rtext 0x2b0": {
-            "id 0x2e8": "cm90_info_01"
+            "id 0x2ec": "cm90_info_01"
         }
     },
     "page2 0x2f0": {
         "bgm 0x4a0": {
-            "id 0x4e8": "bgm03",
-            "push 0x4f8": "01000000"
+            "id 0x4ec": "bgm03",
+            "push 0x4fc": true
         },
         "lchar 0x400": {
-            "id 0x438": "k_eco01_ikari"
+            "id 0x43c": "k_eco01_ikari"
         },
         "ltext 0x440": {
-            "JP 0x498": "直接記述のテストです2\n二行目も",
-            "id 0x488": "ep01_04k_02"
+            "JP 0x49c": "直接記述のテストです2\n二行目も",
+            "id 0x48c": "ep01_04k_02"
         },
         "rchar 0x3c0": {
-            "anim 0x3f8": "frameout"
+            "anim 0x3fc": "frameout"
         },
-        "wait 0x3b8": "anim"
+        "wait 0x3bc": "anim"
     },
     "page3 0x500": {
         "lchar 0x650": {
-            "id 0x688": "k_eco01_konwaku"
+            "id 0x68c": "k_eco01_konwaku"
         },
         "lvoice 0x7b0": {
-            "id 0x7e8": "bgm01"
+            "id 0x7ec": "bgm01"
         },
         "rchar 0x610": {
-            "id 0x648": "k_kit01_konwaku"
+            "id 0x64c": "k_kit01_konwaku"
         },
         "rtext 0x690": {
-            "id 0x6c8": "ep01_04k_03"
+            "id 0x6cc": "ep01_04k_03"
         },
         "rvoice 0x750": {
-            "delay 0x7a8": 1.0,
-            "id 0x798": "bgm02"
+            "delay 0x7ac": 1.0,
+            "id 0x79c": "bgm02"
         },
         "se 0x6d0": {
-            "delay 0x748": 1.5,
-            "id 0x728": "kaiwa_catcall_1",
-            "vol 0x738": 0.5
+            "delay 0x74c": 1.5,
+            "id 0x72c": "kaiwa_catcall_1",
+            "vol 0x73c": 0.5
         },
-        "wait 0x608": 3.0
+        "wait 0x60c": 3.0
     },
     "page4 0x7f0": {
-        "bgm 0x868": "00000000",
-        "lchar 0x848": "00000000",
+        "bgm 0x86c": false,
+        "lchar 0x84c": false,
         "rtext 0x870": {
-            "JP 0x8a8": "直接記述だけのテストです"
+            "JP 0x8ac": "直接記述だけのテストです"
         }
     },
-    "textset 0xd8": "cm90"
+    "textset 0xdc": "cm90"
 }

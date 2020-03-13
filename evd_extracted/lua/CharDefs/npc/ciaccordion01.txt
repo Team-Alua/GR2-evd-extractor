@@ -1,52 +1,52 @@
 {
     "animset 0x120": {
         "accordion_00 0x180": {
-            "blendDuration 0x1d8": 0.10000000149011612,
-            "file 0x1e8": "ciaccordion01_play_00",
-            "repeatCount 0x1f8": -1.0
+            "blendDuration 0x1dc": 0.10000000149011612,
+            "file 0x1ec": "ciaccordion01_play_00",
+            "repeatCount 0x1fc": -1.0
         },
         "stay 0x200": {
-            "blendDuration 0x258": 0.10000000149011612,
-            "file 0x268": "ciaccordion01_play_00",
-            "repeatCount 0x278": -1.0
+            "blendDuration 0x25c": 0.10000000149011612,
+            "file 0x26c": "ciaccordion01_play_00",
+            "repeatCount 0x27c": -1.0
         }
     },
     "brain 0x280": {
-        "ai_type 0x2c8": "npc",
-        "type 0x2d8": "EnemyBrain"
+        "ai_type 0x2cc": "npc",
+        "type 0x2dc": "EnemyBrain"
     },
     "enemy_action_common 0x2e0": {
-        "find 0x328": 40.0,
-        "lose 0x338": 45.0
+        "find 0x32c": 40.0,
+        "lose 0x33c": 45.0
     },
     "enemy_body 0x340": {
-        "health 0x388": 9999.0,
-        "hit 0x398": "01000000"
+        "health 0x38c": 9999.0,
+        "hit 0x39c": true
     },
     "npc_param 0x3a0": {
         "param 0x420": {
-            "category 0x478": "other",
-            "damage_type 0x488": 0.0,
-            "grabbed_type 0x498": 0.0
+            "category 0x47c": "other",
+            "damage_type 0x48c": 0.0,
+            "grabbed_type 0x49c": 0.0
         },
         "sight 0x4a0": {
-            "degree_h 0x528": 60.0,
-            "degree_v 0x538": 45.0,
-            "in_length 0x548": 4.0,
-            "out_length 0x558": 6.0,
-            "valid 0x568": "00000000"
+            "degree_h 0x52c": 60.0,
+            "degree_v 0x53c": 45.0,
+            "in_length 0x54c": 4.0,
+            "out_length 0x55c": 6.0,
+            "valid 0x56c": false
         },
-        "valid 0x418": "01000000"
+        "valid 0x41c": true
     },
     "puppet 0x570": {
-        "animset 0x5f8": "npc/ciaccordion01",
+        "animset 0x5fc": "npc/ciaccordion01",
         "collision 0x640": {
-            "center_y 0x698": 0.0,
-            "height 0x6a8": 0.0,
-            "radius 0x6b8": 0.0
+            "center_y 0x69c": 0.0,
+            "height 0x6ac": 0.0,
+            "radius 0x6bc": 0.0
         },
-        "modelName 0x618": "ciaccordion01_base",
-        "scale 0x628": 1.0,
-        "type 0x638": "Puppet"
+        "modelName 0x61c": "ciaccordion01_base",
+        "scale 0x62c": 1.0,
+        "type 0x63c": "Puppet"
     }
 }

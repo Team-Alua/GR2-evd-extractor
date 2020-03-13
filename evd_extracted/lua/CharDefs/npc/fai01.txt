@@ -1,45 +1,45 @@
 {
     "animset 0x120": {
         "fly 0x180": {
-            "blendDuration 0x1d8": 0.10000000149011612,
-            "file 0x1e8": "fai01_fly_00",
-            "repeatCount 0x1f8": -1.0
+            "blendDuration 0x1dc": 0.10000000149011612,
+            "file 0x1ec": "fai01_fly_00",
+            "repeatCount 0x1fc": -1.0
         },
         "stay 0x200": {
-            "blendDuration 0x258": 0.10000000149011612,
-            "file 0x268": "fai01_fly_stay_00",
-            "repeatCount 0x278": -1.0
+            "blendDuration 0x25c": 0.10000000149011612,
+            "file 0x26c": "fai01_fly_stay_00",
+            "repeatCount 0x27c": -1.0
         }
     },
     "brain 0x280": {
-        "ai_type 0x2c8": "npc",
-        "type 0x2d8": "EnemyBrain"
+        "ai_type 0x2cc": "npc",
+        "type 0x2dc": "EnemyBrain"
     },
     "enemy_action_common 0x2e0": {
-        "find 0x328": 40.0,
-        "lose 0x338": 45.0
+        "find 0x32c": 40.0,
+        "lose 0x33c": 45.0
     },
     "enemy_body 0x340": {
-        "health 0x388": 9999.0,
-        "hit 0x398": "01000000"
+        "health 0x38c": 9999.0,
+        "hit 0x39c": true
     },
     "npc_param 0x3a0": {
         "param 0x400": {
-            "category 0x458": "fairy",
-            "damage_type 0x468": 0.0,
-            "grabbed_type 0x478": 0.0
+            "category 0x45c": "fairy",
+            "damage_type 0x46c": 0.0,
+            "grabbed_type 0x47c": 0.0
         },
-        "valid 0x3f8": "01000000"
+        "valid 0x3fc": true
     },
     "puppet 0x480": {
-        "animset 0x508": "npc/fai01",
+        "animset 0x50c": "npc/fai01",
         "collision 0x550": {
-            "center_y 0x5a8": 0.4000000059604645,
-            "height 0x5b8": 0.009999999776482582,
-            "radius 0x5c8": 0.009999999776482582
+            "center_y 0x5ac": 0.4000000059604645,
+            "height 0x5bc": 0.009999999776482582,
+            "radius 0x5cc": 0.009999999776482582
         },
-        "modelName 0x528": "fai01_base",
-        "scale 0x538": 3.0,
-        "type 0x548": "Puppet"
+        "modelName 0x52c": "fai01_base",
+        "scale 0x53c": 3.0,
+        "type 0x54c": "Puppet"
     }
 }

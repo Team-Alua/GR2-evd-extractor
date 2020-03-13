@@ -1,142 +1,142 @@
 {
     "easy 0x6d0": {
         "brain 0x7c0": {
-            "ai_type 0x848": "police",
-            "animjoint 0x858": "police",
-            "race 0x868": "human",
-            "type 0x838": "EnemyBrain"
+            "ai_type 0x84c": "police",
+            "animjoint 0x85c": "police",
+            "race 0x86c": "human",
+            "type 0x83c": "EnemyBrain"
         },
         "enemy_action_common 0xc90": {
-            "find 0xcd8": 40.0,
-            "lose 0xce8": 45.0
+            "find 0xcdc": 40.0,
+            "lose 0xcec": 45.0
         },
         "enemy_actions 0xa40": {
             "shoot 0xa80": {
-                "damage_cumulation 0xbd8": 100.0,
-                "damage_type 0xbc8": "normal",
-                "force 0xba8": 1.0,
-                "interval 0xbf8": 1.5,
-                "power 0xb78": 8.0,
-                "range 0xbe8": 7.0,
-                "rate_of_bg 0xb98": 10.0,
-                "rate_of_power 0xb88": 10.0,
-                "upper_force 0xbb8": 0.0,
-                "velocity 0xc08": 100.0
+                "damage_cumulation 0xbdc": 100.0,
+                "damage_type 0xbcc": "normal",
+                "force 0xbac": 1.0,
+                "interval 0xbfc": 1.5,
+                "power 0xb7c": 8.0,
+                "range 0xbec": 7.0,
+                "rate_of_bg 0xb9c": 10.0,
+                "rate_of_power 0xb8c": 10.0,
+                "upper_force 0xbbc": 0.0,
+                "velocity 0xc0c": 100.0
             }
         },
         "enemy_body 0x870": {
-            "battle_field_prio 0x8e8": 1.0,
-            "battle_field_range 0x8d8": 10.0,
-            "health 0x8c8": 80.0
+            "battle_field_prio 0x8ec": 1.0,
+            "battle_field_range 0x8dc": 10.0,
+            "health 0x8cc": 80.0
         },
         "enemy_items 0xc10": {
             "cigun04_base 0xc50": {
-                "item_attach_joint 0xc88": "loc_r_hand"
+                "item_attach_joint 0xc8c": "loc_r_hand"
             }
         },
         "enemy_parts 0x8f0": {
             "loc_top 0x930": {
-                "angle 0xa18": 360.0,
-                "body_damage 0x9e8": 80.0,
-                "core 0xa08": "01000000",
-                "health 0x9d8": 80.0,
-                "homing_angle 0xa28": 360.0,
-                "lockon 0x9f8": "00000000",
-                "offset_z 0xa38": 0.15000000596046448
+                "angle 0xa1c": 360.0,
+                "body_damage 0x9ec": 80.0,
+                "core 0xa0c": true,
+                "health 0x9dc": 80.0,
+                "homing_angle 0xa2c": 360.0,
+                "lockon 0x9fc": false,
+                "offset_z 0xa3c": 0.15000000596046448
             }
         }
     },
     "hard 0xcf0": {
         "brain 0xde0": {
-            "ai_type 0xe68": "police",
-            "animjoint 0xe78": "police",
-            "race 0xe88": "human",
-            "type 0xe58": "EnemyBrain"
+            "ai_type 0xe6c": "police",
+            "animjoint 0xe7c": "police",
+            "race 0xe8c": "human",
+            "type 0xe5c": "EnemyBrain"
         },
         "enemy_action_common 0x12b0": {
-            "find 0x12f8": 40.0,
-            "lose 0x1308": 45.0
+            "find 0x12fc": 40.0,
+            "lose 0x130c": 45.0
         },
         "enemy_actions 0x1060": {
             "shoot 0x10a0": {
-                "damage_cumulation 0x11f8": 100.0,
-                "damage_type 0x11e8": "normal",
-                "force 0x11c8": 1.0,
-                "interval 0x1218": 1.5,
-                "power 0x1198": 20.0,
-                "range 0x1208": 7.0,
-                "rate_of_bg 0x11b8": 10.0,
-                "rate_of_power 0x11a8": 10.0,
-                "upper_force 0x11d8": 0.0,
-                "velocity 0x1228": 100.0
+                "damage_cumulation 0x11fc": 100.0,
+                "damage_type 0x11ec": "normal",
+                "force 0x11cc": 1.0,
+                "interval 0x121c": 1.5,
+                "power 0x119c": 20.0,
+                "range 0x120c": 7.0,
+                "rate_of_bg 0x11bc": 10.0,
+                "rate_of_power 0x11ac": 10.0,
+                "upper_force 0x11dc": 0.0,
+                "velocity 0x122c": 100.0
             }
         },
         "enemy_body 0xe90": {
-            "battle_field_prio 0xf08": 1.0,
-            "battle_field_range 0xef8": 10.0,
-            "health 0xee8": 80.0
+            "battle_field_prio 0xf0c": 1.0,
+            "battle_field_range 0xefc": 10.0,
+            "health 0xeec": 80.0
         },
         "enemy_items 0x1230": {
             "cigun04_base 0x1270": {
-                "item_attach_joint 0x12a8": "loc_r_hand"
+                "item_attach_joint 0x12ac": "loc_r_hand"
             }
         },
         "enemy_parts 0xf10": {
             "loc_top 0xf50": {
-                "angle 0x1038": 360.0,
-                "body_damage 0x1008": 80.0,
-                "core 0x1028": "01000000",
-                "health 0xff8": 80.0,
-                "homing_angle 0x1048": 360.0,
-                "lockon 0x1018": "00000000",
-                "offset_z 0x1058": 0.15000000596046448
+                "angle 0x103c": 360.0,
+                "body_damage 0x100c": 80.0,
+                "core 0x102c": true,
+                "health 0xffc": 80.0,
+                "homing_angle 0x104c": 360.0,
+                "lockon 0x101c": false,
+                "offset_z 0x105c": 0.15000000596046448
             }
         }
     },
     "normal 0xb0": {
         "brain 0x1a0": {
-            "ai_type 0x228": "police",
-            "animjoint 0x238": "police",
-            "race 0x248": "human",
-            "type 0x218": "EnemyBrain"
+            "ai_type 0x22c": "police",
+            "animjoint 0x23c": "police",
+            "race 0x24c": "human",
+            "type 0x21c": "EnemyBrain"
         },
         "enemy_action_common 0x670": {
-            "find 0x6b8": 40.0,
-            "lose 0x6c8": 45.0
+            "find 0x6bc": 40.0,
+            "lose 0x6cc": 45.0
         },
         "enemy_actions 0x420": {
             "shoot 0x460": {
-                "damage_cumulation 0x5b8": 100.0,
-                "damage_type 0x5a8": "normal",
-                "force 0x588": 1.0,
-                "interval 0x5d8": 1.5,
-                "power 0x558": 10.0,
-                "range 0x5c8": 7.0,
-                "rate_of_bg 0x578": 10.0,
-                "rate_of_power 0x568": 10.0,
-                "upper_force 0x598": 0.0,
-                "velocity 0x5e8": 100.0
+                "damage_cumulation 0x5bc": 100.0,
+                "damage_type 0x5ac": "normal",
+                "force 0x58c": 1.0,
+                "interval 0x5dc": 1.5,
+                "power 0x55c": 10.0,
+                "range 0x5cc": 7.0,
+                "rate_of_bg 0x57c": 10.0,
+                "rate_of_power 0x56c": 10.0,
+                "upper_force 0x59c": 0.0,
+                "velocity 0x5ec": 100.0
             }
         },
         "enemy_body 0x250": {
-            "battle_field_prio 0x2c8": 1.0,
-            "battle_field_range 0x2b8": 10.0,
-            "health 0x2a8": 80.0
+            "battle_field_prio 0x2cc": 1.0,
+            "battle_field_range 0x2bc": 10.0,
+            "health 0x2ac": 80.0
         },
         "enemy_items 0x5f0": {
             "cigun04_base 0x630": {
-                "item_attach_joint 0x668": "loc_r_hand"
+                "item_attach_joint 0x66c": "loc_r_hand"
             }
         },
         "enemy_parts 0x2d0": {
             "loc_top 0x310": {
-                "angle 0x3f8": 360.0,
-                "body_damage 0x3c8": 80.0,
-                "core 0x3e8": "01000000",
-                "health 0x3b8": 80.0,
-                "homing_angle 0x408": 360.0,
-                "lockon 0x3d8": "00000000",
-                "offset_z 0x418": 0.15000000596046448
+                "angle 0x3fc": 360.0,
+                "body_damage 0x3cc": 80.0,
+                "core 0x3ec": true,
+                "health 0x3bc": 80.0,
+                "homing_angle 0x40c": 360.0,
+                "lockon 0x3dc": false,
+                "offset_z 0x41c": 0.15000000596046448
             }
         }
     }

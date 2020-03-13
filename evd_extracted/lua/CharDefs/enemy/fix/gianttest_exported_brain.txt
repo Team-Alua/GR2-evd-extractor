@@ -1,338 +1,338 @@
 {
     "easy 0xeb0": {
         "brain 0xfa0": {
-            "ai_type 0x1028": "fix",
-            "animjoint 0x1038": "gianttest",
-            "race 0x1048": "nevi",
-            "type 0x1018": "EnemyBrain"
+            "ai_type 0x102c": "fix",
+            "animjoint 0x103c": "gianttest",
+            "race 0x104c": "nevi",
+            "type 0x101c": "EnemyBrain"
         },
         "enemy_action_common 0x1e60": {
-            "find 0x1e98": 20.0
+            "find 0x1e9c": 20.0
         },
         "enemy_actions 0x1ae0": {
             "attack 0x1b20": {
-                "damage_cumulation 0x1c68": 0.0,
-                "damage_type 0x1c58": "normal",
-                "force 0x1c38": 0.25,
-                "height 0x1c88": 5.0,
-                "interval 0x1c98": 5.0,
-                "power 0x1c18": 30.0,
-                "range 0x1c78": 20.0,
-                "rate_of_power 0x1c28": 1.0,
-                "upper_force 0x1c48": 0.0,
-                "velocity 0x1ca8": 0.0
+                "damage_cumulation 0x1c6c": 0.0,
+                "damage_type 0x1c5c": "normal",
+                "force 0x1c3c": 0.25,
+                "height 0x1c8c": 5.0,
+                "interval 0x1c9c": 5.0,
+                "power 0x1c1c": 30.0,
+                "range 0x1c7c": 20.0,
+                "rate_of_power 0x1c2c": 1.0,
+                "upper_force 0x1c4c": 0.0,
+                "velocity 0x1cac": 0.0
             }
         },
         "enemy_actions 0x1cb0": {
             "attack 0x1cf0": {
-                "damage_cumulation 0x1e28": 0.0,
-                "damage_type 0x1e18": "normal",
-                "force 0x1df8": 0.25,
-                "height 0x1e48": 5.0,
-                "interval 0x1e58": 5.0,
-                "power 0x1dd8": 30.0,
-                "range 0x1e38": 20.0,
-                "rate_of_power 0x1de8": 1.0,
-                "upper_force 0x1e08": 0.0
+                "damage_cumulation 0x1e2c": 0.0,
+                "damage_type 0x1e1c": "normal",
+                "force 0x1dfc": 0.25,
+                "height 0x1e4c": 5.0,
+                "interval 0x1e5c": 5.0,
+                "power 0x1ddc": 30.0,
+                "range 0x1e3c": 20.0,
+                "rate_of_power 0x1dec": 1.0,
+                "upper_force 0x1e0c": 0.0
             }
         },
         "enemy_body 0x1050": {
-            "ash_effect 0x10f8": "ef_nev_death",
-            "ash_se 0x1108": "ene_disappear_L",
-            "health 0x1118": 360.0,
-            "spawn_effect 0x10d8": "ef_nev_spawn",
-            "spawn_se 0x10e8": "ene_come"
+            "ash_effect 0x10fc": "ef_nev_death",
+            "ash_se 0x110c": "ene_disappear_L",
+            "health 0x111c": 360.0,
+            "spawn_effect 0x10dc": "ef_nev_spawn",
+            "spawn_se 0x10ec": "ene_come"
         },
         "enemy_parts 0x1120": {
             "loc_setCore01 0x1290": {
-                "angle 0x13c8": 360.0,
-                "body_damage 0x1378": 60.0,
-                "core 0x13b8": "01000000",
+                "angle 0x13cc": 360.0,
+                "body_damage 0x137c": 60.0,
+                "core 0x13bc": true,
                 "defenders 0x13e0": {
-                    "0x13f8": "loc_setObj01",
-                    "0x1408": "loc_setObj02"
+                    "0x13fc": "loc_setObj01",
+                    "0x140c": "loc_setObj02"
                 },
-                "eye 0x13a8": "01000000",
-                "health 0x1368": 60.0,
-                "homing_angle 0x13d8": 360.0,
-                "lockon 0x1398": "01000000"
+                "eye 0x13ac": true,
+                "health 0x136c": 60.0,
+                "homing_angle 0x13dc": 360.0,
+                "lockon 0x139c": true
             },
             "loc_setCore02 0x1410": {
-                "angle 0x1508": 360.0,
-                "body_damage 0x14c8": 60.0,
-                "core 0x14f8": "01000000",
-                "eye 0x14e8": "01000000",
-                "health 0x14b8": 60.0,
-                "homing_angle 0x1518": 360.0,
-                "lockon 0x14d8": "01000000"
+                "angle 0x150c": 360.0,
+                "body_damage 0x14cc": 60.0,
+                "core 0x14fc": true,
+                "eye 0x14ec": true,
+                "health 0x14bc": 60.0,
+                "homing_angle 0x151c": 360.0,
+                "lockon 0x14dc": true
             },
             "loc_setCore03 0x1520": {
-                "angle 0x1618": 360.0,
-                "body_damage 0x15d8": 60.0,
-                "core 0x1608": "01000000",
-                "eye 0x15f8": "01000000",
-                "health 0x15c8": 60.0,
-                "homing_angle 0x1628": 360.0,
-                "lockon 0x15e8": "01000000"
+                "angle 0x161c": 360.0,
+                "body_damage 0x15dc": 60.0,
+                "core 0x160c": true,
+                "eye 0x15fc": true,
+                "health 0x15cc": 60.0,
+                "homing_angle 0x162c": 360.0,
+                "lockon 0x15ec": true
             },
             "loc_setCore04 0x1630": {
-                "angle 0x1758": 360.0,
-                "body_damage 0x1718": 60.0,
-                "core 0x1748": "01000000",
-                "damage_motion_type 0x1768": "FRONT",
-                "eye 0x1738": "01000000",
-                "health 0x1708": 60.0,
-                "homing_angle 0x1778": 360.0,
-                "lockon 0x1728": "01000000"
+                "angle 0x175c": 360.0,
+                "body_damage 0x171c": 60.0,
+                "core 0x174c": true,
+                "damage_motion_type 0x176c": "FRONT",
+                "eye 0x173c": true,
+                "health 0x170c": 60.0,
+                "homing_angle 0x177c": 360.0,
+                "lockon 0x172c": true
             },
             "loc_setCore05 0x1780": {
-                "angle 0x18a8": 360.0,
-                "body_damage 0x1868": 60.0,
-                "core 0x1898": "01000000",
-                "damage_motion_type 0x18b8": "FRONT",
-                "eye 0x1888": "01000000",
-                "health 0x1858": 60.0,
-                "homing_angle 0x18c8": 360.0,
-                "lockon 0x1878": "01000000"
+                "angle 0x18ac": 360.0,
+                "body_damage 0x186c": 60.0,
+                "core 0x189c": true,
+                "damage_motion_type 0x18bc": "FRONT",
+                "eye 0x188c": true,
+                "health 0x185c": 60.0,
+                "homing_angle 0x18cc": 360.0,
+                "lockon 0x187c": true
             },
             "loc_setCore06 0x18d0": {
-                "angle 0x19f8": 360.0,
-                "body_damage 0x19b8": 60.0,
-                "core 0x19e8": "01000000",
-                "damage_motion_type 0x1a08": "FRONT",
-                "eye 0x19d8": "01000000",
-                "health 0x19a8": 60.0,
-                "homing_angle 0x1a18": 360.0,
-                "lockon 0x19c8": "01000000"
+                "angle 0x19fc": 360.0,
+                "body_damage 0x19bc": 60.0,
+                "core 0x19ec": true,
+                "damage_motion_type 0x1a0c": "FRONT",
+                "eye 0x19dc": true,
+                "health 0x19ac": 60.0,
+                "homing_angle 0x1a1c": 360.0,
+                "lockon 0x19cc": true
             },
             "loc_setObj01 0x1a20": {
-                "health 0x1a58": 120.0
+                "health 0x1a5c": 120.0
             },
             "loc_setObj02 0x1a60": {
-                "health 0x1a98": 80.0
+                "health 0x1a9c": 80.0
             },
             "loc_setObj03 0x1aa0": {
-                "health 0x1ad8": 80.0
+                "health 0x1adc": 80.0
             }
         }
     },
     "hard 0x1ea0": {
         "brain 0x1f90": {
-            "ai_type 0x2018": "fix",
-            "animjoint 0x2028": "gianttest",
-            "race 0x2038": "nevi",
-            "type 0x2008": "EnemyBrain"
+            "ai_type 0x201c": "fix",
+            "animjoint 0x202c": "gianttest",
+            "race 0x203c": "nevi",
+            "type 0x200c": "EnemyBrain"
         },
         "enemy_action_common 0x2e50": {
-            "find 0x2e88": 20.0
+            "find 0x2e8c": 20.0
         },
         "enemy_actions 0x2ad0": {
             "attack 0x2b10": {
-                "damage_cumulation 0x2c58": 0.0,
-                "damage_type 0x2c48": "normal",
-                "force 0x2c28": 0.25,
-                "height 0x2c78": 5.0,
-                "interval 0x2c88": 5.0,
-                "power 0x2c08": 30.0,
-                "range 0x2c68": 20.0,
-                "rate_of_power 0x2c18": 1.0,
-                "upper_force 0x2c38": 0.0,
-                "velocity 0x2c98": 0.0
+                "damage_cumulation 0x2c5c": 0.0,
+                "damage_type 0x2c4c": "normal",
+                "force 0x2c2c": 0.25,
+                "height 0x2c7c": 5.0,
+                "interval 0x2c8c": 5.0,
+                "power 0x2c0c": 30.0,
+                "range 0x2c6c": 20.0,
+                "rate_of_power 0x2c1c": 1.0,
+                "upper_force 0x2c3c": 0.0,
+                "velocity 0x2c9c": 0.0
             }
         },
         "enemy_actions 0x2ca0": {
             "attack 0x2ce0": {
-                "damage_cumulation 0x2e18": 0.0,
-                "damage_type 0x2e08": "normal",
-                "force 0x2de8": 0.25,
-                "height 0x2e38": 5.0,
-                "interval 0x2e48": 5.0,
-                "power 0x2dc8": 30.0,
-                "range 0x2e28": 20.0,
-                "rate_of_power 0x2dd8": 1.0,
-                "upper_force 0x2df8": 0.0
+                "damage_cumulation 0x2e1c": 0.0,
+                "damage_type 0x2e0c": "normal",
+                "force 0x2dec": 0.25,
+                "height 0x2e3c": 5.0,
+                "interval 0x2e4c": 5.0,
+                "power 0x2dcc": 30.0,
+                "range 0x2e2c": 20.0,
+                "rate_of_power 0x2ddc": 1.0,
+                "upper_force 0x2dfc": 0.0
             }
         },
         "enemy_body 0x2040": {
-            "ash_effect 0x20e8": "ef_nev_death",
-            "ash_se 0x20f8": "ene_disappear_L",
-            "health 0x2108": 360.0,
-            "spawn_effect 0x20c8": "ef_nev_spawn",
-            "spawn_se 0x20d8": "ene_come"
+            "ash_effect 0x20ec": "ef_nev_death",
+            "ash_se 0x20fc": "ene_disappear_L",
+            "health 0x210c": 360.0,
+            "spawn_effect 0x20cc": "ef_nev_spawn",
+            "spawn_se 0x20dc": "ene_come"
         },
         "enemy_parts 0x2110": {
             "loc_setCore01 0x2280": {
-                "angle 0x23b8": 360.0,
-                "body_damage 0x2368": 60.0,
-                "core 0x23a8": "01000000",
+                "angle 0x23bc": 360.0,
+                "body_damage 0x236c": 60.0,
+                "core 0x23ac": true,
                 "defenders 0x23d0": {
-                    "0x23e8": "loc_setObj01",
-                    "0x23f8": "loc_setObj02"
+                    "0x23ec": "loc_setObj01",
+                    "0x23fc": "loc_setObj02"
                 },
-                "eye 0x2398": "01000000",
-                "health 0x2358": 60.0,
-                "homing_angle 0x23c8": 360.0,
-                "lockon 0x2388": "01000000"
+                "eye 0x239c": true,
+                "health 0x235c": 60.0,
+                "homing_angle 0x23cc": 360.0,
+                "lockon 0x238c": true
             },
             "loc_setCore02 0x2400": {
-                "angle 0x24f8": 360.0,
-                "body_damage 0x24b8": 60.0,
-                "core 0x24e8": "01000000",
-                "eye 0x24d8": "01000000",
-                "health 0x24a8": 60.0,
-                "homing_angle 0x2508": 360.0,
-                "lockon 0x24c8": "01000000"
+                "angle 0x24fc": 360.0,
+                "body_damage 0x24bc": 60.0,
+                "core 0x24ec": true,
+                "eye 0x24dc": true,
+                "health 0x24ac": 60.0,
+                "homing_angle 0x250c": 360.0,
+                "lockon 0x24cc": true
             },
             "loc_setCore03 0x2510": {
-                "angle 0x2608": 360.0,
-                "body_damage 0x25c8": 60.0,
-                "core 0x25f8": "01000000",
-                "eye 0x25e8": "01000000",
-                "health 0x25b8": 60.0,
-                "homing_angle 0x2618": 360.0,
-                "lockon 0x25d8": "01000000"
+                "angle 0x260c": 360.0,
+                "body_damage 0x25cc": 60.0,
+                "core 0x25fc": true,
+                "eye 0x25ec": true,
+                "health 0x25bc": 60.0,
+                "homing_angle 0x261c": 360.0,
+                "lockon 0x25dc": true
             },
             "loc_setCore04 0x2620": {
-                "angle 0x2748": 360.0,
-                "body_damage 0x2708": 60.0,
-                "core 0x2738": "01000000",
-                "damage_motion_type 0x2758": "FRONT",
-                "eye 0x2728": "01000000",
-                "health 0x26f8": 60.0,
-                "homing_angle 0x2768": 360.0,
-                "lockon 0x2718": "01000000"
+                "angle 0x274c": 360.0,
+                "body_damage 0x270c": 60.0,
+                "core 0x273c": true,
+                "damage_motion_type 0x275c": "FRONT",
+                "eye 0x272c": true,
+                "health 0x26fc": 60.0,
+                "homing_angle 0x276c": 360.0,
+                "lockon 0x271c": true
             },
             "loc_setCore05 0x2770": {
-                "angle 0x2898": 360.0,
-                "body_damage 0x2858": 60.0,
-                "core 0x2888": "01000000",
-                "damage_motion_type 0x28a8": "FRONT",
-                "eye 0x2878": "01000000",
-                "health 0x2848": 60.0,
-                "homing_angle 0x28b8": 360.0,
-                "lockon 0x2868": "01000000"
+                "angle 0x289c": 360.0,
+                "body_damage 0x285c": 60.0,
+                "core 0x288c": true,
+                "damage_motion_type 0x28ac": "FRONT",
+                "eye 0x287c": true,
+                "health 0x284c": 60.0,
+                "homing_angle 0x28bc": 360.0,
+                "lockon 0x286c": true
             },
             "loc_setCore06 0x28c0": {
-                "angle 0x29e8": 360.0,
-                "body_damage 0x29a8": 60.0,
-                "core 0x29d8": "01000000",
-                "damage_motion_type 0x29f8": "FRONT",
-                "eye 0x29c8": "01000000",
-                "health 0x2998": 60.0,
-                "homing_angle 0x2a08": 360.0,
-                "lockon 0x29b8": "01000000"
+                "angle 0x29ec": 360.0,
+                "body_damage 0x29ac": 60.0,
+                "core 0x29dc": true,
+                "damage_motion_type 0x29fc": "FRONT",
+                "eye 0x29cc": true,
+                "health 0x299c": 60.0,
+                "homing_angle 0x2a0c": 360.0,
+                "lockon 0x29bc": true
             },
             "loc_setObj01 0x2a10": {
-                "health 0x2a48": 120.0
+                "health 0x2a4c": 120.0
             },
             "loc_setObj02 0x2a50": {
-                "health 0x2a88": 80.0
+                "health 0x2a8c": 80.0
             },
             "loc_setObj03 0x2a90": {
-                "health 0x2ac8": 80.0
+                "health 0x2acc": 80.0
             }
         }
     },
     "normal 0xb0": {
         "brain 0x180": {
-            "ai_type 0x208": "fix",
-            "animjoint 0x218": "gianttest",
-            "race 0x228": "nevi",
-            "type 0x1f8": "EnemyBrain"
+            "ai_type 0x20c": "fix",
+            "animjoint 0x21c": "gianttest",
+            "race 0x22c": "nevi",
+            "type 0x1fc": "EnemyBrain"
         },
         "enemy_action_common 0xe70": {
-            "find 0xea8": 20.0
+            "find 0xeac": 20.0
         },
         "enemy_actions 0xcc0": {
             "attack 0xd00": {
-                "damage_cumulation 0xe38": 0.0,
-                "damage_type 0xe28": "normal",
-                "force 0xe08": 0.25,
-                "height 0xe58": 5.0,
-                "interval 0xe68": 5.0,
-                "power 0xde8": 30.0,
-                "range 0xe48": 20.0,
-                "rate_of_power 0xdf8": 1.0,
-                "upper_force 0xe18": 0.0
+                "damage_cumulation 0xe3c": 0.0,
+                "damage_type 0xe2c": "normal",
+                "force 0xe0c": 0.25,
+                "height 0xe5c": 5.0,
+                "interval 0xe6c": 5.0,
+                "power 0xdec": 30.0,
+                "range 0xe4c": 20.0,
+                "rate_of_power 0xdfc": 1.0,
+                "upper_force 0xe1c": 0.0
             }
         },
         "enemy_body 0x230": {
-            "ash_effect 0x2d8": "ef_nev_death",
-            "ash_se 0x2e8": "ene_disappear_L",
-            "health 0x2f8": 360.0,
-            "spawn_effect 0x2b8": "ef_nev_spawn",
-            "spawn_se 0x2c8": "ene_come"
+            "ash_effect 0x2dc": "ef_nev_death",
+            "ash_se 0x2ec": "ene_disappear_L",
+            "health 0x2fc": 360.0,
+            "spawn_effect 0x2bc": "ef_nev_spawn",
+            "spawn_se 0x2cc": "ene_come"
         },
         "enemy_parts 0x300": {
             "loc_setCore01 0x470": {
-                "angle 0x5a8": 360.0,
-                "body_damage 0x558": 60.0,
-                "core 0x598": "01000000",
+                "angle 0x5ac": 360.0,
+                "body_damage 0x55c": 60.0,
+                "core 0x59c": true,
                 "defenders 0x5c0": {
-                    "0x5d8": "loc_setObj01",
-                    "0x5e8": "loc_setObj02"
+                    "0x5dc": "loc_setObj01",
+                    "0x5ec": "loc_setObj02"
                 },
-                "eye 0x588": "01000000",
-                "health 0x548": 60.0,
-                "homing_angle 0x5b8": 360.0,
-                "lockon 0x578": "01000000"
+                "eye 0x58c": true,
+                "health 0x54c": 60.0,
+                "homing_angle 0x5bc": 360.0,
+                "lockon 0x57c": true
             },
             "loc_setCore02 0x5f0": {
-                "angle 0x6e8": 360.0,
-                "body_damage 0x6a8": 60.0,
-                "core 0x6d8": "01000000",
-                "eye 0x6c8": "01000000",
-                "health 0x698": 60.0,
-                "homing_angle 0x6f8": 360.0,
-                "lockon 0x6b8": "01000000"
+                "angle 0x6ec": 360.0,
+                "body_damage 0x6ac": 60.0,
+                "core 0x6dc": true,
+                "eye 0x6cc": true,
+                "health 0x69c": 60.0,
+                "homing_angle 0x6fc": 360.0,
+                "lockon 0x6bc": true
             },
             "loc_setCore03 0x700": {
-                "angle 0x7f8": 360.0,
-                "body_damage 0x7b8": 60.0,
-                "core 0x7e8": "01000000",
-                "eye 0x7d8": "01000000",
-                "health 0x7a8": 60.0,
-                "homing_angle 0x808": 360.0,
-                "lockon 0x7c8": "01000000"
+                "angle 0x7fc": 360.0,
+                "body_damage 0x7bc": 60.0,
+                "core 0x7ec": true,
+                "eye 0x7dc": true,
+                "health 0x7ac": 60.0,
+                "homing_angle 0x80c": 360.0,
+                "lockon 0x7cc": true
             },
             "loc_setCore04 0x810": {
-                "angle 0x938": 360.0,
-                "body_damage 0x8f8": 60.0,
-                "core 0x928": "01000000",
-                "damage_motion_type 0x948": "FRONT",
-                "eye 0x918": "01000000",
-                "health 0x8e8": 60.0,
-                "homing_angle 0x958": 360.0,
-                "lockon 0x908": "01000000"
+                "angle 0x93c": 360.0,
+                "body_damage 0x8fc": 60.0,
+                "core 0x92c": true,
+                "damage_motion_type 0x94c": "FRONT",
+                "eye 0x91c": true,
+                "health 0x8ec": 60.0,
+                "homing_angle 0x95c": 360.0,
+                "lockon 0x90c": true
             },
             "loc_setCore05 0x960": {
-                "angle 0xa88": 360.0,
-                "body_damage 0xa48": 60.0,
-                "core 0xa78": "01000000",
-                "damage_motion_type 0xa98": "FRONT",
-                "eye 0xa68": "01000000",
-                "health 0xa38": 60.0,
-                "homing_angle 0xaa8": 360.0,
-                "lockon 0xa58": "01000000"
+                "angle 0xa8c": 360.0,
+                "body_damage 0xa4c": 60.0,
+                "core 0xa7c": true,
+                "damage_motion_type 0xa9c": "FRONT",
+                "eye 0xa6c": true,
+                "health 0xa3c": 60.0,
+                "homing_angle 0xaac": 360.0,
+                "lockon 0xa5c": true
             },
             "loc_setCore06 0xab0": {
-                "angle 0xbd8": 360.0,
-                "body_damage 0xb98": 60.0,
-                "core 0xbc8": "01000000",
-                "damage_motion_type 0xbe8": "FRONT",
-                "eye 0xbb8": "01000000",
-                "health 0xb88": 60.0,
-                "homing_angle 0xbf8": 360.0,
-                "lockon 0xba8": "01000000"
+                "angle 0xbdc": 360.0,
+                "body_damage 0xb9c": 60.0,
+                "core 0xbcc": true,
+                "damage_motion_type 0xbec": "FRONT",
+                "eye 0xbbc": true,
+                "health 0xb8c": 60.0,
+                "homing_angle 0xbfc": 360.0,
+                "lockon 0xbac": true
             },
             "loc_setObj01 0xc00": {
-                "health 0xc38": 120.0
+                "health 0xc3c": 120.0
             },
             "loc_setObj02 0xc40": {
-                "health 0xc78": 80.0
+                "health 0xc7c": 80.0
             },
             "loc_setObj03 0xc80": {
-                "health 0xcb8": 80.0
+                "health 0xcbc": 80.0
             }
         }
     }

@@ -2,7 +2,7 @@ import struct
 import pandas as pd
 import json
 
-file_path = "action_review_00600k.evd"
+file_path = "bosshand.evd"
 
 def unpack():
     global chunk_count
@@ -27,30 +27,33 @@ def unpack():
             variable_name = file.read(200).split(b'\x00')[0].decode('UTF8') #Use UTF8 because some strings are in Japanese
             file.seek(currentCursor + 4, 0)
         name_hash = file.read(4).hex()
-        data_location = file.tell()
         type = file.read(4)
-        if type == b'\x35\x85\xba\xb7':
-            # data.append('List')
+        data_location = file.tell()
+        if type == b'\x35\x85\xba\xb7':  # List
             file.seek(int.from_bytes(file.read(4), byteorder='little') - 0x04, 1)
-            print(hex(file.tell()))
             data_location = file.tell()
             value = unpack()
             file.seek(currentCursor + 0x10, 0)
-        elif type == b'\x38\x65\xc1\x17':
-            # data.append('String')
+        elif type == b'\x38\x65\xc1\x17':  # String
             file.seek(int.from_bytes(file.read(4), byteorder='little') - 0x04, 1)
             value = file.read(200).split(b'\x00')[0].decode('UTF8')
-
             file.seek(currentCursor + 0x10, 0)
-        elif type == b'\x85\x5d\xc4\xa6':
-            # data.append('Float')
+        elif type == b'\x85\x5d\xc4\xa6':  # Float
             value = struct.unpack('f', file.read(4))[0]
+        elif type == b'\x3D\x95\x94\xC8':  # Boolean
+            value = int.from_bytes(file.read(4), byteorder='little') > 0
+        elif type == b'\x00\x00\x00\x00':  # Boolean
+            if int.from_bytes(file.read(4), byteorder='little') == 0:
+                value = None
+            else:
+                print("Non null value in null type")
+                print()
         else:
-            # data.append('Error %s' % type.hex())
             value = file.read(4).hex()
+            print("Warring!!! Unknow type!!! %s at %s with value %s" % (hex(int.from_bytes(type, byteorder='big')), hex(file.tell()-8), value))
+            print()
         if variable_name == None:
             variable_name = hex(data_location)
-        else:
             if show_offset:
                 variable_name = variable_name = "%s %s" % (variable_name, hex(data_location))
         local_data[variable_name] = value

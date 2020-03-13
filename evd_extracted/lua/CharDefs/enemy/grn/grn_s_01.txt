@@ -1,56 +1,56 @@
 {
     "brain 0x370": {
-        "ai_type 0x3d8": "grn",
-        "animjoint 0x3e8": "grn_s_01",
-        "type 0x3c8": "EnemyBrain"
+        "ai_type 0x3dc": "grn",
+        "animjoint 0x3ec": "grn_s_01",
+        "type 0x3cc": "EnemyBrain"
     },
     "enemy_actions 0x5f0": {
         "attack 0x630": {
-            "absorb_time 0x758": 5.0,
-            "chase_range 0x798": 20.0,
-            "force 0x728": 0.25,
-            "height 0x778": 5.0,
-            "interval 0x788": 5.0,
-            "power 0x718": 30.0,
-            "prepare_speed 0x738": 1.0,
-            "range 0x768": 20.0,
-            "speed 0x748": 1.5
+            "absorb_time 0x75c": 5.0,
+            "chase_range 0x79c": 20.0,
+            "force 0x72c": 0.25,
+            "height 0x77c": 5.0,
+            "interval 0x78c": 5.0,
+            "power 0x71c": 30.0,
+            "prepare_speed 0x73c": 1.0,
+            "range 0x76c": 20.0,
+            "speed 0x74c": 1.5
         }
     },
     "enemy_body 0x3f0": {
-        "ash_effect 0x498": "grn_s_01_death_eff",
-        "ash_se 0x4a8": "ene_disappear",
-        "health 0x4b8": 60.0,
-        "spawn_effect 0x478": "gp_m_spawn_s",
-        "spawn_se 0x488": "ene_come"
+        "ash_effect 0x49c": "grn_s_01_death_eff",
+        "ash_se 0x4ac": "ene_disappear",
+        "health 0x4bc": 60.0,
+        "spawn_effect 0x47c": "gp_m_spawn_s",
+        "spawn_se 0x48c": "ene_come"
     },
     "enemy_parts 0x4c0": {
         "loc_setCore01 0x500": {
-            "body_damage 0x5c8": 60.0,
-            "effect 0x598": "gp_sy_enemycor_s_eff",
-            "eye 0x5e8": "01000000",
-            "health 0x5b8": 60.0,
-            "lockon 0x5d8": "01000000",
-            "marker_alpha 0x5a8": 1.0
+            "body_damage 0x5cc": 60.0,
+            "effect 0x59c": "gp_sy_enemycor_s_eff",
+            "eye 0x5ec": true,
+            "health 0x5bc": 60.0,
+            "lockon 0x5dc": true,
+            "marker_alpha 0x5ac": 1.0
         }
     },
     "puppet 0x100": {
-        "animattr 0x248": "grn_s_01",
-        "animset 0x238": "grn_s_01",
-        "center_y 0x268": 0.5,
+        "animattr 0x24c": "grn_s_01",
+        "animset 0x23c": "grn_s_01",
+        "center_y 0x26c": 0.5,
         "collision 0x290": {
-            "center_y 0x308": 0.25,
-            "height 0x2f8": 0.5,
-            "radius 0x2e8": 0.25
+            "center_y 0x30c": 0.25,
+            "height 0x2fc": 0.5,
+            "radius 0x2ec": 0.25
         },
-        "drivenkey 0x228": "00000000",
-        "modelName 0x208": "grn_s_01_base",
+        "drivenkey 0x22c": null,
+        "modelName 0x20c": "grn_s_01_base",
         "replace_models 0x310": {
-            "loc_setCore01 0x358": "cor03",
-            "loc_setObj01 0x368": "/OFF"
+            "loc_setCore01 0x35c": "cor03",
+            "loc_setObj01 0x36c": "/OFF"
         },
-        "scale 0x258": 1.0,
-        "type 0x1f8": "Puppet",
-        "yureName 0x218": "00000000"
+        "scale 0x25c": 1.0,
+        "type 0x1fc": "Puppet",
+        "yureName 0x21c": null
     }
 }

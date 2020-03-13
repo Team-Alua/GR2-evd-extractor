@@ -1,220 +1,220 @@
 {
     "easy 0xaa0": {
         "brain 0xb70": {
-            "ai_grade 0xc78": "strong",
-            "ai_type 0xc28": "gellyfish",
-            "animjoint 0xc38": "gellyfish",
-            "body_effect 0xc68": "gellyfish",
-            "race 0xc48": "nevi",
-            "tailchain 0xc58": "gellyfish",
-            "type 0xc18": "EnemyBrain"
+            "ai_grade 0xc7c": "strong",
+            "ai_type 0xc2c": "gellyfish",
+            "animjoint 0xc3c": "gellyfish",
+            "body_effect 0xc6c": "gellyfish",
+            "race 0xc4c": "nevi",
+            "tailchain 0xc5c": "gellyfish",
+            "type 0xc1c": "EnemyBrain"
         },
         "enemy_action_common 0x1430": {
-            "find 0x1478": 60.0,
-            "lose 0x1488": 65.0
+            "find 0x147c": 60.0,
+            "lose 0x148c": 65.0
         },
         "enemy_actions 0xf60": {
             "attack_b 0xfe0": {
-                "damage_cumulation 0x1138": 0.0,
-                "damage_type 0x1128": "normal",
-                "force 0x1108": 1.0,
-                "height 0x1158": 5.0,
-                "interval 0x1168": 5.0,
-                "power 0x10d8": 10.0,
-                "range 0x1148": 2.5,
-                "rate_of_bg 0x10f8": 10.0,
-                "rate_of_power 0x10e8": 5.0,
-                "upper_force 0x1118": 0.0
+                "damage_cumulation 0x113c": 0.0,
+                "damage_type 0x112c": "normal",
+                "force 0x110c": 1.0,
+                "height 0x115c": 5.0,
+                "interval 0x116c": 5.0,
+                "power 0x10dc": 10.0,
+                "range 0x114c": 2.5,
+                "rate_of_bg 0x10fc": 10.0,
+                "rate_of_power 0x10ec": 5.0,
+                "upper_force 0x111c": 0.0
             },
             "shoot 0x1170": {
-                "damage_cumulation 0x12d8": 0.0,
-                "damage_type 0x12c8": "normal",
-                "force 0x12a8": 1.0,
-                "free 0x1318": 1.3700000047683716,
-                "interval 0x12f8": 4.0,
-                "power 0x1278": 40.0,
-                "range 0x12e8": 30.0,
-                "rate_of_bg 0x1298": 10.0,
-                "rate_of_power 0x1288": 5.0,
-                "upper_force 0x12b8": 0.0,
-                "velocity 0x1308": 7.0
+                "damage_cumulation 0x12dc": 0.0,
+                "damage_type 0x12cc": "normal",
+                "force 0x12ac": 1.0,
+                "free 0x131c": 1.3700000047683716,
+                "interval 0x12fc": 4.0,
+                "power 0x127c": 40.0,
+                "range 0x12ec": 30.0,
+                "rate_of_bg 0x129c": 10.0,
+                "rate_of_power 0x128c": 5.0,
+                "upper_force 0x12bc": 0.0,
+                "velocity 0x130c": 7.0
             },
             "spawn 0x1320": {
-                "damage_cumulation 0x1428": 0.0,
-                "damage_type 0x1418": "normal",
-                "force 0x13f8": 1.0,
-                "power 0x13c8": 10.0,
-                "rate_of_bg 0x13e8": 10.0,
-                "rate_of_power 0x13d8": -2.0,
-                "upper_force 0x1408": 0.0
+                "damage_cumulation 0x142c": 0.0,
+                "damage_type 0x141c": "normal",
+                "force 0x13fc": 1.0,
+                "power 0x13cc": 10.0,
+                "rate_of_bg 0x13ec": 10.0,
+                "rate_of_power 0x13dc": -2.0,
+                "upper_force 0x140c": 0.0
             }
         },
         "enemy_body 0xc80": {
-            "ash_effect 0xd78": "ef_nev_death_nvgel",
-            "ash_effect_node 0xd88": "samplelink",
-            "ash_se 0xd98": "ene_disappear",
-            "battle_field_prio 0xdc8": 1.0,
-            "battle_field_range 0xdb8": 20.0,
-            "health 0xda8": 120.0,
-            "spawn_effect 0xd58": "ef_nev_spw_02",
-            "spawn_se 0xd68": "ene_come"
+            "ash_effect 0xd7c": "ef_nev_death_nvgel",
+            "ash_effect_node 0xd8c": "samplelink",
+            "ash_se 0xd9c": "ene_disappear",
+            "battle_field_prio 0xdcc": 1.0,
+            "battle_field_range 0xdbc": 20.0,
+            "health 0xdac": 120.0,
+            "spawn_effect 0xd5c": "ef_nev_spw_02",
+            "spawn_se 0xd6c": "ene_come"
         },
         "enemy_parts 0xdd0": {
             "loc_setCore01 0xe10": {
-                "angle 0xf38": 360.0,
-                "body_damage 0xef8": 120.0,
-                "core 0xf28": "01000000",
-                "damage_motion_type 0xf48": "FRONT",
-                "eye_aim_limit 0xf18": 30.0,
-                "health 0xee8": 150.0,
-                "homing_angle 0xf58": 360.0,
-                "lockon 0xf08": "01000000"
+                "angle 0xf3c": 360.0,
+                "body_damage 0xefc": 120.0,
+                "core 0xf2c": true,
+                "damage_motion_type 0xf4c": "FRONT",
+                "eye_aim_limit 0xf1c": 30.0,
+                "health 0xeec": 150.0,
+                "homing_angle 0xf5c": 360.0,
+                "lockon 0xf0c": true
             }
         }
     },
     "hard 0x1490": {
         "brain 0x1560": {
-            "ai_grade 0x1668": "strong",
-            "ai_type 0x1618": "gellyfish",
-            "animjoint 0x1628": "gellyfish",
-            "body_effect 0x1658": "gellyfish",
-            "race 0x1638": "nevi",
-            "tailchain 0x1648": "gellyfish",
-            "type 0x1608": "EnemyBrain"
+            "ai_grade 0x166c": "strong",
+            "ai_type 0x161c": "gellyfish",
+            "animjoint 0x162c": "gellyfish",
+            "body_effect 0x165c": "gellyfish",
+            "race 0x163c": "nevi",
+            "tailchain 0x164c": "gellyfish",
+            "type 0x160c": "EnemyBrain"
         },
         "enemy_action_common 0x1e20": {
-            "find 0x1e68": 60.0,
-            "lose 0x1e78": 65.0
+            "find 0x1e6c": 60.0,
+            "lose 0x1e7c": 65.0
         },
         "enemy_actions 0x1950": {
             "attack_b 0x19d0": {
-                "damage_cumulation 0x1b28": 0.0,
-                "damage_type 0x1b18": "normal",
-                "force 0x1af8": 1.0,
-                "height 0x1b48": 5.0,
-                "interval 0x1b58": 5.0,
-                "power 0x1ac8": 10.0,
-                "range 0x1b38": 2.5,
-                "rate_of_bg 0x1ae8": 10.0,
-                "rate_of_power 0x1ad8": 5.0,
-                "upper_force 0x1b08": 0.0
+                "damage_cumulation 0x1b2c": 0.0,
+                "damage_type 0x1b1c": "normal",
+                "force 0x1afc": 1.0,
+                "height 0x1b4c": 5.0,
+                "interval 0x1b5c": 5.0,
+                "power 0x1acc": 10.0,
+                "range 0x1b3c": 2.5,
+                "rate_of_bg 0x1aec": 10.0,
+                "rate_of_power 0x1adc": 5.0,
+                "upper_force 0x1b0c": 0.0
             },
             "shoot 0x1b60": {
-                "damage_cumulation 0x1cc8": 0.0,
-                "damage_type 0x1cb8": "normal",
-                "force 0x1c98": 1.0,
-                "free 0x1d08": 1.3700000047683716,
-                "interval 0x1ce8": 4.0,
-                "power 0x1c68": 40.0,
-                "range 0x1cd8": 30.0,
-                "rate_of_bg 0x1c88": 10.0,
-                "rate_of_power 0x1c78": 5.0,
-                "upper_force 0x1ca8": 0.0,
-                "velocity 0x1cf8": 7.0
+                "damage_cumulation 0x1ccc": 0.0,
+                "damage_type 0x1cbc": "normal",
+                "force 0x1c9c": 1.0,
+                "free 0x1d0c": 1.3700000047683716,
+                "interval 0x1cec": 4.0,
+                "power 0x1c6c": 40.0,
+                "range 0x1cdc": 30.0,
+                "rate_of_bg 0x1c8c": 10.0,
+                "rate_of_power 0x1c7c": 5.0,
+                "upper_force 0x1cac": 0.0,
+                "velocity 0x1cfc": 7.0
             },
             "spawn 0x1d10": {
-                "damage_cumulation 0x1e18": 0.0,
-                "damage_type 0x1e08": "normal",
-                "force 0x1de8": 1.0,
-                "power 0x1db8": 10.0,
-                "rate_of_bg 0x1dd8": 10.0,
-                "rate_of_power 0x1dc8": -2.0,
-                "upper_force 0x1df8": 0.0
+                "damage_cumulation 0x1e1c": 0.0,
+                "damage_type 0x1e0c": "normal",
+                "force 0x1dec": 1.0,
+                "power 0x1dbc": 10.0,
+                "rate_of_bg 0x1ddc": 10.0,
+                "rate_of_power 0x1dcc": -2.0,
+                "upper_force 0x1dfc": 0.0
             }
         },
         "enemy_body 0x1670": {
-            "ash_effect 0x1768": "ef_nev_death_nvgel",
-            "ash_effect_node 0x1778": "samplelink",
-            "ash_se 0x1788": "ene_disappear",
-            "battle_field_prio 0x17b8": 1.0,
-            "battle_field_range 0x17a8": 20.0,
-            "health 0x1798": 120.0,
-            "spawn_effect 0x1748": "ef_nev_spw_02",
-            "spawn_se 0x1758": "ene_come"
+            "ash_effect 0x176c": "ef_nev_death_nvgel",
+            "ash_effect_node 0x177c": "samplelink",
+            "ash_se 0x178c": "ene_disappear",
+            "battle_field_prio 0x17bc": 1.0,
+            "battle_field_range 0x17ac": 20.0,
+            "health 0x179c": 120.0,
+            "spawn_effect 0x174c": "ef_nev_spw_02",
+            "spawn_se 0x175c": "ene_come"
         },
         "enemy_parts 0x17c0": {
             "loc_setCore01 0x1800": {
-                "angle 0x1928": 360.0,
-                "body_damage 0x18e8": 120.0,
-                "core 0x1918": "01000000",
-                "damage_motion_type 0x1938": "FRONT",
-                "eye_aim_limit 0x1908": 30.0,
-                "health 0x18d8": 150.0,
-                "homing_angle 0x1948": 360.0,
-                "lockon 0x18f8": "01000000"
+                "angle 0x192c": 360.0,
+                "body_damage 0x18ec": 120.0,
+                "core 0x191c": true,
+                "damage_motion_type 0x193c": "FRONT",
+                "eye_aim_limit 0x190c": 30.0,
+                "health 0x18dc": 150.0,
+                "homing_angle 0x194c": 360.0,
+                "lockon 0x18fc": true
             }
         }
     },
     "normal 0xb0": {
         "brain 0x180": {
-            "ai_grade 0x288": "strong",
-            "ai_type 0x238": "gellyfish",
-            "animjoint 0x248": "gellyfish",
-            "body_effect 0x278": "gellyfish",
-            "race 0x258": "nevi",
-            "tailchain 0x268": "gellyfish",
-            "type 0x228": "EnemyBrain"
+            "ai_grade 0x28c": "strong",
+            "ai_type 0x23c": "gellyfish",
+            "animjoint 0x24c": "gellyfish",
+            "body_effect 0x27c": "gellyfish",
+            "race 0x25c": "nevi",
+            "tailchain 0x26c": "gellyfish",
+            "type 0x22c": "EnemyBrain"
         },
         "enemy_action_common 0xa40": {
-            "find 0xa88": 60.0,
-            "lose 0xa98": 65.0
+            "find 0xa8c": 60.0,
+            "lose 0xa9c": 65.0
         },
         "enemy_actions 0x570": {
             "attack_b 0x5f0": {
-                "damage_cumulation 0x748": 0.0,
-                "damage_type 0x738": "normal",
-                "force 0x718": 1.0,
-                "height 0x768": 5.0,
-                "interval 0x778": 5.0,
-                "power 0x6e8": 10.0,
-                "range 0x758": 2.5,
-                "rate_of_bg 0x708": 10.0,
-                "rate_of_power 0x6f8": 5.0,
-                "upper_force 0x728": 0.0
+                "damage_cumulation 0x74c": 0.0,
+                "damage_type 0x73c": "normal",
+                "force 0x71c": 1.0,
+                "height 0x76c": 5.0,
+                "interval 0x77c": 5.0,
+                "power 0x6ec": 10.0,
+                "range 0x75c": 2.5,
+                "rate_of_bg 0x70c": 10.0,
+                "rate_of_power 0x6fc": 5.0,
+                "upper_force 0x72c": 0.0
             },
             "shoot 0x780": {
-                "damage_cumulation 0x8e8": 0.0,
-                "damage_type 0x8d8": "normal",
-                "force 0x8b8": 1.0,
-                "free 0x928": 1.3700000047683716,
-                "interval 0x908": 4.0,
-                "power 0x888": 40.0,
-                "range 0x8f8": 30.0,
-                "rate_of_bg 0x8a8": 10.0,
-                "rate_of_power 0x898": 5.0,
-                "upper_force 0x8c8": 0.0,
-                "velocity 0x918": 7.0
+                "damage_cumulation 0x8ec": 0.0,
+                "damage_type 0x8dc": "normal",
+                "force 0x8bc": 1.0,
+                "free 0x92c": 1.3700000047683716,
+                "interval 0x90c": 4.0,
+                "power 0x88c": 40.0,
+                "range 0x8fc": 30.0,
+                "rate_of_bg 0x8ac": 10.0,
+                "rate_of_power 0x89c": 5.0,
+                "upper_force 0x8cc": 0.0,
+                "velocity 0x91c": 7.0
             },
             "spawn 0x930": {
-                "damage_cumulation 0xa38": 0.0,
-                "damage_type 0xa28": "normal",
-                "force 0xa08": 1.0,
-                "power 0x9d8": 10.0,
-                "rate_of_bg 0x9f8": 10.0,
-                "rate_of_power 0x9e8": -2.0,
-                "upper_force 0xa18": 0.0
+                "damage_cumulation 0xa3c": 0.0,
+                "damage_type 0xa2c": "normal",
+                "force 0xa0c": 1.0,
+                "power 0x9dc": 10.0,
+                "rate_of_bg 0x9fc": 10.0,
+                "rate_of_power 0x9ec": -2.0,
+                "upper_force 0xa1c": 0.0
             }
         },
         "enemy_body 0x290": {
-            "ash_effect 0x388": "ef_nev_death_nvgel",
-            "ash_effect_node 0x398": "samplelink",
-            "ash_se 0x3a8": "ene_disappear",
-            "battle_field_prio 0x3d8": 1.0,
-            "battle_field_range 0x3c8": 20.0,
-            "health 0x3b8": 120.0,
-            "spawn_effect 0x368": "ef_nev_spw_02",
-            "spawn_se 0x378": "ene_come"
+            "ash_effect 0x38c": "ef_nev_death_nvgel",
+            "ash_effect_node 0x39c": "samplelink",
+            "ash_se 0x3ac": "ene_disappear",
+            "battle_field_prio 0x3dc": 1.0,
+            "battle_field_range 0x3cc": 20.0,
+            "health 0x3bc": 120.0,
+            "spawn_effect 0x36c": "ef_nev_spw_02",
+            "spawn_se 0x37c": "ene_come"
         },
         "enemy_parts 0x3e0": {
             "loc_setCore01 0x420": {
-                "angle 0x548": 360.0,
-                "body_damage 0x508": 120.0,
-                "core 0x538": "01000000",
-                "damage_motion_type 0x558": "FRONT",
-                "eye_aim_limit 0x528": 30.0,
-                "health 0x4f8": 150.0,
-                "homing_angle 0x568": 360.0,
-                "lockon 0x518": "01000000"
+                "angle 0x54c": 360.0,
+                "body_damage 0x50c": 120.0,
+                "core 0x53c": true,
+                "damage_motion_type 0x55c": "FRONT",
+                "eye_aim_limit 0x52c": 30.0,
+                "health 0x4fc": 150.0,
+                "homing_angle 0x56c": 360.0,
+                "lockon 0x51c": true
             }
         }
     }

@@ -1,538 +1,538 @@
 {
     "easy 0x1990": {
         "brain 0x1a60": {
-            "ai_grade 0x1b68": "strong",
-            "ai_type 0x1b18": "mothership",
-            "animjoint 0x1b28": "mothership",
-            "body_effect 0x1b58": "mothership",
-            "race 0x1b38": "nevi",
-            "tailchain 0x1b48": "mothership",
-            "type 0x1b08": "EnemyBrain"
+            "ai_grade 0x1b6c": "strong",
+            "ai_type 0x1b1c": "mothership",
+            "animjoint 0x1b2c": "mothership",
+            "body_effect 0x1b5c": "mothership",
+            "race 0x1b3c": "nevi",
+            "tailchain 0x1b4c": "mothership",
+            "type 0x1b0c": "EnemyBrain"
         },
         "enemy_action_common 0x3210": {
-            "find 0x3258": 1000.0,
-            "lose 0x3268": 1100.0
+            "find 0x325c": 1000.0,
+            "lose 0x326c": 1100.0
         },
         "enemy_actions 0x2f30": {
             "attack 0x3100": {
-                "free 0x31c8": 0.10000000149011612,
-                "interval 0x31a8": 10.0,
-                "range 0x3198": 200.0,
-                "rate_of_bg 0x3188": 3.0,
-                "velocity 0x31b8": 20.0
+                "free 0x31cc": 0.10000000149011612,
+                "interval 0x31ac": 10.0,
+                "range 0x319c": 200.0,
+                "rate_of_bg 0x318c": 3.0,
+                "velocity 0x31bc": 20.0
             },
             "generationChildShip 0x31d0": {
-                "interval 0x3208": 1.0
+                "interval 0x320c": 1.0
             },
             "spawn 0x2fb0": {
-                "damage_cumulation 0x30e8": 0.0,
-                "damage_type 0x30d8": "normal",
-                "force 0x30b8": 1.0,
-                "power 0x3088": 10.0,
-                "range 0x30f8": 2.5,
-                "rate_of_bg 0x30a8": 30.0,
-                "rate_of_power 0x3098": -2.0,
-                "upper_force 0x30c8": 0.0
+                "damage_cumulation 0x30ec": 0.0,
+                "damage_type 0x30dc": "normal",
+                "force 0x30bc": 1.0,
+                "power 0x308c": 10.0,
+                "range 0x30fc": 2.5,
+                "rate_of_bg 0x30ac": 30.0,
+                "rate_of_power 0x309c": -2.0,
+                "upper_force 0x30cc": 0.0
             }
         },
         "enemy_body 0x1b70": {
-            "ash_effect 0x1c78": "ef_nev_death_nvmts",
-            "ash_effect_node 0x1c88": "samplelink",
-            "ash_se 0x1c98": "ene_disappear",
-            "ash_vanish_time 0x1ca8": 6.400000095367432,
-            "battle_field_prio 0x1cd8": 99.0,
-            "battle_field_range 0x1cc8": 30.0,
-            "health 0x1cb8": 100.0,
-            "spawn_effect 0x1c58": "ef_nev_ms_spw_01",
-            "spawn_se 0x1c68": "ene_come"
+            "ash_effect 0x1c7c": "ef_nev_death_nvmts",
+            "ash_effect_node 0x1c8c": "samplelink",
+            "ash_se 0x1c9c": "ene_disappear",
+            "ash_vanish_time 0x1cac": 6.400000095367432,
+            "battle_field_prio 0x1cdc": 99.0,
+            "battle_field_range 0x1ccc": 30.0,
+            "health 0x1cbc": 100.0,
+            "spawn_effect 0x1c5c": "ef_nev_ms_spw_01",
+            "spawn_se 0x1c6c": "ene_come"
         },
         "enemy_parts 0x1ce0": {
             "loc_nvmts01_camcol 0x2ed0": {
-                "body_damage 0x2f28": 0.0,
-                "health 0x2f18": 1000000.0
+                "body_damage 0x2f2c": 0.0,
+                "health 0x2f1c": 1000000.0
             },
             "loc_nvmts01_col01 0x2d50": {
-                "body_damage 0x2dc8": 0.0,
-                "enable_meshcoll 0x2da8": "01000000",
-                "health 0x2db8": 1000000.0
+                "body_damage 0x2dcc": 0.0,
+                "enable_meshcoll 0x2dac": true,
+                "health 0x2dbc": 1000000.0
             },
             "loc_nvmts01_col02 0x2dd0": {
-                "body_damage 0x2e48": 0.0,
-                "enable_meshcoll 0x2e28": "01000000",
-                "health 0x2e38": 1000000.0
+                "body_damage 0x2e4c": 0.0,
+                "enable_meshcoll 0x2e2c": true,
+                "health 0x2e3c": 1000000.0
             },
             "loc_nvmts01_col03 0x2e50": {
-                "body_damage 0x2ec8": 0.0,
-                "enable_meshcoll 0x2ea8": "01000000",
-                "health 0x2eb8": 1000000.0
+                "body_damage 0x2ecc": 0.0,
+                "enable_meshcoll 0x2eac": true,
+                "health 0x2ebc": 1000000.0
             },
             "loc_setCore01 0x1ef0": {
-                "angle 0x2028": 240.0,
-                "body_damage 0x1fe8": 10.0,
-                "core 0x2018": "01000000",
-                "damage_motion_type 0x2038": "FRONT",
-                "eye_aim_limit 0x2008": 30.0,
-                "health 0x1fd8": 600.0,
-                "homing_angle 0x2048": 120.0,
-                "lockon 0x1ff8": "01000000",
-                "offset_z 0x2058": 3.0
+                "angle 0x202c": 240.0,
+                "body_damage 0x1fec": 10.0,
+                "core 0x201c": true,
+                "damage_motion_type 0x203c": "FRONT",
+                "eye_aim_limit 0x200c": 30.0,
+                "health 0x1fdc": 600.0,
+                "homing_angle 0x204c": 120.0,
+                "lockon 0x1ffc": true,
+                "offset_z 0x205c": 3.0
             },
             "loc_setCore010 0x2be0": {
-                "angle 0x2d18": 240.0,
-                "body_damage 0x2cd8": 10.0,
-                "core 0x2d08": "01000000",
-                "damage_motion_type 0x2d28": "FRONT",
-                "eye_aim_limit 0x2cf8": 30.0,
-                "health 0x2cc8": 600.0,
-                "homing_angle 0x2d38": 120.0,
-                "lockon 0x2ce8": "01000000",
-                "offset_z 0x2d48": 3.0
+                "angle 0x2d1c": 240.0,
+                "body_damage 0x2cdc": 10.0,
+                "core 0x2d0c": true,
+                "damage_motion_type 0x2d2c": "FRONT",
+                "eye_aim_limit 0x2cfc": 30.0,
+                "health 0x2ccc": 600.0,
+                "homing_angle 0x2d3c": 120.0,
+                "lockon 0x2cec": true,
+                "offset_z 0x2d4c": 3.0
             },
             "loc_setCore02 0x2060": {
-                "angle 0x2198": 240.0,
-                "body_damage 0x2158": 10.0,
-                "core 0x2188": "01000000",
-                "damage_motion_type 0x21a8": "FRONT",
-                "eye_aim_limit 0x2178": 30.0,
-                "health 0x2148": 600.0,
-                "homing_angle 0x21b8": 120.0,
-                "lockon 0x2168": "01000000",
-                "offset_z 0x21c8": 3.0
+                "angle 0x219c": 240.0,
+                "body_damage 0x215c": 10.0,
+                "core 0x218c": true,
+                "damage_motion_type 0x21ac": "FRONT",
+                "eye_aim_limit 0x217c": 30.0,
+                "health 0x214c": 600.0,
+                "homing_angle 0x21bc": 120.0,
+                "lockon 0x216c": true,
+                "offset_z 0x21cc": 3.0
             },
             "loc_setCore03 0x21d0": {
-                "angle 0x2308": 240.0,
-                "body_damage 0x22c8": 10.0,
-                "core 0x22f8": "01000000",
-                "damage_motion_type 0x2318": "FRONT",
-                "eye_aim_limit 0x22e8": 30.0,
-                "health 0x22b8": 600.0,
-                "homing_angle 0x2328": 120.0,
-                "lockon 0x22d8": "01000000",
-                "offset_z 0x2338": 3.0
+                "angle 0x230c": 240.0,
+                "body_damage 0x22cc": 10.0,
+                "core 0x22fc": true,
+                "damage_motion_type 0x231c": "FRONT",
+                "eye_aim_limit 0x22ec": 30.0,
+                "health 0x22bc": 600.0,
+                "homing_angle 0x232c": 120.0,
+                "lockon 0x22dc": true,
+                "offset_z 0x233c": 3.0
             },
             "loc_setCore04 0x2340": {
-                "angle 0x2478": 240.0,
-                "body_damage 0x2438": 10.0,
-                "core 0x2468": "01000000",
-                "damage_motion_type 0x2488": "FRONT",
-                "eye_aim_limit 0x2458": 30.0,
-                "health 0x2428": 600.0,
-                "homing_angle 0x2498": 120.0,
-                "lockon 0x2448": "01000000",
-                "offset_z 0x24a8": 3.0
+                "angle 0x247c": 240.0,
+                "body_damage 0x243c": 10.0,
+                "core 0x246c": true,
+                "damage_motion_type 0x248c": "FRONT",
+                "eye_aim_limit 0x245c": 30.0,
+                "health 0x242c": 600.0,
+                "homing_angle 0x249c": 120.0,
+                "lockon 0x244c": true,
+                "offset_z 0x24ac": 3.0
             },
             "loc_setCore05 0x24b0": {
-                "angle 0x25e8": 240.0,
-                "body_damage 0x25a8": 10.0,
-                "core 0x25d8": "01000000",
-                "damage_motion_type 0x25f8": "FRONT",
-                "eye_aim_limit 0x25c8": 30.0,
-                "health 0x2598": 600.0,
-                "homing_angle 0x2608": 120.0,
-                "lockon 0x25b8": "01000000",
-                "offset_z 0x2618": 3.0
+                "angle 0x25ec": 240.0,
+                "body_damage 0x25ac": 10.0,
+                "core 0x25dc": true,
+                "damage_motion_type 0x25fc": "FRONT",
+                "eye_aim_limit 0x25cc": 30.0,
+                "health 0x259c": 600.0,
+                "homing_angle 0x260c": 120.0,
+                "lockon 0x25bc": true,
+                "offset_z 0x261c": 3.0
             },
             "loc_setCore06 0x2620": {
-                "angle 0x2758": 240.0,
-                "body_damage 0x2718": 10.0,
-                "core 0x2748": "01000000",
-                "damage_motion_type 0x2768": "FRONT",
-                "eye_aim_limit 0x2738": 30.0,
-                "health 0x2708": 600.0,
-                "homing_angle 0x2778": 120.0,
-                "lockon 0x2728": "01000000",
-                "offset_z 0x2788": 3.0
+                "angle 0x275c": 240.0,
+                "body_damage 0x271c": 10.0,
+                "core 0x274c": true,
+                "damage_motion_type 0x276c": "FRONT",
+                "eye_aim_limit 0x273c": 30.0,
+                "health 0x270c": 600.0,
+                "homing_angle 0x277c": 120.0,
+                "lockon 0x272c": true,
+                "offset_z 0x278c": 3.0
             },
             "loc_setCore07 0x2790": {
-                "angle 0x28c8": 240.0,
-                "body_damage 0x2888": 10.0,
-                "core 0x28b8": "01000000",
-                "damage_motion_type 0x28d8": "FRONT",
-                "eye_aim_limit 0x28a8": 30.0,
-                "health 0x2878": 600.0,
-                "homing_angle 0x28e8": 120.0,
-                "lockon 0x2898": "01000000",
-                "offset_z 0x28f8": 3.0
+                "angle 0x28cc": 240.0,
+                "body_damage 0x288c": 10.0,
+                "core 0x28bc": true,
+                "damage_motion_type 0x28dc": "FRONT",
+                "eye_aim_limit 0x28ac": 30.0,
+                "health 0x287c": 600.0,
+                "homing_angle 0x28ec": 120.0,
+                "lockon 0x289c": true,
+                "offset_z 0x28fc": 3.0
             },
             "loc_setCore08 0x2900": {
-                "angle 0x2a38": 240.0,
-                "body_damage 0x29f8": 10.0,
-                "core 0x2a28": "01000000",
-                "damage_motion_type 0x2a48": "FRONT",
-                "eye_aim_limit 0x2a18": 30.0,
-                "health 0x29e8": 600.0,
-                "homing_angle 0x2a58": 120.0,
-                "lockon 0x2a08": "01000000",
-                "offset_z 0x2a68": 3.0
+                "angle 0x2a3c": 240.0,
+                "body_damage 0x29fc": 10.0,
+                "core 0x2a2c": true,
+                "damage_motion_type 0x2a4c": "FRONT",
+                "eye_aim_limit 0x2a1c": 30.0,
+                "health 0x29ec": 600.0,
+                "homing_angle 0x2a5c": 120.0,
+                "lockon 0x2a0c": true,
+                "offset_z 0x2a6c": 3.0
             },
             "loc_setCore09 0x2a70": {
-                "angle 0x2ba8": 240.0,
-                "body_damage 0x2b68": 10.0,
-                "core 0x2b98": "01000000",
-                "damage_motion_type 0x2bb8": "FRONT",
-                "eye_aim_limit 0x2b88": 30.0,
-                "health 0x2b58": 600.0,
-                "homing_angle 0x2bc8": 120.0,
-                "lockon 0x2b78": "01000000",
-                "offset_z 0x2bd8": 3.0
+                "angle 0x2bac": 240.0,
+                "body_damage 0x2b6c": 10.0,
+                "core 0x2b9c": true,
+                "damage_motion_type 0x2bbc": "FRONT",
+                "eye_aim_limit 0x2b8c": 30.0,
+                "health 0x2b5c": 600.0,
+                "homing_angle 0x2bcc": 120.0,
+                "lockon 0x2b7c": true,
+                "offset_z 0x2bdc": 3.0
             }
         }
     },
     "hard 0x3270": {
         "brain 0x3340": {
-            "ai_grade 0x3448": "strong",
-            "ai_type 0x33f8": "mothership",
-            "animjoint 0x3408": "mothership",
-            "body_effect 0x3438": "mothership",
-            "race 0x3418": "nevi",
-            "tailchain 0x3428": "mothership",
-            "type 0x33e8": "EnemyBrain"
+            "ai_grade 0x344c": "strong",
+            "ai_type 0x33fc": "mothership",
+            "animjoint 0x340c": "mothership",
+            "body_effect 0x343c": "mothership",
+            "race 0x341c": "nevi",
+            "tailchain 0x342c": "mothership",
+            "type 0x33ec": "EnemyBrain"
         },
         "enemy_action_common 0x4af0": {
-            "find 0x4b38": 1000.0,
-            "lose 0x4b48": 1100.0
+            "find 0x4b3c": 1000.0,
+            "lose 0x4b4c": 1100.0
         },
         "enemy_actions 0x4810": {
             "attack 0x49e0": {
-                "free 0x4aa8": 0.10000000149011612,
-                "interval 0x4a88": 10.0,
-                "range 0x4a78": 200.0,
-                "rate_of_bg 0x4a68": 3.0,
-                "velocity 0x4a98": 20.0
+                "free 0x4aac": 0.10000000149011612,
+                "interval 0x4a8c": 10.0,
+                "range 0x4a7c": 200.0,
+                "rate_of_bg 0x4a6c": 3.0,
+                "velocity 0x4a9c": 20.0
             },
             "generationChildShip 0x4ab0": {
-                "interval 0x4ae8": 1.0
+                "interval 0x4aec": 1.0
             },
             "spawn 0x4890": {
-                "damage_cumulation 0x49c8": 0.0,
-                "damage_type 0x49b8": "normal",
-                "force 0x4998": 1.0,
-                "power 0x4968": 10.0,
-                "range 0x49d8": 2.5,
-                "rate_of_bg 0x4988": 30.0,
-                "rate_of_power 0x4978": -2.0,
-                "upper_force 0x49a8": 0.0
+                "damage_cumulation 0x49cc": 0.0,
+                "damage_type 0x49bc": "normal",
+                "force 0x499c": 1.0,
+                "power 0x496c": 10.0,
+                "range 0x49dc": 2.5,
+                "rate_of_bg 0x498c": 30.0,
+                "rate_of_power 0x497c": -2.0,
+                "upper_force 0x49ac": 0.0
             }
         },
         "enemy_body 0x3450": {
-            "ash_effect 0x3558": "ef_nev_death_nvmts",
-            "ash_effect_node 0x3568": "samplelink",
-            "ash_se 0x3578": "ene_disappear",
-            "ash_vanish_time 0x3588": 6.400000095367432,
-            "battle_field_prio 0x35b8": 99.0,
-            "battle_field_range 0x35a8": 30.0,
-            "health 0x3598": 100.0,
-            "spawn_effect 0x3538": "ef_nev_ms_spw_01",
-            "spawn_se 0x3548": "ene_come"
+            "ash_effect 0x355c": "ef_nev_death_nvmts",
+            "ash_effect_node 0x356c": "samplelink",
+            "ash_se 0x357c": "ene_disappear",
+            "ash_vanish_time 0x358c": 6.400000095367432,
+            "battle_field_prio 0x35bc": 99.0,
+            "battle_field_range 0x35ac": 30.0,
+            "health 0x359c": 100.0,
+            "spawn_effect 0x353c": "ef_nev_ms_spw_01",
+            "spawn_se 0x354c": "ene_come"
         },
         "enemy_parts 0x35c0": {
             "loc_nvmts01_camcol 0x47b0": {
-                "body_damage 0x4808": 0.0,
-                "health 0x47f8": 1000000.0
+                "body_damage 0x480c": 0.0,
+                "health 0x47fc": 1000000.0
             },
             "loc_nvmts01_col01 0x4630": {
-                "body_damage 0x46a8": 0.0,
-                "enable_meshcoll 0x4688": "01000000",
-                "health 0x4698": 1000000.0
+                "body_damage 0x46ac": 0.0,
+                "enable_meshcoll 0x468c": true,
+                "health 0x469c": 1000000.0
             },
             "loc_nvmts01_col02 0x46b0": {
-                "body_damage 0x4728": 0.0,
-                "enable_meshcoll 0x4708": "01000000",
-                "health 0x4718": 1000000.0
+                "body_damage 0x472c": 0.0,
+                "enable_meshcoll 0x470c": true,
+                "health 0x471c": 1000000.0
             },
             "loc_nvmts01_col03 0x4730": {
-                "body_damage 0x47a8": 0.0,
-                "enable_meshcoll 0x4788": "01000000",
-                "health 0x4798": 1000000.0
+                "body_damage 0x47ac": 0.0,
+                "enable_meshcoll 0x478c": true,
+                "health 0x479c": 1000000.0
             },
             "loc_setCore01 0x37d0": {
-                "angle 0x3908": 240.0,
-                "body_damage 0x38c8": 10.0,
-                "core 0x38f8": "01000000",
-                "damage_motion_type 0x3918": "FRONT",
-                "eye_aim_limit 0x38e8": 30.0,
-                "health 0x38b8": 600.0,
-                "homing_angle 0x3928": 120.0,
-                "lockon 0x38d8": "01000000",
-                "offset_z 0x3938": 3.0
+                "angle 0x390c": 240.0,
+                "body_damage 0x38cc": 10.0,
+                "core 0x38fc": true,
+                "damage_motion_type 0x391c": "FRONT",
+                "eye_aim_limit 0x38ec": 30.0,
+                "health 0x38bc": 600.0,
+                "homing_angle 0x392c": 120.0,
+                "lockon 0x38dc": true,
+                "offset_z 0x393c": 3.0
             },
             "loc_setCore010 0x44c0": {
-                "angle 0x45f8": 240.0,
-                "body_damage 0x45b8": 10.0,
-                "core 0x45e8": "01000000",
-                "damage_motion_type 0x4608": "FRONT",
-                "eye_aim_limit 0x45d8": 30.0,
-                "health 0x45a8": 600.0,
-                "homing_angle 0x4618": 120.0,
-                "lockon 0x45c8": "01000000",
-                "offset_z 0x4628": 3.0
+                "angle 0x45fc": 240.0,
+                "body_damage 0x45bc": 10.0,
+                "core 0x45ec": true,
+                "damage_motion_type 0x460c": "FRONT",
+                "eye_aim_limit 0x45dc": 30.0,
+                "health 0x45ac": 600.0,
+                "homing_angle 0x461c": 120.0,
+                "lockon 0x45cc": true,
+                "offset_z 0x462c": 3.0
             },
             "loc_setCore02 0x3940": {
-                "angle 0x3a78": 240.0,
-                "body_damage 0x3a38": 10.0,
-                "core 0x3a68": "01000000",
-                "damage_motion_type 0x3a88": "FRONT",
-                "eye_aim_limit 0x3a58": 30.0,
-                "health 0x3a28": 600.0,
-                "homing_angle 0x3a98": 120.0,
-                "lockon 0x3a48": "01000000",
-                "offset_z 0x3aa8": 3.0
+                "angle 0x3a7c": 240.0,
+                "body_damage 0x3a3c": 10.0,
+                "core 0x3a6c": true,
+                "damage_motion_type 0x3a8c": "FRONT",
+                "eye_aim_limit 0x3a5c": 30.0,
+                "health 0x3a2c": 600.0,
+                "homing_angle 0x3a9c": 120.0,
+                "lockon 0x3a4c": true,
+                "offset_z 0x3aac": 3.0
             },
             "loc_setCore03 0x3ab0": {
-                "angle 0x3be8": 240.0,
-                "body_damage 0x3ba8": 10.0,
-                "core 0x3bd8": "01000000",
-                "damage_motion_type 0x3bf8": "FRONT",
-                "eye_aim_limit 0x3bc8": 30.0,
-                "health 0x3b98": 600.0,
-                "homing_angle 0x3c08": 120.0,
-                "lockon 0x3bb8": "01000000",
-                "offset_z 0x3c18": 3.0
+                "angle 0x3bec": 240.0,
+                "body_damage 0x3bac": 10.0,
+                "core 0x3bdc": true,
+                "damage_motion_type 0x3bfc": "FRONT",
+                "eye_aim_limit 0x3bcc": 30.0,
+                "health 0x3b9c": 600.0,
+                "homing_angle 0x3c0c": 120.0,
+                "lockon 0x3bbc": true,
+                "offset_z 0x3c1c": 3.0
             },
             "loc_setCore04 0x3c20": {
-                "angle 0x3d58": 240.0,
-                "body_damage 0x3d18": 10.0,
-                "core 0x3d48": "01000000",
-                "damage_motion_type 0x3d68": "FRONT",
-                "eye_aim_limit 0x3d38": 30.0,
-                "health 0x3d08": 600.0,
-                "homing_angle 0x3d78": 120.0,
-                "lockon 0x3d28": "01000000",
-                "offset_z 0x3d88": 3.0
+                "angle 0x3d5c": 240.0,
+                "body_damage 0x3d1c": 10.0,
+                "core 0x3d4c": true,
+                "damage_motion_type 0x3d6c": "FRONT",
+                "eye_aim_limit 0x3d3c": 30.0,
+                "health 0x3d0c": 600.0,
+                "homing_angle 0x3d7c": 120.0,
+                "lockon 0x3d2c": true,
+                "offset_z 0x3d8c": 3.0
             },
             "loc_setCore05 0x3d90": {
-                "angle 0x3ec8": 240.0,
-                "body_damage 0x3e88": 10.0,
-                "core 0x3eb8": "01000000",
-                "damage_motion_type 0x3ed8": "FRONT",
-                "eye_aim_limit 0x3ea8": 30.0,
-                "health 0x3e78": 600.0,
-                "homing_angle 0x3ee8": 120.0,
-                "lockon 0x3e98": "01000000",
-                "offset_z 0x3ef8": 3.0
+                "angle 0x3ecc": 240.0,
+                "body_damage 0x3e8c": 10.0,
+                "core 0x3ebc": true,
+                "damage_motion_type 0x3edc": "FRONT",
+                "eye_aim_limit 0x3eac": 30.0,
+                "health 0x3e7c": 600.0,
+                "homing_angle 0x3eec": 120.0,
+                "lockon 0x3e9c": true,
+                "offset_z 0x3efc": 3.0
             },
             "loc_setCore06 0x3f00": {
-                "angle 0x4038": 240.0,
-                "body_damage 0x3ff8": 10.0,
-                "core 0x4028": "01000000",
-                "damage_motion_type 0x4048": "FRONT",
-                "eye_aim_limit 0x4018": 30.0,
-                "health 0x3fe8": 600.0,
-                "homing_angle 0x4058": 120.0,
-                "lockon 0x4008": "01000000",
-                "offset_z 0x4068": 3.0
+                "angle 0x403c": 240.0,
+                "body_damage 0x3ffc": 10.0,
+                "core 0x402c": true,
+                "damage_motion_type 0x404c": "FRONT",
+                "eye_aim_limit 0x401c": 30.0,
+                "health 0x3fec": 600.0,
+                "homing_angle 0x405c": 120.0,
+                "lockon 0x400c": true,
+                "offset_z 0x406c": 3.0
             },
             "loc_setCore07 0x4070": {
-                "angle 0x41a8": 240.0,
-                "body_damage 0x4168": 10.0,
-                "core 0x4198": "01000000",
-                "damage_motion_type 0x41b8": "FRONT",
-                "eye_aim_limit 0x4188": 30.0,
-                "health 0x4158": 600.0,
-                "homing_angle 0x41c8": 120.0,
-                "lockon 0x4178": "01000000",
-                "offset_z 0x41d8": 3.0
+                "angle 0x41ac": 240.0,
+                "body_damage 0x416c": 10.0,
+                "core 0x419c": true,
+                "damage_motion_type 0x41bc": "FRONT",
+                "eye_aim_limit 0x418c": 30.0,
+                "health 0x415c": 600.0,
+                "homing_angle 0x41cc": 120.0,
+                "lockon 0x417c": true,
+                "offset_z 0x41dc": 3.0
             },
             "loc_setCore08 0x41e0": {
-                "angle 0x4318": 240.0,
-                "body_damage 0x42d8": 10.0,
-                "core 0x4308": "01000000",
-                "damage_motion_type 0x4328": "FRONT",
-                "eye_aim_limit 0x42f8": 30.0,
-                "health 0x42c8": 600.0,
-                "homing_angle 0x4338": 120.0,
-                "lockon 0x42e8": "01000000",
-                "offset_z 0x4348": 3.0
+                "angle 0x431c": 240.0,
+                "body_damage 0x42dc": 10.0,
+                "core 0x430c": true,
+                "damage_motion_type 0x432c": "FRONT",
+                "eye_aim_limit 0x42fc": 30.0,
+                "health 0x42cc": 600.0,
+                "homing_angle 0x433c": 120.0,
+                "lockon 0x42ec": true,
+                "offset_z 0x434c": 3.0
             },
             "loc_setCore09 0x4350": {
-                "angle 0x4488": 240.0,
-                "body_damage 0x4448": 10.0,
-                "core 0x4478": "01000000",
-                "damage_motion_type 0x4498": "FRONT",
-                "eye_aim_limit 0x4468": 30.0,
-                "health 0x4438": 600.0,
-                "homing_angle 0x44a8": 120.0,
-                "lockon 0x4458": "01000000",
-                "offset_z 0x44b8": 3.0
+                "angle 0x448c": 240.0,
+                "body_damage 0x444c": 10.0,
+                "core 0x447c": true,
+                "damage_motion_type 0x449c": "FRONT",
+                "eye_aim_limit 0x446c": 30.0,
+                "health 0x443c": 600.0,
+                "homing_angle 0x44ac": 120.0,
+                "lockon 0x445c": true,
+                "offset_z 0x44bc": 3.0
             }
         }
     },
     "normal 0xb0": {
         "brain 0x180": {
-            "ai_grade 0x288": "strong",
-            "ai_type 0x238": "mothership",
-            "animjoint 0x248": "mothership",
-            "body_effect 0x278": "mothership",
-            "race 0x258": "nevi",
-            "tailchain 0x268": "mothership",
-            "type 0x228": "EnemyBrain"
+            "ai_grade 0x28c": "strong",
+            "ai_type 0x23c": "mothership",
+            "animjoint 0x24c": "mothership",
+            "body_effect 0x27c": "mothership",
+            "race 0x25c": "nevi",
+            "tailchain 0x26c": "mothership",
+            "type 0x22c": "EnemyBrain"
         },
         "enemy_action_common 0x1930": {
-            "find 0x1978": 1000.0,
-            "lose 0x1988": 1100.0
+            "find 0x197c": 1000.0,
+            "lose 0x198c": 1100.0
         },
         "enemy_actions 0x1650": {
             "attack 0x1820": {
-                "free 0x18e8": 0.10000000149011612,
-                "interval 0x18c8": 10.0,
-                "range 0x18b8": 200.0,
-                "rate_of_bg 0x18a8": 3.0,
-                "velocity 0x18d8": 20.0
+                "free 0x18ec": 0.10000000149011612,
+                "interval 0x18cc": 10.0,
+                "range 0x18bc": 200.0,
+                "rate_of_bg 0x18ac": 3.0,
+                "velocity 0x18dc": 20.0
             },
             "generationChildShip 0x18f0": {
-                "interval 0x1928": 1.0
+                "interval 0x192c": 1.0
             },
             "spawn 0x16d0": {
-                "damage_cumulation 0x1808": 0.0,
-                "damage_type 0x17f8": "normal",
-                "force 0x17d8": 1.0,
-                "power 0x17a8": 10.0,
-                "range 0x1818": 2.5,
-                "rate_of_bg 0x17c8": 30.0,
-                "rate_of_power 0x17b8": -2.0,
-                "upper_force 0x17e8": 0.0
+                "damage_cumulation 0x180c": 0.0,
+                "damage_type 0x17fc": "normal",
+                "force 0x17dc": 1.0,
+                "power 0x17ac": 10.0,
+                "range 0x181c": 2.5,
+                "rate_of_bg 0x17cc": 30.0,
+                "rate_of_power 0x17bc": -2.0,
+                "upper_force 0x17ec": 0.0
             }
         },
         "enemy_body 0x290": {
-            "ash_effect 0x398": "ef_nev_death_nvmts",
-            "ash_effect_node 0x3a8": "samplelink",
-            "ash_se 0x3b8": "ene_disappear",
-            "ash_vanish_time 0x3c8": 6.400000095367432,
-            "battle_field_prio 0x3f8": 99.0,
-            "battle_field_range 0x3e8": 30.0,
-            "health 0x3d8": 100.0,
-            "spawn_effect 0x378": "ef_nev_ms_spw_01",
-            "spawn_se 0x388": "ene_come"
+            "ash_effect 0x39c": "ef_nev_death_nvmts",
+            "ash_effect_node 0x3ac": "samplelink",
+            "ash_se 0x3bc": "ene_disappear",
+            "ash_vanish_time 0x3cc": 6.400000095367432,
+            "battle_field_prio 0x3fc": 99.0,
+            "battle_field_range 0x3ec": 30.0,
+            "health 0x3dc": 100.0,
+            "spawn_effect 0x37c": "ef_nev_ms_spw_01",
+            "spawn_se 0x38c": "ene_come"
         },
         "enemy_parts 0x400": {
             "loc_nvmts01_camcol 0x15f0": {
-                "body_damage 0x1648": 0.0,
-                "health 0x1638": 1000000.0
+                "body_damage 0x164c": 0.0,
+                "health 0x163c": 1000000.0
             },
             "loc_nvmts01_col01 0x1470": {
-                "body_damage 0x14e8": 0.0,
-                "enable_meshcoll 0x14c8": "01000000",
-                "health 0x14d8": 1000000.0
+                "body_damage 0x14ec": 0.0,
+                "enable_meshcoll 0x14cc": true,
+                "health 0x14dc": 1000000.0
             },
             "loc_nvmts01_col02 0x14f0": {
-                "body_damage 0x1568": 0.0,
-                "enable_meshcoll 0x1548": "01000000",
-                "health 0x1558": 1000000.0
+                "body_damage 0x156c": 0.0,
+                "enable_meshcoll 0x154c": true,
+                "health 0x155c": 1000000.0
             },
             "loc_nvmts01_col03 0x1570": {
-                "body_damage 0x15e8": 0.0,
-                "enable_meshcoll 0x15c8": "01000000",
-                "health 0x15d8": 1000000.0
+                "body_damage 0x15ec": 0.0,
+                "enable_meshcoll 0x15cc": true,
+                "health 0x15dc": 1000000.0
             },
             "loc_setCore01 0x610": {
-                "angle 0x748": 240.0,
-                "body_damage 0x708": 10.0,
-                "core 0x738": "01000000",
-                "damage_motion_type 0x758": "FRONT",
-                "eye_aim_limit 0x728": 30.0,
-                "health 0x6f8": 600.0,
-                "homing_angle 0x768": 120.0,
-                "lockon 0x718": "01000000",
-                "offset_z 0x778": 3.0
+                "angle 0x74c": 240.0,
+                "body_damage 0x70c": 10.0,
+                "core 0x73c": true,
+                "damage_motion_type 0x75c": "FRONT",
+                "eye_aim_limit 0x72c": 30.0,
+                "health 0x6fc": 600.0,
+                "homing_angle 0x76c": 120.0,
+                "lockon 0x71c": true,
+                "offset_z 0x77c": 3.0
             },
             "loc_setCore010 0x1300": {
-                "angle 0x1438": 240.0,
-                "body_damage 0x13f8": 10.0,
-                "core 0x1428": "01000000",
-                "damage_motion_type 0x1448": "FRONT",
-                "eye_aim_limit 0x1418": 30.0,
-                "health 0x13e8": 600.0,
-                "homing_angle 0x1458": 120.0,
-                "lockon 0x1408": "01000000",
-                "offset_z 0x1468": 3.0
+                "angle 0x143c": 240.0,
+                "body_damage 0x13fc": 10.0,
+                "core 0x142c": true,
+                "damage_motion_type 0x144c": "FRONT",
+                "eye_aim_limit 0x141c": 30.0,
+                "health 0x13ec": 600.0,
+                "homing_angle 0x145c": 120.0,
+                "lockon 0x140c": true,
+                "offset_z 0x146c": 3.0
             },
             "loc_setCore02 0x780": {
-                "angle 0x8b8": 240.0,
-                "body_damage 0x878": 10.0,
-                "core 0x8a8": "01000000",
-                "damage_motion_type 0x8c8": "FRONT",
-                "eye_aim_limit 0x898": 30.0,
-                "health 0x868": 600.0,
-                "homing_angle 0x8d8": 120.0,
-                "lockon 0x888": "01000000",
-                "offset_z 0x8e8": 3.0
+                "angle 0x8bc": 240.0,
+                "body_damage 0x87c": 10.0,
+                "core 0x8ac": true,
+                "damage_motion_type 0x8cc": "FRONT",
+                "eye_aim_limit 0x89c": 30.0,
+                "health 0x86c": 600.0,
+                "homing_angle 0x8dc": 120.0,
+                "lockon 0x88c": true,
+                "offset_z 0x8ec": 3.0
             },
             "loc_setCore03 0x8f0": {
-                "angle 0xa28": 240.0,
-                "body_damage 0x9e8": 10.0,
-                "core 0xa18": "01000000",
-                "damage_motion_type 0xa38": "FRONT",
-                "eye_aim_limit 0xa08": 30.0,
-                "health 0x9d8": 600.0,
-                "homing_angle 0xa48": 120.0,
-                "lockon 0x9f8": "01000000",
-                "offset_z 0xa58": 3.0
+                "angle 0xa2c": 240.0,
+                "body_damage 0x9ec": 10.0,
+                "core 0xa1c": true,
+                "damage_motion_type 0xa3c": "FRONT",
+                "eye_aim_limit 0xa0c": 30.0,
+                "health 0x9dc": 600.0,
+                "homing_angle 0xa4c": 120.0,
+                "lockon 0x9fc": true,
+                "offset_z 0xa5c": 3.0
             },
             "loc_setCore04 0xa60": {
-                "angle 0xb98": 240.0,
-                "body_damage 0xb58": 10.0,
-                "core 0xb88": "01000000",
-                "damage_motion_type 0xba8": "FRONT",
-                "eye_aim_limit 0xb78": 30.0,
-                "health 0xb48": 600.0,
-                "homing_angle 0xbb8": 120.0,
-                "lockon 0xb68": "01000000",
-                "offset_z 0xbc8": 3.0
+                "angle 0xb9c": 240.0,
+                "body_damage 0xb5c": 10.0,
+                "core 0xb8c": true,
+                "damage_motion_type 0xbac": "FRONT",
+                "eye_aim_limit 0xb7c": 30.0,
+                "health 0xb4c": 600.0,
+                "homing_angle 0xbbc": 120.0,
+                "lockon 0xb6c": true,
+                "offset_z 0xbcc": 3.0
             },
             "loc_setCore05 0xbd0": {
-                "angle 0xd08": 240.0,
-                "body_damage 0xcc8": 10.0,
-                "core 0xcf8": "01000000",
-                "damage_motion_type 0xd18": "FRONT",
-                "eye_aim_limit 0xce8": 30.0,
-                "health 0xcb8": 600.0,
-                "homing_angle 0xd28": 120.0,
-                "lockon 0xcd8": "01000000",
-                "offset_z 0xd38": 3.0
+                "angle 0xd0c": 240.0,
+                "body_damage 0xccc": 10.0,
+                "core 0xcfc": true,
+                "damage_motion_type 0xd1c": "FRONT",
+                "eye_aim_limit 0xcec": 30.0,
+                "health 0xcbc": 600.0,
+                "homing_angle 0xd2c": 120.0,
+                "lockon 0xcdc": true,
+                "offset_z 0xd3c": 3.0
             },
             "loc_setCore06 0xd40": {
-                "angle 0xe78": 240.0,
-                "body_damage 0xe38": 10.0,
-                "core 0xe68": "01000000",
-                "damage_motion_type 0xe88": "FRONT",
-                "eye_aim_limit 0xe58": 30.0,
-                "health 0xe28": 600.0,
-                "homing_angle 0xe98": 120.0,
-                "lockon 0xe48": "01000000",
-                "offset_z 0xea8": 3.0
+                "angle 0xe7c": 240.0,
+                "body_damage 0xe3c": 10.0,
+                "core 0xe6c": true,
+                "damage_motion_type 0xe8c": "FRONT",
+                "eye_aim_limit 0xe5c": 30.0,
+                "health 0xe2c": 600.0,
+                "homing_angle 0xe9c": 120.0,
+                "lockon 0xe4c": true,
+                "offset_z 0xeac": 3.0
             },
             "loc_setCore07 0xeb0": {
-                "angle 0xfe8": 240.0,
-                "body_damage 0xfa8": 10.0,
-                "core 0xfd8": "01000000",
-                "damage_motion_type 0xff8": "FRONT",
-                "eye_aim_limit 0xfc8": 30.0,
-                "health 0xf98": 600.0,
-                "homing_angle 0x1008": 120.0,
-                "lockon 0xfb8": "01000000",
-                "offset_z 0x1018": 3.0
+                "angle 0xfec": 240.0,
+                "body_damage 0xfac": 10.0,
+                "core 0xfdc": true,
+                "damage_motion_type 0xffc": "FRONT",
+                "eye_aim_limit 0xfcc": 30.0,
+                "health 0xf9c": 600.0,
+                "homing_angle 0x100c": 120.0,
+                "lockon 0xfbc": true,
+                "offset_z 0x101c": 3.0
             },
             "loc_setCore08 0x1020": {
-                "angle 0x1158": 240.0,
-                "body_damage 0x1118": 10.0,
-                "core 0x1148": "01000000",
-                "damage_motion_type 0x1168": "FRONT",
-                "eye_aim_limit 0x1138": 30.0,
-                "health 0x1108": 600.0,
-                "homing_angle 0x1178": 120.0,
-                "lockon 0x1128": "01000000",
-                "offset_z 0x1188": 3.0
+                "angle 0x115c": 240.0,
+                "body_damage 0x111c": 10.0,
+                "core 0x114c": true,
+                "damage_motion_type 0x116c": "FRONT",
+                "eye_aim_limit 0x113c": 30.0,
+                "health 0x110c": 600.0,
+                "homing_angle 0x117c": 120.0,
+                "lockon 0x112c": true,
+                "offset_z 0x118c": 3.0
             },
             "loc_setCore09 0x1190": {
-                "angle 0x12c8": 240.0,
-                "body_damage 0x1288": 10.0,
-                "core 0x12b8": "01000000",
-                "damage_motion_type 0x12d8": "FRONT",
-                "eye_aim_limit 0x12a8": 30.0,
-                "health 0x1278": 600.0,
-                "homing_angle 0x12e8": 120.0,
-                "lockon 0x1298": "01000000",
-                "offset_z 0x12f8": 3.0
+                "angle 0x12cc": 240.0,
+                "body_damage 0x128c": 10.0,
+                "core 0x12bc": true,
+                "damage_motion_type 0x12dc": "FRONT",
+                "eye_aim_limit 0x12ac": 30.0,
+                "health 0x127c": 600.0,
+                "homing_angle 0x12ec": 120.0,
+                "lockon 0x129c": true,
+                "offset_z 0x12fc": 3.0
             }
         }
     }

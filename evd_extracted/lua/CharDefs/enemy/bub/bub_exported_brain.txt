@@ -1,223 +1,223 @@
 {
     "easy 0xa60": {
         "brain 0xb30": {
-            "ai_type 0xbb8": "bub",
-            "animjoint 0xbc8": "bub",
-            "race 0xbd8": "machine",
-            "type 0xba8": "EnemyBrain"
+            "ai_type 0xbbc": "bub",
+            "animjoint 0xbcc": "bub",
+            "race 0xbdc": "machine",
+            "type 0xbac": "EnemyBrain"
         },
         "enemy_action_common 0x13b0": {
-            "find 0x13f8": 40.0,
-            "lose 0x1408": 45.0
+            "find 0x13fc": 40.0,
+            "lose 0x140c": 45.0
         },
         "enemy_actions 0x11e0": {
             "attack 0x1220": {
-                "damage_cumulation 0x1378": 0.0,
-                "damage_type 0x1368": "normal",
-                "force 0x1348": 1.0,
-                "height 0x1398": 5.0,
-                "interval 0x13a8": 1.5,
-                "power 0x1318": 8.0,
-                "range 0x1388": 3.5,
-                "rate_of_bg 0x1338": 20.0,
-                "rate_of_power 0x1328": 10.0,
-                "upper_force 0x1358": 0.0
+                "damage_cumulation 0x137c": 0.0,
+                "damage_type 0x136c": "normal",
+                "force 0x134c": 1.0,
+                "height 0x139c": 5.0,
+                "interval 0x13ac": 1.5,
+                "power 0x131c": 8.0,
+                "range 0x138c": 3.5,
+                "rate_of_bg 0x133c": 20.0,
+                "rate_of_power 0x132c": 10.0,
+                "upper_force 0x135c": 0.0
             }
         },
         "enemy_body 0xbe0": {
-            "battle_field_prio 0xc58": 1.0,
-            "battle_field_range 0xc48": 20.0,
-            "health 0xc38": 100.0
+            "battle_field_prio 0xc5c": 1.0,
+            "battle_field_range 0xc4c": 20.0,
+            "health 0xc3c": 100.0
         },
         "enemy_parts 0xc60": {
             "loc_mcbub01_body_col 0x1100": {
-                "body_damage 0x1158": 100.0,
-                "health 0x1148": 650.0
+                "body_damage 0x115c": 100.0,
+                "health 0x114c": 650.0
             },
             "loc_mcbub01_core 0xdd0": {
-                "angle 0xea8": 180.0,
-                "body_damage 0xe78": 100.0,
-                "core 0xe98": "01000000",
-                "health 0xe68": 350.0,
-                "homing_angle 0xeb8": 180.0,
-                "lockon 0xe88": "01000000"
+                "angle 0xeac": 180.0,
+                "body_damage 0xe7c": 100.0,
+                "core 0xe9c": true,
+                "health 0xe6c": 350.0,
+                "homing_angle 0xebc": 180.0,
+                "lockon 0xe8c": true
             },
             "loc_mcbub01_in_col1 0xfe0": {
-                "body_damage 0x1038": 100.0,
-                "health 0x1028": 650.0
+                "body_damage 0x103c": 100.0,
+                "health 0x102c": 650.0
             },
             "loc_mcbub01_in_col2 0x1040": {
-                "body_damage 0x1098": 100.0,
-                "health 0x1088": 650.0
+                "body_damage 0x109c": 100.0,
+                "health 0x108c": 650.0
             },
             "loc_mcbub01_in_col3 0x10a0": {
-                "body_damage 0x10f8": 100.0,
-                "health 0x10e8": 650.0
+                "body_damage 0x10fc": 100.0,
+                "health 0x10ec": 650.0
             },
             "loc_mcbub01_out_col1 0xec0": {
-                "body_damage 0xf18": 100.0,
-                "health 0xf08": 650.0
+                "body_damage 0xf1c": 100.0,
+                "health 0xf0c": 650.0
             },
             "loc_mcbub01_out_col2 0xf20": {
-                "body_damage 0xf78": 100.0,
-                "health 0xf68": 650.0
+                "body_damage 0xf7c": 100.0,
+                "health 0xf6c": 650.0
             },
             "loc_mcbub01_out_col3 0xf80": {
-                "body_damage 0xfd8": 100.0,
-                "health 0xfc8": 650.0
+                "body_damage 0xfdc": 100.0,
+                "health 0xfcc": 650.0
             },
             "loc_mcbub01_total_col 0x1160": {
-                "body_damage 0x11d8": 0.0,
-                "enable_meshcoll 0x11b8": "01000000",
-                "health 0x11c8": 1000000.0
+                "body_damage 0x11dc": 0.0,
+                "enable_meshcoll 0x11bc": true,
+                "health 0x11cc": 1000000.0
             }
         }
     },
     "hard 0x1410": {
         "brain 0x14e0": {
-            "ai_type 0x1568": "bub",
-            "animjoint 0x1578": "bub",
-            "race 0x1588": "machine",
-            "type 0x1558": "EnemyBrain"
+            "ai_type 0x156c": "bub",
+            "animjoint 0x157c": "bub",
+            "race 0x158c": "machine",
+            "type 0x155c": "EnemyBrain"
         },
         "enemy_action_common 0x1d60": {
-            "find 0x1da8": 40.0,
-            "lose 0x1db8": 45.0
+            "find 0x1dac": 40.0,
+            "lose 0x1dbc": 45.0
         },
         "enemy_actions 0x1b90": {
             "attack 0x1bd0": {
-                "damage_cumulation 0x1d28": 0.0,
-                "damage_type 0x1d18": "normal",
-                "force 0x1cf8": 1.0,
-                "height 0x1d48": 5.0,
-                "interval 0x1d58": 1.5,
-                "power 0x1cc8": 15.0,
-                "range 0x1d38": 3.5,
-                "rate_of_bg 0x1ce8": 20.0,
-                "rate_of_power 0x1cd8": 10.0,
-                "upper_force 0x1d08": 0.0
+                "damage_cumulation 0x1d2c": 0.0,
+                "damage_type 0x1d1c": "normal",
+                "force 0x1cfc": 1.0,
+                "height 0x1d4c": 5.0,
+                "interval 0x1d5c": 1.5,
+                "power 0x1ccc": 15.0,
+                "range 0x1d3c": 3.5,
+                "rate_of_bg 0x1cec": 20.0,
+                "rate_of_power 0x1cdc": 10.0,
+                "upper_force 0x1d0c": 0.0
             }
         },
         "enemy_body 0x1590": {
-            "battle_field_prio 0x1608": 1.0,
-            "battle_field_range 0x15f8": 20.0,
-            "health 0x15e8": 100.0
+            "battle_field_prio 0x160c": 1.0,
+            "battle_field_range 0x15fc": 20.0,
+            "health 0x15ec": 100.0
         },
         "enemy_parts 0x1610": {
             "loc_mcbub01_body_col 0x1ab0": {
-                "body_damage 0x1b08": 100.0,
-                "health 0x1af8": 1200.0
+                "body_damage 0x1b0c": 100.0,
+                "health 0x1afc": 1200.0
             },
             "loc_mcbub01_core 0x1780": {
-                "angle 0x1858": 180.0,
-                "body_damage 0x1828": 100.0,
-                "core 0x1848": "01000000",
-                "health 0x1818": 540.0,
-                "homing_angle 0x1868": 180.0,
-                "lockon 0x1838": "01000000"
+                "angle 0x185c": 180.0,
+                "body_damage 0x182c": 100.0,
+                "core 0x184c": true,
+                "health 0x181c": 540.0,
+                "homing_angle 0x186c": 180.0,
+                "lockon 0x183c": true
             },
             "loc_mcbub01_in_col1 0x1990": {
-                "body_damage 0x19e8": 100.0,
-                "health 0x19d8": 1200.0
+                "body_damage 0x19ec": 100.0,
+                "health 0x19dc": 1200.0
             },
             "loc_mcbub01_in_col2 0x19f0": {
-                "body_damage 0x1a48": 100.0,
-                "health 0x1a38": 1200.0
+                "body_damage 0x1a4c": 100.0,
+                "health 0x1a3c": 1200.0
             },
             "loc_mcbub01_in_col3 0x1a50": {
-                "body_damage 0x1aa8": 100.0,
-                "health 0x1a98": 1200.0
+                "body_damage 0x1aac": 100.0,
+                "health 0x1a9c": 1200.0
             },
             "loc_mcbub01_out_col1 0x1870": {
-                "body_damage 0x18c8": 100.0,
-                "health 0x18b8": 1200.0
+                "body_damage 0x18cc": 100.0,
+                "health 0x18bc": 1200.0
             },
             "loc_mcbub01_out_col2 0x18d0": {
-                "body_damage 0x1928": 100.0,
-                "health 0x1918": 1200.0
+                "body_damage 0x192c": 100.0,
+                "health 0x191c": 1200.0
             },
             "loc_mcbub01_out_col3 0x1930": {
-                "body_damage 0x1988": 100.0,
-                "health 0x1978": 1200.0
+                "body_damage 0x198c": 100.0,
+                "health 0x197c": 1200.0
             },
             "loc_mcbub01_total_col 0x1b10": {
-                "body_damage 0x1b88": 0.0,
-                "enable_meshcoll 0x1b68": "01000000",
-                "health 0x1b78": 1000000.0
+                "body_damage 0x1b8c": 0.0,
+                "enable_meshcoll 0x1b6c": true,
+                "health 0x1b7c": 1000000.0
             }
         }
     },
     "normal 0xb0": {
         "brain 0x180": {
-            "ai_type 0x208": "bub",
-            "animjoint 0x218": "bub",
-            "race 0x228": "machine",
-            "type 0x1f8": "EnemyBrain"
+            "ai_type 0x20c": "bub",
+            "animjoint 0x21c": "bub",
+            "race 0x22c": "machine",
+            "type 0x1fc": "EnemyBrain"
         },
         "enemy_action_common 0xa00": {
-            "find 0xa48": 40.0,
-            "lose 0xa58": 45.0
+            "find 0xa4c": 40.0,
+            "lose 0xa5c": 45.0
         },
         "enemy_actions 0x830": {
             "attack 0x870": {
-                "damage_cumulation 0x9c8": 0.0,
-                "damage_type 0x9b8": "normal",
-                "force 0x998": 1.0,
-                "height 0x9e8": 5.0,
-                "interval 0x9f8": 1.5,
-                "power 0x968": 10.0,
-                "range 0x9d8": 3.5,
-                "rate_of_bg 0x988": 20.0,
-                "rate_of_power 0x978": 10.0,
-                "upper_force 0x9a8": 0.0
+                "damage_cumulation 0x9cc": 0.0,
+                "damage_type 0x9bc": "normal",
+                "force 0x99c": 1.0,
+                "height 0x9ec": 5.0,
+                "interval 0x9fc": 1.5,
+                "power 0x96c": 10.0,
+                "range 0x9dc": 3.5,
+                "rate_of_bg 0x98c": 20.0,
+                "rate_of_power 0x97c": 10.0,
+                "upper_force 0x9ac": 0.0
             }
         },
         "enemy_body 0x230": {
-            "battle_field_prio 0x2a8": 1.0,
-            "battle_field_range 0x298": 20.0,
-            "health 0x288": 100.0
+            "battle_field_prio 0x2ac": 1.0,
+            "battle_field_range 0x29c": 20.0,
+            "health 0x28c": 100.0
         },
         "enemy_parts 0x2b0": {
             "loc_mcbub01_body_col 0x750": {
-                "body_damage 0x7a8": 100.0,
-                "health 0x798": 900.0
+                "body_damage 0x7ac": 100.0,
+                "health 0x79c": 900.0
             },
             "loc_mcbub01_core 0x420": {
-                "angle 0x4f8": 180.0,
-                "body_damage 0x4c8": 100.0,
-                "core 0x4e8": "01000000",
-                "health 0x4b8": 450.0,
-                "homing_angle 0x508": 180.0,
-                "lockon 0x4d8": "01000000"
+                "angle 0x4fc": 180.0,
+                "body_damage 0x4cc": 100.0,
+                "core 0x4ec": true,
+                "health 0x4bc": 450.0,
+                "homing_angle 0x50c": 180.0,
+                "lockon 0x4dc": true
             },
             "loc_mcbub01_in_col1 0x630": {
-                "body_damage 0x688": 100.0,
-                "health 0x678": 900.0
+                "body_damage 0x68c": 100.0,
+                "health 0x67c": 900.0
             },
             "loc_mcbub01_in_col2 0x690": {
-                "body_damage 0x6e8": 100.0,
-                "health 0x6d8": 900.0
+                "body_damage 0x6ec": 100.0,
+                "health 0x6dc": 900.0
             },
             "loc_mcbub01_in_col3 0x6f0": {
-                "body_damage 0x748": 100.0,
-                "health 0x738": 900.0
+                "body_damage 0x74c": 100.0,
+                "health 0x73c": 900.0
             },
             "loc_mcbub01_out_col1 0x510": {
-                "body_damage 0x568": 100.0,
-                "health 0x558": 900.0
+                "body_damage 0x56c": 100.0,
+                "health 0x55c": 900.0
             },
             "loc_mcbub01_out_col2 0x570": {
-                "body_damage 0x5c8": 100.0,
-                "health 0x5b8": 900.0
+                "body_damage 0x5cc": 100.0,
+                "health 0x5bc": 900.0
             },
             "loc_mcbub01_out_col3 0x5d0": {
-                "body_damage 0x628": 100.0,
-                "health 0x618": 900.0
+                "body_damage 0x62c": 100.0,
+                "health 0x61c": 900.0
             },
             "loc_mcbub01_total_col 0x7b0": {
-                "body_damage 0x828": 0.0,
-                "enable_meshcoll 0x808": "01000000",
-                "health 0x818": 1000000.0
+                "body_damage 0x82c": 0.0,
+                "enable_meshcoll 0x80c": true,
+                "health 0x81c": 1000000.0
             }
         }
     }

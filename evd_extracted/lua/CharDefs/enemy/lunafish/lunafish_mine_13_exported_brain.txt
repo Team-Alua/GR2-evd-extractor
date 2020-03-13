@@ -1,274 +1,274 @@
 {
     "easy 0xd10": {
         "brain 0xde0": {
-            "ai_grade 0xec8": "strong",
-            "ai_type 0xe88": "lunafish",
-            "animjoint 0xe98": "lunafish",
-            "race 0xea8": "nevi",
-            "tailchain 0xeb8": "lunafish",
-            "type 0xe78": "EnemyBrain"
+            "ai_grade 0xecc": "strong",
+            "ai_type 0xe8c": "lunafish",
+            "animjoint 0xe9c": "lunafish",
+            "race 0xeac": "nevi",
+            "tailchain 0xebc": "lunafish",
+            "type 0xe7c": "EnemyBrain"
         },
         "enemy_action_common 0x1910": {
-            "find 0x1958": 900.0,
-            "lose 0x1968": 1000.0
+            "find 0x195c": 900.0,
+            "lose 0x196c": 1000.0
         },
         "enemy_actions 0x1170": {
             "attack 0x1580": {
-                "damage_cumulation 0x16c8": 0.0,
-                "damage_type 0x16b8": "normal",
-                "force 0x1698": 1.0,
-                "interval 0x16e8": 8.0,
-                "power 0x1668": 40.0,
-                "range 0x16d8": 30.0,
-                "rate_of_bg 0x1688": 20.0,
-                "rate_of_power 0x1678": -1.0,
-                "upper_force 0x16a8": 0.0
+                "damage_cumulation 0x16cc": 0.0,
+                "damage_type 0x16bc": "normal",
+                "force 0x169c": 1.0,
+                "interval 0x16ec": 8.0,
+                "power 0x166c": 40.0,
+                "range 0x16dc": 30.0,
+                "rate_of_bg 0x168c": 20.0,
+                "rate_of_power 0x167c": -1.0,
+                "upper_force 0x16ac": 0.0
             },
             "damaged_l 0x16f0": {
-                "damage_cumulation 0x17f8": 0.0,
-                "damage_type 0x17e8": "normal",
-                "force 0x17c8": 1.0,
-                "power 0x1798": 20.0,
-                "rate_of_bg 0x17b8": 20.0,
-                "rate_of_power 0x17a8": -3.0,
-                "upper_force 0x17d8": 0.0
+                "damage_cumulation 0x17fc": 0.0,
+                "damage_type 0x17ec": "normal",
+                "force 0x17cc": 1.0,
+                "power 0x179c": 20.0,
+                "rate_of_bg 0x17bc": 20.0,
+                "rate_of_power 0x17ac": -3.0,
+                "upper_force 0x17dc": 0.0
             },
             "damaged_r 0x1800": {
-                "damage_cumulation 0x1908": 0.0,
-                "damage_type 0x18f8": "normal",
-                "force 0x18d8": 1.0,
-                "power 0x18a8": 20.0,
-                "rate_of_bg 0x18c8": 20.0,
-                "rate_of_power 0x18b8": -3.0,
-                "upper_force 0x18e8": 0.0
+                "damage_cumulation 0x190c": 0.0,
+                "damage_type 0x18fc": "normal",
+                "force 0x18dc": 1.0,
+                "power 0x18ac": 20.0,
+                "rate_of_bg 0x18cc": 20.0,
+                "rate_of_power 0x18bc": -3.0,
+                "upper_force 0x18ec": 0.0
             },
             "shoot 0x13d0": {
-                "damage_cumulation 0x1538": 0.0,
-                "damage_type 0x1528": "normal",
-                "force 0x1508": 1.0,
-                "free 0x1578": 0.05000000074505806,
-                "interval 0x1558": 10.0,
-                "power 0x14d8": 30.0,
-                "range 0x1548": 30.0,
-                "rate_of_bg 0x14f8": 20.0,
-                "rate_of_power 0x14e8": -1.0,
-                "upper_force 0x1518": 0.0,
-                "velocity 0x1568": 12.0
+                "damage_cumulation 0x153c": 0.0,
+                "damage_type 0x152c": "normal",
+                "force 0x150c": 1.0,
+                "free 0x157c": 0.05000000074505806,
+                "interval 0x155c": 10.0,
+                "power 0x14dc": 30.0,
+                "range 0x154c": 30.0,
+                "rate_of_bg 0x14fc": 20.0,
+                "rate_of_power 0x14ec": -1.0,
+                "upper_force 0x151c": 0.0,
+                "velocity 0x156c": 12.0
             },
             "spawn 0x1240": {
-                "damage_cumulation 0x1398": 0.0,
-                "damage_type 0x1388": "normal",
-                "force 0x1368": 1.0,
-                "height 0x13b8": 5.0,
-                "interval 0x13c8": 1.5,
-                "power 0x1338": 10.0,
-                "range 0x13a8": 3.5,
-                "rate_of_bg 0x1358": 10.0,
-                "rate_of_power 0x1348": -2.0,
-                "upper_force 0x1378": 0.0
+                "damage_cumulation 0x139c": 0.0,
+                "damage_type 0x138c": "normal",
+                "force 0x136c": 1.0,
+                "height 0x13bc": 5.0,
+                "interval 0x13cc": 1.5,
+                "power 0x133c": 10.0,
+                "range 0x13ac": 3.5,
+                "rate_of_bg 0x135c": 10.0,
+                "rate_of_power 0x134c": -2.0,
+                "upper_force 0x137c": 0.0
             }
         },
         "enemy_body 0xed0": {
-            "ash_effect 0xfd8": "ef_nev_death_nvfis",
-            "ash_effect_node 0xfe8": "samplelink",
-            "ash_se 0xff8": "ene_disappear",
-            "ash_vanish_time 0x1008": 1.5,
-            "battle_field_prio 0x1038": 1.0,
-            "battle_field_range 0x1028": 24.0,
-            "health 0x1018": 100.0,
-            "spawn_effect 0xfb8": "ef_nev_spw_01",
-            "spawn_se 0xfc8": "ene_lunafish_spawn"
+            "ash_effect 0xfdc": "ef_nev_death_nvfis",
+            "ash_effect_node 0xfec": "samplelink",
+            "ash_se 0xffc": "ene_disappear",
+            "ash_vanish_time 0x100c": 1.5,
+            "battle_field_prio 0x103c": 1.0,
+            "battle_field_range 0x102c": 24.0,
+            "health 0x101c": 100.0,
+            "spawn_effect 0xfbc": "ef_nev_spw_01",
+            "spawn_se 0xfcc": "ene_lunafish_spawn"
         },
         "enemy_parts 0x1040": {
             "loc_setCore01 0x1080": {
-                "angle 0x1158": 360.0,
-                "body_damage 0x1128": 100.0,
-                "core 0x1148": "01000000",
-                "health 0x1118": 180.0,
-                "homing_angle 0x1168": 360.0,
-                "lockon 0x1138": "01000000"
+                "angle 0x115c": 360.0,
+                "body_damage 0x112c": 100.0,
+                "core 0x114c": true,
+                "health 0x111c": 180.0,
+                "homing_angle 0x116c": 360.0,
+                "lockon 0x113c": true
             }
         }
     },
     "hard 0x1970": {
         "brain 0x1a40": {
-            "ai_grade 0x1b28": "strong",
-            "ai_type 0x1ae8": "lunafish",
-            "animjoint 0x1af8": "lunafish",
-            "race 0x1b08": "nevi",
-            "tailchain 0x1b18": "lunafish",
-            "type 0x1ad8": "EnemyBrain"
+            "ai_grade 0x1b2c": "strong",
+            "ai_type 0x1aec": "lunafish",
+            "animjoint 0x1afc": "lunafish",
+            "race 0x1b0c": "nevi",
+            "tailchain 0x1b1c": "lunafish",
+            "type 0x1adc": "EnemyBrain"
         },
         "enemy_action_common 0x2570": {
-            "find 0x25b8": 900.0,
-            "lose 0x25c8": 1000.0
+            "find 0x25bc": 900.0,
+            "lose 0x25cc": 1000.0
         },
         "enemy_actions 0x1dd0": {
             "attack 0x21e0": {
-                "damage_cumulation 0x2328": 0.0,
-                "damage_type 0x2318": "normal",
-                "force 0x22f8": 1.0,
-                "interval 0x2348": 8.0,
-                "power 0x22c8": 40.0,
-                "range 0x2338": 30.0,
-                "rate_of_bg 0x22e8": 20.0,
-                "rate_of_power 0x22d8": -1.0,
-                "upper_force 0x2308": 0.0
+                "damage_cumulation 0x232c": 0.0,
+                "damage_type 0x231c": "normal",
+                "force 0x22fc": 1.0,
+                "interval 0x234c": 8.0,
+                "power 0x22cc": 40.0,
+                "range 0x233c": 30.0,
+                "rate_of_bg 0x22ec": 20.0,
+                "rate_of_power 0x22dc": -1.0,
+                "upper_force 0x230c": 0.0
             },
             "damaged_l 0x2350": {
-                "damage_cumulation 0x2458": 0.0,
-                "damage_type 0x2448": "normal",
-                "force 0x2428": 1.0,
-                "power 0x23f8": 20.0,
-                "rate_of_bg 0x2418": 20.0,
-                "rate_of_power 0x2408": -3.0,
-                "upper_force 0x2438": 0.0
+                "damage_cumulation 0x245c": 0.0,
+                "damage_type 0x244c": "normal",
+                "force 0x242c": 1.0,
+                "power 0x23fc": 20.0,
+                "rate_of_bg 0x241c": 20.0,
+                "rate_of_power 0x240c": -3.0,
+                "upper_force 0x243c": 0.0
             },
             "damaged_r 0x2460": {
-                "damage_cumulation 0x2568": 0.0,
-                "damage_type 0x2558": "normal",
-                "force 0x2538": 1.0,
-                "power 0x2508": 20.0,
-                "rate_of_bg 0x2528": 20.0,
-                "rate_of_power 0x2518": -3.0,
-                "upper_force 0x2548": 0.0
+                "damage_cumulation 0x256c": 0.0,
+                "damage_type 0x255c": "normal",
+                "force 0x253c": 1.0,
+                "power 0x250c": 20.0,
+                "rate_of_bg 0x252c": 20.0,
+                "rate_of_power 0x251c": -3.0,
+                "upper_force 0x254c": 0.0
             },
             "shoot 0x2030": {
-                "damage_cumulation 0x2198": 0.0,
-                "damage_type 0x2188": "normal",
-                "force 0x2168": 1.0,
-                "free 0x21d8": 0.05000000074505806,
-                "interval 0x21b8": 10.0,
-                "power 0x2138": 30.0,
-                "range 0x21a8": 30.0,
-                "rate_of_bg 0x2158": 20.0,
-                "rate_of_power 0x2148": -1.0,
-                "upper_force 0x2178": 0.0,
-                "velocity 0x21c8": 12.0
+                "damage_cumulation 0x219c": 0.0,
+                "damage_type 0x218c": "normal",
+                "force 0x216c": 1.0,
+                "free 0x21dc": 0.05000000074505806,
+                "interval 0x21bc": 10.0,
+                "power 0x213c": 30.0,
+                "range 0x21ac": 30.0,
+                "rate_of_bg 0x215c": 20.0,
+                "rate_of_power 0x214c": -1.0,
+                "upper_force 0x217c": 0.0,
+                "velocity 0x21cc": 12.0
             },
             "spawn 0x1ea0": {
-                "damage_cumulation 0x1ff8": 0.0,
-                "damage_type 0x1fe8": "normal",
-                "force 0x1fc8": 1.0,
-                "height 0x2018": 5.0,
-                "interval 0x2028": 1.5,
-                "power 0x1f98": 10.0,
-                "range 0x2008": 3.5,
-                "rate_of_bg 0x1fb8": 10.0,
-                "rate_of_power 0x1fa8": -2.0,
-                "upper_force 0x1fd8": 0.0
+                "damage_cumulation 0x1ffc": 0.0,
+                "damage_type 0x1fec": "normal",
+                "force 0x1fcc": 1.0,
+                "height 0x201c": 5.0,
+                "interval 0x202c": 1.5,
+                "power 0x1f9c": 10.0,
+                "range 0x200c": 3.5,
+                "rate_of_bg 0x1fbc": 10.0,
+                "rate_of_power 0x1fac": -2.0,
+                "upper_force 0x1fdc": 0.0
             }
         },
         "enemy_body 0x1b30": {
-            "ash_effect 0x1c38": "ef_nev_death_nvfis",
-            "ash_effect_node 0x1c48": "samplelink",
-            "ash_se 0x1c58": "ene_disappear",
-            "ash_vanish_time 0x1c68": 1.5,
-            "battle_field_prio 0x1c98": 1.0,
-            "battle_field_range 0x1c88": 24.0,
-            "health 0x1c78": 100.0,
-            "spawn_effect 0x1c18": "ef_nev_spw_01",
-            "spawn_se 0x1c28": "ene_lunafish_spawn"
+            "ash_effect 0x1c3c": "ef_nev_death_nvfis",
+            "ash_effect_node 0x1c4c": "samplelink",
+            "ash_se 0x1c5c": "ene_disappear",
+            "ash_vanish_time 0x1c6c": 1.5,
+            "battle_field_prio 0x1c9c": 1.0,
+            "battle_field_range 0x1c8c": 24.0,
+            "health 0x1c7c": 100.0,
+            "spawn_effect 0x1c1c": "ef_nev_spw_01",
+            "spawn_se 0x1c2c": "ene_lunafish_spawn"
         },
         "enemy_parts 0x1ca0": {
             "loc_setCore01 0x1ce0": {
-                "angle 0x1db8": 360.0,
-                "body_damage 0x1d88": 100.0,
-                "core 0x1da8": "01000000",
-                "health 0x1d78": 180.0,
-                "homing_angle 0x1dc8": 360.0,
-                "lockon 0x1d98": "01000000"
+                "angle 0x1dbc": 360.0,
+                "body_damage 0x1d8c": 100.0,
+                "core 0x1dac": true,
+                "health 0x1d7c": 180.0,
+                "homing_angle 0x1dcc": 360.0,
+                "lockon 0x1d9c": true
             }
         }
     },
     "normal 0xb0": {
         "brain 0x180": {
-            "ai_grade 0x268": "strong",
-            "ai_type 0x228": "lunafish",
-            "animjoint 0x238": "lunafish",
-            "race 0x248": "nevi",
-            "tailchain 0x258": "lunafish",
-            "type 0x218": "EnemyBrain"
+            "ai_grade 0x26c": "strong",
+            "ai_type 0x22c": "lunafish",
+            "animjoint 0x23c": "lunafish",
+            "race 0x24c": "nevi",
+            "tailchain 0x25c": "lunafish",
+            "type 0x21c": "EnemyBrain"
         },
         "enemy_action_common 0xcb0": {
-            "find 0xcf8": 900.0,
-            "lose 0xd08": 1000.0
+            "find 0xcfc": 900.0,
+            "lose 0xd0c": 1000.0
         },
         "enemy_actions 0x510": {
             "attack 0x920": {
-                "damage_cumulation 0xa68": 0.0,
-                "damage_type 0xa58": "normal",
-                "force 0xa38": 1.0,
-                "interval 0xa88": 8.0,
-                "power 0xa08": 40.0,
-                "range 0xa78": 30.0,
-                "rate_of_bg 0xa28": 20.0,
-                "rate_of_power 0xa18": -1.0,
-                "upper_force 0xa48": 0.0
+                "damage_cumulation 0xa6c": 0.0,
+                "damage_type 0xa5c": "normal",
+                "force 0xa3c": 1.0,
+                "interval 0xa8c": 8.0,
+                "power 0xa0c": 40.0,
+                "range 0xa7c": 30.0,
+                "rate_of_bg 0xa2c": 20.0,
+                "rate_of_power 0xa1c": -1.0,
+                "upper_force 0xa4c": 0.0
             },
             "damaged_l 0xa90": {
-                "damage_cumulation 0xb98": 0.0,
-                "damage_type 0xb88": "normal",
-                "force 0xb68": 1.0,
-                "power 0xb38": 20.0,
-                "rate_of_bg 0xb58": 20.0,
-                "rate_of_power 0xb48": -3.0,
-                "upper_force 0xb78": 0.0
+                "damage_cumulation 0xb9c": 0.0,
+                "damage_type 0xb8c": "normal",
+                "force 0xb6c": 1.0,
+                "power 0xb3c": 20.0,
+                "rate_of_bg 0xb5c": 20.0,
+                "rate_of_power 0xb4c": -3.0,
+                "upper_force 0xb7c": 0.0
             },
             "damaged_r 0xba0": {
-                "damage_cumulation 0xca8": 0.0,
-                "damage_type 0xc98": "normal",
-                "force 0xc78": 1.0,
-                "power 0xc48": 20.0,
-                "rate_of_bg 0xc68": 20.0,
-                "rate_of_power 0xc58": -3.0,
-                "upper_force 0xc88": 0.0
+                "damage_cumulation 0xcac": 0.0,
+                "damage_type 0xc9c": "normal",
+                "force 0xc7c": 1.0,
+                "power 0xc4c": 20.0,
+                "rate_of_bg 0xc6c": 20.0,
+                "rate_of_power 0xc5c": -3.0,
+                "upper_force 0xc8c": 0.0
             },
             "shoot 0x770": {
-                "damage_cumulation 0x8d8": 0.0,
-                "damage_type 0x8c8": "normal",
-                "force 0x8a8": 1.0,
-                "free 0x918": 0.05000000074505806,
-                "interval 0x8f8": 10.0,
-                "power 0x878": 30.0,
-                "range 0x8e8": 30.0,
-                "rate_of_bg 0x898": 20.0,
-                "rate_of_power 0x888": -1.0,
-                "upper_force 0x8b8": 0.0,
-                "velocity 0x908": 12.0
+                "damage_cumulation 0x8dc": 0.0,
+                "damage_type 0x8cc": "normal",
+                "force 0x8ac": 1.0,
+                "free 0x91c": 0.05000000074505806,
+                "interval 0x8fc": 10.0,
+                "power 0x87c": 30.0,
+                "range 0x8ec": 30.0,
+                "rate_of_bg 0x89c": 20.0,
+                "rate_of_power 0x88c": -1.0,
+                "upper_force 0x8bc": 0.0,
+                "velocity 0x90c": 12.0
             },
             "spawn 0x5e0": {
-                "damage_cumulation 0x738": 0.0,
-                "damage_type 0x728": "normal",
-                "force 0x708": 1.0,
-                "height 0x758": 5.0,
-                "interval 0x768": 1.5,
-                "power 0x6d8": 10.0,
-                "range 0x748": 3.5,
-                "rate_of_bg 0x6f8": 10.0,
-                "rate_of_power 0x6e8": -2.0,
-                "upper_force 0x718": 0.0
+                "damage_cumulation 0x73c": 0.0,
+                "damage_type 0x72c": "normal",
+                "force 0x70c": 1.0,
+                "height 0x75c": 5.0,
+                "interval 0x76c": 1.5,
+                "power 0x6dc": 10.0,
+                "range 0x74c": 3.5,
+                "rate_of_bg 0x6fc": 10.0,
+                "rate_of_power 0x6ec": -2.0,
+                "upper_force 0x71c": 0.0
             }
         },
         "enemy_body 0x270": {
-            "ash_effect 0x378": "ef_nev_death_nvfis",
-            "ash_effect_node 0x388": "samplelink",
-            "ash_se 0x398": "ene_disappear",
-            "ash_vanish_time 0x3a8": 1.5,
-            "battle_field_prio 0x3d8": 1.0,
-            "battle_field_range 0x3c8": 24.0,
-            "health 0x3b8": 100.0,
-            "spawn_effect 0x358": "ef_nev_spw_01",
-            "spawn_se 0x368": "ene_lunafish_spawn"
+            "ash_effect 0x37c": "ef_nev_death_nvfis",
+            "ash_effect_node 0x38c": "samplelink",
+            "ash_se 0x39c": "ene_disappear",
+            "ash_vanish_time 0x3ac": 1.5,
+            "battle_field_prio 0x3dc": 1.0,
+            "battle_field_range 0x3cc": 24.0,
+            "health 0x3bc": 100.0,
+            "spawn_effect 0x35c": "ef_nev_spw_01",
+            "spawn_se 0x36c": "ene_lunafish_spawn"
         },
         "enemy_parts 0x3e0": {
             "loc_setCore01 0x420": {
-                "angle 0x4f8": 360.0,
-                "body_damage 0x4c8": 100.0,
-                "core 0x4e8": "01000000",
-                "health 0x4b8": 180.0,
-                "homing_angle 0x508": 360.0,
-                "lockon 0x4d8": "01000000"
+                "angle 0x4fc": 360.0,
+                "body_damage 0x4cc": 100.0,
+                "core 0x4ec": true,
+                "health 0x4bc": 180.0,
+                "homing_angle 0x50c": 360.0,
+                "lockon 0x4dc": true
             }
         }
     }

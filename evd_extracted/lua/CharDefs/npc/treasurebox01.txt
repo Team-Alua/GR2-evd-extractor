@@ -1,72 +1,72 @@
 {
     "animset 0x120": {
         "close 0x210": {
-            "blendDuration 0x268": 0.10000000149011612,
-            "file 0x278": "treasurebox01_close",
-            "repeatCount 0x288": 0.0
+            "blendDuration 0x26c": 0.10000000149011612,
+            "file 0x27c": "treasurebox01_close",
+            "repeatCount 0x28c": 0.0
         },
         "in 0x290": {
-            "blendDuration 0x2e8": 0.0,
-            "file 0x2f8": "treasurebox01_in",
-            "repeatCount 0x308": 0.0
+            "blendDuration 0x2ec": 0.0,
+            "file 0x2fc": "treasurebox01_in",
+            "repeatCount 0x30c": 0.0
         },
         "open 0x310": {
-            "blendDuration 0x368": 0.10000000149011612,
-            "file 0x378": "treasurebox01_open",
-            "repeatCount 0x388": 0.0
+            "blendDuration 0x36c": 0.10000000149011612,
+            "file 0x37c": "treasurebox01_open",
+            "repeatCount 0x38c": 0.0
         },
         "out 0x390": {
-            "blendDuration 0x3e8": 0.0,
-            "file 0x3f8": "treasurebox01_out",
-            "repeatCount 0x408": 0.0
+            "blendDuration 0x3ec": 0.0,
+            "file 0x3fc": "treasurebox01_out",
+            "repeatCount 0x40c": 0.0
         },
         "stay 0x410": {
-            "blendDuration 0x468": 0.10000000149011612,
-            "file 0x478": "treasurebox01_stay_close",
-            "repeatCount 0x488": -1.0
+            "blendDuration 0x46c": 0.10000000149011612,
+            "file 0x47c": "treasurebox01_stay_close",
+            "repeatCount 0x48c": -1.0
         },
         "stay_01 0x490": {
-            "blendDuration 0x4e8": 0.10000000149011612,
-            "file 0x4f8": "treasurebox01_stay_open",
-            "repeatCount 0x508": -1.0
+            "blendDuration 0x4ec": 0.10000000149011612,
+            "file 0x4fc": "treasurebox01_stay_open",
+            "repeatCount 0x50c": -1.0
         }
     },
     "brain 0x510": {
-        "ai_type 0x558": "npc",
-        "type 0x568": "EnemyBrain"
+        "ai_type 0x55c": "npc",
+        "type 0x56c": "EnemyBrain"
     },
     "enemy_action_common 0x570": {
-        "find 0x5b8": 40.0,
-        "lose 0x5c8": 45.0
+        "find 0x5bc": 40.0,
+        "lose 0x5cc": 45.0
     },
     "enemy_body 0x5d0": {
-        "health 0x618": 9999.0,
-        "hit 0x628": "01000000"
+        "health 0x61c": 9999.0,
+        "hit 0x62c": true
     },
     "npc_param 0x630": {
         "param 0x6b0": {
-            "category 0x708": "other",
-            "damage_type 0x718": 0.0,
-            "grabbed_type 0x728": 0.0
+            "category 0x70c": "other",
+            "damage_type 0x71c": 0.0,
+            "grabbed_type 0x72c": 0.0
         },
         "sight 0x730": {
-            "degree_h 0x7b8": 60.0,
-            "degree_v 0x7c8": 45.0,
-            "in_length 0x7d8": 4.0,
-            "out_length 0x7e8": 6.0,
-            "valid 0x7f8": "00000000"
+            "degree_h 0x7bc": 60.0,
+            "degree_v 0x7cc": 45.0,
+            "in_length 0x7dc": 4.0,
+            "out_length 0x7ec": 6.0,
+            "valid 0x7fc": false
         },
-        "valid 0x6a8": "01000000"
+        "valid 0x6ac": true
     },
     "puppet 0x800": {
-        "animset 0x888": "npc/treasurebox01",
+        "animset 0x88c": "npc/treasurebox01",
         "collision 0x8d0": {
-            "center_y 0x928": 0.4000000059604645,
-            "height 0x938": 0.4000000059604645,
-            "radius 0x948": 0.4000000059604645
+            "center_y 0x92c": 0.4000000059604645,
+            "height 0x93c": 0.4000000059604645,
+            "radius 0x94c": 0.4000000059604645
         },
-        "modelName 0x8a8": "treasurebox01_base",
-        "scale 0x8b8": 1.0,
-        "type 0x8c8": "Puppet"
+        "modelName 0x8ac": "treasurebox01_base",
+        "scale 0x8bc": 1.0,
+        "type 0x8cc": "Puppet"
     }
 }
