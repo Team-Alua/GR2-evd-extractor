@@ -2,7 +2,9 @@ import struct
 import pandas as pd
 import json
 
-file_path = "bosshand.evd"
+file_path = "lt_cc_a_root.evd"
+show_offset = True
+show_hash = True
 
 def unpack():
     global chunk_count
@@ -54,6 +56,9 @@ def unpack():
             print()
         if variable_name == None:
             variable_name = hex(data_location)
+        else:
+            if show_hash:
+                variable_name = variable_name = "%s %s" % (variable_name, name_hash)
             if show_offset:
                 variable_name = variable_name = "%s %s" % (variable_name, hex(data_location))
         local_data[variable_name] = value
@@ -62,7 +67,6 @@ def unpack():
 
 
 file = open(file_path, mode='rb')
-show_offset = True
 data = file.read()
 
 data_set = {}
