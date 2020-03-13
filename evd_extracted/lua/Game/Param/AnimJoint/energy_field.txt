@@ -1,0 +1,89 @@
+{
+    "animjoint 0x70": {
+        "0x200": {
+            "anim 0x2b8": "spawn",
+            "attr 0x2a8": "WindField",
+            "force 0x370": {
+                "0x388": 180.0,
+                "0x398": 0.0
+            },
+            "force_vector 0x2e8": "outward",
+            "parent 0x2d8": "bn_root",
+            "shape 0x310": {
+                "0x328": "Sphere",
+                "0x338": 25.0
+            },
+            "timing 0x340": {
+                "0x358": 0.0,
+                "0x368": 9999.0
+            }
+        },
+        "0x3a0": {
+            "anim 0x458": "stay",
+            "attr 0x448": "WindField",
+            "force 0x510": {
+                "0x528": 180.0,
+                "0x538": 0.0
+            },
+            "force_vector 0x488": "outward",
+            "parent 0x478": "bn_root",
+            "shape 0x4b0": {
+                "0x4c8": "Sphere",
+                "0x4d8": 25.0
+            },
+            "timing 0x4e0": {
+                "0x4f8": 0.0,
+                "0x508": 9999.0
+            }
+        },
+        "0x540": {
+            "anim 0x5f8": "stay_b",
+            "attr 0x5e8": "WindField",
+            "force 0x6b0": {
+                "0x6c8": 10.0,
+                "0x6d8": 0.0
+            },
+            "force_vector 0x628": "outward",
+            "parent 0x618": "bn_root",
+            "shape 0x650": {
+                "0x668": "Sphere",
+                "0x678": 10.0
+            },
+            "timing 0x680": {
+                "0x698": 0.0,
+                "0x6a8": 9999.0
+            }
+        },
+        "0x6e0": {
+            "anim 0x798": "damaged",
+            "attr 0x788": "WindField",
+            "force 0x850": {
+                "0x868": 180.0,
+                "0x878": 0.0
+            },
+            "force_vector 0x7c8": "outward",
+            "parent 0x7b8": "bn_root",
+            "shape 0x7f0": {
+                "0x808": "Sphere",
+                "0x818": 25.0
+            },
+            "timing 0x820": {
+                "0x838": 5.0,
+                "0x848": 9999.0
+            }
+        },
+        "0xd0": {
+            "anim 0x178": "spawn",
+            "attr 0x158": "Attack",
+            "shape 0x1a0": {
+                "0x1b8": "Sphere",
+                "0x1c8": 1.25
+            },
+            "timing 0x1d0": {
+                "0x1e8": 0.0,
+                "0x1f8": 30.0
+            },
+            "userData 0x168": "spawn"
+        }
+    }
+}

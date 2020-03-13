@@ -1,0 +1,157 @@
+{
+    "animset 0x120": {
+        "bark 0x490": {
+            "blendDuration 0x4e8": 0.20000000298023224,
+            "file 0x4f8": "dog02_bark_00",
+            "repeatCount 0x508": 0.0
+        },
+        "fall 0x510": {
+            "blendDuration 0x568": 0.20000000298023224,
+            "file 0x578": "dog02_fall_00",
+            "repeatCount 0x588": -1.0
+        },
+        "glad_00 0x590": {
+            "blendDuration 0x5e8": 0.10000000149011612,
+            "file 0x5f8": "dog02_glad_00",
+            "repeatCount 0x608": 0.0
+        },
+        "grabbed 0x610": {
+            "blendDuration 0x668": 0.20000000298023224,
+            "file 0x678": "dog02_fall_00",
+            "repeatCount 0x688": -1.0
+        },
+        "groggy_00 0x690": {
+            "blendDuration 0x6e8": 0.20000000298023224,
+            "file 0x6f8": "dog01_groggy_00",
+            "repeatCount 0x708": -1.0
+        },
+        "groggy_in_00 0x710": {
+            "blendDuration 0x768": 0.20000000298023224,
+            "file 0x778": "dog01_groggy_in_00",
+            "repeatCount 0x788": 0.0
+        },
+        "groggy_out_00 0x790": {
+            "blendDuration 0x7e8": 0.20000000298023224,
+            "file 0x7f8": "dog01_groggy_out_00",
+            "repeatCount 0x808": 0.0
+        },
+        "land 0x810": {
+            "blendDuration 0x868": 0.10000000149011612,
+            "file 0x878": "dog02_land_00",
+            "repeatCount 0x888": 0.0
+        },
+        "rest_00 0x890": {
+            "blendDuration 0x8e8": 0.20000000298023224,
+            "file 0x8f8": "dog01_rest_00",
+            "repeatCount 0x908": -1.0
+        },
+        "rest_out_00 0x910": {
+            "blendDuration 0x968": 0.20000000298023224,
+            "file 0x978": "dog01_rest_out_00",
+            "repeatCount 0x988": 0.0
+        },
+        "restin_00 0x990": {
+            "blendDuration 0x9e8": 0.20000000298023224,
+            "file 0x9f8": "##dog02_restin_00##",
+            "repeatCount 0xa08": 0.0
+        },
+        "run 0xa10": {
+            "blendDuration 0xa68": 0.20000000298023224,
+            "file 0xa78": "dog02_run_00",
+            "repeatCount 0xa88": -1.0
+        },
+        "sad_00 0xa90": {
+            "blendDuration 0xae8": 0.10000000149011612,
+            "file 0xaf8": "dog02_sad_00",
+            "repeatCount 0xb08": 0.0
+        },
+        "scratch_00 0xb10": {
+            "blendDuration 0xb68": 0.20000000298023224,
+            "file 0xb78": "dog02_scratch_00",
+            "repeatCount 0xb88": 0.0
+        },
+        "sit 0xb90": {
+            "blendDuration 0xbe8": 0.20000000298023224,
+            "file 0xbf8": "dog02_sit_00",
+            "repeatCount 0xc08": -1.0
+        },
+        "sit1 0xc10": {
+            "blendDuration 0xc68": 0.20000000298023224,
+            "file 0xc78": "dog01_sit_01",
+            "repeatCount 0xc88": 0.0
+        },
+        "sit_in 0xc90": {
+            "blendDuration 0xce8": 0.20000000298023224,
+            "file 0xcf8": "dog02_sit_in_00",
+            "repeatCount 0xd08": 0.0
+        },
+        "sit_out 0xd10": {
+            "blendDuration 0xd68": 0.20000000298023224,
+            "file 0xd78": "dog02_sit_out_00",
+            "repeatCount 0xd88": 0.0
+        },
+        "sniff_00 0xd90": {
+            "blendDuration 0xde8": 0.10000000149011612,
+            "file 0xdf8": "dog02_sniff_00",
+            "repeatCount 0xe08": 0.0
+        },
+        "stay 0xe10": {
+            "blendDuration 0xe68": 0.20000000298023224,
+            "file 0xe78": "dog02_stay_00",
+            "repeatCount 0xe88": -1.0
+        },
+        "turn_l 0xe90": {
+            "blendDuration 0xee8": 0.20000000298023224,
+            "file 0xef8": "dog02_turn_l_00",
+            "repeatCount 0xf08": 0.0
+        },
+        "turn_r 0xf10": {
+            "blendDuration 0xf68": 0.20000000298023224,
+            "file 0xf78": "dog02_turn_r_00",
+            "repeatCount 0xf88": 0.0
+        },
+        "walk 0xf90": {
+            "blendDuration 0xfe8": 0.20000000298023224,
+            "file 0xff8": "dog02_walk_00",
+            "repeatCount 0x1008": -1.0
+        }
+    },
+    "brain 0x1010": {
+        "ai_type 0x1058": "npc",
+        "type 0x1068": "EnemyBrain"
+    },
+    "enemy_action_common 0x1070": {
+        "find 0x10b8": 40.0,
+        "lose 0x10c8": 45.0
+    },
+    "enemy_body 0x10d0": {
+        "health 0x1118": 9999.0,
+        "hit 0x1128": "01000000"
+    },
+    "npc_param 0x1130": {
+        "param 0x11b0": {
+            "category 0x1208": "animal",
+            "damage_type 0x1218": 0.0,
+            "grabbed_type 0x1228": 0.0
+        },
+        "sight 0x1230": {
+            "degree_h 0x12b8": 60.0,
+            "degree_v 0x12c8": 45.0,
+            "in_length 0x12d8": 4.0,
+            "out_length 0x12e8": 6.0,
+            "valid 0x12f8": "00000000"
+        },
+        "valid 0x11a8": "01000000"
+    },
+    "puppet 0x1300": {
+        "animset 0x1388": "npc/dog02",
+        "collision 0x13d0": {
+            "center_y 0x1428": 0.6499999761581421,
+            "radius 0x1438": 0.4000000059604645,
+            "shape 0x1448": "sphere"
+        },
+        "modelName 0x13a8": "dog02_base",
+        "scale 0x13b8": 1.0,
+        "type 0x13c8": "Puppet"
+    }
+}

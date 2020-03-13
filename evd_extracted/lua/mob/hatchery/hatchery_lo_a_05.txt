@@ -1,0 +1,161 @@
+{
+    "_default_bundles 0xb8": "bundle_default",
+    "_virtual_bundles 0x100": {
+        "bundle_default 0x140": {
+            "0x158": "bundle_default_core",
+            "0x168": "bundle_bird"
+        }
+    },
+    "bundle_bird 0xb40": {
+        "0xb80": {
+            "birdNet 0xc08": "birdNet",
+            "classGroup 0xc18": "yy_gull",
+            "label 0xbf8": "bird",
+            "num 0xc28": 4.0
+        },
+        "0xc30": {
+            "birdNet 0xcb8": "birdNet5",
+            "classGroup 0xcc8": "yy_gull",
+            "label 0xca8": "bird",
+            "num 0xcd8": 4.0
+        },
+        "0xce0": {
+            "birdNet 0xd68": "birdNet8",
+            "classGroup 0xd78": "yy_gull",
+            "label 0xd58": "bird",
+            "num 0xd88": 2.0
+        }
+    },
+    "bundle_default_core 0x170": {
+        "0x240": {
+            "classGroup 0x2c8": "yy_lo_buds_02",
+            "guide 0x2b8": "guide_lo",
+            "num 0x2e8": 2.0,
+            "role 0x2d8": "kRoleTalk"
+        },
+        "0x2f0": {
+            "classGroup 0x378": "yy_lo_buds_04",
+            "guide 0x368": "guide",
+            "num 0x398": 2.0,
+            "role 0x388": "kRoleTalk"
+        },
+        "0x3a0": {
+            "classGroup 0x428": "yy_lo_man_00",
+            "guide 0x418": "drink_whisky_01",
+            "num 0x448": 1.0,
+            "role 0x438": "kRoleDrunkOnGround"
+        },
+        "0x450": {
+            "classGroup 0x4d8": "yy_lo_man_00",
+            "guide 0x4c8": "lazy_01",
+            "num 0x4f8": 1.0,
+            "role 0x4e8": "kRoleLazyOnGround"
+        },
+        "0x500": {
+            "classGroup 0x588": "yy_lo_man_00",
+            "guide 0x578": "lazy_02",
+            "num 0x5a8": 1.0,
+            "role 0x598": "kRoleLazyOnGround"
+        },
+        "0x5b0": {
+            "classGroup 0x638": "yy_lo_chi_00",
+            "guide 0x628": "play_insect_01",
+            "num 0x658": 1.0,
+            "role 0x648": "kRolePlayWithBugs"
+        },
+        "0x660": {
+            "classGroup 0x708": "yy_lo_all_00",
+            "label 0x6e8": "block_lo",
+            "num 0x728": 4.0,
+            "role 0x718": "kRoleRoam",
+            "zone 0x6f8": "space_01"
+        },
+        "0x730": {
+            "classGroup 0x7d8": "yy_lo_all_00",
+            "label 0x7b8": "block_lo",
+            "num 0x7f8": 3.0,
+            "role 0x7e8": "kRoleRoam",
+            "zone 0x7c8": "space_02"
+        },
+        "0x800": {
+            "classGroup 0x8a8": "yy_lo_all_00",
+            "label 0x888": "block_hi",
+            "num 0x8c8": 3.0,
+            "role 0x8b8": "kRoleRoam",
+            "zone 0x898": "space_03"
+        },
+        "0x8d0": {
+            "classGroup 0x978": "yy_pig",
+            "label 0x958": "animals",
+            "num 0x998": 2.0,
+            "role 0x988": "kRoleRoam",
+            "zone 0x968": "space_01"
+        },
+        "0x9a0": {
+            "classGroup 0xa48": "yy_dog_m_poor",
+            "label 0xa28": "animals",
+            "num 0xa68": 1.0,
+            "role 0xa58": "kRoleRoam",
+            "zone 0xa38": "space_01"
+        },
+        "0xa70": {
+            "classGroup 0xb18": "yy_pig",
+            "label 0xaf8": "animals",
+            "num 0xb38": 1.0,
+            "role 0xb28": "kRoleRoam",
+            "zone 0xb08": "space_03"
+        }
+    },
+    "bundle_gizoku 0xd90": {
+        "0x1030": {
+            "classGroup 0x10b8": "yy_jilga_robber_01",
+            "guide 0x10a8": "eps06_alone_04",
+            "num 0x10d8": 1.0,
+            "role 0x10c8": "kRoleStay"
+        },
+        "0x10e0": {
+            "classGroup 0x1168": "yy_jilga_robber_01",
+            "guide 0x1158": "eps06_alone_05",
+            "num 0x1188": 1.0,
+            "role 0x1178": "kRoleStay"
+        },
+        "0x1190": {
+            "classGroup 0x1218": "yy_jilga_robber_01",
+            "guide 0x1208": "eps06_alone_06",
+            "num 0x1238": 1.0,
+            "role 0x1228": "kRoleStay"
+        },
+        "0x1240": {
+            "classGroup 0x12e8": "yy_jilga_robber_01",
+            "label 0x12c8": "gizoku",
+            "num 0x1308": 2.0,
+            "role 0x12f8": "kRoleRoam",
+            "zone 0x12d8": "block_lo"
+        },
+        "0x1310": {
+            "classGroup 0x13b8": "yy_jilga_robber_01",
+            "label 0x1398": "gizoku",
+            "num 0x13d8": 2.0,
+            "role 0x13c8": "kRoleRoam",
+            "zone 0x13a8": "block_hi"
+        },
+        "0xe20": {
+            "classGroup 0xea8": "yy_jilga_robber_01",
+            "guide 0xe98": "eps06_alone_01",
+            "num 0xec8": 1.0,
+            "role 0xeb8": "kRoleStay"
+        },
+        "0xed0": {
+            "classGroup 0xf58": "yy_jilga_robber_01",
+            "guide 0xf48": "eps06_alone_02",
+            "num 0xf78": 1.0,
+            "role 0xf68": "kRoleStay"
+        },
+        "0xf80": {
+            "classGroup 0x1008": "yy_jilga_robber_01",
+            "guide 0xff8": "eps06_alone_03",
+            "num 0x1028": 1.0,
+            "role 0x1018": "kRoleStay"
+        }
+    }
+}

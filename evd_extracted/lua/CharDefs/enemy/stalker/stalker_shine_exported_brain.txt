@@ -1,0 +1,269 @@
+{
+    "easy 0xcd0": {
+        "brain 0xda0": {
+            "ai_grade 0xea8": "shine",
+            "ai_type 0xe58": "stalker",
+            "animjoint 0xe68": "stalker",
+            "body_effect 0xe98": "stalker",
+            "race 0xe78": "nevi",
+            "tailchain 0xe88": "stalker",
+            "type 0xe48": "EnemyBrain"
+        },
+        "enemy_action_common 0x1890": {
+            "find 0x18d8": 20.0,
+            "lose 0x18e8": 25.0
+        },
+        "enemy_actions 0x1190": {
+            "attack 0x1260": {
+                "damage_cumulation 0x13d8": 0.0,
+                "damage_type 0x13b8": "normal",
+                "force 0x1398": 1.0,
+                "height 0x13f8": 5.0,
+                "interval 0x1408": 3.0,
+                "power 0x1368": 10.0,
+                "range 0x13e8": 3.0,
+                "rate_of_bg 0x1388": 40.0,
+                "rate_of_power 0x1378": 2.0,
+                "trip 0x13c8": "01000000",
+                "upper_force 0x13a8": 0.0
+            },
+            "damaged_large 0x1630": {
+                "damage_cumulation 0x1738": 0.0,
+                "damage_type 0x1728": "normal",
+                "force 0x1708": 1.0,
+                "power 0x16d8": 10.0,
+                "rate_of_bg 0x16f8": 40.0,
+                "rate_of_power 0x16e8": -3.0,
+                "upper_force 0x1718": 0.0
+            },
+            "damaged_middle 0x1520": {
+                "damage_cumulation 0x1628": 0.0,
+                "damage_type 0x1618": "normal",
+                "force 0x15f8": 1.0,
+                "power 0x15c8": 10.0,
+                "rate_of_bg 0x15e8": 40.0,
+                "rate_of_power 0x15d8": -3.0,
+                "upper_force 0x1608": 0.0
+            },
+            "hard_attack 0x1740": {
+                "damage_cumulation 0x1888": 0.0,
+                "damage_type 0x1868": "normal",
+                "force 0x1848": 1.0,
+                "hit_se 0x1878": "ene_stk_jump_atk_hit",
+                "power 0x1818": 15.0,
+                "rate_of_bg 0x1838": 40.0,
+                "rate_of_power 0x1828": 4.0,
+                "upper_force 0x1858": 0.0
+            },
+            "spawn 0x1410": {
+                "damage_cumulation 0x1518": 0.0,
+                "damage_type 0x1508": "normal",
+                "force 0x14e8": 1.0,
+                "power 0x14b8": 10.0,
+                "rate_of_bg 0x14d8": 10.0,
+                "rate_of_power 0x14c8": -2.0,
+                "upper_force 0x14f8": 0.0
+            }
+        },
+        "enemy_body 0xeb0": {
+            "ash_effect 0xfa8": "ef_nev_death_nvhan_w",
+            "ash_effect_node 0xfb8": "samplelink",
+            "ash_se 0xfc8": "ene_disappear",
+            "battle_field_prio 0xff8": 1.0,
+            "battle_field_range 0xfe8": 10.0,
+            "health 0xfd8": 60.0,
+            "spawn_effect 0xf88": "ef_nev_spw_01",
+            "spawn_se 0xf98": "ene_come"
+        },
+        "enemy_parts 0x1000": {
+            "loc_setCore01 0x1040": {
+                "angle 0x1168": 360.0,
+                "body_damage 0x1128": 60.0,
+                "core 0x1158": "01000000",
+                "damage_motion_type 0x1178": "FRONT",
+                "eye_aim_limit 0x1148": 30.0,
+                "health 0x1118": 80.0,
+                "homing_angle 0x1188": 280.0,
+                "lockon 0x1138": "01000000"
+            }
+        }
+    },
+    "hard 0x18f0": {
+        "brain 0x19c0": {
+            "ai_grade 0x1ac8": "shine",
+            "ai_type 0x1a78": "stalker",
+            "animjoint 0x1a88": "stalker",
+            "body_effect 0x1ab8": "stalker",
+            "race 0x1a98": "nevi",
+            "tailchain 0x1aa8": "stalker",
+            "type 0x1a68": "EnemyBrain"
+        },
+        "enemy_action_common 0x24b0": {
+            "find 0x24f8": 20.0,
+            "lose 0x2508": 25.0
+        },
+        "enemy_actions 0x1db0": {
+            "attack 0x1e80": {
+                "damage_cumulation 0x1ff8": 0.0,
+                "damage_type 0x1fd8": "normal",
+                "force 0x1fb8": 1.0,
+                "height 0x2018": 5.0,
+                "interval 0x2028": 3.0,
+                "power 0x1f88": 25.0,
+                "range 0x2008": 3.0,
+                "rate_of_bg 0x1fa8": 40.0,
+                "rate_of_power 0x1f98": 2.0,
+                "trip 0x1fe8": "01000000",
+                "upper_force 0x1fc8": 0.0
+            },
+            "damaged_large 0x2250": {
+                "damage_cumulation 0x2358": 0.0,
+                "damage_type 0x2348": "normal",
+                "force 0x2328": 1.0,
+                "power 0x22f8": 10.0,
+                "rate_of_bg 0x2318": 40.0,
+                "rate_of_power 0x2308": -3.0,
+                "upper_force 0x2338": 0.0
+            },
+            "damaged_middle 0x2140": {
+                "damage_cumulation 0x2248": 0.0,
+                "damage_type 0x2238": "normal",
+                "force 0x2218": 1.0,
+                "power 0x21e8": 10.0,
+                "rate_of_bg 0x2208": 40.0,
+                "rate_of_power 0x21f8": -3.0,
+                "upper_force 0x2228": 0.0
+            },
+            "hard_attack 0x2360": {
+                "damage_cumulation 0x24a8": 0.0,
+                "damage_type 0x2488": "normal",
+                "force 0x2468": 1.0,
+                "hit_se 0x2498": "ene_stk_jump_atk_hit",
+                "power 0x2438": 30.0,
+                "rate_of_bg 0x2458": 40.0,
+                "rate_of_power 0x2448": 4.0,
+                "upper_force 0x2478": 0.0
+            },
+            "spawn 0x2030": {
+                "damage_cumulation 0x2138": 0.0,
+                "damage_type 0x2128": "normal",
+                "force 0x2108": 1.0,
+                "power 0x20d8": 10.0,
+                "rate_of_bg 0x20f8": 10.0,
+                "rate_of_power 0x20e8": -2.0,
+                "upper_force 0x2118": 0.0
+            }
+        },
+        "enemy_body 0x1ad0": {
+            "ash_effect 0x1bc8": "ef_nev_death_nvhan_w",
+            "ash_effect_node 0x1bd8": "samplelink",
+            "ash_se 0x1be8": "ene_disappear",
+            "battle_field_prio 0x1c18": 1.0,
+            "battle_field_range 0x1c08": 10.0,
+            "health 0x1bf8": 60.0,
+            "spawn_effect 0x1ba8": "ef_nev_spw_01",
+            "spawn_se 0x1bb8": "ene_come"
+        },
+        "enemy_parts 0x1c20": {
+            "loc_setCore01 0x1c60": {
+                "angle 0x1d88": 360.0,
+                "body_damage 0x1d48": 60.0,
+                "core 0x1d78": "01000000",
+                "damage_motion_type 0x1d98": "FRONT",
+                "eye_aim_limit 0x1d68": 30.0,
+                "health 0x1d38": 125.0,
+                "homing_angle 0x1da8": 280.0,
+                "lockon 0x1d58": "01000000"
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_grade 0x288": "shine",
+            "ai_type 0x238": "stalker",
+            "animjoint 0x248": "stalker",
+            "body_effect 0x278": "stalker",
+            "race 0x258": "nevi",
+            "tailchain 0x268": "stalker",
+            "type 0x228": "EnemyBrain"
+        },
+        "enemy_action_common 0xc70": {
+            "find 0xcb8": 20.0,
+            "lose 0xcc8": 25.0
+        },
+        "enemy_actions 0x570": {
+            "attack 0x640": {
+                "damage_cumulation 0x7b8": 0.0,
+                "damage_type 0x798": "normal",
+                "force 0x778": 1.0,
+                "height 0x7d8": 5.0,
+                "interval 0x7e8": 3.0,
+                "power 0x748": 15.0,
+                "range 0x7c8": 3.0,
+                "rate_of_bg 0x768": 40.0,
+                "rate_of_power 0x758": 2.0,
+                "trip 0x7a8": "01000000",
+                "upper_force 0x788": 0.0
+            },
+            "damaged_large 0xa10": {
+                "damage_cumulation 0xb18": 0.0,
+                "damage_type 0xb08": "normal",
+                "force 0xae8": 1.0,
+                "power 0xab8": 10.0,
+                "rate_of_bg 0xad8": 40.0,
+                "rate_of_power 0xac8": -3.0,
+                "upper_force 0xaf8": 0.0
+            },
+            "damaged_middle 0x900": {
+                "damage_cumulation 0xa08": 0.0,
+                "damage_type 0x9f8": "normal",
+                "force 0x9d8": 1.0,
+                "power 0x9a8": 10.0,
+                "rate_of_bg 0x9c8": 40.0,
+                "rate_of_power 0x9b8": -3.0,
+                "upper_force 0x9e8": 0.0
+            },
+            "hard_attack 0xb20": {
+                "damage_cumulation 0xc68": 0.0,
+                "damage_type 0xc48": "normal",
+                "force 0xc28": 1.0,
+                "hit_se 0xc58": "ene_stk_jump_atk_hit",
+                "power 0xbf8": 20.0,
+                "rate_of_bg 0xc18": 40.0,
+                "rate_of_power 0xc08": 4.0,
+                "upper_force 0xc38": 0.0
+            },
+            "spawn 0x7f0": {
+                "damage_cumulation 0x8f8": 0.0,
+                "damage_type 0x8e8": "normal",
+                "force 0x8c8": 1.0,
+                "power 0x898": 10.0,
+                "rate_of_bg 0x8b8": 10.0,
+                "rate_of_power 0x8a8": -2.0,
+                "upper_force 0x8d8": 0.0
+            }
+        },
+        "enemy_body 0x290": {
+            "ash_effect 0x388": "ef_nev_death_nvhan_w",
+            "ash_effect_node 0x398": "samplelink",
+            "ash_se 0x3a8": "ene_disappear",
+            "battle_field_prio 0x3d8": 1.0,
+            "battle_field_range 0x3c8": 10.0,
+            "health 0x3b8": 60.0,
+            "spawn_effect 0x368": "ef_nev_spw_01",
+            "spawn_se 0x378": "ene_come"
+        },
+        "enemy_parts 0x3e0": {
+            "loc_setCore01 0x420": {
+                "angle 0x548": 360.0,
+                "body_damage 0x508": 60.0,
+                "core 0x538": "01000000",
+                "damage_motion_type 0x558": "FRONT",
+                "eye_aim_limit 0x528": 30.0,
+                "health 0x4f8": 100.0,
+                "homing_angle 0x568": 280.0,
+                "lockon 0x518": "01000000"
+            }
+        }
+    }
+}

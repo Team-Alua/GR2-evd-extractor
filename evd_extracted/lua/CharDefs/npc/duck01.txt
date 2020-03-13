@@ -1,0 +1,130 @@
+{
+    "animset 0x120": {
+        "fall 0x410": {
+            "blendDuration 0x468": 0.10000000149011612,
+            "file 0x478": "duck01_fall_00",
+            "repeatCount 0x488": -1.0
+        },
+        "fly_00 0x490": {
+            "blendDuration 0x4e8": 0.10000000149011612,
+            "file 0x4f8": "duck01_fly_00",
+            "repeatCount 0x508": -1.0
+        },
+        "grabbed 0x510": {
+            "blendDuration 0x568": 0.10000000149011612,
+            "file 0x578": "duck01_fall_00",
+            "repeatCount 0x588": -1.0
+        },
+        "land 0x590": {
+            "blendDuration 0x5e8": 0.10000000149011612,
+            "file 0x5f8": "duck01_land_00",
+            "repeatCount 0x608": 0.0
+        },
+        "quack_00 0x610": {
+            "blendDuration 0x668": 0.20000000298023224,
+            "file 0x678": "duck01_quack_00",
+            "repeatCount 0x688": 0.0
+        },
+        "run 0x690": {
+            "blendDuration 0x6e8": 0.10000000149011612,
+            "file 0x6f8": "duck01_run_00",
+            "repeatCount 0x708": -1.0
+        },
+        "run1 0x710": {
+            "blendDuration 0x768": 0.20000000298023224,
+            "file 0x778": "duck01_run_01",
+            "repeatCount 0x788": -1.0
+        },
+        "run2 0x790": {
+            "blendDuration 0x7e8": 0.20000000298023224,
+            "file 0x7f8": "duck01_run_01",
+            "repeatCount 0x808": -1.0
+        },
+        "stay 0x810": {
+            "blendDuration 0x868": 0.10000000149011612,
+            "file 0x878": "duck01_stay_00",
+            "repeatCount 0x888": -1.0
+        },
+        "stay_01 0x890": {
+            "blendDuration 0x8e8": 0.10000000149011612,
+            "file 0x8f8": "duck01_stay_01",
+            "repeatCount 0x908": -1.0
+        },
+        "surprise 0x910": {
+            "blendDuration 0x968": 0.10000000149011612,
+            "file 0x978": "duck01_surprise_00",
+            "repeatCount 0x988": 0.0
+        },
+        "turn_l 0x990": {
+            "blendDuration 0x9e8": 0.10000000149011612,
+            "file 0x9f8": "duck01_turn_l_00",
+            "repeatCount 0xa08": 0.0
+        },
+        "turn_r 0xa10": {
+            "blendDuration 0xa68": 0.10000000149011612,
+            "file 0xa78": "duck01_turn_r_00",
+            "repeatCount 0xa88": 0.0
+        },
+        "walk 0xa90": {
+            "blendDuration 0xae8": 0.10000000149011612,
+            "file 0xaf8": "duck01_walk_00",
+            "repeatCount 0xb08": -1.0
+        },
+        "walk1 0xb10": {
+            "blendDuration 0xb68": 0.20000000298023224,
+            "file 0xb78": "duck01_walk_00",
+            "repeatCount 0xb88": -1.0
+        },
+        "walk2 0xb90": {
+            "blendDuration 0xbe8": 0.20000000298023224,
+            "file 0xbf8": "duck01_walk_00",
+            "repeatCount 0xc08": -1.0
+        },
+        "walk_b 0xc10": {
+            "blendDuration 0xc68": 0.10000000149011612,
+            "file 0xc78": "duck01_walk_00",
+            "repeatCount 0xc88": -1.0
+        },
+        "walk_b1 0xc90": {
+            "blendDuration 0xce8": 0.20000000298023224,
+            "file 0xcf8": "duck01_walk_00",
+            "repeatCount 0xd08": -1.0
+        },
+        "walk_b2 0xd10": {
+            "blendDuration 0xd68": 0.20000000298023224,
+            "file 0xd78": "duck01_walk_00",
+            "repeatCount 0xd88": -1.0
+        }
+    },
+    "brain 0xd90": {
+        "ai_type 0xdd8": "npc",
+        "type 0xde8": "EnemyBrain"
+    },
+    "enemy_action_common 0xdf0": {
+        "find 0xe38": 40.0,
+        "lose 0xe48": 45.0
+    },
+    "enemy_body 0xe50": {
+        "health 0xe98": 9999.0,
+        "hit 0xea8": "01000000"
+    },
+    "npc_param 0xeb0": {
+        "param 0xf10": {
+            "category 0xf68": "animal",
+            "damage_type 0xf78": 0.0,
+            "grabbed_type 0xf88": 0.0
+        },
+        "valid 0xf08": "01000000"
+    },
+    "puppet 0xf90": {
+        "animset 0x1018": "npc/duck01",
+        "collision 0x1060": {
+            "center_y 0x10b8": 0.4000000059604645,
+            "height 0x10c8": 0.20000000298023224,
+            "radius 0x10d8": 0.20000000298023224
+        },
+        "modelName 0x1038": "duck01_base",
+        "scale 0x1048": 1.0,
+        "type 0x1058": "Puppet"
+    }
+}

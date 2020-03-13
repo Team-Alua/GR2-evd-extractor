@@ -1,0 +1,464 @@
+{
+    "easy 0x1670": {
+        "brain 0x1760": {
+            "ai_grade 0x1848": "boss",
+            "ai_type 0x1808": "elektricity",
+            "animjoint 0x1818": "elektricity",
+            "race 0x1828": "human",
+            "tailchain 0x1838": "elektricity",
+            "type 0x17f8": "EnemyBrain"
+        },
+        "enemy_action_common 0x2bd0": {
+            "find 0x2c18": 1000.0,
+            "lose 0x2c28": 1000.0
+        },
+        "enemy_actions 0x1c90": {
+            "beat_blitz 0x2400": {
+                "damage_cumulation 0x2558": 0.0,
+                "damage_type 0x2548": "blow",
+                "force 0x2528": 1.0,
+                "interval 0x2578": 5.0,
+                "power 0x24f8": 55.0,
+                "range 0x2568": 50.0,
+                "rate_of_bg 0x2518": 6000.0,
+                "rate_of_power 0x2508": 65.0,
+                "upper_force 0x2538": 0.0,
+                "velocity 0x2588": 300.0
+            },
+            "blitz_move 0x1f50": {
+                "damage_cumulation 0x20a8": 0.0,
+                "damage_type 0x2098": "blow",
+                "force 0x2078": 1.0,
+                "interval 0x20c8": 7.0,
+                "power 0x2048": 15.0,
+                "range 0x20b8": 50.0,
+                "rate_of_bg 0x2068": 2000.0,
+                "rate_of_power 0x2058": 25.0,
+                "upper_force 0x2088": 0.0,
+                "velocity 0x20d8": 300.0
+            },
+            "blitz_move_attack 0x2270": {
+                "damage_cumulation 0x23c8": 0.0,
+                "damage_type 0x23b8": "blow",
+                "force 0x2398": 1.0,
+                "interval 0x23e8": 5.0,
+                "power 0x2368": 30.0,
+                "range 0x23d8": 50.0,
+                "rate_of_bg 0x2388": 3000.0,
+                "rate_of_power 0x2378": 35.0,
+                "upper_force 0x23a8": 0.0,
+                "velocity 0x23f8": 300.0
+            },
+            "blitz_move_attack_start 0x20e0": {
+                "damage_cumulation 0x2238": 0.0,
+                "damage_type 0x2228": "blow",
+                "force 0x2208": 1.0,
+                "interval 0x2258": 5.0,
+                "power 0x21d8": 15.0,
+                "range 0x2248": 50.0,
+                "rate_of_bg 0x21f8": 1500.0,
+                "rate_of_power 0x21e8": 25.0,
+                "upper_force 0x2218": 0.0,
+                "velocity 0x2268": 300.0
+            },
+            "chain_blitz 0x2720": {
+                "damage_cumulation 0x2878": 0.0,
+                "damage_type 0x2868": "blow",
+                "force 0x2848": 1.0,
+                "interval 0x2898": 20.0,
+                "power 0x2818": 65.0,
+                "range 0x2888": 50.0,
+                "rate_of_bg 0x2838": 9000.0,
+                "rate_of_power 0x2828": 80.0,
+                "upper_force 0x2858": 0.0,
+                "velocity 0x28a8": 300.0
+            },
+            "charged_lightning 0x28b0": {
+                "damage_cumulation 0x29e8": 0.0,
+                "damage_type 0x29d8": "normal",
+                "force 0x29b8": 1.0,
+                "interval 0x29f8": 40.0,
+                "power 0x2988": 15.0,
+                "rate_of_bg 0x29a8": 3000.0,
+                "rate_of_power 0x2998": 25.0,
+                "upper_force 0x29c8": 0.0
+            },
+            "charging_blitz 0x2a00": {
+                "damage_cumulation 0x2b38": 0.0,
+                "damage_type 0x2b28": "normal",
+                "force 0x2b08": 1.0,
+                "interval 0x2b48": 40.0,
+                "power 0x2ad8": 25.0,
+                "rate_of_bg 0x2af8": 3000.0,
+                "rate_of_power 0x2ae8": 35.0,
+                "upper_force 0x2b18": 0.0
+            },
+            "lightning 0x2590": {
+                "damage_cumulation 0x26e8": 0.0,
+                "damage_type 0x26d8": "blow",
+                "force 0x26b8": 1.0,
+                "interval 0x2708": 6.0,
+                "power 0x2688": 55.0,
+                "range 0x26f8": 50.0,
+                "rate_of_bg 0x26a8": 6000.0,
+                "rate_of_power 0x2698": 65.0,
+                "upper_force 0x26c8": 0.0,
+                "velocity 0x2718": 300.0
+            },
+            "spawn 0x1e00": {
+                "damage_cumulation 0x1f38": 0.0,
+                "damage_type 0x1f28": "normal",
+                "force 0x1f08": 1.0,
+                "power 0x1ed8": 20.0,
+                "range 0x1f48": 2.5,
+                "rate_of_bg 0x1ef8": 2000.0,
+                "rate_of_power 0x1ee8": -2.0,
+                "upper_force 0x1f18": 0.0
+            }
+        },
+        "enemy_body 0x1850": {
+            "ash_effect 0x1948": "ef_bos_thndth_01",
+            "ash_effect_node 0x1958": "loc_top",
+            "ash_se 0x1968": "ene_elek_disappear",
+            "battle_field_prio 0x1998": 10.0,
+            "battle_field_range 0x1988": 20.0,
+            "health 0x1978": 2500.0,
+            "spawn_effect 0x1928": "ef_bos_thnspw_01",
+            "spawn_se 0x1938": "ene_elek_appear"
+        },
+        "enemy_items 0x2b50": {
+            "cimicromissile01_base 0x2b90": {
+                "item_attach_joint 0x2bc8": "loc_r_hand"
+            }
+        },
+        "enemy_parts 0x19a0": {
+            "loc_top 0x19e0": {
+                "angle 0x1c58": 360.0,
+                "body_damage 0x1b98": 2500.0,
+                "core 0x1c48": "01000000",
+                "crowspecial_rate 0x1c28": 1.0,
+                "damage_motion_type 0x1c68": "FRONT",
+                "debribullet_rate 0x1c08": 0.5,
+                "drillkick_rate 0x1c18": 0.8999999761581421,
+                "gravitythrow_rate 0x1bd8": 0.800000011920929,
+                "gravitytyphoon_rate 0x1bb8": 0.10000000149011612,
+                "health 0x1b88": 2000.0,
+                "homing_angle 0x1c78": 360.0,
+                "lockon 0x1c38": "01000000",
+                "microblackhole_rate 0x1bc8": 1.0,
+                "offset_z 0x1c88": 0.15000000596046448,
+                "penetrate_rate 0x1be8": 0.5,
+                "scratchtornado_rate 0x1ba8": 0.10000000149011612,
+                "vortex_rate 0x1bf8": 0.10000000149011612
+            }
+        }
+    },
+    "hard 0x2c30": {
+        "brain 0x2d20": {
+            "ai_grade 0x2e08": "boss",
+            "ai_type 0x2dc8": "elektricity",
+            "animjoint 0x2dd8": "elektricity",
+            "race 0x2de8": "human",
+            "tailchain 0x2df8": "elektricity",
+            "type 0x2db8": "EnemyBrain"
+        },
+        "enemy_action_common 0x4190": {
+            "find 0x41d8": 1000.0,
+            "lose 0x41e8": 1000.0
+        },
+        "enemy_actions 0x3250": {
+            "beat_blitz 0x39c0": {
+                "damage_cumulation 0x3b18": 0.0,
+                "damage_type 0x3b08": "blow",
+                "force 0x3ae8": 1.0,
+                "interval 0x3b38": 5.0,
+                "power 0x3ab8": 70.0,
+                "range 0x3b28": 50.0,
+                "rate_of_bg 0x3ad8": 6000.0,
+                "rate_of_power 0x3ac8": 65.0,
+                "upper_force 0x3af8": 0.0,
+                "velocity 0x3b48": 300.0
+            },
+            "blitz_move 0x3510": {
+                "damage_cumulation 0x3668": 0.0,
+                "damage_type 0x3658": "blow",
+                "force 0x3638": 1.0,
+                "interval 0x3688": 7.0,
+                "power 0x3608": 30.0,
+                "range 0x3678": 50.0,
+                "rate_of_bg 0x3628": 2000.0,
+                "rate_of_power 0x3618": 25.0,
+                "upper_force 0x3648": 0.0,
+                "velocity 0x3698": 300.0
+            },
+            "blitz_move_attack 0x3830": {
+                "damage_cumulation 0x3988": 0.0,
+                "damage_type 0x3978": "blow",
+                "force 0x3958": 1.0,
+                "interval 0x39a8": 5.0,
+                "power 0x3928": 45.0,
+                "range 0x3998": 50.0,
+                "rate_of_bg 0x3948": 3000.0,
+                "rate_of_power 0x3938": 35.0,
+                "upper_force 0x3968": 0.0,
+                "velocity 0x39b8": 300.0
+            },
+            "blitz_move_attack_start 0x36a0": {
+                "damage_cumulation 0x37f8": 0.0,
+                "damage_type 0x37e8": "blow",
+                "force 0x37c8": 1.0,
+                "interval 0x3818": 5.0,
+                "power 0x3798": 30.0,
+                "range 0x3808": 50.0,
+                "rate_of_bg 0x37b8": 1500.0,
+                "rate_of_power 0x37a8": 25.0,
+                "upper_force 0x37d8": 0.0,
+                "velocity 0x3828": 300.0
+            },
+            "chain_blitz 0x3ce0": {
+                "damage_cumulation 0x3e38": 0.0,
+                "damage_type 0x3e28": "blow",
+                "force 0x3e08": 1.0,
+                "interval 0x3e58": 20.0,
+                "power 0x3dd8": 95.0,
+                "range 0x3e48": 50.0,
+                "rate_of_bg 0x3df8": 9000.0,
+                "rate_of_power 0x3de8": 80.0,
+                "upper_force 0x3e18": 0.0,
+                "velocity 0x3e68": 300.0
+            },
+            "charged_lightning 0x3e70": {
+                "damage_cumulation 0x3fa8": 0.0,
+                "damage_type 0x3f98": "normal",
+                "force 0x3f78": 1.0,
+                "interval 0x3fb8": 40.0,
+                "power 0x3f48": 35.0,
+                "rate_of_bg 0x3f68": 3000.0,
+                "rate_of_power 0x3f58": 25.0,
+                "upper_force 0x3f88": 0.0
+            },
+            "charging_blitz 0x3fc0": {
+                "damage_cumulation 0x40f8": 0.0,
+                "damage_type 0x40e8": "normal",
+                "force 0x40c8": 1.0,
+                "interval 0x4108": 40.0,
+                "power 0x4098": 45.0,
+                "rate_of_bg 0x40b8": 3000.0,
+                "rate_of_power 0x40a8": 35.0,
+                "upper_force 0x40d8": 0.0
+            },
+            "lightning 0x3b50": {
+                "damage_cumulation 0x3ca8": 0.0,
+                "damage_type 0x3c98": "blow",
+                "force 0x3c78": 1.0,
+                "interval 0x3cc8": 6.0,
+                "power 0x3c48": 70.0,
+                "range 0x3cb8": 50.0,
+                "rate_of_bg 0x3c68": 6000.0,
+                "rate_of_power 0x3c58": 65.0,
+                "upper_force 0x3c88": 0.0,
+                "velocity 0x3cd8": 300.0
+            },
+            "spawn 0x33c0": {
+                "damage_cumulation 0x34f8": 0.0,
+                "damage_type 0x34e8": "normal",
+                "force 0x34c8": 1.0,
+                "power 0x3498": 20.0,
+                "range 0x3508": 2.5,
+                "rate_of_bg 0x34b8": 2000.0,
+                "rate_of_power 0x34a8": -2.0,
+                "upper_force 0x34d8": 0.0
+            }
+        },
+        "enemy_body 0x2e10": {
+            "ash_effect 0x2f08": "ef_bos_thndth_01",
+            "ash_effect_node 0x2f18": "loc_top",
+            "ash_se 0x2f28": "ene_elek_disappear",
+            "battle_field_prio 0x2f58": 10.0,
+            "battle_field_range 0x2f48": 20.0,
+            "health 0x2f38": 2500.0,
+            "spawn_effect 0x2ee8": "ef_bos_thnspw_01",
+            "spawn_se 0x2ef8": "ene_elek_appear"
+        },
+        "enemy_items 0x4110": {
+            "cimicromissile01_base 0x4150": {
+                "item_attach_joint 0x4188": "loc_r_hand"
+            }
+        },
+        "enemy_parts 0x2f60": {
+            "loc_top 0x2fa0": {
+                "angle 0x3218": 360.0,
+                "body_damage 0x3158": 2500.0,
+                "core 0x3208": "01000000",
+                "crowspecial_rate 0x31e8": 1.0,
+                "damage_motion_type 0x3228": "FRONT",
+                "debribullet_rate 0x31c8": 0.5,
+                "drillkick_rate 0x31d8": 0.699999988079071,
+                "gravitythrow_rate 0x3198": 0.800000011920929,
+                "gravitytyphoon_rate 0x3178": 0.10000000149011612,
+                "health 0x3148": 2000.0,
+                "homing_angle 0x3238": 360.0,
+                "lockon 0x31f8": "01000000",
+                "microblackhole_rate 0x3188": 1.0,
+                "offset_z 0x3248": 0.15000000596046448,
+                "penetrate_rate 0x31a8": 0.5,
+                "scratchtornado_rate 0x3168": 0.10000000149011612,
+                "vortex_rate 0x31b8": 0.10000000149011612
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x1a0": {
+            "ai_grade 0x288": "boss",
+            "ai_type 0x248": "elektricity",
+            "animjoint 0x258": "elektricity",
+            "race 0x268": "human",
+            "tailchain 0x278": "elektricity",
+            "type 0x238": "EnemyBrain"
+        },
+        "enemy_action_common 0x1610": {
+            "find 0x1658": 1000.0,
+            "lose 0x1668": 1000.0
+        },
+        "enemy_actions 0x6d0": {
+            "beat_blitz 0xe40": {
+                "damage_cumulation 0xf98": 0.0,
+                "damage_type 0xf88": "blow",
+                "force 0xf68": 1.0,
+                "interval 0xfb8": 5.0,
+                "power 0xf38": 65.0,
+                "range 0xfa8": 50.0,
+                "rate_of_bg 0xf58": 6000.0,
+                "rate_of_power 0xf48": 65.0,
+                "upper_force 0xf78": 0.0,
+                "velocity 0xfc8": 300.0
+            },
+            "blitz_move 0x990": {
+                "damage_cumulation 0xae8": 0.0,
+                "damage_type 0xad8": "blow",
+                "force 0xab8": 1.0,
+                "interval 0xb08": 7.0,
+                "power 0xa88": 25.0,
+                "range 0xaf8": 50.0,
+                "rate_of_bg 0xaa8": 2000.0,
+                "rate_of_power 0xa98": 25.0,
+                "upper_force 0xac8": 0.0,
+                "velocity 0xb18": 300.0
+            },
+            "blitz_move_attack 0xcb0": {
+                "damage_cumulation 0xe08": 0.0,
+                "damage_type 0xdf8": "blow",
+                "force 0xdd8": 1.0,
+                "interval 0xe28": 5.0,
+                "power 0xda8": 35.0,
+                "range 0xe18": 50.0,
+                "rate_of_bg 0xdc8": 3000.0,
+                "rate_of_power 0xdb8": 35.0,
+                "upper_force 0xde8": 0.0,
+                "velocity 0xe38": 300.0
+            },
+            "blitz_move_attack_start 0xb20": {
+                "damage_cumulation 0xc78": 0.0,
+                "damage_type 0xc68": "blow",
+                "force 0xc48": 1.0,
+                "interval 0xc98": 5.0,
+                "power 0xc18": 25.0,
+                "range 0xc88": 50.0,
+                "rate_of_bg 0xc38": 1500.0,
+                "rate_of_power 0xc28": 25.0,
+                "upper_force 0xc58": 0.0,
+                "velocity 0xca8": 300.0
+            },
+            "chain_blitz 0x1160": {
+                "damage_cumulation 0x12b8": 0.0,
+                "damage_type 0x12a8": "blow",
+                "force 0x1288": 1.0,
+                "interval 0x12d8": 20.0,
+                "power 0x1258": 80.0,
+                "range 0x12c8": 50.0,
+                "rate_of_bg 0x1278": 9000.0,
+                "rate_of_power 0x1268": 80.0,
+                "upper_force 0x1298": 0.0,
+                "velocity 0x12e8": 300.0
+            },
+            "charged_lightning 0x12f0": {
+                "damage_cumulation 0x1428": 0.0,
+                "damage_type 0x1418": "normal",
+                "force 0x13f8": 1.0,
+                "interval 0x1438": 40.0,
+                "power 0x13c8": 25.0,
+                "rate_of_bg 0x13e8": 3000.0,
+                "rate_of_power 0x13d8": 25.0,
+                "upper_force 0x1408": 0.0
+            },
+            "charging_blitz 0x1440": {
+                "damage_cumulation 0x1578": 0.0,
+                "damage_type 0x1568": "normal",
+                "force 0x1548": 1.0,
+                "interval 0x1588": 40.0,
+                "power 0x1518": 35.0,
+                "rate_of_bg 0x1538": 3000.0,
+                "rate_of_power 0x1528": 35.0,
+                "upper_force 0x1558": 0.0
+            },
+            "lightning 0xfd0": {
+                "damage_cumulation 0x1128": 0.0,
+                "damage_type 0x1118": "blow",
+                "force 0x10f8": 1.0,
+                "interval 0x1148": 6.0,
+                "power 0x10c8": 65.0,
+                "range 0x1138": 50.0,
+                "rate_of_bg 0x10e8": 6000.0,
+                "rate_of_power 0x10d8": 65.0,
+                "upper_force 0x1108": 0.0,
+                "velocity 0x1158": 300.0
+            },
+            "spawn 0x840": {
+                "damage_cumulation 0x978": 0.0,
+                "damage_type 0x968": "normal",
+                "force 0x948": 1.0,
+                "power 0x918": 20.0,
+                "range 0x988": 2.5,
+                "rate_of_bg 0x938": 2000.0,
+                "rate_of_power 0x928": -2.0,
+                "upper_force 0x958": 0.0
+            }
+        },
+        "enemy_body 0x290": {
+            "ash_effect 0x388": "ef_bos_thndth_01",
+            "ash_effect_node 0x398": "loc_top",
+            "ash_se 0x3a8": "ene_elek_disappear",
+            "battle_field_prio 0x3d8": 10.0,
+            "battle_field_range 0x3c8": 20.0,
+            "health 0x3b8": 2500.0,
+            "spawn_effect 0x368": "ef_bos_thnspw_01",
+            "spawn_se 0x378": "ene_elek_appear"
+        },
+        "enemy_items 0x1590": {
+            "cimicromissile01_base 0x15d0": {
+                "item_attach_joint 0x1608": "loc_r_hand"
+            }
+        },
+        "enemy_parts 0x3e0": {
+            "loc_top 0x420": {
+                "angle 0x698": 360.0,
+                "body_damage 0x5d8": 2500.0,
+                "core 0x688": "01000000",
+                "crowspecial_rate 0x668": 1.0,
+                "damage_motion_type 0x6a8": "FRONT",
+                "debribullet_rate 0x648": 0.5,
+                "drillkick_rate 0x658": 0.800000011920929,
+                "gravitythrow_rate 0x618": 0.800000011920929,
+                "gravitytyphoon_rate 0x5f8": 0.10000000149011612,
+                "health 0x5c8": 2000.0,
+                "homing_angle 0x6b8": 360.0,
+                "lockon 0x678": "01000000",
+                "microblackhole_rate 0x608": 1.0,
+                "offset_z 0x6c8": 0.15000000596046448,
+                "penetrate_rate 0x628": 0.5,
+                "scratchtornado_rate 0x5e8": 0.10000000149011612,
+                "vortex_rate 0x638": 0.10000000149011612
+            }
+        }
+    }
+}

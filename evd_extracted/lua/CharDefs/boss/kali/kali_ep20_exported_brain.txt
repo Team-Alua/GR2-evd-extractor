@@ -1,0 +1,476 @@
+{
+    "easy 0x1700": {
+        "brain 0x17d0": {
+            "ai_grade 0x1898": "boss",
+            "ai_type 0x1868": "kali",
+            "animjoint 0x1878": "kali",
+            "race 0x1888": "human",
+            "type 0x1858": "EnemyBrain"
+        },
+        "enemy_action_common 0x2cf0": {
+            "find 0x2d38": 1000.0,
+            "lose 0x2d48": 1000.0
+        },
+        "enemy_actions 0x1c10": {
+            "attack_a 0x1ed0": {
+                "damage_cumulation 0x2028": 0.0,
+                "damage_type 0x2008": "comboblow",
+                "force 0x1fe8": 2.0,
+                "hit_se 0x2018": "ene_kali_punch",
+                "power 0x1fb8": 20.0,
+                "range 0x2038": 0.0,
+                "rate_of_bg 0x1fd8": 125.0,
+                "rate_of_power 0x1fc8": 12.0,
+                "upper_force 0x1ff8": 0.0
+            },
+            "attack_b 0x2040": {
+                "damage_cumulation 0x2198": 0.0,
+                "damage_type 0x2178": "comboknockback",
+                "force 0x2158": 2.0,
+                "hit_se 0x2188": "ene_kali_kick",
+                "power 0x2128": 20.0,
+                "range 0x21a8": 0.0,
+                "rate_of_bg 0x2148": 125.0,
+                "rate_of_power 0x2138": 12.0,
+                "upper_force 0x2168": 0.0
+            },
+            "attack_c 0x21b0": {
+                "damage_cumulation 0x2308": 0.0,
+                "damage_type 0x22e8": "comboblow",
+                "force 0x22c8": 2.0,
+                "hit_se 0x22f8": "ene_kali_backkick",
+                "power 0x2298": 20.0,
+                "range 0x2318": 0.0,
+                "rate_of_bg 0x22b8": 125.0,
+                "rate_of_power 0x22a8": 12.0,
+                "upper_force 0x22d8": 0.0
+            },
+            "attack_grab_air_throw 0x28c0": {
+                "damage_cumulation 0x29f8": 0.0,
+                "damage_type 0x29e8": "comboblow",
+                "force 0x29c8": 0.0,
+                "power 0x2998": 30.0,
+                "range 0x2a08": 0.0,
+                "rate_of_bg 0x29b8": 10000.0,
+                "rate_of_power 0x29a8": 20.0,
+                "upper_force 0x29d8": 0.0
+            },
+            "attack_grab_throw 0x2770": {
+                "damage_cumulation 0x28a8": 0.0,
+                "damage_type 0x2898": "comboblow",
+                "force 0x2878": 0.0,
+                "power 0x2848": 30.0,
+                "range 0x28b8": 0.0,
+                "rate_of_bg 0x2868": 10000.0,
+                "rate_of_power 0x2858": 20.0,
+                "upper_force 0x2888": 0.0
+            },
+            "crystal_attack_00 0x2a10": {
+                "damage_cumulation 0x2b68": 0.0,
+                "damage_type 0x2b48": "comboblow",
+                "force 0x2b28": 1.0,
+                "hit_se 0x2b58": "ene_kali_crystalattack",
+                "power 0x2af8": 30.0,
+                "range 0x2b78": 0.0,
+                "rate_of_bg 0x2b18": 10000.0,
+                "rate_of_power 0x2b08": 20.0,
+                "upper_force 0x2b38": 0.0
+            },
+            "crystal_attack_01 0x2b80": {
+                "damage_cumulation 0x2cd8": 0.0,
+                "damage_type 0x2cb8": "comboblow",
+                "force 0x2c98": 1.0,
+                "hit_se 0x2cc8": "ene_kali_crystalattack",
+                "power 0x2c68": 35.0,
+                "range 0x2ce8": 0.0,
+                "rate_of_bg 0x2c88": 10000.0,
+                "rate_of_power 0x2c78": 22.0,
+                "upper_force 0x2ca8": 0.0
+            },
+            "dropkick 0x2320": {
+                "damage_cumulation 0x2478": 0.0,
+                "damage_type 0x2458": "comboblow",
+                "force 0x2438": 3.0,
+                "hit_se 0x2468": "ene_kali_dropkick_success",
+                "power 0x2408": 25.0,
+                "range 0x2488": 0.0,
+                "rate_of_bg 0x2428": 150.0,
+                "rate_of_power 0x2418": 15.0,
+                "upper_force 0x2448": 0.0
+            },
+            "jump_attack_a 0x2600": {
+                "damage_cumulation 0x2758": 0.0,
+                "damage_type 0x2738": "comboblow",
+                "force 0x2718": 10.0,
+                "hit_se 0x2748": "ene_kali_punch",
+                "power 0x26e8": 30.0,
+                "range 0x2768": 0.0,
+                "rate_of_bg 0x2708": 100.0,
+                "rate_of_power 0x26f8": 17.0,
+                "upper_force 0x2728": 0.0
+            },
+            "spawn 0x1dc0": {
+                "damage_cumulation 0x1eb8": 0.0,
+                "damage_type 0x1ea8": "normal",
+                "force 0x1e88": 1.0,
+                "power 0x1e68": 20.0,
+                "range 0x1ec8": 2.5,
+                "rate_of_power 0x1e78": -2.0,
+                "upper_force 0x1e98": 0.0
+            },
+            "tackle 0x2490": {
+                "damage_cumulation 0x25e8": 0.0,
+                "damage_type 0x25c8": "comboblow",
+                "force 0x25a8": 2.0,
+                "hit_se 0x25d8": "ene_kali_punch",
+                "power 0x2578": 30.0,
+                "range 0x25f8": 0.0,
+                "rate_of_bg 0x2598": 10000.0,
+                "rate_of_power 0x2588": 20.0,
+                "upper_force 0x25b8": 1.0
+            }
+        },
+        "enemy_body 0x18a0": {
+            "battle_field_prio 0x1918": 99.0,
+            "battle_field_range 0x1908": 7.0,
+            "health 0x18f8": 10.0
+        },
+        "enemy_parts 0x1920": {
+            "loc_top 0x1960": {
+                "angle 0x1bd8": 360.0,
+                "body_damage 0x1b18": 10.0,
+                "core 0x1bc8": "01000000",
+                "crowspecial_rate 0x1ba8": 1.0,
+                "damage_motion_type 0x1be8": "FRONT",
+                "debribullet_rate 0x1b88": 0.6000000238418579,
+                "drillkick_rate 0x1b98": 1.0,
+                "gravitythrow_rate 0x1b58": 0.4000000059604645,
+                "gravitytyphoon_rate 0x1b38": 0.14000000059604645,
+                "health 0x1b08": 1100.0,
+                "homing_angle 0x1bf8": 360.0,
+                "lockon 0x1bb8": "01000000",
+                "microblackhole_rate 0x1b48": 0.800000011920929,
+                "offset_z 0x1c08": 0.15000000596046448,
+                "penetrate_rate 0x1b68": 0.25,
+                "scratchtornado_rate 0x1b28": 0.20000000298023224,
+                "vortex_rate 0x1b78": 0.5
+            }
+        }
+    },
+    "hard 0x2d50": {
+        "brain 0x2e20": {
+            "ai_grade 0x2ee8": "boss",
+            "ai_type 0x2eb8": "kali",
+            "animjoint 0x2ec8": "kali",
+            "race 0x2ed8": "human",
+            "type 0x2ea8": "EnemyBrain"
+        },
+        "enemy_action_common 0x4340": {
+            "find 0x4388": 1000.0,
+            "lose 0x4398": 1000.0
+        },
+        "enemy_actions 0x3260": {
+            "attack_a 0x3520": {
+                "damage_cumulation 0x3678": 0.0,
+                "damage_type 0x3658": "comboblow",
+                "force 0x3638": 2.0,
+                "hit_se 0x3668": "ene_kali_punch",
+                "power 0x3608": 30.0,
+                "range 0x3688": 0.0,
+                "rate_of_bg 0x3628": 125.0,
+                "rate_of_power 0x3618": 12.0,
+                "upper_force 0x3648": 0.0
+            },
+            "attack_b 0x3690": {
+                "damage_cumulation 0x37e8": 0.0,
+                "damage_type 0x37c8": "comboknockback",
+                "force 0x37a8": 2.0,
+                "hit_se 0x37d8": "ene_kali_kick",
+                "power 0x3778": 30.0,
+                "range 0x37f8": 0.0,
+                "rate_of_bg 0x3798": 125.0,
+                "rate_of_power 0x3788": 12.0,
+                "upper_force 0x37b8": 0.0
+            },
+            "attack_c 0x3800": {
+                "damage_cumulation 0x3958": 0.0,
+                "damage_type 0x3938": "comboblow",
+                "force 0x3918": 2.0,
+                "hit_se 0x3948": "ene_kali_backkick",
+                "power 0x38e8": 30.0,
+                "range 0x3968": 0.0,
+                "rate_of_bg 0x3908": 125.0,
+                "rate_of_power 0x38f8": 12.0,
+                "upper_force 0x3928": 0.0
+            },
+            "attack_grab_air_throw 0x3f10": {
+                "damage_cumulation 0x4048": 0.0,
+                "damage_type 0x4038": "comboblow",
+                "force 0x4018": 0.0,
+                "power 0x3fe8": 45.0,
+                "range 0x4058": 0.0,
+                "rate_of_bg 0x4008": 10000.0,
+                "rate_of_power 0x3ff8": 20.0,
+                "upper_force 0x4028": 0.0
+            },
+            "attack_grab_throw 0x3dc0": {
+                "damage_cumulation 0x3ef8": 0.0,
+                "damage_type 0x3ee8": "comboblow",
+                "force 0x3ec8": 0.0,
+                "power 0x3e98": 45.0,
+                "range 0x3f08": 0.0,
+                "rate_of_bg 0x3eb8": 10000.0,
+                "rate_of_power 0x3ea8": 20.0,
+                "upper_force 0x3ed8": 0.0
+            },
+            "crystal_attack_00 0x4060": {
+                "damage_cumulation 0x41b8": 0.0,
+                "damage_type 0x4198": "comboblow",
+                "force 0x4178": 1.0,
+                "hit_se 0x41a8": "ene_kali_crystalattack",
+                "power 0x4148": 50.0,
+                "range 0x41c8": 0.0,
+                "rate_of_bg 0x4168": 10000.0,
+                "rate_of_power 0x4158": 20.0,
+                "upper_force 0x4188": 0.0
+            },
+            "crystal_attack_01 0x41d0": {
+                "damage_cumulation 0x4328": 0.0,
+                "damage_type 0x4308": "comboblow",
+                "force 0x42e8": 1.0,
+                "hit_se 0x4318": "ene_kali_crystalattack",
+                "power 0x42b8": 55.0,
+                "range 0x4338": 0.0,
+                "rate_of_bg 0x42d8": 10000.0,
+                "rate_of_power 0x42c8": 22.0,
+                "upper_force 0x42f8": 0.0
+            },
+            "dropkick 0x3970": {
+                "damage_cumulation 0x3ac8": 0.0,
+                "damage_type 0x3aa8": "comboblow",
+                "force 0x3a88": 3.0,
+                "hit_se 0x3ab8": "ene_kali_dropkick_success",
+                "power 0x3a58": 35.0,
+                "range 0x3ad8": 0.0,
+                "rate_of_bg 0x3a78": 150.0,
+                "rate_of_power 0x3a68": 15.0,
+                "upper_force 0x3a98": 0.0
+            },
+            "jump_attack_a 0x3c50": {
+                "damage_cumulation 0x3da8": 0.0,
+                "damage_type 0x3d88": "comboblow",
+                "force 0x3d68": 10.0,
+                "hit_se 0x3d98": "ene_kali_punch",
+                "power 0x3d38": 45.0,
+                "range 0x3db8": 0.0,
+                "rate_of_bg 0x3d58": 100.0,
+                "rate_of_power 0x3d48": 17.0,
+                "upper_force 0x3d78": 0.0
+            },
+            "spawn 0x3410": {
+                "damage_cumulation 0x3508": 0.0,
+                "damage_type 0x34f8": "normal",
+                "force 0x34d8": 1.0,
+                "power 0x34b8": 20.0,
+                "range 0x3518": 2.5,
+                "rate_of_power 0x34c8": -2.0,
+                "upper_force 0x34e8": 0.0
+            },
+            "tackle 0x3ae0": {
+                "damage_cumulation 0x3c38": 0.0,
+                "damage_type 0x3c18": "comboblow",
+                "force 0x3bf8": 2.0,
+                "hit_se 0x3c28": "ene_kali_punch",
+                "power 0x3bc8": 55.0,
+                "range 0x3c48": 0.0,
+                "rate_of_bg 0x3be8": 10000.0,
+                "rate_of_power 0x3bd8": 20.0,
+                "upper_force 0x3c08": 1.0
+            }
+        },
+        "enemy_body 0x2ef0": {
+            "battle_field_prio 0x2f68": 99.0,
+            "battle_field_range 0x2f58": 7.0,
+            "health 0x2f48": 10.0
+        },
+        "enemy_parts 0x2f70": {
+            "loc_top 0x2fb0": {
+                "angle 0x3228": 360.0,
+                "body_damage 0x3168": 10.0,
+                "core 0x3218": "01000000",
+                "crowspecial_rate 0x31f8": 1.0,
+                "damage_motion_type 0x3238": "FRONT",
+                "debribullet_rate 0x31d8": 0.6000000238418579,
+                "drillkick_rate 0x31e8": 1.0,
+                "gravitythrow_rate 0x31a8": 0.4000000059604645,
+                "gravitytyphoon_rate 0x3188": 0.14000000059604645,
+                "health 0x3158": 1350.0,
+                "homing_angle 0x3248": 360.0,
+                "lockon 0x3208": "01000000",
+                "microblackhole_rate 0x3198": 0.800000011920929,
+                "offset_z 0x3258": 0.15000000596046448,
+                "penetrate_rate 0x31b8": 0.25,
+                "scratchtornado_rate 0x3178": 0.20000000298023224,
+                "vortex_rate 0x31c8": 0.5
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_grade 0x248": "boss",
+            "ai_type 0x218": "kali",
+            "animjoint 0x228": "kali",
+            "race 0x238": "human",
+            "type 0x208": "EnemyBrain"
+        },
+        "enemy_action_common 0x16a0": {
+            "find 0x16e8": 1000.0,
+            "lose 0x16f8": 1000.0
+        },
+        "enemy_actions 0x5c0": {
+            "attack_a 0x880": {
+                "damage_cumulation 0x9d8": 0.0,
+                "damage_type 0x9b8": "comboblow",
+                "force 0x998": 2.0,
+                "hit_se 0x9c8": "ene_kali_punch",
+                "power 0x968": 25.0,
+                "range 0x9e8": 0.0,
+                "rate_of_bg 0x988": 125.0,
+                "rate_of_power 0x978": 12.0,
+                "upper_force 0x9a8": 0.0
+            },
+            "attack_b 0x9f0": {
+                "damage_cumulation 0xb48": 0.0,
+                "damage_type 0xb28": "comboknockback",
+                "force 0xb08": 2.0,
+                "hit_se 0xb38": "ene_kali_kick",
+                "power 0xad8": 25.0,
+                "range 0xb58": 0.0,
+                "rate_of_bg 0xaf8": 125.0,
+                "rate_of_power 0xae8": 12.0,
+                "upper_force 0xb18": 0.0
+            },
+            "attack_c 0xb60": {
+                "damage_cumulation 0xcb8": 0.0,
+                "damage_type 0xc98": "comboblow",
+                "force 0xc78": 2.0,
+                "hit_se 0xca8": "ene_kali_backkick",
+                "power 0xc48": 25.0,
+                "range 0xcc8": 0.0,
+                "rate_of_bg 0xc68": 125.0,
+                "rate_of_power 0xc58": 12.0,
+                "upper_force 0xc88": 0.0
+            },
+            "attack_grab_air_throw 0x1270": {
+                "damage_cumulation 0x13a8": 0.0,
+                "damage_type 0x1398": "comboblow",
+                "force 0x1378": 0.0,
+                "power 0x1348": 40.0,
+                "range 0x13b8": 0.0,
+                "rate_of_bg 0x1368": 10000.0,
+                "rate_of_power 0x1358": 20.0,
+                "upper_force 0x1388": 0.0
+            },
+            "attack_grab_throw 0x1120": {
+                "damage_cumulation 0x1258": 0.0,
+                "damage_type 0x1248": "comboblow",
+                "force 0x1228": 0.0,
+                "power 0x11f8": 40.0,
+                "range 0x1268": 0.0,
+                "rate_of_bg 0x1218": 10000.0,
+                "rate_of_power 0x1208": 20.0,
+                "upper_force 0x1238": 0.0
+            },
+            "crystal_attack_00 0x13c0": {
+                "damage_cumulation 0x1518": 0.0,
+                "damage_type 0x14f8": "comboblow",
+                "force 0x14d8": 1.0,
+                "hit_se 0x1508": "ene_kali_crystalattack",
+                "power 0x14a8": 40.0,
+                "range 0x1528": 0.0,
+                "rate_of_bg 0x14c8": 10000.0,
+                "rate_of_power 0x14b8": 20.0,
+                "upper_force 0x14e8": 0.0
+            },
+            "crystal_attack_01 0x1530": {
+                "damage_cumulation 0x1688": 0.0,
+                "damage_type 0x1668": "comboblow",
+                "force 0x1648": 1.0,
+                "hit_se 0x1678": "ene_kali_crystalattack",
+                "power 0x1618": 45.0,
+                "range 0x1698": 0.0,
+                "rate_of_bg 0x1638": 10000.0,
+                "rate_of_power 0x1628": 22.0,
+                "upper_force 0x1658": 0.0
+            },
+            "dropkick 0xcd0": {
+                "damage_cumulation 0xe28": 0.0,
+                "damage_type 0xe08": "comboblow",
+                "force 0xde8": 3.0,
+                "hit_se 0xe18": "ene_kali_dropkick_success",
+                "power 0xdb8": 30.0,
+                "range 0xe38": 0.0,
+                "rate_of_bg 0xdd8": 150.0,
+                "rate_of_power 0xdc8": 15.0,
+                "upper_force 0xdf8": 0.0
+            },
+            "jump_attack_a 0xfb0": {
+                "damage_cumulation 0x1108": 0.0,
+                "damage_type 0x10e8": "comboblow",
+                "force 0x10c8": 10.0,
+                "hit_se 0x10f8": "ene_kali_punch",
+                "power 0x1098": 35.0,
+                "range 0x1118": 0.0,
+                "rate_of_bg 0x10b8": 100.0,
+                "rate_of_power 0x10a8": 17.0,
+                "upper_force 0x10d8": 0.0
+            },
+            "spawn 0x770": {
+                "damage_cumulation 0x868": 0.0,
+                "damage_type 0x858": "normal",
+                "force 0x838": 1.0,
+                "power 0x818": 20.0,
+                "range 0x878": 2.5,
+                "rate_of_power 0x828": -2.0,
+                "upper_force 0x848": 0.0
+            },
+            "tackle 0xe40": {
+                "damage_cumulation 0xf98": 0.0,
+                "damage_type 0xf78": "comboblow",
+                "force 0xf58": 2.0,
+                "hit_se 0xf88": "ene_kali_punch",
+                "power 0xf28": 40.0,
+                "range 0xfa8": 0.0,
+                "rate_of_bg 0xf48": 10000.0,
+                "rate_of_power 0xf38": 20.0,
+                "upper_force 0xf68": 1.0
+            }
+        },
+        "enemy_body 0x250": {
+            "battle_field_prio 0x2c8": 99.0,
+            "battle_field_range 0x2b8": 7.0,
+            "health 0x2a8": 10.0
+        },
+        "enemy_parts 0x2d0": {
+            "loc_top 0x310": {
+                "angle 0x588": 360.0,
+                "body_damage 0x4c8": 10.0,
+                "core 0x578": "01000000",
+                "crowspecial_rate 0x558": 1.0,
+                "damage_motion_type 0x598": "FRONT",
+                "debribullet_rate 0x538": 0.6000000238418579,
+                "drillkick_rate 0x548": 1.0,
+                "gravitythrow_rate 0x508": 0.4000000059604645,
+                "gravitytyphoon_rate 0x4e8": 0.14000000059604645,
+                "health 0x4b8": 1250.0,
+                "homing_angle 0x5a8": 360.0,
+                "lockon 0x568": "01000000",
+                "microblackhole_rate 0x4f8": 0.800000011920929,
+                "offset_z 0x5b8": 0.15000000596046448,
+                "penetrate_rate 0x518": 0.25,
+                "scratchtornado_rate 0x4d8": 0.20000000298023224,
+                "vortex_rate 0x528": 0.5
+            }
+        }
+    }
+}

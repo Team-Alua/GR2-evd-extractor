@@ -1,0 +1,512 @@
+{
+    "entities 0xb0": {
+        "0x1020": {
+            "clips 0x1110": {
+                "0x1130": {
+                    "endFrame 0x1188": 314.0,
+                    "startFrame 0x1198": 269.0,
+                    "visibilityOffset 0x11a8": 1.0
+                }
+            },
+            "effect 0x11b0": {
+                "modelName 0x11e8": "ef_dm_ep26_00750m_snow_fall_04"
+            },
+            "name 0x10d8": "c06_snow",
+            "transform 0x11f0": {
+                "translation 0x1230": {
+                    "0x1248": -228.956298828125,
+                    "0x1258": 369.65283203125,
+                    "0x1268": -28.33184814453125
+                }
+            },
+            "type 0x10f8": "effect",
+            "uuid 0x1108": "{01360aca-2bbe-4570-b387-6af178fb1514}"
+        },
+        "0x1270": {
+            "clips 0x1360": {
+                "0x1380": {
+                    "endFrame 0x13d8": 359.0,
+                    "startFrame 0x13e8": 314.0,
+                    "visibilityOffset 0x13f8": 1.0
+                }
+            },
+            "effect 0x1400": {
+                "modelName 0x1438": "ef_dm_ep26_00750m_snow_fall_05"
+            },
+            "name 0x1328": "c07_snow",
+            "transform 0x1440": {
+                "translation 0x1480": {
+                    "0x1498": -147.7618865966797,
+                    "0x14a8": 282.6501159667969,
+                    "0x14b8": -23.464115142822266
+                }
+            },
+            "type 0x1348": "effect",
+            "uuid 0x1358": "{27ee8055-7c70-467c-a524-6ebfd4b8956c}"
+        },
+        "0x14c0": {
+            "animations 0x1630": {
+                "pointlight 0x1670": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x16b0": {
+                        "lightIntensity 0x16f0": {
+                            "keyframes 0x1730": {
+                                "0x1760": {
+                                    "key 0x17a8": 0.0,
+                                    "time 0x17b8": 208.0
+                                },
+                                "0x17c0": {
+                                    "key 0x1808": 10.0,
+                                    "time 0x1818": 220.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x1820": {
+                "0x1840": {
+                    "endFrame 0x1888": 239.0,
+                    "startFrame 0x1898": 208.0
+                }
+            },
+            "name 0x15c8": "c04_PointLight",
+            "parentJointName 0x15d8": "bn_r_hand",
+            "parentNodeName 0x15e8": "cid01",
+            "pointlight 0x18a0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x18e0": {
+                    "innerRadius 0x1978": 0.0,
+                    "lightColorB 0x1988": 0.01568627543747425,
+                    "lightColorG 0x1998": 0.0,
+                    "lightColorR 0x19a8": 1.0,
+                    "lightIntensity 0x19b8": 10.0,
+                    "outerRadius 0x19c8": 3.0
+                }
+            },
+            "transform 0x19d0": {
+                "translation 0x1a10": {
+                    "0x1a28": 0.0,
+                    "0x1a38": -1.5,
+                    "0x1a48": 1.0
+                }
+            },
+            "type 0x1618": "pointlight",
+            "uuid 0x1628": "{67192a7f-f4bc-4b7d-8090-9f64058507f8}"
+        },
+        "0x1a0": {
+            "bg 0x270": {
+                "modelName 0x2a8": "dt_c_root"
+            },
+            "clips 0x2b0": {
+                "0x2d0": {
+                    "endFrame 0x318": 359.0,
+                    "startFrame 0x328": 75.0
+                }
+            },
+            "name 0x248": "dt",
+            "type 0x258": "bg",
+            "uuid 0x268": "{c0c5344e-2cfc-4792-8711-324281c80b07}"
+        },
+        "0x1a50": {
+            "clips 0x1ba0": {
+                "0x1bc0": {
+                    "endFrame 0x1c08": 269.0,
+                    "startFrame 0x1c18": 240.0
+                }
+            },
+            "name 0x1b38": "c05_PointLight",
+            "parentJointName 0x1b48": "bn_r_hand",
+            "parentNodeName 0x1b58": "cid01",
+            "pointlight 0x1c20": {
+                "/root/G2PointLight1/G2PointLightShape1 0x1c60": {
+                    "innerRadius 0x1cf8": 0.0,
+                    "lightColorB 0x1d08": 0.01568627543747425,
+                    "lightColorG 0x1d18": 0.0,
+                    "lightColorR 0x1d28": 1.0,
+                    "lightIntensity 0x1d38": 10.0,
+                    "outerRadius 0x1d48": 4.199999809265137
+                }
+            },
+            "transform 0x1d50": {
+                "translation 0x1d90": {
+                    "0x1da8": 0.0,
+                    "0x1db8": -1.5,
+                    "0x1dc8": 2.0
+                }
+            },
+            "type 0x1b88": "pointlight",
+            "uuid 0x1b98": "{ee868587-e7ef-4704-82f2-74734f83e8d5}"
+        },
+        "0x1dd0": {
+            "animations 0x1f60": {
+                "pointlight 0x1fa0": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x1fe0": {
+                        "lightIntensity 0x2020": {
+                            "keyframes 0x2060": {
+                                "0x2090": {
+                                    "key 0x20d8": 0.0,
+                                    "time 0x20e8": 208.0
+                                },
+                                "0x20f0": {
+                                    "key 0x2138": 10.0,
+                                    "time 0x2148": 220.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x2150": {
+                "0x2170": {
+                    "endFrame 0x21c8": 269.0,
+                    "startFrame 0x21d8": 210.0,
+                    "visibilityOffset 0x21e8": 30.0
+                }
+            },
+            "effect 0x21f0": {
+                "modelName 0x2238": "ef_dm_ep26_00750m_glow_light_01",
+                "scale 0x2250": {
+                    "0x2268": 0.699999988079071,
+                    "0x2278": 0.699999988079071,
+                    "0x2288": 0.699999988079071
+                }
+            },
+            "name 0x1ef8": "c05_Red_Glow",
+            "parentJointName 0x1f08": "bn_r_hand",
+            "parentNodeName 0x1f18": "cid01",
+            "pointlight 0x2290": {
+                "/root/G2PointLight1/G2PointLightShape1 0x22d0": {
+                    "innerRadius 0x2368": 0.0,
+                    "lightColorB 0x2378": 0.01568627543747425,
+                    "lightColorG 0x2388": 0.0,
+                    "lightColorR 0x2398": 1.0,
+                    "lightIntensity 0x23a8": 10.0,
+                    "outerRadius 0x23b8": 3.0
+                }
+            },
+            "transform 0x23c0": {
+                "rotation 0x2420": {
+                    "0x2438": 120.0,
+                    "0x2448": 0.0,
+                    "0x2458": 30.0
+                },
+                "translation 0x2460": {
+                    "0x2478": 0.007362000178545713,
+                    "0x2488": -0.04550199955701828,
+                    "0x2498": 0.11969000101089478
+                }
+            },
+            "type 0x1f48": "effect",
+            "uuid 0x1f58": "{c2966147-6324-4033-8886-5931514bd217}"
+        },
+        "0x24a0": {
+            "animations 0x2630": {
+                "pointlight 0x2670": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x26b0": {
+                        "lightIntensity 0x26f0": {
+                            "keyframes 0x2730": {
+                                "0x2760": {
+                                    "key 0x27a8": 0.0,
+                                    "time 0x27b8": 208.0
+                                },
+                                "0x27c0": {
+                                    "key 0x2808": 10.0,
+                                    "time 0x2818": 220.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x2820": {
+                "0x2840": {
+                    "endFrame 0x2888": 239.0,
+                    "startFrame 0x2898": 208.0
+                }
+            },
+            "effect 0x28a0": {
+                "modelName 0x28e8": "ef_dm_ep26_00750m_glow_light_01",
+                "scale 0x2900": {
+                    "0x2918": 0.6000000238418579,
+                    "0x2928": 0.6000000238418579,
+                    "0x2938": 0.6000000238418579
+                }
+            },
+            "name 0x25c8": "c04_Red_Glow",
+            "parentJointName 0x25d8": "bn_r_hand",
+            "parentNodeName 0x25e8": "cid01",
+            "pointlight 0x2940": {
+                "/root/G2PointLight1/G2PointLightShape1 0x2980": {
+                    "innerRadius 0x2a18": 0.0,
+                    "lightColorB 0x2a28": 0.01568627543747425,
+                    "lightColorG 0x2a38": 0.0,
+                    "lightColorR 0x2a48": 1.0,
+                    "lightIntensity 0x2a58": 10.0,
+                    "outerRadius 0x2a68": 3.0
+                }
+            },
+            "transform 0x2a70": {
+                "rotation 0x2ad0": {
+                    "0x2ae8": 120.0,
+                    "0x2af8": 0.0,
+                    "0x2b08": 30.0
+                },
+                "translation 0x2b10": {
+                    "0x2b28": 0.014999999664723873,
+                    "0x2b38": -0.04800000041723251,
+                    "0x2b48": 0.11999999731779099
+                }
+            },
+            "type 0x2618": "effect",
+            "uuid 0x2628": "{c3c53995-260d-48e3-b7f9-ccf0ad60a886}"
+        },
+        "0x2b50": {
+            "animations 0x2ce0": {
+                "pointlight 0x2d20": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x2d60": {
+                        "lightIntensity 0x2da0": {
+                            "keyframes 0x2de0": {
+                                "0x2e10": {
+                                    "key 0x2e58": 0.0,
+                                    "time 0x2e68": 208.0
+                                },
+                                "0x2e70": {
+                                    "key 0x2eb8": 10.0,
+                                    "time 0x2ec8": 220.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x2ed0": {
+                "0x2ef0": {
+                    "endFrame 0x2f48": 314.0,
+                    "startFrame 0x2f58": 210.0,
+                    "visibilityOffset 0x2f68": 60.0
+                }
+            },
+            "effect 0x2f70": {
+                "modelName 0x2fb8": "ef_dm_ep26_00750m_glow_light_01",
+                "scale 0x2fd0": {
+                    "0x2fe8": 2.200000047683716,
+                    "0x2ff8": 2.200000047683716,
+                    "0x3008": 2.200000047683716
+                }
+            },
+            "name 0x2c78": "c06_Red_Glow",
+            "parentJointName 0x2c88": "bn_r_hand",
+            "parentNodeName 0x2c98": "cid01",
+            "pointlight 0x3010": {
+                "/root/G2PointLight1/G2PointLightShape1 0x3050": {
+                    "innerRadius 0x30e8": 0.0,
+                    "lightColorB 0x30f8": 0.01568627543747425,
+                    "lightColorG 0x3108": 0.0,
+                    "lightColorR 0x3118": 1.0,
+                    "lightIntensity 0x3128": 10.0,
+                    "outerRadius 0x3138": 3.0
+                }
+            },
+            "transform 0x3140": {
+                "rotation 0x31a0": {
+                    "0x31b8": 120.0,
+                    "0x31c8": 0.0,
+                    "0x31d8": 30.0
+                },
+                "translation 0x31e0": {
+                    "0x31f8": 0.014999999664723873,
+                    "0x3208": -0.04800000041723251,
+                    "0x3218": 0.11999999731779099
+                }
+            },
+            "type 0x2cc8": "effect",
+            "uuid 0x2cd8": "{dd8caae2-c46c-4fdc-b4e9-1e8b9ee80c39}"
+        },
+        "0x3220": {
+            "animations 0x33b0": {
+                "pointlight 0x33f0": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x3430": {
+                        "lightIntensity 0x3470": {
+                            "keyframes 0x34b0": {
+                                "0x34e0": {
+                                    "key 0x3528": 0.0,
+                                    "time 0x3538": 208.0
+                                },
+                                "0x3540": {
+                                    "key 0x3588": 10.0,
+                                    "time 0x3598": 220.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x35a0": {
+                "0x35c0": {
+                    "endFrame 0x3608": 239.0,
+                    "startFrame 0x3618": 213.0
+                }
+            },
+            "effect 0x3620": {
+                "modelName 0x3658": "ef_dm_ep26_00750m_glow_light_02"
+            },
+            "name 0x3348": "c04_Red_Glow_shining",
+            "parentJointName 0x3358": "bn_r_hand",
+            "parentNodeName 0x3368": "cid01",
+            "pointlight 0x3660": {
+                "/root/G2PointLight1/G2PointLightShape1 0x36a0": {
+                    "innerRadius 0x3738": 0.0,
+                    "lightColorB 0x3748": 0.01568627543747425,
+                    "lightColorG 0x3758": 0.0,
+                    "lightColorR 0x3768": 1.0,
+                    "lightIntensity 0x3778": 10.0,
+                    "outerRadius 0x3788": 3.0
+                }
+            },
+            "transform 0x3790": {
+                "rotation 0x37f0": {
+                    "0x3808": 120.0,
+                    "0x3818": 0.0,
+                    "0x3828": 30.0
+                },
+                "translation 0x3830": {
+                    "0x3848": 0.014999999664723873,
+                    "0x3858": -0.04800000041723251,
+                    "0x3868": 0.11999999731779099
+                }
+            },
+            "type 0x3398": "effect",
+            "uuid 0x33a8": "{b925b498-7a27-44e6-8ae4-0bf7fab376e2}"
+        },
+        "0x330": {
+            "clips 0x420": {
+                "0x440": {
+                    "endFrame 0x488": 74.0,
+                    "startFrame 0x498": -10.0
+                }
+            },
+            "effect 0x4a0": {
+                "modelName 0x4d8": "ef_dm_ep26_00750m_snow_fall_01"
+            },
+            "name 0x3e8": "c01_snow",
+            "transform 0x4e0": {
+                "translation 0x520": {
+                    "0x538": 78.86422729492188,
+                    "0x548": 91.40680694580078,
+                    "0x558": 18.822782516479492
+                }
+            },
+            "type 0x408": "effect",
+            "uuid 0x418": "{369ede47-2da0-424d-a6ef-e4690ae8dfab}"
+        },
+        "0x560": {
+            "clips 0x650": {
+                "0x670": {
+                    "endFrame 0x6c8": 119.0,
+                    "startFrame 0x6d8": 74.0,
+                    "visibilityOffset 0x6e8": 1.0
+                }
+            },
+            "effect 0x6f0": {
+                "modelName 0x728": "ef_dm_ep26_00750m_snow_fall_02"
+            },
+            "name 0x618": "c02_snow",
+            "transform 0x730": {
+                "rotation 0x790": {
+                    "0x7a8": 0.0,
+                    "0x7b8": 90.0,
+                    "0x7c8": 0.0
+                },
+                "translation 0x7d0": {
+                    "0x7e8": -44.583587646484375,
+                    "0x7f8": 334.0977783203125,
+                    "0x808": -27.320093154907227
+                }
+            },
+            "type 0x638": "effect",
+            "uuid 0x648": "{876b956c-ba01-4a8b-8423-0f970d14c8b1}"
+        },
+        "0x810": {
+            "clips 0x900": {
+                "0x920": {
+                    "endFrame 0x978": 179.0,
+                    "startFrame 0x988": 119.0,
+                    "visibilityOffset 0x998": 1.0
+                }
+            },
+            "effect 0x9a0": {
+                "modelName 0x9d8": "ef_dm_ep26_00750m_snow_fall_03"
+            },
+            "name 0x8c8": "c03_snow",
+            "transform 0x9e0": {
+                "rotation 0xa40": {
+                    "0xa58": 0.0,
+                    "0xa68": 90.0,
+                    "0xa78": 0.0
+                },
+                "translation 0xa80": {
+                    "0xa98": -198.14675903320312,
+                    "0xaa8": 350.4507141113281,
+                    "0xab8": -28.35002326965332
+                }
+            },
+            "type 0x8e8": "effect",
+            "uuid 0x8f8": "{538db294-dc57-4654-a823-63c5692c195b}"
+        },
+        "0xac0": {
+            "clips 0xbb0": {
+                "0xbd0": {
+                    "endFrame 0xc28": 239.0,
+                    "startFrame 0xc38": 179.0,
+                    "visibilityOffset 0xc48": 1.0
+                }
+            },
+            "effect 0xc50": {
+                "modelName 0xc88": "ef_dm_ep26_00750m_snow_fall_04"
+            },
+            "name 0xb78": "c04_snow",
+            "transform 0xc90": {
+                "rotation 0xcf0": {
+                    "0xd08": 0.0,
+                    "0xd18": 0.0,
+                    "0xd28": 0.0
+                },
+                "translation 0xd30": {
+                    "0xd48": -230.44479370117188,
+                    "0xd58": 365.26678466796875,
+                    "0xd68": -15.219121932983398
+                }
+            },
+            "type 0xb98": "effect",
+            "uuid 0xba8": "{e65153b8-d914-442d-9a0f-bf90d42b66a8}"
+        },
+        "0xd70": {
+            "clips 0xe60": {
+                "0xe80": {
+                    "endFrame 0xed8": 269.0,
+                    "startFrame 0xee8": 239.0,
+                    "visibilityOffset 0xef8": 1.0
+                }
+            },
+            "effect 0xf00": {
+                "modelName 0xf38": "ef_dm_ep26_00750m_snow_fall_03"
+            },
+            "name 0xe28": "c05_snow",
+            "transform 0xf40": {
+                "rotation 0xfa0": {
+                    "0xfb8": 0.0,
+                    "0xfc8": 90.0,
+                    "0xfd8": 0.0
+                },
+                "translation 0xfe0": {
+                    "0x1008": 350.4507141113281,
+                    "0x1018": -28.35002326965332,
+                    "0xff8": -198.14675903320312
+                }
+            },
+            "type 0xe48": "effect",
+            "uuid 0xe58": "{c4d0b74c-6849-4323-a1e4-1d76f6439eaa}"
+        }
+    },
+    "playbackEndFrame 0x98": 359.0,
+    "playbackStartFrame 0xa8": -10.0
+}

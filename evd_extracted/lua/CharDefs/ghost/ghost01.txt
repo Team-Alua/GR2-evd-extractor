@@ -1,0 +1,49 @@
+{
+    "glimmer 0x1e0": {
+        "0x250": {
+            "anim 0x2a8": "mwalk_l_stance",
+            "except 0x2d0": {
+                "0x2e8": "mwalk_l_stance",
+                "0x2f8": "mwalk_r_stance"
+            },
+            "out_time 0x2b8": 2.0
+        },
+        "0x300": {
+            "anim 0x358": "mwalk_r_stance",
+            "except 0x380": {
+                "0x398": "mwalk_l_stance",
+                "0x3a8": "mwalk_r_stance"
+            },
+            "out_time 0x368": 2.0
+        },
+        "0x3b0": {
+            "anim 0x408": "jump_ready",
+            "except 0x430": {},
+            "out_time 0x418": 2.0
+        },
+        "0x440": {
+            "anim 0x488": "land_and_jump",
+            "out_time 0x498": 2.0
+        },
+        "0x4a0": {
+            "anim 0x4e8": "land_mars_impact",
+            "out_time 0x4f8": 2.0
+        },
+        "0x500": {
+            "anim 0x558": "",
+            "except 0x580": {},
+            "out_time 0x568": 2.0
+        }
+    },
+    "puppet 0x90": {
+        "animset 0x138": "kit01",
+        "collision 0x160": {
+            "center_y 0x1d8": 0.5,
+            "height 0x1c8": 1.0,
+            "radius 0x1b8": 0.4000000059604645
+        },
+        "modelName 0x128": "ghs01_base",
+        "scale 0x148": 1.0,
+        "type 0x118": "Puppet"
+    }
+}

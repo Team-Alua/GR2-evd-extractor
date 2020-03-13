@@ -1,0 +1,57 @@
+{
+    "animset 0x120": {
+        "down_00 0x1a0": {
+            "blendDuration 0x1f8": 0.10000000149011612,
+            "file 0x208": "lever00_down_00",
+            "repeatCount 0x218": 0.0
+        },
+        "stay_00 0x220": {
+            "blendDuration 0x278": 0.0,
+            "file 0x288": "lever00_stay_00",
+            "repeatCount 0x298": -1.0
+        },
+        "up_00 0x2a0": {
+            "blendDuration 0x2f8": 0.10000000149011612,
+            "file 0x308": "lever00_up_00",
+            "repeatCount 0x318": 0.0
+        }
+    },
+    "brain 0x320": {
+        "ai_type 0x368": "npc",
+        "type 0x378": "EnemyBrain"
+    },
+    "enemy_action_common 0x380": {
+        "find 0x3c8": 40.0,
+        "lose 0x3d8": 45.0
+    },
+    "enemy_body 0x3e0": {
+        "health 0x428": 9999.0,
+        "hit 0x438": "01000000"
+    },
+    "npc_param 0x440": {
+        "param 0x4c0": {
+            "category 0x518": "other",
+            "damage_type 0x528": 0.0,
+            "grabbed_type 0x538": 0.0
+        },
+        "sight 0x540": {
+            "degree_h 0x5c8": 60.0,
+            "degree_v 0x5d8": 45.0,
+            "in_length 0x5e8": 4.0,
+            "out_length 0x5f8": 6.0,
+            "valid 0x608": "00000000"
+        },
+        "valid 0x4b8": "01000000"
+    },
+    "puppet 0x610": {
+        "animset 0x698": "npc/lever",
+        "collision 0x6e0": {
+            "center_y 0x738": 0.0,
+            "height 0x748": 0.0,
+            "radius 0x758": 0.0
+        },
+        "modelName 0x6b8": "lever00_base",
+        "scale 0x6c8": 1.0,
+        "type 0x6d8": "Puppet"
+    }
+}

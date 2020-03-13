@@ -1,0 +1,39 @@
+{
+    "brain 0x400": {
+        "ai_type 0x468": "fix",
+        "animjoint 0x478": "gianttest",
+        "type 0x458": "EnemyBrain"
+    },
+    "enemy_body 0x480": {
+        "ash_effect 0x528": "grn_l_02_death_eff",
+        "ash_se 0x538": "ene_disappear_L",
+        "health 0x548": 360.0,
+        "spawn_effect 0x508": "grn_l_02_shutsugen_eff",
+        "spawn_se 0x518": "ene_come"
+    },
+    "puppet 0xb0": {
+        "animattr 0x1f8": "gianttest",
+        "animset 0x1e8": "gianttest",
+        "center_y 0x218": 1.0,
+        "collision 0x240": {
+            "center_y 0x308": 2.75,
+            "filename_detection 0x2d8": "grn_l_02_base",
+            "height 0x2f8": 5.5,
+            "keyframe 0x2c8": "01000000",
+            "radius 0x2e8": 1.399999976158142
+        },
+        "drivenkey 0x1d8": "00000000",
+        "modelName 0x1b8": "gianttest_base",
+        "replace_models 0x310": {
+            "loc_armor_body 0x3a8": "/OFF",
+            "loc_armor_footL 0x3e8": "/OFF",
+            "loc_armor_hand 0x3c8": "/OFF",
+            "loc_armor_legL 0x3d8": "/OFF",
+            "loc_armor_legR 0x3f8": "/OFF",
+            "loc_armor_shoul 0x3b8": "/OFF"
+        },
+        "scale 0x208": 0.8999999761581421,
+        "type 0x1a8": "Puppet",
+        "yureName 0x1c8": "00000000"
+    }
+}

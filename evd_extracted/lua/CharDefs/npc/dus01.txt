@@ -1,0 +1,70 @@
+{
+    "animset 0x120": {
+        "hold 0x230": {
+            "blendDuration 0x288": 0.0,
+            "file 0x298": "dus01_held_sissy_00",
+            "repeatCount 0x2a8": -1.0
+        },
+        "run 0x2b0": {
+            "blendDuration 0x308": 0.10000000149011612,
+            "file 0x318": "dus01_run_00",
+            "repeatCount 0x328": -1.0
+        },
+        "stay 0x330": {
+            "blendDuration 0x388": 0.10000000149011612,
+            "file 0x398": "dus01_stay_00",
+            "repeatCount 0x3a8": -1.0
+        },
+        "turn_l 0x3b0": {
+            "blendDuration 0x408": 0.10000000149011612,
+            "file 0x418": "dus01_turn_l_00",
+            "repeatCount 0x428": 0.0
+        },
+        "turn_r 0x430": {
+            "blendDuration 0x488": 0.10000000149011612,
+            "file 0x498": "dus01_turn_r_00",
+            "repeatCount 0x4a8": 0.0
+        },
+        "walk 0x4b0": {
+            "blendDuration 0x508": 0.10000000149011612,
+            "file 0x518": "dus01_walk_00",
+            "repeatCount 0x528": -1.0
+        },
+        "walk_b 0x530": {
+            "blendDuration 0x588": 0.10000000149011612,
+            "file 0x598": "dus01_walk_00",
+            "repeatCount 0x5a8": -1.0
+        }
+    },
+    "brain 0x5b0": {
+        "ai_type 0x5f8": "npc",
+        "type 0x608": "EnemyBrain"
+    },
+    "enemy_action_common 0x610": {
+        "find 0x658": 40.0,
+        "lose 0x668": 45.0
+    },
+    "enemy_body 0x670": {
+        "health 0x6b8": 9999.0,
+        "hit 0x6c8": "01000000"
+    },
+    "npc_param 0x6d0": {
+        "param 0x730": {
+            "category 0x788": "animal",
+            "damage_type 0x798": 0.0,
+            "grabbed_type 0x7a8": 0.0
+        },
+        "valid 0x728": "01000000"
+    },
+    "puppet 0x7b0": {
+        "animset 0x838": "npc/dus01",
+        "collision 0x880": {
+            "center_y 0x8d8": 0.4000000059604645,
+            "height 0x8e8": 0.20000000298023224,
+            "radius 0x8f8": 0.20000000298023224
+        },
+        "modelName 0x858": "dus01_base",
+        "scale 0x868": 1.0,
+        "type 0x878": "Puppet"
+    }
+}

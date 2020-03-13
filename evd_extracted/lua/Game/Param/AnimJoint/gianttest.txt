@@ -1,0 +1,33 @@
+{
+    "animjoint 0x70": {
+        "0x200": {
+            "anim 0x2b8": "attack_shock_wave",
+            "attr 0x298": "Attack",
+            "parent 0x2d8": "bn_spine2",
+            "shape 0x2f0": {
+                "0x308": "Sphere",
+                "0x318": 10.0
+            },
+            "timing 0x320": {
+                "0x338": 40.0,
+                "0x348": 300.0
+            },
+            "userData 0x2a8": "attack_point2"
+        },
+        "0xa0": {
+            "anim 0x158": "attack_b",
+            "attr 0x138": "Attack",
+            "parent 0x178": "bn_r_hand",
+            "shape 0x190": {
+                "0x1a8": "Capsule",
+                "0x1b8": 1.0,
+                "0x1c8": 1.0
+            },
+            "timing 0x1d0": {
+                "0x1e8": 0.0,
+                "0x1f8": 300.0
+            },
+            "userData 0x148": "attack_point1"
+        }
+    }
+}

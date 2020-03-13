@@ -1,0 +1,97 @@
+{
+    "animjoint 0x70": {
+        "0x110": {
+            "anim 0x1b8": "spawn",
+            "attr 0x198": "Attack",
+            "shape 0x1e0": {
+                "0x1f8": "Sphere",
+                "0x208": 1.75
+            },
+            "timing 0x210": {
+                "0x228": 0.0,
+                "0x238": 50.0
+            },
+            "userData 0x1a8": "spawn"
+        },
+        "0x240": {
+            "anim 0x2a8": "open",
+            "attr 0x2c0": {
+                "0x2d8": "EventMessage",
+                "0x2e8": "playOpenCloseSound"
+            },
+            "timing 0x2f0": {
+                "0x308": 2.0
+            }
+        },
+        "0x310": {
+            "anim 0x378": "open",
+            "attr 0x390": {
+                "0x3a8": "EventMessage",
+                "0x3b8": "stopOpenCloseSound"
+            },
+            "timing 0x3c0": {
+                "0x3d8": 72.0
+            }
+        },
+        "0x3e0": {
+            "anim 0x448": "close",
+            "attr 0x460": {
+                "0x478": "EventMessage",
+                "0x488": "playOpenCloseSound"
+            },
+            "timing 0x490": {
+                "0x4a8": 2.0
+            }
+        },
+        "0x4b0": {
+            "anim 0x518": "close",
+            "attr 0x530": {
+                "0x548": "EventMessage",
+                "0x558": "stopOpenCloseSound"
+            },
+            "timing 0x560": {
+                "0x578": 80.0
+            }
+        },
+        "0x580": {
+            "anim 0x5e8": "open",
+            "attr 0x600": {
+                "0x618": "Sound",
+                "0x628": "ene_bub_open"
+            },
+            "timing 0x630": {
+                "0x648": 5.0
+            }
+        },
+        "0x650": {
+            "anim 0x6b8": "open",
+            "attr 0x6d0": {
+                "0x6e8": "Sound",
+                "0x6f8": "ene_bub_close"
+            },
+            "timing 0x700": {
+                "0x718": 65.0
+            }
+        },
+        "0x720": {
+            "anim 0x788": "close",
+            "attr 0x7a0": {
+                "0x7b8": "Sound",
+                "0x7c8": "ene_bub_open"
+            },
+            "timing 0x7d0": {
+                "0x7e8": 8.0
+            }
+        },
+        "0x7f0": {
+            "anim 0x858": "close",
+            "attr 0x870": {
+                "0x888": "Sound",
+                "0x898": "ene_bub_close"
+            },
+            "timing 0x8a0": {
+                "0x8b8": 64.0
+            }
+        }
+    }
+}

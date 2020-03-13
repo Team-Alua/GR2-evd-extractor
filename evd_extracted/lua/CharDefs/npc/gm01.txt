@@ -1,0 +1,54 @@
+{
+    "animset 0x120": {
+        "fly 0x1d0": {
+            "blendDuration 0x228": 0.10000000149011612,
+            "file 0x238": "gm01_stay_00",
+            "repeatCount 0x248": 0.0
+        },
+        "fly1 0x250": {
+            "blendDuration 0x2a8": 0.10000000149011612,
+            "file 0x2b8": "gm01_stay_00",
+            "repeatCount 0x2c8": 0.0
+        },
+        "stay 0x2d0": {
+            "blendDuration 0x328": 0.10000000149011612,
+            "file 0x338": "gm01_stay_00",
+            "repeatCount 0x348": -1.0
+        },
+        "stay_one 0x350": {
+            "blendDuration 0x3a8": 0.10000000149011612,
+            "file 0x3b8": "gm01_stay_00",
+            "repeatCount 0x3c8": 0.0
+        }
+    },
+    "brain 0x3d0": {
+        "ai_type 0x418": "npc",
+        "type 0x428": "EnemyBrain"
+    },
+    "enemy_action_common 0x430": {
+        "find 0x478": 40.0,
+        "lose 0x488": 45.0
+    },
+    "enemy_body 0x490": {
+        "health 0x4d8": 9999.0,
+        "hit 0x4e8": "00000000"
+    },
+    "npc_param 0x4f0": {
+        "param 0x550": {
+            "damage_type 0x598": 0.0,
+            "grabbed_type 0x5a8": 0.0
+        },
+        "valid 0x548": "01000000"
+    },
+    "puppet 0x5b0": {
+        "animset 0x638": "npc/gm01",
+        "collision 0x680": {
+            "center_y 0x6d8": 0.0,
+            "height 0x6e8": 0.0,
+            "radius 0x6f8": 0.0
+        },
+        "modelName 0x658": "gm01_base",
+        "scale 0x668": 1.0,
+        "type 0x678": "Puppet"
+    }
+}

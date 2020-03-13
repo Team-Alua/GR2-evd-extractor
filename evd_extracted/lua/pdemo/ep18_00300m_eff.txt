@@ -1,0 +1,667 @@
+{
+    "entities 0x70": {
+        "0x1160": {
+            "clips 0x12b0": {
+                "0x12d0": {
+                    "endFrame 0x1318": 420.0,
+                    "startFrame 0x1328": 325.0
+                }
+            },
+            "effect 0x1330": {
+                "modelName 0x1368": "ef_dm_ep18_00300m_twk_02"
+            },
+            "name 0x1258": "c5_sis_twinkle",
+            "parentJointName 0x1268": "bn_root",
+            "parentNodeName 0x1278": "sis01",
+            "transform 0x1370": {
+                "rotation 0x13d0": {
+                    "0x13e8": 90.0,
+                    "0x13f8": 0.0,
+                    "0x1408": 0.0
+                },
+                "translation 0x1410": {
+                    "0x1428": -0.0024190000258386135,
+                    "0x1438": 0.0098879998549819,
+                    "0x1448": 0.04634099826216698
+                }
+            },
+            "type 0x1298": "effect",
+            "uuid 0x12a8": "{44dc1597-0c32-4a92-9520-f0871087cfa2}"
+        },
+        "0x1450": {
+            "animations 0x15e0": {
+                "pointlight 0x1620": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x1660": {
+                        "lightIntensity 0x16a0": {
+                            "keyframes 0x16e0": {
+                                "0x1760": {
+                                    "key 0x17a8": 0.0,
+                                    "time 0x17b8": 325.0
+                                },
+                                "0x17c0": {
+                                    "key 0x1808": 0.5,
+                                    "time 0x1818": 389.0
+                                },
+                                "0x1820": {
+                                    "key 0x1868": 1.0,
+                                    "time 0x1878": 405.0
+                                },
+                                "0x1880": {
+                                    "key 0x18c8": 2.0,
+                                    "time 0x18d8": 414.0
+                                },
+                                "0x18e0": {
+                                    "key 0x1928": 3.0,
+                                    "time 0x1938": 416.0
+                                },
+                                "0x1940": {
+                                    "key 0x1988": 9.0,
+                                    "time 0x1998": 419.0
+                                },
+                                "0x19a0": {
+                                    "key 0x19e8": 8.0,
+                                    "time 0x19f8": 429.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x1a00": {
+                "0x1a20": {
+                    "endFrame 0x1a68": 429.0,
+                    "startFrame 0x1a78": 325.0
+                }
+            },
+            "effect 0x1a80": {
+                "modelName 0x1ab8": "ef_dm_ep18_00300m_spl_01"
+            },
+            "name 0x1578": "c5_splash_plt",
+            "parentJointName 0x1588": "bn_root",
+            "parentNodeName 0x1598": "sis01",
+            "pointlight 0x1ac0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x1b00": {
+                    "lightColorB 0x1b88": 0.7529411911964417,
+                    "lightColorG 0x1b98": 0.7529411911964417,
+                    "lightColorR 0x1ba8": 1.0,
+                    "lightIntensity 0x1bb8": 7.0920000076293945,
+                    "outerRadius 0x1bc8": 357.1000061035156
+                }
+            },
+            "transform 0x1bd0": {
+                "rotation 0x1c30": {
+                    "0x1c48": 0.0,
+                    "0x1c58": 0.0,
+                    "0x1c68": 0.0
+                },
+                "translation 0x1c70": {
+                    "0x1c88": 0.028905000537633896,
+                    "0x1c98": -0.4736289978027344,
+                    "0x1ca8": -0.06434600055217743
+                }
+            },
+            "type 0x15c8": "pointlight",
+            "uuid 0x15d8": "{7a432498-1727-4dfa-8b1d-07e889c3ff7b}"
+        },
+        "0x1cb0": {
+            "clips 0x1e00": {
+                "0x1e20": {
+                    "endFrame 0x1e68": 954.0,
+                    "startFrame 0x1e78": 430.0
+                }
+            },
+            "effect 0x1e80": {
+                "modelName 0x1ec8": "ef_dm_ep18_00300m_body_stn_01",
+                "scale 0x1ee0": {
+                    "0x1ef8": 1.2000000476837158,
+                    "0x1f08": 1.0,
+                    "0x1f18": 1.0
+                }
+            },
+            "name 0x1da8": "c7-11_body_stones_1",
+            "parentJointName 0x1db8": "bn_l_thigh",
+            "parentNodeName 0x1dc8": "sis01",
+            "transform 0x1f20": {
+                "rotation 0x1f80": {
+                    "0x1f98": 0.0,
+                    "0x1fa8": 0.0,
+                    "0x1fb8": 0.0
+                },
+                "translation 0x1fc0": {
+                    "0x1fd8": 0.053435999900102615,
+                    "0x1fe8": -0.05903000012040138,
+                    "0x1ff8": 0.10974899679422379
+                }
+            },
+            "type 0x1de8": "effect",
+            "uuid 0x1df8": "{7330ea29-09b3-4a86-87c2-13452e7af70c}"
+        },
+        "0x1f0": {
+            "bg 0x2c0": {
+                "disable_particle_load 0x308": "01000000",
+                "modelName 0x318": "dt_a_root"
+            },
+            "clips 0x320": {
+                "0x340": {
+                    "endFrame 0x388": 789.0,
+                    "startFrame 0x398": 0.0
+                }
+            },
+            "name 0x298": "bg",
+            "type 0x2a8": "bg",
+            "uuid 0x2b8": "{6b99c793-917c-4d10-bbd8-d27a95de50a5}"
+        },
+        "0x2000": {
+            "clips 0x2150": {
+                "0x2170": {
+                    "endFrame 0x21b8": 954.0,
+                    "startFrame 0x21c8": 430.0
+                }
+            },
+            "effect 0x21d0": {
+                "modelName 0x2218": "ef_dm_ep18_00300m_body_stn_01",
+                "scale 0x2230": {
+                    "0x2248": 1.5,
+                    "0x2258": 1.0,
+                    "0x2268": 1.0
+                }
+            },
+            "name 0x20f8": "c7-11_body_stones_2",
+            "parentJointName 0x2108": "bn_r_leg",
+            "parentNodeName 0x2118": "sis01",
+            "transform 0x2270": {
+                "rotation 0x22d0": {
+                    "0x22e8": -60.0,
+                    "0x22f8": 0.0,
+                    "0x2308": 0.0
+                },
+                "translation 0x2310": {
+                    "0x2328": -0.07268700003623962,
+                    "0x2338": 0.04508199915289879,
+                    "0x2348": -0.039726000279188156
+                }
+            },
+            "type 0x2138": "effect",
+            "uuid 0x2148": "{37255fa9-7259-47c0-805a-0f591cba9d98}"
+        },
+        "0x2350": {
+            "clips 0x24a0": {
+                "0x24c0": {
+                    "endFrame 0x2508": 954.0,
+                    "startFrame 0x2518": 430.0
+                }
+            },
+            "effect 0x2520": {
+                "modelName 0x2568": "ef_dm_ep18_00300m_body_stn_01",
+                "scale 0x2580": {
+                    "0x2598": 1.2000000476837158,
+                    "0x25a8": 1.0,
+                    "0x25b8": 1.0
+                }
+            },
+            "name 0x2448": "c7-11_body_stones_3",
+            "parentJointName 0x2458": "bn_pelvis",
+            "parentNodeName 0x2468": "sis01",
+            "transform 0x25c0": {
+                "rotation 0x2620": {
+                    "0x2638": 0.0,
+                    "0x2648": 0.0,
+                    "0x2658": 0.0
+                },
+                "translation 0x2660": {
+                    "0x2678": -0.08941800147294998,
+                    "0x2688": 0.07640600204467773,
+                    "0x2698": 0.12375599890947342
+                }
+            },
+            "type 0x2488": "effect",
+            "uuid 0x2498": "{d7e7faed-e77d-485c-a96e-ea3c1afbfc9e}"
+        },
+        "0x26a0": {
+            "clips 0x27f0": {
+                "0x2810": {
+                    "endFrame 0x2858": 954.0,
+                    "startFrame 0x2868": 430.0
+                }
+            },
+            "effect 0x2870": {
+                "modelName 0x28a8": "ef_dm_ep18_00300m_body_stn_01"
+            },
+            "name 0x2798": "c7-11_body_stones_4",
+            "parentJointName 0x27a8": "bn_pelvis",
+            "parentNodeName 0x27b8": "sis01",
+            "transform 0x28b0": {
+                "rotation 0x2910": {
+                    "0x2928": 0.0,
+                    "0x2938": 0.0,
+                    "0x2948": 0.0
+                },
+                "translation 0x2950": {
+                    "0x2968": 0.08542100340127945,
+                    "0x2978": -0.08307600021362305,
+                    "0x2988": 0.08792900294065475
+                }
+            },
+            "type 0x27d8": "effect",
+            "uuid 0x27e8": "{be47c924-2684-486c-973f-a128bed6d4cd}"
+        },
+        "0x2990": {
+            "clips 0x2a80": {
+                "0x2aa0": {
+                    "endFrame 0x2ae8": 954.0,
+                    "startFrame 0x2af8": 438.0
+                }
+            },
+            "effect 0x2b00": {
+                "modelName 0x2b38": "ef_dm_ep18_00300m_hit_01"
+            },
+            "name 0x2a48": "c7_grg_hit_1",
+            "transform 0x2b40": {
+                "rotation 0x2ba0": {
+                    "0x2bb8": 0.0,
+                    "0x2bc8": 180.0,
+                    "0x2bd8": 0.0
+                },
+                "translation 0x2be0": {
+                    "0x2bf8": 20.495014190673828,
+                    "0x2c08": 91.36743927001953,
+                    "0x2c18": 19.611665725708008
+                }
+            },
+            "type 0x2a68": "effect",
+            "uuid 0x2a78": "{ef881423-2c6b-4315-8533-0647c57fa2aa}"
+        },
+        "0x2c20": {
+            "clips 0x2d10": {
+                "0x2d30": {
+                    "endFrame 0x2d78": 954.0,
+                    "startFrame 0x2d88": 456.0
+                }
+            },
+            "effect 0x2d90": {
+                "modelName 0x2dc8": "ef_dm_ep18_00300m_hit_02"
+            },
+            "name 0x2cd8": "c7_grg_hit_2",
+            "transform 0x2dd0": {
+                "rotation 0x2e30": {
+                    "0x2e48": 0.0,
+                    "0x2e58": 180.0,
+                    "0x2e68": 0.0
+                },
+                "translation 0x2e70": {
+                    "0x2e88": 20.975488662719727,
+                    "0x2e98": 91.37652587890625,
+                    "0x2ea8": 21.483491897583008
+                }
+            },
+            "type 0x2cf8": "effect",
+            "uuid 0x2d08": "{d47aa6dd-ed8c-4170-94dd-cb7133a6fdfe}"
+        },
+        "0x2eb0": {
+            "clips 0x2fa0": {
+                "0x2fc0": {
+                    "endFrame 0x3008": 954.0,
+                    "startFrame 0x3018": 417.0
+                }
+            },
+            "effect 0x3020": {
+                "modelName 0x3058": "ef_dm_ep18_00300m_smk_01"
+            },
+            "name 0x2f68": "c7_sis_smoke",
+            "transform 0x3060": {
+                "rotation 0x30c0": {
+                    "0x30d8": 0.0,
+                    "0x30e8": 0.0,
+                    "0x30f8": 0.0
+                },
+                "translation 0x3100": {
+                    "0x3118": 20.675453186035156,
+                    "0x3128": 91.48544311523438,
+                    "0x3138": 10.993947982788086
+                }
+            },
+            "type 0x2f88": "effect",
+            "uuid 0x2f98": "{baeb7590-ebad-4fc7-a083-43a3c0d2bcff}"
+        },
+        "0x3140": {
+            "clips 0x3230": {
+                "0x3250": {
+                    "endFrame 0x3298": 954.0,
+                    "startFrame 0x32a8": 417.0
+                }
+            },
+            "effect 0x32b0": {
+                "modelName 0x32e8": "ef_dm_ep18_00300m_stn_01"
+            },
+            "name 0x31f8": "c7_sis_stones",
+            "transform 0x32f0": {
+                "rotation 0x3350": {
+                    "0x3368": 0.0,
+                    "0x3378": 0.0,
+                    "0x3388": 0.0
+                },
+                "translation 0x3390": {
+                    "0x33a8": 21.04642677307129,
+                    "0x33b8": 91.21903991699219,
+                    "0x33c8": 11.849899291992188
+                }
+            },
+            "type 0x3218": "effect",
+            "uuid 0x3228": "{21ffe6e0-69ab-4d92-90d6-3162c705a2d6}"
+        },
+        "0x33d0": {
+            "clips 0x3520": {
+                "0x3540": {
+                    "endFrame 0x3588": 429.0,
+                    "startFrame 0x3598": 0.0
+                }
+            },
+            "effect 0x35a0": {
+                "modelName 0x35d8": "ef_mcn_glgt_01"
+            },
+            "name 0x34c8": "gri_light_01",
+            "parentJointName 0x34d8": "bn_root",
+            "parentNodeName 0x34e8": "mcgri01",
+            "transform 0x35e0": {
+                "translation 0x3620": {
+                    "0x3638": 0.0,
+                    "0x3648": 0.009999999776482582,
+                    "0x3658": 0.17299999296665192
+                }
+            },
+            "type 0x3508": "effect",
+            "uuid 0x3518": "{40899ddd-303d-4a08-b54f-eba48dd36c2e}"
+        },
+        "0x3660": {
+            "clips 0x37b0": {
+                "0x37d0": {
+                    "endFrame 0x3818": 429.0,
+                    "startFrame 0x3828": 0.0
+                }
+            },
+            "effect 0x3830": {
+                "modelName 0x3868": "ef_mcn_glgt_01"
+            },
+            "name 0x3758": "gri_light_02",
+            "parentJointName 0x3768": "bn_root",
+            "parentNodeName 0x3778": "mcgri02",
+            "transform 0x3870": {
+                "translation 0x38b0": {
+                    "0x38c8": 0.0,
+                    "0x38d8": 0.009999999776482582,
+                    "0x38e8": 0.17299999296665192
+                }
+            },
+            "type 0x3798": "effect",
+            "uuid 0x37a8": "{1da9eb65-a905-4bcb-88bd-79069dbcbb58}"
+        },
+        "0x38f0": {
+            "clips 0x3a40": {
+                "0x3a60": {
+                    "endFrame 0x3aa8": 429.0,
+                    "startFrame 0x3ab8": 0.0
+                }
+            },
+            "effect 0x3ac0": {
+                "modelName 0x3af8": "ef_mcn_glgt_01"
+            },
+            "name 0x39e8": "gri_light_03",
+            "parentJointName 0x39f8": "bn_root",
+            "parentNodeName 0x3a08": "mcgri03",
+            "transform 0x3b00": {
+                "translation 0x3b40": {
+                    "0x3b58": 0.0,
+                    "0x3b68": 0.009999999776482582,
+                    "0x3b78": 0.17299999296665192
+                }
+            },
+            "type 0x3a28": "effect",
+            "uuid 0x3a38": "{898b8a59-3217-4b05-bab4-ce894112943f}"
+        },
+        "0x3a0": {
+            "bg 0x470": {
+                "modelName 0x4a8": "dt_a_root"
+            },
+            "clips 0x4b0": {
+                "0x4d0": {
+                    "endFrame 0x518": 954.0,
+                    "startFrame 0x528": 790.0
+                }
+            },
+            "name 0x448": "bg_2",
+            "type 0x458": "bg",
+            "uuid 0x468": "{fc04021f-e97a-440a-a58e-052d3b396458}"
+        },
+        "0x3b80": {
+            "clips 0x3cd0": {
+                "0x3cf0": {
+                    "endFrame 0x3d38": 954.0,
+                    "startFrame 0x3d48": 430.0
+                }
+            },
+            "effect 0x3d50": {
+                "modelName 0x3d98": "ef_dm_ep18_00300m_body_stn_01",
+                "scale 0x3db0": {
+                    "0x3dc8": 1.2000000476837158,
+                    "0x3dd8": 1.0,
+                    "0x3de8": 1.0
+                }
+            },
+            "name 0x3c78": "c7-11_body_stones_5",
+            "parentJointName 0x3c88": "bn_pelvis",
+            "parentNodeName 0x3c98": "sis01",
+            "transform 0x3df0": {
+                "rotation 0x3e50": {
+                    "0x3e68": 0.0,
+                    "0x3e78": 0.0,
+                    "0x3e88": 0.0
+                },
+                "translation 0x3e90": {
+                    "0x3ea8": -0.11087200045585632,
+                    "0x3eb8": 0.03520200029015541,
+                    "0x3ec8": 0.07646200060844421
+                }
+            },
+            "type 0x3cb8": "effect",
+            "uuid 0x3cc8": "{6b159bdc-1a48-4ec1-8ff1-b626200e7019}"
+        },
+        "0x3ed0": {
+            "clips 0x4020": {
+                "0x4040": {
+                    "endFrame 0x4088": 954.0,
+                    "startFrame 0x4098": 430.0
+                }
+            },
+            "effect 0x40a0": {
+                "modelName 0x40d8": "ef_dm_ep18_00300m_body_stn_01"
+            },
+            "name 0x3fc8": "c7-11_body_stones_6",
+            "parentJointName 0x3fd8": "bn_pelvis",
+            "parentNodeName 0x3fe8": "sis01",
+            "transform 0x40e0": {
+                "rotation 0x4140": {
+                    "0x4158": 0.0,
+                    "0x4168": 0.0,
+                    "0x4178": 0.0
+                },
+                "translation 0x4180": {
+                    "0x4198": 0.10366600006818771,
+                    "0x41a8": -0.053348999470472336,
+                    "0x41b8": 0.06271400302648544
+                }
+            },
+            "type 0x4008": "effect",
+            "uuid 0x4018": "{14ae6e3d-7aef-4f14-8a24-f5598704f189}"
+        },
+        "0x41c0": {
+            "clips 0x4310": {
+                "0x4330": {
+                    "endFrame 0x4378": 954.0,
+                    "startFrame 0x4388": 430.0
+                }
+            },
+            "effect 0x4390": {
+                "modelName 0x43c8": "ef_dm_ep18_00300m_body_stn_01"
+            },
+            "name 0x42b8": "c7-11_body_stones_7",
+            "parentJointName 0x42c8": "bn_pelvis",
+            "parentNodeName 0x42d8": "sis01",
+            "transform 0x43d0": {
+                "rotation 0x4430": {
+                    "0x4448": 0.0,
+                    "0x4458": 0.0,
+                    "0x4468": 0.0
+                },
+                "translation 0x4470": {
+                    "0x4488": 0.06766899675130844,
+                    "0x4498": 0.028220999985933304,
+                    "0x44a8": -0.04824100062251091
+                }
+            },
+            "type 0x42f8": "effect",
+            "uuid 0x4308": "{db84e371-175f-468e-9b3d-7b03d79a2c06}"
+        },
+        "0x44b0": {
+            "clips 0x4600": {
+                "0x4620": {
+                    "endFrame 0x4668": 954.0,
+                    "startFrame 0x4678": 430.0
+                }
+            },
+            "effect 0x4680": {
+                "modelName 0x46b8": "ef_dm_ep18_00300m_body_stn_01"
+            },
+            "name 0x45a8": "c7-11_body_stones_8",
+            "parentJointName 0x45b8": "bn_l_leg",
+            "parentNodeName 0x45c8": "sis01",
+            "transform 0x46c0": {
+                "rotation 0x4720": {
+                    "0x4738": 0.0,
+                    "0x4748": 0.0,
+                    "0x4758": 0.0
+                },
+                "translation 0x4760": {
+                    "0x4778": 0.02967499941587448,
+                    "0x4788": 0.043873000890016556,
+                    "0x4798": 0.2395939975976944
+                }
+            },
+            "type 0x45e8": "effect",
+            "uuid 0x45f8": "{9225d02f-959e-48f2-9b43-adced3874e1d}"
+        },
+        "0x530": {
+            "clips 0x680": {
+                "0x6a0": {
+                    "endFrame 0x6e8": 420.0,
+                    "startFrame 0x6f8": 0.0
+                }
+            },
+            "effect 0x700": {
+                "modelName 0x738": "ef_dm_ep18_00300m_twk_01"
+            },
+            "name 0x628": "c1-5_sis_twinkle",
+            "parentJointName 0x638": "bn_root",
+            "parentNodeName 0x648": "sis01",
+            "transform 0x740": {
+                "rotation 0x7a0": {
+                    "0x7b8": 90.0,
+                    "0x7c8": 0.0,
+                    "0x7d8": 0.0
+                },
+                "translation 0x7e0": {
+                    "0x7f8": -0.0024190000258386135,
+                    "0x808": 0.0098879998549819,
+                    "0x818": 0.04634099826216698
+                }
+            },
+            "type 0x668": "effect",
+            "uuid 0x678": "{3edf5ef5-23a7-4f33-95b7-71936c111b3f}"
+        },
+        "0x820": {
+            "clips 0x990": {
+                "0x9b0": {
+                    "endFrame 0x9f8": 249.0,
+                    "startFrame 0xa08": 160.0
+                }
+            },
+            "effect 0xa10": {
+                "modelName 0xa48": ""
+            },
+            "name 0x928": "c3_sis_plt",
+            "parentJointName 0x938": "bn_root",
+            "parentNodeName 0x948": "sis01",
+            "pointlight 0xa50": {
+                "/root/G2PointLight1/G2PointLightShape1 0xa90": {
+                    "lightColorB 0xb18": 0.43529412150382996,
+                    "lightColorG 0xb28": 0.4274509847164154,
+                    "lightColorR 0xb38": 0.7921568751335144,
+                    "lightIntensity 0xb48": 8.418000221252441,
+                    "outerRadius 0xb58": 2.0
+                }
+            },
+            "transform 0xb60": {
+                "translation 0xba0": {
+                    "0xbb8": 0.06814999878406525,
+                    "0xbc8": -0.3143619894981384,
+                    "0xbd8": 0.08746299892663956
+                }
+            },
+            "type 0x978": "pointlight",
+            "uuid 0x988": "{92ff1ee8-1577-4e99-8109-ccfd76978cd3}"
+        },
+        "0xbe0": {
+            "clips 0xd30": {
+                "0xd50": {
+                    "endFrame 0xd98": 534.0,
+                    "startFrame 0xda8": 419.0
+                }
+            },
+            "effect 0xdb0": {
+                "modelName 0xde8": "ef_dm_ep18_00300m_spl_01"
+            },
+            "name 0xcd8": "c5-6_sis_splash",
+            "parentJointName 0xce8": "bn_root",
+            "parentNodeName 0xcf8": "sis01",
+            "transform 0xdf0": {
+                "rotation 0xe50": {
+                    "0xe68": 0.0,
+                    "0xe78": 0.0,
+                    "0xe88": 0.0
+                },
+                "translation 0xe90": {
+                    "0xea8": -0.023065999150276184,
+                    "0xeb8": 0.03493500128388405,
+                    "0xec8": -0.007759000174701214
+                }
+            },
+            "type 0xd18": "effect",
+            "uuid 0xd28": "{1bb80561-0524-403c-82b2-fb309f27a766}"
+        },
+        "0xed0": {
+            "clips 0xfc0": {
+                "0xfe0": {
+                    "endFrame 0x1028": 954.0,
+                    "startFrame 0x1038": 417.0
+                }
+            },
+            "effect 0x1040": {
+                "modelName 0x1078": "ef_dm_ep18_00300m_twk_03"
+            },
+            "name 0xf88": "c5-7_twinkle",
+            "transform 0x1080": {
+                "rotation 0x10e0": {
+                    "0x10f8": 90.0,
+                    "0x1108": 0.0,
+                    "0x1118": 0.0
+                },
+                "translation 0x1120": {
+                    "0x1138": 20.67544937133789,
+                    "0x1148": 91.48544311523438,
+                    "0x1158": 10.993949890136719
+                }
+            },
+            "type 0xfa8": "effect",
+            "uuid 0xfb8": "{44b6eb87-2308-4d6a-83e9-809ef6cdc3a0}"
+        }
+    }
+}

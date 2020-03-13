@@ -1,0 +1,572 @@
+{
+    "animjoint 0x70": {
+        "0x1110": {
+            "anim 0x11d8": "attack_b",
+            "attr 0x11b8": "Attack",
+            "layout 0x1220": {
+                "pos 0x1260": {
+                    "0x1278": 0.0,
+                    "0x1288": 0.0,
+                    "0x1298": 0.0
+                }
+            },
+            "parent 0x11e8": "bn_ra08_wrist_r",
+            "shape 0x12a0": {
+                "0x12b8": "Sphere",
+                "0x12c8": 1.0
+            },
+            "timing 0x12d0": {
+                "0x12e8": 8.0,
+                "0x12f8": 12.0
+            },
+            "userData 0x11c8": "attack_a"
+        },
+        "0x1300": {
+            "anim 0x1368": "attack_b",
+            "attr 0x1380": {
+                "0x1398": "TailChainCommand",
+                "0x13a8": "imp neck off"
+            },
+            "timing 0x13b0": {
+                "0x13c8": 1.0,
+                "0x13d8": 13.0
+            }
+        },
+        "0x13e0": {
+            "anim 0x1448": "attack_b",
+            "attr 0x1460": {
+                "0x1478": "Sound",
+                "0x1488": "ene_imp_attack_scissor"
+            },
+            "timing 0x1490": {
+                "0x14a8": 8.0
+            }
+        },
+        "0x14b0": {
+            "amplitude 0x1660": {
+                "0x1678": 0.07999999821186066
+            },
+            "anim 0x1598": "attack_b",
+            "attr 0x1588": "CameraShake",
+            "distFalloff 0x16a0": {
+                "0x16b8": 40.0
+            },
+            "durationSec 0x1640": {
+                "0x1658": 1.0
+            },
+            "frequency 0x1680": {
+                "0x1698": 5.0
+            },
+            "timing 0x1600": {
+                "0x1618": 10.0
+            },
+            "waveSlot 0x1620": {
+                "0x1638": 0.0
+            }
+        },
+        "0x16c0": {
+            "anim 0x1788": "attack_c",
+            "attr 0x1768": "Attack",
+            "layout 0x17d0": {
+                "pos 0x1810": {
+                    "0x1828": 0.0,
+                    "0x1838": 0.0,
+                    "0x1848": 0.0
+                }
+            },
+            "parent 0x1798": "bn_la08_wrist_l",
+            "shape 0x1850": {
+                "0x1868": "Sphere",
+                "0x1878": 1.0
+            },
+            "timing 0x1880": {
+                "0x1898": 17.0,
+                "0x18a8": 20.0
+            },
+            "userData 0x1778": "attack_a"
+        },
+        "0x18b0": {
+            "anim 0x1978": "attack_c",
+            "attr 0x1958": "Attack",
+            "layout 0x19c0": {
+                "pos 0x1a00": {
+                    "0x1a18": 0.0,
+                    "0x1a28": 0.0,
+                    "0x1a38": 0.0
+                }
+            },
+            "parent 0x1988": "bn_ra08_wrist_r",
+            "shape 0x1a40": {
+                "0x1a58": "Sphere",
+                "0x1a68": 1.0
+            },
+            "timing 0x1a70": {
+                "0x1a88": 9.0,
+                "0x1a98": 12.0
+            },
+            "userData 0x1968": "attack_a"
+        },
+        "0x1aa0": {
+            "anim 0x1b08": "attack_c",
+            "attr 0x1b20": {
+                "0x1b38": "TailChainCommand",
+                "0x1b48": "imp neck off"
+            },
+            "timing 0x1b50": {
+                "0x1b68": 1.0,
+                "0x1b78": 21.0
+            }
+        },
+        "0x1b80": {
+            "anim 0x1be8": "attack_c",
+            "attr 0x1c00": {
+                "0x1c18": "Sound",
+                "0x1c28": "ene_imp_attack_scissor"
+            },
+            "timing 0x1c30": {
+                "0x1c48": 9.0
+            }
+        },
+        "0x1c50": {
+            "anim 0x1cb8": "attack_c",
+            "attr 0x1cd0": {
+                "0x1ce8": "Sound",
+                "0x1cf8": "ene_imp_attack_scissor"
+            },
+            "timing 0x1d00": {
+                "0x1d18": 17.0
+            }
+        },
+        "0x1d20": {
+            "amplitude 0x1ed0": {
+                "0x1ee8": 0.05999999865889549
+            },
+            "anim 0x1e08": "attack_c",
+            "attr 0x1df8": "CameraShake",
+            "distFalloff 0x1f10": {
+                "0x1f28": 40.0
+            },
+            "durationSec 0x1eb0": {
+                "0x1ec8": 0.699999988079071
+            },
+            "frequency 0x1ef0": {
+                "0x1f08": 6.0
+            },
+            "timing 0x1e70": {
+                "0x1e88": 8.0
+            },
+            "waveSlot 0x1e90": {
+                "0x1ea8": 0.0
+            }
+        },
+        "0x1f30": {
+            "amplitude 0x20e0": {
+                "0x20f8": 0.05999999865889549
+            },
+            "anim 0x2018": "attack_c",
+            "attr 0x2008": "CameraShake",
+            "distFalloff 0x2120": {
+                "0x2138": 40.0
+            },
+            "durationSec 0x20c0": {
+                "0x20d8": 0.699999988079071
+            },
+            "frequency 0x2100": {
+                "0x2118": 6.0
+            },
+            "timing 0x2080": {
+                "0x2098": 18.0
+            },
+            "waveSlot 0x20a0": {
+                "0x20b8": 0.0
+            }
+        },
+        "0x2140": {
+            "anim 0x2208": "attack_charge",
+            "attr 0x21e8": "Attack",
+            "layout 0x2250": {
+                "pos 0x2290": {
+                    "0x22a8": 0.0,
+                    "0x22b8": 0.0,
+                    "0x22c8": 0.0
+                }
+            },
+            "parent 0x2218": "",
+            "shape 0x22d0": {
+                "0x22e8": "Sphere",
+                "0x22f8": 1.25
+            },
+            "timing 0x2300": {
+                "0x2318": 0.0,
+                "0x2328": 9999.0
+            },
+            "userData 0x21f8": "attack_charge"
+        },
+        "0x2330": {
+            "anim 0x2398": "spawn",
+            "attr 0x23b0": {
+                "0x23c8": "EventMessage",
+                "0x23d8": "start"
+            },
+            "timing 0x23e0": {
+                "0x23f8": 26.0
+            }
+        },
+        "0x2400": {
+            "anim 0x2468": "touched",
+            "attr 0x2480": {
+                "0x2498": "EventMessage",
+                "0x24a8": "start"
+            },
+            "timing 0x24b0": {
+                "0x24c8": 16.0
+            }
+        },
+        "0x24d0": {
+            "anim 0x2538": "damaged_00",
+            "attr 0x2550": {
+                "0x2568": "EventMessage",
+                "0x2578": "stop"
+            },
+            "timing 0x2580": {
+                "0x2598": 0.0
+            }
+        },
+        "0x25a0": {
+            "anim 0x2608": "damaged_middle",
+            "attr 0x2620": {
+                "0x2638": "EventMessage",
+                "0x2648": "start"
+            },
+            "timing 0x2650": {
+                "0x2668": 16.0
+            }
+        },
+        "0x2670": {
+            "anim 0x26d8": "damaged_large_start",
+            "attr 0x26f0": {
+                "0x2708": "EventMessage",
+                "0x2718": "stop"
+            },
+            "timing 0x2720": {
+                "0x2738": 0.0
+            }
+        },
+        "0x2740": {
+            "anim 0x27a8": "damaged_large_loop",
+            "attr 0x27c0": {
+                "0x27d8": "EventMessage",
+                "0x27e8": "stop"
+            },
+            "timing 0x27f0": {
+                "0x2808": 0.0
+            }
+        },
+        "0x2810": {
+            "anim 0x2878": "damaged_large_end",
+            "attr 0x2890": {
+                "0x28a8": "EventMessage",
+                "0x28b8": "stop"
+            },
+            "timing 0x28c0": {
+                "0x28d8": 0.0
+            }
+        },
+        "0x28e0": {
+            "anim 0x2948": "damaged_large_standup",
+            "attr 0x2960": {
+                "0x2978": "EventMessage",
+                "0x2988": "start"
+            },
+            "timing 0x2990": {
+                "0x29a8": 46.0
+            }
+        },
+        "0x29b0": {
+            "anim 0x2a18": "warp_out",
+            "attr 0x2a30": {
+                "0x2a48": "EventMessage",
+                "0x2a58": "start"
+            },
+            "timing 0x2a60": {
+                "0x2a78": 0.0
+            }
+        },
+        "0x2a80": {
+            "anim 0x2ae8": "warp_in",
+            "attr 0x2b00": {
+                "0x2b18": "EventMessage",
+                "0x2b28": "stop"
+            },
+            "timing 0x2b30": {
+                "0x2b48": 0.0
+            }
+        },
+        "0x2b50": {
+            "anim 0x2be8": "attack_a",
+            "attr 0x2c20": {
+                "0x2c38": "Particle",
+                "0x2c48": "ef_nev_pline_01"
+            },
+            "layout 0x2c50": {
+                "pos 0x2c90": {
+                    "0x2ca8": 0.0,
+                    "0x2cb8": 0.0,
+                    "0x2cc8": 0.6000000238418579
+                }
+            },
+            "parent 0x2bf8": "bn_la08_wrist_l",
+            "timing 0x2cd0": {
+                "0x2ce8": 7.0
+            }
+        },
+        "0x2cf0": {
+            "anim 0x2d88": "attack_a",
+            "attr 0x2dc0": {
+                "0x2dd8": "Particle",
+                "0x2de8": "ef_nev_pline_01"
+            },
+            "layout 0x2df0": {
+                "pos 0x2e30": {
+                    "0x2e48": 0.0,
+                    "0x2e58": 0.0,
+                    "0x2e68": 0.6000000238418579
+                }
+            },
+            "parent 0x2d98": "bn_ra08_wrist_r",
+            "timing 0x2e70": {
+                "0x2e88": 16.0
+            }
+        },
+        "0x2d0": {
+            "anim 0x388": "spawn",
+            "attr 0x368": "Attack",
+            "layout 0x3c0": {
+                "pos 0x400": {
+                    "0x418": 0.0,
+                    "0x428": 0.0,
+                    "0x438": 0.0
+                }
+            },
+            "shape 0x440": {
+                "0x458": "Sphere",
+                "0x468": 1.0
+            },
+            "timing 0x470": {
+                "0x488": 0.0,
+                "0x498": 50.0
+            },
+            "userData 0x378": "spawn"
+        },
+        "0x2e90": {
+            "anim 0x2f28": "attack_b",
+            "attr 0x2f60": {
+                "0x2f78": "Particle",
+                "0x2f88": "ef_nev_pline_01"
+            },
+            "layout 0x2f90": {
+                "pos 0x2fd0": {
+                    "0x2fe8": 0.0,
+                    "0x2ff8": 0.0,
+                    "0x3008": 0.6000000238418579
+                }
+            },
+            "parent 0x2f38": "bn_la08_wrist_l",
+            "timing 0x3010": {
+                "0x3028": 8.0
+            }
+        },
+        "0x3030": {
+            "anim 0x30c8": "attack_b",
+            "attr 0x3100": {
+                "0x3118": "Particle",
+                "0x3128": "ef_nev_pline_01"
+            },
+            "layout 0x3130": {
+                "pos 0x3170": {
+                    "0x3188": 0.0,
+                    "0x3198": 0.0,
+                    "0x31a8": 0.6000000238418579
+                }
+            },
+            "parent 0x30d8": "bn_ra08_wrist_r",
+            "timing 0x31b0": {
+                "0x31c8": 8.0
+            }
+        },
+        "0x31d0": {
+            "anim 0x3268": "attack_c",
+            "attr 0x32a0": {
+                "0x32b8": "Particle",
+                "0x32c8": "ef_nev_pline_01"
+            },
+            "layout 0x32d0": {
+                "pos 0x3310": {
+                    "0x3328": 0.0,
+                    "0x3338": 0.0,
+                    "0x3348": 0.6000000238418579
+                }
+            },
+            "parent 0x3278": "bn_ra08_wrist_r",
+            "timing 0x3350": {
+                "0x3368": 7.0
+            }
+        },
+        "0x3370": {
+            "anim 0x3408": "attack_c",
+            "attr 0x3440": {
+                "0x3458": "Particle",
+                "0x3468": "ef_nev_pline_01"
+            },
+            "layout 0x3470": {
+                "pos 0x34b0": {
+                    "0x34c8": 0.0,
+                    "0x34d8": 0.0,
+                    "0x34e8": 0.6000000238418579
+                }
+            },
+            "parent 0x3418": "bn_la08_wrist_l",
+            "timing 0x34f0": {
+                "0x3508": 16.0
+            }
+        },
+        "0x4a0": {
+            "anim 0x568": "attack_a",
+            "attr 0x548": "Attack",
+            "layout 0x5b0": {
+                "pos 0x5f0": {
+                    "0x608": 0.0,
+                    "0x618": 0.0,
+                    "0x628": 0.0
+                }
+            },
+            "parent 0x578": "bn_la08_wrist_l",
+            "shape 0x630": {
+                "0x648": "Sphere",
+                "0x658": 1.0
+            },
+            "timing 0x660": {
+                "0x678": 9.0,
+                "0x688": 12.0
+            },
+            "userData 0x558": "attack_a"
+        },
+        "0x690": {
+            "anim 0x758": "attack_a",
+            "attr 0x738": "Attack",
+            "layout 0x7a0": {
+                "pos 0x7e0": {
+                    "0x7f8": 0.0,
+                    "0x808": 0.0,
+                    "0x818": 0.0
+                }
+            },
+            "parent 0x768": "bn_ra08_wrist_r",
+            "shape 0x820": {
+                "0x838": "Sphere",
+                "0x848": 1.0
+            },
+            "timing 0x850": {
+                "0x868": 17.0,
+                "0x878": 20.0
+            },
+            "userData 0x748": "attack_a"
+        },
+        "0x880": {
+            "anim 0x8e8": "attack_a",
+            "attr 0x900": {
+                "0x918": "TailChainCommand",
+                "0x928": "imp neck off"
+            },
+            "timing 0x930": {
+                "0x948": 1.0,
+                "0x958": 21.0
+            }
+        },
+        "0x960": {
+            "anim 0x9c8": "attack_a",
+            "attr 0x9e0": {
+                "0x9f8": "Sound",
+                "0xa08": "ene_imp_attack_scissor"
+            },
+            "timing 0xa10": {
+                "0xa28": 9.0
+            }
+        },
+        "0xa30": {
+            "anim 0xa98": "attack_a",
+            "attr 0xab0": {
+                "0xac8": "Sound",
+                "0xad8": "ene_imp_attack_scissor"
+            },
+            "timing 0xae0": {
+                "0xaf8": 17.0
+            }
+        },
+        "0xb00": {
+            "amplitude 0xcb0": {
+                "0xcc8": 0.05000000074505806
+            },
+            "anim 0xbe8": "attack_a",
+            "attr 0xbd8": "CameraShake",
+            "distFalloff 0xcf0": {
+                "0xd08": 40.0
+            },
+            "durationSec 0xc90": {
+                "0xca8": 0.699999988079071
+            },
+            "frequency 0xcd0": {
+                "0xce8": 8.0
+            },
+            "timing 0xc50": {
+                "0xc68": 9.0
+            },
+            "waveSlot 0xc70": {
+                "0xc88": 0.0
+            }
+        },
+        "0xd10": {
+            "amplitude 0xec0": {
+                "0xed8": 0.05000000074505806
+            },
+            "anim 0xdf8": "attack_a",
+            "attr 0xde8": "CameraShake",
+            "distFalloff 0xf00": {
+                "0xf18": 40.0
+            },
+            "durationSec 0xea0": {
+                "0xeb8": 0.699999988079071
+            },
+            "frequency 0xee0": {
+                "0xef8": 8.0
+            },
+            "timing 0xe60": {
+                "0xe78": 17.0
+            },
+            "waveSlot 0xe80": {
+                "0xe98": 0.0
+            }
+        },
+        "0xf20": {
+            "anim 0xfe8": "attack_b",
+            "attr 0xfc8": "Attack",
+            "layout 0x1030": {
+                "pos 0x1070": {
+                    "0x1088": 0.0,
+                    "0x1098": 0.0,
+                    "0x10a8": 0.0
+                }
+            },
+            "parent 0xff8": "bn_la08_wrist_l",
+            "shape 0x10b0": {
+                "0x10c8": "Sphere",
+                "0x10d8": 1.0
+            },
+            "timing 0x10e0": {
+                "0x10f8": 8.0,
+                "0x1108": 12.0
+            },
+            "userData 0xfd8": "attack_a"
+        }
+    }
+}

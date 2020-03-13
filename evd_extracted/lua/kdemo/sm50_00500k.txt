@@ -1,0 +1,43 @@
+{
+    "name 0xb8": "sm50_00500k",
+    "page1 0x100": {
+        "ldchar 0x250": {
+            "id 0x288": "k_bul01_tujyo"
+        },
+        "luchar 0x1d0": {
+            "id 0x208": "k_kaj01_tujyo"
+        },
+        "ruchar 0x210": {
+            "id 0x248": "k_kit01_tujyo"
+        },
+        "text 0x290": {
+            "JP 0x318": "被害者は後頭部を鈍器の\nようなもので殴られた後、\n木箱に詰められたようです",
+            "id 0x308": "sm50_00500k_010",
+            "target 0x338": "pos_lu",
+            "wnd 0x328": "pos_c"
+        },
+        "voice 0x340": {
+            "delay 0x398": 0.30000001192092896,
+            "id 0x388": "kaj_904b"
+        }
+    },
+    "page2 0x3a0": {
+        "text 0x3e0": {
+            "JP 0x478": "――犯人は新米が警務官と\n知った上で襲ったのか？",
+            "id 0x468": "sm50_00500k_020",
+            "target 0x498": "pos_ld",
+            "type 0x4a8": "think",
+            "wnd 0x488": "pos_c"
+        }
+    },
+    "page3 0x4b0": {
+        "text 0x4f0": {
+            "JP 0x588": "こいつは――\n犯人の動機を探る必要が\nありそうだぜ……",
+            "id 0x578": "sm50_00500k_030",
+            "target 0x5a8": "pos_ld",
+            "type 0x5b8": "think",
+            "wnd 0x598": "pos_c"
+        }
+    },
+    "textset 0xc8": "sm50"
+}

@@ -1,0 +1,263 @@
+{
+    "entities 0xb0": {
+        "0x1110": {
+            "clips 0x1200": {
+                "0x1220": {
+                    "endFrame 0x1278": 115.0,
+                    "startFrame 0x1288": 35.0,
+                    "visibilityOffset 0x1298": 40.0
+                }
+            },
+            "effect 0x12a0": {
+                "modelName 0x12d8": "ef_dm_ep09_00400m_lighting_02"
+            },
+            "name 0x11c8": "c05_lighting_effect",
+            "transform 0x12e0": {
+                "translation 0x1320": {
+                    "0x1338": -15.25,
+                    "0x1348": 27.09000015258789,
+                    "0x1358": -13.479999542236328
+                }
+            },
+            "type 0x11e8": "effect",
+            "uuid 0x11f8": "{2cface54-5f6f-4c96-b093-d895b95f5bca}"
+        },
+        "0x1360": {
+            "clips 0x1450": {
+                "0x1470": {
+                    "endFrame 0x14c8": 134.0,
+                    "startFrame 0x14d8": 45.0,
+                    "visibilityOffset 0x14e8": 30.0
+                }
+            },
+            "effect 0x14f0": {
+                "modelName 0x1528": "ef_dm_ep09_00400m_par_only"
+            },
+            "name 0x1418": "c05_par",
+            "transform 0x1530": {
+                "translation 0x1570": {
+                    "0x1588": -15.25,
+                    "0x1598": 27.09000015258789,
+                    "0x15a8": -13.479999542236328
+                }
+            },
+            "type 0x1438": "effect",
+            "uuid 0x1448": "{8d2d0ed0-7251-4941-a8c1-ffd1e9ccb832}"
+        },
+        "0x150": {
+            "animations 0x260": {
+                "pointlight 0x2a0": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x2e0": {
+                        "lightIntensity 0x320": {
+                            "keyframes 0x360": {
+                                "0x390": {
+                                    "key 0x3d8": 0.0,
+                                    "time 0x3e8": 0.0
+                                },
+                                "0x3f0": {
+                                    "key 0x438": 5.0,
+                                    "time 0x448": 28.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x450": {
+                "0x470": {
+                    "endFrame 0x4b8": 74.0,
+                    "startFrame 0x4c8": 0.0
+                }
+            },
+            "name 0x218": "c04_PointLight",
+            "pointlight 0x4d0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x510": {
+                    "innerRadius 0x5a8": 0.5,
+                    "lightColorB 0x5b8": 0.15294118225574493,
+                    "lightColorG 0x5c8": 0.7176470756530762,
+                    "lightColorR 0x5d8": 1.0,
+                    "lightIntensity 0x5e8": 0.0,
+                    "outerRadius 0x5f8": 45.0
+                }
+            },
+            "transform 0x600": {
+                "translation 0x640": {
+                    "0x658": -15.25,
+                    "0x668": 27.09000015258789,
+                    "0x678": -13.479999542236328
+                }
+            },
+            "type 0x248": "pointlight",
+            "uuid 0x258": "{6d3a3148-de49-474a-bf09-f9b7ff4ee84a}"
+        },
+        "0x15b0": {
+            "clips 0x16a0": {
+                "0x16c0": {
+                    "endFrame 0x1718": 179.0,
+                    "startFrame 0x1728": 120.0,
+                    "visibilityOffset 0x1738": 15.0
+                }
+            },
+            "effect 0x1740": {
+                "modelName 0x1778": "ef_dm_ep09_00400m_lighting_bomb"
+            },
+            "name 0x1668": "c06_lighting_Bomb",
+            "transform 0x1780": {
+                "translation 0x17c0": {
+                    "0x17d8": -15.25,
+                    "0x17e8": 27.09000015258789,
+                    "0x17f8": -13.479999542236328
+                }
+            },
+            "type 0x1688": "effect",
+            "uuid 0x1698": "{804ac13b-166d-4518-bd15-a4c92d359795}"
+        },
+        "0x1800": {
+            "clips 0x18f0": {
+                "0x1910": {
+                    "endFrame 0x1968": 350.0,
+                    "startFrame 0x1978": 206.0,
+                    "visibilityOffset 0x1988": 10.0
+                }
+            },
+            "effect 0x1990": {
+                "modelName 0x19c8": "ef_dm_ep09_00400m_smoke_01"
+            },
+            "name 0x18b8": "c08_smoke",
+            "transform 0x19d0": {
+                "translation 0x1a10": {
+                    "0x1a28": 1.5700000524520874,
+                    "0x1a38": 5.949999809265137,
+                    "0x1a48": 1.090000033378601
+                }
+            },
+            "type 0x18d8": "effect",
+            "uuid 0x18e8": "{53758e04-0153-41f1-937b-6b67fa82c0ea}"
+        },
+        "0x1a50": {
+            "clips 0x1b40": {
+                "0x1b60": {
+                    "endFrame 0x1ba8": 120.0,
+                    "startFrame 0x1bb8": 74.0
+                }
+            },
+            "effect 0x1bc0": {
+                "modelName 0x1c08": "ef_dm_ep09_00400m_white_ball_01",
+                "scale 0x1c20": {
+                    "0x1c38": 4.0,
+                    "0x1c48": 1.0,
+                    "0x1c58": 1.0
+                }
+            },
+            "name 0x1b08": "c05_white_out",
+            "transform 0x1c60": {
+                "translation 0x1ca0": {
+                    "0x1cb8": -15.019012451171875,
+                    "0x1cc8": 25.849288940429688,
+                    "0x1cd8": -12.399903297424316
+                }
+            },
+            "type 0x1b28": "effect",
+            "uuid 0x1b38": "{789f4503-45ea-4318-b80c-ad2c21b1da3e}"
+        },
+        "0x680": {
+            "clips 0x770": {
+                "0x790": {
+                    "endFrame 0x7e8": 74.0,
+                    "startFrame 0x7f8": -5.0,
+                    "visibilityOffset 0x808": 5.0
+                }
+            },
+            "effect 0x810": {
+                "modelName 0x848": "ef_dm_ep09_00400m_lighting_01"
+            },
+            "name 0x738": "c04_lighting_effect",
+            "transform 0x850": {
+                "translation 0x890": {
+                    "0x8a8": -15.25,
+                    "0x8b8": 27.09000015258789,
+                    "0x8c8": -13.479999542236328
+                }
+            },
+            "type 0x758": "effect",
+            "uuid 0x768": "{cc205861-1e3d-4628-9922-a6d2fb758c8c}"
+        },
+        "0x8d0": {
+            "animations 0x9e0": {
+                "pointlight 0xa20": {
+                    "/root/G2PointLight1/G2PointLightShape1 0xa60": {
+                        "lightIntensity 0xaa0": {
+                            "keyframes 0xae0": {
+                                "0xb30": {
+                                    "key 0xb78": 5.0,
+                                    "time 0xb88": 75.0
+                                },
+                                "0xb90": {
+                                    "key 0xbd8": 5.0,
+                                    "time 0xbe8": 75.0
+                                },
+                                "0xbf0": {
+                                    "key 0xc38": 5.0,
+                                    "time 0xc48": 114.0
+                                },
+                                "0xc50": {
+                                    "key 0xc98": 1.0,
+                                    "time 0xca8": 134.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0xcb0": {
+                "0xcd0": {
+                    "endFrame 0xd18": 134.0,
+                    "startFrame 0xd28": 75.0
+                }
+            },
+            "name 0x998": "c05_PointLight",
+            "pointlight 0xd30": {
+                "/root/G2PointLight1/G2PointLightShape1 0xd70": {
+                    "innerRadius 0xe08": 0.5,
+                    "lightColorB 0xe18": 0.03921568766236305,
+                    "lightColorG 0xe28": 0.729411780834198,
+                    "lightColorR 0xe38": 1.0,
+                    "lightIntensity 0xe48": 5.0,
+                    "outerRadius 0xe58": 45.0
+                }
+            },
+            "transform 0xe60": {
+                "translation 0xea0": {
+                    "0xeb8": -15.25,
+                    "0xec8": 27.09000015258789,
+                    "0xed8": -13.479999542236328
+                }
+            },
+            "type 0x9c8": "pointlight",
+            "uuid 0x9d8": "{31be305e-029d-4820-b74d-9a2d769b31ef}"
+        },
+        "0xee0": {
+            "clips 0xfd0": {
+                "0xff0": {
+                    "endFrame 0x1038": 134.0,
+                    "startFrame 0x1048": 115.0
+                }
+            },
+            "effect 0x1050": {
+                "modelName 0x1088": "ef_dm_ep09_00400m_lighting_bomb"
+            },
+            "name 0xf98": "c05_lighting_Bomb",
+            "transform 0x1090": {
+                "translation 0x10d0": {
+                    "0x10e8": -15.25,
+                    "0x10f8": 27.09000015258789,
+                    "0x1108": -13.479999542236328
+                }
+            },
+            "type 0xfb8": "effect",
+            "uuid 0xfc8": "{96433ba6-4464-4484-9cc0-5abcbc8b7af7}"
+        }
+    },
+    "playbackEndFrame 0x98": 350.0,
+    "playbackStartFrame 0xa8": -5.0
+}

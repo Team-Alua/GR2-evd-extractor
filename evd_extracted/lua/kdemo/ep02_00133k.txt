@@ -1,0 +1,57 @@
+{
+    "name 0xb8": "ep02_00133k",
+    "page1 0x100": {
+        "ldchar 0x1b8": "00000000",
+        "luchar 0x198": "00000000",
+        "rdchar 0x230": {
+            "id 0x268": "k_musen_j"
+        },
+        "ruchar 0x1f0": {
+            "id 0x228": "k_kit01_tujyo"
+        },
+        "se 0x340": {
+            "delay 0x398": 0.30000001192092896,
+            "id 0x388": "kaiwa_call_on"
+        },
+        "text 0x270": {
+            "JP 0x308": "ピピピ…",
+            "id 0x2f8": "ep02_00133k_010",
+            "target 0x328": "pos_rd",
+            "type 0x338": "normal",
+            "wnd 0x318": "pos_c"
+        }
+    },
+    "page2 0x3a0": {
+        "luchar 0x420": {
+            "id 0x458": "k_tkg01_tujyo"
+        },
+        "text 0x460": {
+            "JP 0x4f8": "お～い\nこの島は俺たちでやるから\nお前さんは別の島を頼む！",
+            "id 0x4e8": "ep02_00133k_020",
+            "target 0x518": "pos_lu",
+            "type 0x528": "normal",
+            "wnd 0x508": "pos_c"
+        },
+        "voice 0x530": {
+            "delay 0x588": 0.5,
+            "id 0x578": "m05_801_radio"
+        }
+    },
+    "page3 0x590": {
+        "ruchar 0x610": {
+            "id 0x648": "k_kit01_egao"
+        },
+        "text 0x650": {
+            "JP 0x6e8": "りょうかい！",
+            "id 0x6d8": "ep02_00133k_030",
+            "target 0x708": "pos_ru",
+            "type 0x718": "normal",
+            "wnd 0x6f8": "pos_c"
+        },
+        "voice 0x720": {
+            "delay 0x778": 0.30000001192092896,
+            "id 0x768": "kit036b"
+        }
+    },
+    "textset 0xc8": "ep02"
+}

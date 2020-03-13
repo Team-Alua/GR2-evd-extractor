@@ -1,0 +1,102 @@
+{
+    "animset 0x140": {
+        "fly 0x230": {
+            "blendDuration 0x288": 0.10000000149011612,
+            "file 0x298": "ve02_fly_00",
+            "repeatCount 0x2a8": -1.0
+        },
+        "fly1 0x2b0": {
+            "blendDuration 0x308": 0.10000000149011612,
+            "file 0x318": "ve02_fly_00",
+            "repeatCount 0x328": -1.0
+        },
+        "fly_l_in 0x330": {
+            "blendDuration 0x388": 0.10000000149011612,
+            "file 0x398": "ve02_stay_00",
+            "repeatCount 0x3a8": 0.0
+        },
+        "fly_l_out 0x3b0": {
+            "blendDuration 0x408": 0.10000000149011612,
+            "file 0x418": "ve02_stay_00",
+            "repeatCount 0x428": 0.0
+        },
+        "stay 0x430": {
+            "blendDuration 0x488": 0.10000000149011612,
+            "file 0x498": "ve02_stay_00",
+            "repeatCount 0x4a8": -1.0
+        },
+        "stay_01 0x4b0": {
+            "blendDuration 0x508": 0.10000000149011612,
+            "file 0x518": "abrudder00_stay_00",
+            "repeatCount 0x528": -1.0
+        }
+    },
+    "brain 0x530": {
+        "ai_type 0x578": "npc",
+        "type 0x588": "EnemyBrain"
+    },
+    "enemy_action_common 0x590": {
+        "find 0x5d8": 40.0,
+        "lose 0x5e8": 45.0
+    },
+    "enemy_body 0x5f0": {
+        "health 0x638": 9999.0,
+        "hit 0x648": "01000000"
+    },
+    "enemy_parts 0x650": {
+        "ve02_col_01 0x6b0": {
+            "core 0x758": "01000000",
+            "health 0x768": 80.0,
+            "lockon 0x778": "01000000",
+            "offset_x 0x788": 0.0,
+            "offset_y 0x798": 1.7000000476837158,
+            "offset_z 0x7a8": -0.5,
+            "shape 0x7c0": {
+                "0x7d8": "Box",
+                "0x7e8": 0.550000011920929,
+                "0x7f8": 1.2000000476837158,
+                "0x808": 0.6000000238418579
+            }
+        },
+        "ve02_col_02 0x810": {
+            "core 0x8b8": "01000000",
+            "health 0x8c8": 80.0,
+            "lockon 0x8d8": "01000000",
+            "offset_x 0x8e8": 0.0,
+            "offset_y 0x8f8": 0.8500000238418579,
+            "offset_z 0x908": 0.800000011920929,
+            "shape 0x920": {
+                "0x938": "Box",
+                "0x948": 0.4000000059604645,
+                "0x958": 0.4000000059604645,
+                "0x968": 0.699999988079071
+            }
+        }
+    },
+    "npc_param 0x970": {
+        "param 0x9f0": {
+            "category 0xa48": "other",
+            "damage_type 0xa58": 0.0,
+            "grabbed_type 0xa68": 0.0
+        },
+        "sight 0xa70": {
+            "degree_h 0xaf8": 60.0,
+            "degree_v 0xb08": 45.0,
+            "in_length 0xb18": 4.0,
+            "out_length 0xb28": 6.0,
+            "valid 0xb38": "00000000"
+        },
+        "valid 0x9e8": "01000000"
+    },
+    "puppet 0xb40": {
+        "animset 0xbc8": "npc/ve02",
+        "collision 0xc10": {
+            "center_y 0xc68": 0.5,
+            "height 0xc78": 1.0,
+            "radius 0xc88": 0.4000000059604645
+        },
+        "modelName 0xbe8": "ve02_base",
+        "scale 0xbf8": 1.0,
+        "type 0xc08": "Puppet"
+    }
+}

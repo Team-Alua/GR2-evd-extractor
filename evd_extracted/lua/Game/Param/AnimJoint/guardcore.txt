@@ -1,0 +1,1051 @@
+{
+    "animjoint 0x70": {
+        "0x1060": {
+            "anim 0x1118": "attack_air",
+            "attr 0x10f8": "Attack",
+            "parent 0x1128": "bn_ten1L_8",
+            "shape 0x1150": {
+                "0x1168": "Sphere",
+                "0x1178": 0.3499999940395355
+            },
+            "timing 0x1180": {
+                "0x1198": 24.0,
+                "0x11a8": 46.0
+            },
+            "userData 0x1108": "attack_air"
+        },
+        "0x11b0": {
+            "anim 0x1268": "attack_air",
+            "attr 0x1248": "Attack",
+            "parent 0x1278": "bn_ten1R_8",
+            "shape 0x12a0": {
+                "0x12b8": "Sphere",
+                "0x12c8": 0.3499999940395355
+            },
+            "timing 0x12d0": {
+                "0x12e8": 24.0,
+                "0x12f8": 46.0
+            },
+            "userData 0x1258": "attack_air"
+        },
+        "0x1300": {
+            "anim 0x13b8": "attack_air",
+            "attr 0x1398": "Attack",
+            "parent 0x13c8": "bn_ten2L_8",
+            "shape 0x13f0": {
+                "0x1408": "Sphere",
+                "0x1418": 0.3499999940395355
+            },
+            "timing 0x1420": {
+                "0x1438": 24.0,
+                "0x1448": 46.0
+            },
+            "userData 0x13a8": "attack_air"
+        },
+        "0x1450": {
+            "anim 0x1508": "attack_air",
+            "attr 0x14e8": "Attack",
+            "parent 0x1518": "bn_ten2R_8",
+            "shape 0x1540": {
+                "0x1558": "Sphere",
+                "0x1568": 0.3499999940395355
+            },
+            "timing 0x1570": {
+                "0x1588": 24.0,
+                "0x1598": 46.0
+            },
+            "userData 0x14f8": "attack_air"
+        },
+        "0x15a0": {
+            "anim 0x1658": "attack_air",
+            "attr 0x1638": "Attack",
+            "layout 0x16c0": {
+                "pos 0x1700": {
+                    "0x1718": 0.0,
+                    "0x1728": 4.5,
+                    "0x1738": 0.0
+                }
+            },
+            "shape 0x1690": {
+                "0x16a8": "Sphere",
+                "0x16b8": 1.75
+            },
+            "timing 0x1740": {
+                "0x1758": 36.0,
+                "0x1768": 46.0
+            },
+            "userData 0x1648": "attack_air"
+        },
+        "0x1770": {
+            "anim 0x17d8": "walk",
+            "attr 0x17f0": {
+                "0x1808": "MotionSpeed",
+                "0x1818": 1.0
+            },
+            "timing 0x1820": {
+                "0x1838": 0.0
+            }
+        },
+        "0x1840": {
+            "anim 0x18a8": "walk_shell",
+            "attr 0x18c0": {
+                "0x18d8": "MotionSpeed",
+                "0x18e8": 1.0
+            },
+            "timing 0x18f0": {
+                "0x1908": 0.0
+            }
+        },
+        "0x1910": {
+            "anim 0x1978": "attack",
+            "attr 0x1990": {
+                "0x19a8": "MotionSpeed",
+                "0x19b8": 1.0
+            },
+            "timing 0x19c0": {
+                "0x19d8": 0.0
+            }
+        },
+        "0x19e0": {
+            "anim 0x1a48": "attack",
+            "attr 0x1a60": {
+                "0x1a78": "MotionSpeed",
+                "0x1a88": 1.0
+            },
+            "timing 0x1a90": {
+                "0x1aa8": 24.0
+            }
+        },
+        "0x1ab0": {
+            "anim 0x1b18": "attack_air",
+            "attr 0x1b30": {
+                "0x1b48": "MotionSpeed",
+                "0x1b58": 2.0
+            },
+            "timing 0x1b60": {
+                "0x1b78": 0.0
+            }
+        },
+        "0x1b80": {
+            "anim 0x1be8": "attack_air",
+            "attr 0x1c00": {
+                "0x1c18": "MotionSpeed",
+                "0x1c28": 1.399999976158142
+            },
+            "timing 0x1c30": {
+                "0x1c48": 24.0
+            }
+        },
+        "0x1c50": {
+            "anim 0x1cb8": "turn_r",
+            "attr 0x1cd0": {
+                "0x1ce8": "MotionSpeed",
+                "0x1cf8": 1.0
+            },
+            "timing 0x1d00": {
+                "0x1d18": 0.0
+            }
+        },
+        "0x1d20": {
+            "anim 0x1d88": "turn_l",
+            "attr 0x1da0": {
+                "0x1db8": "MotionSpeed",
+                "0x1dc8": 1.0
+            },
+            "timing 0x1dd0": {
+                "0x1de8": 0.0
+            }
+        },
+        "0x1df0": {
+            "anim 0x1e58": "spawn",
+            "attr 0x1e70": {
+                "0x1e88": "TailChainCommand",
+                "0x1e98": "off"
+            },
+            "timing 0x1ea0": {
+                "0x1eb8": 0.0,
+                "0x1ec8": 999.0
+            }
+        },
+        "0x1ed0": {
+            "anim 0x1f38": "stay",
+            "attr 0x1f50": {
+                "0x1f68": "TailChainCommand",
+                "0x1f78": "off"
+            },
+            "timing 0x1f80": {
+                "0x1f98": 0.0,
+                "0x1fa8": 999.0
+            }
+        },
+        "0x1fb0": {
+            "anim 0x2018": "attack",
+            "attr 0x2030": {
+                "0x2048": "TailChainCommand",
+                "0x2058": "off"
+            },
+            "timing 0x2060": {
+                "0x2078": 3.0,
+                "0x2088": 90.0
+            }
+        },
+        "0x2090": {
+            "anim 0x20f8": "attack_air",
+            "attr 0x2110": {
+                "0x2128": "TailChainCommand",
+                "0x2138": "off"
+            },
+            "timing 0x2140": {
+                "0x2158": 3.0,
+                "0x2168": 90.0
+            }
+        },
+        "0x2170": {
+            "anim 0x21d8": "attack",
+            "attr 0x21f0": {
+                "0x2208": "Sound",
+                "0x2218": "ene_grd_attack"
+            },
+            "timing 0x2220": {
+                "0x2238": 17.0
+            }
+        },
+        "0x2240": {
+            "anim 0x22a8": "run_attack",
+            "attr 0x22c0": {
+                "0x22d8": "Sound",
+                "0x22e8": "ene_grd_attack"
+            },
+            "timing 0x22f0": {
+                "0x2308": 17.0
+            }
+        },
+        "0x2310": {
+            "anim 0x2378": "attack_air",
+            "attr 0x2390": {
+                "0x23a8": "Sound",
+                "0x23b8": "ene_grd_attack"
+            },
+            "timing 0x23c0": {
+                "0x23d8": 10.0
+            }
+        },
+        "0x23e0": {
+            "anim 0x2448": "attack_shoot",
+            "attr 0x2460": {
+                "0x2478": "Sound",
+                "0x2488": "ene_grd_attack"
+            },
+            "timing 0x2490": {
+                "0x24a8": 21.0
+            }
+        },
+        "0x24b0": {
+            "anim 0x2518": "attack_shoot",
+            "attr 0x2530": {
+                "0x2548": "Sound",
+                "0x2558": "ene_grd_shot"
+            },
+            "timing 0x2560": {
+                "0x2578": 21.0
+            }
+        },
+        "0x2580": {
+            "anim 0x25e8": "attack_shoot",
+            "attr 0x2600": {
+                "0x2618": "Sound",
+                "0x2628": "ene_grd_shot_start"
+            },
+            "timing 0x2630": {
+                "0x2648": 40.0
+            }
+        },
+        "0x2650": {
+            "anim 0x26b8": "walk_shell",
+            "attr 0x26d0": {
+                "0x26e8": "Sound",
+                "0x26f8": "ene_grd_walk"
+            },
+            "timing 0x2700": {
+                "0x2718": 2.0
+            }
+        },
+        "0x2720": {
+            "anim 0x2788": "walk_shell",
+            "attr 0x27a0": {
+                "0x27b8": "Sound",
+                "0x27c8": "ene_grd_walk"
+            },
+            "timing 0x27d0": {
+                "0x27e8": 15.0
+            }
+        },
+        "0x27f0": {
+            "anim 0x2858": "walk_shell",
+            "attr 0x2870": {
+                "0x2888": "Sound",
+                "0x2898": "ene_grd_walk"
+            },
+            "timing 0x28a0": {
+                "0x28b8": 22.0
+            }
+        },
+        "0x28c0": {
+            "anim 0x2928": "walk_shell",
+            "attr 0x2940": {
+                "0x2958": "Sound",
+                "0x2968": "ene_grd_walk"
+            },
+            "timing 0x2970": {
+                "0x2988": 35.0
+            }
+        },
+        "0x2990": {
+            "anim 0x29f8": "battlestay_start",
+            "attr 0x2a10": {
+                "0x2a28": "Sound",
+                "0x2a38": "ene_grd_close"
+            },
+            "timing 0x2a40": {
+                "0x2a58": 12.0
+            }
+        },
+        "0x2a60": {
+            "anim 0x2ac8": "battlestay_end",
+            "attr 0x2ae0": {
+                "0x2af8": "Sound",
+                "0x2b08": "ene_grd_close"
+            },
+            "timing 0x2b10": {
+                "0x2b28": 39.0
+            }
+        },
+        "0x2b30": {
+            "anim 0x2b98": "walk",
+            "attr 0x2bb0": {
+                "0x2bc8": "Sound",
+                "0x2bd8": "ene_grd_run2"
+            },
+            "timing 0x2be0": {
+                "0x2bf8": 0.0
+            }
+        },
+        "0x2c00": {
+            "anim 0x2c68": "walk",
+            "attr 0x2c80": {
+                "0x2c98": "Sound",
+                "0x2ca8": "ene_grd_run2"
+            },
+            "timing 0x2cb0": {
+                "0x2cc8": 9.0
+            }
+        },
+        "0x2cd0": {
+            "anim 0x2d38": "walk",
+            "attr 0x2d50": {
+                "0x2d68": "Sound",
+                "0x2d78": "ene_grd_run2"
+            },
+            "timing 0x2d80": {
+                "0x2d98": 11.0
+            }
+        },
+        "0x2da0": {
+            "anim 0x2e08": "walk",
+            "attr 0x2e20": {
+                "0x2e38": "Sound",
+                "0x2e48": "ene_grd_run2"
+            },
+            "timing 0x2e50": {
+                "0x2e68": 22.0
+            }
+        },
+        "0x2e70": {
+            "anim 0x2ed8": "walk",
+            "attr 0x2ef0": {
+                "0x2f08": "Sound",
+                "0x2f18": "ene_grd_run2"
+            },
+            "timing 0x2f20": {
+                "0x2f38": 24.0
+            }
+        },
+        "0x2f40": {
+            "anim 0x2fa8": "walk",
+            "attr 0x2fc0": {
+                "0x2fd8": "Sound",
+                "0x2fe8": "ene_grd_run2"
+            },
+            "timing 0x2ff0": {
+                "0x3008": 33.0
+            }
+        },
+        "0x3010": {
+            "anim 0x3078": "walk",
+            "attr 0x3090": {
+                "0x30a8": "Sound",
+                "0x30b8": "ene_grd_run2"
+            },
+            "timing 0x30c0": {
+                "0x30d8": 48.0
+            }
+        },
+        "0x30e0": {
+            "anim 0x3148": "turn_l",
+            "attr 0x3160": {
+                "0x3178": "Sound",
+                "0x3188": "ene_grd_walk"
+            },
+            "timing 0x3190": {
+                "0x31a8": 10.0
+            }
+        },
+        "0x31b0": {
+            "anim 0x3218": "turn_r",
+            "attr 0x3230": {
+                "0x3248": "Sound",
+                "0x3258": "ene_grd_walk"
+            },
+            "timing 0x3260": {
+                "0x3278": 10.0
+            }
+        },
+        "0x3280": {
+            "anim 0x32e8": "ash",
+            "attr 0x3300": {
+                "0x3318": "Sound",
+                "0x3328": "ene_grd_run2"
+            },
+            "timing 0x3330": {
+                "0x3348": 5.0
+            }
+        },
+        "0x3350": {
+            "anim 0x33b8": "ash",
+            "attr 0x33d0": {
+                "0x33e8": "Sound",
+                "0x33f8": "ene_grd_walk"
+            },
+            "timing 0x3400": {
+                "0x3418": 9.0
+            }
+        },
+        "0x3420": {
+            "anim 0x3488": "ash",
+            "attr 0x34a0": {
+                "0x34b8": "Sound",
+                "0x34c8": "ene_grd_walk"
+            },
+            "timing 0x34d0": {
+                "0x34e8": 12.0
+            }
+        },
+        "0x34f0": {
+            "anim 0x3558": "ash",
+            "attr 0x3570": {
+                "0x3588": "Sound",
+                "0x3598": "ene_grd_down"
+            },
+            "timing 0x35a0": {
+                "0x35b8": 40.0
+            }
+        },
+        "0x35c0": {
+            "anim 0x3628": "touched",
+            "attr 0x3640": {
+                "0x3658": "Sound",
+                "0x3668": "ene_grd_run2"
+            },
+            "timing 0x3670": {
+                "0x3688": 5.0
+            }
+        },
+        "0x3690": {
+            "anim 0x36f8": "touched",
+            "attr 0x3710": {
+                "0x3728": "Sound",
+                "0x3738": "ene_grd_walk"
+            },
+            "timing 0x3740": {
+                "0x3758": 15.0
+            }
+        },
+        "0x3760": {
+            "anim 0x37c8": "touched",
+            "attr 0x37e0": {
+                "0x37f8": "Sound",
+                "0x3808": "ene_grd_run2"
+            },
+            "timing 0x3810": {
+                "0x3828": 30.0
+            }
+        },
+        "0x3830": {
+            "anim 0x3898": "touched",
+            "attr 0x38b0": {
+                "0x38c8": "Sound",
+                "0x38d8": "ene_grd_run2"
+            },
+            "timing 0x38e0": {
+                "0x38f8": 38.0
+            }
+        },
+        "0x3900": {
+            "anim 0x3968": "touched",
+            "attr 0x3980": {
+                "0x3998": "Sound",
+                "0x39a8": "ene_grd_run2"
+            },
+            "timing 0x39b0": {
+                "0x39c8": 42.0
+            }
+        },
+        "0x39d0": {
+            "anim 0x3a38": "touched",
+            "attr 0x3a50": {
+                "0x3a68": "Sound",
+                "0x3a78": "ene_grd_run2"
+            },
+            "timing 0x3a80": {
+                "0x3a98": 45.0
+            }
+        },
+        "0x3aa0": {
+            "anim 0x3b08": "damaged",
+            "attr 0x3b20": {
+                "0x3b38": "Sound",
+                "0x3b48": "ene_grd_run2"
+            },
+            "timing 0x3b50": {
+                "0x3b68": 5.0
+            }
+        },
+        "0x3b70": {
+            "anim 0x3bd8": "damaged",
+            "attr 0x3bf0": {
+                "0x3c08": "Sound",
+                "0x3c18": "ene_grd_walk"
+            },
+            "timing 0x3c20": {
+                "0x3c38": 15.0
+            }
+        },
+        "0x3c40": {
+            "anim 0x3ca8": "damaged",
+            "attr 0x3cc0": {
+                "0x3cd8": "Sound",
+                "0x3ce8": "ene_grd_run2"
+            },
+            "timing 0x3cf0": {
+                "0x3d08": 30.0
+            }
+        },
+        "0x3d10": {
+            "anim 0x3d78": "damaged",
+            "attr 0x3d90": {
+                "0x3da8": "Sound",
+                "0x3db8": "ene_grd_run2"
+            },
+            "timing 0x3dc0": {
+                "0x3dd8": 38.0
+            }
+        },
+        "0x3de0": {
+            "anim 0x3e48": "damaged",
+            "attr 0x3e60": {
+                "0x3e78": "Sound",
+                "0x3e88": "ene_grd_run2"
+            },
+            "timing 0x3e90": {
+                "0x3ea8": 42.0
+            }
+        },
+        "0x3eb0": {
+            "anim 0x3f18": "damaged",
+            "attr 0x3f30": {
+                "0x3f48": "Sound",
+                "0x3f58": "ene_grd_run2"
+            },
+            "timing 0x3f60": {
+                "0x3f78": 45.0
+            }
+        },
+        "0x3f80": {
+            "anim 0x3fe8": "damaged_middle",
+            "attr 0x4000": {
+                "0x4018": "Sound",
+                "0x4028": "ene_grd_walk"
+            },
+            "timing 0x4030": {
+                "0x4048": 13.0
+            }
+        },
+        "0x4050": {
+            "anim 0x40b8": "damaged_middle",
+            "attr 0x40d0": {
+                "0x40e8": "Sound",
+                "0x40f8": "ene_grd_run2"
+            },
+            "timing 0x4100": {
+                "0x4118": 15.0
+            }
+        },
+        "0x4120": {
+            "anim 0x4188": "damaged_middle",
+            "attr 0x41a0": {
+                "0x41b8": "Sound",
+                "0x41c8": "ene_grd_run2"
+            },
+            "timing 0x41d0": {
+                "0x41e8": 23.0
+            }
+        },
+        "0x41f0": {
+            "anim 0x4258": "damaged_middle",
+            "attr 0x4270": {
+                "0x4288": "Sound",
+                "0x4298": "ene_grd_run2"
+            },
+            "timing 0x42a0": {
+                "0x42b8": 23.0
+            }
+        },
+        "0x42c0": {
+            "anim 0x4328": "damaged_middle",
+            "attr 0x4340": {
+                "0x4358": "Sound",
+                "0x4368": "ene_grd_run2"
+            },
+            "timing 0x4370": {
+                "0x4388": 56.0
+            }
+        },
+        "0x4390": {
+            "anim 0x43f8": "damaged_middle",
+            "attr 0x4410": {
+                "0x4428": "Sound",
+                "0x4438": "ene_grd_run2"
+            },
+            "timing 0x4440": {
+                "0x4458": 69.0
+            }
+        },
+        "0x4460": {
+            "anim 0x44c8": "damaged_middle",
+            "attr 0x44e0": {
+                "0x44f8": "Sound",
+                "0x4508": "ene_grd_run2"
+            },
+            "timing 0x4510": {
+                "0x4528": 77.0
+            }
+        },
+        "0x4530": {
+            "anim 0x4598": "damaged_front",
+            "attr 0x45b0": {
+                "0x45c8": "Sound",
+                "0x45d8": "ene_grd_walk"
+            },
+            "timing 0x45e0": {
+                "0x45f8": 13.0
+            }
+        },
+        "0x4600": {
+            "anim 0x4668": "damaged_front",
+            "attr 0x4680": {
+                "0x4698": "Sound",
+                "0x46a8": "ene_grd_run2"
+            },
+            "timing 0x46b0": {
+                "0x46c8": 15.0
+            }
+        },
+        "0x46d0": {
+            "anim 0x4738": "damaged_front",
+            "attr 0x4750": {
+                "0x4768": "Sound",
+                "0x4778": "ene_grd_run2"
+            },
+            "timing 0x4780": {
+                "0x4798": 23.0
+            }
+        },
+        "0x47a0": {
+            "anim 0x4808": "damaged_front",
+            "attr 0x4820": {
+                "0x4838": "Sound",
+                "0x4848": "ene_grd_run2"
+            },
+            "timing 0x4850": {
+                "0x4868": 23.0
+            }
+        },
+        "0x4870": {
+            "anim 0x48d8": "damaged_front",
+            "attr 0x48f0": {
+                "0x4908": "Sound",
+                "0x4918": "ene_grd_run2"
+            },
+            "timing 0x4920": {
+                "0x4938": 56.0
+            }
+        },
+        "0x4940": {
+            "anim 0x49a8": "damaged_front",
+            "attr 0x49c0": {
+                "0x49d8": "Sound",
+                "0x49e8": "ene_grd_run2"
+            },
+            "timing 0x49f0": {
+                "0x4a08": 69.0
+            }
+        },
+        "0x4a10": {
+            "anim 0x4a78": "damaged_front",
+            "attr 0x4a90": {
+                "0x4aa8": "Sound",
+                "0x4ab8": "ene_grd_run2"
+            },
+            "timing 0x4ac0": {
+                "0x4ad8": 77.0
+            }
+        },
+        "0x4ae0": {
+            "anim 0x4b48": "damaged_back",
+            "attr 0x4b60": {
+                "0x4b78": "Sound",
+                "0x4b88": "ene_grd_walk"
+            },
+            "timing 0x4b90": {
+                "0x4ba8": 13.0
+            }
+        },
+        "0x4bb0": {
+            "anim 0x4c18": "damaged_front",
+            "attr 0x4c30": {
+                "0x4c48": "Sound",
+                "0x4c58": "ene_grd_run2"
+            },
+            "timing 0x4c60": {
+                "0x4c78": 15.0
+            }
+        },
+        "0x4c80": {
+            "anim 0x4ce8": "damaged_back",
+            "attr 0x4d00": {
+                "0x4d18": "Sound",
+                "0x4d28": "ene_grd_run2"
+            },
+            "timing 0x4d30": {
+                "0x4d48": 23.0
+            }
+        },
+        "0x4d50": {
+            "anim 0x4db8": "damaged_back",
+            "attr 0x4dd0": {
+                "0x4de8": "Sound",
+                "0x4df8": "ene_grd_run2"
+            },
+            "timing 0x4e00": {
+                "0x4e18": 23.0
+            }
+        },
+        "0x4e20": {
+            "anim 0x4e88": "damaged_back",
+            "attr 0x4ea0": {
+                "0x4eb8": "Sound",
+                "0x4ec8": "ene_grd_run2"
+            },
+            "timing 0x4ed0": {
+                "0x4ee8": 56.0
+            }
+        },
+        "0x4ef0": {
+            "anim 0x4f58": "damaged_back",
+            "attr 0x4f70": {
+                "0x4f88": "Sound",
+                "0x4f98": "ene_grd_run2"
+            },
+            "timing 0x4fa0": {
+                "0x4fb8": 69.0
+            }
+        },
+        "0x4fc0": {
+            "anim 0x5028": "damaged_back",
+            "attr 0x5040": {
+                "0x5058": "Sound",
+                "0x5068": "ene_grd_run2"
+            },
+            "timing 0x5070": {
+                "0x5088": 77.0
+            }
+        },
+        "0x5090": {
+            "anim 0x50f8": "broken",
+            "attr 0x5110": {
+                "0x5128": "Sound",
+                "0x5138": "ene_grd_walk"
+            },
+            "timing 0x5140": {
+                "0x5158": 13.0
+            }
+        },
+        "0x5160": {
+            "anim 0x51c8": "broken",
+            "attr 0x51e0": {
+                "0x51f8": "Sound",
+                "0x5208": "ene_grd_run2"
+            },
+            "timing 0x5210": {
+                "0x5228": 15.0
+            }
+        },
+        "0x5230": {
+            "anim 0x5298": "broken",
+            "attr 0x52b0": {
+                "0x52c8": "Sound",
+                "0x52d8": "ene_grd_run2"
+            },
+            "timing 0x52e0": {
+                "0x52f8": 23.0
+            }
+        },
+        "0x5300": {
+            "anim 0x5368": "broken",
+            "attr 0x5380": {
+                "0x5398": "Sound",
+                "0x53a8": "ene_grd_run2"
+            },
+            "timing 0x53b0": {
+                "0x53c8": 23.0
+            }
+        },
+        "0x53d0": {
+            "anim 0x5438": "broken",
+            "attr 0x5450": {
+                "0x5468": "Sound",
+                "0x5478": "ene_grd_run2"
+            },
+            "timing 0x5480": {
+                "0x5498": 56.0
+            }
+        },
+        "0x54a0": {
+            "anim 0x5508": "broken",
+            "attr 0x5520": {
+                "0x5538": "Sound",
+                "0x5548": "ene_grd_run2"
+            },
+            "timing 0x5550": {
+                "0x5568": 69.0
+            }
+        },
+        "0x5570": {
+            "anim 0x55d8": "broken",
+            "attr 0x55f0": {
+                "0x5608": "Sound",
+                "0x5618": "ene_grd_run2"
+            },
+            "timing 0x5620": {
+                "0x5638": 77.0
+            }
+        },
+        "0x5640": {
+            "amplitude 0x57f0": {
+                "0x5808": 0.029999999329447746
+            },
+            "anim 0x5728": "attack",
+            "attr 0x5718": "CameraShake",
+            "distFalloff 0x5830": {
+                "0x5848": 20.0
+            },
+            "durationSec 0x57d0": {
+                "0x57e8": 0.4000000059604645
+            },
+            "frequency 0x5810": {
+                "0x5828": 3.0
+            },
+            "timing 0x5790": {
+                "0x57a8": 10.0
+            },
+            "waveSlot 0x57b0": {
+                "0x57c8": 0.0
+            }
+        },
+        "0x5850": {
+            "amplitude 0x5a00": {
+                "0x5a18": 0.05000000074505806
+            },
+            "anim 0x5938": "attack",
+            "attr 0x5928": "CameraShake",
+            "distFalloff 0x5a40": {
+                "0x5a58": 20.0
+            },
+            "durationSec 0x59e0": {
+                "0x59f8": 0.6000000238418579
+            },
+            "frequency 0x5a20": {
+                "0x5a38": 6.0
+            },
+            "timing 0x59a0": {
+                "0x59b8": 35.0
+            },
+            "waveSlot 0x59c0": {
+                "0x59d8": 0.0
+            }
+        },
+        "0x5a60": {
+            "amplitude 0x5c10": {
+                "0x5c28": 0.019999999552965164
+            },
+            "anim 0x5b48": "attack_shoot",
+            "attr 0x5b38": "CameraShake",
+            "distFalloff 0x5c50": {
+                "0x5c68": 20.0
+            },
+            "durationSec 0x5bf0": {
+                "0x5c08": 1.2999999523162842
+            },
+            "frequency 0x5c30": {
+                "0x5c48": 11.0
+            },
+            "timing 0x5bb0": {
+                "0x5bc8": 1.0
+            },
+            "waveSlot 0x5bd0": {
+                "0x5be8": 0.0
+            }
+        },
+        "0x5c70": {
+            "amplitude 0x5e20": {
+                "0x5e38": 0.1599999964237213
+            },
+            "anim 0x5d58": "attack_shoot",
+            "attr 0x5d48": "CameraShake",
+            "distFalloff 0x5e60": {
+                "0x5e78": 20.0
+            },
+            "durationSec 0x5e00": {
+                "0x5e18": 1.7999999523162842
+            },
+            "frequency 0x5e40": {
+                "0x5e58": 4.0
+            },
+            "timing 0x5dc0": {
+                "0x5dd8": 30.0
+            },
+            "waveSlot 0x5de0": {
+                "0x5df8": 0.0
+            }
+        },
+        "0x650": {
+            "anim 0x6f8": "spawn",
+            "attr 0x6d8": "Attack",
+            "shape 0x720": {
+                "0x738": "Sphere",
+                "0x748": 1.75
+            },
+            "timing 0x750": {
+                "0x768": 0.0,
+                "0x778": 50.0
+            },
+            "userData 0x6e8": "spawn"
+        },
+        "0x780": {
+            "anim 0x838": "attack",
+            "attr 0x818": "Attack",
+            "parent 0x848": "bn_ten1L_8",
+            "shape 0x870": {
+                "0x888": "Sphere",
+                "0x898": 0.3499999940395355
+            },
+            "timing 0x8a0": {
+                "0x8b8": 24.0,
+                "0x8c8": 46.0
+            },
+            "userData 0x828": "attack"
+        },
+        "0x8d0": {
+            "anim 0x988": "attack",
+            "attr 0x968": "Attack",
+            "parent 0x998": "bn_ten1R_8",
+            "shape 0x9c0": {
+                "0x9d8": "Sphere",
+                "0x9e8": 0.3499999940395355
+            },
+            "timing 0x9f0": {
+                "0xa08": 24.0,
+                "0xa18": 46.0
+            },
+            "userData 0x978": "attack"
+        },
+        "0xa20": {
+            "anim 0xad8": "attack",
+            "attr 0xab8": "Attack",
+            "parent 0xae8": "bn_ten2L_8",
+            "shape 0xb10": {
+                "0xb28": "Sphere",
+                "0xb38": 0.3499999940395355
+            },
+            "timing 0xb40": {
+                "0xb58": 24.0,
+                "0xb68": 46.0
+            },
+            "userData 0xac8": "attack"
+        },
+        "0xb70": {
+            "anim 0xc28": "attack",
+            "attr 0xc08": "Attack",
+            "parent 0xc38": "bn_ten2R_8",
+            "shape 0xc60": {
+                "0xc78": "Sphere",
+                "0xc88": 0.3499999940395355
+            },
+            "timing 0xc90": {
+                "0xca8": 24.0,
+                "0xcb8": 46.0
+            },
+            "userData 0xc18": "attack"
+        },
+        "0xcc0": {
+            "anim 0xd78": "attack",
+            "attr 0xd58": "Attack",
+            "layout 0xde0": {
+                "pos 0xe20": {
+                    "0xe38": 0.0,
+                    "0xe48": 1.600000023841858,
+                    "0xe58": -1.0
+                }
+            },
+            "shape 0xdb0": {
+                "0xdc8": "Sphere",
+                "0xdd8": 1.899999976158142
+            },
+            "timing 0xe60": {
+                "0xe78": 40.0,
+                "0xe88": 46.0
+            },
+            "userData 0xd68": "attack"
+        },
+        "0xe90": {
+            "anim 0xf48": "attack",
+            "attr 0xf28": "Attack",
+            "layout 0xfb0": {
+                "pos 0xff0": {
+                    "0x1008": 0.0,
+                    "0x1018": 1.600000023841858,
+                    "0x1028": 1.0
+                }
+            },
+            "shape 0xf80": {
+                "0xf98": "Sphere",
+                "0xfa8": 1.899999976158142
+            },
+            "timing 0x1030": {
+                "0x1048": 40.0,
+                "0x1058": 46.0
+            },
+            "userData 0xf38": "attack"
+        }
+    }
+}

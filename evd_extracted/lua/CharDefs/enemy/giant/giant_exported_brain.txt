@@ -1,0 +1,473 @@
+{
+    "easy 0x1640": {
+        "brain 0x1710": {
+            "ai_type 0x17a8": "giant",
+            "animjoint 0x17b8": "giant",
+            "body_effect 0x17d8": "giant",
+            "race 0x17c8": "nevi",
+            "type 0x1798": "EnemyBrain"
+        },
+        "enemy_action_common 0x2b70": {
+            "find 0x2bb8": 30.0,
+            "lose 0x2bc8": 40.0
+        },
+        "enemy_actions 0x24a0": {
+            "attack_grab_throw 0x29e0": {
+                "damage_cumulation 0x2b38": 0.0,
+                "damage_type 0x2b28": "blow",
+                "force 0x2b08": 1.0,
+                "height 0x2b58": 0.0,
+                "interval 0x2b68": 0.0,
+                "power 0x2ad8": 25.0,
+                "range 0x2b48": 0.0,
+                "rate_of_bg 0x2af8": 90.0,
+                "rate_of_power 0x2ae8": 30.0,
+                "upper_force 0x2b18": 0.0
+            },
+            "attack_punch 0x2550": {
+                "damage_cumulation 0x26d8": 0.0,
+                "damage_type 0x26b8": "blow",
+                "force 0x2698": 3.0,
+                "height 0x26f8": 15.0,
+                "hit_effect_type 0x26c8": "L",
+                "ignore_super_armor 0x2718": "01000000",
+                "interval 0x2708": 5.0,
+                "power 0x2668": 30.0,
+                "range 0x26e8": 50.0,
+                "rate_of_bg 0x2688": 120.0,
+                "rate_of_power 0x2678": 120.0,
+                "upper_force 0x26a8": 2.0
+            },
+            "attack_shockwave 0x2720": {
+                "damage_cumulation 0x2898": 0.0,
+                "damage_type 0x2878": "blow",
+                "force 0x2858": 2.0,
+                "height 0x28b8": 10.0,
+                "hit_effect_type 0x2888": "L",
+                "interval 0x28c8": 5.0,
+                "power 0x2828": 20.0,
+                "range 0x28a8": 9.0,
+                "rate_of_bg 0x2848": 75.0,
+                "rate_of_power 0x2838": 25.0,
+                "upper_force 0x2868": 1.0
+            },
+            "spawn 0x28d0": {
+                "damage_cumulation 0x29d8": 0.0,
+                "damage_type 0x29c8": "normal",
+                "force 0x29a8": 1.0,
+                "power 0x2978": 10.0,
+                "rate_of_bg 0x2998": 30.0,
+                "rate_of_power 0x2988": -2.0,
+                "upper_force 0x29b8": 0.0
+            }
+        },
+        "enemy_body 0x17e0": {
+            "ash_effect 0x18f8": "ef_nev_death_nvgia",
+            "ash_effect_node 0x1908": "samplelink",
+            "ash_se 0x1918": "ene_disappear_L",
+            "ash_vanish_start_time 0x1928": 5.300000190734863,
+            "ash_vanish_time 0x1938": 2.0,
+            "battle_field_prio 0x1968": 2.0,
+            "battle_field_range 0x1958": 20.0,
+            "health 0x1948": 60.0,
+            "spawn_effect 0x18d8": "ef_nev_gia_spw",
+            "spawn_se 0x18e8": "ene_come"
+        },
+        "enemy_parts 0x1970": {
+            "loc_nvgia01_armor_body 0x2460": {
+                "health 0x2498": 200.0
+            },
+            "loc_nvgia01_armor_footl 0x2320": {
+                "health 0x2358": 200.0
+            },
+            "loc_nvgia01_armor_hand 0x23e0": {
+                "health 0x2418": 200.0
+            },
+            "loc_nvgia01_armor_legl 0x2360": {
+                "health 0x2398": 200.0
+            },
+            "loc_nvgia01_armor_legr 0x23a0": {
+                "health 0x23d8": 200.0
+            },
+            "loc_nvgia01_armor_shoul 0x2420": {
+                "health 0x2458": 200.0
+            },
+            "loc_setCore01 0x1b40": {
+                "angle 0x1c68": 240.0,
+                "body_damage 0x1c28": 10.0,
+                "core 0x1c58": "01000000",
+                "damage_motion_type 0x1c78": "FRONT",
+                "eye_aim_limit 0x1c48": 30.0,
+                "health 0x1c18": 120.0,
+                "homing_angle 0x1c88": 45.0,
+                "lockon 0x1c38": "01000000"
+            },
+            "loc_setCore02 0x1c90": {
+                "angle 0x1db8": 240.0,
+                "body_damage 0x1d78": 10.0,
+                "core 0x1da8": "01000000",
+                "damage_motion_type 0x1dc8": "BACK",
+                "eye_aim_limit 0x1d98": 30.0,
+                "health 0x1d68": 120.0,
+                "homing_angle 0x1dd8": 45.0,
+                "lockon 0x1d88": "01000000"
+            },
+            "loc_setCore03 0x1de0": {
+                "angle 0x1f08": 240.0,
+                "body_damage 0x1ec8": 10.0,
+                "core 0x1ef8": "01000000",
+                "damage_motion_type 0x1f18": "FRONT",
+                "eye_aim_limit 0x1ee8": 30.0,
+                "health 0x1eb8": 80.0,
+                "homing_angle 0x1f28": 45.0,
+                "lockon 0x1ed8": "01000000"
+            },
+            "loc_setCore04 0x1f30": {
+                "angle 0x2078": 240.0,
+                "body_damage 0x2028": 10.0,
+                "core 0x2068": "01000000",
+                "damage_motion_type 0x2088": "FRONT",
+                "defenders 0x20a0": {
+                    "0x20b8": "loc_nvgia01_armor_shoul"
+                },
+                "eye_aim_limit 0x2058": 30.0,
+                "health 0x2018": 120.0,
+                "homing_angle 0x2098": 45.0,
+                "lockon 0x2048": "01000000"
+            },
+            "loc_setCore05 0x20c0": {
+                "angle 0x21e8": 240.0,
+                "body_damage 0x21a8": 10.0,
+                "core 0x21d8": "01000000",
+                "damage_motion_type 0x21f8": "FRONT",
+                "eye_aim_limit 0x21c8": 30.0,
+                "health 0x2198": 120.0,
+                "homing_angle 0x2208": 45.0,
+                "lockon 0x21b8": "01000000"
+            },
+            "loc_setCore06 0x2210": {
+                "angle 0x22f8": 240.0,
+                "body_damage 0x22c8": 10.0,
+                "core 0x22e8": "01000000",
+                "damage_motion_type 0x2308": "BACK",
+                "health 0x22b8": 120.0,
+                "homing_angle 0x2318": 45.0,
+                "lockon 0x22d8": "01000000"
+            }
+        }
+    },
+    "hard 0x2bd0": {
+        "brain 0x2ca0": {
+            "ai_type 0x2d38": "giant",
+            "animjoint 0x2d48": "giant",
+            "body_effect 0x2d68": "giant",
+            "race 0x2d58": "nevi",
+            "type 0x2d28": "EnemyBrain"
+        },
+        "enemy_action_common 0x4100": {
+            "find 0x4148": 30.0,
+            "lose 0x4158": 40.0
+        },
+        "enemy_actions 0x3a30": {
+            "attack_grab_throw 0x3f70": {
+                "damage_cumulation 0x40c8": 0.0,
+                "damage_type 0x40b8": "blow",
+                "force 0x4098": 1.0,
+                "height 0x40e8": 0.0,
+                "interval 0x40f8": 0.0,
+                "power 0x4068": 35.0,
+                "range 0x40d8": 0.0,
+                "rate_of_bg 0x4088": 90.0,
+                "rate_of_power 0x4078": 30.0,
+                "upper_force 0x40a8": 0.0
+            },
+            "attack_punch 0x3ae0": {
+                "damage_cumulation 0x3c68": 0.0,
+                "damage_type 0x3c48": "blow",
+                "force 0x3c28": 3.0,
+                "height 0x3c88": 15.0,
+                "hit_effect_type 0x3c58": "L",
+                "ignore_super_armor 0x3ca8": "01000000",
+                "interval 0x3c98": 5.0,
+                "power 0x3bf8": 60.0,
+                "range 0x3c78": 50.0,
+                "rate_of_bg 0x3c18": 120.0,
+                "rate_of_power 0x3c08": 120.0,
+                "upper_force 0x3c38": 2.0
+            },
+            "attack_shockwave 0x3cb0": {
+                "damage_cumulation 0x3e28": 0.0,
+                "damage_type 0x3e08": "blow",
+                "force 0x3de8": 2.0,
+                "height 0x3e48": 10.0,
+                "hit_effect_type 0x3e18": "L",
+                "interval 0x3e58": 5.0,
+                "power 0x3db8": 40.0,
+                "range 0x3e38": 9.0,
+                "rate_of_bg 0x3dd8": 75.0,
+                "rate_of_power 0x3dc8": 25.0,
+                "upper_force 0x3df8": 1.0
+            },
+            "spawn 0x3e60": {
+                "damage_cumulation 0x3f68": 0.0,
+                "damage_type 0x3f58": "normal",
+                "force 0x3f38": 1.0,
+                "power 0x3f08": 10.0,
+                "rate_of_bg 0x3f28": 30.0,
+                "rate_of_power 0x3f18": -2.0,
+                "upper_force 0x3f48": 0.0
+            }
+        },
+        "enemy_body 0x2d70": {
+            "ash_effect 0x2e88": "ef_nev_death_nvgia",
+            "ash_effect_node 0x2e98": "samplelink",
+            "ash_se 0x2ea8": "ene_disappear_L",
+            "ash_vanish_start_time 0x2eb8": 5.300000190734863,
+            "ash_vanish_time 0x2ec8": 2.0,
+            "battle_field_prio 0x2ef8": 2.0,
+            "battle_field_range 0x2ee8": 20.0,
+            "health 0x2ed8": 60.0,
+            "spawn_effect 0x2e68": "ef_nev_gia_spw",
+            "spawn_se 0x2e78": "ene_come"
+        },
+        "enemy_parts 0x2f00": {
+            "loc_nvgia01_armor_body 0x39f0": {
+                "health 0x3a28": 400.0
+            },
+            "loc_nvgia01_armor_footl 0x38b0": {
+                "health 0x38e8": 200.0
+            },
+            "loc_nvgia01_armor_hand 0x3970": {
+                "health 0x39a8": 300.0
+            },
+            "loc_nvgia01_armor_legl 0x38f0": {
+                "health 0x3928": 200.0
+            },
+            "loc_nvgia01_armor_legr 0x3930": {
+                "health 0x3968": 200.0
+            },
+            "loc_nvgia01_armor_shoul 0x39b0": {
+                "health 0x39e8": 400.0
+            },
+            "loc_setCore01 0x30d0": {
+                "angle 0x31f8": 240.0,
+                "body_damage 0x31b8": 10.0,
+                "core 0x31e8": "01000000",
+                "damage_motion_type 0x3208": "FRONT",
+                "eye_aim_limit 0x31d8": 30.0,
+                "health 0x31a8": 180.0,
+                "homing_angle 0x3218": 45.0,
+                "lockon 0x31c8": "01000000"
+            },
+            "loc_setCore02 0x3220": {
+                "angle 0x3348": 240.0,
+                "body_damage 0x3308": 10.0,
+                "core 0x3338": "01000000",
+                "damage_motion_type 0x3358": "BACK",
+                "eye_aim_limit 0x3328": 30.0,
+                "health 0x32f8": 180.0,
+                "homing_angle 0x3368": 45.0,
+                "lockon 0x3318": "01000000"
+            },
+            "loc_setCore03 0x3370": {
+                "angle 0x3498": 240.0,
+                "body_damage 0x3458": 10.0,
+                "core 0x3488": "01000000",
+                "damage_motion_type 0x34a8": "FRONT",
+                "eye_aim_limit 0x3478": 30.0,
+                "health 0x3448": 150.0,
+                "homing_angle 0x34b8": 45.0,
+                "lockon 0x3468": "01000000"
+            },
+            "loc_setCore04 0x34c0": {
+                "angle 0x3608": 240.0,
+                "body_damage 0x35b8": 10.0,
+                "core 0x35f8": "01000000",
+                "damage_motion_type 0x3618": "FRONT",
+                "defenders 0x3630": {
+                    "0x3648": "loc_nvgia01_armor_shoul"
+                },
+                "eye_aim_limit 0x35e8": 30.0,
+                "health 0x35a8": 180.0,
+                "homing_angle 0x3628": 45.0,
+                "lockon 0x35d8": "01000000"
+            },
+            "loc_setCore05 0x3650": {
+                "angle 0x3778": 240.0,
+                "body_damage 0x3738": 10.0,
+                "core 0x3768": "01000000",
+                "damage_motion_type 0x3788": "FRONT",
+                "eye_aim_limit 0x3758": 30.0,
+                "health 0x3728": 180.0,
+                "homing_angle 0x3798": 45.0,
+                "lockon 0x3748": "01000000"
+            },
+            "loc_setCore06 0x37a0": {
+                "angle 0x3888": 240.0,
+                "body_damage 0x3858": 10.0,
+                "core 0x3878": "01000000",
+                "damage_motion_type 0x3898": "BACK",
+                "health 0x3848": 180.0,
+                "homing_angle 0x38a8": 45.0,
+                "lockon 0x3868": "01000000"
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_type 0x218": "giant",
+            "animjoint 0x228": "giant",
+            "body_effect 0x248": "giant",
+            "race 0x238": "nevi",
+            "type 0x208": "EnemyBrain"
+        },
+        "enemy_action_common 0x15e0": {
+            "find 0x1628": 30.0,
+            "lose 0x1638": 40.0
+        },
+        "enemy_actions 0xf10": {
+            "attack_grab_throw 0x1450": {
+                "damage_cumulation 0x15a8": 0.0,
+                "damage_type 0x1598": "blow",
+                "force 0x1578": 1.0,
+                "height 0x15c8": 0.0,
+                "interval 0x15d8": 0.0,
+                "power 0x1548": 30.0,
+                "range 0x15b8": 0.0,
+                "rate_of_bg 0x1568": 90.0,
+                "rate_of_power 0x1558": 30.0,
+                "upper_force 0x1588": 0.0
+            },
+            "attack_punch 0xfc0": {
+                "damage_cumulation 0x1148": 0.0,
+                "damage_type 0x1128": "blow",
+                "force 0x1108": 3.0,
+                "height 0x1168": 15.0,
+                "hit_effect_type 0x1138": "L",
+                "ignore_super_armor 0x1188": "01000000",
+                "interval 0x1178": 5.0,
+                "power 0x10d8": 40.0,
+                "range 0x1158": 50.0,
+                "rate_of_bg 0x10f8": 120.0,
+                "rate_of_power 0x10e8": 120.0,
+                "upper_force 0x1118": 2.0
+            },
+            "attack_shockwave 0x1190": {
+                "damage_cumulation 0x1308": 0.0,
+                "damage_type 0x12e8": "blow",
+                "force 0x12c8": 2.0,
+                "height 0x1328": 10.0,
+                "hit_effect_type 0x12f8": "L",
+                "interval 0x1338": 5.0,
+                "power 0x1298": 25.0,
+                "range 0x1318": 9.0,
+                "rate_of_bg 0x12b8": 75.0,
+                "rate_of_power 0x12a8": 25.0,
+                "upper_force 0x12d8": 1.0
+            },
+            "spawn 0x1340": {
+                "damage_cumulation 0x1448": 0.0,
+                "damage_type 0x1438": "normal",
+                "force 0x1418": 1.0,
+                "power 0x13e8": 10.0,
+                "rate_of_bg 0x1408": 30.0,
+                "rate_of_power 0x13f8": -2.0,
+                "upper_force 0x1428": 0.0
+            }
+        },
+        "enemy_body 0x250": {
+            "ash_effect 0x368": "ef_nev_death_nvgia",
+            "ash_effect_node 0x378": "samplelink",
+            "ash_se 0x388": "ene_disappear_L",
+            "ash_vanish_start_time 0x398": 5.300000190734863,
+            "ash_vanish_time 0x3a8": 2.0,
+            "battle_field_prio 0x3d8": 2.0,
+            "battle_field_range 0x3c8": 20.0,
+            "health 0x3b8": 60.0,
+            "spawn_effect 0x348": "ef_nev_gia_spw",
+            "spawn_se 0x358": "ene_come"
+        },
+        "enemy_parts 0x3e0": {
+            "loc_nvgia01_armor_body 0xed0": {
+                "health 0xf08": 300.0
+            },
+            "loc_nvgia01_armor_footl 0xd90": {
+                "health 0xdc8": 200.0
+            },
+            "loc_nvgia01_armor_hand 0xe50": {
+                "health 0xe88": 300.0
+            },
+            "loc_nvgia01_armor_legl 0xdd0": {
+                "health 0xe08": 200.0
+            },
+            "loc_nvgia01_armor_legr 0xe10": {
+                "health 0xe48": 200.0
+            },
+            "loc_nvgia01_armor_shoul 0xe90": {
+                "health 0xec8": 300.0
+            },
+            "loc_setCore01 0x5b0": {
+                "angle 0x6d8": 240.0,
+                "body_damage 0x698": 10.0,
+                "core 0x6c8": "01000000",
+                "damage_motion_type 0x6e8": "FRONT",
+                "eye_aim_limit 0x6b8": 30.0,
+                "health 0x688": 150.0,
+                "homing_angle 0x6f8": 45.0,
+                "lockon 0x6a8": "01000000"
+            },
+            "loc_setCore02 0x700": {
+                "angle 0x828": 240.0,
+                "body_damage 0x7e8": 10.0,
+                "core 0x818": "01000000",
+                "damage_motion_type 0x838": "BACK",
+                "eye_aim_limit 0x808": 30.0,
+                "health 0x7d8": 150.0,
+                "homing_angle 0x848": 45.0,
+                "lockon 0x7f8": "01000000"
+            },
+            "loc_setCore03 0x850": {
+                "angle 0x978": 240.0,
+                "body_damage 0x938": 10.0,
+                "core 0x968": "01000000",
+                "damage_motion_type 0x988": "FRONT",
+                "eye_aim_limit 0x958": 30.0,
+                "health 0x928": 100.0,
+                "homing_angle 0x998": 45.0,
+                "lockon 0x948": "01000000"
+            },
+            "loc_setCore04 0x9a0": {
+                "angle 0xae8": 240.0,
+                "body_damage 0xa98": 10.0,
+                "core 0xad8": "01000000",
+                "damage_motion_type 0xaf8": "FRONT",
+                "defenders 0xb10": {
+                    "0xb28": "loc_nvgia01_armor_shoul"
+                },
+                "eye_aim_limit 0xac8": 30.0,
+                "health 0xa88": 150.0,
+                "homing_angle 0xb08": 45.0,
+                "lockon 0xab8": "01000000"
+            },
+            "loc_setCore05 0xb30": {
+                "angle 0xc58": 240.0,
+                "body_damage 0xc18": 10.0,
+                "core 0xc48": "01000000",
+                "damage_motion_type 0xc68": "FRONT",
+                "eye_aim_limit 0xc38": 30.0,
+                "health 0xc08": 150.0,
+                "homing_angle 0xc78": 45.0,
+                "lockon 0xc28": "01000000"
+            },
+            "loc_setCore06 0xc80": {
+                "angle 0xd68": 240.0,
+                "body_damage 0xd38": 10.0,
+                "core 0xd58": "01000000",
+                "damage_motion_type 0xd78": "BACK",
+                "health 0xd28": 150.0,
+                "homing_angle 0xd88": 45.0,
+                "lockon 0xd48": "01000000"
+            }
+        }
+    }
+}

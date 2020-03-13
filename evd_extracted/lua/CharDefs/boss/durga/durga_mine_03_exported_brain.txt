@@ -1,0 +1,230 @@
+{
+    "easy 0xb10": {
+        "brain 0xbe0": {
+            "ai_grade 0xcc8": "boss",
+            "ai_type 0xc88": "durga",
+            "animjoint 0xc98": "durga",
+            "race 0xca8": "human",
+            "tailchain 0xcb8": "durga",
+            "type 0xc78": "EnemyBrain"
+        },
+        "enemy_action_common 0x1510": {
+            "find 0x1558": 1000.0,
+            "lose 0x1568": 1000.0
+        },
+        "enemy_actions 0x1020": {
+            "crystal_bullet 0x11e0": {
+                "damage_cumulation 0x1318": 0.0,
+                "damage_type 0x1308": "normal",
+                "force 0x12e8": 0.20000000298023224,
+                "power 0x12b8": 40.0,
+                "rate_of_bg 0x12d8": 100.0,
+                "rate_of_power 0x12c8": 10.0,
+                "upper_force 0x12f8": 0.0,
+                "velocity 0x1328": 5.0
+            },
+            "crystal_cage 0x1330": {
+                "damage_cumulation 0x1408": 0.0,
+                "damage_type 0x13f8": "normal",
+                "force 0x13e8": 0.0,
+                "free 0x1418": 200.0,
+                "power 0x13c8": 0.0,
+                "rate_of_power 0x13d8": -1.0
+            },
+            "crystal_shield 0x1420": {
+                "damage_cumulation 0x14f8": 0.0,
+                "damage_type 0x14e8": "normal",
+                "force 0x14d8": 0.0,
+                "free 0x1508": 70.0,
+                "power 0x14b8": 0.0,
+                "rate_of_power 0x14c8": -1.0
+            },
+            "spawn 0x10d0": {
+                "damage_cumulation 0x11c8": 0.0,
+                "damage_type 0x11b8": "normal",
+                "force 0x1198": 1.0,
+                "power 0x1178": 20.0,
+                "range 0x11d8": 2.5,
+                "rate_of_power 0x1188": -2.0,
+                "upper_force 0x11a8": 0.0
+            }
+        },
+        "enemy_body 0xcd0": {
+            "battle_field_prio 0xd48": 100.0,
+            "battle_field_range 0xd38": 15.0,
+            "health 0xd28": 10.0
+        },
+        "enemy_parts 0xd50": {
+            "loc_top 0xd90": {
+                "angle 0xff8": 360.0,
+                "body_damage 0xf38": 10.0,
+                "core 0xfe8": "01000000",
+                "crowspecial_rate 0xfc8": 1.0,
+                "damage_motion_type 0x1008": "FRONT",
+                "debribullet_rate 0xfa8": 0.5,
+                "drillkick_rate 0xfb8": 1.0,
+                "gravitythrow_rate 0xf78": 0.4000000059604645,
+                "gravitytyphoon_rate 0xf58": 0.14000000059604645,
+                "health 0xf28": 1500.0,
+                "homing_angle 0x1018": 360.0,
+                "lockon 0xfd8": "01000000",
+                "microblackhole_rate 0xf68": 1.0,
+                "penetrate_rate 0xf88": 0.05000000074505806,
+                "scratchtornado_rate 0xf48": 0.20000000298023224,
+                "vortex_rate 0xf98": 0.4000000059604645
+            }
+        }
+    },
+    "hard 0x1570": {
+        "brain 0x1640": {
+            "ai_grade 0x1728": "boss",
+            "ai_type 0x16e8": "durga",
+            "animjoint 0x16f8": "durga",
+            "race 0x1708": "human",
+            "tailchain 0x1718": "durga",
+            "type 0x16d8": "EnemyBrain"
+        },
+        "enemy_action_common 0x1f70": {
+            "find 0x1fb8": 1000.0,
+            "lose 0x1fc8": 1000.0
+        },
+        "enemy_actions 0x1a80": {
+            "crystal_bullet 0x1c40": {
+                "damage_cumulation 0x1d78": 0.0,
+                "damage_type 0x1d68": "normal",
+                "force 0x1d48": 0.20000000298023224,
+                "power 0x1d18": 40.0,
+                "rate_of_bg 0x1d38": 100.0,
+                "rate_of_power 0x1d28": 10.0,
+                "upper_force 0x1d58": 0.0,
+                "velocity 0x1d88": 5.0
+            },
+            "crystal_cage 0x1d90": {
+                "damage_cumulation 0x1e68": 0.0,
+                "damage_type 0x1e58": "normal",
+                "force 0x1e48": 0.0,
+                "free 0x1e78": 200.0,
+                "power 0x1e28": 0.0,
+                "rate_of_power 0x1e38": -1.0
+            },
+            "crystal_shield 0x1e80": {
+                "damage_cumulation 0x1f58": 0.0,
+                "damage_type 0x1f48": "normal",
+                "force 0x1f38": 0.0,
+                "free 0x1f68": 70.0,
+                "power 0x1f18": 0.0,
+                "rate_of_power 0x1f28": -1.0
+            },
+            "spawn 0x1b30": {
+                "damage_cumulation 0x1c28": 0.0,
+                "damage_type 0x1c18": "normal",
+                "force 0x1bf8": 1.0,
+                "power 0x1bd8": 20.0,
+                "range 0x1c38": 2.5,
+                "rate_of_power 0x1be8": -2.0,
+                "upper_force 0x1c08": 0.0
+            }
+        },
+        "enemy_body 0x1730": {
+            "battle_field_prio 0x17a8": 100.0,
+            "battle_field_range 0x1798": 15.0,
+            "health 0x1788": 10.0
+        },
+        "enemy_parts 0x17b0": {
+            "loc_top 0x17f0": {
+                "angle 0x1a58": 360.0,
+                "body_damage 0x1998": 10.0,
+                "core 0x1a48": "01000000",
+                "crowspecial_rate 0x1a28": 1.0,
+                "damage_motion_type 0x1a68": "FRONT",
+                "debribullet_rate 0x1a08": 0.5,
+                "drillkick_rate 0x1a18": 1.0,
+                "gravitythrow_rate 0x19d8": 0.4000000059604645,
+                "gravitytyphoon_rate 0x19b8": 0.14000000059604645,
+                "health 0x1988": 1500.0,
+                "homing_angle 0x1a78": 360.0,
+                "lockon 0x1a38": "01000000",
+                "microblackhole_rate 0x19c8": 1.0,
+                "penetrate_rate 0x19e8": 0.05000000074505806,
+                "scratchtornado_rate 0x19a8": 0.20000000298023224,
+                "vortex_rate 0x19f8": 0.4000000059604645
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_grade 0x268": "boss",
+            "ai_type 0x228": "durga",
+            "animjoint 0x238": "durga",
+            "race 0x248": "human",
+            "tailchain 0x258": "durga",
+            "type 0x218": "EnemyBrain"
+        },
+        "enemy_action_common 0xab0": {
+            "find 0xaf8": 1000.0,
+            "lose 0xb08": 1000.0
+        },
+        "enemy_actions 0x5c0": {
+            "crystal_bullet 0x780": {
+                "damage_cumulation 0x8b8": 0.0,
+                "damage_type 0x8a8": "normal",
+                "force 0x888": 0.20000000298023224,
+                "power 0x858": 40.0,
+                "rate_of_bg 0x878": 100.0,
+                "rate_of_power 0x868": 10.0,
+                "upper_force 0x898": 0.0,
+                "velocity 0x8c8": 5.0
+            },
+            "crystal_cage 0x8d0": {
+                "damage_cumulation 0x9a8": 0.0,
+                "damage_type 0x998": "normal",
+                "force 0x988": 0.0,
+                "free 0x9b8": 200.0,
+                "power 0x968": 0.0,
+                "rate_of_power 0x978": -1.0
+            },
+            "crystal_shield 0x9c0": {
+                "damage_cumulation 0xa98": 0.0,
+                "damage_type 0xa88": "normal",
+                "force 0xa78": 0.0,
+                "free 0xaa8": 70.0,
+                "power 0xa58": 0.0,
+                "rate_of_power 0xa68": -1.0
+            },
+            "spawn 0x670": {
+                "damage_cumulation 0x768": 0.0,
+                "damage_type 0x758": "normal",
+                "force 0x738": 1.0,
+                "power 0x718": 20.0,
+                "range 0x778": 2.5,
+                "rate_of_power 0x728": -2.0,
+                "upper_force 0x748": 0.0
+            }
+        },
+        "enemy_body 0x270": {
+            "battle_field_prio 0x2e8": 100.0,
+            "battle_field_range 0x2d8": 15.0,
+            "health 0x2c8": 10.0
+        },
+        "enemy_parts 0x2f0": {
+            "loc_top 0x330": {
+                "angle 0x598": 360.0,
+                "body_damage 0x4d8": 10.0,
+                "core 0x588": "01000000",
+                "crowspecial_rate 0x568": 1.0,
+                "damage_motion_type 0x5a8": "FRONT",
+                "debribullet_rate 0x548": 0.5,
+                "drillkick_rate 0x558": 1.0,
+                "gravitythrow_rate 0x518": 0.4000000059604645,
+                "gravitytyphoon_rate 0x4f8": 0.14000000059604645,
+                "health 0x4c8": 1500.0,
+                "homing_angle 0x5b8": 360.0,
+                "lockon 0x578": "01000000",
+                "microblackhole_rate 0x508": 1.0,
+                "penetrate_rate 0x528": 0.05000000074505806,
+                "scratchtornado_rate 0x4e8": 0.20000000298023224,
+                "vortex_rate 0x538": 0.4000000059604645
+            }
+        }
+    }
+}

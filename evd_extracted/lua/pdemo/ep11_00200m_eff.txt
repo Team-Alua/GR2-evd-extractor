@@ -1,0 +1,876 @@
+{
+    "entities 0xb0": {
+        "0x1170": {
+            "clips 0x1260": {
+                "0x1280": {
+                    "endFrame 0x12c8": 239.0,
+                    "startFrame 0x12d8": 231.0
+                }
+            },
+            "effect 0x12e0": {
+                "modelName 0x1318": "ef_dm_ep11_00200m_exp_01"
+            },
+            "name 0x1228": "c01_exp",
+            "transform 0x1320": {
+                "translation 0x1360": {
+                    "0x1378": 0.0,
+                    "0x1388": 860.5499877929688,
+                    "0x1398": 0.0
+                }
+            },
+            "type 0x1248": "effect",
+            "uuid 0x1258": "{3fe55e61-21d1-4616-a80c-e3c31f08ec15}"
+        },
+        "0x13a0": {
+            "clips 0x14b0": {
+                "0x14d0": {
+                    "endFrame 0x1518": 239.0,
+                    "startFrame 0x1528": 232.0
+                }
+            },
+            "effect 0x1530": {
+                "modelName 0x1568": "ef_dm_ep11_00200m_exp_01"
+            },
+            "name 0x1468": "c01_exp_PointLight",
+            "pointlight 0x1570": {
+                "/root/G2PointLight1/G2PointLightShape1 0x15b0": {
+                    "innerRadius 0x1648": 0.5,
+                    "lightColorB 0x1658": 0.24313725531101227,
+                    "lightColorG 0x1668": 0.658823549747467,
+                    "lightColorR 0x1678": 1.0,
+                    "lightIntensity 0x1688": 10.0,
+                    "outerRadius 0x1698": 137.5
+                }
+            },
+            "transform 0x16a0": {
+                "translation 0x16e0": {
+                    "0x16f8": 0.0,
+                    "0x1708": 860.5499877929688,
+                    "0x1718": 100.0
+                }
+            },
+            "type 0x1498": "pointlight",
+            "uuid 0x14a8": "{68717a80-a3cc-41d2-9812-7c8bee057771}"
+        },
+        "0x1720": {
+            "clips 0x1810": {
+                "0x1830": {
+                    "endFrame 0x1878": 140.0,
+                    "startFrame 0x1888": 0.0
+                }
+            },
+            "effect 0x1890": {
+                "modelName 0x18c8": "ef_dm_ep11_00200m_light_pole_01"
+            },
+            "name 0x17d8": "c01_flash_pole",
+            "transform 0x18d0": {
+                "translation 0x1910": {
+                    "0x1928": 0.0,
+                    "0x1938": 1307.550048828125,
+                    "0x1948": -20.0
+                }
+            },
+            "type 0x17f8": "effect",
+            "uuid 0x1808": "{b09059f7-2087-4d6f-95f0-9a473255e6b1}"
+        },
+        "0x1950": {
+            "clips 0x1a40": {
+                "0x1a60": {
+                    "endFrame 0x1aa8": 140.0,
+                    "startFrame 0x1ab8": 85.0
+                }
+            },
+            "effect 0x1ac0": {
+                "modelName 0x1af8": "ef_dm_ep11_00200m_flash_spark_01"
+            },
+            "name 0x1a08": "c01_flash_thunder",
+            "transform 0x1b00": {
+                "translation 0x1b40": {
+                    "0x1b58": 0.0,
+                    "0x1b68": 1187.550048828125,
+                    "0x1b78": -20.0
+                }
+            },
+            "type 0x1a28": "effect",
+            "uuid 0x1a38": "{2155109a-b20d-4be4-a1b7-710cc480f6b8}"
+        },
+        "0x1b80": {
+            "clips 0x1c70": {
+                "0x1c90": {
+                    "endFrame 0x1ce8": 344.0,
+                    "startFrame 0x1cf8": 210.0,
+                    "visibilityOffset 0x1d08": 30.0
+                }
+            },
+            "effect 0x1d10": {
+                "modelName 0x1d48": "ef_dm_ep11_00200m_bk_ppl_01"
+            },
+            "name 0x1c38": "c02_Gravity_storm",
+            "transform 0x1d50": {
+                "rotation 0x1db0": {
+                    "0x1dc8": 0.0,
+                    "0x1dd8": 0.0,
+                    "0x1de8": 0.0
+                },
+                "translation 0x1df0": {
+                    "0x1e08": 0.0,
+                    "0x1e18": 1357.550048828125,
+                    "0x1e28": -200.0
+                }
+            },
+            "type 0x1c58": "effect",
+            "uuid 0x1c68": "{d5608bad-2ab0-466f-a522-a99804ff289a}"
+        },
+        "0x1e30": {
+            "clips 0x1f20": {
+                "0x1f40": {
+                    "endFrame 0x1f98": 344.0,
+                    "startFrame 0x1fa8": 231.0,
+                    "visibilityOffset 0x1fb8": 9.0
+                }
+            },
+            "effect 0x1fc0": {
+                "modelName 0x1ff8": "ef_dm_ep11_00200m_exp_02"
+            },
+            "name 0x1ee8": "c02_exp",
+            "transform 0x2000": {
+                "translation 0x2040": {
+                    "0x2058": 0.0,
+                    "0x2068": 840.5499877929688,
+                    "0x2078": 0.0
+                }
+            },
+            "type 0x1f08": "effect",
+            "uuid 0x1f18": "{b5320a04-aea5-4cee-a624-7f630bfde2ac}"
+        },
+        "0x2080": {
+            "animations 0x21d0": {
+                "pointlight 0x2210": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x2250": {
+                        "lightIntensity 0x2290": {
+                            "keyframes 0x22d0": {
+                                "0x2310": {
+                                    "key 0x2358": 10.0,
+                                    "time 0x2368": 240.0
+                                },
+                                "0x2370": {
+                                    "key 0x23b8": 10.0,
+                                    "time 0x23c8": 310.0
+                                },
+                                "0x23d0": {
+                                    "key 0x2418": 0.0,
+                                    "time 0x2428": 333.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x2430": {
+                "0x2450": {
+                    "endFrame 0x2498": 330.0,
+                    "startFrame 0x24a8": 240.0
+                }
+            },
+            "effect 0x24b0": {
+                "modelName 0x24e8": "ef_dm_ep11_00200m_exp_01"
+            },
+            "name 0x2188": "c02_exp_PointLight",
+            "pointlight 0x24f0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x2530": {
+                    "innerRadius 0x25c8": 0.5,
+                    "lightColorB 0x25d8": 0.24313725531101227,
+                    "lightColorG 0x25e8": 0.658823549747467,
+                    "lightColorR 0x25f8": 1.0,
+                    "lightIntensity 0x2608": 10.0,
+                    "outerRadius 0x2618": 198.3000030517578
+                }
+            },
+            "transform 0x2620": {
+                "translation 0x2660": {
+                    "0x2678": 0.0,
+                    "0x2688": 860.5499877929688,
+                    "0x2698": 150.0
+                }
+            },
+            "type 0x21b8": "pointlight",
+            "uuid 0x21c8": "{29592858-07bd-485a-8003-95c6ad181c17}"
+        },
+        "0x26a0": {
+            "clips 0x2790": {
+                "0x27b0": {
+                    "endFrame 0x27f8": 434.0,
+                    "startFrame 0x2808": 353.0
+                }
+            },
+            "effect 0x2810": {
+                "modelName 0x2848": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x2758": "c03_rock_fall_point_A",
+            "transform 0x2850": {
+                "translation 0x2890": {
+                    "0x28a8": -23.729999542236328,
+                    "0x28b8": 49.75,
+                    "0x28c8": 569.22998046875
+                }
+            },
+            "type 0x2778": "effect",
+            "uuid 0x2788": "{c809f218-24d5-4c9d-b079-edb883f4ee40}"
+        },
+        "0x28d0": {
+            "clips 0x29c0": {
+                "0x29e0": {
+                    "endFrame 0x2a28": 434.0,
+                    "startFrame 0x2a38": 355.0
+                }
+            },
+            "effect 0x2a40": {
+                "modelName 0x2a78": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x2988": "c03_rock_fall_point_B",
+            "transform 0x2a80": {
+                "translation 0x2ac0": {
+                    "0x2ad8": -21.780000686645508,
+                    "0x2ae8": 49.75,
+                    "0x2af8": 561.719970703125
+                }
+            },
+            "type 0x29a8": "effect",
+            "uuid 0x29b8": "{1e00d0c8-b83b-4018-9369-bfcf7d1c77ce}"
+        },
+        "0x2b00": {
+            "clips 0x2bf0": {
+                "0x2c10": {
+                    "endFrame 0x2c58": 434.0,
+                    "startFrame 0x2c68": 366.0
+                }
+            },
+            "effect 0x2c70": {
+                "modelName 0x2ca8": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x2bb8": "c03_rock_fall_point_C",
+            "transform 0x2cb0": {
+                "translation 0x2cf0": {
+                    "0x2d08": -23.940000534057617,
+                    "0x2d18": 49.75,
+                    "0x2d28": 569.969970703125
+                }
+            },
+            "type 0x2bd8": "effect",
+            "uuid 0x2be8": "{e59a7018-8731-4d9f-89ac-2dbced4ebbb2}"
+        },
+        "0x2c0": {
+            "clips 0x3b0": {
+                "0x3d0": {
+                    "endFrame 0x428": 239.0,
+                    "startFrame 0x438": -30.0,
+                    "visibilityOffset 0x448": 30.0
+                }
+            },
+            "effect 0x450": {
+                "modelName 0x488": "ef_dm_ep11_00200m_bk_ppl_01"
+            },
+            "name 0x378": "c01_Gravity_storm",
+            "transform 0x490": {
+                "rotation 0x4f0": {
+                    "0x508": -20.0,
+                    "0x518": 0.0,
+                    "0x528": 0.0
+                },
+                "translation 0x530": {
+                    "0x548": 0.0,
+                    "0x558": 1157.550048828125,
+                    "0x568": -80.0
+                }
+            },
+            "type 0x398": "effect",
+            "uuid 0x3a8": "{b1e139c3-4134-4333-abd2-fd766a40b855}"
+        },
+        "0x2d30": {
+            "clips 0x2e20": {
+                "0x2e40": {
+                    "endFrame 0x2e88": 434.0,
+                    "startFrame 0x2e98": 370.0
+                }
+            },
+            "effect 0x2ea0": {
+                "modelName 0x2ed8": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x2de8": "c03_rock_fall_point_D",
+            "transform 0x2ee0": {
+                "translation 0x2f20": {
+                    "0x2f38": -15.359999656677246,
+                    "0x2f48": 49.75,
+                    "0x2f58": 567.8900146484375
+                }
+            },
+            "type 0x2e08": "effect",
+            "uuid 0x2e18": "{2a06af86-a17d-42e2-93dc-904b3940a827}"
+        },
+        "0x2f60": {
+            "clips 0x3050": {
+                "0x3070": {
+                    "endFrame 0x30b8": 434.0,
+                    "startFrame 0x30c8": 377.0
+                }
+            },
+            "effect 0x30d0": {
+                "modelName 0x3108": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x3018": "c03_rock_fall_point_E",
+            "transform 0x3110": {
+                "translation 0x3150": {
+                    "0x3168": -12.720000267028809,
+                    "0x3178": 49.75,
+                    "0x3188": 559.6799926757812
+                }
+            },
+            "type 0x3038": "effect",
+            "uuid 0x3048": "{24646fce-34fe-4590-b608-bfe9f165d3b3}"
+        },
+        "0x3190": {
+            "clips 0x3280": {
+                "0x32a0": {
+                    "endFrame 0x32e8": 434.0,
+                    "startFrame 0x32f8": 387.0
+                }
+            },
+            "effect 0x3300": {
+                "modelName 0x3338": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x3248": "c03_rock_fall_point_F",
+            "transform 0x3340": {
+                "translation 0x3380": {
+                    "0x3398": -24.1299991607666,
+                    "0x33a8": 49.75,
+                    "0x33b8": 568.0800170898438
+                }
+            },
+            "type 0x3268": "effect",
+            "uuid 0x3278": "{cef9140d-7cac-43be-a39a-d172a47310fe}"
+        },
+        "0x33c0": {
+            "clips 0x34b0": {
+                "0x34d0": {
+                    "endFrame 0x3518": 434.0,
+                    "startFrame 0x3528": 397.0
+                }
+            },
+            "effect 0x3530": {
+                "modelName 0x3568": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x3478": "c03_rock_fall_point_G",
+            "transform 0x3570": {
+                "translation 0x35b0": {
+                    "0x35c8": -19.81999969482422,
+                    "0x35d8": 49.75,
+                    "0x35e8": 567.5999755859375
+                }
+            },
+            "type 0x3498": "effect",
+            "uuid 0x34a8": "{4f732d86-c137-4a8d-92f1-c0a78a144af8}"
+        },
+        "0x35f0": {
+            "clips 0x36e0": {
+                "0x3700": {
+                    "endFrame 0x3748": 434.0,
+                    "startFrame 0x3758": 411.0
+                }
+            },
+            "effect 0x3760": {
+                "modelName 0x3798": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x36a8": "c03_rock_fall_point_H",
+            "transform 0x37a0": {
+                "translation 0x37e0": {
+                    "0x37f8": -22.309999465942383,
+                    "0x3808": 49.75,
+                    "0x3818": 562.0
+                }
+            },
+            "type 0x36c8": "effect",
+            "uuid 0x36d8": "{6a07c4f3-02bb-434a-9b6a-093a877cbd71}"
+        },
+        "0x3820": {
+            "clips 0x3910": {
+                "0x3930": {
+                    "endFrame 0x3978": 434.0,
+                    "startFrame 0x3988": 421.0
+                }
+            },
+            "effect 0x3990": {
+                "modelName 0x39c8": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x38d8": "c03_rock_fall_point_I",
+            "transform 0x39d0": {
+                "translation 0x3a10": {
+                    "0x3a28": -17.510000228881836,
+                    "0x3a38": 49.75,
+                    "0x3a48": 566.6799926757812
+                }
+            },
+            "type 0x38f8": "effect",
+            "uuid 0x3908": "{434e9282-006e-4c37-a0cf-33ade243da21}"
+        },
+        "0x3a50": {
+            "clips 0x3b40": {
+                "0x3b60": {
+                    "endFrame 0x3ba8": 434.0,
+                    "startFrame 0x3bb8": 430.0
+                }
+            },
+            "effect 0x3bc0": {
+                "modelName 0x3bf8": "ef_dm_ep11_00200m_rock_break_01"
+            },
+            "name 0x3b08": "c03_rock_fall_point_J",
+            "transform 0x3c00": {
+                "translation 0x3c40": {
+                    "0x3c58": -14.180000305175781,
+                    "0x3c68": 49.75,
+                    "0x3c78": 571.280029296875
+                }
+            },
+            "type 0x3b28": "effect",
+            "uuid 0x3b38": "{650417a1-42e6-4e19-ab73-139fa6ecbb35}"
+        },
+        "0x3c80": {
+            "clips 0x3df0": {
+                "0x3e10": {
+                    "endFrame 0x3e58": 559.0,
+                    "startFrame 0x3e68": 505.0
+                }
+            },
+            "effect 0x3e70": {
+                "modelName 0x3ea8": "ef_dm_ep11_00200m_bombed_smk_01"
+            },
+            "name 0x3d88": "c04_bg_ve_go_PointLight",
+            "parentJointName 0x3d98": "root",
+            "parentNodeName 0x3da8": "bg_ve_go_a_brk",
+            "pointlight 0x3eb0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x3ef0": {
+                    "lightColorB 0x3f78": 0.12941177189350128,
+                    "lightColorG 0x3f88": 0.5647059082984924,
+                    "lightColorR 0x3f98": 1.0,
+                    "lightIntensity 0x3fa8": 3.1440000534057617,
+                    "outerRadius 0x3fb8": 14.100000381469727
+                }
+            },
+            "transform 0x3fc0": {
+                "translation 0x4000": {
+                    "0x4018": -2.0,
+                    "0x4028": 4.0,
+                    "0x4038": 0.0
+                }
+            },
+            "type 0x3dd8": "pointlight",
+            "uuid 0x3de8": "{66c5da7e-0503-49b2-a6cb-0c99e2c6ebbc}"
+        },
+        "0x4040": {
+            "clips 0x4150": {
+                "0x4170": {
+                    "endFrame 0x41b8": 559.0,
+                    "startFrame 0x41c8": 507.0
+                }
+            },
+            "effect 0x41d0": {
+                "modelName 0x4208": "ef_dm_ep11_00200m_bombed_smk_01"
+            },
+            "name 0x4108": "c04_bg_ve_go_smk",
+            "parentJointName 0x4118": "root",
+            "parentNodeName 0x4128": "bg_ve_go_a_brk",
+            "type 0x4138": "effect",
+            "uuid 0x4148": "{83f5ac1c-4850-46f4-8aa8-2633f3a99601}"
+        },
+        "0x4210": {
+            "clips 0x4300": {
+                "0x4320": {
+                    "endFrame 0x4368": 559.0,
+                    "startFrame 0x4378": 500.0
+                }
+            },
+            "effect 0x4380": {
+                "modelName 0x43c8": "ef_dm_ep11_00200m_exp_03",
+                "scale 0x43e0": {
+                    "0x43f8": 0.75,
+                    "0x4408": 0.75,
+                    "0x4418": 0.75
+                }
+            },
+            "name 0x42c8": "c04_exp",
+            "transform 0x4420": {
+                "rotation 0x4480": {
+                    "0x4498": -30.0,
+                    "0x44a8": 0.0,
+                    "0x44b8": 0.0
+                },
+                "translation 0x44c0": {
+                    "0x44d8": 24.649999618530273,
+                    "0x44e8": 158.3800048828125,
+                    "0x44f8": 705.27001953125
+                }
+            },
+            "type 0x42e8": "effect",
+            "uuid 0x42f8": "{71fcb351-3ee4-49a2-a948-aa0e02b464a4}"
+        },
+        "0x4500": {
+            "animations 0x4650": {
+                "pointlight 0x4690": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x46d0": {
+                        "lightIntensity 0x4710": {
+                            "keyframes 0x4750": {
+                                "0x4790": {
+                                    "key 0x47d8": 10.0,
+                                    "time 0x47e8": 501.0
+                                },
+                                "0x47f0": {
+                                    "key 0x4838": 10.0,
+                                    "time 0x4848": 510.0
+                                },
+                                "0x4850": {
+                                    "key 0x4898": 0.0,
+                                    "time 0x48a8": 545.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x48b0": {
+                "0x48d0": {
+                    "endFrame 0x4918": 559.0,
+                    "startFrame 0x4928": 501.0
+                }
+            },
+            "effect 0x4930": {
+                "modelName 0x4978": "ef_dm_ep11_00200m_exp_03",
+                "scale 0x4990": {
+                    "0x49a8": 0.75,
+                    "0x49b8": 0.75,
+                    "0x49c8": 0.75
+                }
+            },
+            "name 0x4608": "c04_exp_PointLight",
+            "pointlight 0x49d0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x4a10": {
+                    "innerRadius 0x4aa8": 0.5,
+                    "lightColorB 0x4ab8": 0.0,
+                    "lightColorG 0x4ac8": 0.501960813999176,
+                    "lightColorR 0x4ad8": 1.0,
+                    "lightIntensity 0x4ae8": 10.0,
+                    "outerRadius 0x4af8": 20.299999237060547
+                }
+            },
+            "transform 0x4b00": {
+                "translation 0x4b40": {
+                    "0x4b58": 24.649999618530273,
+                    "0x4b68": 168.3800048828125,
+                    "0x4b78": 710.0
+                }
+            },
+            "type 0x4638": "pointlight",
+            "uuid 0x4648": "{1318f1a4-6715-4af3-88c5-0764082cffcd}"
+        },
+        "0x4b80": {
+            "clips 0x4c70": {
+                "0x4c90": {
+                    "endFrame 0x4ce8": 559.0,
+                    "startFrame 0x4cf8": 375.0,
+                    "visibilityOffset 0x4d08": 60.0
+                }
+            },
+            "effect 0x4d10": {
+                "modelName 0x4d48": "ef_dm_ep11_00200m_rock_fall_01"
+            },
+            "name 0x4c38": "c04_fall_stone",
+            "transform 0x4d50": {
+                "rotation 0x4db0": {
+                    "0x4dc8": 0.0,
+                    "0x4dd8": 0.0,
+                    "0x4de8": 0.0
+                },
+                "translation 0x4df0": {
+                    "0x4e08": 24.649999618530273,
+                    "0x4e18": 198.3800048828125,
+                    "0x4e28": 705.27001953125
+                }
+            },
+            "type 0x4c58": "effect",
+            "uuid 0x4c68": "{4097118a-db39-4cd7-9ac0-29956e667186}"
+        },
+        "0x4e30": {
+            "bg 0x4f20": {
+                "disable_particle_load 0x4f68": "01000000",
+                "modelName 0x4f78": "po_a_01"
+            },
+            "clips 0x4f80": {
+                "0x4fa0": {
+                    "endFrame 0x4fe8": 919.0,
+                    "startFrame 0x4ff8": 680.0
+                }
+            },
+            "name 0x4ee8": "po_a_01",
+            "transform 0x5000": {
+                "rotation 0x5060": {
+                    "0x5078": 0.0,
+                    "0x5088": 0.0,
+                    "0x5098": 0.0
+                },
+                "translation 0x50a0": {
+                    "0x50b8": 11.300000190734863,
+                    "0x50c8": 0.0,
+                    "0x50d8": 111.80000305175781
+                }
+            },
+            "type 0x4f08": "bg",
+            "uuid 0x4f18": "{bfe23dcf-11cb-4022-ac03-5ef66827ea1a}"
+        },
+        "0x50e0": {
+            "bg 0x51d0": {
+                "disable_particle_load 0x5218": "01000000",
+                "modelName 0x5228": "up_a_00"
+            },
+            "clips 0x5230": {
+                "0x5250": {
+                    "endFrame 0x5298": 434.0,
+                    "startFrame 0x52a8": 345.0
+                }
+            },
+            "name 0x5198": "up_a_00",
+            "transform 0x52b0": {
+                "rotation 0x5310": {
+                    "0x5328": 0.0,
+                    "0x5338": 0.0,
+                    "0x5348": 0.0
+                },
+                "translation 0x5350": {
+                    "0x5368": -0.20000000298023224,
+                    "0x5378": -9.720000267028809,
+                    "0x5388": 543.0
+                }
+            },
+            "type 0x51b8": "bg",
+            "uuid 0x51c8": "{14cbf01e-a3d3-48ff-9d3d-2a89f786d8fb}"
+        },
+        "0x5390": {
+            "bg 0x5480": {
+                "disable_particle_load 0x54c8": "01000000",
+                "modelName 0x54d8": "ve_crane_root"
+            },
+            "clips 0x54e0": {
+                "0x5500": {
+                    "endFrame 0x5548": 919.0,
+                    "startFrame 0x5558": 755.0
+                }
+            },
+            "name 0x5448": "ve_crane_root",
+            "transform 0x5560": {
+                "rotation 0x55c0": {
+                    "0x55d8": 0.0,
+                    "0x55e8": 143.3000030517578,
+                    "0x55f8": 0.0
+                },
+                "translation 0x5600": {
+                    "0x5618": -93.5,
+                    "0x5628": 20.0,
+                    "0x5638": 328.79998779296875
+                }
+            },
+            "type 0x5468": "bg",
+            "uuid 0x5478": "{392b72ea-7004-48e5-8410-3b9d5c63d9cb}"
+        },
+        "0x5640": {
+            "clips 0x5730": {
+                "0x5750": {
+                    "endFrame 0x57a8": 679.0,
+                    "startFrame 0x57b8": 440.0,
+                    "visibilityOffset 0x57c8": 120.0
+                }
+            },
+            "effect 0x57d0": {
+                "modelName 0x5808": "ef_dm_ep11_00200m_rock_fall_03"
+            },
+            "name 0x56f8": "c05_fall_rock",
+            "transform 0x5810": {
+                "rotation 0x5870": {
+                    "0x5888": 0.0,
+                    "0x5898": 0.0,
+                    "0x58a8": 0.0
+                },
+                "translation 0x58b0": {
+                    "0x58c8": -403.2200012207031,
+                    "0x58d8": 184.3800048828125,
+                    "0x58e8": 400.0799865722656
+                }
+            },
+            "type 0x5718": "effect",
+            "uuid 0x5728": "{048bcb93-78c8-418f-990c-ccb36f12eba2}"
+        },
+        "0x570": {
+            "animations 0x6c0": {
+                "pointlight 0x700": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x740": {
+                        "lightIntensity 0x780": {
+                            "keyframes 0x7c0": {
+                                "0x800": {
+                                    "key 0x848": 10.0,
+                                    "time 0x858": 89.0
+                                },
+                                "0x860": {
+                                    "key 0x8a8": 10.0,
+                                    "time 0x8b8": 91.0
+                                },
+                                "0x8c0": {
+                                    "key 0x908": 0.0,
+                                    "time 0x918": 95.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x920": {
+                "0x940": {
+                    "endFrame 0x988": 239.0,
+                    "startFrame 0x998": 89.0
+                }
+            },
+            "effect 0x9a0": {
+                "modelName 0x9e8": "ef_dm_ep11_00200m_flash_spark_01",
+                "scale 0xa00": {
+                    "0xa18": 1.0,
+                    "0xa28": 1.0,
+                    "0xa38": 1.0
+                }
+            },
+            "name 0x678": "c01_PointLight",
+            "pointlight 0xa40": {
+                "/root/G2PointLight1/G2PointLightShape1 0xa80": {
+                    "innerRadius 0xb18": 1.0,
+                    "lightColorB 0xb28": 1.0,
+                    "lightColorG 0xb38": 1.0,
+                    "lightColorR 0xb48": 1.0,
+                    "lightIntensity 0xb58": 10.0,
+                    "outerRadius 0xb68": 200.0
+                }
+            },
+            "transform 0xb70": {
+                "translation 0xbb0": {
+                    "0xbc8": 0.0,
+                    "0xbd8": 1007.5499877929688,
+                    "0xbe8": 40.0
+                }
+            },
+            "type 0x6a8": "pointlight",
+            "uuid 0x6b8": "{de809a72-fdc1-40e0-b470-93ea035642f1}"
+        },
+        "0x58f0": {
+            "clips 0x59e0": {
+                "0x5a00": {
+                    "endFrame 0x5a58": 919.0,
+                    "startFrame 0x5a68": 635.0,
+                    "visibilityOffset 0x5a78": 120.0
+                }
+            },
+            "effect 0x5a80": {
+                "modelName 0x5ab8": "ef_dm_ep11_00200m_rock_fall_02"
+            },
+            "name 0x59a8": "c07_fall_rock",
+            "transform 0x5ac0": {
+                "rotation 0x5b20": {
+                    "0x5b38": 0.0,
+                    "0x5b48": 0.0,
+                    "0x5b58": 0.0
+                },
+                "translation 0x5b60": {
+                    "0x5b78": -343.2200012207031,
+                    "0x5b88": 104.37999725341797,
+                    "0x5b98": 300.0799865722656
+                }
+            },
+            "type 0x59c8": "effect",
+            "uuid 0x59d8": "{428caff7-6906-48c8-b668-31c26ba1716b}"
+        },
+        "0x5ba0": {
+            "clips 0x5c90": {
+                "0x5cb0": {
+                    "endFrame 0x5cf8": 344.0,
+                    "startFrame 0x5d08": 240.0
+                }
+            },
+            "effect 0x5d10": {
+                "modelName 0x5d58": "ef_dm_ep11_00200m_color_a",
+                "scale 0x5d70": {
+                    "0x5d88": 6.0,
+                    "0x5d98": 1.0,
+                    "0x5da8": 1.0
+                }
+            },
+            "name 0x5c58": "c02_color",
+            "transform 0x5db0": {
+                "translation 0x5df0": {
+                    "0x5e08": 0.003640000009909272,
+                    "0x5e18": 1207.550048828125,
+                    "0x5e28": 50.0
+                }
+            },
+            "type 0x5c78": "effect",
+            "uuid 0x5c88": "{ee9114a5-a0b1-4a0e-b6ae-76ea70322402}"
+        },
+        "0xbf0": {
+            "clips 0xd40": {
+                "0xd60": {
+                    "endFrame 0xda8": 239.0,
+                    "startFrame 0xdb8": 87.0
+                }
+            },
+            "effect 0xdc0": {
+                "modelName 0xe08": "ef_dm_ep11_00200m_gb_air_01",
+                "scale 0xe20": {
+                    "0xe38": 1.600000023841858,
+                    "0xe48": 1.600000023841858,
+                    "0xe58": 1.600000023841858
+                }
+            },
+            "name 0xce8": "c01_bg_gm_mot_b_air",
+            "parentJointName 0xcf8": "bn_root",
+            "parentNodeName 0xd08": "bg_gm_mot_b",
+            "transform 0xe60": {
+                "translation 0xea0": {
+                    "0xeb8": 0.0,
+                    "0xec8": -70.0,
+                    "0xed8": 0.0
+                }
+            },
+            "type 0xd28": "effect",
+            "uuid 0xd38": "{f8720df5-5652-40a4-b6e0-04f71b072c75}"
+        },
+        "0xee0": {
+            "clips 0xfd0": {
+                "0xff0": {
+                    "endFrame 0x1038": 239.0,
+                    "startFrame 0x1048": 88.0
+                }
+            },
+            "effect 0x1050": {
+                "modelName 0x1098": "ef_dm_ep11_00200m_dist_01",
+                "scale 0x10b0": {
+                    "0x10c8": 1.2000000476837158,
+                    "0x10d8": 1.2000000476837158,
+                    "0x10e8": 1.2000000476837158
+                }
+            },
+            "name 0xf98": "c01_dist",
+            "transform 0x10f0": {
+                "translation 0x1130": {
+                    "0x1148": 0.0,
+                    "0x1158": 1107.550048828125,
+                    "0x1168": 100.0
+                }
+            },
+            "type 0xfb8": "effect",
+            "uuid 0xfc8": "{98048a82-abc4-46bb-a563-134f2ecbde2f}"
+        }
+    },
+    "playbackEndFrame 0x98": 919.0,
+    "playbackStartFrame 0xa8": -30.0
+}

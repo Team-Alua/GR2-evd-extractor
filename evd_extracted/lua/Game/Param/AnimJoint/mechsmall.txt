@@ -1,0 +1,2460 @@
+{
+    "animjoint 0x70": {
+        "0x1010": {
+            "anim 0x1078": "mechs_turn_l",
+            "attr 0x1090": {
+                "0x10a8": "EventMessage",
+                "0x10b8": "spawnLandEffLeft"
+            },
+            "timing 0x10c0": {
+                "0x10d8": 25.0
+            }
+        },
+        "0x10e0": {
+            "anim 0x1148": "mechs_turn_l",
+            "attr 0x1160": {
+                "0x1178": "EventMessage",
+                "0x1188": "spawnLandEffRight"
+            },
+            "timing 0x1190": {
+                "0x11a8": 62.0
+            }
+        },
+        "0x11b0": {
+            "anim 0x1218": "mechs_turn_r",
+            "attr 0x1230": {
+                "0x1248": "EventMessage",
+                "0x1258": "spawnLandEffRight"
+            },
+            "timing 0x1260": {
+                "0x1278": 25.0
+            }
+        },
+        "0x1280": {
+            "anim 0x12e8": "mechs_turn_r",
+            "attr 0x1300": {
+                "0x1318": "EventMessage",
+                "0x1328": "spawnLandEffLeft"
+            },
+            "timing 0x1330": {
+                "0x1348": 62.0
+            }
+        },
+        "0x1350": {
+            "anim 0x13b8": "mechs_sidestep_r",
+            "attr 0x13d0": {
+                "0x13e8": "EventMessage",
+                "0x13f8": "spawnLandEffRight"
+            },
+            "timing 0x1400": {
+                "0x1418": 27.0
+            }
+        },
+        "0x1420": {
+            "anim 0x1488": "mechs_sidestep_r",
+            "attr 0x14a0": {
+                "0x14b8": "EventMessage",
+                "0x14c8": "spawnLandEffLeft"
+            },
+            "timing 0x14d0": {
+                "0x14e8": 57.0
+            }
+        },
+        "0x14f0": {
+            "anim 0x1558": "mechs_sidestep_l",
+            "attr 0x1570": {
+                "0x1588": "EventMessage",
+                "0x1598": "spawnLandEffLeft"
+            },
+            "timing 0x15a0": {
+                "0x15b8": 27.0
+            }
+        },
+        "0x15c0": {
+            "anim 0x1628": "mechs_sidestep_l",
+            "attr 0x1640": {
+                "0x1658": "EventMessage",
+                "0x1668": "spawnLandEffRight"
+            },
+            "timing 0x1670": {
+                "0x1688": 57.0
+            }
+        },
+        "0x1690": {
+            "anim 0x16f8": "mechs_attack_l_start",
+            "attr 0x1710": {
+                "0x1728": "Sound",
+                "0x1738": "ene_robot_missile_pre"
+            },
+            "timing 0x1740": {
+                "0x1758": 0.0
+            }
+        },
+        "0x1760": {
+            "anim 0x17c8": "mechs_attack_l_shot",
+            "attr 0x17e0": {
+                "0x17f8": "Sound",
+                "0x1808": "ene_robot_missile_fire"
+            },
+            "timing 0x1810": {
+                "0x1828": 0.0
+            }
+        },
+        "0x1830": {
+            "amplitude 0x19e0": {
+                "0x19f8": 0.25999999046325684
+            },
+            "anim 0x1918": "mechs_attack_l_shot",
+            "attr 0x1908": "CameraShake",
+            "distFalloff 0x1a20": {
+                "0x1a38": 30.0
+            },
+            "durationSec 0x19c0": {
+                "0x19d8": 1.2000000476837158
+            },
+            "frequency 0x1a00": {
+                "0x1a18": 4.0
+            },
+            "timing 0x1980": {
+                "0x1998": 1.0
+            },
+            "waveSlot 0x19a0": {
+                "0x19b8": 0.0
+            }
+        },
+        "0x1a40": {
+            "anim 0x1aa8": "mechs_attack_l_start_neutral",
+            "attr 0x1ac0": {
+                "0x1ad8": "Sound",
+                "0x1ae8": "ene_robot_missile_pre"
+            },
+            "timing 0x1af0": {
+                "0x1b08": 0.0
+            }
+        },
+        "0x1b10": {
+            "anim 0x1b78": "mechs_attack_l_shot_neutral",
+            "attr 0x1b90": {
+                "0x1ba8": "Sound",
+                "0x1bb8": "ene_robot_missile_fire"
+            },
+            "timing 0x1bc0": {
+                "0x1bd8": 0.0
+            }
+        },
+        "0x1be0": {
+            "amplitude 0x1d90": {
+                "0x1da8": 0.15000000596046448
+            },
+            "anim 0x1cc8": "mechs_attack_l_shot_neutral",
+            "attr 0x1cb8": "CameraShake",
+            "distFalloff 0x1dd0": {
+                "0x1de8": 30.0
+            },
+            "durationSec 0x1d70": {
+                "0x1d88": 0.800000011920929
+            },
+            "frequency 0x1db0": {
+                "0x1dc8": 6.0
+            },
+            "timing 0x1d30": {
+                "0x1d48": 1.0
+            },
+            "waveSlot 0x1d50": {
+                "0x1d68": 0.0
+            }
+        },
+        "0x1df0": {
+            "anim 0x1e58": "mechs_attack_l_end_neutral",
+            "attr 0x1e70": {
+                "0x1e88": "Sound",
+                "0x1e98": "ene_robot_footstep_s"
+            },
+            "timing 0x1ea0": {
+                "0x1eb8": 5.0
+            }
+        },
+        "0x1ec0": {
+            "anim 0x1f28": "mechs_attack_l_start_upper",
+            "attr 0x1f40": {
+                "0x1f58": "Sound",
+                "0x1f68": "ene_robot_missile_pre"
+            },
+            "timing 0x1f70": {
+                "0x1f88": 0.0
+            }
+        },
+        "0x1f90": {
+            "anim 0x1ff8": "mechs_attack_l_start_upper",
+            "attr 0x2010": {
+                "0x2028": "Sound",
+                "0x2038": "ene_robot_footstep_s"
+            },
+            "timing 0x2040": {
+                "0x2058": 10.0
+            }
+        },
+        "0x2060": {
+            "anim 0x20c8": "mechs_attack_l_shot_upper",
+            "attr 0x20e0": {
+                "0x20f8": "Sound",
+                "0x2108": "ene_robot_missile_fire"
+            },
+            "timing 0x2110": {
+                "0x2128": 0.0
+            }
+        },
+        "0x2130": {
+            "anim 0x2198": "mechs_attack_l_end_upper",
+            "attr 0x21b0": {
+                "0x21c8": "Sound",
+                "0x21d8": "ene_robot_footstep_s"
+            },
+            "timing 0x21e0": {
+                "0x21f8": 10.0
+            }
+        },
+        "0x2200": {
+            "anim 0x2268": "mechs_attack_l_start_under",
+            "attr 0x2280": {
+                "0x2298": "Sound",
+                "0x22a8": "ene_robot_footstep_s"
+            },
+            "timing 0x22b0": {
+                "0x22c8": 10.0
+            }
+        },
+        "0x22d0": {
+            "anim 0x2338": "mechs_attack_l_start_under",
+            "attr 0x2350": {
+                "0x2368": "Sound",
+                "0x2378": "ene_robot_missile_pre"
+            },
+            "timing 0x2380": {
+                "0x2398": 0.0
+            }
+        },
+        "0x23a0": {
+            "anim 0x2408": "mechs_attack_l_shot_under",
+            "attr 0x2420": {
+                "0x2438": "Sound",
+                "0x2448": "ene_robot_missile_fire"
+            },
+            "timing 0x2450": {
+                "0x2468": 0.0
+            }
+        },
+        "0x2470": {
+            "anim 0x24d8": "mechs_attack_l_end_under",
+            "attr 0x24f0": {
+                "0x2508": "Sound",
+                "0x2518": "ene_robot_footstep_s"
+            },
+            "timing 0x2520": {
+                "0x2538": 10.0
+            }
+        },
+        "0x2540": {
+            "anim 0x25a8": "mechs_vulcan_up",
+            "attr 0x25c0": {
+                "0x25d8": "Sound",
+                "0x25e8": "ene_robot_gatling_pre"
+            },
+            "timing 0x25f0": {
+                "0x2608": 0.0
+            }
+        },
+        "0x2610": {
+            "amplitude 0x27c0": {
+                "0x27d8": 0.019999999552965164
+            },
+            "anim 0x26f8": "mechs_vulcan_up",
+            "attr 0x26e8": "CameraShake",
+            "distFalloff 0x2800": {
+                "0x2818": 20.0
+            },
+            "durationSec 0x27a0": {
+                "0x27b8": 2.5
+            },
+            "frequency 0x27e0": {
+                "0x27f8": 12.0
+            },
+            "timing 0x2760": {
+                "0x2778": 30.0
+            },
+            "waveSlot 0x2780": {
+                "0x2798": 0.0
+            }
+        },
+        "0x2820": {
+            "anim 0x2888": "mechs_vulcan_down",
+            "attr 0x28a0": {
+                "0x28b8": "Sound",
+                "0x28c8": "ene_robot_gatling_pre"
+            },
+            "timing 0x28d0": {
+                "0x28e8": 0.0
+            }
+        },
+        "0x28f0": {
+            "anim 0x2958": "mechs_attack_r_start",
+            "attr 0x2970": {
+                "0x2988": "Sound",
+                "0x2998": "ene_robot_gatling_pre"
+            },
+            "timing 0x29a0": {
+                "0x29b8": 0.0
+            }
+        },
+        "0x29c0": {
+            "anim 0x2a28": "mechs_attack_r_end",
+            "attr 0x2a40": {
+                "0x2a58": "Sound",
+                "0x2a68": "ene_robot_footstep_s"
+            },
+            "timing 0x2a70": {
+                "0x2a88": 5.0
+            }
+        },
+        "0x2a90": {
+            "anim 0x2af8": "mechs_damage_l",
+            "attr 0x2b10": {
+                "0x2b28": "Sound",
+                "0x2b38": "ene_robot_s_dmg_move"
+            },
+            "timing 0x2b40": {
+                "0x2b58": 1.0
+            }
+        },
+        "0x2b60": {
+            "anim 0x2bc8": "mechs_damage_l",
+            "attr 0x2be0": {
+                "0x2bf8": "Sound",
+                "0x2c08": "ene_robot_footstep_s"
+            },
+            "timing 0x2c10": {
+                "0x2c28": 12.0
+            }
+        },
+        "0x2c30": {
+            "anim 0x2c98": "mechs_damage_l",
+            "attr 0x2cb0": {
+                "0x2cc8": "Sound",
+                "0x2cd8": "ene_robot_footstep_s"
+            },
+            "timing 0x2ce0": {
+                "0x2cf8": 14.0
+            }
+        },
+        "0x2d00": {
+            "anim 0x2d68": "mechs_damage_r",
+            "attr 0x2d80": {
+                "0x2d98": "Sound",
+                "0x2da8": "ene_robot_s_dmg_move"
+            },
+            "timing 0x2db0": {
+                "0x2dc8": 1.0
+            }
+        },
+        "0x2dd0": {
+            "anim 0x2e38": "mechs_damage_r",
+            "attr 0x2e50": {
+                "0x2e68": "Sound",
+                "0x2e78": "ene_robot_footstep_s"
+            },
+            "timing 0x2e80": {
+                "0x2e98": 12.0
+            }
+        },
+        "0x2ea0": {
+            "anim 0x2f08": "mechs_damage_r",
+            "attr 0x2f20": {
+                "0x2f38": "Sound",
+                "0x2f48": "ene_robot_footstep_s"
+            },
+            "timing 0x2f50": {
+                "0x2f68": 14.0
+            }
+        },
+        "0x2f70": {
+            "anim 0x2fd8": "mechs_death_arm",
+            "attr 0x2ff0": {
+                "0x3008": "Sound",
+                "0x3018": "ene_robot_s_dmg_move"
+            },
+            "timing 0x3020": {
+                "0x3038": 1.0
+            }
+        },
+        "0x3040": {
+            "anim 0x30a8": "mechs_death_arm",
+            "attr 0x30c0": {
+                "0x30d8": "Sound",
+                "0x30e8": "ene_robot_footstep_s"
+            },
+            "timing 0x30f0": {
+                "0x3108": 16.0
+            }
+        },
+        "0x3110": {
+            "anim 0x3178": "mechs_death_arm",
+            "attr 0x3190": {
+                "0x31a8": "Sound",
+                "0x31b8": "ene_robot_footstep_s"
+            },
+            "timing 0x31c0": {
+                "0x31d8": 48.0
+            }
+        },
+        "0x31e0": {
+            "anim 0x3248": "mechs_death_arm",
+            "attr 0x3260": {
+                "0x3278": "Sound",
+                "0x3288": "ene_robot_servo_s"
+            },
+            "timing 0x3290": {
+                "0x32a8": 0.0
+            }
+        },
+        "0x32b0": {
+            "anim 0x3318": "mechs_death_arm",
+            "attr 0x3330": {
+                "0x3348": "Sound",
+                "0x3358": "ene_robot_servo_s"
+            },
+            "timing 0x3360": {
+                "0x3378": 28.0
+            }
+        },
+        "0x3380": {
+            "anim 0x33e8": "mechs_death_arm",
+            "attr 0x3400": {
+                "0x3418": "Sound",
+                "0x3428": "ene_robot_hatch_s"
+            },
+            "timing 0x3430": {
+                "0x3448": 68.0
+            }
+        },
+        "0x3450": {
+            "amplitude 0x3600": {
+                "0x3618": 0.05999999865889549
+            },
+            "anim 0x3538": "mechs_death_arm",
+            "attr 0x3528": "CameraShake",
+            "distFalloff 0x3640": {
+                "0x3658": 30.0
+            },
+            "durationSec 0x35e0": {
+                "0x35f8": 1.0
+            },
+            "frequency 0x3620": {
+                "0x3638": 5.0
+            },
+            "timing 0x35a0": {
+                "0x35b8": 13.0
+            },
+            "waveSlot 0x35c0": {
+                "0x35d8": 0.0
+            }
+        },
+        "0x3660": {
+            "amplitude 0x3810": {
+                "0x3828": 0.05000000074505806
+            },
+            "anim 0x3748": "mechs_death_arm",
+            "attr 0x3738": "CameraShake",
+            "distFalloff 0x3850": {
+                "0x3868": 30.0
+            },
+            "durationSec 0x37f0": {
+                "0x3808": 1.2000000476837158
+            },
+            "frequency 0x3830": {
+                "0x3848": 4.0
+            },
+            "timing 0x37b0": {
+                "0x37c8": 45.0
+            },
+            "waveSlot 0x37d0": {
+                "0x37e8": 0.0
+            }
+        },
+        "0x3870": {
+            "amplitude 0x3a20": {
+                "0x3a38": 0.029999999329447746
+            },
+            "anim 0x3958": "mechs_death_arm",
+            "attr 0x3948": "CameraShake",
+            "distFalloff 0x3a60": {
+                "0x3a78": 30.0
+            },
+            "durationSec 0x3a00": {
+                "0x3a18": 1.0
+            },
+            "frequency 0x3a40": {
+                "0x3a58": 5.0
+            },
+            "timing 0x39c0": {
+                "0x39d8": 80.0
+            },
+            "waveSlot 0x39e0": {
+                "0x39f8": 0.0
+            }
+        },
+        "0x3a80": {
+            "amplitude 0x3c30": {
+                "0x3c48": 0.05999999865889549
+            },
+            "anim 0x3b68": "mechs_death_arm",
+            "attr 0x3b58": "CameraShake",
+            "distFalloff 0x3c70": {
+                "0x3c88": 30.0
+            },
+            "durationSec 0x3c10": {
+                "0x3c28": 7.0
+            },
+            "frequency 0x3c50": {
+                "0x3c68": 12.0
+            },
+            "timing 0x3bd0": {
+                "0x3be8": 100.0
+            },
+            "waveSlot 0x3bf0": {
+                "0x3c08": 0.0
+            }
+        },
+        "0x3c90": {
+            "anim 0x3cf8": "mechs_death_cockpit",
+            "attr 0x3d10": {
+                "0x3d28": "Sound",
+                "0x3d38": "ene_robot_s_dmg_move"
+            },
+            "timing 0x3d40": {
+                "0x3d58": 1.0
+            }
+        },
+        "0x3d60": {
+            "anim 0x3dc8": "mechs_death_cockpit",
+            "attr 0x3de0": {
+                "0x3df8": "Sound",
+                "0x3e08": "ene_robot_footstep_s"
+            },
+            "timing 0x3e10": {
+                "0x3e28": 21.0
+            }
+        },
+        "0x3e30": {
+            "anim 0x3e98": "mechs_death_cockpit",
+            "attr 0x3eb0": {
+                "0x3ec8": "Sound",
+                "0x3ed8": "ene_robot_footstep_s"
+            },
+            "timing 0x3ee0": {
+                "0x3ef8": 38.0
+            }
+        },
+        "0x3f00": {
+            "anim 0x3f68": "mechs_death_cockpit",
+            "attr 0x3f80": {
+                "0x3f98": "Sound",
+                "0x3fa8": "ene_robot_servo_s"
+            },
+            "timing 0x3fb0": {
+                "0x3fc8": 0.0
+            }
+        },
+        "0x3fd0": {
+            "amplitude 0x4180": {
+                "0x4198": 0.05000000074505806
+            },
+            "anim 0x40b8": "mechs_death_cockpit",
+            "attr 0x40a8": "CameraShake",
+            "distFalloff 0x41c0": {
+                "0x41d8": 30.0
+            },
+            "durationSec 0x4160": {
+                "0x4178": 1.2000000476837158
+            },
+            "frequency 0x41a0": {
+                "0x41b8": 4.0
+            },
+            "timing 0x4120": {
+                "0x4138": 22.0
+            },
+            "waveSlot 0x4140": {
+                "0x4158": 0.0
+            }
+        },
+        "0x41e0": {
+            "amplitude 0x4390": {
+                "0x43a8": 0.05000000074505806
+            },
+            "anim 0x42c8": "mechs_death_cockpit",
+            "attr 0x42b8": "CameraShake",
+            "distFalloff 0x43d0": {
+                "0x43e8": 30.0
+            },
+            "durationSec 0x4370": {
+                "0x4388": 1.5
+            },
+            "frequency 0x43b0": {
+                "0x43c8": 5.0
+            },
+            "timing 0x4330": {
+                "0x4348": 35.0
+            },
+            "waveSlot 0x4350": {
+                "0x4368": 0.0
+            }
+        },
+        "0x43f0": {
+            "amplitude 0x45a0": {
+                "0x45b8": 0.07999999821186066
+            },
+            "anim 0x44d8": "mechs_death_cockpit",
+            "attr 0x44c8": "CameraShake",
+            "distFalloff 0x45e0": {
+                "0x45f8": 30.0
+            },
+            "durationSec 0x4580": {
+                "0x4598": 3.0
+            },
+            "frequency 0x45c0": {
+                "0x45d8": 13.0
+            },
+            "timing 0x4540": {
+                "0x4558": 65.0
+            },
+            "waveSlot 0x4560": {
+                "0x4578": 0.0
+            }
+        },
+        "0x4600": {
+            "anim 0x4668": "mechs_death_engine",
+            "attr 0x4680": {
+                "0x4698": "Sound",
+                "0x46a8": "ene_robot_s_dmg_move"
+            },
+            "timing 0x46b0": {
+                "0x46c8": 1.0
+            }
+        },
+        "0x46d0": {
+            "anim 0x4738": "mechs_death_engine",
+            "attr 0x4750": {
+                "0x4768": "Sound",
+                "0x4778": "ene_robot_servo_s"
+            },
+            "timing 0x4780": {
+                "0x4798": 0.0
+            }
+        },
+        "0x47a0": {
+            "anim 0x4808": "mechs_death_engine",
+            "attr 0x4820": {
+                "0x4838": "Sound",
+                "0x4848": "ene_robot_fall_s"
+            },
+            "timing 0x4850": {
+                "0x4868": 55.0
+            }
+        },
+        "0x4870": {
+            "anim 0x48d8": "mechs_death_engine",
+            "attr 0x48f0": {
+                "0x4908": "Sound",
+                "0x4918": "ene_robot_footstep_s"
+            },
+            "timing 0x4920": {
+                "0x4938": 9.0
+            }
+        },
+        "0x4940": {
+            "anim 0x49a8": "mechs_death_engine",
+            "attr 0x49c0": {
+                "0x49d8": "Sound",
+                "0x49e8": "ene_robot_footstep_s"
+            },
+            "timing 0x49f0": {
+                "0x4a08": 20.0
+            }
+        },
+        "0x4a10": {
+            "anim 0x4a78": "mechs_death_engine",
+            "attr 0x4a90": {
+                "0x4aa8": "Sound",
+                "0x4ab8": "ene_robot_s_hatch2"
+            },
+            "timing 0x4ac0": {
+                "0x4ad8": 107.0
+            }
+        },
+        "0x4ae0": {
+            "amplitude 0x4c90": {
+                "0x4ca8": 0.05999999865889549
+            },
+            "anim 0x4bc8": "mechs_death_engine",
+            "attr 0x4bb8": "CameraShake",
+            "distFalloff 0x4cd0": {
+                "0x4ce8": 30.0
+            },
+            "durationSec 0x4c70": {
+                "0x4c88": 1.0
+            },
+            "frequency 0x4cb0": {
+                "0x4cc8": 4.0
+            },
+            "timing 0x4c30": {
+                "0x4c48": 10.0
+            },
+            "waveSlot 0x4c50": {
+                "0x4c68": 0.0
+            }
+        },
+        "0x4cf0": {
+            "amplitude 0x4ea0": {
+                "0x4eb8": 0.23000000417232513
+            },
+            "anim 0x4dd8": "mechs_death_engine",
+            "attr 0x4dc8": "CameraShake",
+            "distFalloff 0x4ee0": {
+                "0x4ef8": 30.0
+            },
+            "durationSec 0x4e80": {
+                "0x4e98": 1.2000000476837158
+            },
+            "frequency 0x4ec0": {
+                "0x4ed8": 3.0
+            },
+            "timing 0x4e40": {
+                "0x4e58": 55.0
+            },
+            "waveSlot 0x4e60": {
+                "0x4e78": 0.0
+            }
+        },
+        "0x4f00": {
+            "amplitude 0x50b0": {
+                "0x50c8": 0.019999999552965164
+            },
+            "anim 0x4fe8": "mechs_death_engine",
+            "attr 0x4fd8": "CameraShake",
+            "distFalloff 0x50f0": {
+                "0x5108": 30.0
+            },
+            "durationSec 0x5090": {
+                "0x50a8": 4.0
+            },
+            "frequency 0x50d0": {
+                "0x50e8": 11.0
+            },
+            "timing 0x5050": {
+                "0x5068": 80.0
+            },
+            "waveSlot 0x5070": {
+                "0x5088": 0.0
+            }
+        },
+        "0x5110": {
+            "amplitude 0x52c0": {
+                "0x52d8": 0.03999999910593033
+            },
+            "anim 0x51f8": "mechs_death_engine",
+            "attr 0x51e8": "CameraShake",
+            "distFalloff 0x5300": {
+                "0x5318": 30.0
+            },
+            "durationSec 0x52a0": {
+                "0x52b8": 2.0
+            },
+            "frequency 0x52e0": {
+                "0x52f8": 12.0
+            },
+            "timing 0x5260": {
+                "0x5278": 150.0
+            },
+            "waveSlot 0x5280": {
+                "0x5298": 0.0
+            }
+        },
+        "0x5320": {
+            "amplitude 0x54d0": {
+                "0x54e8": 0.05000000074505806
+            },
+            "anim 0x5408": "mechs_death_engine",
+            "attr 0x53f8": "CameraShake",
+            "distFalloff 0x5510": {
+                "0x5528": 30.0
+            },
+            "durationSec 0x54b0": {
+                "0x54c8": 4.0
+            },
+            "frequency 0x54f0": {
+                "0x5508": 13.0
+            },
+            "timing 0x5470": {
+                "0x5488": 190.0
+            },
+            "waveSlot 0x5490": {
+                "0x54a8": 0.0
+            }
+        },
+        "0x5530": {
+            "anim 0x5598": "mechs_jump_start",
+            "attr 0x55b0": {
+                "0x55c8": "Sound",
+                "0x55d8": "ene_robot_s_move2"
+            },
+            "timing 0x55e0": {
+                "0x55f8": 1.0
+            }
+        },
+        "0x5600": {
+            "anim 0x5668": "mechs_jump_start",
+            "attr 0x5680": {
+                "0x5698": "Sound",
+                "0x56a8": "ene_robot_jump_s"
+            },
+            "timing 0x56b0": {
+                "0x56c8": 30.0
+            }
+        },
+        "0x56d0": {
+            "anim 0x5738": "mechs_jump_end",
+            "attr 0x5750": {
+                "0x5768": "Sound",
+                "0x5778": "ene_robot_land_s"
+            },
+            "timing 0x5780": {
+                "0x5798": 6.0
+            }
+        },
+        "0x57a0": {
+            "amplitude 0x5950": {
+                "0x5968": 0.25999999046325684
+            },
+            "anim 0x5888": "mechs_jump_end",
+            "attr 0x5878": "CameraShake",
+            "distFalloff 0x5990": {
+                "0x59a8": 30.0
+            },
+            "durationSec 0x5930": {
+                "0x5948": 1.2000000476837158
+            },
+            "frequency 0x5970": {
+                "0x5988": 4.0
+            },
+            "timing 0x58f0": {
+                "0x5908": 1.0
+            },
+            "waveSlot 0x5910": {
+                "0x5928": 0.0
+            }
+        },
+        "0x59b0": {
+            "anim 0x5a18": "mechs_smalljump_start",
+            "attr 0x5a30": {
+                "0x5a48": "Sound",
+                "0x5a58": "ene_robot_s_move2"
+            },
+            "timing 0x5a60": {
+                "0x5a78": 1.0
+            }
+        },
+        "0x5a80": {
+            "anim 0x5ae8": "mechs_smalljump_start",
+            "attr 0x5b00": {
+                "0x5b18": "Sound",
+                "0x5b28": "ene_robot_jump_s"
+            },
+            "timing 0x5b30": {
+                "0x5b48": 32.0
+            }
+        },
+        "0x5b50": {
+            "anim 0x5bb8": "mechs_smalljump_end",
+            "attr 0x5bd0": {
+                "0x5be8": "Sound",
+                "0x5bf8": "ene_robot_land_s"
+            },
+            "timing 0x5c00": {
+                "0x5c18": 0.0
+            }
+        },
+        "0x5c20": {
+            "amplitude 0x5dd0": {
+                "0x5de8": 0.25999999046325684
+            },
+            "anim 0x5d08": "mechs_smalljump_end",
+            "attr 0x5cf8": "CameraShake",
+            "distFalloff 0x5e10": {
+                "0x5e28": 30.0
+            },
+            "durationSec 0x5db0": {
+                "0x5dc8": 1.2000000476837158
+            },
+            "frequency 0x5df0": {
+                "0x5e08": 4.0
+            },
+            "timing 0x5d70": {
+                "0x5d88": 1.0
+            },
+            "waveSlot 0x5d90": {
+                "0x5da8": 0.0
+            }
+        },
+        "0x5e30": {
+            "anim 0x5e98": "mechs_smalljumpback_start",
+            "attr 0x5eb0": {
+                "0x5ec8": "Sound",
+                "0x5ed8": "ene_robot_s_move2"
+            },
+            "timing 0x5ee0": {
+                "0x5ef8": 1.0
+            }
+        },
+        "0x5f00": {
+            "anim 0x5f68": "mechs_smalljumpback_start",
+            "attr 0x5f80": {
+                "0x5f98": "Sound",
+                "0x5fa8": "ene_robot_jump_s"
+            },
+            "timing 0x5fb0": {
+                "0x5fc8": 34.0
+            }
+        },
+        "0x5fd0": {
+            "anim 0x6038": "mechs_smalljumpback_end",
+            "attr 0x6050": {
+                "0x6068": "Sound",
+                "0x6078": "ene_robot_land_s"
+            },
+            "timing 0x6080": {
+                "0x6098": 6.0
+            }
+        },
+        "0x60a0": {
+            "amplitude 0x6250": {
+                "0x6268": 0.25999999046325684
+            },
+            "anim 0x6188": "mechs_smalljumpback_end",
+            "attr 0x6178": "CameraShake",
+            "distFalloff 0x6290": {
+                "0x62a8": 30.0
+            },
+            "durationSec 0x6230": {
+                "0x6248": 1.2000000476837158
+            },
+            "frequency 0x6270": {
+                "0x6288": 4.0
+            },
+            "timing 0x61f0": {
+                "0x6208": 1.0
+            },
+            "waveSlot 0x6210": {
+                "0x6228": 0.0
+            }
+        },
+        "0x62b0": {
+            "anim 0x6318": "mechs_walk",
+            "attr 0x6330": {
+                "0x6348": "Sound",
+                "0x6358": "ene_robot_footstep_s"
+            },
+            "timing 0x6360": {
+                "0x6378": 10.0
+            }
+        },
+        "0x6380": {
+            "anim 0x63e8": "mechs_walk",
+            "attr 0x6400": {
+                "0x6418": "Sound",
+                "0x6428": "ene_robot_footstep_s"
+            },
+            "timing 0x6430": {
+                "0x6448": 40.0
+            }
+        },
+        "0x6450": {
+            "anim 0x64b8": "mechs_walk",
+            "attr 0x64d0": {
+                "0x64e8": "Sound",
+                "0x64f8": "ene_robot_servo_s"
+            },
+            "timing 0x6500": {
+                "0x6518": 15.0
+            }
+        },
+        "0x6520": {
+            "anim 0x6588": "mechs_walk",
+            "attr 0x65a0": {
+                "0x65b8": "Sound",
+                "0x65c8": "ene_robot_servo_s"
+            },
+            "timing 0x65d0": {
+                "0x65e8": 50.0
+            }
+        },
+        "0x65f0": {
+            "amplitude 0x67a0": {
+                "0x67b8": 0.10000000149011612
+            },
+            "anim 0x66d8": "mechs_walk",
+            "attr 0x66c8": "CameraShake",
+            "distFalloff 0x67e0": {
+                "0x67f8": 20.0
+            },
+            "durationSec 0x6780": {
+                "0x6798": 0.4000000059604645
+            },
+            "frequency 0x67c0": {
+                "0x67d8": 3.0
+            },
+            "timing 0x6740": {
+                "0x6758": 10.0
+            },
+            "waveSlot 0x6760": {
+                "0x6778": 0.0
+            }
+        },
+        "0x6800": {
+            "amplitude 0x69b0": {
+                "0x69c8": 0.10000000149011612
+            },
+            "anim 0x68e8": "mechs_walk",
+            "attr 0x68d8": "CameraShake",
+            "distFalloff 0x69f0": {
+                "0x6a08": 20.0
+            },
+            "durationSec 0x6990": {
+                "0x69a8": 0.4000000059604645
+            },
+            "frequency 0x69d0": {
+                "0x69e8": 3.0
+            },
+            "timing 0x6950": {
+                "0x6968": 40.0
+            },
+            "waveSlot 0x6970": {
+                "0x6988": 0.0
+            }
+        },
+        "0x6a10": {
+            "anim 0x6a78": "mechs_walk_back",
+            "attr 0x6a90": {
+                "0x6aa8": "Sound",
+                "0x6ab8": "ene_robot_footstep_s"
+            },
+            "timing 0x6ac0": {
+                "0x6ad8": 10.0
+            }
+        },
+        "0x6ae0": {
+            "anim 0x6b48": "mechs_walk_back",
+            "attr 0x6b60": {
+                "0x6b78": "Sound",
+                "0x6b88": "ene_robot_footstep_s"
+            },
+            "timing 0x6b90": {
+                "0x6ba8": 40.0
+            }
+        },
+        "0x6bb0": {
+            "amplitude 0x6d60": {
+                "0x6d78": 0.10000000149011612
+            },
+            "anim 0x6c98": "mechs_walk_back",
+            "attr 0x6c88": "CameraShake",
+            "distFalloff 0x6da0": {
+                "0x6db8": 20.0
+            },
+            "durationSec 0x6d40": {
+                "0x6d58": 0.4000000059604645
+            },
+            "frequency 0x6d80": {
+                "0x6d98": 3.0
+            },
+            "timing 0x6d00": {
+                "0x6d18": 10.0
+            },
+            "waveSlot 0x6d20": {
+                "0x6d38": 0.0
+            }
+        },
+        "0x6dc0": {
+            "amplitude 0x6f70": {
+                "0x6f88": 0.10000000149011612
+            },
+            "anim 0x6ea8": "mechs_walk_back",
+            "attr 0x6e98": "CameraShake",
+            "distFalloff 0x6fb0": {
+                "0x6fc8": 20.0
+            },
+            "durationSec 0x6f50": {
+                "0x6f68": 0.4000000059604645
+            },
+            "frequency 0x6f90": {
+                "0x6fa8": 3.0
+            },
+            "timing 0x6f10": {
+                "0x6f28": 38.0
+            },
+            "waveSlot 0x6f30": {
+                "0x6f48": 0.0
+            }
+        },
+        "0x6fd0": {
+            "anim 0x7038": "mechs_walk_back",
+            "attr 0x7050": {
+                "0x7068": "Sound",
+                "0x7078": "ene_robot_servo_s"
+            },
+            "timing 0x7080": {
+                "0x7098": 15.0
+            }
+        },
+        "0x70a0": {
+            "anim 0x7108": "mechs_walk_back",
+            "attr 0x7120": {
+                "0x7138": "Sound",
+                "0x7148": "ene_robot_servo_s"
+            },
+            "timing 0x7150": {
+                "0x7168": 50.0
+            }
+        },
+        "0x7170": {
+            "anim 0x71d8": "mechs_turn_r",
+            "attr 0x71f0": {
+                "0x7208": "Sound",
+                "0x7218": "ene_robot_footstep_s"
+            },
+            "timing 0x7220": {
+                "0x7238": 25.0
+            }
+        },
+        "0x7240": {
+            "anim 0x72a8": "mechs_turn_r",
+            "attr 0x72c0": {
+                "0x72d8": "Sound",
+                "0x72e8": "ene_robot_footstep_s"
+            },
+            "timing 0x72f0": {
+                "0x7308": 62.0
+            }
+        },
+        "0x7310": {
+            "anim 0x7378": "mechs_turn_r",
+            "attr 0x7390": {
+                "0x73a8": "Sound",
+                "0x73b8": "ene_robot_servo_s"
+            },
+            "timing 0x73c0": {
+                "0x73d8": 35.0
+            }
+        },
+        "0x73e0": {
+            "anim 0x7448": "mechs_turn_r",
+            "attr 0x7460": {
+                "0x7478": "Sound",
+                "0x7488": "ene_robot_servo_s"
+            },
+            "timing 0x7490": {
+                "0x74a8": 0.0
+            }
+        },
+        "0x74b0": {
+            "amplitude 0x7660": {
+                "0x7678": 0.10000000149011612
+            },
+            "anim 0x7598": "mechs_turn_r",
+            "attr 0x7588": "CameraShake",
+            "distFalloff 0x76a0": {
+                "0x76b8": 20.0
+            },
+            "durationSec 0x7640": {
+                "0x7658": 0.4000000059604645
+            },
+            "frequency 0x7680": {
+                "0x7698": 3.0
+            },
+            "timing 0x7600": {
+                "0x7618": 28.0
+            },
+            "waveSlot 0x7620": {
+                "0x7638": 0.0
+            }
+        },
+        "0x76c0": {
+            "amplitude 0x7870": {
+                "0x7888": 0.10000000149011612
+            },
+            "anim 0x77a8": "mechs_turn_r",
+            "attr 0x7798": "CameraShake",
+            "distFalloff 0x78b0": {
+                "0x78c8": 20.0
+            },
+            "durationSec 0x7850": {
+                "0x7868": 0.4000000059604645
+            },
+            "frequency 0x7890": {
+                "0x78a8": 3.0
+            },
+            "timing 0x7810": {
+                "0x7828": 63.0
+            },
+            "waveSlot 0x7830": {
+                "0x7848": 0.0
+            }
+        },
+        "0x78d0": {
+            "anim 0x7938": "mechs_turn_l",
+            "attr 0x7950": {
+                "0x7968": "Sound",
+                "0x7978": "ene_robot_footstep_s"
+            },
+            "timing 0x7980": {
+                "0x7998": 25.0
+            }
+        },
+        "0x79a0": {
+            "anim 0x7a08": "mechs_turn_l",
+            "attr 0x7a20": {
+                "0x7a38": "Sound",
+                "0x7a48": "ene_robot_footstep_s"
+            },
+            "timing 0x7a50": {
+                "0x7a68": 62.0
+            }
+        },
+        "0x7a70": {
+            "amplitude 0x7c20": {
+                "0x7c38": 0.10000000149011612
+            },
+            "anim 0x7b58": "mechs_turn_l",
+            "attr 0x7b48": "CameraShake",
+            "distFalloff 0x7c60": {
+                "0x7c78": 20.0
+            },
+            "durationSec 0x7c00": {
+                "0x7c18": 0.4000000059604645
+            },
+            "frequency 0x7c40": {
+                "0x7c58": 3.0
+            },
+            "timing 0x7bc0": {
+                "0x7bd8": 28.0
+            },
+            "waveSlot 0x7be0": {
+                "0x7bf8": 0.0
+            }
+        },
+        "0x7c80": {
+            "amplitude 0x7e30": {
+                "0x7e48": 0.10000000149011612
+            },
+            "anim 0x7d68": "mechs_turn_l",
+            "attr 0x7d58": "CameraShake",
+            "distFalloff 0x7e70": {
+                "0x7e88": 20.0
+            },
+            "durationSec 0x7e10": {
+                "0x7e28": 0.4000000059604645
+            },
+            "frequency 0x7e50": {
+                "0x7e68": 3.0
+            },
+            "timing 0x7dd0": {
+                "0x7de8": 63.0
+            },
+            "waveSlot 0x7df0": {
+                "0x7e08": 0.0
+            }
+        },
+        "0x7e90": {
+            "anim 0x7ef8": "mechs_turn_l",
+            "attr 0x7f10": {
+                "0x7f28": "Sound",
+                "0x7f38": "ene_robot_servo_s"
+            },
+            "timing 0x7f40": {
+                "0x7f58": 0.0
+            }
+        },
+        "0x7f60": {
+            "anim 0x7fc8": "mechs_turn_l",
+            "attr 0x7fe0": {
+                "0x7ff8": "Sound",
+                "0x8008": "ene_robot_servo_s"
+            },
+            "timing 0x8010": {
+                "0x8028": 35.0
+            }
+        },
+        "0x8030": {
+            "anim 0x8098": "mechs_sidestep_r",
+            "attr 0x80b0": {
+                "0x80c8": "Sound",
+                "0x80d8": "ene_robot_footstep_s"
+            },
+            "timing 0x80e0": {
+                "0x80f8": 27.0
+            }
+        },
+        "0x8100": {
+            "anim 0x8168": "mechs_sidestep_r",
+            "attr 0x8180": {
+                "0x8198": "Sound",
+                "0x81a8": "ene_robot_footstep_s"
+            },
+            "timing 0x81b0": {
+                "0x81c8": 57.0
+            }
+        },
+        "0x81d0": {
+            "anim 0x8238": "mechs_sidestep_r",
+            "attr 0x8250": {
+                "0x8268": "Sound",
+                "0x8278": "ene_robot_servo_s"
+            },
+            "timing 0x8280": {
+                "0x8298": 0.0
+            }
+        },
+        "0x82a0": {
+            "anim 0x8308": "mechs_sidestep_r",
+            "attr 0x8320": {
+                "0x8338": "Sound",
+                "0x8348": "ene_robot_servo_s"
+            },
+            "timing 0x8350": {
+                "0x8368": 32.0
+            }
+        },
+        "0x8370": {
+            "anim 0x83d8": "mechs_sidestep_l",
+            "attr 0x83f0": {
+                "0x8408": "Sound",
+                "0x8418": "ene_robot_footstep_s"
+            },
+            "timing 0x8420": {
+                "0x8438": 27.0
+            }
+        },
+        "0x8440": {
+            "anim 0x84a8": "mechs_sidestep_l",
+            "attr 0x84c0": {
+                "0x84d8": "Sound",
+                "0x84e8": "ene_robot_footstep_s"
+            },
+            "timing 0x84f0": {
+                "0x8508": 57.0
+            }
+        },
+        "0x8510": {
+            "anim 0x8578": "mechs_sidestep_l",
+            "attr 0x8590": {
+                "0x85a8": "Sound",
+                "0x85b8": "ene_robot_servo_s"
+            },
+            "timing 0x85c0": {
+                "0x85d8": 0.0
+            }
+        },
+        "0x85e0": {
+            "anim 0x8648": "mechs_sidestep_l",
+            "attr 0x8660": {
+                "0x8678": "Sound",
+                "0x8688": "ene_robot_servo_s"
+            },
+            "timing 0x8690": {
+                "0x86a8": 32.0
+            }
+        },
+        "0x86b0": {
+            "anim 0x87a8": "mechs_walk",
+            "attr 0x8788": "Attack",
+            "groupId 0x8900": {
+                "0x8918": 0.0
+            },
+            "layout 0x8870": {
+                "rot 0x88b0": {
+                    "0x88c8": "euler",
+                    "0x88d8": 90.0,
+                    "0x88e8": 0.0,
+                    "0x88f8": 0.0
+                }
+            },
+            "parent 0x87c8": "bn_ll06_foot2L",
+            "shape 0x8800": {
+                "0x8818": "Capsule",
+                "0x8828": 0.4000000059604645,
+                "0x8838": 2.0
+            },
+            "timing 0x8840": {
+                "0x8858": 20.0,
+                "0x8868": 40.0
+            },
+            "userData 0x8798": "kick"
+        },
+        "0x8920": {
+            "anim 0x8a18": "mechs_walk",
+            "attr 0x89f8": "Attack",
+            "groupId 0x8b70": {
+                "0x8b88": 1.0
+            },
+            "layout 0x8ae0": {
+                "rot 0x8b20": {
+                    "0x8b38": "euler",
+                    "0x8b48": 90.0,
+                    "0x8b58": 0.0,
+                    "0x8b68": 0.0
+                }
+            },
+            "parent 0x8a38": "bn_rl06_foot2R",
+            "shape 0x8a70": {
+                "0x8a88": "Capsule",
+                "0x8a98": 0.4000000059604645,
+                "0x8aa8": 2.0
+            },
+            "timing 0x8ab0": {
+                "0x8ac8": 0.0,
+                "0x8ad8": 10.0
+            },
+            "userData 0x8a08": "kick"
+        },
+        "0x8b90": {
+            "anim 0x8c88": "mechs_walk",
+            "attr 0x8c68": "Attack",
+            "groupId 0x8de0": {
+                "0x8df8": 1.0
+            },
+            "layout 0x8d50": {
+                "rot 0x8d90": {
+                    "0x8da8": "euler",
+                    "0x8db8": 90.0,
+                    "0x8dc8": 0.0,
+                    "0x8dd8": 0.0
+                }
+            },
+            "parent 0x8ca8": "bn_rl06_foot2R",
+            "shape 0x8ce0": {
+                "0x8cf8": "Capsule",
+                "0x8d08": 0.4000000059604645,
+                "0x8d18": 2.0
+            },
+            "timing 0x8d20": {
+                "0x8d38": 50.0,
+                "0x8d48": 60.0
+            },
+            "userData 0x8c78": "kick"
+        },
+        "0x8e00": {
+            "anim 0x8ef8": "mechs_walk_back",
+            "attr 0x8ed8": "Attack",
+            "groupId 0x9050": {
+                "0x9068": 0.0
+            },
+            "layout 0x8fc0": {
+                "rot 0x9000": {
+                    "0x9018": "euler",
+                    "0x9028": 90.0,
+                    "0x9038": 0.0,
+                    "0x9048": 0.0
+                }
+            },
+            "parent 0x8f18": "bn_ll06_foot2L",
+            "shape 0x8f50": {
+                "0x8f68": "Capsule",
+                "0x8f78": 0.4000000059604645,
+                "0x8f88": 2.0
+            },
+            "timing 0x8f90": {
+                "0x8fa8": 20.0,
+                "0x8fb8": 40.0
+            },
+            "userData 0x8ee8": "kick"
+        },
+        "0x9070": {
+            "anim 0x9168": "mechs_walk_back",
+            "attr 0x9148": "Attack",
+            "groupId 0x92c0": {
+                "0x92d8": 1.0
+            },
+            "layout 0x9230": {
+                "rot 0x9270": {
+                    "0x9288": "euler",
+                    "0x9298": 90.0,
+                    "0x92a8": 0.0,
+                    "0x92b8": 0.0
+                }
+            },
+            "parent 0x9188": "bn_rl06_foot2R",
+            "shape 0x91c0": {
+                "0x91d8": "Capsule",
+                "0x91e8": 0.4000000059604645,
+                "0x91f8": 2.0
+            },
+            "timing 0x9200": {
+                "0x9218": 0.0,
+                "0x9228": 10.0
+            },
+            "userData 0x9158": "kick"
+        },
+        "0x92e0": {
+            "anim 0x93d8": "mechs_walk_back",
+            "attr 0x93b8": "Attack",
+            "groupId 0x9530": {
+                "0x9548": 1.0
+            },
+            "layout 0x94a0": {
+                "rot 0x94e0": {
+                    "0x94f8": "euler",
+                    "0x9508": 90.0,
+                    "0x9518": 0.0,
+                    "0x9528": 0.0
+                }
+            },
+            "parent 0x93f8": "bn_rl06_foot2R",
+            "shape 0x9430": {
+                "0x9448": "Capsule",
+                "0x9458": 0.4000000059604645,
+                "0x9468": 2.0
+            },
+            "timing 0x9470": {
+                "0x9488": 50.0,
+                "0x9498": 60.0
+            },
+            "userData 0x93c8": "kick"
+        },
+        "0x9550": {
+            "anim 0x9648": "mechs_turn_l",
+            "attr 0x9628": "Attack",
+            "groupId 0x97a0": {
+                "0x97b8": 0.0
+            },
+            "layout 0x9710": {
+                "rot 0x9750": {
+                    "0x9768": "euler",
+                    "0x9778": 90.0,
+                    "0x9788": 0.0,
+                    "0x9798": 0.0
+                }
+            },
+            "parent 0x9668": "bn_ll06_foot2L",
+            "shape 0x96a0": {
+                "0x96b8": "Capsule",
+                "0x96c8": 0.4000000059604645,
+                "0x96d8": 2.0
+            },
+            "timing 0x96e0": {
+                "0x96f8": 5.0,
+                "0x9708": 30.0
+            },
+            "userData 0x9638": "kick"
+        },
+        "0x97c0": {
+            "anim 0x98b8": "mechs_turn_l",
+            "attr 0x9898": "Attack",
+            "groupId 0x9a10": {
+                "0x9a28": 1.0
+            },
+            "layout 0x9980": {
+                "rot 0x99c0": {
+                    "0x99d8": "euler",
+                    "0x99e8": 90.0,
+                    "0x99f8": 0.0,
+                    "0x9a08": 0.0
+                }
+            },
+            "parent 0x98d8": "bn_rl06_foot2R",
+            "shape 0x9910": {
+                "0x9928": "Capsule",
+                "0x9938": 0.4000000059604645,
+                "0x9948": 2.0
+            },
+            "timing 0x9950": {
+                "0x9968": 40.0,
+                "0x9978": 65.0
+            },
+            "userData 0x98a8": "kick"
+        },
+        "0x9a30": {
+            "anim 0x9b28": "mechs_turn_r",
+            "attr 0x9b08": "Attack",
+            "groupId 0x9c80": {
+                "0x9c98": 0.0
+            },
+            "layout 0x9bf0": {
+                "rot 0x9c30": {
+                    "0x9c48": "euler",
+                    "0x9c58": 90.0,
+                    "0x9c68": 0.0,
+                    "0x9c78": 0.0
+                }
+            },
+            "parent 0x9b48": "bn_ll06_foot2L",
+            "shape 0x9b80": {
+                "0x9b98": "Capsule",
+                "0x9ba8": 0.4000000059604645,
+                "0x9bb8": 2.0
+            },
+            "timing 0x9bc0": {
+                "0x9bd8": 40.0,
+                "0x9be8": 65.0
+            },
+            "userData 0x9b18": "kick"
+        },
+        "0x9ca0": {
+            "anim 0x9d98": "mechs_turn_r",
+            "attr 0x9d78": "Attack",
+            "groupId 0x9ef0": {
+                "0x9f08": 1.0
+            },
+            "layout 0x9e60": {
+                "rot 0x9ea0": {
+                    "0x9eb8": "euler",
+                    "0x9ec8": 90.0,
+                    "0x9ed8": 0.0,
+                    "0x9ee8": 0.0
+                }
+            },
+            "parent 0x9db8": "bn_rl06_foot2R",
+            "shape 0x9df0": {
+                "0x9e08": "Capsule",
+                "0x9e18": 0.4000000059604645,
+                "0x9e28": 2.0
+            },
+            "timing 0x9e30": {
+                "0x9e48": 5.0,
+                "0x9e58": 30.0
+            },
+            "userData 0x9d88": "kick"
+        },
+        "0x9f10": {
+            "anim 0xa008": "mechs_sidestep_r",
+            "attr 0x9fe8": "Attack",
+            "groupId 0xa160": {
+                "0xa178": 0.0
+            },
+            "layout 0xa0d0": {
+                "rot 0xa110": {
+                    "0xa128": "euler",
+                    "0xa138": 90.0,
+                    "0xa148": 0.0,
+                    "0xa158": 0.0
+                }
+            },
+            "parent 0xa028": "bn_ll06_foot2L",
+            "shape 0xa060": {
+                "0xa078": "Capsule",
+                "0xa088": 0.4000000059604645,
+                "0xa098": 2.0
+            },
+            "timing 0xa0a0": {
+                "0xa0b8": 36.0,
+                "0xa0c8": 56.0
+            },
+            "userData 0x9ff8": "kick"
+        },
+        "0xa180": {
+            "anim 0xa278": "mechs_sidestep_r",
+            "attr 0xa258": "Attack",
+            "groupId 0xa3d0": {
+                "0xa3e8": 1.0
+            },
+            "layout 0xa340": {
+                "rot 0xa380": {
+                    "0xa398": "euler",
+                    "0xa3a8": 90.0,
+                    "0xa3b8": 0.0,
+                    "0xa3c8": 0.0
+                }
+            },
+            "parent 0xa298": "bn_rl06_foot2R",
+            "shape 0xa2d0": {
+                "0xa2e8": "Capsule",
+                "0xa2f8": 0.4000000059604645,
+                "0xa308": 2.0
+            },
+            "timing 0xa310": {
+                "0xa328": 8.0,
+                "0xa338": 28.0
+            },
+            "userData 0xa268": "kick"
+        },
+        "0xa3f0": {
+            "anim 0xa4e8": "mechs_sidestep_l",
+            "attr 0xa4c8": "Attack",
+            "groupId 0xa640": {
+                "0xa658": 0.0
+            },
+            "layout 0xa5b0": {
+                "rot 0xa5f0": {
+                    "0xa608": "euler",
+                    "0xa618": 90.0,
+                    "0xa628": 0.0,
+                    "0xa638": 0.0
+                }
+            },
+            "parent 0xa508": "bn_ll06_foot2L",
+            "shape 0xa540": {
+                "0xa558": "Capsule",
+                "0xa568": 0.4000000059604645,
+                "0xa578": 2.0
+            },
+            "timing 0xa580": {
+                "0xa598": 4.0,
+                "0xa5a8": 24.0
+            },
+            "userData 0xa4d8": "kick"
+        },
+        "0xa60": {
+            "anim 0xac8": "mechs_death_arm",
+            "attr 0xae0": {
+                "0xaf8": "EventMessage",
+                "0xb08": "reqRideOff"
+            },
+            "timing 0xb10": {
+                "0xb28": 1.0
+            }
+        },
+        "0xa660": {
+            "anim 0xa758": "mechs_sidestep_l",
+            "attr 0xa738": "Attack",
+            "groupId 0xa8b0": {
+                "0xa8c8": 1.0
+            },
+            "layout 0xa820": {
+                "rot 0xa860": {
+                    "0xa878": "euler",
+                    "0xa888": 90.0,
+                    "0xa898": 0.0,
+                    "0xa8a8": 0.0
+                }
+            },
+            "parent 0xa778": "bn_rl06_foot2R",
+            "shape 0xa7b0": {
+                "0xa7c8": "Capsule",
+                "0xa7d8": 0.4000000059604645,
+                "0xa7e8": 2.0
+            },
+            "timing 0xa7f0": {
+                "0xa808": 32.0,
+                "0xa818": 52.0
+            },
+            "userData 0xa748": "kick"
+        },
+        "0xa8d0": {
+            "anim 0xa998": "mechs_smalljump_start",
+            "attr 0xa978": "Attack",
+            "groupId 0xaa40": {
+                "0xaa58": 0.0
+            },
+            "parent 0xa9b8": "loc_boosterpoint",
+            "shape 0xa9e0": {
+                "0xa9f8": "Sphere",
+                "0xaa08": 0.75
+            },
+            "timing 0xaa10": {
+                "0xaa28": 20.0,
+                "0xaa38": 30.0
+            },
+            "userData 0xa988": "backjump"
+        },
+        "0xaa60": {
+            "anim 0xab28": "mechs_smalljump_start",
+            "attr 0xab08": "Attack",
+            "groupId 0xabd0": {
+                "0xabe8": 1.0
+            },
+            "parent 0xab48": "bn_root",
+            "shape 0xab70": {
+                "0xab88": "Sphere",
+                "0xab98": 2.0
+            },
+            "timing 0xaba0": {
+                "0xabb8": 30.0,
+                "0xabc8": 100.0
+            },
+            "userData 0xab18": "backjump"
+        },
+        "0xabf0": {
+            "anim 0xace8": "mechs_smalljump_start",
+            "attr 0xacc8": "Attack",
+            "groupId 0xae40": {
+                "0xae58": 1.0
+            },
+            "layout 0xadb0": {
+                "rot 0xadf0": {
+                    "0xae08": "euler",
+                    "0xae18": 90.0,
+                    "0xae28": 0.0,
+                    "0xae38": 0.0
+                }
+            },
+            "parent 0xad08": "bn_ll06_foot2L",
+            "shape 0xad40": {
+                "0xad58": "Capsule",
+                "0xad68": 0.4000000059604645,
+                "0xad78": 2.0
+            },
+            "timing 0xad80": {
+                "0xad98": 35.0,
+                "0xada8": 100.0
+            },
+            "userData 0xacd8": "backjump"
+        },
+        "0xae60": {
+            "anim 0xaf58": "mechs_smalljump_start",
+            "attr 0xaf38": "Attack",
+            "groupId 0xb0b0": {
+                "0xb0c8": 1.0
+            },
+            "layout 0xb020": {
+                "rot 0xb060": {
+                    "0xb078": "euler",
+                    "0xb088": 90.0,
+                    "0xb098": 0.0,
+                    "0xb0a8": 0.0
+                }
+            },
+            "parent 0xaf78": "bn_rl06_foot2R",
+            "shape 0xafb0": {
+                "0xafc8": "Capsule",
+                "0xafd8": 0.4000000059604645,
+                "0xafe8": 2.0
+            },
+            "timing 0xaff0": {
+                "0xb008": 35.0,
+                "0xb018": 100.0
+            },
+            "userData 0xaf48": "backjump"
+        },
+        "0xb0d0": {
+            "anim 0xb188": "mechs_smalljump_down_loop",
+            "attr 0xb168": "Attack",
+            "parent 0xb1a8": "bn_root",
+            "shape 0xb1c0": {
+                "0xb1d8": "Sphere",
+                "0xb1e8": 2.0
+            },
+            "timing 0xb1f0": {
+                "0xb208": 0.0,
+                "0xb218": 100.0
+            },
+            "userData 0xb178": "backjump"
+        },
+        "0xb220": {
+            "anim 0xb2e8": "mechs_smalljump_down_loop",
+            "attr 0xb2c8": "Attack",
+            "layout 0xb3a0": {
+                "pos 0xb400": {
+                    "0xb418": 0.0,
+                    "0xb428": 0.0,
+                    "0xb438": -1.0
+                },
+                "rot 0xb440": {
+                    "0xb458": "euler",
+                    "0xb468": 90.0,
+                    "0xb478": 0.0,
+                    "0xb488": 0.0
+                }
+            },
+            "parent 0xb308": "bn_ll06_foot2L",
+            "shape 0xb330": {
+                "0xb348": "Capsule",
+                "0xb358": 0.4000000059604645,
+                "0xb368": 3.0
+            },
+            "timing 0xb370": {
+                "0xb388": 0.0,
+                "0xb398": 100.0
+            },
+            "userData 0xb2d8": "backjump"
+        },
+        "0xb30": {
+            "anim 0xb98": "mechs_death_cockpit",
+            "attr 0xbb0": {
+                "0xbc8": "EventMessage",
+                "0xbd8": "reqRideOff"
+            },
+            "timing 0xbe0": {
+                "0xbf8": 1.0
+            }
+        },
+        "0xb490": {
+            "anim 0xb558": "mechs_smalljump_down_loop",
+            "attr 0xb538": "Attack",
+            "layout 0xb610": {
+                "pos 0xb670": {
+                    "0xb688": 0.0,
+                    "0xb698": 0.0,
+                    "0xb6a8": -1.0
+                },
+                "rot 0xb6b0": {
+                    "0xb6c8": "euler",
+                    "0xb6d8": 90.0,
+                    "0xb6e8": 0.0,
+                    "0xb6f8": 0.0
+                }
+            },
+            "parent 0xb578": "bn_rl06_foot2R",
+            "shape 0xb5a0": {
+                "0xb5b8": "Capsule",
+                "0xb5c8": 0.4000000059604645,
+                "0xb5d8": 3.0
+            },
+            "timing 0xb5e0": {
+                "0xb5f8": 0.0,
+                "0xb608": 100.0
+            },
+            "userData 0xb548": "backjump"
+        },
+        "0xb700": {
+            "anim 0xb7b8": "mechs_smalljump_end",
+            "attr 0xb798": "Attack",
+            "parent 0xb7d8": "bn_root",
+            "shape 0xb7f0": {
+                "0xb808": "Sphere",
+                "0xb818": 2.0
+            },
+            "timing 0xb820": {
+                "0xb838": 0.0,
+                "0xb848": 100.0
+            },
+            "userData 0xb7a8": "backjump"
+        },
+        "0xb850": {
+            "anim 0xb918": "mechs_smalljump_end",
+            "attr 0xb8f8": "Attack",
+            "layout 0xb9d0": {
+                "rot 0xba10": {
+                    "0xba28": "euler",
+                    "0xba38": 90.0,
+                    "0xba48": 0.0,
+                    "0xba58": 0.0
+                }
+            },
+            "parent 0xb938": "bn_ll06_foot2L",
+            "shape 0xb960": {
+                "0xb978": "Capsule",
+                "0xb988": 0.4000000059604645,
+                "0xb998": 2.0
+            },
+            "timing 0xb9a0": {
+                "0xb9b8": 0.0,
+                "0xb9c8": 5.0
+            },
+            "userData 0xb908": "backjump"
+        },
+        "0xba60": {
+            "anim 0xbb28": "mechs_smalljump_end",
+            "attr 0xbb08": "Attack",
+            "layout 0xbbe0": {
+                "rot 0xbc20": {
+                    "0xbc38": "euler",
+                    "0xbc48": 90.0,
+                    "0xbc58": 0.0,
+                    "0xbc68": 0.0
+                }
+            },
+            "parent 0xbb48": "bn_rl06_foot2R",
+            "shape 0xbb70": {
+                "0xbb88": "Capsule",
+                "0xbb98": 0.4000000059604645,
+                "0xbba8": 2.0
+            },
+            "timing 0xbbb0": {
+                "0xbbc8": 0.0,
+                "0xbbd8": 5.0
+            },
+            "userData 0xbb18": "backjump"
+        },
+        "0xbc70": {
+            "anim 0xbd28": "mechs_rollout",
+            "attr 0xbd08": "Attack",
+            "parent 0xbd48": "bn_root",
+            "shape 0xbd60": {
+                "0xbd78": "Sphere",
+                "0xbd88": 2.0
+            },
+            "timing 0xbd90": {
+                "0xbda8": 0.0,
+                "0xbdb8": 100.0
+            },
+            "userData 0xbd18": "backjump"
+        },
+        "0xbdc0": {
+            "anim 0xbe88": "mechs_rollout",
+            "attr 0xbe68": "Attack",
+            "layout 0xbf40": {
+                "rot 0xbf80": {
+                    "0xbf98": "euler",
+                    "0xbfa8": 90.0,
+                    "0xbfb8": 0.0,
+                    "0xbfc8": 0.0
+                }
+            },
+            "parent 0xbea8": "bn_ll06_foot2L",
+            "shape 0xbed0": {
+                "0xbee8": "Capsule",
+                "0xbef8": 0.4000000059604645,
+                "0xbf08": 2.0
+            },
+            "timing 0xbf10": {
+                "0xbf28": 0.0,
+                "0xbf38": 100.0
+            },
+            "userData 0xbe78": "backjump"
+        },
+        "0xbfd0": {
+            "anim 0xc098": "mechs_rollout",
+            "attr 0xc078": "Attack",
+            "layout 0xc150": {
+                "rot 0xc190": {
+                    "0xc1a8": "euler",
+                    "0xc1b8": 90.0,
+                    "0xc1c8": 0.0,
+                    "0xc1d8": 0.0
+                }
+            },
+            "parent 0xc0b8": "bn_rl06_foot2R",
+            "shape 0xc0e0": {
+                "0xc0f8": "Capsule",
+                "0xc108": 0.4000000059604645,
+                "0xc118": 2.0
+            },
+            "timing 0xc120": {
+                "0xc138": 0.0,
+                "0xc148": 100.0
+            },
+            "userData 0xc088": "backjump"
+        },
+        "0xc00": {
+            "anim 0xc68": "mechs_death_engine",
+            "attr 0xc80": {
+                "0xc98": "EventMessage",
+                "0xca8": "reqRideOff"
+            },
+            "timing 0xcb0": {
+                "0xcc8": 1.0
+            }
+        },
+        "0xc1e0": {
+            "anim 0xc2a8": "mechs_smalljumpback_start",
+            "attr 0xc288": "Attack",
+            "groupId 0xc350": {
+                "0xc368": 0.0
+            },
+            "parent 0xc2c8": "loc_boosterpoint",
+            "shape 0xc2f0": {
+                "0xc308": "Sphere",
+                "0xc318": 0.75
+            },
+            "timing 0xc320": {
+                "0xc338": 20.0,
+                "0xc348": 30.0
+            },
+            "userData 0xc298": "backjump"
+        },
+        "0xc370": {
+            "anim 0xc438": "mechs_smalljumpback_start",
+            "attr 0xc418": "Attack",
+            "groupId 0xc4e0": {
+                "0xc4f8": 1.0
+            },
+            "parent 0xc458": "bn_root",
+            "shape 0xc480": {
+                "0xc498": "Sphere",
+                "0xc4a8": 2.0
+            },
+            "timing 0xc4b0": {
+                "0xc4c8": 30.0,
+                "0xc4d8": 100.0
+            },
+            "userData 0xc428": "backjump"
+        },
+        "0xc500": {
+            "anim 0xc5f8": "mechs_smalljumpback_start",
+            "attr 0xc5d8": "Attack",
+            "groupId 0xc750": {
+                "0xc768": 1.0
+            },
+            "layout 0xc6c0": {
+                "rot 0xc700": {
+                    "0xc718": "euler",
+                    "0xc728": 90.0,
+                    "0xc738": 0.0,
+                    "0xc748": 0.0
+                }
+            },
+            "parent 0xc618": "bn_ll06_foot2L",
+            "shape 0xc650": {
+                "0xc668": "Capsule",
+                "0xc678": 0.4000000059604645,
+                "0xc688": 2.0
+            },
+            "timing 0xc690": {
+                "0xc6a8": 35.0,
+                "0xc6b8": 100.0
+            },
+            "userData 0xc5e8": "backjump"
+        },
+        "0xc770": {
+            "anim 0xc868": "mechs_smalljumpback_start",
+            "attr 0xc848": "Attack",
+            "groupId 0xc9c0": {
+                "0xc9d8": 1.0
+            },
+            "layout 0xc930": {
+                "rot 0xc970": {
+                    "0xc988": "euler",
+                    "0xc998": 90.0,
+                    "0xc9a8": 0.0,
+                    "0xc9b8": 0.0
+                }
+            },
+            "parent 0xc888": "bn_rl06_foot2R",
+            "shape 0xc8c0": {
+                "0xc8d8": "Capsule",
+                "0xc8e8": 0.4000000059604645,
+                "0xc8f8": 2.0
+            },
+            "timing 0xc900": {
+                "0xc918": 35.0,
+                "0xc928": 100.0
+            },
+            "userData 0xc858": "backjump"
+        },
+        "0xc9e0": {
+            "anim 0xca98": "mechs_smalljumpback_down_loop",
+            "attr 0xca78": "Attack",
+            "parent 0xcab8": "bn_root",
+            "shape 0xcad0": {
+                "0xcae8": "Sphere",
+                "0xcaf8": 2.0
+            },
+            "timing 0xcb00": {
+                "0xcb18": 0.0,
+                "0xcb28": 100.0
+            },
+            "userData 0xca88": "backjump"
+        },
+        "0xcb30": {
+            "anim 0xcbf8": "mechs_smalljumpback_down_loop",
+            "attr 0xcbd8": "Attack",
+            "layout 0xccb0": {
+                "pos 0xcd10": {
+                    "0xcd28": 0.0,
+                    "0xcd38": 0.0,
+                    "0xcd48": -1.0
+                },
+                "rot 0xcd50": {
+                    "0xcd68": "euler",
+                    "0xcd78": 90.0,
+                    "0xcd88": 0.0,
+                    "0xcd98": 0.0
+                }
+            },
+            "parent 0xcc18": "bn_ll06_foot2L",
+            "shape 0xcc40": {
+                "0xcc58": "Capsule",
+                "0xcc68": 0.4000000059604645,
+                "0xcc78": 3.0
+            },
+            "timing 0xcc80": {
+                "0xcc98": 0.0,
+                "0xcca8": 100.0
+            },
+            "userData 0xcbe8": "backjump"
+        },
+        "0xcd0": {
+            "anim 0xd38": "mechs_walk",
+            "attr 0xd50": {
+                "0xd68": "EventMessage",
+                "0xd78": "spawnLandEffRight"
+            },
+            "timing 0xd80": {
+                "0xd98": 10.0
+            }
+        },
+        "0xcda0": {
+            "anim 0xce68": "mechs_smalljumpback_down_loop",
+            "attr 0xce48": "Attack",
+            "layout 0xcf20": {
+                "pos 0xcf80": {
+                    "0xcf98": 0.0,
+                    "0xcfa8": 0.0,
+                    "0xcfb8": -1.0
+                },
+                "rot 0xcfc0": {
+                    "0xcfd8": "euler",
+                    "0xcfe8": 90.0,
+                    "0xcff8": 0.0,
+                    "0xd008": 0.0
+                }
+            },
+            "parent 0xce88": "bn_rl06_foot2R",
+            "shape 0xceb0": {
+                "0xcec8": "Capsule",
+                "0xced8": 0.4000000059604645,
+                "0xcee8": 3.0
+            },
+            "timing 0xcef0": {
+                "0xcf08": 0.0,
+                "0xcf18": 100.0
+            },
+            "userData 0xce58": "backjump"
+        },
+        "0xd010": {
+            "anim 0xd0c8": "mechs_smalljumpback_end",
+            "attr 0xd0a8": "Attack",
+            "parent 0xd0e8": "bn_root",
+            "shape 0xd100": {
+                "0xd118": "Sphere",
+                "0xd128": 2.0
+            },
+            "timing 0xd130": {
+                "0xd148": 0.0,
+                "0xd158": 100.0
+            },
+            "userData 0xd0b8": "backjump"
+        },
+        "0xd160": {
+            "anim 0xd228": "mechs_smalljumpback_end",
+            "attr 0xd208": "Attack",
+            "layout 0xd2e0": {
+                "rot 0xd320": {
+                    "0xd338": "euler",
+                    "0xd348": 90.0,
+                    "0xd358": 0.0,
+                    "0xd368": 0.0
+                }
+            },
+            "parent 0xd248": "bn_ll06_foot2L",
+            "shape 0xd270": {
+                "0xd288": "Capsule",
+                "0xd298": 0.4000000059604645,
+                "0xd2a8": 2.0
+            },
+            "timing 0xd2b0": {
+                "0xd2c8": 0.0,
+                "0xd2d8": 5.0
+            },
+            "userData 0xd218": "backjump"
+        },
+        "0xd370": {
+            "anim 0xd438": "mechs_smalljumpback_end",
+            "attr 0xd418": "Attack",
+            "layout 0xd4f0": {
+                "rot 0xd530": {
+                    "0xd548": "euler",
+                    "0xd558": 90.0,
+                    "0xd568": 0.0,
+                    "0xd578": 0.0
+                }
+            },
+            "parent 0xd458": "bn_rl06_foot2R",
+            "shape 0xd480": {
+                "0xd498": "Capsule",
+                "0xd4a8": 0.4000000059604645,
+                "0xd4b8": 2.0
+            },
+            "timing 0xd4c0": {
+                "0xd4d8": 0.0,
+                "0xd4e8": 5.0
+            },
+            "userData 0xd428": "backjump"
+        },
+        "0xd580": {
+            "anim 0xd638": "mechs_jump_start",
+            "attr 0xd618": "Attack",
+            "parent 0xd658": "loc_boosterpoint",
+            "shape 0xd670": {
+                "0xd688": "Sphere",
+                "0xd698": 0.75
+            },
+            "timing 0xd6a0": {
+                "0xd6b8": 20.0,
+                "0xd6c8": 100.0
+            },
+            "userData 0xd628": "kick"
+        },
+        "0xd6d0": {
+            "anim 0xd788": "mechs_jump_up_loop",
+            "attr 0xd768": "Attack",
+            "parent 0xd7a8": "loc_boosterpoint",
+            "shape 0xd7c0": {
+                "0xd7d8": "Sphere",
+                "0xd7e8": 0.75
+            },
+            "timing 0xd7f0": {
+                "0xd808": 0.0,
+                "0xd818": 100.0
+            },
+            "userData 0xd778": "kick"
+        },
+        "0xd820": {
+            "anim 0xd8d8": "mechs_jump_down_loop",
+            "attr 0xd8b8": "Attack",
+            "parent 0xd8f8": "loc_boosterpoint",
+            "shape 0xd910": {
+                "0xd928": "Sphere",
+                "0xd938": 0.75
+            },
+            "timing 0xd940": {
+                "0xd958": 0.0,
+                "0xd968": 100.0
+            },
+            "userData 0xd8c8": "kick"
+        },
+        "0xd970": {
+            "anim 0xda28": "mechs_jump_end",
+            "attr 0xda08": "Attack",
+            "parent 0xda48": "loc_boosterpoint",
+            "shape 0xda60": {
+                "0xda78": "Sphere",
+                "0xda88": 0.75
+            },
+            "timing 0xda90": {
+                "0xdaa8": 0.0,
+                "0xdab8": 10.0
+            },
+            "userData 0xda18": "kick"
+        },
+        "0xda0": {
+            "anim 0xe08": "mechs_walk",
+            "attr 0xe20": {
+                "0xe38": "EventMessage",
+                "0xe48": "spawnLandEffLeft"
+            },
+            "timing 0xe50": {
+                "0xe68": 40.0
+            }
+        },
+        "0xdac0": {
+            "anim 0xdb88": "mechs_jump_end",
+            "attr 0xdb68": "Attack",
+            "layout 0xdc40": {
+                "rot 0xdc80": {
+                    "0xdc98": "euler",
+                    "0xdca8": 90.0,
+                    "0xdcb8": 0.0,
+                    "0xdcc8": 0.0
+                }
+            },
+            "parent 0xdba8": "bn_ll06_foot2L",
+            "shape 0xdbd0": {
+                "0xdbe8": "Capsule",
+                "0xdbf8": 0.4000000059604645,
+                "0xdc08": 2.0
+            },
+            "timing 0xdc10": {
+                "0xdc28": 0.0,
+                "0xdc38": 10.0
+            },
+            "userData 0xdb78": "kick"
+        },
+        "0xdcd0": {
+            "anim 0xdd98": "mechs_jump_end",
+            "attr 0xdd78": "Attack",
+            "layout 0xde50": {
+                "rot 0xde90": {
+                    "0xdea8": "euler",
+                    "0xdeb8": 90.0,
+                    "0xdec8": 0.0,
+                    "0xded8": 0.0
+                }
+            },
+            "parent 0xddb8": "bn_rl06_foot2R",
+            "shape 0xdde0": {
+                "0xddf8": "Capsule",
+                "0xde08": 0.4000000059604645,
+                "0xde18": 2.0
+            },
+            "timing 0xde20": {
+                "0xde38": 0.0,
+                "0xde48": 10.0
+            },
+            "userData 0xdd88": "kick"
+        },
+        "0xdee0": {
+            "anim 0xdfa8": "mechs_fall",
+            "attr 0xdf88": "Attack",
+            "layout 0xe060": {
+                "pos 0xe0c0": {
+                    "0xe0d8": 0.0,
+                    "0xe0e8": -2.0,
+                    "0xe0f8": 0.0
+                },
+                "rot 0xe100": {
+                    "0xe118": "euler",
+                    "0xe128": 90.0,
+                    "0xe138": 0.0,
+                    "0xe148": 0.0
+                }
+            },
+            "parent 0xdfc8": "bn_ll06_foot2L",
+            "shape 0xdff0": {
+                "0xe008": "Capsule",
+                "0xe018": 0.6000000238418579,
+                "0xe028": 2.0
+            },
+            "timing 0xe030": {
+                "0xe048": 0.0,
+                "0xe058": 100.0
+            },
+            "userData 0xdf98": "fall"
+        },
+        "0xe150": {
+            "anim 0xe218": "mechs_fall",
+            "attr 0xe1f8": "Attack",
+            "layout 0xe2d0": {
+                "pos 0xe330": {
+                    "0xe348": 0.0,
+                    "0xe358": -2.0,
+                    "0xe368": 0.0
+                },
+                "rot 0xe370": {
+                    "0xe388": "euler",
+                    "0xe398": 90.0,
+                    "0xe3a8": 0.0,
+                    "0xe3b8": 0.0
+                }
+            },
+            "parent 0xe238": "bn_rl06_foot2R",
+            "shape 0xe260": {
+                "0xe278": "Capsule",
+                "0xe288": 0.6000000238418579,
+                "0xe298": 2.0
+            },
+            "timing 0xe2a0": {
+                "0xe2b8": 0.0,
+                "0xe2c8": 100.0
+            },
+            "userData 0xe208": "fall"
+        },
+        "0xe70": {
+            "anim 0xed8": "mechs_walk_back",
+            "attr 0xef0": {
+                "0xf08": "EventMessage",
+                "0xf18": "spawnLandEffRight"
+            },
+            "timing 0xf20": {
+                "0xf38": 10.0
+            }
+        },
+        "0xf40": {
+            "anim 0xfa8": "mechs_walk_back",
+            "attr 0xfc0": {
+                "0xfd8": "EventMessage",
+                "0xfe8": "spawnLandEffLeft"
+            },
+            "timing 0xff0": {
+                "0x1008": 40.0
+            }
+        }
+    }
+}

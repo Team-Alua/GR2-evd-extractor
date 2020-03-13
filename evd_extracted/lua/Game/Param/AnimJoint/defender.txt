@@ -1,0 +1,117 @@
+{
+    "animjoint 0x70": {
+        "0x210": {
+            "anim 0x2d8": "attack",
+            "attr 0x2b8": "Attack",
+            "layout 0x390": {
+                "rot 0x3d0": {
+                    "0x3e8": "euler",
+                    "0x3f8": 90.0,
+                    "0x408": 0.0,
+                    "0x418": 0.0
+                }
+            },
+            "parent 0x2e8": "loc_setspear01",
+            "shape 0x320": {
+                "0x338": "Capsule",
+                "0x348": 0.30000001192092896,
+                "0x358": 1.7999999523162842
+            },
+            "timing 0x360": {
+                "0x378": 0.0,
+                "0x388": 21.0
+            },
+            "userData 0x2c8": "attack"
+        },
+        "0x420": {
+            "anim 0x4e8": "attack",
+            "attr 0x4c8": "Attack",
+            "layout 0x5a0": {
+                "rot 0x5e0": {
+                    "0x5f8": "euler",
+                    "0x608": 90.0,
+                    "0x618": 0.0,
+                    "0x628": 0.0
+                }
+            },
+            "parent 0x4f8": "loc_setspear02",
+            "shape 0x530": {
+                "0x548": "Capsule",
+                "0x558": 0.30000001192092896,
+                "0x568": 1.7999999523162842
+            },
+            "timing 0x570": {
+                "0x588": 0.0,
+                "0x598": 21.0
+            },
+            "userData 0x4d8": "attack"
+        },
+        "0x630": {
+            "anim 0x698": "spawn",
+            "attr 0x6b0": {
+                "0x6c8": "Sound",
+                "0x6d8": "ene_defender_emerge"
+            },
+            "timing 0x6e0": {
+                "0x6f8": 5.0
+            }
+        },
+        "0x700": {
+            "amplitude 0x8b0": {
+                "0x8c8": 0.07999999821186066
+            },
+            "anim 0x7e8": "attack",
+            "attr 0x7d8": "CameraShake",
+            "distFalloff 0x8f0": {
+                "0x908": 20.0
+            },
+            "durationSec 0x890": {
+                "0x8a8": 0.5
+            },
+            "frequency 0x8d0": {
+                "0x8e8": 5.0
+            },
+            "timing 0x850": {
+                "0x868": 1.0
+            },
+            "waveSlot 0x870": {
+                "0x888": 0.0
+            }
+        },
+        "0x910": {
+            "amplitude 0xac0": {
+                "0xad8": 0.10000000149011612
+            },
+            "anim 0x9f8": "ash",
+            "attr 0x9e8": "CameraShake",
+            "distFalloff 0xb00": {
+                "0xb18": 20.0
+            },
+            "durationSec 0xaa0": {
+                "0xab8": 0.6000000238418579
+            },
+            "frequency 0xae0": {
+                "0xaf8": 7.0
+            },
+            "timing 0xa60": {
+                "0xa78": 20.0
+            },
+            "waveSlot 0xa80": {
+                "0xa98": 0.0
+            }
+        },
+        "0xe0": {
+            "anim 0x188": "spawn",
+            "attr 0x168": "Attack",
+            "shape 0x1b0": {
+                "0x1c8": "Sphere",
+                "0x1d8": 1.75
+            },
+            "timing 0x1e0": {
+                "0x1f8": 0.0,
+                "0x208": 50.0
+            },
+            "userData 0x178": "spawn"
+        }
+    }
+}

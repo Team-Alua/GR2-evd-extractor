@@ -1,0 +1,402 @@
+{
+    "_default_bundles 0x500": {
+        "0x518": "bundle_stay_alone"
+    },
+    "_virtual_bundles 0x380": {
+        "vbundle_after_regime_change 0x4c0": {
+            "0x4d8": "bundle_primal",
+            "0x4e8": "bundle_dogs_pigs",
+            "0x4f8": "bundle_ducks"
+        },
+        "vbundle_before_regime_change 0x4a0": {
+            "0x4b8": "bundle_prop_test"
+        },
+        "vbundle_dogs_pigs_ducks 0x470": {
+            "0x488": "bundle_dogs_pigs",
+            "0x498": "bundle_ducks"
+        },
+        "vbundle_sample_1 0x430": {
+            "0x448": "bundle_primal",
+            "0x458": "bundle_dogs_pigs",
+            "0x468": "bundle_ducks"
+        }
+    },
+    "bundle_birds 0xda0": {
+        "0xde0": {
+            "birdNet 0xe68": "birdNet",
+            "classGroup 0xe78": "yy_bird",
+            "label 0xe58": "bird",
+            "num 0xe88": 5.0
+        },
+        "0xe90": {
+            "birdNet 0xf18": "birdNet1",
+            "classGroup 0xf28": "yy_bird",
+            "label 0xf08": "bird",
+            "num 0xf38": 5.0
+        },
+        "0xf40": {
+            "birdNet 0xfc8": "birdNet2",
+            "classGroup 0xfd8": "yy_bird",
+            "label 0xfb8": "bird",
+            "num 0xfe8": 5.0
+        }
+    },
+    "bundle_children 0xad0": {
+        "0xaf0": {
+            "classGroup 0xb98": "yy_gen_chi",
+            "label 0xb78": "children",
+            "num 0xbb8": 3.0,
+            "role 0xba8": "kRoleRoam",
+            "zone 0xb88": "center_zone"
+        }
+    },
+    "bundle_direct_roles 0x19d0": {
+        "0x1c20": {
+            "classGroup 0x1c88": "yy_gen_all",
+            "role 0x1c98": "kRoleVendor",
+            "zone 0x1c78": "center_zone"
+        },
+        "0x1ca0": {
+            "classGroup 0x1d08": "yy_gen_all",
+            "role 0x1d18": "kRoleShop",
+            "zone 0x1cf8": "center_zone"
+        },
+        "0x1d20": {
+            "classGroup 0x1d88": "yy_gen_all",
+            "role 0x1d98": "kRoleAudience",
+            "zone 0x1d78": "center_zone"
+        },
+        "0x1da0": {
+            "classGroup 0x1e08": "yy_gen_all",
+            "role 0x1e18": "kRoleFeedPigion",
+            "zone 0x1df8": "center_zone"
+        },
+        "0x1e20": {
+            "classGroup 0x1e88": "yy_gen_all",
+            "role 0x1e98": "kRoleDrunkOnGround",
+            "zone 0x1e78": "center_zone"
+        },
+        "0x1ea0": {
+            "classGroup 0x1f08": "yy_gen_all",
+            "role 0x1f18": "kRoleGuard",
+            "zone 0x1ef8": "center_zone"
+        },
+        "0x1f20": {
+            "classGroup 0x1f88": "yy_gen_all",
+            "role 0x1f98": "kRoleRelaxOnGround",
+            "zone 0x1f78": "center_zone"
+        },
+        "0x1fa0": {
+            "classGroup 0x2008": "yy_gen_all",
+            "role 0x2018": "kRoleReadBook",
+            "zone 0x1ff8": "center_zone"
+        },
+        "0x2020": {
+            "classGroup 0x2088": "yy_gen_all",
+            "role 0x2098": "kRoleWatchAbove",
+            "zone 0x2078": "center_zone"
+        },
+        "0x20a0": {
+            "classGroup 0x2108": "yy_gen_all",
+            "role 0x2118": "kRoleStandWithFlower",
+            "zone 0x20f8": "center_zone"
+        },
+        "0x2120": {
+            "classGroup 0x2188": "yy_gen_all",
+            "role 0x2198": "kRoleStandWithPaperBag",
+            "zone 0x2178": "center_zone"
+        },
+        "0x21a0": {
+            "classGroup 0x2208": "yy_gen_all",
+            "role 0x2218": "kRoleStandWithGlass",
+            "zone 0x21f8": "center_zone"
+        },
+        "0x2220": {
+            "classGroup 0x2288": "yy_gen_all",
+            "role 0x2298": "kRoleStandWithBalloon",
+            "zone 0x2278": "center_zone"
+        },
+        "0x22a0": {
+            "classGroup 0x2308": "yy_gen_all",
+            "role 0x2318": "kRolePlayWithMagichand",
+            "zone 0x22f8": "center_zone"
+        },
+        "0x2320": {
+            "classGroup 0x2388": "yy_gen_all",
+            "role 0x2398": "kRolePlayWithWaterGun",
+            "zone 0x2378": "center_zone"
+        },
+        "0x23a0": {
+            "classGroup 0x2408": "yy_gen_all",
+            "role 0x2418": "kRolePlayWithSword",
+            "zone 0x23f8": "center_zone"
+        },
+        "0x2420": {
+            "classGroup 0x2488": "yy_gen_all",
+            "role 0x2498": "kRoleBrushFloor",
+            "zone 0x2478": "center_zone"
+        },
+        "0x24a0": {
+            "classGroup 0x2508": "yy_gen_all",
+            "role 0x2518": "kRolePourWater",
+            "zone 0x24f8": "center_zone"
+        },
+        "0x2520": {
+            "classGroup 0x2588": "yy_gen_all",
+            "role 0x2598": "kRoleCleanWall",
+            "zone 0x2578": "center_zone"
+        },
+        "0x25a0": {
+            "classGroup 0x2608": "yy_gen_all",
+            "role 0x2618": "kRoleLayOnChair",
+            "zone 0x25f8": "center_zone"
+        },
+        "0x2620": {
+            "classGroup 0x2688": "yy_gen_all",
+            "role 0x2698": "kRoleEatSomething",
+            "zone 0x2678": "center_zone"
+        },
+        "0x26a0": {
+            "classGroup 0x2708": "yy_gen_all",
+            "role 0x2718": "kRoleMakeSpeech",
+            "zone 0x26f8": "center_zone"
+        },
+        "0x2720": {
+            "classGroup 0x2788": "yy_gen_all",
+            "role 0x2798": "kRoleListenSpeech",
+            "zone 0x2778": "center_zone"
+        },
+        "0x27a0": {
+            "classGroup 0x2808": "yy_gen_all",
+            "role 0x2818": "kRolePlayGuitar",
+            "zone 0x27f8": "center_zone"
+        },
+        "0x2820": {
+            "classGroup 0x2888": "yy_gen_all",
+            "role 0x2898": "kRolePlayViolin",
+            "zone 0x2878": "center_zone"
+        },
+        "0x28a0": {
+            "classGroup 0x2908": "yy_gen_all",
+            "role 0x2918": "kRoleHangOutLaundry",
+            "zone 0x28f8": "center_zone"
+        },
+        "0x2920": {
+            "classGroup 0x2988": "yy_gen_all",
+            "role 0x2998": "kRolePlayAlone",
+            "zone 0x2978": "center_zone"
+        },
+        "0x29a0": {
+            "classGroup 0x2a08": "yy_gen_all",
+            "role 0x2a18": "kRoleCheckUpObject",
+            "zone 0x29f8": "center_zone"
+        },
+        "0x2a20": {
+            "classGroup 0x2a88": "yy_gen_all",
+            "role 0x2a98": "kRoleDrinkSomething",
+            "zone 0x2a78": "center_zone"
+        },
+        "0x2aa0": {
+            "classGroup 0x2b08": "yy_gen_all",
+            "role 0x2b18": "kRoleWaitForResult",
+            "zone 0x2af8": "center_zone"
+        },
+        "0x2b20": {
+            "classGroup 0x2b88": "yy_gen_all",
+            "role 0x2b98": "kRoleWaitForRescue",
+            "zone 0x2b78": "center_zone"
+        },
+        "0x2ba0": {
+            "classGroup 0x2c08": "yy_gen_all",
+            "role 0x2c18": "kRoleLazyOnGround",
+            "zone 0x2bf8": "center_zone"
+        },
+        "0x2c20": {
+            "classGroup 0x2c88": "yy_gen_all",
+            "role 0x2c98": "kRoleLookAfterAnimal",
+            "zone 0x2c78": "center_zone"
+        },
+        "0x2ca0": {
+            "classGroup 0x2d08": "yy_gen_all",
+            "role 0x2d18": "kRolePlayWithBugs",
+            "zone 0x2cf8": "center_zone"
+        },
+        "0x2d20": {
+            "classGroup 0x2d88": "yy_gen_all",
+            "role 0x2d98": "kRoleStretch",
+            "zone 0x2d78": "center_zone"
+        },
+        "0x2da0": {
+            "classGroup 0x2e08": "yy_gen_all",
+            "role 0x2e18": "kRoleLookOver",
+            "zone 0x2df8": "center_zone"
+        }
+    },
+    "bundle_dogs_pigs 0xff0": {
+        "0x1010": {
+            "classGroup 0x10b8": "yy_sample_dog_and_pig",
+            "label 0x1098": "dog_pig",
+            "num 0x10d8": 10.0,
+            "role 0x10c8": "kRoleRoam",
+            "zone 0x10a8": "center_zone"
+        }
+    },
+    "bundle_ducks 0x10e0": {
+        "0x1100": {
+            "classGroup 0x11a8": "yy_sample_duck",
+            "label 0x1188": "duck",
+            "num 0x11c8": 5.0,
+            "role 0x11b8": "kRoleRoam",
+            "zone 0x1198": "center_zone"
+        }
+    },
+    "bundle_enclosed_ducks 0x1810": {
+        "0x1830": {
+            "classGroup 0x18b8": "yy_sample_duck",
+            "num 0x18d8": 3.0,
+            "pointYaw 0x18e0": {
+                "0x18f8": 20.0,
+                "0x1908": 0.0,
+                "0x1918": -50.0,
+                "0x1928": 0.0
+            },
+            "role 0x18c8": "kRoleRoam"
+        }
+    },
+    "bundle_grigo_alone 0x11d0": {
+        "0x11f0": {
+            "classGroup 0x1288": "yy_grigo",
+            "label 0x1268": "grigo",
+            "num 0x1298": 1.0,
+            "zone 0x1278": "center_zone"
+        }
+    },
+    "bundle_guard 0xcb0": {
+        "0xcd0": {
+            "classGroup 0xd78": "yy_jilga_mp_01",
+            "guide 0xd68": "guide0",
+            "label 0xd58": "guide_guard",
+            "num 0xd98": 1.0,
+            "role 0xd88": "kRoleGuard"
+        }
+    },
+    "bundle_kid 0xbc0": {
+        "0xbe0": {
+            "classGroup 0xc88": "yy_gen_kid",
+            "label 0xc68": "kids",
+            "num 0xca8": 3.0,
+            "role 0xc98": "kRoleRoam",
+            "zone 0xc78": "center_zone"
+        }
+    },
+    "bundle_many_roamers 0x12a0": {
+        "0x12c0": {
+            "classGroup 0x1368": "yy_gen_man",
+            "label 0x1348": "roamers_top",
+            "num 0x1388": 30.0,
+            "role 0x1378": "kRoleRoam",
+            "zone 0x1358": "center_zone"
+        }
+    },
+    "bundle_navigation 0x1390": {
+        "0x13b0": {
+            "classGroup 0x1458": "yy_gen_all",
+            "label 0x1438": "roamers_top",
+            "num 0x1478": 30.0,
+            "role 0x1468": "kRoleRoam",
+            "zone 0x1448": "center_zone"
+        }
+    },
+    "bundle_null 0x520": {},
+    "bundle_primal 0x530": {
+        "0x550": {
+            "classGroup 0x608": "yy_gen_man",
+            "label 0x5e8": "two",
+            "num 0x638": 1.0,
+            "role 0x628": "kRoleRoam",
+            "somebodyId 0x618": 1.0,
+            "zone 0x5f8": "foo_zone"
+        }
+    },
+    "bundle_prop_test 0x1480": {
+        "0x14d0": {
+            "classGroup 0x1578": "yy_performer",
+            "label 0x1558": "one",
+            "num 0x1598": 1.0,
+            "role 0x1588": "kRoleAccordionMan",
+            "zone 0x1568": "bar_zone"
+        },
+        "0x15a0": {
+            "classGroup 0x1648": "yy_performer",
+            "label 0x1628": "two",
+            "num 0x1668": 1.0,
+            "role 0x1658": "kRoleJuggle",
+            "zone 0x1638": "foo_zone"
+        },
+        "0x1670": {
+            "classGroup 0x1718": "yy_gen_man",
+            "label 0x16f8": "cage",
+            "num 0x1738": 1.0,
+            "role 0x1728": "kRoleCarryCargo",
+            "zone 0x1708": "foo_zone"
+        },
+        "0x1740": {
+            "classGroup 0x17e8": "yy_performer",
+            "label 0x17c8": "balloon",
+            "num 0x1808": 1.0,
+            "role 0x17f8": "kRoleBalloonMan",
+            "zone 0x17d8": "foo_zone"
+        }
+    },
+    "bundle_pyramid_walker 0x640": {
+        "0x660": {
+            "classGroup 0x718": "yy_gen_man",
+            "label 0x6f8": "pyramid_walker",
+            "num 0x748": 10.0,
+            "role 0x728": "kRoleRoam",
+            "standardAppearance 0x738": "01000000",
+            "zone 0x708": "pyramid"
+        }
+    },
+    "bundle_rescue 0x820": {
+        "0x840": {
+            "classGroup 0x8c8": "yy_gen_man",
+            "guide 0x8b8": "guide0",
+            "num 0x8e8": 1.0,
+            "role 0x8d8": "kRoleWaitForRescue"
+        }
+    },
+    "bundle_snatcher 0x1930": {
+        "0x1950": {
+            "classGroup 0x19b8": "yy_gen_all",
+            "role 0x19c8": "kRoleRoamSnatch",
+            "zone 0x19a8": "center_zone"
+        }
+    },
+    "bundle_stay_alone 0x750": {
+        "0x770": {
+            "classGroup 0x7f8": "yy_gen_man",
+            "guide 0x7e8": "guide0",
+            "num 0x818": 1.0,
+            "role 0x808": "kRoleStay"
+        }
+    },
+    "bundle_talk 0x8f0": {
+        "0x910": {
+            "classGroup 0x9b8": "yy_gen_man",
+            "guide 0x9a8": "guide0",
+            "label 0x998": "guide_sample",
+            "num 0x9d8": 3.0,
+            "role 0x9c8": "kRoleTalk"
+        }
+    },
+    "bundle_womem 0x9e0": {
+        "0xa00": {
+            "classGroup 0xaa8": "yy_gen_wom",
+            "label 0xa88": "women",
+            "num 0xac8": 3.0,
+            "role 0xab8": "kRoleRoam",
+            "zone 0xa98": "center_zone"
+        }
+    }
+}

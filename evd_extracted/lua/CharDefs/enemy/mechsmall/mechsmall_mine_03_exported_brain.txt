@@ -1,0 +1,530 @@
+{
+    "easy 0x1870": {
+        "brain 0x1940": {
+            "ai_type 0x19c8": "mechsmall",
+            "animjoint 0x19d8": "mechsmall",
+            "race 0x19e8": "machine",
+            "type 0x19b8": "EnemyBrain"
+        },
+        "enemy_action_common 0x2fd0": {
+            "find 0x3018": 40.0,
+            "lose 0x3028": 45.0
+        },
+        "enemy_actions 0x2500": {
+            "ash_explosion 0x2c30": {
+                "damage_type 0x2d48": "blow",
+                "explosion_radius 0x2d58": 7.0,
+                "explosion_time 0x2d68": 0.10000000149011612,
+                "force 0x2d38": 1.0,
+                "ignore_super_armor 0x2d78": "01000000",
+                "power 0x2d08": 250.0,
+                "rate_of_bg 0x2d28": 45.0,
+                "rate_of_power 0x2d18": 90.0
+            },
+            "ash_explosion_wind 0x2d80": {
+                "explosion_radius 0x2e18": 7.0,
+                "explosion_time 0x2e28": 0.10000000149011612,
+                "force 0x2e08": 1.0,
+                "rate_of_bg 0x2df8": 3.0
+            },
+            "ash_explosion_windfield 0x2e30": {
+                "explosion_radius 0x2ec8": 10.0,
+                "explosion_time 0x2ed8": 1.0,
+                "force 0x2eb8": 1.0,
+                "rate_of_bg 0x2ea8": 3.0
+            },
+            "backjump 0x2b20": {
+                "damage_cumulation 0x2c18": 1000.0,
+                "damage_type 0x2c08": "normal",
+                "force 0x2bf8": 1.0,
+                "ignore_super_armor 0x2c28": "01000000",
+                "power 0x2bc8": 120.0,
+                "rate_of_bg 0x2be8": 135.0,
+                "rate_of_power 0x2bd8": -1.0
+            },
+            "fall 0x2ee0": {
+                "damage_cumulation 0x2fc8": 0.0,
+                "damage_type 0x2fb8": "normal",
+                "force 0x2fa8": 1.0,
+                "power 0x2f78": 10.0,
+                "rate_of_bg 0x2f98": 150.0,
+                "rate_of_power 0x2f88": 10.0
+            },
+            "kick 0x2a30": {
+                "damage_cumulation 0x2b18": 1000.0,
+                "damage_type 0x2b08": "normal",
+                "force 0x2af8": 1.0,
+                "power 0x2ac8": 50.0,
+                "rate_of_bg 0x2ae8": 150.0,
+                "rate_of_power 0x2ad8": -1.0
+            },
+            "missile 0x2800": {
+                "damage_cumulation 0x2958": 1000.0,
+                "damage_type 0x2948": "blow",
+                "explosion_radius 0x2988": 2.0,
+                "explosion_time 0x2998": 0.20000000298023224,
+                "force 0x2938": 3.0,
+                "ignore_super_armor 0x29a8": "01000000",
+                "interval 0x2978": 6.0,
+                "power 0x2908": 100.0,
+                "range 0x2968": 30.0,
+                "rate_of_bg 0x2928": 125.0,
+                "rate_of_power 0x2918": 50.0
+            },
+            "missile_min 0x29b0": {
+                "ignore_super_armor 0x2a28": "01000000",
+                "range 0x2a18": 15.0,
+                "rate_of_bg 0x2a08": 3.0
+            },
+            "vulcan 0x2670": {
+                "damage_cumulation 0x27b8": 1000.0,
+                "damage_type 0x27a8": "blow",
+                "explosion_radius 0x27e8": 0.5,
+                "explosion_time 0x27f8": 0.10000000149011612,
+                "force 0x2798": 1.0,
+                "power 0x2768": 50.0,
+                "range 0x27c8": 8.0,
+                "rate_of_bg 0x2788": 100.0,
+                "rate_of_power 0x2778": 34.0,
+                "velocity 0x27d8": 25.0
+            }
+        },
+        "enemy_body 0x19f0": {
+            "battle_field_prio 0x1a68": 1.0,
+            "battle_field_range 0x1a58": 14.0,
+            "health 0x1a48": 40.0
+        },
+        "enemy_parts 0x1a70": {
+            "loc_mcsml01_engine 0x1d60": {
+                "angle 0x1e48": 270.0,
+                "body_damage 0x1e18": 40.0,
+                "core 0x1e38": "01000000",
+                "health 0x1e08": 500.0,
+                "homing_angle 0x1e58": 30.0,
+                "lockon 0x1e28": "01000000",
+                "offset_y 0x1e68": 0.699999988079071
+            },
+            "loc_mcsml01_fin11l 0x2200": {
+                "health 0x2238": 300.0
+            },
+            "loc_mcsml01_fin11r 0x2380": {
+                "health 0x23b8": 300.0
+            },
+            "loc_mcsml01_fin12l 0x2240": {
+                "health 0x2278": 300.0
+            },
+            "loc_mcsml01_fin12r 0x23c0": {
+                "health 0x23f8": 300.0
+            },
+            "loc_mcsml01_fin21l 0x2280": {
+                "health 0x22b8": 300.0
+            },
+            "loc_mcsml01_fin21r 0x2400": {
+                "health 0x2438": 300.0
+            },
+            "loc_mcsml01_fin22l 0x22c0": {
+                "health 0x22f8": 300.0
+            },
+            "loc_mcsml01_fin22r 0x2440": {
+                "health 0x2478": 300.0
+            },
+            "loc_mcsml01_fin31l 0x2300": {
+                "health 0x2338": 300.0
+            },
+            "loc_mcsml01_fin31r 0x2480": {
+                "health 0x24b8": 300.0
+            },
+            "loc_mcsml01_fin32l 0x2340": {
+                "health 0x2378": 300.0
+            },
+            "loc_mcsml01_fin32r 0x24c0": {
+                "health 0x24f8": 300.0
+            },
+            "loc_mcsml01_forearml 0x21c0": {
+                "health 0x21f8": 400.0
+            },
+            "loc_mcsml01_handl 0x1fe0": {
+                "angle 0x20b8": 360.0,
+                "body_damage 0x2088": 20.0,
+                "core 0x20a8": "01000000",
+                "health 0x2078": 750.0,
+                "homing_angle 0x20c8": 5.0,
+                "lockon 0x2098": "01000000"
+            },
+            "loc_mcsml01_handr 0x20d0": {
+                "angle 0x21a8": 360.0,
+                "body_damage 0x2178": 20.0,
+                "core 0x2198": "01000000",
+                "health 0x2168": 750.0,
+                "homing_angle 0x21b8": 5.0,
+                "lockon 0x2188": "01000000"
+            },
+            "loc_mcsml01_hatch 0x1e70": {
+                "angle 0x1f48": 240.0,
+                "body_damage 0x1f18": 40.0,
+                "core 0x1f38": "01000000",
+                "health 0x1f08": 1000.0,
+                "homing_angle 0x1f58": 45.0,
+                "lockon 0x1f28": "01000000"
+            },
+            "loc_mcsml01_uparm1l 0x1f60": {
+                "health 0x1f98": 750.0
+            },
+            "loc_mcsml01_uparm1r 0x1fa0": {
+                "health 0x1fd8": 750.0
+            }
+        }
+    },
+    "hard 0x3030": {
+        "brain 0x3100": {
+            "ai_type 0x3188": "mechsmall",
+            "animjoint 0x3198": "mechsmall",
+            "race 0x31a8": "machine",
+            "type 0x3178": "EnemyBrain"
+        },
+        "enemy_action_common 0x4790": {
+            "find 0x47d8": 40.0,
+            "lose 0x47e8": 45.0
+        },
+        "enemy_actions 0x3cc0": {
+            "ash_explosion 0x43f0": {
+                "damage_type 0x4508": "blow",
+                "explosion_radius 0x4518": 7.0,
+                "explosion_time 0x4528": 0.10000000149011612,
+                "force 0x44f8": 1.0,
+                "ignore_super_armor 0x4538": "01000000",
+                "power 0x44c8": 250.0,
+                "rate_of_bg 0x44e8": 45.0,
+                "rate_of_power 0x44d8": 90.0
+            },
+            "ash_explosion_wind 0x4540": {
+                "explosion_radius 0x45d8": 7.0,
+                "explosion_time 0x45e8": 0.10000000149011612,
+                "force 0x45c8": 1.0,
+                "rate_of_bg 0x45b8": 3.0
+            },
+            "ash_explosion_windfield 0x45f0": {
+                "explosion_radius 0x4688": 10.0,
+                "explosion_time 0x4698": 1.0,
+                "force 0x4678": 1.0,
+                "rate_of_bg 0x4668": 3.0
+            },
+            "backjump 0x42e0": {
+                "damage_cumulation 0x43d8": 1000.0,
+                "damage_type 0x43c8": "normal",
+                "force 0x43b8": 1.0,
+                "ignore_super_armor 0x43e8": "01000000",
+                "power 0x4388": 120.0,
+                "rate_of_bg 0x43a8": 135.0,
+                "rate_of_power 0x4398": -1.0
+            },
+            "fall 0x46a0": {
+                "damage_cumulation 0x4788": 0.0,
+                "damage_type 0x4778": "normal",
+                "force 0x4768": 1.0,
+                "power 0x4738": 10.0,
+                "rate_of_bg 0x4758": 150.0,
+                "rate_of_power 0x4748": 10.0
+            },
+            "kick 0x41f0": {
+                "damage_cumulation 0x42d8": 1000.0,
+                "damage_type 0x42c8": "normal",
+                "force 0x42b8": 1.0,
+                "power 0x4288": 50.0,
+                "rate_of_bg 0x42a8": 150.0,
+                "rate_of_power 0x4298": -1.0
+            },
+            "missile 0x3fc0": {
+                "damage_cumulation 0x4118": 1000.0,
+                "damage_type 0x4108": "blow",
+                "explosion_radius 0x4148": 2.0,
+                "explosion_time 0x4158": 0.20000000298023224,
+                "force 0x40f8": 3.0,
+                "ignore_super_armor 0x4168": "01000000",
+                "interval 0x4138": 6.0,
+                "power 0x40c8": 100.0,
+                "range 0x4128": 30.0,
+                "rate_of_bg 0x40e8": 125.0,
+                "rate_of_power 0x40d8": 50.0
+            },
+            "missile_min 0x4170": {
+                "ignore_super_armor 0x41e8": "01000000",
+                "range 0x41d8": 15.0,
+                "rate_of_bg 0x41c8": 3.0
+            },
+            "vulcan 0x3e30": {
+                "damage_cumulation 0x3f78": 1000.0,
+                "damage_type 0x3f68": "blow",
+                "explosion_radius 0x3fa8": 0.5,
+                "explosion_time 0x3fb8": 0.10000000149011612,
+                "force 0x3f58": 1.0,
+                "power 0x3f28": 50.0,
+                "range 0x3f88": 8.0,
+                "rate_of_bg 0x3f48": 100.0,
+                "rate_of_power 0x3f38": 34.0,
+                "velocity 0x3f98": 25.0
+            }
+        },
+        "enemy_body 0x31b0": {
+            "battle_field_prio 0x3228": 1.0,
+            "battle_field_range 0x3218": 14.0,
+            "health 0x3208": 40.0
+        },
+        "enemy_parts 0x3230": {
+            "loc_mcsml01_engine 0x3520": {
+                "angle 0x3608": 270.0,
+                "body_damage 0x35d8": 40.0,
+                "core 0x35f8": "01000000",
+                "health 0x35c8": 500.0,
+                "homing_angle 0x3618": 30.0,
+                "lockon 0x35e8": "01000000",
+                "offset_y 0x3628": 0.699999988079071
+            },
+            "loc_mcsml01_fin11l 0x39c0": {
+                "health 0x39f8": 300.0
+            },
+            "loc_mcsml01_fin11r 0x3b40": {
+                "health 0x3b78": 300.0
+            },
+            "loc_mcsml01_fin12l 0x3a00": {
+                "health 0x3a38": 300.0
+            },
+            "loc_mcsml01_fin12r 0x3b80": {
+                "health 0x3bb8": 300.0
+            },
+            "loc_mcsml01_fin21l 0x3a40": {
+                "health 0x3a78": 300.0
+            },
+            "loc_mcsml01_fin21r 0x3bc0": {
+                "health 0x3bf8": 300.0
+            },
+            "loc_mcsml01_fin22l 0x3a80": {
+                "health 0x3ab8": 300.0
+            },
+            "loc_mcsml01_fin22r 0x3c00": {
+                "health 0x3c38": 300.0
+            },
+            "loc_mcsml01_fin31l 0x3ac0": {
+                "health 0x3af8": 300.0
+            },
+            "loc_mcsml01_fin31r 0x3c40": {
+                "health 0x3c78": 300.0
+            },
+            "loc_mcsml01_fin32l 0x3b00": {
+                "health 0x3b38": 300.0
+            },
+            "loc_mcsml01_fin32r 0x3c80": {
+                "health 0x3cb8": 300.0
+            },
+            "loc_mcsml01_forearml 0x3980": {
+                "health 0x39b8": 400.0
+            },
+            "loc_mcsml01_handl 0x37a0": {
+                "angle 0x3878": 360.0,
+                "body_damage 0x3848": 20.0,
+                "core 0x3868": "01000000",
+                "health 0x3838": 750.0,
+                "homing_angle 0x3888": 5.0,
+                "lockon 0x3858": "01000000"
+            },
+            "loc_mcsml01_handr 0x3890": {
+                "angle 0x3968": 360.0,
+                "body_damage 0x3938": 20.0,
+                "core 0x3958": "01000000",
+                "health 0x3928": 750.0,
+                "homing_angle 0x3978": 5.0,
+                "lockon 0x3948": "01000000"
+            },
+            "loc_mcsml01_hatch 0x3630": {
+                "angle 0x3708": 240.0,
+                "body_damage 0x36d8": 40.0,
+                "core 0x36f8": "01000000",
+                "health 0x36c8": 1000.0,
+                "homing_angle 0x3718": 45.0,
+                "lockon 0x36e8": "01000000"
+            },
+            "loc_mcsml01_uparm1l 0x3720": {
+                "health 0x3758": 750.0
+            },
+            "loc_mcsml01_uparm1r 0x3760": {
+                "health 0x3798": 750.0
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_type 0x208": "mechsmall",
+            "animjoint 0x218": "mechsmall",
+            "race 0x228": "machine",
+            "type 0x1f8": "EnemyBrain"
+        },
+        "enemy_action_common 0x1810": {
+            "find 0x1858": 40.0,
+            "lose 0x1868": 45.0
+        },
+        "enemy_actions 0xd40": {
+            "ash_explosion 0x1470": {
+                "damage_type 0x1588": "blow",
+                "explosion_radius 0x1598": 7.0,
+                "explosion_time 0x15a8": 0.10000000149011612,
+                "force 0x1578": 1.0,
+                "ignore_super_armor 0x15b8": "01000000",
+                "power 0x1548": 250.0,
+                "rate_of_bg 0x1568": 45.0,
+                "rate_of_power 0x1558": 90.0
+            },
+            "ash_explosion_wind 0x15c0": {
+                "explosion_radius 0x1658": 7.0,
+                "explosion_time 0x1668": 0.10000000149011612,
+                "force 0x1648": 1.0,
+                "rate_of_bg 0x1638": 3.0
+            },
+            "ash_explosion_windfield 0x1670": {
+                "explosion_radius 0x1708": 10.0,
+                "explosion_time 0x1718": 1.0,
+                "force 0x16f8": 1.0,
+                "rate_of_bg 0x16e8": 3.0
+            },
+            "backjump 0x1360": {
+                "damage_cumulation 0x1458": 1000.0,
+                "damage_type 0x1448": "normal",
+                "force 0x1438": 1.0,
+                "ignore_super_armor 0x1468": "01000000",
+                "power 0x1408": 120.0,
+                "rate_of_bg 0x1428": 135.0,
+                "rate_of_power 0x1418": -1.0
+            },
+            "fall 0x1720": {
+                "damage_cumulation 0x1808": 0.0,
+                "damage_type 0x17f8": "normal",
+                "force 0x17e8": 1.0,
+                "power 0x17b8": 10.0,
+                "rate_of_bg 0x17d8": 150.0,
+                "rate_of_power 0x17c8": 10.0
+            },
+            "kick 0x1270": {
+                "damage_cumulation 0x1358": 1000.0,
+                "damage_type 0x1348": "normal",
+                "force 0x1338": 1.0,
+                "power 0x1308": 50.0,
+                "rate_of_bg 0x1328": 150.0,
+                "rate_of_power 0x1318": -1.0
+            },
+            "missile 0x1040": {
+                "damage_cumulation 0x1198": 1000.0,
+                "damage_type 0x1188": "blow",
+                "explosion_radius 0x11c8": 2.0,
+                "explosion_time 0x11d8": 0.20000000298023224,
+                "force 0x1178": 3.0,
+                "ignore_super_armor 0x11e8": "01000000",
+                "interval 0x11b8": 6.0,
+                "power 0x1148": 100.0,
+                "range 0x11a8": 30.0,
+                "rate_of_bg 0x1168": 125.0,
+                "rate_of_power 0x1158": 50.0
+            },
+            "missile_min 0x11f0": {
+                "ignore_super_armor 0x1268": "01000000",
+                "range 0x1258": 15.0,
+                "rate_of_bg 0x1248": 3.0
+            },
+            "vulcan 0xeb0": {
+                "damage_cumulation 0xff8": 1000.0,
+                "damage_type 0xfe8": "blow",
+                "explosion_radius 0x1028": 0.5,
+                "explosion_time 0x1038": 0.10000000149011612,
+                "force 0xfd8": 1.0,
+                "power 0xfa8": 50.0,
+                "range 0x1008": 8.0,
+                "rate_of_bg 0xfc8": 100.0,
+                "rate_of_power 0xfb8": 34.0,
+                "velocity 0x1018": 25.0
+            }
+        },
+        "enemy_body 0x230": {
+            "battle_field_prio 0x2a8": 1.0,
+            "battle_field_range 0x298": 14.0,
+            "health 0x288": 40.0
+        },
+        "enemy_parts 0x2b0": {
+            "loc_mcsml01_engine 0x5a0": {
+                "angle 0x688": 270.0,
+                "body_damage 0x658": 40.0,
+                "core 0x678": "01000000",
+                "health 0x648": 500.0,
+                "homing_angle 0x698": 30.0,
+                "lockon 0x668": "01000000",
+                "offset_y 0x6a8": 0.699999988079071
+            },
+            "loc_mcsml01_fin11l 0xa40": {
+                "health 0xa78": 300.0
+            },
+            "loc_mcsml01_fin11r 0xbc0": {
+                "health 0xbf8": 300.0
+            },
+            "loc_mcsml01_fin12l 0xa80": {
+                "health 0xab8": 300.0
+            },
+            "loc_mcsml01_fin12r 0xc00": {
+                "health 0xc38": 300.0
+            },
+            "loc_mcsml01_fin21l 0xac0": {
+                "health 0xaf8": 300.0
+            },
+            "loc_mcsml01_fin21r 0xc40": {
+                "health 0xc78": 300.0
+            },
+            "loc_mcsml01_fin22l 0xb00": {
+                "health 0xb38": 300.0
+            },
+            "loc_mcsml01_fin22r 0xc80": {
+                "health 0xcb8": 300.0
+            },
+            "loc_mcsml01_fin31l 0xb40": {
+                "health 0xb78": 300.0
+            },
+            "loc_mcsml01_fin31r 0xcc0": {
+                "health 0xcf8": 300.0
+            },
+            "loc_mcsml01_fin32l 0xb80": {
+                "health 0xbb8": 300.0
+            },
+            "loc_mcsml01_fin32r 0xd00": {
+                "health 0xd38": 300.0
+            },
+            "loc_mcsml01_forearml 0xa00": {
+                "health 0xa38": 400.0
+            },
+            "loc_mcsml01_handl 0x820": {
+                "angle 0x8f8": 360.0,
+                "body_damage 0x8c8": 20.0,
+                "core 0x8e8": "01000000",
+                "health 0x8b8": 750.0,
+                "homing_angle 0x908": 5.0,
+                "lockon 0x8d8": "01000000"
+            },
+            "loc_mcsml01_handr 0x910": {
+                "angle 0x9e8": 360.0,
+                "body_damage 0x9b8": 20.0,
+                "core 0x9d8": "01000000",
+                "health 0x9a8": 750.0,
+                "homing_angle 0x9f8": 5.0,
+                "lockon 0x9c8": "01000000"
+            },
+            "loc_mcsml01_hatch 0x6b0": {
+                "angle 0x788": 240.0,
+                "body_damage 0x758": 40.0,
+                "core 0x778": "01000000",
+                "health 0x748": 1000.0,
+                "homing_angle 0x798": 45.0,
+                "lockon 0x768": "01000000"
+            },
+            "loc_mcsml01_uparm1l 0x7a0": {
+                "health 0x7d8": 750.0
+            },
+            "loc_mcsml01_uparm1r 0x7e0": {
+                "health 0x818": 750.0
+            }
+        }
+    }
+}

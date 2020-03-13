@@ -1,0 +1,85 @@
+{
+    "name 0x108": "ep22_00213k",
+    "page1 0x180": {
+        "luchar 0x230": {
+            "id 0x268": "k_man67_tujyo"
+        },
+        "ruchar 0x270": {
+            "id 0x2a8": "k_kit04_tujyo"
+        },
+        "text 0x2b0": {
+            "JP 0x348": "アルハさま\n本日はエトの民に人気の\n書物をお持ち致しました",
+            "id 0x338": "ep22_00213k_010",
+            "target 0x368": "pos_lu",
+            "type 0x378": "normal",
+            "wnd 0x358": "pos_c"
+        },
+        "voice 0x380": {
+            "delay 0x3d8": 0.5,
+            "id 0x3c8": "m43_801a"
+        }
+    },
+    "page2 0x3e0": {
+        "ldchar 0x460": {
+            "id 0x498": "k_joso_book"
+        },
+        "se 0x500": {
+            "delay 0x558": 0.5,
+            "id 0x548": "newspaper_pick"
+        },
+        "text 0x4a0": {
+            "target 0x4f8": "pos_ld",
+            "wnd 0x4e8": "pos_c"
+        }
+    },
+    "page3 0x560": {
+        "text 0x5a0": {
+            "JP 0x638": "ご病気の静養で、\n退屈な日々を\nお過ごしのことでしょう",
+            "id 0x628": "ep22_00213k_020",
+            "target 0x658": "pos_lu",
+            "type 0x668": "normal",
+            "wnd 0x648": "pos_c"
+        }
+    },
+    "page4 0x670": {
+        "text 0x6b0": {
+            "JP 0x748": "この書物が\nアルハさまのお気に召すと\n良いのですが…",
+            "id 0x738": "ep22_00213k_030",
+            "target 0x768": "pos_lu",
+            "type 0x778": "normal",
+            "wnd 0x758": "pos_c"
+        }
+    },
+    "page5 0x780": {
+        "text 0x7e0": {
+            "JP 0x878": "本か…\nうん、読んでみる…",
+            "id 0x868": "ep22_00213k_040",
+            "target 0x898": "pos_ru",
+            "type 0x8a8": "normal",
+            "wnd 0x888": "pos_c"
+        },
+        "voice 0x8b0": {
+            "delay 0x908": 0.5,
+            "id 0x8f8": "ala_014b"
+        }
+    },
+    "page6 0x910": {
+        "ldchar 0xa40": {
+            "anim 0xa78": "frameout"
+        },
+        "luchar 0x9c0": {
+            "anim 0x9f8": "frameout"
+        },
+        "ruchar 0xa00": {
+            "id 0xa38": "k_kit04_konwaku"
+        },
+        "text 0xa80": {
+            "JP 0xb18": "部屋で本を読むより、\n外に出して欲しいな…\nそれってワガママかな…",
+            "id 0xb08": "ep22_00213k_050",
+            "target 0xb38": "pos_ru",
+            "type 0xb48": "think",
+            "wnd 0xb28": "pos_c"
+        }
+    },
+    "textset 0x118": "ep22"
+}

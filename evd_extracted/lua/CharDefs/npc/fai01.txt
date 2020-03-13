@@ -1,0 +1,45 @@
+{
+    "animset 0x120": {
+        "fly 0x180": {
+            "blendDuration 0x1d8": 0.10000000149011612,
+            "file 0x1e8": "fai01_fly_00",
+            "repeatCount 0x1f8": -1.0
+        },
+        "stay 0x200": {
+            "blendDuration 0x258": 0.10000000149011612,
+            "file 0x268": "fai01_fly_stay_00",
+            "repeatCount 0x278": -1.0
+        }
+    },
+    "brain 0x280": {
+        "ai_type 0x2c8": "npc",
+        "type 0x2d8": "EnemyBrain"
+    },
+    "enemy_action_common 0x2e0": {
+        "find 0x328": 40.0,
+        "lose 0x338": 45.0
+    },
+    "enemy_body 0x340": {
+        "health 0x388": 9999.0,
+        "hit 0x398": "01000000"
+    },
+    "npc_param 0x3a0": {
+        "param 0x400": {
+            "category 0x458": "fairy",
+            "damage_type 0x468": 0.0,
+            "grabbed_type 0x478": 0.0
+        },
+        "valid 0x3f8": "01000000"
+    },
+    "puppet 0x480": {
+        "animset 0x508": "npc/fai01",
+        "collision 0x550": {
+            "center_y 0x5a8": 0.4000000059604645,
+            "height 0x5b8": 0.009999999776482582,
+            "radius 0x5c8": 0.009999999776482582
+        },
+        "modelName 0x528": "fai01_base",
+        "scale 0x538": 3.0,
+        "type 0x548": "Puppet"
+    }
+}

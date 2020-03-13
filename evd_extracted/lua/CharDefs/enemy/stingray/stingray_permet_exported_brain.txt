@@ -1,0 +1,257 @@
+{
+    "easy 0xc10": {
+        "brain 0xce0": {
+            "ai_type 0xd68": "stingray",
+            "animjoint 0xd78": "stingray",
+            "race 0xd88": "machine",
+            "type 0xd58": "EnemyBrain"
+        },
+        "enemy_action_common 0x1710": {
+            "find 0x1758": 200.0,
+            "lose 0x1768": 210.0
+        },
+        "enemy_actions 0x11e0": {
+            "lasercannon 0x1560": {
+                "damage_cumulation 0x16c8": 0.0,
+                "damage_type 0x16b8": "normal",
+                "force 0x1698": 1.0,
+                "free 0x1708": 40.0,
+                "interval 0x16e8": 30.0,
+                "power 0x1668": 20.0,
+                "range 0x16d8": 35.0,
+                "rate_of_bg 0x1688": 40.0,
+                "rate_of_power 0x1678": 2.0,
+                "upper_force 0x16a8": 0.0,
+                "velocity 0x16f8": 200.0
+            },
+            "micromissile 0x13d0": {
+                "damage_cumulation 0x1528": 0.0,
+                "damage_type 0x1518": "normal",
+                "force 0x14f8": 1.0,
+                "interval 0x1548": 10.0,
+                "power 0x14c8": 8.0,
+                "range 0x1538": 45.0,
+                "rate_of_bg 0x14e8": 16.0,
+                "rate_of_power 0x14d8": 24.0,
+                "upper_force 0x1508": 0.0,
+                "velocity 0x1558": 20.0
+            },
+            "shoot 0x1260": {
+                "damage_cumulation 0x1398": 100.0,
+                "damage_type 0x1388": "normal",
+                "force 0x1378": 1.0,
+                "interval 0x13b8": 5.0,
+                "power 0x1348": 20.0,
+                "range 0x13a8": 20.0,
+                "rate_of_bg 0x1368": 40.0,
+                "rate_of_power 0x1358": 12.0,
+                "velocity 0x13c8": 25.0
+            }
+        },
+        "enemy_body 0xd90": {
+            "ash_vanish_time 0xe08": 0.0,
+            "battle_field_prio 0xe38": 1.0,
+            "battle_field_range 0xe28": 20.0,
+            "health 0xe18": 40.0
+        },
+        "enemy_parts 0xe40": {
+            "bn_cover_up_l 0x11a0": {
+                "health 0x11d8": 1000000.0
+            },
+            "bn_root 0xf30": {
+                "angle 0x1008": 360.0,
+                "body_damage 0xfd8": 40.0,
+                "core 0xff8": "01000000",
+                "health 0xfc8": 250.0,
+                "homing_angle 0x1018": 360.0,
+                "lockon 0xfe8": "01000000"
+            },
+            "loc_mcstg02_col1 0x1020": {
+                "body_damage 0x1078": 40.0,
+                "health 0x1068": 250.0
+            },
+            "loc_mcstg02_col2 0x1080": {
+                "body_damage 0x10d8": 40.0,
+                "health 0x10c8": 250.0
+            },
+            "loc_mcstg02_col3 0x10e0": {
+                "body_damage 0x1138": 40.0,
+                "health 0x1128": 250.0
+            },
+            "loc_mcstg02_col4 0x1140": {
+                "body_damage 0x1198": 40.0,
+                "health 0x1188": 250.0
+            }
+        }
+    },
+    "hard 0x1770": {
+        "brain 0x1840": {
+            "ai_type 0x18c8": "stingray",
+            "animjoint 0x18d8": "stingray",
+            "race 0x18e8": "machine",
+            "type 0x18b8": "EnemyBrain"
+        },
+        "enemy_action_common 0x2270": {
+            "find 0x22b8": 200.0,
+            "lose 0x22c8": 210.0
+        },
+        "enemy_actions 0x1d40": {
+            "lasercannon 0x20c0": {
+                "damage_cumulation 0x2228": 0.0,
+                "damage_type 0x2218": "normal",
+                "force 0x21f8": 1.0,
+                "free 0x2268": 40.0,
+                "interval 0x2248": 30.0,
+                "power 0x21c8": 20.0,
+                "range 0x2238": 35.0,
+                "rate_of_bg 0x21e8": 40.0,
+                "rate_of_power 0x21d8": 2.0,
+                "upper_force 0x2208": 0.0,
+                "velocity 0x2258": 200.0
+            },
+            "micromissile 0x1f30": {
+                "damage_cumulation 0x2088": 0.0,
+                "damage_type 0x2078": "normal",
+                "force 0x2058": 1.0,
+                "interval 0x20a8": 10.0,
+                "power 0x2028": 8.0,
+                "range 0x2098": 45.0,
+                "rate_of_bg 0x2048": 16.0,
+                "rate_of_power 0x2038": 24.0,
+                "upper_force 0x2068": 0.0,
+                "velocity 0x20b8": 20.0
+            },
+            "shoot 0x1dc0": {
+                "damage_cumulation 0x1ef8": 100.0,
+                "damage_type 0x1ee8": "normal",
+                "force 0x1ed8": 1.0,
+                "interval 0x1f18": 5.0,
+                "power 0x1ea8": 20.0,
+                "range 0x1f08": 20.0,
+                "rate_of_bg 0x1ec8": 40.0,
+                "rate_of_power 0x1eb8": 12.0,
+                "velocity 0x1f28": 25.0
+            }
+        },
+        "enemy_body 0x18f0": {
+            "ash_vanish_time 0x1968": 0.0,
+            "battle_field_prio 0x1998": 1.0,
+            "battle_field_range 0x1988": 20.0,
+            "health 0x1978": 40.0
+        },
+        "enemy_parts 0x19a0": {
+            "bn_cover_up_l 0x1d00": {
+                "health 0x1d38": 1000000.0
+            },
+            "bn_root 0x1a90": {
+                "angle 0x1b68": 360.0,
+                "body_damage 0x1b38": 40.0,
+                "core 0x1b58": "01000000",
+                "health 0x1b28": 250.0,
+                "homing_angle 0x1b78": 360.0,
+                "lockon 0x1b48": "01000000"
+            },
+            "loc_mcstg02_col1 0x1b80": {
+                "body_damage 0x1bd8": 40.0,
+                "health 0x1bc8": 250.0
+            },
+            "loc_mcstg02_col2 0x1be0": {
+                "body_damage 0x1c38": 40.0,
+                "health 0x1c28": 250.0
+            },
+            "loc_mcstg02_col3 0x1c40": {
+                "body_damage 0x1c98": 40.0,
+                "health 0x1c88": 250.0
+            },
+            "loc_mcstg02_col4 0x1ca0": {
+                "body_damage 0x1cf8": 40.0,
+                "health 0x1ce8": 250.0
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_type 0x208": "stingray",
+            "animjoint 0x218": "stingray",
+            "race 0x228": "machine",
+            "type 0x1f8": "EnemyBrain"
+        },
+        "enemy_action_common 0xbb0": {
+            "find 0xbf8": 200.0,
+            "lose 0xc08": 210.0
+        },
+        "enemy_actions 0x680": {
+            "lasercannon 0xa00": {
+                "damage_cumulation 0xb68": 0.0,
+                "damage_type 0xb58": "normal",
+                "force 0xb38": 1.0,
+                "free 0xba8": 40.0,
+                "interval 0xb88": 30.0,
+                "power 0xb08": 20.0,
+                "range 0xb78": 35.0,
+                "rate_of_bg 0xb28": 40.0,
+                "rate_of_power 0xb18": 2.0,
+                "upper_force 0xb48": 0.0,
+                "velocity 0xb98": 200.0
+            },
+            "micromissile 0x870": {
+                "damage_cumulation 0x9c8": 0.0,
+                "damage_type 0x9b8": "normal",
+                "force 0x998": 1.0,
+                "interval 0x9e8": 10.0,
+                "power 0x968": 8.0,
+                "range 0x9d8": 45.0,
+                "rate_of_bg 0x988": 16.0,
+                "rate_of_power 0x978": 24.0,
+                "upper_force 0x9a8": 0.0,
+                "velocity 0x9f8": 20.0
+            },
+            "shoot 0x700": {
+                "damage_cumulation 0x838": 100.0,
+                "damage_type 0x828": "normal",
+                "force 0x818": 1.0,
+                "interval 0x858": 5.0,
+                "power 0x7e8": 20.0,
+                "range 0x848": 20.0,
+                "rate_of_bg 0x808": 40.0,
+                "rate_of_power 0x7f8": 12.0,
+                "velocity 0x868": 25.0
+            }
+        },
+        "enemy_body 0x230": {
+            "ash_vanish_time 0x2a8": 0.0,
+            "battle_field_prio 0x2d8": 1.0,
+            "battle_field_range 0x2c8": 20.0,
+            "health 0x2b8": 40.0
+        },
+        "enemy_parts 0x2e0": {
+            "bn_cover_up_l 0x640": {
+                "health 0x678": 1000000.0
+            },
+            "bn_root 0x3d0": {
+                "angle 0x4a8": 360.0,
+                "body_damage 0x478": 40.0,
+                "core 0x498": "01000000",
+                "health 0x468": 250.0,
+                "homing_angle 0x4b8": 360.0,
+                "lockon 0x488": "01000000"
+            },
+            "loc_mcstg02_col1 0x4c0": {
+                "body_damage 0x518": 40.0,
+                "health 0x508": 250.0
+            },
+            "loc_mcstg02_col2 0x520": {
+                "body_damage 0x578": 40.0,
+                "health 0x568": 250.0
+            },
+            "loc_mcstg02_col3 0x580": {
+                "body_damage 0x5d8": 40.0,
+                "health 0x5c8": 250.0
+            },
+            "loc_mcstg02_col4 0x5e0": {
+                "body_damage 0x638": 40.0,
+                "health 0x628": 250.0
+            }
+        }
+    }
+}

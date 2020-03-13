@@ -1,0 +1,875 @@
+{
+    "entities 0x70": {
+        "0x1350": {
+            "clips 0x14a0": {
+                "0x14c0": {
+                    "endFrame 0x1508": 344.0,
+                    "startFrame 0x1518": 318.0
+                }
+            },
+            "effect 0x1520": {
+                "modelName 0x1558": "ef_dm_ep12_00200m_muz_01"
+            },
+            "name 0x1448": "c03_ar_muz",
+            "parentJointName 0x1458": "metal_small",
+            "parentNodeName 0x1468": "bg_ar_demo_base",
+            "transform 0x1560": {
+                "translation 0x15a0": {
+                    "0x15b8": -14.899999618530273,
+                    "0x15c8": -27.020000457763672,
+                    "0x15d8": 101.45999908447266
+                }
+            },
+            "type 0x1488": "effect",
+            "uuid 0x1498": "{0b9fb2db-c7b7-4f37-b3d6-c078e90b546e}"
+        },
+        "0x15e0": {
+            "animations 0x1770": {
+                "pointlight 0x17b0": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x17f0": {
+                        "lightIntensity 0x1830": {
+                            "keyframes 0x1870": {
+                                "0x18b0": {
+                                    "key 0x18f8": 10.0,
+                                    "time 0x1908": 318.0
+                                },
+                                "0x1910": {
+                                    "key 0x1958": 10.0,
+                                    "time 0x1968": 320.0
+                                },
+                                "0x1970": {
+                                    "key 0x19b8": 0.0,
+                                    "time 0x19c8": 330.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x19d0": {
+                "0x19f0": {
+                    "endFrame 0x1a38": 344.0,
+                    "startFrame 0x1a48": 318.0
+                }
+            },
+            "effect 0x1a50": {
+                "modelName 0x1a88": "ef_dm_ep12_00200m_muz_01"
+            },
+            "name 0x1708": "c03_ar_muz_point_light",
+            "parentJointName 0x1718": "metal_small",
+            "parentNodeName 0x1728": "bg_ar_demo_base",
+            "pointlight 0x1a90": {
+                "/root/G2PointLight1/G2PointLightShape1 0x1ad0": {
+                    "innerRadius 0x1b68": 1.0,
+                    "lightColorB 0x1b78": 0.0,
+                    "lightColorG 0x1b88": 0.45098039507865906,
+                    "lightColorR 0x1b98": 1.0,
+                    "lightIntensity 0x1ba8": 10.0,
+                    "outerRadius 0x1bb8": 200.0
+                }
+            },
+            "transform 0x1bc0": {
+                "translation 0x1c00": {
+                    "0x1c18": -34.900001525878906,
+                    "0x1c28": -27.020000457763672,
+                    "0x1c38": 111.45999908447266
+                }
+            },
+            "type 0x1758": "pointlight",
+            "uuid 0x1768": "{4e218c45-e6f8-4fad-a0bf-0bdcb8af926f}"
+        },
+        "0x1c40": {
+            "clips 0x1d50": {
+                "0x1d70": {
+                    "endFrame 0x1dc8": 344.0,
+                    "startFrame 0x1dd8": 140.0,
+                    "visibilityOffset 0x1de8": 100.0
+                }
+            },
+            "effect 0x1df0": {
+                "modelName 0x1e28": "ef_dm_ep12_00200m_light_shot_02"
+            },
+            "name 0x1d08": "c03_light_shot",
+            "parentJointName 0x1d18": "cut03_shot",
+            "parentNodeName 0x1d28": "locater",
+            "type 0x1d38": "effect",
+            "uuid 0x1d48": "{6413db62-4e9f-424f-a6b3-ae1bf944d750}"
+        },
+        "0x1e30": {
+            "animations 0x1fa0": {
+                "pointlight 0x1fe0": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x2020": {
+                        "lightIntensity 0x2060": {
+                            "keyframes 0x20e0": {
+                                "0x2120": {
+                                    "key 0x2168": 10.0,
+                                    "time 0x2178": 0.0
+                                },
+                                "0x2180": {
+                                    "key 0x21c8": 8.0,
+                                    "time 0x21d8": 6.0
+                                },
+                                "0x21e0": {
+                                    "key 0x2228": 10.0,
+                                    "time 0x2238": 12.0
+                                }
+                            },
+                            "post_inf 0x20c8": "loop",
+                            "pre_inf 0x20d8": "loop"
+                        }
+                    }
+                }
+            },
+            "clips 0x2240": {
+                "0x2260": {
+                    "endFrame 0x22a8": 344.0,
+                    "startFrame 0x22b8": 240.0
+                }
+            },
+            "effect 0x22c0": {
+                "modelName 0x22f8": "ef_dm_ep12_00200m_light_shot_01"
+            },
+            "name 0x1f48": "c03_light_shot_point_Light",
+            "parentJointName 0x1f58": "cut03_shot",
+            "parentNodeName 0x1f68": "locater",
+            "pointlight 0x2300": {
+                "/root/G2PointLight1/G2PointLightShape1 0x2340": {
+                    "innerRadius 0x23d8": 0.5,
+                    "lightColorB 0x23e8": 0.20000000298023224,
+                    "lightColorG 0x23f8": 0.20000000298023224,
+                    "lightColorR 0x2408": 1.0,
+                    "lightIntensity 0x2418": 10.0,
+                    "outerRadius 0x2428": 30.0
+                }
+            },
+            "type 0x1f88": "pointlight",
+            "uuid 0x1f98": "{e831cb2e-a5f4-4a81-816e-78c754a5ba29}"
+        },
+        "0x2430": {
+            "clips 0x2540": {
+                "0x2560": {
+                    "endFrame 0x25a8": 344.0,
+                    "startFrame 0x25b8": 318.0
+                }
+            },
+            "effect 0x25c0": {
+                "modelName 0x25f8": "ef_dm_ep12_00200m_ar_bullet_ar_01"
+            },
+            "name 0x24f8": "c03_warhead",
+            "parentJointName 0x2508": "ar_warhead_md_01_root",
+            "parentNodeName 0x2518": "bg_ar_warhead",
+            "type 0x2528": "effect",
+            "uuid 0x2538": "{9e79bc6e-e657-4bf4-a9d1-4399a2338ca9}"
+        },
+        "0x2600": {
+            "animations 0x2750": {
+                "pointlight 0x2790": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x27d0": {
+                        "lightIntensity 0x2810": {
+                            "keyframes 0x2850": {
+                                "0x2890": {
+                                    "key 0x28d8": 10.0,
+                                    "time 0x28e8": 359.0
+                                },
+                                "0x28f0": {
+                                    "key 0x2938": 10.0,
+                                    "time 0x2948": 377.0
+                                },
+                                "0x2950": {
+                                    "key 0x2998": 0.0,
+                                    "time 0x29a8": 388.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x29b0": {
+                "0x29d0": {
+                    "endFrame 0x2a18": 554.0,
+                    "startFrame 0x2a28": 359.0
+                }
+            },
+            "effect 0x2a30": {
+                "modelName 0x2a68": "ef_dm_ep12_00200m_exp_01"
+            },
+            "name 0x2708": "c04_Point_Light",
+            "pointlight 0x2a70": {
+                "/root/G2PointLight1/G2PointLightShape1 0x2ab0": {
+                    "innerRadius 0x2b48": 0.5,
+                    "lightColorB 0x2b58": 0.0,
+                    "lightColorG 0x2b68": 0.501960813999176,
+                    "lightColorR 0x2b78": 1.0,
+                    "lightIntensity 0x2b88": 10.0,
+                    "outerRadius 0x2b98": 7.099999904632568
+                }
+            },
+            "transform 0x2ba0": {
+                "translation 0x2be0": {
+                    "0x2bf8": -43.59000015258789,
+                    "0x2c08": -10.649999618530273,
+                    "0x2c18": -25.15999984741211
+                }
+            },
+            "type 0x2738": "pointlight",
+            "uuid 0x2748": "{67b1517f-9205-4bfd-9868-5b8a037f1f33}"
+        },
+        "0x290": {
+            "clips 0x3e0": {
+                "0x400": {
+                    "endFrame 0x448": 149.0,
+                    "startFrame 0x458": 55.0
+                }
+            },
+            "effect 0x460": {
+                "modelName 0x498": "ef_dm_ep12_00200m_gun_muz_01"
+            },
+            "name 0x388": "c01_gun_muz",
+            "parentJointName 0x398": "bg_cigun05_root",
+            "parentNodeName 0x3a8": "bg_cigun05",
+            "transform 0x4a0": {
+                "translation 0x4e0": {
+                    "0x4f8": 0.0,
+                    "0x508": 0.07829999923706055,
+                    "0x518": 0.3190000057220459
+                }
+            },
+            "type 0x3c8": "effect",
+            "uuid 0x3d8": "{65184d16-bdbe-4d16-b28a-1f0072a48ded}"
+        },
+        "0x2c20": {
+            "clips 0x2d10": {
+                "0x2d30": {
+                    "endFrame 0x2d78": 554.0,
+                    "startFrame 0x2d88": 358.0
+                }
+            },
+            "effect 0x2d90": {
+                "modelName 0x2dc8": "ef_dm_ep12_00200m_exp_01"
+            },
+            "name 0x2cd8": "c04_exp",
+            "transform 0x2dd0": {
+                "translation 0x2e10": {
+                    "0x2e28": -43.38999938964844,
+                    "0x2e38": -13.649999618530273,
+                    "0x2e48": -27.459999084472656
+                }
+            },
+            "type 0x2cf8": "effect",
+            "uuid 0x2d08": "{441587a2-1962-4618-8f10-08814fb10621}"
+        },
+        "0x2e50": {
+            "clips 0x2f40": {
+                "0x2f60": {
+                    "endFrame 0x2fb8": 554.0,
+                    "startFrame 0x2fc8": 304.0,
+                    "visibilityOffset 0x2fd8": 55.0
+                }
+            },
+            "effect 0x2fe0": {
+                "modelName 0x3028": "ef_dm_ep12_00200m_stone_fall_01",
+                "scale 0x3040": {
+                    "0x3058": 0.8500000238418579,
+                    "0x3068": 0.8500000238418579,
+                    "0x3078": 0.8500000238418579
+                }
+            },
+            "name 0x2f08": "c04_hole_fall_stone_a",
+            "transform 0x3080": {
+                "rotation 0x30e0": {
+                    "0x30f8": 0.0,
+                    "0x3108": 24.0,
+                    "0x3118": 0.0
+                },
+                "translation 0x3120": {
+                    "0x3138": -43.09000015258789,
+                    "0x3148": -13.149999618530273,
+                    "0x3158": -21.059999465942383
+                }
+            },
+            "type 0x2f28": "effect",
+            "uuid 0x2f38": "{277bff53-1d10-4fc3-930f-162bbfe5195d}"
+        },
+        "0x3160": {
+            "clips 0x3250": {
+                "0x3270": {
+                    "endFrame 0x32c8": 554.0,
+                    "startFrame 0x32d8": 304.0,
+                    "visibilityOffset 0x32e8": 55.0
+                }
+            },
+            "effect 0x32f0": {
+                "modelName 0x3328": "ef_dm_ep12_00200m_stone_fall_01"
+            },
+            "name 0x3218": "c04_hole_fall_stone_b",
+            "transform 0x3330": {
+                "rotation 0x3390": {
+                    "0x33a8": 0.0,
+                    "0x33b8": 36.0,
+                    "0x33c8": 0.0
+                },
+                "translation 0x33d0": {
+                    "0x33e8": -40.290000915527344,
+                    "0x33f8": -13.149999618530273,
+                    "0x3408": -22.459999084472656
+                }
+            },
+            "type 0x3238": "effect",
+            "uuid 0x3248": "{a04b4632-2521-49b9-ae41-06bd04bddede}"
+        },
+        "0x3410": {
+            "clips 0x3500": {
+                "0x3520": {
+                    "endFrame 0x3578": 554.0,
+                    "startFrame 0x3588": 307.0,
+                    "visibilityOffset 0x3598": 52.0
+                }
+            },
+            "effect 0x35a0": {
+                "modelName 0x35d8": "ef_dm_ep12_00200m_stone_fall_01"
+            },
+            "name 0x34c8": "c04_hole_fall_stone_c",
+            "transform 0x35e0": {
+                "rotation 0x3640": {
+                    "0x3658": 0.0,
+                    "0x3668": -45.0,
+                    "0x3678": 0.0
+                },
+                "translation 0x3680": {
+                    "0x3698": -46.4900016784668,
+                    "0x36a8": -13.149999618530273,
+                    "0x36b8": -22.459999084472656
+                }
+            },
+            "type 0x34e8": "effect",
+            "uuid 0x34f8": "{15cc9dc1-c1c3-4b66-9148-11c0eef3dc2f}"
+        },
+        "0x36c0": {
+            "clips 0x37b0": {
+                "0x37d0": {
+                    "endFrame 0x3828": 554.0,
+                    "startFrame 0x3838": 308.0,
+                    "visibilityOffset 0x3848": 51.0
+                }
+            },
+            "effect 0x3850": {
+                "modelName 0x3898": "ef_dm_ep12_00200m_stone_fall_01",
+                "scale 0x38b0": {
+                    "0x38c8": 0.8999999761581421,
+                    "0x38d8": 0.8999999761581421,
+                    "0x38e8": 0.8999999761581421
+                }
+            },
+            "name 0x3778": "c04_hole_fall_stone_d",
+            "transform 0x38f0": {
+                "rotation 0x3950": {
+                    "0x3968": 0.0,
+                    "0x3978": -15.0,
+                    "0x3988": 0.0
+                },
+                "translation 0x3990": {
+                    "0x39a8": -45.0,
+                    "0x39b8": -13.149999618530273,
+                    "0x39c8": -21.15999984741211
+                }
+            },
+            "type 0x3798": "effect",
+            "uuid 0x37a8": "{5eb4f689-4eba-4b07-b91d-f4112df61e75}"
+        },
+        "0x39d0": {
+            "clips 0x3ac0": {
+                "0x3ae0": {
+                    "endFrame 0x3b38": 554.0,
+                    "startFrame 0x3b48": 304.0,
+                    "visibilityOffset 0x3b58": 55.0
+                }
+            },
+            "effect 0x3b60": {
+                "modelName 0x3b98": "ef_dm_ep12_00200m_stone_fall_01"
+            },
+            "name 0x3a88": "c04_hole_fall_stone_e",
+            "transform 0x3ba0": {
+                "rotation 0x3c00": {
+                    "0x3c18": 0.0,
+                    "0x3c28": 65.0,
+                    "0x3c38": 0.0
+                },
+                "translation 0x3c40": {
+                    "0x3c58": -39.45000076293945,
+                    "0x3c68": -13.149999618530273,
+                    "0x3c78": -23.059999465942383
+                }
+            },
+            "type 0x3aa8": "effect",
+            "uuid 0x3ab8": "{fc9ac48b-83c9-41b1-af86-8913f62685ed}"
+        },
+        "0x3c80": {
+            "clips 0x3d70": {
+                "0x3d90": {
+                    "endFrame 0x3de8": 554.0,
+                    "startFrame 0x3df8": 307.0,
+                    "visibilityOffset 0x3e08": 52.0
+                }
+            },
+            "effect 0x3e10": {
+                "modelName 0x3e48": "ef_dm_ep12_00200m_stone_fall_01"
+            },
+            "name 0x3d38": "c04_hole_fall_stone_f",
+            "transform 0x3e50": {
+                "rotation 0x3eb0": {
+                    "0x3ec8": 0.0,
+                    "0x3ed8": -75.0,
+                    "0x3ee8": 0.0
+                },
+                "translation 0x3ef0": {
+                    "0x3f08": -47.290000915527344,
+                    "0x3f18": -13.300000190734863,
+                    "0x3f28": -23.959999084472656
+                }
+            },
+            "type 0x3d58": "effect",
+            "uuid 0x3d68": "{05c084c5-b71a-44a9-9866-b84ecd6d03a2}"
+        },
+        "0x3f30": {
+            "clips 0x4020": {
+                "0x4040": {
+                    "endFrame 0x4098": 554.0,
+                    "startFrame 0x40a8": 304.0,
+                    "visibilityOffset 0x40b8": 55.0
+                }
+            },
+            "effect 0x40c0": {
+                "modelName 0x4108": "ef_dm_ep12_00200m_stone_fall_01",
+                "scale 0x4120": {
+                    "0x4138": 0.8500000238418579,
+                    "0x4148": 0.8500000238418579,
+                    "0x4158": 0.8500000238418579
+                }
+            },
+            "name 0x3fe8": "c04_hole_fall_stone_g",
+            "transform 0x4160": {
+                "rotation 0x41c0": {
+                    "0x41d8": 0.0,
+                    "0x41e8": 24.0,
+                    "0x41f8": 0.0
+                },
+                "translation 0x4200": {
+                    "0x4218": -41.59000015258789,
+                    "0x4228": -13.149999618530273,
+                    "0x4238": -21.360000610351562
+                }
+            },
+            "type 0x4008": "effect",
+            "uuid 0x4018": "{a6d5248f-39db-432b-8402-a0363b94ac89}"
+        },
+        "0x4240": {
+            "clips 0x4330": {
+                "0x4350": {
+                    "endFrame 0x43a8": 554.0,
+                    "startFrame 0x43b8": 304.0,
+                    "visibilityOffset 0x43c8": 55.0
+                }
+            },
+            "effect 0x43d0": {
+                "modelName 0x4408": "ef_dm_ep12_00200m_stone_fall_01"
+            },
+            "name 0x42f8": "c04_hole_fall_stone_h",
+            "transform 0x4410": {
+                "rotation 0x4470": {
+                    "0x4488": 0.0,
+                    "0x4498": 82.0,
+                    "0x44a8": 0.0
+                },
+                "translation 0x44b0": {
+                    "0x44c8": -39.04999923706055,
+                    "0x44d8": -13.380000114440918,
+                    "0x44e8": -25.059999465942383
+                }
+            },
+            "type 0x4318": "effect",
+            "uuid 0x4328": "{abd47b03-3ec3-483c-aa8f-42b74fcda36a}"
+        },
+        "0x44f0": {
+            "clips 0x45e0": {
+                "0x4600": {
+                    "endFrame 0x4658": 554.0,
+                    "startFrame 0x4668": 304.0,
+                    "visibilityOffset 0x4678": 55.0
+                }
+            },
+            "effect 0x4680": {
+                "modelName 0x46b8": "ef_dm_ep12_00200m_smk_01"
+            },
+            "name 0x45a8": "c04_hole_smoke",
+            "transform 0x46c0": {
+                "translation 0x4700": {
+                    "0x4718": -43.09000015258789,
+                    "0x4728": -10.050000190734863,
+                    "0x4738": -25.860000610351562
+                }
+            },
+            "type 0x45c8": "effect",
+            "uuid 0x45d8": "{d3684f9e-2077-44c9-9bf5-e368a1f72659}"
+        },
+        "0x4740": {
+            "clips 0x4830": {
+                "0x4850": {
+                    "endFrame 0x48a8": 709.0,
+                    "startFrame 0x48b8": 585.0,
+                    "visibilityOffset 0x48c8": 60.0
+                }
+            },
+            "effect 0x48d0": {
+                "modelName 0x4908": "ef_dm_ep12_00200m_deb_01"
+            },
+            "name 0x47f8": "c06_hole_deb",
+            "transform 0x4910": {
+                "translation 0x4950": {
+                    "0x4968": -43.59000015258789,
+                    "0x4978": -13.350000381469727,
+                    "0x4988": -25.6200008392334
+                }
+            },
+            "type 0x4818": "effect",
+            "uuid 0x4828": "{8ead9882-c9f1-4d4d-9414-f8146252f35a}"
+        },
+        "0x4990": {
+            "clips 0x4a80": {
+                "0x4aa0": {
+                    "endFrame 0x4af8": 709.0,
+                    "startFrame 0x4b08": 585.0,
+                    "visibilityOffset 0x4b18": 60.0
+                }
+            },
+            "effect 0x4b20": {
+                "modelName 0x4b58": "ef_dm_ep12_00200m_smk_02"
+            },
+            "name 0x4a48": "c06_hole_smoke",
+            "transform 0x4b60": {
+                "translation 0x4ba0": {
+                    "0x4bb8": -43.59000015258789,
+                    "0x4bc8": -14.350000381469727,
+                    "0x4bd8": -25.6200008392334
+                }
+            },
+            "type 0x4a68": "effect",
+            "uuid 0x4a78": "{43bf558a-fec7-4d54-b633-e80a9d4d0e74}"
+        },
+        "0x4be0": {
+            "bg 0x4cb0": {
+                "modelName 0x4ce8": "gm_bodyarea_b"
+            },
+            "clips 0x4cf0": {
+                "0x4d10": {
+                    "endFrame 0x4d58": 359.0,
+                    "startFrame 0x4d68": 0.0
+                }
+            },
+            "name 0x4c88": "gm_bodyarea_b",
+            "type 0x4c98": "bg",
+            "uuid 0x4ca8": "{8af9b4a1-b8d3-43be-a321-deeff8103d99}"
+        },
+        "0x4d70": {
+            "bg 0x4e40": {
+                "modelName 0x4e78": "gm_bodyarea_b"
+            },
+            "clips 0x4e80": {
+                "0x4ea0": {
+                    "endFrame 0x4ee8": 644.0,
+                    "startFrame 0x4ef8": 555.0
+                }
+            },
+            "name 0x4e18": "gm_bodyarea_b01",
+            "type 0x4e28": "bg",
+            "uuid 0x4e38": "{4df71d53-52b4-435f-b799-50df06f2b9fa}"
+        },
+        "0x4f00": {
+            "bg 0x4fd0": {
+                "modelName 0x5008": "gm_bodyarea_b_demo_brk"
+            },
+            "clips 0x5010": {
+                "0x5030": {
+                    "endFrame 0x5078": 555.0,
+                    "startFrame 0x5088": 360.0
+                }
+            },
+            "name 0x4fa8": "gm_bodyarea_b_demo_brk",
+            "type 0x4fb8": "bg",
+            "uuid 0x4fc8": "{8dcb2132-4d82-44d0-9941-ae59aec4bee0}"
+        },
+        "0x5090": {
+            "bg 0x5160": {
+                "modelName 0x5198": "gm_bodyarea_b_demo_brk"
+            },
+            "clips 0x51a0": {
+                "0x51c0": {
+                    "endFrame 0x5208": 710.0,
+                    "startFrame 0x5218": 645.0
+                }
+            },
+            "name 0x5138": "gm_bodyarea_b_demo_brk01",
+            "type 0x5148": "bg",
+            "uuid 0x5158": "{c86bedde-b40a-4298-842d-112e4a69f803}"
+        },
+        "0x520": {
+            "animations 0x6b0": {
+                "pointlight 0x6f0": {
+                    "/root/G2PointLight1/G2PointLightShape1 0x730": {
+                        "lightIntensity 0x770": {
+                            "keyframes 0x7b0": {
+                                "0x7f0": {
+                                    "key 0x838": 10.0,
+                                    "time 0x848": 55.0
+                                },
+                                "0x850": {
+                                    "key 0x898": 10.0,
+                                    "time 0x8a8": 56.0
+                                },
+                                "0x8b0": {
+                                    "key 0x8f8": 0.0,
+                                    "time 0x908": 59.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x910": {
+                "0x930": {
+                    "endFrame 0x978": 149.0,
+                    "startFrame 0x988": 55.0
+                }
+            },
+            "effect 0x990": {
+                "modelName 0x9c8": "ef_dm_ep12_00200m_gun_muz_01"
+            },
+            "name 0x648": "c01_gun_muz_point_light",
+            "parentJointName 0x658": "bg_cigun05_root",
+            "parentNodeName 0x668": "bg_cigun05",
+            "pointlight 0x9d0": {
+                "/root/G2PointLight1/G2PointLightShape1 0xa10": {
+                    "innerRadius 0xaa8": 0.0,
+                    "lightColorB 0xab8": 0.5372549295425415,
+                    "lightColorG 0xac8": 0.9490196108818054,
+                    "lightColorR 0xad8": 1.0,
+                    "lightIntensity 0xae8": 10.0,
+                    "outerRadius 0xaf8": 3.5
+                }
+            },
+            "transform 0xb00": {
+                "translation 0xb40": {
+                    "0xb58": 0.0,
+                    "0xb68": 0.07829999923706055,
+                    "0xb78": 0.3190000057220459
+                }
+            },
+            "type 0x698": "pointlight",
+            "uuid 0x6a8": "{9ae30ced-ecbd-4dfd-8e5d-804bc2c35706}"
+        },
+        "0x5220": {
+            "bg 0x5330": {
+                "modelName 0x5368": "gm_move_a_01"
+            },
+            "clips 0x5370": {
+                "0x5390": {
+                    "endFrame 0x53d8": 359.0,
+                    "startFrame 0x53e8": 0.0
+                }
+            },
+            "name 0x52e8": "gm_move_a_01",
+            "parentJointName 0x52f8": "gm_move_a_01",
+            "parentNodeName 0x5308": "gm_bodyarea_b",
+            "type 0x5318": "bg",
+            "uuid 0x5328": "{1eadaf9e-7fd1-45b1-87b3-1ec6cca5da3c}"
+        },
+        "0x53f0": {
+            "bg 0x5500": {
+                "modelName 0x5538": "gm_move_a_02"
+            },
+            "clips 0x5540": {
+                "0x5560": {
+                    "endFrame 0x55a8": 359.0,
+                    "startFrame 0x55b8": 0.0
+                }
+            },
+            "name 0x54b8": "gm_move_a_02",
+            "parentJointName 0x54c8": "gm_move_a_02",
+            "parentNodeName 0x54d8": "gm_bodyarea_b",
+            "type 0x54e8": "bg",
+            "uuid 0x54f8": "{58d36314-2d87-4eac-bba8-a732ad56d7af}"
+        },
+        "0x55c0": {
+            "bg 0x56d0": {
+                "modelName 0x5708": "gm_move_a_03"
+            },
+            "clips 0x5710": {
+                "0x5730": {
+                    "endFrame 0x5778": 359.0,
+                    "startFrame 0x5788": 0.0
+                }
+            },
+            "name 0x5688": "gm_move_a_03",
+            "parentJointName 0x5698": "gm_move_a_03",
+            "parentNodeName 0x56a8": "gm_bodyarea_b",
+            "type 0x56b8": "bg",
+            "uuid 0x56c8": "{3b7b720b-37af-4fa3-b7b5-6b924bed2ce8}"
+        },
+        "0x5790": {
+            "bg 0x58a0": {
+                "modelName 0x58d8": "gm_move_a_04"
+            },
+            "clips 0x58e0": {
+                "0x5900": {
+                    "endFrame 0x5948": 359.0,
+                    "startFrame 0x5958": 0.0
+                }
+            },
+            "name 0x5858": "gm_move_a_04",
+            "parentJointName 0x5868": "gm_move_a_04",
+            "parentNodeName 0x5878": "gm_bodyarea_b",
+            "type 0x5888": "bg",
+            "uuid 0x5898": "{a971f8ee-8086-4129-a3cf-63bb9b1f1e9d}"
+        },
+        "0x5960": {
+            "bg 0x5a70": {
+                "modelName 0x5aa8": "gm_move_a_05"
+            },
+            "clips 0x5ab0": {
+                "0x5ad0": {
+                    "endFrame 0x5b18": 359.0,
+                    "startFrame 0x5b28": 0.0
+                }
+            },
+            "name 0x5a28": "gm_move_a_05",
+            "parentJointName 0x5a38": "gm_move_a_05",
+            "parentNodeName 0x5a48": "gm_bodyarea_b",
+            "type 0x5a58": "bg",
+            "uuid 0x5a68": "{0f1df14d-7709-4473-8959-b2f53b6ebedd}"
+        },
+        "0x5b30": {
+            "bg 0x5c80": {
+                "modelName 0x5cb8": "gm_move_a_06"
+            },
+            "clips 0x5cc0": {
+                "0x5ce0": {
+                    "endFrame 0x5d28": 359.0,
+                    "startFrame 0x5d38": 0.0
+                }
+            },
+            "effect 0x5d40": {
+                "animIgnoreRoot 0x5e78": "00000000",
+                "animLoop 0x5e88": "00000000",
+                "animName 0x5e98": "00000000",
+                "emit_stop_timeout 0x5ea8": 3.0,
+                "first_skip_time 0x5eb8": 0.0,
+                "lod_range 0x5f50": {
+                    "0x5f68": 0.0,
+                    "0x5f78": 0.0
+                },
+                "loop 0x5ed8": "00000000",
+                "modelName 0x5ee8": "00000000",
+                "move_dir 0x5f80": {
+                    "0x5f98": 0.0,
+                    "0x5fa8": 0.0,
+                    "0x5fb8": 1.0
+                },
+                "move_speed 0x5f08": 0.0,
+                "scale 0x5fc0": {
+                    "0x5fd8": 1.0,
+                    "0x5fe8": 1.0,
+                    "0x5ff8": 1.0
+                },
+                "spawn_duration 0x5f28": 0.0,
+                "spawn_interval 0x5f38": 0.0,
+                "targetNodeName 0x5f48": "00000000"
+            },
+            "name 0x5c38": "gm_move_a_06",
+            "parentJointName 0x5c48": "gm_move_a_06",
+            "parentNodeName 0x5c58": "gm_bodyarea_b",
+            "type 0x5c68": "bg",
+            "uuid 0x5c78": "{3c91dbbb-f79c-4689-b755-c2cdca37fcae}"
+        },
+        "0x6000": {
+            "clips 0x60d0": {
+                "0x60f0": {
+                    "animName 0x6168": "ef_ep12_00200m_shot_loc_base",
+                    "endFrame 0x6178": 344.0,
+                    "repeatCount 0x6188": 0.0,
+                    "startFrame 0x6198": 0.0
+                }
+            },
+            "name 0x6098": "locater",
+            "puppet 0x61a0": {
+                "modelName 0x61d8": "ef_ep12_00200m_shot_loc_base"
+            },
+            "type 0x60b8": "puppet",
+            "uuid 0x60c8": "{f85ce864-0457-4166-b20e-8e75c9dca54f}"
+        },
+        "0xb80": {
+            "clips 0xc90": {
+                "0xcb0": {
+                    "endFrame 0xcf8": 149.0,
+                    "startFrame 0xd08": 55.0
+                }
+            },
+            "effect 0xd10": {
+                "modelName 0xd48": "ef_dm_ep12_00200m_light_shot_01"
+            },
+            "name 0xc48": "c01_light_shot",
+            "parentJointName 0xc58": "cut01_shot",
+            "parentNodeName 0xc68": "locater",
+            "type 0xc78": "effect",
+            "uuid 0xc88": "{44c5bed2-6ec5-4e43-9218-01a1793f93b4}"
+        },
+        "0xd50": {
+            "animations 0xec0": {
+                "pointlight 0xf00": {
+                    "/root/G2PointLight1/G2PointLightShape1 0xf40": {
+                        "lightIntensity 0xf80": {
+                            "keyframes 0x1000": {
+                                "0x1040": {
+                                    "key 0x1088": 10.0,
+                                    "time 0x1098": 0.0
+                                },
+                                "0x10a0": {
+                                    "key 0x10e8": 8.0,
+                                    "time 0x10f8": 6.0
+                                },
+                                "0x1100": {
+                                    "key 0x1148": 10.0,
+                                    "time 0x1158": 12.0
+                                }
+                            },
+                            "post_inf 0xfe8": "loop",
+                            "pre_inf 0xff8": "loop"
+                        }
+                    }
+                }
+            },
+            "clips 0x1160": {
+                "0x1180": {
+                    "endFrame 0x11c8": 149.0,
+                    "startFrame 0x11d8": 55.0
+                }
+            },
+            "effect 0x11e0": {
+                "modelName 0x1218": "ef_dm_ep12_00200m_light_shot_01"
+            },
+            "name 0xe68": "c01_light_shot_point_Light",
+            "parentJointName 0xe78": "cut01_shot",
+            "parentNodeName 0xe88": "locater",
+            "pointlight 0x1220": {
+                "/root/G2PointLight1/G2PointLightShape1 0x1260": {
+                    "innerRadius 0x12f8": 0.0,
+                    "lightColorB 0x1308": 0.20000000298023224,
+                    "lightColorG 0x1318": 0.20000000298023224,
+                    "lightColorR 0x1328": 1.0,
+                    "lightIntensity 0x1338": 10.0,
+                    "outerRadius 0x1348": 20.0
+                }
+            },
+            "type 0xea8": "pointlight",
+            "uuid 0xeb8": "{b551ac37-bf29-4271-84c7-a32ba1492318}"
+        }
+    }
+}

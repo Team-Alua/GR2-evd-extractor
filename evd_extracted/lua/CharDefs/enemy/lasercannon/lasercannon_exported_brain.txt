@@ -1,0 +1,197 @@
+{
+    "easy 0x970": {
+        "brain 0xa40": {
+            "ai_type 0xad8": "lasercannon",
+            "animjoint 0xae8": "lasercannon",
+            "body_effect 0xb08": "lasercannon",
+            "race 0xaf8": "nevi",
+            "type 0xac8": "EnemyBrain"
+        },
+        "enemy_action_common 0x11d0": {
+            "find 0x1218": 80.0,
+            "lose 0x1228": 85.0
+        },
+        "enemy_actions 0xe70": {
+            "laser 0xed0": {
+                "damage_cumulation 0x1068": 0.0,
+                "damage_type 0x1048": "blow",
+                "force 0x1028": 2.0,
+                "free 0x10b8": 35.0,
+                "hit_effect_type 0x1058": "L",
+                "ignore_super_armor 0x10a8": "01000000",
+                "interval 0x1088": 4.0,
+                "power 0xff8": 20.0,
+                "range 0x1078": 50.0,
+                "rate_of_bg 0x1018": 75.0,
+                "rate_of_power 0x1008": 10.0,
+                "upper_force 0x1038": 2.0,
+                "velocity 0x1098": 500.0
+            },
+            "spawn 0x10c0": {
+                "damage_cumulation 0x11c8": 0.0,
+                "damage_type 0x11b8": "normal",
+                "force 0x1198": 1.0,
+                "power 0x1168": 10.0,
+                "rate_of_bg 0x1188": 30.0,
+                "rate_of_power 0x1178": -2.0,
+                "upper_force 0x11a8": 0.0
+            }
+        },
+        "enemy_body 0xb10": {
+            "ash_effect 0xc08": "ef_nev_death_nvlas",
+            "ash_effect_node 0xc18": "samplelink",
+            "ash_se 0xc28": "ene_disappear",
+            "battle_field_prio 0xc58": 1.0,
+            "battle_field_range 0xc48": 20.0,
+            "health 0xc38": 10.0,
+            "spawn_effect 0xbe8": "ef_nev_spw_01",
+            "spawn_se 0xbf8": "ene_come"
+        },
+        "enemy_parts 0xc60": {
+            "loc_nvlas01_armor 0xe10": {
+                "health 0xe58": 100.0,
+                "non_generation 0xe68": 1.0
+            },
+            "loc_setCore01 0xcc0": {
+                "angle 0xde8": 360.0,
+                "body_damage 0xda8": 10.0,
+                "core 0xdd8": "01000000",
+                "damage_motion_type 0xdf8": "FRONT",
+                "eye_aim_limit 0xdc8": 30.0,
+                "health 0xd98": 120.0,
+                "homing_angle 0xe08": 360.0,
+                "lockon 0xdb8": "01000000"
+            }
+        }
+    },
+    "hard 0x1230": {
+        "brain 0x1300": {
+            "ai_type 0x1398": "lasercannon",
+            "animjoint 0x13a8": "lasercannon",
+            "body_effect 0x13c8": "lasercannon",
+            "race 0x13b8": "nevi",
+            "type 0x1388": "EnemyBrain"
+        },
+        "enemy_action_common 0x1a90": {
+            "find 0x1ad8": 80.0,
+            "lose 0x1ae8": 85.0
+        },
+        "enemy_actions 0x1730": {
+            "laser 0x1790": {
+                "damage_cumulation 0x1928": 0.0,
+                "damage_type 0x1908": "blow",
+                "force 0x18e8": 2.0,
+                "free 0x1978": 35.0,
+                "hit_effect_type 0x1918": "L",
+                "ignore_super_armor 0x1968": "01000000",
+                "interval 0x1948": 4.0,
+                "power 0x18b8": 45.0,
+                "range 0x1938": 50.0,
+                "rate_of_bg 0x18d8": 75.0,
+                "rate_of_power 0x18c8": 10.0,
+                "upper_force 0x18f8": 2.0,
+                "velocity 0x1958": 500.0
+            },
+            "spawn 0x1980": {
+                "damage_cumulation 0x1a88": 0.0,
+                "damage_type 0x1a78": "normal",
+                "force 0x1a58": 1.0,
+                "power 0x1a28": 10.0,
+                "rate_of_bg 0x1a48": 30.0,
+                "rate_of_power 0x1a38": -2.0,
+                "upper_force 0x1a68": 0.0
+            }
+        },
+        "enemy_body 0x13d0": {
+            "ash_effect 0x14c8": "ef_nev_death_nvlas",
+            "ash_effect_node 0x14d8": "samplelink",
+            "ash_se 0x14e8": "ene_disappear",
+            "battle_field_prio 0x1518": 1.0,
+            "battle_field_range 0x1508": 20.0,
+            "health 0x14f8": 10.0,
+            "spawn_effect 0x14a8": "ef_nev_spw_01",
+            "spawn_se 0x14b8": "ene_come"
+        },
+        "enemy_parts 0x1520": {
+            "loc_nvlas01_armor 0x16d0": {
+                "health 0x1718": 100.0,
+                "non_generation 0x1728": 1.0
+            },
+            "loc_setCore01 0x1580": {
+                "angle 0x16a8": 360.0,
+                "body_damage 0x1668": 10.0,
+                "core 0x1698": "01000000",
+                "damage_motion_type 0x16b8": "FRONT",
+                "eye_aim_limit 0x1688": 30.0,
+                "health 0x1658": 120.0,
+                "homing_angle 0x16c8": 360.0,
+                "lockon 0x1678": "01000000"
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_type 0x218": "lasercannon",
+            "animjoint 0x228": "lasercannon",
+            "body_effect 0x248": "lasercannon",
+            "race 0x238": "nevi",
+            "type 0x208": "EnemyBrain"
+        },
+        "enemy_action_common 0x910": {
+            "find 0x958": 80.0,
+            "lose 0x968": 85.0
+        },
+        "enemy_actions 0x5b0": {
+            "laser 0x610": {
+                "damage_cumulation 0x7a8": 0.0,
+                "damage_type 0x788": "blow",
+                "force 0x768": 2.0,
+                "free 0x7f8": 35.0,
+                "hit_effect_type 0x798": "L",
+                "ignore_super_armor 0x7e8": "01000000",
+                "interval 0x7c8": 4.0,
+                "power 0x738": 25.0,
+                "range 0x7b8": 50.0,
+                "rate_of_bg 0x758": 75.0,
+                "rate_of_power 0x748": 10.0,
+                "upper_force 0x778": 2.0,
+                "velocity 0x7d8": 500.0
+            },
+            "spawn 0x800": {
+                "damage_cumulation 0x908": 0.0,
+                "damage_type 0x8f8": "normal",
+                "force 0x8d8": 1.0,
+                "power 0x8a8": 10.0,
+                "rate_of_bg 0x8c8": 30.0,
+                "rate_of_power 0x8b8": -2.0,
+                "upper_force 0x8e8": 0.0
+            }
+        },
+        "enemy_body 0x250": {
+            "ash_effect 0x348": "ef_nev_death_nvlas",
+            "ash_effect_node 0x358": "samplelink",
+            "ash_se 0x368": "ene_disappear",
+            "battle_field_prio 0x398": 1.0,
+            "battle_field_range 0x388": 20.0,
+            "health 0x378": 10.0,
+            "spawn_effect 0x328": "ef_nev_spw_01",
+            "spawn_se 0x338": "ene_come"
+        },
+        "enemy_parts 0x3a0": {
+            "loc_nvlas01_armor 0x550": {
+                "health 0x598": 100.0,
+                "non_generation 0x5a8": 1.0
+            },
+            "loc_setCore01 0x400": {
+                "angle 0x528": 360.0,
+                "body_damage 0x4e8": 10.0,
+                "core 0x518": "01000000",
+                "damage_motion_type 0x538": "FRONT",
+                "eye_aim_limit 0x508": 30.0,
+                "health 0x4d8": 120.0,
+                "homing_angle 0x548": 360.0,
+                "lockon 0x4f8": "01000000"
+            }
+        }
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "animjoint 0x70": {
+        "0x2e0": {
+            "anim 0x378": "fel_bst_run_start",
+            "attr 0x3b0": {
+                "0x3c8": "Sound",
+                "0x3d8": "pc2_trans_foot"
+            },
+            "is3DPosition 0x398": "01000000",
+            "parent 0x3a8": "bn_root",
+            "timing 0x3e0": {
+                "0x3f8": 4.0
+            }
+        },
+        "0x400": {
+            "anim 0x498": "fel_bst_run_start",
+            "attr 0x4d0": {
+                "0x4e8": "Sound",
+                "0x4f8": "pc2_trans_foot"
+            },
+            "is3DPosition 0x4b8": "01000000",
+            "parent 0x4c8": "bn_root",
+            "timing 0x500": {
+                "0x518": 15.0
+            }
+        },
+        "0x520": {
+            "anim 0x5b8": "fel_bst_run",
+            "attr 0x5f0": {
+                "0x608": "Sound",
+                "0x618": "pc2_trans_foot"
+            },
+            "is3DPosition 0x5d8": "01000000",
+            "parent 0x5e8": "bn_root",
+            "timing 0x620": {
+                "0x638": 4.0
+            }
+        },
+        "0x640": {
+            "anim 0x6d8": "fel_bst_run",
+            "attr 0x710": {
+                "0x728": "Sound",
+                "0x738": "pc2_trans_foot"
+            },
+            "is3DPosition 0x6f8": "01000000",
+            "parent 0x708": "bn_root",
+            "timing 0x740": {
+                "0x758": 15.0
+            }
+        },
+        "0x760": {
+            "anim 0x7f8": "fel_run_start_00",
+            "attr 0x830": {
+                "0x848": "Sound",
+                "0x858": "pc2_trans_foot"
+            },
+            "is3DPosition 0x818": "01000000",
+            "parent 0x828": "bn_root",
+            "timing 0x860": {
+                "0x878": 4.0
+            }
+        },
+        "0x880": {
+            "anim 0x918": "fel_run_start_00",
+            "attr 0x950": {
+                "0x968": "Sound",
+                "0x978": "pc2_trans_foot"
+            },
+            "is3DPosition 0x938": "01000000",
+            "parent 0x948": "bn_root",
+            "timing 0x980": {
+                "0x998": 15.0
+            }
+        },
+        "0xf0": {
+            "anim 0x1b8": "atk_dash_fel_1",
+            "attr 0x198": "Attack",
+            "layout 0x200": {
+                "pos 0x240": {
+                    "0x258": 0.0,
+                    "0x268": 0.8999999761581421,
+                    "0x278": 1.5
+                }
+            },
+            "parent 0x1c8": "",
+            "shape 0x280": {
+                "0x298": "Sphere",
+                "0x2a8": 2.5
+            },
+            "timing 0x2b0": {
+                "0x2c8": 0.0,
+                "0x2d8": 20.0
+            },
+            "userData 0x1a8": "atk_dash_fel_1"
+        }
+    }
+}
