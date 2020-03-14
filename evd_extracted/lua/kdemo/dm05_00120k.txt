@@ -1,43 +1,50 @@
 {
     "name 0xbc": "dm05_00120k",
     "page1 0x100": {
-        "photo 0x17c": false,
-        "ruchar 0x180": {
-            "id 0x1bc": "k_cro01_tujyo"
+        "photo 0x1ac": false,
+        "ruchar 0x1b0": {
+            "id 0x1ec": "k_cro01_konwaku"
         },
-        "text 0x1c0": {
-            "JP 0x25c": "この街に残された記憶――\n私が重力使いとなってから\n体験した出来事…",
-            "id 0x24c": "dm05_00120k_010",
-            "target 0x27c": "pos_ru",
-            "type 0x28c": "normal",
-            "wnd 0x26c": "pos_c"
+        "text 0x1f0": {
+            "JP 0x28c": "この街に残された記憶――\n私がサチアからクロウに\nなるまでの記憶…",
+            "id 0x27c": "dm05_00120k_010",
+            "target 0x2ac": "pos_ru",
+            "type 0x2bc": "normal",
+            "wnd 0x29c": "pos_c"
+        },
+        "voice 0x2c0": {
+            "id 0x2fc": "cro_237"
         }
     },
-    "page2 0x290": {
-        "luchar 0x340": {
-            "anim 0x39c": "framein",
-            "id 0x38c": "k_bit02_tujyo"
+    "page2 0x300": {
+        "luchar 0x3d0": {
+            "anim 0x42c": "framein",
+            "id 0x41c": "k_bit02_tujyo"
         },
-        "photo 0x33c": false,
-        "ruchar 0x3a0": {
-            "anim 0x3dc": "framein"
+        "photo 0x3cc": false,
+        "ruchar 0x430": {
+            "anim 0x46c": "framein"
         },
-        "text 0x3e0": {
-            "JP 0x47c": "――そう、そして君が\n“もう一人の重力使い”\nと出逢ってからの記憶だ",
-            "id 0x46c": "dm05_00120k_020",
-            "target 0x49c": "pos_lu",
-            "type 0x4ac": "normal",
-            "wnd 0x48c": "pos_c"
+        "text 0x470": {
+            "JP 0x50c": "そう、そして君が\n“もう一人の重力使い”\nと出逢うまでの記憶だ",
+            "id 0x4fc": "dm05_00120k_020",
+            "target 0x52c": "pos_lu",
+            "type 0x53c": "normal",
+            "wnd 0x51c": "pos_c"
+        },
+        "voice 0x540": {
+            "delay 0x59c": 0.5,
+            "id 0x58c": "bit_054_kaiwa"
         }
     },
-    "page3 0x4b0": {
-        "photo 0x50c": false,
-        "text 0x510": {
-            "JP 0x5ac": "まだ君は完全ではない\n残りの記憶を探すんだ\nすべての記憶の欠けらを",
-            "id 0x59c": "dm05_00120k_030",
-            "target 0x5cc": "pos_lu",
-            "type 0x5dc": "normal",
-            "wnd 0x5bc": "pos_c"
+    "page3 0x5a0": {
+        "photo 0x5fc": false,
+        "text 0x600": {
+            "JP 0x69c": "すべての記憶を残さず\n集めれば――\n次は必ずうまくいく",
+            "id 0x68c": "dm05_00120k_030",
+            "target 0x6bc": "pos_lu",
+            "type 0x6cc": "normal",
+            "wnd 0x6ac": "pos_c"
         }
     },
     "textset 0xcc": "dm05"

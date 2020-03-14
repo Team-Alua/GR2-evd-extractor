@@ -1,66 +1,93 @@
 {
-    "name 0x10c": "dm04_00310k",
-    "page1 0x180": {
-        "luchar 0x200": {
-            "anim 0x25c": "framein",
-            "id 0x24c": "k_ten01_tujyo"
+    "name 0x11c": "dm04_00310k",
+    "page1 0x1a0": {
+        "luchar 0x250": {
+            "anim 0x2ac": "framein",
+            "id 0x29c": "k_ten01_tujyo"
         },
-        "ruchar 0x260": {
-            "anim 0x2bc": "framein",
-            "id 0x2ac": "k_cro01_odoroki"
+        "ruchar 0x2b0": {
+            "anim 0x30c": "framein",
+            "id 0x2fc": "k_cro01_odoroki"
         },
-        "text 0x2c0": {
-            "JP 0x35c": "……\n…ン～フゥン",
-            "id 0x34c": "dm04_00310k_010",
-            "target 0x37c": "pos_lu",
-            "type 0x38c": "normal",
-            "wnd 0x36c": "pos_c"
+        "text 0x310": {
+            "JP 0x3ac": "……ハァ",
+            "id 0x39c": "dm04_00310k_010",
+            "target 0x3cc": "pos_lu",
+            "type 0x3dc": "normal",
+            "wnd 0x3bc": "pos_c"
+        },
+        "voice 0x3e0": {
+            "delay 0x43c": 0.30000001192092896,
+            "id 0x42c": "ten_002"
         }
     },
-    "page2 0x390": {
-        "text 0x3d0": {
-            "JP 0x46c": "フフフ…",
-            "id 0x45c": "dm04_00310k_020",
-            "target 0x48c": "pos_lu",
-            "type 0x49c": "normal",
-            "wnd 0x47c": "pos_c"
+    "page2 0x440": {
+        "text 0x480": {
+            "JP 0x51c": "生臭い嫌な臭いがすると\n思ったら…人間の女か……\nどうりで……",
+            "id 0x50c": "dm04_00310k_020",
+            "target 0x53c": "pos_lu",
+            "type 0x54c": "normal",
+            "wnd 0x52c": "pos_c"
         }
     },
-    "page3 0x4a0": {
-        "text 0x4e0": {
-            "JP 0x57c": "人の子が我ら根元の理に\n触れようとするとは――\nなんと愚かなことを…",
-            "id 0x56c": "dm04_00310k_030",
-            "target 0x59c": "pos_lu",
-            "type 0x5ac": "normal",
-            "wnd 0x58c": "pos_c"
+    "page3 0x550": {
+        "text 0x590": {
+            "JP 0x62c": "だからこの姿は嫌い\nくだらぬ感覚が\n思考の妨げになる…",
+            "id 0x61c": "dm04_00310k_030",
+            "target 0x64c": "pos_lu",
+            "type 0x65c": "normal",
+            "wnd 0x63c": "pos_c"
         }
     },
-    "page4 0x5b0": {
-        "text 0x5f0": {
-            "JP 0x68c": "本来ならば、\n我らにこのような姿は\n無用のもの",
-            "id 0x67c": "dm04_00310k_040",
-            "target 0x6ac": "pos_lu",
-            "type 0x6bc": "normal",
-            "wnd 0x69c": "pos_c"
+    "page4 0x660": {
+        "text 0x6a0": {
+            "JP 0x73c": "私は闇の根源テネブリア…\n私を呼び起こすとは\n無礼なことを…",
+            "id 0x72c": "dm04_00310k_035",
+            "target 0x75c": "pos_lu",
+            "type 0x76c": "normal",
+            "wnd 0x74c": "pos_c"
         }
     },
-    "page5 0x6c0": {
-        "text 0x700": {
-            "JP 0x79c": "理を超える何者かが――\n人の子に力を貸して\nおるということか…",
-            "id 0x78c": "dm04_00310k_050",
-            "target 0x7bc": "pos_lu",
-            "type 0x7cc": "normal",
-            "wnd 0x7ac": "pos_c"
+    "page5 0x770": {
+        "text 0x7b0": {
+            "JP 0x84c": "醜い娘よ、\n見逃してやるから\nはやくこの場を去れ",
+            "id 0x83c": "dm04_00310k_040",
+            "target 0x86c": "pos_lu",
+            "type 0x87c": "normal",
+            "wnd 0x85c": "pos_c"
         }
     },
-    "page6 0x7d0": {
-        "text 0x810": {
-            "JP 0x8ac": "それにしても――\n人の思考は混沌して醜い…\n気持ちが悪い…",
-            "id 0x89c": "dm04_00310k_060",
-            "target 0x8cc": "pos_lu",
-            "type 0x8dc": "normal",
-            "wnd 0x8bc": "pos_c"
+    "page6 0x880": {
+        "ruchar 0x900": {
+            "id 0x93c": "k_cro01_ikari"
+        },
+        "text 0x940": {
+            "JP 0x9dc": "断る！\n私はお前を手に入れる\nためにここに来たのだ！",
+            "id 0x9cc": "dm04_00310k_050",
+            "target 0x9fc": "pos_ru",
+            "type 0xa0c": "normal",
+            "wnd 0x9ec": "pos_c"
+        },
+        "voice 0xa10": {
+            "delay 0xa6c": 0.5,
+            "id 0xa5c": "cro015b"
         }
     },
-    "textset 0x11c": "dm04"
+    "page7 0xa70": {
+        "luchar 0xaf0": {
+            "id 0xb2c": "k_ten01_ikari"
+        },
+        "text 0xb30": {
+            "JP 0xbcc": "……人の思考とは、\nひどく混沌としている\nとても気持ちが悪い！",
+            "id 0xbbc": "dm04_00310k_060",
+            "target 0xbec": "pos_lu",
+            "type 0xbfc": "normal",
+            "wnd 0xbdc": "pos_c"
+        },
+        "voice 0xc00": {
+            "delay 0xc5c": 0.5,
+            "id 0xc4c": "ten_004"
+        }
+    },
+    "textset 0x12c": "dm04"
 }

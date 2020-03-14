@@ -1,71 +1,87 @@
 {
     "name 0x10c": "dm06_00220k",
     "page1 0x180": {
-        "ruchar 0x1e0": {
-            "anim 0x23c": "framein",
-            "id 0x22c": "k_cro01_konwaku"
+        "ruchar 0x200": {
+            "anim 0x25c": "framein",
+            "id 0x24c": "k_cro01_konwaku"
         },
-        "text 0x240": {
-            "JP 0x2dc": "ここまであの怪物を\n惹きつけては来たが…",
-            "id 0x2cc": "dm06_00220k_010",
-            "target 0x2fc": "pos_ru",
-            "type 0x30c": "normal",
-            "wnd 0x2ec": "pos_c"
-        }
-    },
-    "page2 0x310": {
-        "text 0x350": {
-            "JP 0x3ec": "やはり私がやらねば\n私ひとりで――",
-            "id 0x3dc": "dm06_00220k_020",
-            "target 0x40c": "pos_ru",
-            "type 0x41c": "normal",
-            "wnd 0x3fc": "pos_c"
-        }
-    },
-    "page3 0x420": {
-        "luchar 0x4a0": {
-            "anim 0x4fc": "framein",
-            "id 0x4ec": "k_dus01_meari"
+        "text 0x260": {
+            "JP 0x2fc": "くっ…\n雑魚どもは排除したが\nあの巨大な化け物が――",
+            "id 0x2ec": "dm06_00220k_010",
+            "target 0x31c": "pos_ru",
+            "type 0x32c": "normal",
+            "wnd 0x30c": "pos_c"
         },
-        "ruchar 0x500": {
-            "id 0x53c": "k_cro01_odoroki"
+        "voice 0x330": {
+            "delay 0x38c": 0.30000001192092896,
+            "id 0x37c": "cro_270"
+        }
+    },
+    "page2 0x390": {
+        "text 0x3d0": {
+            "JP 0x46c": "私がやらねば……\n私ひとりで……",
+            "id 0x45c": "dm06_00220k_020",
+            "target 0x48c": "pos_ru",
+            "type 0x49c": "normal",
+            "wnd 0x47c": "pos_c"
+        }
+    },
+    "page3 0x4a0": {
+        "luchar 0x520": {
+            "anim 0x57c": "framein",
+            "id 0x56c": "k_dus01_meari"
         },
-        "text 0x540": {
-            "JP 0x5dc": "ニャア！",
-            "id 0x5cc": "dm06_00220k_030",
-            "target 0x5fc": "pos_lu",
-            "type 0x60c": "normal",
-            "wnd 0x5ec": "pos_c"
-        }
-    },
-    "page4 0x610": {
-        "text 0x650": {
-            "JP 0x6ec": "お前…？\nまさかお前が？",
-            "id 0x6dc": "dm06_00220k_040",
-            "target 0x70c": "pos_ru",
-            "type 0x71c": "normal",
-            "wnd 0x6fc": "pos_c"
-        }
-    },
-    "page5 0x720": {
-        "ldchar 0x780": {
-            "id 0x7bc": "k_bit02_tujyo"
+        "text 0x580": {
+            "JP 0x61c": "ニャア！",
+            "id 0x60c": "dm06_00220k_030",
+            "target 0x63c": "pos_lu",
+            "type 0x64c": "normal",
+            "wnd 0x62c": "pos_c"
         },
-        "text 0x7c0": {
-            "JP 0x85c": "そう――\n彼女の守護獣から力を\n借りるんだ",
-            "id 0x84c": "dm06_00220k_050",
-            "target 0x87c": "pos_ld",
-            "type 0x88c": "normal",
-            "wnd 0x86c": "pos_c"
+        "voice 0x650": {
+            "delay 0x6ac": 0.30000001192092896,
+            "id 0x69c": "kaiwa_catcall_1"
         }
     },
-    "page6 0x890": {
-        "text 0x8d0": {
-            "JP 0x96c": "それで君は完璧になる\nこれしか方法はない",
-            "id 0x95c": "dm06_00220k_060",
-            "target 0x98c": "pos_ld",
-            "type 0x99c": "normal",
-            "wnd 0x97c": "pos_c"
+    "page4 0x6b0": {
+        "ruchar 0x730": {
+            "id 0x76c": "k_cro01_odoroki"
+        },
+        "text 0x770": {
+            "JP 0x80c": "お前…？\nまさかお前が？",
+            "id 0x7fc": "dm06_00220k_040",
+            "target 0x82c": "pos_ru",
+            "type 0x83c": "normal",
+            "wnd 0x81c": "pos_c"
+        },
+        "voice 0x840": {
+            "delay 0x89c": 0.5,
+            "id 0x88c": "cro_271"
+        }
+    },
+    "page5 0x8a0": {
+        "ldchar 0x920": {
+            "id 0x95c": "k_bit02_tujyo"
+        },
+        "text 0x960": {
+            "JP 0x9fc": "そう――\n彼女の守護獣から力を\n借りるんだ",
+            "id 0x9ec": "dm06_00220k_050",
+            "target 0xa1c": "pos_ld",
+            "type 0xa2c": "normal",
+            "wnd 0xa0c": "pos_c"
+        },
+        "voice 0xa30": {
+            "delay 0xa8c": 0.5,
+            "id 0xa7c": "bit_062"
+        }
+    },
+    "page6 0xa90": {
+        "text 0xad0": {
+            "JP 0xb6c": "それで君は完璧になる\nこれしか方法はない",
+            "id 0xb5c": "dm06_00220k_060",
+            "target 0xb8c": "pos_ld",
+            "type 0xb9c": "normal",
+            "wnd 0xb7c": "pos_c"
         }
     },
     "textset 0x11c": "dm06"

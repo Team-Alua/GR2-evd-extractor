@@ -1,59 +1,71 @@
 {
     "name 0xdc": "dm03_00225k",
     "page1 0x140": {
-        "ldchar 0x2b0": {
-            "id 0x2ec": "k_bit02_tujyo"
+        "ldchar 0x2d0": {
+            "id 0x30c": "k_bit02_tujyo"
         },
-        "luchar 0x1f0": {
-            "anim 0x24c": "framein",
-            "id 0x23c": "k_cya01_tujyo"
+        "luchar 0x210": {
+            "anim 0x26c": "framein",
+            "id 0x25c": "k_cya01_tujyo"
         },
-        "ruchar 0x250": {
-            "anim 0x2ac": "framein",
-            "id 0x29c": "k_cro01_odoroki"
+        "ruchar 0x270": {
+            "anim 0x2cc": "framein",
+            "id 0x2bc": "k_cro01_odoroki"
         },
-        "text 0x2f0": {
-            "JP 0x38c": "夢の番人よ\nまだ無理だ\n闇だけでは足りない",
-            "id 0x37c": "dm03_00225k_010",
-            "target 0x3ac": "pos_ld",
-            "type 0x3bc": "normal",
-            "wnd 0x39c": "pos_c"
+        "text 0x310": {
+            "JP 0x3ac": "夢の番人よ\nまだ無理だ\nあなただけでは足りない",
+            "id 0x39c": "dm03_00225k_010",
+            "target 0x3cc": "pos_ld",
+            "type 0x3dc": "normal",
+            "wnd 0x3bc": "pos_c"
+        },
+        "voice 0x3e0": {
+            "delay 0x43c": 0.30000001192092896,
+            "id 0x42c": "bit_905c"
         }
     },
-    "page2 0x3c0": {
-        "text 0x400": {
-            "JP 0x49c": "光を受け入れた者も\n探し出さねばならない",
-            "id 0x48c": "dm03_00225k_020",
-            "target 0x4bc": "pos_ld",
-            "type 0x4cc": "normal",
-            "wnd 0x4ac": "pos_c"
+    "page2 0x440": {
+        "text 0x480": {
+            "JP 0x51c": "彼らは、相反しながらも\n一対のエレメント――\n正しい手順で挑まねば…",
+            "id 0x50c": "dm03_00225k_020",
+            "target 0x53c": "pos_ld",
+            "type 0x54c": "normal",
+            "wnd 0x52c": "pos_c"
         }
     },
-    "page3 0x4d0": {
-        "text 0x510": {
-            "JP 0x5ac": "この手の対応には\n細心の注意が必要なんだ",
-            "id 0x59c": "dm03_00225k_030",
-            "target 0x5cc": "pos_ld",
-            "type 0x5dc": "normal",
-            "wnd 0x5bc": "pos_c"
+    "page3 0x550": {
+        "text 0x5b0": {
+            "JP 0x64c": "想像主の目を\n覗き込んだのが\n闇のエレメントならば――",
+            "id 0x63c": "dm03_00225k_030",
+            "target 0x66c": "pos_ld",
+            "type 0x67c": "normal",
+            "wnd 0x65c": "pos_c"
+        },
+        "voice 0x680": {
+            "delay 0x6dc": 0.30000001192092896,
+            "id 0x6cc": "bit_908b"
         }
     },
-    "page4 0x5e0": {
-        "text 0x620": {
-            "JP 0x6bc": "闇を受け入れたが\n創造主シアネアならば、\n光を受け入れたのは――",
-            "id 0x6ac": "dm03_00225k_040",
-            "target 0x6dc": "pos_lu",
-            "type 0x6ec": "normal",
-            "wnd 0x6cc": "pos_c"
+    "page4 0x6e0": {
+        "text 0x720": {
+            "JP 0x7bc": "創造主ゲイドの門を\n通ったのは、\n光のエレメントだろう",
+            "id 0x7ac": "dm03_00225k_040",
+            "target 0x7dc": "pos_ld",
+            "type 0x7ec": "normal",
+            "wnd 0x7cc": "pos_c"
         }
     },
-    "page5 0x6f0": {
-        "text 0x730": {
-            "JP 0x7cc": "創造主ゲイドだろうね\n彼を捜してほしい\nクロウ――",
-            "id 0x7bc": "dm03_00225k_050",
-            "target 0x7ec": "pos_ld",
-            "type 0x7fc": "normal",
-            "wnd 0x7dc": "pos_c"
+    "page5 0x7f0": {
+        "text 0x850": {
+            "JP 0x8ec": "ゲイドを捜そう\n彼が揃えば、\n出発の準備が整う",
+            "id 0x8dc": "dm03_00225k_050",
+            "target 0x90c": "pos_ld",
+            "type 0x91c": "normal",
+            "wnd 0x8fc": "pos_c"
+        },
+        "voice 0x920": {
+            "delay 0x97c": 0.30000001192092896,
+            "id 0x96c": "bit_907a"
         }
     },
     "textset 0xec": "dm03"

@@ -1,9 +1,17 @@
 {
-    "AISpawnOption 0x70": {
-        "AngryTime 0x12c": 30.0,
-        "Fatal 0xfc": 1.0,
-        "FatalRecoveryAmount 0x11c": 20.0,
-        "FatalTimeout 0x10c": 30.0,
-        "Pursue 0x13c": 30.0
+    "AISpawnOption 0x90": {
+        "AngryStartTime 0x1ec": 20.0,
+        "AngryTime 0x1bc": 20.0,
+        "AngryTimeMax 0x1cc": 30.0,
+        "AngryTime_ArmerHitAdd 0x21c": 1.0,
+        "AngryTime_ArmerHitAdd_GravityKick 0x20c": 1.0,
+        "Fatal 0x18c": 1.0,
+        "FatalRecoveryAmount 0x1ac": 250.0,
+        "FatalTimeout 0x19c": 60.0,
+        "NewAngryMode 0x1fc": true,
+        "Pursue 0x1dc": 1.0
+    },
+    "CollectorBig_AI_Type 0x220": {
+        "stage 0x25c": "dm06_c"
     }
 }

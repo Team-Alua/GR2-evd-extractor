@@ -1,77 +1,100 @@
 {
     "name 0x11c": "dm04_00410k",
     "page1 0x1a0": {
-        "ldchar 0x310": {
-            "id 0x34c": "k_cya01_tujyo"
+        "ldchar 0x330": {
+            "id 0x36c": "k_cya01_tujyo"
         },
-        "luchar 0x250": {
-            "anim 0x2ac": "framein",
-            "id 0x29c": "k_gad01_tujyo"
+        "luchar 0x270": {
+            "anim 0x2cc": "framein",
+            "id 0x2bc": "k_gad01_tujyo"
         },
-        "ruchar 0x2b0": {
-            "anim 0x30c": "framein",
-            "id 0x2fc": "k_cro01_tujyo"
+        "ruchar 0x2d0": {
+            "anim 0x32c": "framein",
+            "id 0x31c": "k_cro01_tujyo"
         },
-        "text 0x350": {
-            "JP 0x3ec": "矢継ぎ早に\n頼みごとばかりして\nすまんのだが――",
-            "id 0x3dc": "dm04_00410k_010",
-            "target 0x40c": "pos_lu",
-            "type 0x41c": "normal",
-            "wnd 0x3fc": "pos_c"
+        "text 0x370": {
+            "JP 0x40c": "矢継ぎ早に\n頼みごとばかりして\nすまんのだが――",
+            "id 0x3fc": "dm04_00410k_010",
+            "target 0x42c": "pos_lu",
+            "type 0x43c": "normal",
+            "wnd 0x41c": "pos_c"
+        },
+        "voice 0x440": {
+            "delay 0x49c": 0.30000001192092896,
+            "id 0x48c": "gad_908a"
         }
     },
-    "page2 0x420": {
-        "text 0x460": {
-            "JP 0x4fc": "大急ぎで\nここから脱出してくれ",
-            "id 0x4ec": "dm04_00410k_020",
-            "target 0x51c": "pos_lu",
-            "type 0x52c": "normal",
-            "wnd 0x50c": "pos_c"
+    "page2 0x4a0": {
+        "text 0x4e0": {
+            "JP 0x57c": "大急ぎで\nここから脱出してくれ",
+            "id 0x56c": "dm04_00410k_020",
+            "target 0x59c": "pos_lu",
+            "type 0x5ac": "normal",
+            "wnd 0x58c": "pos_c"
         }
     },
-    "page3 0x530": {
-        "text 0x570": {
-            "JP 0x60c": "光と闇の元素に影響を\n与えたことで、この夢の\n結晶に歪みが生じています",
-            "id 0x5fc": "dm04_00410k_030",
-            "target 0x62c": "pos_ld",
-            "type 0x63c": "normal",
-            "wnd 0x61c": "pos_c"
+    "page3 0x5b0": {
+        "text 0x610": {
+            "JP 0x6ac": "光と闇のエレメントに\n干渉したことで、この夢の\n結晶に歪みが生じています",
+            "id 0x69c": "dm04_00410k_030",
+            "target 0x6cc": "pos_ld",
+            "type 0x6dc": "normal",
+            "wnd 0x6bc": "pos_c"
+        },
+        "voice 0x6e0": {
+            "delay 0x73c": 0.5,
+            "id 0x72c": "cya_907a"
         }
     },
-    "page4 0x640": {
-        "text 0x680": {
-            "JP 0x71c": "この場をこのまま\n維持し続けるのは困難…\n既に崩壊は始まっています",
-            "id 0x70c": "dm04_00410k_040",
-            "target 0x73c": "pos_ld",
-            "type 0x74c": "normal",
-            "wnd 0x72c": "pos_c"
+    "page4 0x740": {
+        "text 0x780": {
+            "JP 0x81c": "この場を維持し続ける\nことは困難です\n結晶の崩壊は既に――",
+            "id 0x80c": "dm04_00410k_040",
+            "target 0x83c": "pos_ld",
+            "type 0x84c": "normal",
+            "wnd 0x82c": "pos_c"
         }
     },
-    "page5 0x750": {
-        "text 0x790": {
-            "JP 0x82c": "言いたいことはわかった\n外に出ればいいのだな？\nだがどうやって――",
-            "id 0x81c": "dm04_00410k_050",
-            "target 0x84c": "pos_ru",
-            "type 0x85c": "normal",
-            "wnd 0x83c": "pos_c"
+    "page5 0x850": {
+        "ruchar 0x8d0": {
+            "id 0x90c": "k_cro01_ikari"
+        },
+        "text 0x910": {
+            "JP 0x9ac": "わかったから\nさっさと出口を教えろ！",
+            "id 0x99c": "dm04_00410k_050",
+            "target 0x9cc": "pos_ru",
+            "type 0x9dc": "normal",
+            "wnd 0x9bc": "pos_c"
+        },
+        "voice 0x9e0": {
+            "delay 0xa3c": 0.30000001192092896,
+            "id 0xa2c": "cro007c"
         }
     },
-    "page6 0x860": {
-        "text 0x8a0": {
-            "JP 0x93c": "――とにかく、\n後ろを振り向かずに\nさっさと逃げるのじゃ",
-            "id 0x92c": "dm04_00410k_060",
-            "target 0x95c": "pos_lu",
-            "type 0x96c": "normal",
-            "wnd 0x94c": "pos_c"
+    "page6 0xa40": {
+        "text 0xaa0": {
+            "JP 0xb3c": "とにかく、\n後ろを振り向かずに\nさっさと逃げるのじゃ",
+            "id 0xb2c": "dm04_00410k_060",
+            "target 0xb5c": "pos_lu",
+            "type 0xb6c": "normal",
+            "wnd 0xb4c": "pos_c"
+        },
+        "voice 0xb70": {
+            "delay 0xbcc": 0.30000001192092896,
+            "id 0xbbc": "gad_020"
         }
     },
-    "page7 0x970": {
-        "text 0x9b0": {
-            "JP 0xa4c": "出口はあちらに――",
-            "id 0xa3c": "dm04_00410k_070",
-            "target 0xa6c": "pos_ld",
-            "type 0xa7c": "normal",
-            "wnd 0xa5c": "pos_c"
+    "page7 0xbd0": {
+        "text 0xc30": {
+            "JP 0xccc": "出口はあちらに――",
+            "id 0xcbc": "dm04_00410k_070",
+            "target 0xcec": "pos_ld",
+            "type 0xcfc": "normal",
+            "wnd 0xcdc": "pos_c"
+        },
+        "voice 0xd00": {
+            "delay 0xd5c": 0.30000001192092896,
+            "id 0xd4c": "cya_022"
         }
     },
     "textset 0x12c": "dm04"

@@ -1,5 +1,4 @@
 import struct
-import pandas as pd
 import os
 import json
 
@@ -48,7 +47,7 @@ def unpack():
             value = struct.unpack('f', file.read(4))[0]
         elif type == b'\x3D\x95\x94\xC8': #Boolean
             value = int.from_bytes(file.read(4), byteorder='little') > 0
-        elif type == b'\x00\x00\x00\x00': #Boolean
+        elif type == b'\x00\x00\x00\x00': #Null
             if int.from_bytes(file.read(4), byteorder='little') == 0:
                 value = None
             else:

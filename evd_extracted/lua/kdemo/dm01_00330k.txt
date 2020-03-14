@@ -1,6 +1,6 @@
 {
-    "name 0x25c": "dm01_00330k",
-    "page1 0x3e0": {
+    "name 0x24c": "dm01_00330k",
+    "page1 0x3c0": {
         "ldchar 0x550": {
             "id 0x58c": "k_man77_tujyo"
         },
@@ -13,225 +13,284 @@
             "id 0x53c": "k_cro01_tujyo"
         },
         "text 0x590": {
-            "JP 0x62c": "あっ、クロウ！\nちょうどよかった！\nわたしも今来たところ！",
+            "JP 0x62c": "ちょうどよかった！\nわたしも今来たところ！",
             "id 0x61c": "dm01_00330k_010",
             "target 0x64c": "pos_lu",
             "type 0x65c": "normal",
             "wnd 0x63c": "pos_c"
-        }
-    },
-    "page10 0xf40": {
-        "text 0xf80": {
-            "JP 0x101c": "これでわたしたちの\n役目は終わり！\nあとは見守るだけだね！",
-            "id 0x100c": "dm01_00330k_070",
-            "target 0x103c": "pos_lu",
-            "type 0x104c": "normal",
-            "wnd 0x102c": "pos_c"
-        }
-    },
-    "page11 0x1050": {
-        "text 0x1090": {
-            "JP 0x112c": "クロウ！　わたしたちも\n“自由と解放の広場”に\n早く行こう！",
-            "id 0x111c": "dm01_00330k_080",
-            "target 0x114c": "pos_lu",
-            "type 0x115c": "normal",
-            "wnd 0x113c": "pos_c"
-        }
-    },
-    "page12 0x1160": {
-        "text 0x11a0": {
-            "JP 0x123c": "シドーも警務隊のお仕事で、\n計画会場の見張りを\nしてるらしいよ！",
-            "id 0x122c": "dm01_00330k_090",
-            "target 0x125c": "pos_lu",
-            "type 0x126c": "normal",
-            "wnd 0x124c": "pos_c"
-        }
-    },
-    "page13 0x1270": {
-        "text 0x12b0": {
-            "JP 0x134c": "ゲイドやシアネアも\nもう会場にいるはずだし！",
-            "id 0x133c": "dm01_00330k_100",
-            "target 0x136c": "pos_lu",
-            "type 0x137c": "normal",
-            "wnd 0x135c": "pos_c"
-        }
-    },
-    "page14 0x1380": {
-        "ruchar 0x13e0": {
-            "id 0x141c": "k_cro01_konwaku"
         },
-        "text 0x1420": {
-            "JP 0x14bc": "――本当に、\nこれで箱舟の子供たちは\n目覚めるのだろうか……",
-            "id 0x14ac": "dm01_00330k_110",
-            "target 0x14dc": "pos_ru",
-            "type 0x14ec": "normal",
-            "wnd 0x14cc": "pos_c"
+        "voice 0x660": {
+            "delay 0x6bc": 0.30000001192092896,
+            "id 0x6ac": "kit023"
         }
     },
-    "page15 0x14f0": {
-        "luchar 0x1550": {
-            "id 0x158c": "k_kit01_konwaku"
+    "page10 0x1200": {
+        "luchar 0x1280": {
+            "id 0x12bc": "k_kit01_konwaku"
         },
-        "text 0x1590": {
-            "JP 0x162c": "なにそれ？　どうしたの？\nクロウが一番この日を\n待っていたんじゃないの？",
-            "id 0x161c": "dm01_00330k_120",
-            "target 0x164c": "pos_lu",
-            "type 0x165c": "normal",
-            "wnd 0x163c": "pos_c"
+        "text 0x12c0": {
+            "JP 0x135c": "晴れ舞台？　業績？\nなにそれ！\n…まぁ、いいけどね",
+            "id 0x134c": "dm01_00330k_065",
+            "target 0x137c": "pos_lu",
+            "type 0x138c": "normal",
+            "wnd 0x136c": "pos_c"
+        },
+        "voice 0x1390": {
+            "delay 0x13ec": 0.5,
+            "id 0x13dc": "kit_467"
         }
     },
-    "page16 0x1660": {
-        "text 0x16a0": {
-            "JP 0x173c": "クロウ、ザザたちが\n目覚めないのは自分の\nせいだって悩んでて…",
-            "id 0x172c": "dm01_00330k_130",
-            "target 0x175c": "pos_lu",
-            "type 0x176c": "normal",
-            "wnd 0x174c": "pos_c"
+    "page11 0x13f0": {
+        "luchar 0x1470": {
+            "id 0x14ac": "k_kit01_egao"
+        },
+        "text 0x14b0": {
+            "JP 0x154c": "とにかく、これで、\nわたしたちの役目は終わり！\nあとは見守るだけだね！",
+            "id 0x153c": "dm01_00330k_070",
+            "target 0x156c": "pos_lu",
+            "type 0x157c": "normal",
+            "wnd 0x155c": "pos_c"
+        },
+        "voice 0x1580": {
+            "delay 0x15dc": 0.5,
+            "id 0x15cc": "kit036a"
         }
     },
-    "page17 0x1770": {
+    "page12 0x15e0": {
+        "text 0x1640": {
+            "JP 0x16dc": "クロウ！　わたしたちも\n“自由と解放の広場”に\n早く行こう！",
+            "id 0x16cc": "dm01_00330k_080",
+            "target 0x16fc": "pos_lu",
+            "type 0x170c": "normal",
+            "wnd 0x16ec": "pos_c"
+        },
+        "voice 0x1710": {
+            "delay 0x176c": 0.5,
+            "id 0x175c": "kit_842a"
+        }
+    },
+    "page13 0x1770": {
         "text 0x17b0": {
-            "JP 0x184c": "毎日、毎日、箱舟の中の\nザザに声をかけ続けて…",
-            "id 0x183c": "dm01_00330k_140",
+            "JP 0x184c": "ゲイドやシアネアも\nもう会場にいるはずだし！",
+            "id 0x183c": "dm01_00330k_090",
             "target 0x186c": "pos_lu",
             "type 0x187c": "normal",
             "wnd 0x185c": "pos_c"
         }
     },
-    "page18 0x1880": {
-        "text 0x18c0": {
-            "JP 0x195c": "やっとザザたちを\n目覚めさせる方法が\nわかったって連絡が来て",
-            "id 0x194c": "dm01_00330k_150",
-            "target 0x197c": "pos_lu",
-            "type 0x198c": "normal",
-            "wnd 0x196c": "pos_c"
-        }
-    },
-    "page19 0x1990": {
-        "text 0x19d0": {
-            "JP 0x1a6c": "クロウ、すっごく\n喜んでたじゃない…",
-            "id 0x1a5c": "dm01_00330k_160",
-            "target 0x1a8c": "pos_lu",
-            "type 0x1a9c": "normal",
-            "wnd 0x1a7c": "pos_c"
-        }
-    },
-    "page2 0x660": {
-        "text 0x6a0": {
-            "JP 0x73c": "ああ、私も言われた通り、\nすべての重力エネルギーを\n回収してきた",
-            "id 0x72c": "dm01_00330k_020",
-            "target 0x75c": "pos_ru",
-            "type 0x76c": "normal",
-            "wnd 0x74c": "pos_c"
-        }
-    },
-    "page20 0x1aa0": {
-        "text 0x1ae0": {
-            "JP 0x1b7c": "……\nどんなことがあっても\n私はやり遂げる",
-            "id 0x1b6c": "dm01_00330k_170",
-            "target 0x1b9c": "pos_ru",
-            "type 0x1bac": "normal",
-            "wnd 0x1b8c": "pos_c"
-        }
-    },
-    "page21 0x1bb0": {
-        "text 0x1bf0": {
-            "JP 0x1c8c": "……？\nもう今日のクロウ…\nヘンだよ？",
-            "id 0x1c7c": "dm01_00330k_180",
-            "target 0x1cac": "pos_lu",
-            "type 0x1cbc": "normal",
-            "wnd 0x1c9c": "pos_c"
-        }
-    },
-    "page22 0x1cc0": {
-        "luchar 0x1d20": {
-            "id 0x1d5c": "k_kit01_tujyo"
+    "page14 0x1880": {
+        "luchar 0x1900": {
+            "id 0x193c": "k_kit01_ikari"
         },
-        "text 0x1d60": {
-            "JP 0x1dfc": "……",
-            "id 0x1dec": "dm01_00330k_190",
-            "target 0x1e1c": "pos_lu",
-            "type 0x1e2c": "normal",
-            "wnd 0x1e0c": "pos_c"
-        }
-    },
-    "page23 0x1e30": {
-        "luchar 0x1e90": {
-            "id 0x1ecc": "k_kit01_egao"
+        "text 0x1940": {
+            "JP 0x19dc": "シドーはこんな日に限って\nお腹が痛くて寝込んでる\nらしいけどね！",
+            "id 0x19cc": "dm01_00330k_100",
+            "target 0x19fc": "pos_lu",
+            "type 0x1a0c": "normal",
+            "wnd 0x19ec": "pos_c"
         },
-        "text 0x1ed0": {
-            "JP 0x1f6c": "――さあ行こうよ！\nやっと、ザザたちに\n会えるんだから！",
-            "id 0x1f5c": "dm01_00330k_200",
-            "target 0x1f8c": "pos_lu",
-            "type 0x1f9c": "normal",
-            "wnd 0x1f7c": "pos_c"
+        "voice 0x1a10": {
+            "delay 0x1a6c": 0.5,
+            "id 0x1a5c": "kit043a"
         }
     },
-    "page3 0x770": {
-        "text 0x7b0": {
-            "JP 0x84c": "遅かったじゃないですか！\n早くこちらへ――\nこれで全部ですね？",
-            "id 0x83c": "dm01_00330k_030",
-            "target 0x86c": "pos_ld",
-            "type 0x87c": "normal",
-            "wnd 0x85c": "pos_c"
+    "page15 0x1a70": {
+        "text 0x1ab0": {
+            "JP 0x1b4c": "大事な時に限って休むとか\nほんとシドーってさ～",
+            "id 0x1b3c": "dm01_00330k_105",
+            "target 0x1b6c": "pos_lu",
+            "type 0x1b7c": "normal",
+            "wnd 0x1b5c": "pos_c"
         }
     },
-    "page4 0x880": {
-        "text 0x8c0": {
-            "JP 0x95c": "……よし！\n規定量を満たしている！\n問題なし！",
-            "id 0x94c": "dm01_00330k_040",
-            "target 0x97c": "pos_ld",
-            "type 0x98c": "normal",
-            "wnd 0x96c": "pos_c"
-        }
-    },
-    "page5 0x990": {
-        "text 0x9d0": {
-            "JP 0xa6c": "ところで、いいですか？\nわかってるとは\n思いますが――",
-            "id 0xa5c": "dm01_00330k_043",
-            "target 0xa8c": "pos_ld",
-            "type 0xa9c": "normal",
-            "wnd 0xa7c": "pos_c"
-        }
-    },
-    "page6 0xaa0": {
-        "text 0xae0": {
-            "JP 0xb7c": "今日の公開実験は、\n我が師、Dr.ブレフマンの\n晴れ舞台でもあるのです！",
-            "id 0xb6c": "dm01_00330k_045",
-            "target 0xb9c": "pos_ld",
-            "type 0xbac": "normal",
-            "wnd 0xb8c": "pos_c"
-        }
-    },
-    "page7 0xbb0": {
-        "text 0xbf0": {
-            "JP 0xc8c": "今回の計画が成功すれば、\nDr.ブレフマンの輝かしい\n業績が世間に――",
-            "id 0xc7c": "dm01_00330k_048",
-            "target 0xcac": "pos_ld",
-            "type 0xcbc": "normal",
-            "wnd 0xc9c": "pos_c"
-        }
-    },
-    "page8 0xcc0": {
-        "text 0xd00": {
-            "JP 0xd9c": "ん？　しまった！\n時間がなかった！\nそれでは失礼！",
-            "id 0xd8c": "dm01_00330k_050",
-            "target 0xdbc": "pos_ld",
-            "type 0xdcc": "normal",
-            "wnd 0xdac": "pos_c"
-        }
-    },
-    "page9 0xdd0": {
-        "ldchar 0xe30": {
-            "anim 0xe6c": "frameout"
+    "page16 0x1b80": {
+        "ruchar 0x1c00": {
+            "id 0x1c3c": "k_cro01_konwaku"
         },
-        "text 0xe70": {
-            "JP 0xf0c": "……",
-            "id 0xefc": "dm01_00330k_060",
-            "target 0xf2c": "pos_ru",
-            "type 0xf3c": "normal",
-            "wnd 0xf1c": "pos_c"
+        "text 0x1c40": {
+            "JP 0x1cdc": "――本当に、これで\n箱舟の子どもたちは\n目覚めるのだろうか……",
+            "id 0x1ccc": "dm01_00330k_110",
+            "target 0x1cfc": "pos_ru",
+            "type 0x1d0c": "normal",
+            "wnd 0x1cec": "pos_c"
+        },
+        "voice 0x1d10": {
+            "delay 0x1d6c": 0.5,
+            "id 0x1d5c": "cro_237"
         }
     },
-    "textset 0x26c": "dm01"
+    "page17 0x1d70": {
+        "luchar 0x1df0": {
+            "id 0x1e2c": "k_kit01_konwaku"
+        },
+        "text 0x1e30": {
+            "JP 0x1ecc": "え？　どうしたの？\nクロウが一番この日を\n待っていたんじゃないの？",
+            "id 0x1ebc": "dm01_00330k_120",
+            "target 0x1eec": "pos_lu",
+            "type 0x1efc": "normal",
+            "wnd 0x1edc": "pos_c"
+        },
+        "voice 0x1f00": {
+            "delay 0x1f5c": 0.5,
+            "id 0x1f4c": "kit_836"
+        }
+    },
+    "page18 0x1f60": {
+        "text 0x1fa0": {
+            "JP 0x203c": "なのに、\nなんで急にそんなこと…",
+            "id 0x202c": "dm01_00330k_160",
+            "target 0x205c": "pos_lu",
+            "type 0x206c": "normal",
+            "wnd 0x204c": "pos_c"
+        }
+    },
+    "page19 0x2070": {
+        "text 0x20d0": {
+            "JP 0x216c": "……\nどんなことがあっても\n私はやり遂げる",
+            "id 0x215c": "dm01_00330k_170",
+            "target 0x218c": "pos_ru",
+            "type 0x219c": "normal",
+            "wnd 0x217c": "pos_c"
+        },
+        "voice 0x21a0": {
+            "delay 0x21fc": 0.5,
+            "id 0x21ec": "cro_256"
+        }
+    },
+    "page2 0x6c0": {
+        "text 0x720": {
+            "JP 0x7bc": "ああ、私も言われた通り、\nすべての重力エネルギーを\n回収してきた",
+            "id 0x7ac": "dm01_00330k_020",
+            "target 0x7dc": "pos_ru",
+            "type 0x7ec": "normal",
+            "wnd 0x7cc": "pos_c"
+        },
+        "voice 0x7f0": {
+            "delay 0x84c": 0.5,
+            "id 0x83c": "cro013a"
+        }
+    },
+    "page20 0x2200": {
+        "text 0x2260": {
+            "JP 0x22fc": "……？\nもう今日のクロウ…\nヘンだよ？",
+            "id 0x22ec": "dm01_00330k_180",
+            "target 0x231c": "pos_lu",
+            "type 0x232c": "normal",
+            "wnd 0x230c": "pos_c"
+        },
+        "voice 0x2330": {
+            "delay 0x238c": 0.5,
+            "id 0x237c": "kit058a"
+        }
+    },
+    "page21 0x2390": {
+        "luchar 0x23f0": {
+            "id 0x242c": "k_kit01_tujyo"
+        },
+        "text 0x2430": {
+            "JP 0x24cc": "……",
+            "id 0x24bc": "dm01_00330k_190",
+            "target 0x24ec": "pos_lu",
+            "type 0x24fc": "normal",
+            "wnd 0x24dc": "pos_c"
+        }
+    },
+    "page22 0x2500": {
+        "luchar 0x2580": {
+            "id 0x25bc": "k_kit01_egao"
+        },
+        "text 0x25c0": {
+            "JP 0x265c": "――とにかく行こうよ！\nやっと、ザザたちに\n会えるんだから！",
+            "id 0x264c": "dm01_00330k_200",
+            "target 0x267c": "pos_lu",
+            "type 0x268c": "normal",
+            "wnd 0x266c": "pos_c"
+        },
+        "voice 0x2690": {
+            "delay 0x26ec": 0.5,
+            "id 0x26dc": "kit035a"
+        }
+    },
+    "page3 0x850": {
+        "luchar 0x8d0": {
+            "id 0x90c": "k_kit01_tujyo"
+        },
+        "text 0x910": {
+            "JP 0x9ac": "遅かったじゃないですか！\n早くこちらへ――\nこれで全部ですね？",
+            "id 0x99c": "dm01_00330k_030",
+            "target 0x9cc": "pos_ld",
+            "type 0x9dc": "normal",
+            "wnd 0x9bc": "pos_c"
+        },
+        "voice 0x9e0": {
+            "delay 0xa3c": 0.30000001192092896,
+            "id 0xa2c": "adi_013"
+        }
+    },
+    "page4 0xa40": {
+        "text 0xa80": {
+            "JP 0xb1c": "……よし！\n規定量を満たしている！\n問題なし！",
+            "id 0xb0c": "dm01_00330k_040",
+            "target 0xb3c": "pos_ld",
+            "type 0xb4c": "normal",
+            "wnd 0xb2c": "pos_c"
+        }
+    },
+    "page5 0xb50": {
+        "text 0xbb0": {
+            "JP 0xc4c": "ところで、いいですか？\nわかってるとは\n思いますが――",
+            "id 0xc3c": "dm01_00330k_043",
+            "target 0xc6c": "pos_ld",
+            "type 0xc7c": "normal",
+            "wnd 0xc5c": "pos_c"
+        },
+        "voice 0xc80": {
+            "delay 0xcdc": 0.30000001192092896,
+            "id 0xccc": "adi_906a"
+        }
+    },
+    "page6 0xce0": {
+        "text 0xd20": {
+            "JP 0xdbc": "今日の公開実験は、\n我が師、Dr.ブレフマンの\n晴れ舞台でもあるのです！",
+            "id 0xdac": "dm01_00330k_045",
+            "target 0xddc": "pos_ld",
+            "type 0xdec": "normal",
+            "wnd 0xdcc": "pos_c"
+        }
+    },
+    "page7 0xdf0": {
+        "text 0xe30": {
+            "JP 0xecc": "今回の計画が成功すれば、\nDr.ブレフマンの輝かしい\n業績が世間に――",
+            "id 0xebc": "dm01_00330k_048",
+            "target 0xeec": "pos_ld",
+            "type 0xefc": "normal",
+            "wnd 0xedc": "pos_c"
+        }
+    },
+    "page8 0xf00": {
+        "text 0xf60": {
+            "JP 0xffc": "ん？　しまった！\n時間がなかった！\nそれでは失礼！",
+            "id 0xfec": "dm01_00330k_050",
+            "target 0x101c": "pos_ld",
+            "type 0x102c": "normal",
+            "wnd 0x100c": "pos_c"
+        },
+        "voice 0x1030": {
+            "delay 0x108c": 0.30000001192092896,
+            "id 0x107c": "adi_903b"
+        }
+    },
+    "page9 0x1090": {
+        "ldchar 0x10f0": {
+            "anim 0x112c": "frameout"
+        },
+        "text 0x1130": {
+            "JP 0x11cc": "……",
+            "id 0x11bc": "dm01_00330k_060",
+            "target 0x11ec": "pos_ru",
+            "type 0x11fc": "normal",
+            "wnd 0x11dc": "pos_c"
+        }
+    },
+    "textset 0x25c": "dm01"
 }

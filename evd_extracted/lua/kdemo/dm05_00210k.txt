@@ -1,91 +1,121 @@
 {
     "name 0x12c": "dm05_00210k",
     "page1 0x1c0": {
-        "ruchar 0x220": {
-            "id 0x25c": "k_cro01_odoroki"
+        "ruchar 0x240": {
+            "id 0x27c": "k_cro01_odoroki"
         },
-        "text 0x260": {
-            "JP 0x2fc": "この力は……",
-            "id 0x2ec": "dm05_00210k_010",
-            "target 0x31c": "pos_ru",
-            "type 0x32c": "normal",
-            "wnd 0x30c": "pos_c"
-        }
-    },
-    "page2 0x330": {
-        "luchar 0x3b0": {
-            "anim 0x40c": "framein",
-            "id 0x3fc": "k_bit02_tujyo"
+        "text 0x280": {
+            "JP 0x31c": "この力は……",
+            "id 0x30c": "dm05_00210k_010",
+            "target 0x33c": "pos_ru",
+            "type 0x34c": "normal",
+            "wnd 0x32c": "pos_c"
         },
-        "ruchar 0x410": {
-            "anim 0x44c": "framein"
+        "voice 0x350": {
+            "delay 0x3ac": 0.30000001192092896,
+            "id 0x39c": "cro_263"
+        }
+    },
+    "page2 0x3b0": {
+        "luchar 0x460": {
+            "anim 0x4bc": "framein",
+            "id 0x4ac": "k_bit02_tujyo"
         },
-        "text 0x450": {
-            "JP 0x4ec": "クロウ――今の君ならば、\n正しく光と闇の力を\nその手にできるはずだ",
-            "id 0x4dc": "dm05_00210k_020",
-            "target 0x50c": "pos_lu",
-            "type 0x51c": "normal",
-            "wnd 0x4fc": "pos_c"
-        }
-    },
-    "page3 0x520": {
-        "rdchar 0x580": {
-            "id 0x5bc": "k_lum01_ikari"
+        "ruchar 0x4c0": {
+            "anim 0x4fc": "framein"
         },
-        "text 0x5c0": {
-            "JP 0x65c": "――操蔵主！\nこの茶番を仕組んだのは\nお前だったか！",
-            "id 0x64c": "dm05_00210k_030",
-            "target 0x67c": "pos_rd",
-            "type 0x68c": "normal",
-            "wnd 0x66c": "pos_c"
-        }
-    },
-    "page4 0x690": {
-        "text 0x6d0": {
-            "JP 0x76c": "我らは根元の理――\nいくらお前でも\nそう容易に操れぬぞ！",
-            "id 0x75c": "dm05_00210k_040",
-            "target 0x78c": "pos_rd",
-            "type 0x79c": "normal",
-            "wnd 0x77c": "pos_c"
-        }
-    },
-    "page5 0x7a0": {
-        "ldchar 0x800": {
-            "id 0x83c": "k_ten01_ikari"
+        "text 0x500": {
+            "JP 0x59c": "クロウ――今の君ならば、\n正しく光と闇の力を\nその手にできるはずだ",
+            "id 0x58c": "dm05_00210k_020",
+            "target 0x5bc": "pos_lu",
+            "type 0x5cc": "normal",
+            "wnd 0x5ac": "pos_c"
         },
-        "text 0x840": {
-            "JP 0x8dc": "操蔵主よ、\n人の側にずいぶんと\n過大な肩入れを――",
-            "id 0x8cc": "dm05_00210k_050",
-            "target 0x8fc": "pos_ld",
-            "type 0x90c": "normal",
-            "wnd 0x8ec": "pos_c"
+        "voice 0x5d0": {
+            "delay 0x62c": 0.5,
+            "id 0x61c": "bit_803a"
         }
     },
-    "page6 0x910": {
-        "text 0x950": {
-            "JP 0x9ec": "ああ、人臭い…\n操蔵主よ、\n見損なったわ！",
-            "id 0x9dc": "dm05_00210k_060",
-            "target 0xa0c": "pos_ld",
-            "type 0xa1c": "normal",
-            "wnd 0x9fc": "pos_c"
+    "page3 0x630": {
+        "rdchar 0x6b0": {
+            "id 0x6ec": "k_lum01_ikari"
+        },
+        "text 0x6f0": {
+            "JP 0x78c": "――操蔵主！\nくだらぬ茶番を\n仕組みおって！",
+            "id 0x77c": "dm05_00210k_030",
+            "target 0x7ac": "pos_rd",
+            "type 0x7bc": "normal",
+            "wnd 0x79c": "pos_c"
+        },
+        "voice 0x7c0": {
+            "delay 0x81c": 0.30000001192092896,
+            "id 0x80c": "lum_009"
         }
     },
-    "page7 0xa20": {
+    "page4 0x820": {
+        "text 0x860": {
+            "JP 0x8fc": "我らは根元の理――\nいくらお前でも\nそう容易に操れぬぞ！",
+            "id 0x8ec": "dm05_00210k_040",
+            "target 0x91c": "pos_rd",
+            "type 0x92c": "normal",
+            "wnd 0x90c": "pos_c"
+        }
+    },
+    "page5 0x930": {
+        "ldchar 0x9e0": {
+            "id 0xa1c": "k_ten01_ikari"
+        },
+        "rdchar 0xa20": {
+            "anim 0xa5c": "frameout"
+        },
         "text 0xa60": {
-            "JP 0xafc": "――直接的関与はしない\nあくまでも示唆を\n与えているだけだ",
-            "id 0xaec": "dm05_00210k_070",
-            "target 0xb1c": "pos_lu",
+            "JP 0xafc": "操蔵主よ、\n人の側にずいぶんと\n過大な肩入れを――",
+            "id 0xaec": "dm05_00210k_050",
+            "target 0xb1c": "pos_ld",
             "type 0xb2c": "normal",
             "wnd 0xb0c": "pos_c"
+        },
+        "voice 0xb30": {
+            "delay 0xb8c": 0.5,
+            "id 0xb7c": "ten_009"
         }
     },
-    "page8 0xb30": {
-        "text 0xb70": {
-            "JP 0xc0c": "さあクロウ\nすべての事象を\n正しい場所へ――",
-            "id 0xbfc": "dm05_00210k_080",
-            "target 0xc2c": "pos_lu",
-            "type 0xc3c": "normal",
-            "wnd 0xc1c": "pos_c"
+    "page6 0xb90": {
+        "text 0xbd0": {
+            "JP 0xc6c": "ああ、人臭い…\n操蔵主よ、\n見損なったわ！",
+            "id 0xc5c": "dm05_00210k_060",
+            "target 0xc8c": "pos_ld",
+            "type 0xc9c": "normal",
+            "wnd 0xc7c": "pos_c"
+        }
+    },
+    "page7 0xca0": {
+        "ldchar 0xd20": {
+            "anim 0xd5c": "frameout"
+        },
+        "text 0xd60": {
+            "JP 0xdfc": "――直接的関与はしない\nあくまでも示唆を\n与えているだけだ",
+            "id 0xdec": "dm05_00210k_070",
+            "target 0xe1c": "pos_lu",
+            "type 0xe2c": "normal",
+            "wnd 0xe0c": "pos_c"
+        },
+        "voice 0xe30": {
+            "delay 0xe8c": 0.5,
+            "id 0xe7c": "bit_905c"
+        }
+    },
+    "page8 0xe90": {
+        "text 0xef0": {
+            "JP 0xf8c": "さあクロウ\nすべての事象を\n正しい場所へ――",
+            "id 0xf7c": "dm05_00210k_080",
+            "target 0xfac": "pos_lu",
+            "type 0xfbc": "normal",
+            "wnd 0xf9c": "pos_c"
+        },
+        "voice 0xfc0": {
+            "delay 0x101c": 0.5,
+            "id 0x100c": "bit_907a"
         }
     },
     "textset 0x13c": "dm05"

@@ -1,0 +1,176 @@
+{
+    "easy 0x860": {
+        "brain 0x930": {
+            "ai_type 0x9bc": "grigo",
+            "animjoint 0x9cc": "grigo",
+            "race 0x9dc": "machine",
+            "type 0x9ac": "EnemyBrain"
+        },
+        "enemy_action_common 0xfb0": {
+            "find 0xffc": 40.0,
+            "lose 0x100c": 45.0
+        },
+        "enemy_actions 0xc10": {
+            "attack 0xc70": {
+                "damage_cumulation 0xdec": 0.0,
+                "damage_type 0xdcc": "blow",
+                "force 0xdac": 1.0,
+                "height 0xe0c": 0.75,
+                "hit_effect_type 0xddc": "M",
+                "interval 0xe1c": 2.0,
+                "power 0xd7c": 25.0,
+                "range 0xdfc": 5.0,
+                "rate_of_bg 0xd9c": 25.0,
+                "rate_of_power 0xd8c": 8.0,
+                "upper_force 0xdbc": 2.0
+            },
+            "explosion 0xe20": {
+                "damage_type 0xf5c": "blow",
+                "explosion_radius 0xf8c": 1.7999999523162842,
+                "explosion_time 0xf9c": 0.10000000149011612,
+                "force 0xf4c": 2.0,
+                "height 0xf7c": 1.5,
+                "ignore_super_armor 0xfac": true,
+                "power 0xf1c": 25.0,
+                "range 0xf6c": 1.5,
+                "rate_of_bg 0xf3c": 60.0,
+                "rate_of_power 0xf2c": 35.0
+            }
+        },
+        "enemy_body 0x9e0": {
+            "battle_field_prio 0xa5c": 1.0,
+            "battle_field_range 0xa4c": 10.0,
+            "health 0xa3c": 40.0
+        },
+        "enemy_parts 0xa60": {
+            "bn_bottom 0xbd0": {
+                "health 0xc0c": 1000000.0
+            },
+            "bn_root 0xac0": {
+                "angle 0xbbc": 360.0,
+                "body_damage 0xb7c": 40.0,
+                "core 0xbac": true,
+                "health 0xb6c": 120.0,
+                "homing_angle 0xbcc": 360.0,
+                "lockon 0xb9c": true,
+                "model_scale 0xb8c": 2.0
+            }
+        }
+    },
+    "hard 0x1010": {
+        "brain 0x10e0": {
+            "ai_type 0x116c": "grigo",
+            "animjoint 0x117c": "grigo",
+            "race 0x118c": "machine",
+            "type 0x115c": "EnemyBrain"
+        },
+        "enemy_action_common 0x1760": {
+            "find 0x17ac": 40.0,
+            "lose 0x17bc": 45.0
+        },
+        "enemy_actions 0x13c0": {
+            "attack 0x1420": {
+                "damage_cumulation 0x159c": 0.0,
+                "damage_type 0x157c": "blow",
+                "force 0x155c": 1.0,
+                "height 0x15bc": 0.75,
+                "hit_effect_type 0x158c": "M",
+                "interval 0x15cc": 2.0,
+                "power 0x152c": 25.0,
+                "range 0x15ac": 5.0,
+                "rate_of_bg 0x154c": 25.0,
+                "rate_of_power 0x153c": 5.0,
+                "upper_force 0x156c": 2.0
+            },
+            "explosion 0x15d0": {
+                "damage_type 0x170c": "blow",
+                "explosion_radius 0x173c": 1.7999999523162842,
+                "explosion_time 0x174c": 0.10000000149011612,
+                "force 0x16fc": 2.0,
+                "height 0x172c": 1.5,
+                "ignore_super_armor 0x175c": true,
+                "power 0x16cc": 35.0,
+                "range 0x171c": 1.5,
+                "rate_of_bg 0x16ec": 60.0,
+                "rate_of_power 0x16dc": 20.0
+            }
+        },
+        "enemy_body 0x1190": {
+            "battle_field_prio 0x120c": 1.0,
+            "battle_field_range 0x11fc": 10.0,
+            "health 0x11ec": 40.0
+        },
+        "enemy_parts 0x1210": {
+            "bn_bottom 0x1380": {
+                "health 0x13bc": 1000000.0
+            },
+            "bn_root 0x1270": {
+                "angle 0x136c": 360.0,
+                "body_damage 0x132c": 40.0,
+                "core 0x135c": true,
+                "health 0x131c": 120.0,
+                "homing_angle 0x137c": 360.0,
+                "lockon 0x134c": true,
+                "model_scale 0x133c": 2.0
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_type 0x20c": "grigo",
+            "animjoint 0x21c": "grigo",
+            "race 0x22c": "machine",
+            "type 0x1fc": "EnemyBrain"
+        },
+        "enemy_action_common 0x800": {
+            "find 0x84c": 40.0,
+            "lose 0x85c": 45.0
+        },
+        "enemy_actions 0x460": {
+            "attack 0x4c0": {
+                "damage_cumulation 0x63c": 0.0,
+                "damage_type 0x61c": "blow",
+                "force 0x5fc": 1.0,
+                "height 0x65c": 0.75,
+                "hit_effect_type 0x62c": "M",
+                "interval 0x66c": 2.0,
+                "power 0x5cc": 25.0,
+                "range 0x64c": 5.0,
+                "rate_of_bg 0x5ec": 25.0,
+                "rate_of_power 0x5dc": 5.0,
+                "upper_force 0x60c": 2.0
+            },
+            "explosion 0x670": {
+                "damage_type 0x7ac": "blow",
+                "explosion_radius 0x7dc": 1.7999999523162842,
+                "explosion_time 0x7ec": 0.10000000149011612,
+                "force 0x79c": 2.0,
+                "height 0x7cc": 1.5,
+                "ignore_super_armor 0x7fc": true,
+                "power 0x76c": 30.0,
+                "range 0x7bc": 1.5,
+                "rate_of_bg 0x78c": 60.0,
+                "rate_of_power 0x77c": 30.0
+            }
+        },
+        "enemy_body 0x230": {
+            "battle_field_prio 0x2ac": 1.0,
+            "battle_field_range 0x29c": 10.0,
+            "health 0x28c": 40.0
+        },
+        "enemy_parts 0x2b0": {
+            "bn_bottom 0x420": {
+                "health 0x45c": 1000000.0
+            },
+            "bn_root 0x310": {
+                "angle 0x40c": 360.0,
+                "body_damage 0x3cc": 40.0,
+                "core 0x3fc": true,
+                "health 0x3bc": 120.0,
+                "homing_angle 0x41c": 360.0,
+                "lockon 0x3ec": true,
+                "model_scale 0x3dc": 2.0
+            }
+        }
+    }
+}

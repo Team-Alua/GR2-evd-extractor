@@ -1,50 +1,73 @@
 {
-    "name 0xcc": "dm04_00318k",
-    "page1 0x120": {
-        "luchar 0x1a0": {
-            "anim 0x1fc": "framein",
-            "id 0x1ec": "k_ten01_ikari"
+    "name 0x10c": "dm04_00318k",
+    "page1 0x180": {
+        "luchar 0x230": {
+            "anim 0x28c": "framein",
+            "id 0x27c": "k_ten01_ikari"
         },
-        "ruchar 0x200": {
-            "anim 0x25c": "framein",
-            "id 0x24c": "k_cro01_odoroki"
+        "ruchar 0x290": {
+            "anim 0x2ec": "framein",
+            "id 0x2dc": "k_cro01_odoroki"
         },
-        "text 0x260": {
-            "JP 0x2ec": "闇が私をより強くする…\n私の力にひれ伏しなさい\n醜い人の子よ",
-            "id 0x2dc": "dm04_00318k_010",
-            "target 0x30c": "pos_lu",
-            "wnd 0x2fc": "pos_c"
-        }
-    },
-    "page2 0x310": {
-        "text 0x350": {
-            "JP 0x3ec": "ああ…\nそれにしてもひどく臭う\n人の子は生臭い！",
-            "id 0x3dc": "dm04_00318k_020",
-            "target 0x40c": "pos_lu",
-            "type 0x41c": "normal",
-            "wnd 0x3fc": "pos_c"
-        }
-    },
-    "page3 0x420": {
-        "text 0x460": {
-            "JP 0x4fc": "……フン\n人の子の中でも\nお前は最も愚かだ",
-            "id 0x4ec": "dm04_00318k_030",
-            "target 0x51c": "pos_lu",
-            "type 0x52c": "normal",
-            "wnd 0x50c": "pos_c"
-        }
-    },
-    "page4 0x530": {
-        "ruchar 0x590": {
-            "id 0x5cc": "k_cro01_tujyo"
+        "text 0x2f0": {
+            "JP 0x37c": "闇が増せば、\n私の美しさと力も増す…",
+            "id 0x36c": "dm04_00318k_010",
+            "target 0x39c": "pos_lu",
+            "wnd 0x38c": "pos_c"
         },
-        "text 0x5d0": {
-            "JP 0x66c": "ああ、知っている\nそれでも――\n私は諦めない",
-            "id 0x65c": "dm04_00318k_040",
-            "target 0x68c": "pos_ru",
-            "type 0x69c": "normal",
-            "wnd 0x67c": "pos_c"
+        "voice 0x3a0": {
+            "delay 0x3fc": 0.30000001192092896,
+            "id 0x3ec": "ten_003"
         }
     },
-    "textset 0xdc": "dm04"
+    "page2 0x400": {
+        "text 0x440": {
+            "JP 0x4dc": "私は光の男のように\nうかつな戦いはしない…",
+            "id 0x4cc": "dm04_00318k_020",
+            "target 0x4fc": "pos_lu",
+            "type 0x50c": "normal",
+            "wnd 0x4ec": "pos_c"
+        }
+    },
+    "page3 0x510": {
+        "text 0x550": {
+            "JP 0x5ec": "……しかし、\n愚かな人間の中でも、\nお前は更に愚かだ…",
+            "id 0x5dc": "dm04_00318k_030",
+            "target 0x60c": "pos_lu",
+            "type 0x61c": "normal",
+            "wnd 0x5fc": "pos_c"
+        }
+    },
+    "page4 0x620": {
+        "text 0x660": {
+            "JP 0x6fc": "お前の思考には、\nつまらぬ雑念ばかり\n渦巻いておる…",
+            "id 0x6ec": "dm04_00318k_033",
+            "target 0x71c": "pos_lu",
+            "type 0x72c": "normal",
+            "wnd 0x70c": "pos_c"
+        }
+    },
+    "page5 0x730": {
+        "text 0x770": {
+            "JP 0x80c": "愛する者を救う？\n自己犠牲？\nくだらぬ行動原理だな",
+            "id 0x7fc": "dm04_00318k_036",
+            "target 0x82c": "pos_lu",
+            "type 0x83c": "normal",
+            "wnd 0x81c": "pos_c"
+        }
+    },
+    "page6 0x840": {
+        "text 0x8a0": {
+            "JP 0x93c": "……黙れ\n今すぐお前を倒してやる",
+            "id 0x92c": "dm04_00318k_040",
+            "target 0x95c": "pos_ru",
+            "type 0x96c": "normal",
+            "wnd 0x94c": "pos_c"
+        },
+        "voice 0x970": {
+            "delay 0x9cc": 0.30000001192092896,
+            "id 0x9bc": "cro014a"
+        }
+    },
+    "textset 0x11c": "dm04"
 }

@@ -1,101 +1,88 @@
 {
     "entities 0x70": {
-        "0x1020": {
-            "clips 0x1170": {
-                "0x1190": {
-                    "endFrame 0x11dc": 239.0,
-                    "startFrame 0x11ec": 170.0
-                }
-            },
-            "effect 0x11f0": {
-                "modelName 0x122c": "ef_dm_dm06_00400m_pl_ball_01"
-            },
-            "name 0x111c": "c03_pl_ball",
-            "parentJointName 0x112c": "bn_root",
-            "parentNodeName 0x113c": "cro01",
-            "transform 0x1230": {
-                "translation 0x1270": {
-                    "0x128c": 0.0,
-                    "0x129c": 0.0,
-                    "0x12ac": 0.0
-                }
-            },
-            "type 0x115c": "effect",
-            "uuid 0x116c": "{63196094-ec0f-4540-8e43-53143a97f23b}"
-        },
         "0x12b0": {
             "clips 0x1420": {
                 "0x1440": {
-                    "endFrame 0x148c": 494.0,
-                    "startFrame 0x149c": 170.0
+                    "endFrame 0x148c": 240.0,
+                    "startFrame 0x149c": 180.0
                 }
             },
             "effect 0x14a0": {
-                "modelName 0x14dc": "ef_dm_dm06_00400m_pl_ball_01"
+                "modelName 0x14ec": "ef_dm_dm06_00400m_pl_dis_01",
+                "scale 0x1500": {
+                    "0x151c": 1.7000000476837158,
+                    "0x152c": 1.0,
+                    "0x153c": 1.0
+                }
             },
-            "name 0x13bc": "c04_plt",
+            "name 0x13bc": "c04_bus_dis",
             "parentJointName 0x13cc": "bg_az5_goal_bus_kw_root",
             "parentNodeName 0x13dc": "bg_az5_goal_bus_kw",
-            "pointlight 0x14e0": {
-                "/root/G2PointLight1/G2PointLightShape1 0x1520": {
-                    "lightColorB 0x15ac": 0.9607843160629272,
-                    "lightColorG 0x15bc": 1.0,
-                    "lightColorR 0x15cc": 0.5098039507865906,
-                    "lightIntensity 0x15dc": 2.0,
-                    "outerRadius 0x15ec": 22.600000381469727
+            "pointlight 0x1540": {
+                "/root/G2PointLight1/G2PointLightShape1 0x1580": {
+                    "lightColorB 0x160c": 1.0,
+                    "lightColorG 0x161c": 0.9490196108818054,
+                    "lightColorR 0x162c": 0.772549033164978,
+                    "lightIntensity 0x163c": 4.829999923706055,
+                    "outerRadius 0x164c": 127.80000305175781
                 }
             },
-            "transform 0x15f0": {
-                "translation 0x1630": {
-                    "0x164c": 3.3412249088287354,
-                    "0x165c": 6.497772216796875,
-                    "0x166c": -6.523560047149658
-                }
-            },
-            "type 0x140c": "pointlight",
-            "uuid 0x141c": "{d158d3f1-bc78-40e0-8b68-e76830ae313f}"
-        },
-        "0x1670": {
-            "clips 0x17e0": {
-                "0x1800": {
-                    "endFrame 0x184c": 239.0,
-                    "startFrame 0x185c": 180.0
-                }
-            },
-            "effect 0x1860": {
-                "modelName 0x18ac": "ef_dm_dm06_00400m_pl_glw_01",
-                "scale 0x18c0": {
-                    "0x18dc": 1.0,
-                    "0x18ec": 1.0,
-                    "0x18fc": 1.0
-                }
-            },
-            "name 0x177c": "c04_bus_glw",
-            "parentJointName 0x178c": "bg_az5_goal_bus_kw_root",
-            "parentNodeName 0x179c": "bg_az5_goal_bus_kw",
-            "pointlight 0x1900": {
-                "/root/G2PointLight1/G2PointLightShape1 0x1940": {
-                    "lightColorB 0x19cc": 1.0,
-                    "lightColorG 0x19dc": 0.9490196108818054,
-                    "lightColorR 0x19ec": 0.772549033164978,
-                    "lightIntensity 0x19fc": 4.829999923706055,
-                    "outerRadius 0x1a0c": 127.80000305175781
-                }
-            },
-            "transform 0x1a10": {
-                "rotation 0x1a70": {
-                    "0x1a8c": 0.0,
-                    "0x1a9c": 90.0,
-                    "0x1aac": 0.0
+            "transform 0x1650": {
+                "rotation 0x16b0": {
+                    "0x16cc": 0.0,
+                    "0x16dc": 90.0,
+                    "0x16ec": 0.0
                 },
-                "translation 0x1ab0": {
-                    "0x1acc": 0.8103709816932678,
-                    "0x1adc": 2.620414972305298,
-                    "0x1aec": -1.2362370491027832
+                "translation 0x16f0": {
+                    "0x170c": 0.4666059911251068,
+                    "0x171c": 2.8169100284576416,
+                    "0x172c": -1.259093999862671
                 }
             },
-            "type 0x17cc": "effect",
-            "uuid 0x17dc": "{ef44dd19-b5de-4e79-a98d-a33f1b24970e}"
+            "type 0x140c": "effect",
+            "uuid 0x141c": "{273ef93f-a0ec-4e66-8a8c-fec80a6f946c}"
+        },
+        "0x1730": {
+            "clips 0x18a0": {
+                "0x18c0": {
+                    "endFrame 0x190c": 239.0,
+                    "startFrame 0x191c": 180.0
+                }
+            },
+            "effect 0x1920": {
+                "modelName 0x196c": "ef_dm_dm06_00400m_pl_glw_01",
+                "scale 0x1980": {
+                    "0x199c": 1.0,
+                    "0x19ac": 1.0,
+                    "0x19bc": 1.0
+                }
+            },
+            "name 0x183c": "c04_pl_glw",
+            "parentJointName 0x184c": "bg_az5_goal_bus_kw_root",
+            "parentNodeName 0x185c": "bg_az5_goal_bus_kw",
+            "pointlight 0x19c0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x1a00": {
+                    "lightColorB 0x1a8c": 1.0,
+                    "lightColorG 0x1a9c": 0.9490196108818054,
+                    "lightColorR 0x1aac": 0.772549033164978,
+                    "lightIntensity 0x1abc": 4.829999923706055,
+                    "outerRadius 0x1acc": 127.80000305175781
+                }
+            },
+            "transform 0x1ad0": {
+                "rotation 0x1b30": {
+                    "0x1b4c": 0.0,
+                    "0x1b5c": 90.0,
+                    "0x1b6c": 0.0
+                },
+                "translation 0x1b70": {
+                    "0x1b8c": 0.8103709816932678,
+                    "0x1b9c": 2.620414972305298,
+                    "0x1bac": -1.2362370491027832
+                }
+            },
+            "type 0x188c": "effect",
+            "uuid 0x189c": "{ef44dd19-b5de-4e79-a98d-a33f1b24970e}"
         },
         "0x190": {
             "clips 0x280": {
@@ -120,326 +107,316 @@
                     "0x43c": 0.0
                 },
                 "translation 0x440": {
-                    "0x45c": -33.45163345336914,
-                    "0x46c": 164.1556854248047,
-                    "0x47c": 5.783894062042236
+                    "0x45c": -32.557640075683594,
+                    "0x46c": 150.5167236328125,
+                    "0x47c": 4.927705764770508
                 }
             },
             "type 0x26c": "effect",
             "uuid 0x27c": "{78ef3e24-ad47-4938-a74b-c9bfcec5c50f}"
         },
-        "0x1af0": {
-            "clips 0x1c60": {
-                "0x1c80": {
-                    "endFrame 0x1ccc": 240.0,
-                    "startFrame 0x1cdc": 180.0
+        "0x1bb0": {
+            "clips 0x1cc0": {
+                "0x1ce0": {
+                    "endFrame 0x1d2c": 239.0,
+                    "startFrame 0x1d3c": 180.0
                 }
             },
-            "effect 0x1ce0": {
-                "modelName 0x1d2c": "ef_dm_dm06_00400m_pl_dis_01",
-                "scale 0x1d40": {
-                    "0x1d5c": 1.7000000476837158,
-                    "0x1d6c": 1.0,
-                    "0x1d7c": 1.0
+            "effect 0x1d40": {
+                "modelName 0x1d7c": "ef_dm06_00400m_bus_01"
+            },
+            "name 0x1c7c": "c04_bus_glw",
+            "parentJointName 0x1c8c": "bg_az5_goal_bus_kw_root",
+            "parentNodeName 0x1c9c": "bg_az5_goal_bus_kw",
+            "type 0x1cac": "effect",
+            "uuid 0x1cbc": "{b0399b3a-1453-476c-8768-ebe913bec22a}"
+        },
+        "0x1d80": {
+            "clips 0x1e90": {
+                "0x1eb0": {
+                    "endFrame 0x1efc": 239.0,
+                    "startFrame 0x1f0c": 180.0
                 }
             },
-            "name 0x1bfc": "c04_bus_dis",
-            "parentJointName 0x1c0c": "bg_az5_goal_bus_kw_root",
-            "parentNodeName 0x1c1c": "bg_az5_goal_bus_kw",
-            "pointlight 0x1d80": {
-                "/root/G2PointLight1/G2PointLightShape1 0x1dc0": {
-                    "lightColorB 0x1e4c": 1.0,
-                    "lightColorG 0x1e5c": 0.9490196108818054,
-                    "lightColorR 0x1e6c": 0.772549033164978,
-                    "lightIntensity 0x1e7c": 4.829999923706055,
-                    "outerRadius 0x1e8c": 127.80000305175781
+            "effect 0x1f10": {
+                "modelName 0x1f4c": "ef_dm06_00400m_bus_02"
+            },
+            "name 0x1e4c": "c04_bus_glw01",
+            "parentJointName 0x1e5c": "bg_az5_goal_bus_kw_root",
+            "parentNodeName 0x1e6c": "bg_az5_goal_bus_kw",
+            "type 0x1e7c": "effect",
+            "uuid 0x1e8c": "{11459d91-bfc9-4304-8a64-9d34512ef3ab}"
+        },
+        "0x1f50": {
+            "clips 0x20c0": {
+                "0x20e0": {
+                    "endFrame 0x212c": 239.0,
+                    "startFrame 0x213c": 180.0
                 }
             },
-            "transform 0x1e90": {
-                "rotation 0x1ef0": {
-                    "0x1f0c": 0.0,
-                    "0x1f1c": 90.0,
-                    "0x1f2c": 0.0
+            "effect 0x2140": {
+                "modelName 0x218c": "ef_dm_dm06_00400m_wo_01",
+                "scale 0x21a0": {
+                    "0x21bc": 1.0,
+                    "0x21cc": 1.0,
+                    "0x21dc": 1.0
+                }
+            },
+            "name 0x205c": "c04_bus_wo",
+            "parentJointName 0x206c": "bg_az5_goal_bus_kw_root",
+            "parentNodeName 0x207c": "bg_az5_goal_bus_kw",
+            "pointlight 0x21e0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x2220": {
+                    "lightColorB 0x22ac": 1.0,
+                    "lightColorG 0x22bc": 0.9490196108818054,
+                    "lightColorR 0x22cc": 0.772549033164978,
+                    "lightIntensity 0x22dc": 4.829999923706055,
+                    "outerRadius 0x22ec": 127.80000305175781
+                }
+            },
+            "transform 0x22f0": {
+                "rotation 0x2350": {
+                    "0x236c": 78.2710189819336,
+                    "0x237c": -4.518574237823486,
+                    "0x238c": -15.779658317565918
                 },
-                "translation 0x1f30": {
-                    "0x1f4c": 0.4666059911251068,
-                    "0x1f5c": 2.8169100284576416,
-                    "0x1f6c": -1.259093999862671
+                "translation 0x2390": {
+                    "0x23ac": 5.643058776855469,
+                    "0x23bc": 10.255966186523438,
+                    "0x23cc": 2.116942882537842
                 }
             },
-            "type 0x1c4c": "effect",
-            "uuid 0x1c5c": "{273ef93f-a0ec-4e66-8a8c-fec80a6f946c}"
+            "type 0x20ac": "effect",
+            "uuid 0x20bc": "{7b00c241-6e88-4577-8047-e25547a862c5}"
         },
-        "0x1f70": {
-            "clips 0x20e0": {
-                "0x2100": {
-                    "endFrame 0x214c": 494.0,
-                    "startFrame 0x215c": 240.0
+        "0x23d0": {
+            "clips 0x2540": {
+                "0x2560": {
+                    "endFrame 0x25ac": 239.0,
+                    "startFrame 0x25bc": 180.0
                 }
             },
-            "effect 0x2160": {
-                "modelName 0x21ac": "ef_dm_dm06_00400m_pl_glw_01",
-                "scale 0x21c0": {
-                    "0x21dc": 0.8299999833106995,
-                    "0x21ec": 1.0,
-                    "0x21fc": 1.0
+            "effect 0x25c0": {
+                "modelName 0x260c": "ef_dm_dm06_00400m_pl_glw_02",
+                "scale 0x2620": {
+                    "0x263c": 0.800000011920929,
+                    "0x264c": 1.0,
+                    "0x265c": 1.0
                 }
             },
-            "name 0x207c": "c05_bus_glw",
-            "parentJointName 0x208c": "bg_az5_goal_bus_kw_root",
-            "parentNodeName 0x209c": "bg_az5_goal_bus_kw",
-            "pointlight 0x2200": {
-                "/root/G2PointLight1/G2PointLightShape1 0x2240": {
-                    "lightColorB 0x22cc": 1.0,
-                    "lightColorG 0x22dc": 0.9490196108818054,
-                    "lightColorR 0x22ec": 0.772549033164978,
-                    "lightIntensity 0x22fc": 4.829999923706055,
-                    "outerRadius 0x230c": 127.80000305175781
+            "name 0x24dc": "c04_cro_glw",
+            "parentJointName 0x24ec": "bn_root",
+            "parentNodeName 0x24fc": "cro01",
+            "pointlight 0x2660": {
+                "/root/G2PointLight1/G2PointLightShape1 0x26a0": {
+                    "lightColorB 0x272c": 1.0,
+                    "lightColorG 0x273c": 0.9490196108818054,
+                    "lightColorR 0x274c": 0.772549033164978,
+                    "lightIntensity 0x275c": 4.829999923706055,
+                    "outerRadius 0x276c": 127.80000305175781
                 }
             },
-            "transform 0x2310": {
-                "rotation 0x2370": {
-                    "0x238c": 0.0,
-                    "0x239c": 90.0,
-                    "0x23ac": 0.0
+            "transform 0x2770": {
+                "rotation 0x27d0": {
+                    "0x27ec": 0.0,
+                    "0x27fc": 0.0,
+                    "0x280c": 0.0
                 },
-                "translation 0x23b0": {
-                    "0x23cc": 0.07539399713277817,
-                    "0x23dc": 1.6071399450302124,
-                    "0x23ec": 0.8336489796638489
+                "translation 0x2810": {
+                    "0x282c": 0.0,
+                    "0x283c": 0.0,
+                    "0x284c": 0.0
                 }
             },
-            "type 0x20cc": "effect",
-            "uuid 0x20dc": "{d96d063b-59ac-4940-a51d-7b3dbfd5e4e6}"
+            "type 0x252c": "effect",
+            "uuid 0x253c": "{a9503d08-eed7-48b8-9a9b-829e29899fab}"
         },
-        "0x23f0": {
-            "clips 0x2560": {
-                "0x2580": {
-                    "endFrame 0x25cc": 494.0,
-                    "startFrame 0x25dc": 240.0
+        "0x2850": {
+            "clips 0x29c0": {
+                "0x29e0": {
+                    "endFrame 0x2a2c": 494.0,
+                    "startFrame 0x2a3c": 170.0
                 }
             },
-            "effect 0x25e0": {
-                "modelName 0x262c": "ef_dm_dm06_00400m_pl_glw_02",
-                "scale 0x2640": {
-                    "0x265c": 0.5,
-                    "0x266c": 1.0,
-                    "0x267c": 1.0
+            "effect 0x2a40": {
+                "modelName 0x2a7c": "ef_dm_dm06_00400m_pl_ball_01"
+            },
+            "name 0x295c": "c04_plt",
+            "parentJointName 0x296c": "bg_az5_goal_bus_kw_root",
+            "parentNodeName 0x297c": "bg_az5_goal_bus_kw",
+            "pointlight 0x2a80": {
+                "/root/G2PointLight1/G2PointLightShape1 0x2ac0": {
+                    "lightColorB 0x2b4c": 0.9607843160629272,
+                    "lightColorG 0x2b5c": 1.0,
+                    "lightColorR 0x2b6c": 0.5098039507865906,
+                    "lightIntensity 0x2b7c": 2.0,
+                    "outerRadius 0x2b8c": 22.600000381469727
                 }
             },
-            "name 0x24fc": "c05_cro_glw",
-            "parentJointName 0x250c": "bn_root",
-            "parentNodeName 0x251c": "cro01",
-            "pointlight 0x2680": {
-                "/root/G2PointLight1/G2PointLightShape1 0x26c0": {
-                    "lightColorB 0x274c": 1.0,
-                    "lightColorG 0x275c": 0.9490196108818054,
-                    "lightColorR 0x276c": 0.772549033164978,
-                    "lightIntensity 0x277c": 4.829999923706055,
-                    "outerRadius 0x278c": 127.80000305175781
+            "transform 0x2b90": {
+                "translation 0x2bd0": {
+                    "0x2bec": 3.3412249088287354,
+                    "0x2bfc": 6.497772216796875,
+                    "0x2c0c": -6.523560047149658
                 }
             },
-            "transform 0x2790": {
-                "rotation 0x27f0": {
-                    "0x280c": 0.0,
-                    "0x281c": 0.0,
-                    "0x282c": 0.0
+            "type 0x29ac": "pointlight",
+            "uuid 0x29bc": "{d158d3f1-bc78-40e0-8b68-e76830ae313f}"
+        },
+        "0x2c10": {
+            "clips 0x2d80": {
+                "0x2da0": {
+                    "endFrame 0x2dfc": 494.0,
+                    "startFrame 0x2e0c": 180.0,
+                    "visibilityOffset 0x2e1c": 60.0
+                }
+            },
+            "effect 0x2e20": {
+                "modelName 0x2e6c": "ef_dm_dm06_00400m_pl_dis_02",
+                "scale 0x2e80": {
+                    "0x2e9c": 1.7000000476837158,
+                    "0x2eac": 1.0,
+                    "0x2ebc": 1.0
+                }
+            },
+            "name 0x2d1c": "c05_bus_dis01",
+            "parentJointName 0x2d2c": "bg_az5_goal_bus_kw_root",
+            "parentNodeName 0x2d3c": "bg_az5_goal_bus_kw",
+            "pointlight 0x2ec0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x2f00": {
+                    "lightColorB 0x2f8c": 1.0,
+                    "lightColorG 0x2f9c": 0.9490196108818054,
+                    "lightColorR 0x2fac": 0.772549033164978,
+                    "lightIntensity 0x2fbc": 4.829999923706055,
+                    "outerRadius 0x2fcc": 127.80000305175781
+                }
+            },
+            "transform 0x2fd0": {
+                "rotation 0x3030": {
+                    "0x304c": 0.0,
+                    "0x305c": 90.0,
+                    "0x306c": 0.0
                 },
-                "translation 0x2830": {
-                    "0x284c": 0.0,
-                    "0x285c": 0.0,
-                    "0x286c": 0.0
+                "translation 0x3070": {
+                    "0x308c": 0.3545759916305542,
+                    "0x309c": 1.752532958984375,
+                    "0x30ac": -1.3743590116500854
                 }
             },
-            "type 0x254c": "effect",
-            "uuid 0x255c": "{4fcf5299-5f64-4ddf-9bc4-d20f36a883df}"
+            "type 0x2d6c": "effect",
+            "uuid 0x2d7c": "{a3e588a3-0725-4721-a708-868a62799e99}"
         },
-        "0x2870": {
-            "clips 0x29e0": {
-                "0x2a00": {
-                    "endFrame 0x2a4c": 239.0,
-                    "startFrame 0x2a5c": 180.0
+        "0x30b0": {
+            "clips 0x3220": {
+                "0x3240": {
+                    "endFrame 0x328c": 494.0,
+                    "startFrame 0x329c": 240.0
                 }
             },
-            "effect 0x2a60": {
-                "modelName 0x2aac": "ef_dm_dm06_00400m_pl_glw_02",
-                "scale 0x2ac0": {
-                    "0x2adc": 0.800000011920929,
-                    "0x2aec": 1.0,
-                    "0x2afc": 1.0
+            "effect 0x32a0": {
+                "modelName 0x32ec": "ef_dm_dm06_00400m_pl_glw_01",
+                "scale 0x3300": {
+                    "0x331c": 0.8299999833106995,
+                    "0x332c": 1.0,
+                    "0x333c": 1.0
                 }
             },
-            "name 0x297c": "c04_cro_glw",
-            "parentJointName 0x298c": "bn_root",
-            "parentNodeName 0x299c": "cro01",
-            "pointlight 0x2b00": {
-                "/root/G2PointLight1/G2PointLightShape1 0x2b40": {
-                    "lightColorB 0x2bcc": 1.0,
-                    "lightColorG 0x2bdc": 0.9490196108818054,
-                    "lightColorR 0x2bec": 0.772549033164978,
-                    "lightIntensity 0x2bfc": 4.829999923706055,
-                    "outerRadius 0x2c0c": 127.80000305175781
+            "name 0x31bc": "c05_bus_glw",
+            "parentJointName 0x31cc": "bg_az5_goal_bus_kw_root",
+            "parentNodeName 0x31dc": "bg_az5_goal_bus_kw",
+            "pointlight 0x3340": {
+                "/root/G2PointLight1/G2PointLightShape1 0x3380": {
+                    "lightColorB 0x340c": 1.0,
+                    "lightColorG 0x341c": 0.9490196108818054,
+                    "lightColorR 0x342c": 0.772549033164978,
+                    "lightIntensity 0x343c": 4.829999923706055,
+                    "outerRadius 0x344c": 127.80000305175781
                 }
             },
-            "transform 0x2c10": {
-                "rotation 0x2c70": {
-                    "0x2c8c": 0.0,
-                    "0x2c9c": 0.0,
-                    "0x2cac": 0.0
+            "transform 0x3450": {
+                "rotation 0x34b0": {
+                    "0x34cc": 0.0,
+                    "0x34dc": 90.0,
+                    "0x34ec": 0.0
                 },
-                "translation 0x2cb0": {
-                    "0x2ccc": 0.0,
-                    "0x2cdc": 0.0,
-                    "0x2cec": 0.0
+                "translation 0x34f0": {
+                    "0x350c": 0.07539399713277817,
+                    "0x351c": 1.6071399450302124,
+                    "0x352c": 0.8336489796638489
                 }
             },
-            "type 0x29cc": "effect",
-            "uuid 0x29dc": "{a9503d08-eed7-48b8-9a9b-829e29899fab}"
+            "type 0x320c": "effect",
+            "uuid 0x321c": "{d96d063b-59ac-4940-a51d-7b3dbfd5e4e6}"
         },
-        "0x2cf0": {
-            "clips 0x2e60": {
-                "0x2e80": {
-                    "endFrame 0x2edc": 494.0,
-                    "startFrame 0x2eec": 180.0,
-                    "visibilityOffset 0x2efc": 60.0
+        "0x3530": {
+            "clips 0x3680": {
+                "0x36a0": {
+                    "endFrame 0x36ec": 494.0,
+                    "startFrame 0x36fc": 240.0
                 }
             },
-            "effect 0x2f00": {
-                "modelName 0x2f4c": "ef_dm_dm06_00400m_pl_dis_02",
-                "scale 0x2f60": {
-                    "0x2f7c": 1.7000000476837158,
-                    "0x2f8c": 1.0,
-                    "0x2f9c": 1.0
+            "effect 0x3700": {
+                "modelName 0x374c": "ef_dm06_00400m_bus_02",
+                "scale 0x3760": {
+                    "0x377c": 1.0000499486923218,
+                    "0x378c": 1.0,
+                    "0x379c": 1.0
                 }
             },
-            "name 0x2dfc": "c05_bus_dis01",
-            "parentJointName 0x2e0c": "bg_az5_goal_bus_kw_root",
-            "parentNodeName 0x2e1c": "bg_az5_goal_bus_kw",
-            "pointlight 0x2fa0": {
-                "/root/G2PointLight1/G2PointLightShape1 0x2fe0": {
-                    "lightColorB 0x306c": 1.0,
-                    "lightColorG 0x307c": 0.9490196108818054,
-                    "lightColorR 0x308c": 0.772549033164978,
-                    "lightIntensity 0x309c": 4.829999923706055,
-                    "outerRadius 0x30ac": 127.80000305175781
+            "name 0x362c": "c05_bus_glw",
+            "parentJointName 0x363c": "bg_az5_goal_bus_kw_root",
+            "parentNodeName 0x364c": "bg_az5_goal_bus_kw",
+            "transform 0x37a0": {
+                "translation 0x37e0": {
+                    "0x37fc": 0.0,
+                    "0x380c": 0.0,
+                    "0x381c": 0.0
                 }
             },
-            "transform 0x30b0": {
-                "rotation 0x3110": {
-                    "0x312c": 0.0,
-                    "0x313c": 90.0,
-                    "0x314c": 0.0
+            "type 0x366c": "effect",
+            "uuid 0x367c": "{f7a1633b-c59e-4234-8148-486da25e9cef}"
+        },
+        "0x3820": {
+            "clips 0x3990": {
+                "0x39b0": {
+                    "endFrame 0x39fc": 494.0,
+                    "startFrame 0x3a0c": 240.0
+                }
+            },
+            "effect 0x3a10": {
+                "modelName 0x3a5c": "ef_dm_dm06_00400m_pl_glw_02",
+                "scale 0x3a70": {
+                    "0x3a8c": 0.5,
+                    "0x3a9c": 1.0,
+                    "0x3aac": 1.0
+                }
+            },
+            "name 0x392c": "c05_cro_glw",
+            "parentJointName 0x393c": "bn_root",
+            "parentNodeName 0x394c": "cro01",
+            "pointlight 0x3ab0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x3af0": {
+                    "lightColorB 0x3b7c": 1.0,
+                    "lightColorG 0x3b8c": 0.9490196108818054,
+                    "lightColorR 0x3b9c": 0.772549033164978,
+                    "lightIntensity 0x3bac": 4.829999923706055,
+                    "outerRadius 0x3bbc": 127.80000305175781
+                }
+            },
+            "transform 0x3bc0": {
+                "rotation 0x3c20": {
+                    "0x3c3c": 0.0,
+                    "0x3c4c": 0.0,
+                    "0x3c5c": 0.0
                 },
-                "translation 0x3150": {
-                    "0x316c": 0.3545759916305542,
-                    "0x317c": 1.752532958984375,
-                    "0x318c": -1.3743590116500854
+                "translation 0x3c60": {
+                    "0x3c7c": 0.0,
+                    "0x3c8c": 0.0,
+                    "0x3c9c": 0.0
                 }
             },
-            "type 0x2e4c": "effect",
-            "uuid 0x2e5c": "{a3e588a3-0725-4721-a708-868a62799e99}"
-        },
-        "0x3190": {
-            "clips 0x32a0": {
-                "0x32c0": {
-                    "endFrame 0x330c": 239.0,
-                    "startFrame 0x331c": 180.0
-                }
-            },
-            "effect 0x3320": {
-                "modelName 0x335c": "ef_dm06_00400m_bus_01"
-            },
-            "name 0x325c": "c04_bus_glw",
-            "parentJointName 0x326c": "bg_az5_goal_bus_kw_root",
-            "parentNodeName 0x327c": "bg_az5_goal_bus_kw",
-            "type 0x328c": "effect",
-            "uuid 0x329c": "{b0399b3a-1453-476c-8768-ebe913bec22a}"
-        },
-        "0x3360": {
-            "clips 0x34d0": {
-                "0x34f0": {
-                    "endFrame 0x353c": 239.0,
-                    "startFrame 0x354c": 180.0
-                }
-            },
-            "effect 0x3550": {
-                "modelName 0x359c": "ef_dm_dm06_00400m_wo_01",
-                "scale 0x35b0": {
-                    "0x35cc": 1.0,
-                    "0x35dc": 1.0,
-                    "0x35ec": 1.0
-                }
-            },
-            "name 0x346c": "c04_bus_wo",
-            "parentJointName 0x347c": "bg_az5_goal_bus_kw_root",
-            "parentNodeName 0x348c": "bg_az5_goal_bus_kw",
-            "pointlight 0x35f0": {
-                "/root/G2PointLight1/G2PointLightShape1 0x3630": {
-                    "lightColorB 0x36bc": 1.0,
-                    "lightColorG 0x36cc": 0.9490196108818054,
-                    "lightColorR 0x36dc": 0.772549033164978,
-                    "lightIntensity 0x36ec": 4.829999923706055,
-                    "outerRadius 0x36fc": 127.80000305175781
-                }
-            },
-            "transform 0x3700": {
-                "rotation 0x3760": {
-                    "0x377c": 78.2710189819336,
-                    "0x378c": -4.518574237823486,
-                    "0x379c": -15.779658317565918
-                },
-                "translation 0x37a0": {
-                    "0x37bc": 5.643058776855469,
-                    "0x37cc": 10.255966186523438,
-                    "0x37dc": 2.116942882537842
-                }
-            },
-            "type 0x34bc": "effect",
-            "uuid 0x34cc": "{7b00c241-6e88-4577-8047-e25547a862c5}"
-        },
-        "0x37e0": {
-            "clips 0x3930": {
-                "0x3950": {
-                    "endFrame 0x399c": 494.0,
-                    "startFrame 0x39ac": 240.0
-                }
-            },
-            "effect 0x39b0": {
-                "modelName 0x39fc": "ef_dm06_00400m_bus_02",
-                "scale 0x3a10": {
-                    "0x3a2c": 1.0000499486923218,
-                    "0x3a3c": 1.0,
-                    "0x3a4c": 1.0
-                }
-            },
-            "name 0x38dc": "c05_bus_glw",
-            "parentJointName 0x38ec": "bg_az5_goal_bus_kw_root",
-            "parentNodeName 0x38fc": "bg_az5_goal_bus_kw",
-            "transform 0x3a50": {
-                "translation 0x3a90": {
-                    "0x3aac": 0.0,
-                    "0x3abc": 0.0,
-                    "0x3acc": 0.0
-                }
-            },
-            "type 0x391c": "effect",
-            "uuid 0x392c": "{f7a1633b-c59e-4234-8148-486da25e9cef}"
-        },
-        "0x3ad0": {
-            "clips 0x3be0": {
-                "0x3c00": {
-                    "endFrame 0x3c4c": 239.0,
-                    "startFrame 0x3c5c": 180.0
-                }
-            },
-            "effect 0x3c60": {
-                "modelName 0x3c9c": "ef_dm06_00400m_bus_02"
-            },
-            "name 0x3b9c": "c04_bus_glw01",
-            "parentJointName 0x3bac": "bg_az5_goal_bus_kw_root",
-            "parentNodeName 0x3bbc": "bg_az5_goal_bus_kw",
-            "type 0x3bcc": "effect",
-            "uuid 0x3bdc": "{11459d91-bfc9-4304-8a64-9d34512ef3ab}"
+            "type 0x397c": "effect",
+            "uuid 0x398c": "{4fcf5299-5f64-4ddf-9bc4-d20f36a883df}"
         },
         "0x480": {
             "clips 0x570": {
@@ -506,58 +483,81 @@
             "uuid 0x8bc": "{c32baa8a-1df4-49fd-887d-b0a4812894a8}"
         },
         "0xac0": {
-            "clips 0xbb0": {
-                "0xbd0": {
-                    "endFrame 0xc2c": 239.0,
-                    "startFrame 0xc3c": 165.0,
-                    "visibilityOffset 0xc4c": 15.0
+            "clips 0xbd0": {
+                "0xbf0": {
+                    "endFrame 0xc3c": 239.0,
+                    "startFrame 0xc4c": 137.0
                 }
             },
             "effect 0xc50": {
-                "modelName 0xc9c": "ef_dm_dm04_00400m_bg_line_02",
-                "scale 0xcb0": {
-                    "0xccc": 5.0,
-                    "0xcdc": 1.0,
-                    "0xcec": 1.0
+                "modelName 0xc8c": "ef_dm_dm06_00400m_glw_out_01"
+            },
+            "name 0xb8c": "c03_camera_glw",
+            "parentJointName 0xb9c": "camera",
+            "transform 0xc90": {
+                "translation 0xcd0": {
+                    "0xcec": 0.0,
+                    "0xcfc": 0.0,
+                    "0xd0c": -0.18000000715255737
                 }
             },
-            "name 0xb7c": "c04_bg_line",
-            "transform 0xcf0": {
-                "rotation 0xd50": {
-                    "0xd6c": 0.0,
-                    "0xd7c": 0.0,
-                    "0xd8c": 0.0
-                },
-                "translation 0xd90": {
-                    "0xdac": -34.44424057006836,
-                    "0xdbc": 417.1974792480469,
-                    "0xdcc": 7.211641788482666
-                }
-            },
-            "type 0xb9c": "effect",
-            "uuid 0xbac": "{47372a9b-f48c-4ba6-8010-de4b1d9ab93f}"
+            "type 0xbbc": "effect",
+            "uuid 0xbcc": "{4cfb7cdb-4621-4e68-86fc-844890dccfd8}"
         },
-        "0xdd0": {
-            "clips 0xee0": {
-                "0xf00": {
-                    "endFrame 0xf4c": 239.0,
-                    "startFrame 0xf5c": 137.0
+        "0xd10": {
+            "clips 0xe60": {
+                "0xe80": {
+                    "endFrame 0xecc": 239.0,
+                    "startFrame 0xedc": 170.0
                 }
             },
-            "effect 0xf60": {
-                "modelName 0xf9c": "ef_dm_dm06_00400m_glw_out_01"
+            "effect 0xee0": {
+                "modelName 0xf1c": "ef_dm_dm06_00400m_pl_ball_01"
             },
-            "name 0xe9c": "c03_camera_glw",
-            "parentJointName 0xeac": "camera",
-            "transform 0xfa0": {
-                "translation 0xfe0": {
-                    "0x100c": 0.0,
-                    "0x101c": -0.18000000715255737,
-                    "0xffc": 0.0
+            "name 0xe0c": "c03_pl_ball",
+            "parentJointName 0xe1c": "bn_root",
+            "parentNodeName 0xe2c": "cro01",
+            "transform 0xf20": {
+                "translation 0xf60": {
+                    "0xf7c": 0.0,
+                    "0xf8c": 0.0,
+                    "0xf9c": 0.0
                 }
             },
-            "type 0xecc": "effect",
-            "uuid 0xedc": "{4cfb7cdb-4621-4e68-86fc-844890dccfd8}"
+            "type 0xe4c": "effect",
+            "uuid 0xe5c": "{63196094-ec0f-4540-8e43-53143a97f23b}"
+        },
+        "0xfa0": {
+            "clips 0x1090": {
+                "0x10b0": {
+                    "endFrame 0x110c": 239.0,
+                    "startFrame 0x111c": 165.0,
+                    "visibilityOffset 0x112c": 15.0
+                }
+            },
+            "effect 0x1130": {
+                "modelName 0x117c": "ef_dm_dm04_00400m_bg_line_02",
+                "scale 0x1190": {
+                    "0x11ac": 5.0,
+                    "0x11bc": 1.0,
+                    "0x11cc": 1.0
+                }
+            },
+            "name 0x105c": "c04_bg_line",
+            "transform 0x11d0": {
+                "rotation 0x1230": {
+                    "0x124c": 0.0,
+                    "0x125c": 0.0,
+                    "0x126c": 0.0
+                },
+                "translation 0x1270": {
+                    "0x128c": -34.44424057006836,
+                    "0x129c": 417.1974792480469,
+                    "0x12ac": 7.211641788482666
+                }
+            },
+            "type 0x107c": "effect",
+            "uuid 0x108c": "{47372a9b-f48c-4ba6-8010-de4b1d9ab93f}"
         }
     }
 }
