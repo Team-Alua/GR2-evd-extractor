@@ -1,1686 +1,1685 @@
 {
-    "animjoint 0x70": {
+    "animjoint": {
         "0x1170": {
-            "anim 0x125c": "attack_a",
-            "attr 0x124c": "Wind",
-            "force 0x13a0": {
+            "anim": "attack_a",
+            "attr": "Wind",
+            "force": {
                 "0x13bc": 15.0,
                 "0x13cc": 10.0
             },
-            "force_vector 0x129c": "charaZ",
-            "layout 0x12f0": {
-                "pos 0x1330": {
+            "force_vector": "charaZ",
+            "layout": {
+                "pos": {
                     "0x134c": 0.0,
                     "0x135c": 0.0,
                     "0x136c": -2.0
                 }
             },
-            "parent 0x127c": "loc_hand_col",
-            "shape 0x12c0": {
+            "parent": "loc_hand_col",
+            "shape": {
                 "0x12dc": "Sphere",
                 "0x12ec": 5.5
             },
-            "timing 0x1370": {
+            "timing": {
                 "0x138c": 53.0,
                 "0x139c": 60.0
             }
         },
         "0x13d0": {
-            "anim 0x148c": "attack_grab_a",
-            "attr 0x146c": "Grab",
-            "layout 0x14f0": {
-                "pos 0x1530": {
+            "anim": "attack_grab_a",
+            "attr": "Grab",
+            "layout": {
+                "pos": {
                     "0x154c": 0.0,
                     "0x155c": 20.0,
                     "0x156c": 0.0
                 }
             },
-            "shape 0x14c0": {
+            "shape": {
                 "0x14dc": "Sphere",
                 "0x14ec": 0.0
             },
-            "timing 0x1570": {
+            "timing": {
                 "0x158c": 36.0,
                 "0x159c": 50.0
             },
-            "userData 0x147c": "grab_punch"
+            "userData": "grab_punch"
         },
         "0x15a0": {
-            "anim 0x165c": "attack_grab_a",
-            "attr 0x163c": "Grab",
-            "parent 0x167c": "loc_hand_col",
-            "shape 0x1690": {
+            "anim": "attack_grab_a",
+            "attr": "Grab",
+            "parent": "loc_hand_col",
+            "shape": {
                 "0x16ac": "Sphere",
                 "0x16bc": 6.0
             },
-            "timing 0x16c0": {
+            "timing": {
                 "0x16dc": 36.0,
                 "0x16ec": 50.0
             },
-            "userData 0x164c": "grab_punch"
+            "userData": "grab_punch"
         },
         "0x16f0": {
-            "anim 0x17bc": "attack_shock_wave",
-            "attr 0x179c": "Attack",
-            "force_vector 0x17ec": "groundBlast",
-            "parent 0x17dc": "bn_c02_spine0",
-            "shape 0x1800": {
+            "anim": "attack_shock_wave",
+            "attr": "Attack",
+            "force_vector": "groundBlast",
+            "parent": "bn_c02_spine0",
+            "shape": {
                 "0x181c": "Sphere",
                 "0x182c": 9.0
             },
-            "timing 0x1830": {
+            "timing": {
                 "0x184c": 106.0,
                 "0x185c": 116.0
             },
-            "userData 0x17ac": "attack_shockwave"
+            "userData": "attack_shockwave"
         },
         "0x1860": {
-            "anim 0x194c": "attack_shock_wave",
-            "attr 0x193c": "Wind",
-            "force 0x1a10": {
+            "anim": "attack_shock_wave",
+            "attr": "Wind",
+            "force": {
                 "0x1a2c": 15.0,
                 "0x1a3c": 10.0
             },
-            "force_vector 0x197c": "outward",
-            "force_vector 0x199c": "groundBlast",
-            "parent 0x196c": "bn_c02_spine0",
-            "shape 0x19b0": {
+            "force_vector": "groundBlast",
+            "parent": "bn_c02_spine0",
+            "shape": {
                 "0x19cc": "Sphere",
                 "0x19dc": 11.5
             },
-            "timing 0x19e0": {
+            "timing": {
                 "0x19fc": 106.0,
                 "0x1a0c": 116.0
             }
         },
         "0x1a40": {
-            "amplitude 0x1bf0": {
+            "amplitude": {
                 "0x1c0c": 0.10000000149011612
             },
-            "anim 0x1b2c": "spawn",
-            "attr 0x1b1c": "CameraShake",
-            "distFalloff 0x1c30": {
+            "anim": "spawn",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x1c4c": 40.0
             },
-            "durationSec 0x1bd0": {
+            "durationSec": {
                 "0x1bec": 1.2000000476837158
             },
-            "frequency 0x1c10": {
+            "frequency": {
                 "0x1c2c": 1.5
             },
-            "timing 0x1b90": {
+            "timing": {
                 "0x1bac": 5.0
             },
-            "waveSlot 0x1bb0": {
+            "waveSlot": {
                 "0x1bcc": 0.0
             }
         },
         "0x1c50": {
-            "amplitude 0x1e00": {
+            "amplitude": {
                 "0x1e1c": 0.15000000596046448
             },
-            "anim 0x1d3c": "spawn",
-            "attr 0x1d2c": "CameraShake",
-            "distFalloff 0x1e40": {
+            "anim": "spawn",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x1e5c": 40.0
             },
-            "durationSec 0x1de0": {
+            "durationSec": {
                 "0x1dfc": 1.0
             },
-            "frequency 0x1e20": {
+            "frequency": {
                 "0x1e3c": 4.0
             },
-            "timing 0x1da0": {
+            "timing": {
                 "0x1dbc": 31.0
             },
-            "waveSlot 0x1dc0": {
+            "waveSlot": {
                 "0x1ddc": 0.0
             }
         },
         "0x1e60": {
-            "amplitude 0x2010": {
+            "amplitude": {
                 "0x202c": 0.05999999865889549
             },
-            "anim 0x1f4c": "spawn",
-            "attr 0x1f3c": "CameraShake",
-            "distFalloff 0x2050": {
+            "anim": "spawn",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x206c": 40.0
             },
-            "durationSec 0x1ff0": {
+            "durationSec": {
                 "0x200c": 6.0
             },
-            "frequency 0x2030": {
+            "frequency": {
                 "0x204c": 3.5
             },
-            "timing 0x1fb0": {
+            "timing": {
                 "0x1fcc": 44.0
             },
-            "waveSlot 0x1fd0": {
+            "waveSlot": {
                 "0x1fec": 0.0
             }
         },
         "0x2070": {
-            "amplitude 0x2220": {
+            "amplitude": {
                 "0x223c": 0.10000000149011612
             },
-            "anim 0x215c": "spawn",
-            "attr 0x214c": "CameraShake",
-            "distFalloff 0x2260": {
+            "anim": "spawn",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x227c": 40.0
             },
-            "durationSec 0x2200": {
+            "durationSec": {
                 "0x221c": 0.4000000059604645
             },
-            "frequency 0x2240": {
+            "frequency": {
                 "0x225c": 5.0
             },
-            "timing 0x21c0": {
+            "timing": {
                 "0x21dc": 112.0
             },
-            "waveSlot 0x21e0": {
+            "waveSlot": {
                 "0x21fc": 0.0
             }
         },
         "0x2280": {
-            "amplitude 0x2430": {
+            "amplitude": {
                 "0x244c": 0.10000000149011612
             },
-            "anim 0x236c": "spawn",
-            "attr 0x235c": "CameraShake",
-            "distFalloff 0x2470": {
+            "anim": "spawn",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x248c": 40.0
             },
-            "durationSec 0x2410": {
+            "durationSec": {
                 "0x242c": 0.6000000238418579
             },
-            "frequency 0x2450": {
+            "frequency": {
                 "0x246c": 5.0
             },
-            "timing 0x23d0": {
+            "timing": {
                 "0x23ec": 144.0
             },
-            "waveSlot 0x23f0": {
+            "waveSlot": {
                 "0x240c": 0.0
             }
         },
         "0x2490": {
-            "amplitude 0x2640": {
+            "amplitude": {
                 "0x265c": 0.10000000149011612
             },
-            "anim 0x257c": "turn_l",
-            "attr 0x256c": "CameraShake",
-            "distFalloff 0x2680": {
+            "anim": "turn_l",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x269c": 30.0
             },
-            "durationSec 0x2620": {
+            "durationSec": {
                 "0x263c": 0.4000000059604645
             },
-            "frequency 0x2660": {
+            "frequency": {
                 "0x267c": 7.0
             },
-            "timing 0x25e0": {
+            "timing": {
                 "0x25fc": 24.0
             },
-            "waveSlot 0x2600": {
+            "waveSlot": {
                 "0x261c": 0.0
             }
         },
         "0x26a0": {
-            "amplitude 0x2850": {
+            "amplitude": {
                 "0x286c": 0.10000000149011612
             },
-            "anim 0x278c": "turn_r",
-            "attr 0x277c": "CameraShake",
-            "distFalloff 0x2890": {
+            "anim": "turn_r",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x28ac": 30.0
             },
-            "durationSec 0x2830": {
+            "durationSec": {
                 "0x284c": 0.4000000059604645
             },
-            "frequency 0x2870": {
+            "frequency": {
                 "0x288c": 7.0
             },
-            "timing 0x27f0": {
+            "timing": {
                 "0x280c": 21.0
             },
-            "waveSlot 0x2810": {
+            "waveSlot": {
                 "0x282c": 0.0
             }
         },
         "0x28b0": {
-            "amplitude 0x2a80": {
+            "amplitude": {
                 "0x2a9c": 0.15000000596046448
             },
-            "anim 0x29ac": "attack_a",
-            "attr 0x299c": "CameraShake",
-            "distFalloff 0x2ac0": {
+            "anim": "attack_a",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x2adc": 40.0
             },
-            "durationSec 0x2a60": {
+            "durationSec": {
                 "0x2a7c": 2.0
             },
-            "frequency 0x2aa0": {
+            "frequency": {
                 "0x2abc": 2.0
             },
-            "parent 0x29bc": "loc_hand_col",
-            "timing 0x2a20": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x2a3c": 2.0
             },
-            "waveSlot 0x2a40": {
+            "waveSlot": {
                 "0x2a5c": 0.0
             }
         },
         "0x2ae0": {
-            "amplitude 0x2cb0": {
+            "amplitude": {
                 "0x2ccc": 1.25
             },
-            "anim 0x2bdc": "attack_a",
-            "attr 0x2bcc": "CameraShake",
-            "distFalloff 0x2cf0": {
+            "anim": "attack_a",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x2d0c": 40.0
             },
-            "durationSec 0x2c90": {
+            "durationSec": {
                 "0x2cac": 0.30000001192092896
             },
-            "frequency 0x2cd0": {
+            "frequency": {
                 "0x2cec": 5.0
             },
-            "parent 0x2bec": "loc_hand_col",
-            "timing 0x2c50": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x2c6c": 20.0
             },
-            "waveSlot 0x2c70": {
+            "waveSlot": {
                 "0x2c8c": 0.0
             }
         },
         "0x2d10": {
-            "amplitude 0x2ee0": {
+            "amplitude": {
                 "0x2efc": 0.4000000059604645
             },
-            "anim 0x2e0c": "attack_a",
-            "attr 0x2dfc": "CameraShake",
-            "distFalloff 0x2f20": {
+            "anim": "attack_a",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x2f3c": 40.0
             },
-            "durationSec 0x2ec0": {
+            "durationSec": {
                 "0x2edc": 0.699999988079071
             },
-            "frequency 0x2f00": {
+            "frequency": {
                 "0x2f1c": 4.0
             },
-            "parent 0x2e1c": "loc_hand_col",
-            "timing 0x2e80": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x2e9c": 38.0
             },
-            "waveSlot 0x2ea0": {
+            "waveSlot": {
                 "0x2ebc": 0.0
             }
         },
         "0x2f40": {
-            "amplitude 0x30f0": {
+            "amplitude": {
                 "0x310c": 0.05000000074505806
             },
-            "anim 0x302c": "attack_shock_wave",
-            "attr 0x301c": "CameraShake",
-            "distFalloff 0x3130": {
+            "anim": "attack_shock_wave",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x314c": 40.0
             },
-            "durationSec 0x30d0": {
+            "durationSec": {
                 "0x30ec": 6.0
             },
-            "frequency 0x3110": {
+            "frequency": {
                 "0x312c": 10.0
             },
-            "timing 0x3090": {
+            "timing": {
                 "0x30ac": 10.0
             },
-            "waveSlot 0x30b0": {
+            "waveSlot": {
                 "0x30cc": 0.0
             }
         },
         "0x3150": {
-            "amplitude 0x3300": {
+            "amplitude": {
                 "0x331c": 0.11999999731779099
             },
-            "anim 0x323c": "attack_shock_wave",
-            "attr 0x322c": "CameraShake",
-            "distFalloff 0x3340": {
+            "anim": "attack_shock_wave",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x335c": 40.0
             },
-            "durationSec 0x32e0": {
+            "durationSec": {
                 "0x32fc": 1.0
             },
-            "frequency 0x3320": {
+            "frequency": {
                 "0x333c": 5.0
             },
-            "timing 0x32a0": {
+            "timing": {
                 "0x32bc": 110.0
             },
-            "waveSlot 0x32c0": {
+            "waveSlot": {
                 "0x32dc": 0.0
             }
         },
         "0x3360": {
-            "amplitude 0x3510": {
+            "amplitude": {
                 "0x352c": 0.10000000149011612
             },
-            "anim 0x344c": "damage_leg_a",
-            "attr 0x343c": "CameraShake",
-            "distFalloff 0x3550": {
+            "anim": "damage_leg_a",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x356c": 40.0
             },
-            "durationSec 0x34f0": {
+            "durationSec": {
                 "0x350c": 0.699999988079071
             },
-            "frequency 0x3530": {
+            "frequency": {
                 "0x354c": 3.0
             },
-            "timing 0x34b0": {
+            "timing": {
                 "0x34cc": 57.0
             },
-            "waveSlot 0x34d0": {
+            "waveSlot": {
                 "0x34ec": 0.0
             }
         },
         "0x3570": {
-            "amplitude 0x3720": {
+            "amplitude": {
                 "0x373c": 0.10000000149011612
             },
-            "anim 0x365c": "ash",
-            "attr 0x364c": "CameraShake",
-            "distFalloff 0x3760": {
+            "anim": "ash",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x377c": 40.0
             },
-            "durationSec 0x3700": {
+            "durationSec": {
                 "0x371c": 0.5
             },
-            "frequency 0x3740": {
+            "frequency": {
                 "0x375c": 5.0
             },
-            "timing 0x36c0": {
+            "timing": {
                 "0x36dc": 113.0
             },
-            "waveSlot 0x36e0": {
+            "waveSlot": {
                 "0x36fc": 0.0
             }
         },
         "0x3780": {
-            "amplitude 0x3930": {
+            "amplitude": {
                 "0x394c": 0.15000000596046448
             },
-            "anim 0x386c": "ash",
-            "attr 0x385c": "CameraShake",
-            "distFalloff 0x3970": {
+            "anim": "ash",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x398c": 50.0
             },
-            "durationSec 0x3910": {
+            "durationSec": {
                 "0x392c": 1.5
             },
-            "frequency 0x3950": {
+            "frequency": {
                 "0x396c": 3.0
             },
-            "timing 0x38d0": {
+            "timing": {
                 "0x38ec": 150.0
             },
-            "waveSlot 0x38f0": {
+            "waveSlot": {
                 "0x390c": 0.0
             }
         },
         "0x3990": {
-            "amplitude 0x3b40": {
+            "amplitude": {
                 "0x3b5c": 0.10000000149011612
             },
-            "anim 0x3a7c": "ash_punchType",
-            "attr 0x3a6c": "CameraShake",
-            "distFalloff 0x3b80": {
+            "anim": "ash_punchType",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x3b9c": 40.0
             },
-            "durationSec 0x3b20": {
+            "durationSec": {
                 "0x3b3c": 0.5
             },
-            "frequency 0x3b60": {
+            "frequency": {
                 "0x3b7c": 5.0
             },
-            "timing 0x3ae0": {
+            "timing": {
                 "0x3afc": 113.0
             },
-            "waveSlot 0x3b00": {
+            "waveSlot": {
                 "0x3b1c": 0.0
             }
         },
         "0x3ba0": {
-            "amplitude 0x3d50": {
+            "amplitude": {
                 "0x3d6c": 0.15000000596046448
             },
-            "anim 0x3c8c": "ash_punchType",
-            "attr 0x3c7c": "CameraShake",
-            "distFalloff 0x3d90": {
+            "anim": "ash_punchType",
+            "attr": "CameraShake",
+            "distFalloff": {
                 "0x3dac": 50.0
             },
-            "durationSec 0x3d30": {
+            "durationSec": {
                 "0x3d4c": 1.5
             },
-            "frequency 0x3d70": {
+            "frequency": {
                 "0x3d8c": 3.0
             },
-            "timing 0x3cf0": {
+            "timing": {
                 "0x3d0c": 150.0
             },
-            "waveSlot 0x3d10": {
+            "waveSlot": {
                 "0x3d2c": 0.0
             }
         },
         "0x3db0": {
-            "anim 0x3e1c": "spawn",
-            "attr 0x3e30": {
+            "anim": "spawn",
+            "attr": {
                 "0x3e4c": "Sound",
                 "0x3e5c": "ene_giant_emerge"
             },
-            "timing 0x3e60": {
+            "timing": {
                 "0x3e7c": 0.0
             }
         },
         "0x3e80": {
-            "anim 0x3eec": "spawn",
-            "attr 0x3f00": {
+            "anim": "spawn",
+            "attr": {
                 "0x3f1c": "Sound",
                 "0x3f2c": "ene_giant_open"
             },
-            "timing 0x3f30": {
+            "timing": {
                 "0x3f4c": 3.0
             }
         },
         "0x3f50": {
-            "anim 0x3fbc": "spawn",
-            "attr 0x3fd0": {
+            "anim": "spawn",
+            "attr": {
                 "0x3fec": "Sound",
                 "0x3ffc": "ene_giant_emerge_righthand"
             },
-            "timing 0x4000": {
+            "timing": {
                 "0x401c": 6.0
             }
         },
         "0x4020": {
-            "anim 0x40ac": "spawn",
-            "attr 0x40d0": {
+            "anim": "spawn",
+            "attr": {
                 "0x40ec": "Sound",
                 "0x40fc": "ene_giant_vo_emerge"
             },
-            "timing 0x4120": {
+            "timing": {
                 "0x413c": 68.0
             },
-            "voice 0x4100": {
+            "voice": {
                 "0x411c": 1.0
             }
         },
         "0x4140": {
-            "anim 0x41ac": "spawn",
-            "attr 0x41c0": {
+            "anim": "spawn",
+            "attr": {
                 "0x41dc": "Sound",
                 "0x41ec": "ene_giant_emerge_leftfoot"
             },
-            "timing 0x41f0": {
+            "timing": {
                 "0x420c": 117.0
             }
         },
         "0x4210": {
-            "anim 0x427c": "spawn",
-            "attr 0x4290": {
+            "anim": "spawn",
+            "attr": {
                 "0x42ac": "Sound",
                 "0x42bc": "ene_giant_emerge_rightfoot"
             },
-            "timing 0x42c0": {
+            "timing": {
                 "0x42dc": 150.0
             }
         },
         "0x42e0": {
-            "anim 0x434c": "spawn",
-            "attr 0x4360": {
+            "anim": "spawn",
+            "attr": {
                 "0x437c": "Sound",
                 "0x438c": "ene_giant_emerge_rightfoot"
             },
-            "timing 0x4390": {
+            "timing": {
                 "0x43ac": 148.0
             }
         },
         "0x43b0": {
-            "anim 0x441c": "spawn",
-            "attr 0x4430": {
+            "anim": "spawn",
+            "attr": {
                 "0x444c": "Sound",
                 "0x445c": "ene_giant_emerge_stand"
             },
-            "timing 0x4460": {
+            "timing": {
                 "0x447c": 156.0
             }
         },
         "0x4480": {
-            "anim 0x44ec": "spawn",
-            "attr 0x4500": {
+            "anim": "spawn",
+            "attr": {
                 "0x451c": "Sound",
                 "0x452c": "ene_giant_hole_close"
             },
-            "timing 0x4530": {
+            "timing": {
                 "0x454c": 158.0
             }
         },
         "0x4550": {
-            "anim 0x45bc": "ash",
-            "attr 0x45d0": {
+            "anim": "ash",
+            "attr": {
                 "0x45ec": "Sound",
                 "0x45fc": "ene_giant_footstep"
             },
-            "timing 0x4600": {
+            "timing": {
                 "0x461c": 10.0
             }
         },
         "0x4620": {
-            "anim 0x46ac": "ash",
-            "attr 0x46d0": {
+            "anim": "ash",
+            "attr": {
                 "0x46ec": "Sound",
                 "0x46fc": "ene_giant_vo_damaged"
             },
-            "timing 0x4720": {
+            "timing": {
                 "0x473c": 100.0
             },
-            "voice 0x4700": {
+            "voice": {
                 "0x471c": 1.0
             }
         },
         "0x4740": {
-            "anim 0x47ac": "ash",
-            "attr 0x47c0": {
+            "anim": "ash",
+            "attr": {
                 "0x47dc": "Sound",
                 "0x47ec": "ene_giant_down_knee"
             },
-            "timing 0x47f0": {
+            "timing": {
                 "0x480c": 118.0
             }
         },
         "0x4810": {
-            "anim 0x487c": "ash",
-            "attr 0x4890": {
+            "anim": "ash",
+            "attr": {
                 "0x48ac": "Sound",
                 "0x48bc": "ene_giant_down_head"
             },
-            "timing 0x48c0": {
+            "timing": {
                 "0x48dc": 156.0
             }
         },
         "0x48e0": {
-            "anim 0x494c": "ash",
-            "attr 0x4960": {
+            "anim": "ash",
+            "attr": {
                 "0x497c": "Sound",
                 "0x498c": "ene_giant_down_disappear"
             },
-            "timing 0x4990": {
+            "timing": {
                 "0x49ac": 151.0
             }
         },
         "0x49b0": {
-            "anim 0x4a1c": "ash_PunchType",
-            "attr 0x4a30": {
+            "anim": "ash_PunchType",
+            "attr": {
                 "0x4a4c": "Sound",
                 "0x4a5c": "ene_giant_footstep"
             },
-            "timing 0x4a60": {
+            "timing": {
                 "0x4a7c": 10.0
             }
         },
         "0x4a80": {
-            "anim 0x4b0c": "ash_PunchType",
-            "attr 0x4b30": {
+            "anim": "ash_PunchType",
+            "attr": {
                 "0x4b4c": "Sound",
                 "0x4b5c": "ene_giant_vo_damaged"
             },
-            "timing 0x4b80": {
+            "timing": {
                 "0x4b9c": 100.0
             },
-            "voice 0x4b60": {
+            "voice": {
                 "0x4b7c": 1.0
             }
         },
         "0x4ba0": {
-            "anim 0x4c0c": "ash_PunchType",
-            "attr 0x4c20": {
+            "anim": "ash_PunchType",
+            "attr": {
                 "0x4c3c": "Sound",
                 "0x4c4c": "ene_giant_down_knee"
             },
-            "timing 0x4c50": {
+            "timing": {
                 "0x4c6c": 118.0
             }
         },
         "0x4c70": {
-            "anim 0x4cdc": "ash_PunchType",
-            "attr 0x4cf0": {
+            "anim": "ash_PunchType",
+            "attr": {
                 "0x4d0c": "Sound",
                 "0x4d1c": "ene_giant_down_head"
             },
-            "timing 0x4d20": {
+            "timing": {
                 "0x4d3c": 156.0
             }
         },
         "0x4d40": {
-            "anim 0x4dac": "ash_PunchType",
-            "attr 0x4dc0": {
+            "anim": "ash_PunchType",
+            "attr": {
                 "0x4ddc": "Sound",
                 "0x4dec": "ene_giant_down_disappear"
             },
-            "timing 0x4df0": {
+            "timing": {
                 "0x4e0c": 151.0
             }
         },
         "0x4e10": {
-            "anim 0x4e7c": "ash_punchType",
-            "attr 0x4e90": {
+            "anim": "ash_punchType",
+            "attr": {
                 "0x4eac": "Sound",
                 "0x4ebc": "ene_giant_footstep"
             },
-            "timing 0x4ec0": {
+            "timing": {
                 "0x4edc": 10.0
             }
         },
         "0x4ee0": {
-            "anim 0x4f6c": "ash_punchType",
-            "attr 0x4f90": {
+            "anim": "ash_punchType",
+            "attr": {
                 "0x4fac": "Sound",
                 "0x4fbc": "ene_giant_vo_damaged"
             },
-            "timing 0x4fe0": {
+            "timing": {
                 "0x4ffc": 100.0
             },
-            "voice 0x4fc0": {
+            "voice": {
                 "0x4fdc": 1.0
             }
         },
         "0x5000": {
-            "anim 0x506c": "ash_punchType",
-            "attr 0x5080": {
+            "anim": "ash_punchType",
+            "attr": {
                 "0x509c": "Sound",
                 "0x50ac": "ene_giant_down_knee"
             },
-            "timing 0x50b0": {
+            "timing": {
                 "0x50cc": 118.0
             }
         },
         "0x50d0": {
-            "anim 0x513c": "ash_punchType",
-            "attr 0x5150": {
+            "anim": "ash_punchType",
+            "attr": {
                 "0x516c": "Sound",
                 "0x517c": "ene_giant_down_head"
             },
-            "timing 0x5180": {
+            "timing": {
                 "0x519c": 156.0
             }
         },
         "0x51a0": {
-            "anim 0x520c": "turn_l",
-            "attr 0x5220": {
+            "anim": "turn_l",
+            "attr": {
                 "0x523c": "Sound",
                 "0x524c": "ene_giant_footstep"
             },
-            "timing 0x5250": {
+            "timing": {
                 "0x526c": 19.0
             }
         },
         "0x5270": {
-            "anim 0x52dc": "turn_l",
-            "attr 0x52f0": {
+            "anim": "turn_l",
+            "attr": {
                 "0x530c": "Sound",
                 "0x531c": "ene_giant_footstep"
             },
-            "timing 0x5320": {
+            "timing": {
                 "0x533c": 44.0
             }
         },
         "0x5340": {
-            "anim 0x53ac": "turn_r",
-            "attr 0x53c0": {
+            "anim": "turn_r",
+            "attr": {
                 "0x53dc": "Sound",
                 "0x53ec": "ene_giant_footstep"
             },
-            "timing 0x53f0": {
+            "timing": {
                 "0x540c": 21.0
             }
         },
         "0x5410": {
-            "anim 0x547c": "turn_r",
-            "attr 0x5490": {
+            "anim": "turn_r",
+            "attr": {
                 "0x54ac": "Sound",
                 "0x54bc": "ene_giant_footstep"
             },
-            "timing 0x54c0": {
+            "timing": {
                 "0x54dc": 54.0
             }
         },
         "0x54e0": {
-            "anim 0x554c": "attack_a",
-            "attr 0x5560": {
+            "anim": "attack_a",
+            "attr": {
                 "0x557c": "Sound",
                 "0x558c": "ene_giant_footstep"
             },
-            "timing 0x5590": {
+            "timing": {
                 "0x55ac": 15.0
             }
         },
         "0x55b0": {
-            "anim 0x561c": "attack_a",
-            "attr 0x5630": {
+            "anim": "attack_a",
+            "attr": {
                 "0x564c": "Sound",
                 "0x565c": "ene_giant_footstep"
             },
-            "timing 0x5660": {
+            "timing": {
                 "0x567c": 30.0
             }
         },
         "0x5680": {
-            "anim 0x56ec": "attack_up_a",
-            "attr 0x5700": {
+            "anim": "attack_up_a",
+            "attr": {
                 "0x571c": "Sound",
                 "0x572c": "ene_giant_footstep"
             },
-            "timing 0x5730": {
+            "timing": {
                 "0x574c": 13.0
             }
         },
         "0x5750": {
-            "anim 0x57bc": "attack_up_a",
-            "attr 0x57d0": {
+            "anim": "attack_up_a",
+            "attr": {
                 "0x57ec": "Sound",
                 "0x57fc": "ene_giant_footstep"
             },
-            "timing 0x5800": {
+            "timing": {
                 "0x581c": 30.0
             }
         },
         "0x5820": {
-            "anim 0x588c": "attack_c",
-            "attr 0x58a0": {
+            "anim": "attack_c",
+            "attr": {
                 "0x58bc": "Sound",
                 "0x58cc": "ene_giant_footstep"
             },
-            "timing 0x58d0": {
+            "timing": {
                 "0x58ec": 70.0
             }
         },
         "0x58f0": {
-            "anim 0x595c": "attack_c",
-            "attr 0x5970": {
+            "anim": "attack_c",
+            "attr": {
                 "0x598c": "Sound",
                 "0x599c": "ene_giant_footstep"
             },
-            "timing 0x59a0": {
+            "timing": {
                 "0x59bc": 94.0
             }
         },
         "0x59c0": {
-            "anim 0x5a2c": "attack_up_c",
-            "attr 0x5a40": {
+            "anim": "attack_up_c",
+            "attr": {
                 "0x5a5c": "Sound",
                 "0x5a6c": "ene_giant_footstep"
             },
-            "timing 0x5a70": {
+            "timing": {
                 "0x5a8c": 74.0
             }
         },
         "0x5a90": {
-            "anim 0x5afc": "attack_up_c",
-            "attr 0x5b10": {
+            "anim": "attack_up_c",
+            "attr": {
                 "0x5b2c": "Sound",
                 "0x5b3c": "ene_giant_footstep"
             },
-            "timing 0x5b40": {
+            "timing": {
                 "0x5b5c": 96.0
             }
         },
         "0x5b60": {
-            "anim 0x5bcc": "touched",
-            "attr 0x5be0": {
+            "anim": "touched",
+            "attr": {
                 "0x5bfc": "Sound",
                 "0x5c0c": "ene_giant_footstep"
             },
-            "timing 0x5c10": {
+            "timing": {
                 "0x5c2c": 11.0
             }
         },
         "0x5c30": {
-            "anim 0x5c9c": "touched",
-            "attr 0x5cb0": {
+            "anim": "touched",
+            "attr": {
                 "0x5ccc": "Sound",
                 "0x5cdc": "ene_giant_footstep"
             },
-            "timing 0x5ce0": {
+            "timing": {
                 "0x5cfc": 66.0
             }
         },
         "0x5d00": {
-            "anim 0x5d6c": "damaged",
-            "attr 0x5d80": {
+            "anim": "damaged",
+            "attr": {
                 "0x5d9c": "Sound",
                 "0x5dac": "ene_giant_footstep"
             },
-            "timing 0x5db0": {
+            "timing": {
                 "0x5dcc": 11.0
             }
         },
         "0x5dd0": {
-            "anim 0x5e3c": "damaged",
-            "attr 0x5e50": {
+            "anim": "damaged",
+            "attr": {
                 "0x5e6c": "Sound",
                 "0x5e7c": "ene_giant_footstep"
             },
-            "timing 0x5e80": {
+            "timing": {
                 "0x5e9c": 66.0
             }
         },
         "0x5ea0": {
-            "anim 0x5f0c": "damaged_front",
-            "attr 0x5f20": {
+            "anim": "damaged_front",
+            "attr": {
                 "0x5f3c": "Sound",
                 "0x5f4c": "ene_giant_footstep"
             },
-            "timing 0x5f50": {
+            "timing": {
                 "0x5f6c": 11.0
             }
         },
         "0x5f70": {
-            "anim 0x5fdc": "damaged_front",
-            "attr 0x5ff0": {
+            "anim": "damaged_front",
+            "attr": {
                 "0x600c": "Sound",
                 "0x601c": "ene_giant_footstep"
             },
-            "timing 0x6020": {
+            "timing": {
                 "0x603c": 66.0
             }
         },
         "0x6040": {
-            "anim 0x60ac": "damaged_back",
-            "attr 0x60c0": {
+            "anim": "damaged_back",
+            "attr": {
                 "0x60dc": "Sound",
                 "0x60ec": "ene_giant_footstep"
             },
-            "timing 0x60f0": {
+            "timing": {
                 "0x610c": 16.0
             }
         },
         "0x6110": {
-            "anim 0x617c": "damaged_back",
-            "attr 0x6190": {
+            "anim": "damaged_back",
+            "attr": {
                 "0x61ac": "Sound",
                 "0x61bc": "ene_giant_footstep"
             },
-            "timing 0x61c0": {
+            "timing": {
                 "0x61dc": 87.0
             }
         },
         "0x61e0": {
-            "anim 0x624c": "broken",
-            "attr 0x6260": {
+            "anim": "broken",
+            "attr": {
                 "0x627c": "Sound",
                 "0x628c": "ene_giant_footstep"
             },
-            "timing 0x6290": {
+            "timing": {
                 "0x62ac": 16.0
             }
         },
         "0x62b0": {
-            "anim 0x631c": "broken",
-            "attr 0x6330": {
+            "anim": "broken",
+            "attr": {
                 "0x634c": "Sound",
                 "0x635c": "ene_giant_footstep"
             },
-            "timing 0x6360": {
+            "timing": {
                 "0x637c": 83.0
             }
         },
         "0x6380": {
-            "anim 0x63ec": "damage_leg_a",
-            "attr 0x6400": {
+            "anim": "damage_leg_a",
+            "attr": {
                 "0x641c": "Sound",
                 "0x642c": "ene_giant_footstep"
             },
-            "timing 0x6430": {
+            "timing": {
                 "0x644c": 16.0
             }
         },
         "0x6450": {
-            "anim 0x64bc": "damage_leg_a",
-            "attr 0x64d0": {
+            "anim": "damage_leg_a",
+            "attr": {
                 "0x64ec": "Sound",
                 "0x64fc": "ene_giant_down"
             },
-            "timing 0x6500": {
+            "timing": {
                 "0x651c": 56.0
             }
         },
         "0x6520": {
-            "anim 0x658c": "damage_leg_c",
-            "attr 0x65a0": {
+            "anim": "damage_leg_c",
+            "attr": {
                 "0x65bc": "Sound",
                 "0x65cc": "ene_giant_footstep"
             },
-            "timing 0x65d0": {
+            "timing": {
                 "0x65ec": 63.0
             }
         },
         "0x65f0": {
-            "anim 0x665c": "damage_leg_c",
-            "attr 0x6670": {
+            "anim": "damage_leg_c",
+            "attr": {
                 "0x668c": "Sound",
                 "0x669c": "ene_giant_footstep"
             },
-            "timing 0x66a0": {
+            "timing": {
                 "0x66bc": 80.0
             }
         },
         "0x66c0": {
-            "anim 0x674c": "damaged",
-            "attr 0x6770": {
+            "anim": "damaged",
+            "attr": {
                 "0x678c": "Sound",
                 "0x679c": "ene_giant_vo_damaged"
             },
-            "timing 0x67c0": {
+            "timing": {
                 "0x67dc": 9.0
             },
-            "voice 0x67a0": {
+            "voice": {
                 "0x67bc": 1.0
             }
         },
         "0x67e0": {
-            "anim 0x686c": "damaged_front",
-            "attr 0x6890": {
+            "anim": "damaged_front",
+            "attr": {
                 "0x68ac": "Sound",
                 "0x68bc": "ene_giant_vo_damaged"
             },
-            "timing 0x68e0": {
+            "timing": {
                 "0x68fc": 9.0
             },
-            "voice 0x68c0": {
+            "voice": {
                 "0x68dc": 1.0
             }
         },
         "0x6900": {
-            "anim 0x698c": "damaged_back",
-            "attr 0x69b0": {
+            "anim": "damaged_back",
+            "attr": {
                 "0x69cc": "Sound",
                 "0x69dc": "ene_giant_vo_damaged"
             },
-            "timing 0x6a00": {
+            "timing": {
                 "0x6a1c": 9.0
             },
-            "voice 0x69e0": {
+            "voice": {
                 "0x69fc": 1.0
             }
         },
         "0x6a20": {
-            "anim 0x6aac": "damage_leg_a",
-            "attr 0x6ad0": {
+            "anim": "damage_leg_a",
+            "attr": {
                 "0x6aec": "Sound",
                 "0x6afc": "ene_giant_vo_damaged"
             },
-            "timing 0x6b20": {
+            "timing": {
                 "0x6b3c": 0.0
             },
-            "voice 0x6b00": {
+            "voice": {
                 "0x6b1c": 1.0
             }
         },
         "0x6b40": {
-            "anim 0x6bac": "attack_shock_wave",
-            "attr 0x6bc0": {
+            "anim": "attack_shock_wave",
+            "attr": {
                 "0x6bdc": "Sound",
                 "0x6bec": "ene_giant_shockwave"
             },
-            "timing 0x6bf0": {
+            "timing": {
                 "0x6c0c": 104.0
             }
         },
         "0x6c10": {
-            "anim 0x6c9c": "attack_a",
-            "attr 0x6cc0": {
+            "anim": "attack_a",
+            "attr": {
                 "0x6cdc": "Sound",
                 "0x6cec": "ene_giant_raise"
             },
-            "parent 0x6cac": "loc_hand_col",
-            "timing 0x6cf0": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x6d0c": 17.0
             }
         },
         "0x6d10": {
-            "anim 0x6dac": "attack_a",
-            "attr 0x6de0": {
+            "anim": "attack_a",
+            "attr": {
                 "0x6dfc": "Sound",
                 "0x6e0c": "ene_giant_vo_attack"
             },
-            "parent 0x6dbc": "loc_hand_col",
-            "timing 0x6e30": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x6e4c": 20.0
             },
-            "voice 0x6e10": {
+            "voice": {
                 "0x6e2c": 1.0
             }
         },
         "0x6e50": {
-            "anim 0x6edc": "attack_a",
-            "attr 0x6f00": {
+            "anim": "attack_a",
+            "attr": {
                 "0x6f1c": "Sound",
                 "0x6f2c": "ene_giant_punch"
             },
-            "parent 0x6eec": "loc_hand_col",
-            "timing 0x6f30": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x6f4c": 29.0
             }
         },
         "0x6f50": {
-            "anim 0x6fec": "attack_up_a",
-            "attr 0x7020": {
+            "anim": "attack_up_a",
+            "attr": {
                 "0x703c": "Sound",
                 "0x704c": "ene_giant_vo_attack"
             },
-            "parent 0x6ffc": "loc_hand_col",
-            "timing 0x7070": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x708c": 20.0
             },
-            "voice 0x7050": {
+            "voice": {
                 "0x706c": 1.0
             }
         },
         "0x7090": {
-            "anim 0x711c": "attack_up_a",
-            "attr 0x7140": {
+            "anim": "attack_up_a",
+            "attr": {
                 "0x715c": "Sound",
                 "0x716c": "ene_giant_raise"
             },
-            "parent 0x712c": "loc_hand_col",
-            "timing 0x7170": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x718c": 22.0
             }
         },
         "0x7190": {
-            "anim 0x721c": "attack_up_a",
-            "attr 0x7240": {
+            "anim": "attack_up_a",
+            "attr": {
                 "0x725c": "Sound",
                 "0x726c": "ene_giant_punch"
             },
-            "parent 0x722c": "loc_hand_col",
-            "timing 0x7270": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x728c": 32.0
             }
         },
         "0x7290": {
-            "anim 0x731c": "attack_b_hit",
-            "attr 0x7340": {
+            "anim": "attack_b_hit",
+            "attr": {
                 "0x735c": "Sound",
                 "0x736c": "ene_giant_atk"
             },
-            "parent 0x732c": "loc_hand_col",
-            "timing 0x7370": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x738c": 0.0
             }
         },
         "0x7390": {
-            "anim 0x741c": "attack_up_b_hit",
-            "attr 0x7440": {
+            "anim": "attack_up_b_hit",
+            "attr": {
                 "0x745c": "Sound",
                 "0x746c": "ene_giant_atk"
             },
-            "parent 0x742c": "loc_hand_col",
-            "timing 0x7470": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x748c": 0.0
             }
         },
         "0x7490": {
-            "anim 0x751c": "attack_c",
-            "attr 0x7540": {
+            "anim": "attack_c",
+            "attr": {
                 "0x755c": "Sound",
                 "0x756c": "ene_giant_punch3"
             },
-            "parent 0x752c": "loc_hand_col",
-            "timing 0x7570": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x758c": 10.0
             }
         },
         "0x7590": {
-            "anim 0x761c": "attack_up_c",
-            "attr 0x7640": {
+            "anim": "attack_up_c",
+            "attr": {
                 "0x765c": "Sound",
                 "0x766c": "ene_giant_punch3"
             },
-            "parent 0x762c": "loc_hand_col",
-            "timing 0x7670": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x768c": 10.0
             }
         },
         "0x7690": {
-            "anim 0x771c": "attack_b",
-            "attr 0x7740": {
+            "anim": "attack_b",
+            "attr": {
                 "0x775c": "Sound",
                 "0x776c": "ene_giant_arm_beat"
             },
-            "parent 0x772c": "bn_ra06_forearm2R",
-            "timing 0x7770": {
+            "parent": "bn_ra06_forearm2R",
+            "timing": {
                 "0x778c": 1.0
             }
         },
         "0x7790": {
-            "anim 0x781c": "attack_up_b",
-            "attr 0x7840": {
+            "anim": "attack_up_b",
+            "attr": {
                 "0x785c": "Sound",
                 "0x786c": "ene_giant_arm_beat"
             },
-            "parent 0x782c": "bn_ra06_forearm2R",
-            "timing 0x7870": {
+            "parent": "bn_ra06_forearm2R",
+            "timing": {
                 "0x788c": 1.0
             }
         },
         "0x7890": {
-            "anim 0x791c": "attack_down_b",
-            "attr 0x7940": {
+            "anim": "attack_down_b",
+            "attr": {
                 "0x795c": "Sound",
                 "0x796c": "ene_giant_arm_beat"
             },
-            "parent 0x792c": "bn_ra06_forearm2R",
-            "timing 0x7970": {
+            "parent": "bn_ra06_forearm2R",
+            "timing": {
                 "0x798c": 1.0
             }
         },
         "0x7990": {
-            "anim 0x7a1c": "attack_b_hit",
-            "attr 0x7a40": {
+            "anim": "attack_b_hit",
+            "attr": {
                 "0x7a5c": "Sound",
                 "0x7a6c": "ene_giant_atk"
             },
-            "parent 0x7a2c": "loc_hand_col",
-            "timing 0x7a70": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x7a8c": 0.0
             }
         },
         "0x7a90": {
-            "anim 0x7b1c": "bn_ra06_forearm2R",
-            "attr 0x7b40": {
+            "anim": "bn_ra06_forearm2R",
+            "attr": {
                 "0x7b5c": "Sound",
                 "0x7b6c": "ene_giant_arm_beat"
             },
-            "parent 0x7b2c": "loc_hand_col",
-            "timing 0x7b70": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x7b8c": 3.0
             }
         },
         "0x7b90": {
-            "anim 0x7c1c": "attack_up_b_hit",
-            "attr 0x7c40": {
+            "anim": "attack_up_b_hit",
+            "attr": {
                 "0x7c5c": "Sound",
                 "0x7c6c": "ene_giant_arm_beat"
             },
-            "parent 0x7c2c": "bn_ra06_forearm2R",
-            "timing 0x7c70": {
+            "parent": "bn_ra06_forearm2R",
+            "timing": {
                 "0x7c8c": 3.0
             }
         },
         "0x7c90": {
-            "anim 0x7d1c": "attack_down_b",
-            "attr 0x7d40": {
+            "anim": "attack_down_b",
+            "attr": {
                 "0x7d5c": "Sound",
                 "0x7d6c": "ene_giant_arm_beat"
             },
-            "parent 0x7d2c": "loc_hand_col",
-            "timing 0x7d70": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x7d8c": 3.0
             }
         },
         "0x7d90": {
-            "anim 0x7e1c": "attack_down_b_hit",
-            "attr 0x7e40": {
+            "anim": "attack_down_b_hit",
+            "attr": {
                 "0x7e5c": "Sound",
                 "0x7e6c": "ene_giant_atk"
             },
-            "parent 0x7e2c": "loc_hand_col",
-            "timing 0x7e70": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x7e8c": 0.0
             }
         },
         "0x7e90": {
-            "anim 0x7f1c": "attack_down_b_hit",
-            "attr 0x7f40": {
+            "anim": "attack_down_b_hit",
+            "attr": {
                 "0x7f5c": "Sound",
                 "0x7f6c": "ene_giant_arm_beat"
             },
-            "parent 0x7f2c": "bn_ra06_forearm2R",
-            "timing 0x7f70": {
+            "parent": "bn_ra06_forearm2R",
+            "timing": {
                 "0x7f8c": 3.0
             }
         },
         "0x7f90": {
-            "anim 0x801c": "attack_down_a",
-            "attr 0x8040": {
+            "anim": "attack_down_a",
+            "attr": {
                 "0x805c": "Sound",
                 "0x806c": "ene_giant_raise"
             },
-            "parent 0x802c": "loc_hand_col",
-            "timing 0x8070": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x808c": 8.0
             }
         },
         "0x8090": {
-            "anim 0x811c": "attack_down_a",
-            "attr 0x8140": {
+            "anim": "attack_down_a",
+            "attr": {
                 "0x815c": "Sound",
                 "0x816c": "ene_giant_vo_attack"
             },
-            "parent 0x812c": "loc_hand_col",
-            "timing 0x8170": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x818c": 20.0
             }
         },
         "0x8190": {
-            "anim 0x81fc": "attack_down_a",
-            "attr 0x8210": {
+            "anim": "attack_down_a",
+            "attr": {
                 "0x822c": "Sound",
                 "0x823c": "ene_giant_footstep"
             },
-            "timing 0x8240": {
+            "timing": {
                 "0x825c": 13.0
             }
         },
         "0x8260": {
-            "anim 0x82cc": "attack_down_a",
-            "attr 0x82e0": {
+            "anim": "attack_down_a",
+            "attr": {
                 "0x82fc": "Sound",
                 "0x830c": "ene_giant_footstep"
             },
-            "timing 0x8310": {
+            "timing": {
                 "0x832c": 30.0
             }
         },
         "0x8330": {
-            "anim 0x83bc": "attack_down_a",
-            "attr 0x83e0": {
+            "anim": "attack_down_a",
+            "attr": {
                 "0x83fc": "Sound",
                 "0x840c": "ene_giant_punch"
             },
-            "parent 0x83cc": "loc_hand_col",
-            "timing 0x8410": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x842c": 31.0
             }
         },
         "0x8430": {
-            "anim 0x84bc": "attack_down_c",
-            "attr 0x84e0": {
+            "anim": "attack_down_c",
+            "attr": {
                 "0x84fc": "Sound",
                 "0x850c": "ene_giant_punch3"
             },
-            "parent 0x84cc": "loc_hand_col",
-            "timing 0x8510": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x852c": 10.0
             }
         },
         "0x8530": {
-            "anim 0x85bc": "attack_down_c",
-            "attr 0x85e0": {
+            "anim": "attack_down_c",
+            "attr": {
                 "0x85fc": "Sound",
                 "0x860c": "ene_giant_footstep"
             },
-            "parent 0x85cc": "loc_hand_col",
-            "timing 0x8610": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x862c": 74.0
             }
         },
         "0x8630": {
-            "anim 0x86bc": "attack_down_c",
-            "attr 0x86e0": {
+            "anim": "attack_down_c",
+            "attr": {
                 "0x86fc": "Sound",
                 "0x870c": "ene_giant_footstep"
             },
-            "parent 0x86cc": "loc_hand_col",
-            "timing 0x8710": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x872c": 99.0
             }
         },
         "0x8730": {
-            "anim 0x87bc": "attack_grab_a",
-            "attr 0x87e0": {
+            "anim": "attack_grab_a",
+            "attr": {
                 "0x87fc": "Sound",
                 "0x880c": "ene_giant_footstep"
             },
-            "parent 0x87cc": "loc_hand_col",
-            "timing 0x8810": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x882c": 15.0
             }
         },
         "0x880": {
-            "anim 0x92c": "spawn",
-            "attr 0x90c": "Attack",
-            "shape 0x950": {
+            "anim": "spawn",
+            "attr": "Attack",
+            "shape": {
                 "0x96c": "Sphere",
                 "0x97c": 2.0
             },
-            "timing 0x980": {
+            "timing": {
                 "0x99c": 0.0,
                 "0x9ac": 50.0
             },
-            "userData 0x91c": "spawn"
+            "userData": "spawn"
         },
         "0x8830": {
-            "anim 0x88bc": "attack_grab_a",
-            "attr 0x88e0": {
+            "anim": "attack_grab_a",
+            "attr": {
                 "0x88fc": "Sound",
                 "0x890c": "ene_giant_grasp_arm"
             },
-            "parent 0x88cc": "loc_hand_col",
-            "timing 0x8910": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x892c": 24.0
             }
         },
         "0x8930": {
-            "anim 0x89bc": "attack_grab_a",
-            "attr 0x89e0": {
+            "anim": "attack_grab_a",
+            "attr": {
                 "0x89fc": "Sound",
                 "0x8a0c": "ene_giant_catch"
             },
-            "parent 0x89cc": "loc_hand_col",
-            "timing 0x8a10": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x8a2c": 30.0
             }
         },
         "0x8a30": {
-            "anim 0x8a9c": "attack_grab_a",
-            "attr 0x8ab0": {
+            "anim": "attack_grab_a",
+            "attr": {
                 "0x8acc": "Sound",
                 "0x8adc": "ene_giant_grasp_stand"
             },
-            "timing 0x8ae0": {
+            "timing": {
                 "0x8afc": 83.0
             }
         },
         "0x8b00": {
-            "anim 0x8b8c": "attack_grab_b",
-            "attr 0x8bb0": {
+            "anim": "attack_grab_b",
+            "attr": {
                 "0x8bcc": "Sound",
                 "0x8bdc": "ene_giant_grasp_leftside"
             },
-            "parent 0x8b9c": "loc_hand_col",
-            "timing 0x8be0": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x8bfc": 5.0
             }
         },
         "0x8c00": {
-            "anim 0x8c8c": "attack_grab_b",
-            "attr 0x8cb0": {
+            "anim": "attack_grab_b",
+            "attr": {
                 "0x8ccc": "Sound",
                 "0x8cdc": "ene_giant_grasp"
             },
-            "parent 0x8c9c": "loc_hand_col",
-            "timing 0x8ce0": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x8cfc": 30.0
             }
         },
         "0x8d00": {
-            "anim 0x8d8c": "attack_grab_c",
-            "attr 0x8db0": {
+            "anim": "attack_grab_c",
+            "attr": {
                 "0x8dcc": "Sound",
                 "0x8ddc": "ene_giant_throw"
             },
-            "parent 0x8d9c": "loc_hand_col",
-            "timing 0x8de0": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x8dfc": 24.0
             }
         },
         "0x8e00": {
-            "anim 0x8e6c": "attack_grab_c",
-            "attr 0x8e80": {
+            "anim": "attack_grab_c",
+            "attr": {
                 "0x8e9c": "Sound",
                 "0x8eac": "ene_giant_footstep"
             },
-            "timing 0x8eb0": {
+            "timing": {
                 "0x8ecc": 32.0
             }
         },
         "0x8ed0": {
-            "anim 0x8f3c": "attack_grab_c",
-            "attr 0x8f50": {
+            "anim": "attack_grab_c",
+            "attr": {
                 "0x8f6c": "Sound",
                 "0x8f7c": "ene_giant_footstep"
             },
-            "timing 0x8f80": {
+            "timing": {
                 "0x8f9c": 89.0
             }
         },
         "0x8fa0": {
-            "anim 0x902c": "damage_leg_a",
-            "attr 0x9050": {
+            "anim": "damage_leg_a",
+            "attr": {
                 "0x906c": "Particle",
                 "0x907c": "ef_nev_kem_03"
             },
-            "layout 0x9080": {
-                "pos 0x90c0": {
+            "layout": {
+                "pos": {
                     "0x90dc": 0.0,
                     "0x90ec": 0.0,
                     "0x90fc": 0.0
                 }
             },
-            "timing 0x9100": {
+            "timing": {
                 "0x911c": 59.0
             }
         },
         "0x9120": {
-            "anim 0x91ac": "ash",
-            "attr 0x91d0": {
+            "anim": "ash",
+            "attr": {
                 "0x91ec": "Particle",
                 "0x91fc": "ef_nev_kem_03"
             },
-            "layout 0x9200": {
-                "pos 0x9240": {
+            "layout": {
+                "pos": {
                     "0x925c": 0.0,
                     "0x926c": 0.0,
                     "0x927c": 0.0
                 }
             },
-            "timing 0x9280": {
+            "timing": {
                 "0x929c": 115.0
             }
         },
         "0x92a0": {
-            "anim 0x932c": "ash",
-            "attr 0x9350": {
+            "anim": "ash",
+            "attr": {
                 "0x936c": "Particle",
                 "0x937c": "ef_nev_kem_03"
             },
-            "layout 0x9380": {
-                "pos 0x93c0": {
+            "layout": {
+                "pos": {
                     "0x93dc": 1.0,
                     "0x93ec": 0.0,
                     "0x93fc": 1.5
                 }
             },
-            "timing 0x9400": {
+            "timing": {
                 "0x941c": 156.0
             }
         },
         "0x9420": {
-            "anim 0x94ac": "ash_punchType",
-            "attr 0x94d0": {
+            "anim": "ash_punchType",
+            "attr": {
                 "0x94ec": "Particle",
                 "0x94fc": "ef_nev_kem_03"
             },
-            "layout 0x9500": {
-                "pos 0x9540": {
+            "layout": {
+                "pos": {
                     "0x955c": 0.0,
                     "0x956c": 0.0,
                     "0x957c": 0.0
                 }
             },
-            "timing 0x9580": {
+            "timing": {
                 "0x959c": 115.0
             }
         },
         "0x95a0": {
-            "anim 0x962c": "ash_punchType",
-            "attr 0x9650": {
+            "anim": "ash_punchType",
+            "attr": {
                 "0x966c": "Particle",
                 "0x967c": "ef_nev_kem_03"
             },
-            "layout 0x9680": {
-                "pos 0x96c0": {
+            "layout": {
+                "pos": {
                     "0x96dc": 1.0,
                     "0x96ec": 0.0,
                     "0x96fc": 1.5
                 }
             },
-            "timing 0x9700": {
+            "timing": {
                 "0x971c": 156.0
             }
         },
         "0x9720": {
-            "anim 0x97ac": "attack_shock_wave",
-            "attr 0x97d0": {
+            "anim": "attack_shock_wave",
+            "attr": {
                 "0x97ec": "Particle",
                 "0x97fc": "ef_nev_chg_00"
             },
-            "layout 0x9800": {
-                "pos 0x9840": {
+            "layout": {
+                "pos": {
                     "0x985c": 0.0,
                     "0x986c": 2.5,
                     "0x987c": 0.0
                 }
             },
-            "timing 0x9880": {
+            "timing": {
                 "0x989c": 0.0,
                 "0x98ac": 104.0
             }
         },
         "0x98b0": {
-            "anim 0x993c": "attack_shock_wave",
-            "attr 0x9960": {
+            "anim": "attack_shock_wave",
+            "attr": {
                 "0x997c": "Particle",
                 "0x998c": "ef_nev_swb_00"
             },
-            "layout 0x9990": {
-                "pos 0x99d0": {
+            "layout": {
+                "pos": {
                     "0x99ec": 0.0,
                     "0x99fc": 2.5,
                     "0x9a0c": 0.0
                 }
             },
-            "timing 0x9a10": {
+            "timing": {
                 "0x9a2c": 104.0
             }
         },
         "0x9a30": {
-            "anim 0x9abc": "attack_shock_wave",
-            "attr 0x9ae0": {
+            "anim": "attack_shock_wave",
+            "attr": {
                 "0x9afc": "Particle",
                 "0x9b0c": "ef_nev_sw_01"
             },
-            "layout 0x9b10": {
-                "pos 0x9b50": {
+            "layout": {
+                "pos": {
                     "0x9b6c": 0.0,
                     "0x9b7c": 0.0,
                     "0x9b8c": 0.0
                 }
             },
-            "timing 0x9b90": {
+            "timing": {
                 "0x9bac": 104.0
             }
         },
         "0x9b0": {
-            "anim 0xa7c": "attack_a",
-            "attr 0xa5c": "Attack",
-            "force_vector 0xaac": "charaZ",
-            "parent 0xa9c": "loc_hand_col",
-            "shape 0xac0": {
+            "anim": "attack_a",
+            "attr": "Attack",
+            "force_vector": "charaZ",
+            "parent": "loc_hand_col",
+            "shape": {
                 "0xadc": "Sphere",
                 "0xaec": 1.0
             },
-            "timing 0xaf0": {
+            "timing": {
                 "0xb0c": 36.0,
                 "0xb1c": 53.0
             },
-            "userData 0xa6c": "attack_punch"
+            "userData": "attack_punch"
         },
         "0x9bb0": {
-            "anim 0x9c3c": "attack_a",
-            "attr 0x9c60": {
+            "anim": "attack_a",
+            "attr": {
                 "0x9c7c": "Particle",
                 "0x9c8c": "ef_nev_sw_00"
             },
-            "parent 0x9c4c": "loc_hand_col",
-            "timing 0x9c90": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x9cac": 30.0
             }
         },
         "0x9cb0": {
-            "anim 0x9d3c": "attack_grab_a",
-            "attr 0x9d60": {
+            "anim": "attack_grab_a",
+            "attr": {
                 "0x9d7c": "Particle",
                 "0x9d8c": "ef_nev_pline_02"
             },
-            "parent 0x9d4c": "loc_hand_col",
-            "timing 0x9d90": {
+            "parent": "loc_hand_col",
+            "timing": {
                 "0x9dac": 34.0
             }
         },
         "0xb20": {
-            "anim 0xbdc": "attack_a",
-            "attr 0xbbc": "Attack",
-            "parent 0xbfc": "bn_ra07_forearm3R",
-            "shape 0xc10": {
+            "anim": "attack_a",
+            "attr": "Attack",
+            "parent": "bn_ra07_forearm3R",
+            "shape": {
                 "0xc2c": "Sphere",
                 "0xc3c": 1.0
             },
-            "timing 0xc40": {
+            "timing": {
                 "0xc5c": 36.0,
                 "0xc6c": 53.0
             },
-            "userData 0xbcc": "attack_punch"
+            "userData": "attack_punch"
         },
         "0xc70": {
-            "anim 0xd2c": "attack_a",
-            "attr 0xd0c": "Attack",
-            "parent 0xd4c": "bn_ra06_forearm2R",
-            "shape 0xd60": {
+            "anim": "attack_a",
+            "attr": "Attack",
+            "parent": "bn_ra06_forearm2R",
+            "shape": {
                 "0xd7c": "Sphere",
                 "0xd8c": 1.0
             },
-            "timing 0xd90": {
+            "timing": {
                 "0xdac": 36.0,
                 "0xdbc": 53.0
             },
-            "userData 0xd1c": "attack_punch"
+            "userData": "attack_punch"
         },
         "0xdc0": {
-            "anim 0xe7c": "attack_a",
-            "attr 0xe5c": "Attack",
-            "parent 0xe9c": "bn_ra05_forearm1R",
-            "shape 0xeb0": {
+            "anim": "attack_a",
+            "attr": "Attack",
+            "parent": "bn_ra05_forearm1R",
+            "shape": {
                 "0xecc": "Sphere",
                 "0xedc": 1.0
             },
-            "timing 0xee0": {
+            "timing": {
                 "0xefc": 36.0,
                 "0xf0c": 53.0
             },
-            "userData 0xe6c": "attack_punch"
+            "userData": "attack_punch"
         },
         "0xf10": {
-            "anim 0xffc": "attack_a",
-            "attr 0xfec": "Wind",
-            "force 0x1140": {
+            "anim": "attack_a",
+            "attr": "Wind",
+            "force": {
                 "0x115c": 15.0,
                 "0x116c": 10.0
             },
-            "force_vector 0x103c": "charaZ",
-            "layout 0x1090": {
-                "pos 0x10d0": {
+            "force_vector": "charaZ",
+            "layout": {
+                "pos": {
                     "0x10ec": 0.0,
                     "0x10fc": 0.0,
                     "0x110c": -5.0
                 }
             },
-            "parent 0x101c": "loc_hand_col",
-            "shape 0x1060": {
+            "parent": "loc_hand_col",
+            "shape": {
                 "0x107c": "Sphere",
                 "0x108c": 5.5
             },
-            "timing 0x1110": {
+            "timing": {
                 "0x112c": 36.0,
                 "0x113c": 53.0
             }

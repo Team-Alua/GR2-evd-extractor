@@ -1,790 +1,790 @@
 {
-    "easy 0x2490": {
-        "brain 0x2560": {
-            "ai_grade 0x262c": "boss",
-            "ai_type 0x25fc": "mechbig",
-            "animjoint 0x260c": "mechbig",
-            "race 0x261c": "machine",
-            "type 0x25ec": "EnemyBrain"
+    "easy": {
+        "brain": {
+            "ai_grade": "boss",
+            "ai_type": "mechbig",
+            "animjoint": "mechbig",
+            "race": "machine",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x4810": {
-            "find 0x485c": 100.0,
-            "lose 0x486c": 110.0
+        "enemy_action_common": {
+            "find": 100.0,
+            "lose": 110.0
         },
-        "enemy_actions 0x3d10": {
-            "attack_bomb 0x4540": {
-                "damage_type 0x462c": "normal",
-                "force 0x460c": 1.0,
-                "power 0x45dc": 15.0,
-                "rate_of_bg 0x45fc": 1500.0,
-                "rate_of_power 0x45ec": 15.0,
-                "upper_force 0x461c": 1.0
+        "enemy_actions": {
+            "attack_bomb": {
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 15.0,
+                "rate_of_bg": 1500.0,
+                "rate_of_power": 15.0,
+                "upper_force": 1.0
             },
-            "bomb 0x4310": {
-                "damage_cumulation 0x44bc": 0.0,
-                "damage_type 0x44ac": "blow",
-                "explosion_radius 0x450c": 3.5,
-                "explosion_time 0x451c": 0.10000000149011612,
-                "force 0x448c": 1.0,
-                "free 0x453c": 3.0,
-                "height 0x44dc": 2.5,
-                "ignore_super_armor 0x452c": true,
-                "interval 0x44ec": 5.0,
-                "power 0x445c": 25.0,
-                "range 0x44cc": 10.0,
-                "rate_of_bg 0x447c": 2500.0,
-                "rate_of_power 0x446c": 12.0,
-                "upper_force 0x449c": 1.0,
-                "velocity 0x44fc": 5.0
+            "bomb": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "explosion_radius": 3.5,
+                "explosion_time": 0.10000000149011612,
+                "force": 1.0,
+                "free": 3.0,
+                "height": 2.5,
+                "ignore_super_armor": true,
+                "interval": 5.0,
+                "power": 25.0,
+                "range": 10.0,
+                "rate_of_bg": 2500.0,
+                "rate_of_power": 12.0,
+                "upper_force": 1.0,
+                "velocity": 5.0
             },
-            "fall 0x4720": {
-                "damage_cumulation 0x480c": 0.0,
-                "damage_type 0x47fc": "normal",
-                "force 0x47ec": 1.0,
-                "power 0x47bc": 15.0,
-                "rate_of_bg 0x47dc": 220.0,
-                "rate_of_power 0x47cc": 1.0
+            "fall": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 15.0,
+                "rate_of_bg": 220.0,
+                "rate_of_power": 1.0
             },
-            "kick 0x4630": {
-                "damage_cumulation 0x471c": 1000.0,
-                "damage_type 0x470c": "normal",
-                "force 0x46fc": 1.0,
-                "power 0x46cc": 1.0,
-                "rate_of_bg 0x46ec": 150.0,
-                "rate_of_power 0x46dc": -1.0
+            "kick": {
+                "damage_cumulation": 1000.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 1.0,
+                "rate_of_bg": 150.0,
+                "rate_of_power": -1.0
             },
-            "laser 0x3fb0": {
-                "damage_cumulation 0x411c": 0.0,
-                "damage_type 0x410c": "blow",
-                "force 0x40ec": 2.0,
-                "free 0x415c": 200.0,
-                "ignore_super_armor 0x414c": true,
-                "interval 0x412c": 1.0,
-                "power 0x40bc": 70.0,
-                "rate_of_bg 0x40dc": 7000.0,
-                "rate_of_power 0x40cc": 30.0,
-                "upper_force 0x40fc": 1.0,
-                "velocity 0x413c": 500.0
+            "laser": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "force": 2.0,
+                "free": 200.0,
+                "ignore_super_armor": true,
+                "interval": 1.0,
+                "power": 70.0,
+                "rate_of_bg": 7000.0,
+                "rate_of_power": 30.0,
+                "upper_force": 1.0,
+                "velocity": 500.0
             },
-            "missile 0x4160": {
-                "damage_cumulation 0x42cc": 0.0,
-                "damage_type 0x42bc": "blow",
-                "explosion_radius 0x42ec": 2.0,
-                "explosion_time 0x42fc": 0.20000000298023224,
-                "force 0x429c": 2.0,
-                "ignore_super_armor 0x430c": true,
-                "interval 0x42dc": 3.0,
-                "power 0x426c": 25.0,
-                "rate_of_bg 0x428c": 2500.0,
-                "rate_of_power 0x427c": 50.0,
-                "upper_force 0x42ac": 1.0
+            "missile": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "explosion_radius": 2.0,
+                "explosion_time": 0.20000000298023224,
+                "force": 2.0,
+                "ignore_super_armor": true,
+                "interval": 3.0,
+                "power": 25.0,
+                "rate_of_bg": 2500.0,
+                "rate_of_power": 50.0,
+                "upper_force": 1.0
             },
-            "vulcan 0x3e20": {
-                "damage_cumulation 0x3f6c": 1000.0,
-                "damage_type 0x3f5c": "normal",
-                "explosion_radius 0x3f9c": 0.5,
-                "explosion_time 0x3fac": 0.10000000149011612,
-                "force 0x3f4c": 1.0,
-                "interval 0x3f7c": 2.0,
-                "power 0x3f1c": 20.0,
-                "rate_of_bg 0x3f3c": 2000.0,
-                "rate_of_power 0x3f2c": 40.0,
-                "velocity 0x3f8c": 25.0
+            "vulcan": {
+                "damage_cumulation": 1000.0,
+                "damage_type": "normal",
+                "explosion_radius": 0.5,
+                "explosion_time": 0.10000000149011612,
+                "force": 1.0,
+                "interval": 2.0,
+                "power": 20.0,
+                "rate_of_bg": 2000.0,
+                "rate_of_power": 40.0,
+                "velocity": 25.0
             }
         },
-        "enemy_body 0x2630": {
-            "battle_field_prio 0x26ac": 10.0,
-            "battle_field_range 0x269c": 20.0,
-            "health 0x268c": 100.0
+        "enemy_body": {
+            "battle_field_prio": 10.0,
+            "battle_field_range": 20.0,
+            "health": 100.0
         },
-        "enemy_parts 0x26b0": {
-            "loc_mclrg01_chest_col 0x3c50": {
-                "enable_meshcoll 0x3c9c": true,
-                "health 0x3cac": 1000000.0
+        "enemy_parts": {
+            "loc_mclrg01_chest_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_chimney_col 0x3bf0": {
-                "enable_meshcoll 0x3c3c": true,
-                "health 0x3c4c": 1000000.0
+            "loc_mclrg01_chimney_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_core_back 0x2980": {
-                "angle 0x2bec": 360.0,
-                "body_damage 0x2b2c": 100.0,
-                "core 0x2bdc": true,
-                "crowspecial_rate 0x2bbc": 0.5,
-                "debribullet_rate 0x2b9c": 0.6000000238418579,
-                "drillkick_rate 0x2bac": 0.6000000238418579,
-                "gravitythrow_rate 0x2b6c": 1.0,
-                "gravitytyphoon_rate 0x2b4c": 1.0,
-                "health 0x2b1c": 1000.0,
-                "homing_angle 0x2bfc": 240.0,
-                "lockon 0x2bcc": true,
-                "microblackhole_rate 0x2b5c": 1.0,
-                "offset_y 0x2c0c": 0.5,
-                "penetrate_rate 0x2b7c": 0.25,
-                "scratchtornado_rate 0x2b3c": 0.25,
-                "vortex_rate 0x2b8c": 1.0
+            "loc_mclrg01_core_back": {
+                "angle": 360.0,
+                "body_damage": 100.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 1000.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.5,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_core_bl 0x3070": {
-                "angle 0x327c": 360.0,
-                "core 0x326c": true,
-                "crowspecial_rate 0x324c": 0.5,
-                "debribullet_rate 0x322c": 0.6000000238418579,
-                "drillkick_rate 0x323c": 0.6000000238418579,
-                "gravitythrow_rate 0x31fc": 1.0,
-                "gravitytyphoon_rate 0x31dc": 1.0,
-                "health 0x31bc": 400.0,
-                "homing_angle 0x328c": 240.0,
-                "lockon 0x325c": true,
-                "microblackhole_rate 0x31ec": 1.0,
-                "offset_y 0x329c": 0.30000001192092896,
-                "penetrate_rate 0x320c": 0.25,
-                "scratchtornado_rate 0x31cc": 0.25,
-                "vortex_rate 0x321c": 1.0
+            "loc_mclrg01_core_bl": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_core_br 0x32a0": {
-                "angle 0x34ac": 360.0,
-                "core 0x349c": true,
-                "crowspecial_rate 0x347c": 0.5,
-                "debribullet_rate 0x345c": 0.6000000238418579,
-                "drillkick_rate 0x346c": 0.6000000238418579,
-                "gravitythrow_rate 0x342c": 1.0,
-                "gravitytyphoon_rate 0x340c": 1.0,
-                "health 0x33ec": 400.0,
-                "homing_angle 0x34bc": 240.0,
-                "lockon 0x348c": true,
-                "microblackhole_rate 0x341c": 1.0,
-                "offset_y 0x34cc": 0.30000001192092896,
-                "penetrate_rate 0x343c": 0.25,
-                "scratchtornado_rate 0x33fc": 0.25,
-                "vortex_rate 0x344c": 1.0
+            "loc_mclrg01_core_br": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_core_fl 0x2c10": {
-                "angle 0x2e1c": 360.0,
-                "core 0x2e0c": true,
-                "crowspecial_rate 0x2dec": 0.5,
-                "debribullet_rate 0x2dcc": 0.6000000238418579,
-                "drillkick_rate 0x2ddc": 0.6000000238418579,
-                "gravitythrow_rate 0x2d9c": 1.0,
-                "gravitytyphoon_rate 0x2d7c": 1.0,
-                "health 0x2d5c": 400.0,
-                "homing_angle 0x2e2c": 240.0,
-                "lockon 0x2dfc": true,
-                "microblackhole_rate 0x2d8c": 1.0,
-                "offset_y 0x2e3c": 0.30000001192092896,
-                "penetrate_rate 0x2dac": 0.25,
-                "scratchtornado_rate 0x2d6c": 0.25,
-                "vortex_rate 0x2dbc": 1.0
+            "loc_mclrg01_core_fl": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_core_fr 0x2e40": {
-                "angle 0x304c": 360.0,
-                "core 0x303c": true,
-                "crowspecial_rate 0x301c": 0.5,
-                "debribullet_rate 0x2ffc": 0.6000000238418579,
-                "drillkick_rate 0x300c": 0.6000000238418579,
-                "gravitythrow_rate 0x2fcc": 1.0,
-                "gravitytyphoon_rate 0x2fac": 1.0,
-                "health 0x2f8c": 400.0,
-                "homing_angle 0x305c": 240.0,
-                "lockon 0x302c": true,
-                "microblackhole_rate 0x2fbc": 1.0,
-                "offset_y 0x306c": 0.30000001192092896,
-                "penetrate_rate 0x2fdc": 0.25,
-                "scratchtornado_rate 0x2f9c": 0.25,
-                "vortex_rate 0x2fec": 1.0
+            "loc_mclrg01_core_fr": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_cover_col 0x3cb0": {
-                "enable_meshcoll 0x3cfc": true,
-                "health 0x3d0c": 1000000.0
+            "loc_mclrg01_cover_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_gunslide_l 0x34d0": {
-                "angle 0x36cc": 360.0,
-                "core 0x36bc": true,
-                "crowspecial_rate 0x369c": 0.5,
-                "debribullet_rate 0x367c": 0.6000000238418579,
-                "drillkick_rate 0x368c": 0.6000000238418579,
-                "gravitythrow_rate 0x364c": 1.0,
-                "gravitytyphoon_rate 0x362c": 1.0,
-                "health 0x360c": 300.0,
-                "homing_angle 0x36dc": 240.0,
-                "lockon 0x36ac": true,
-                "microblackhole_rate 0x363c": 1.0,
-                "penetrate_rate 0x365c": 0.25,
-                "scratchtornado_rate 0x361c": 0.25,
-                "vortex_rate 0x366c": 1.0
+            "loc_mclrg01_gunslide_l": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 300.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_gunslide_r 0x36e0": {
-                "angle 0x38dc": 360.0,
-                "core 0x38cc": true,
-                "crowspecial_rate 0x38ac": 0.5,
-                "debribullet_rate 0x388c": 0.6000000238418579,
-                "drillkick_rate 0x389c": 0.6000000238418579,
-                "gravitythrow_rate 0x385c": 1.0,
-                "gravitytyphoon_rate 0x383c": 1.0,
-                "health 0x381c": 300.0,
-                "homing_angle 0x38ec": 240.0,
-                "lockon 0x38bc": true,
-                "microblackhole_rate 0x384c": 1.0,
-                "penetrate_rate 0x386c": 0.25,
-                "scratchtornado_rate 0x382c": 0.25,
-                "vortex_rate 0x387c": 1.0
+            "loc_mclrg01_gunslide_r": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 300.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_waist_col_01 0x38f0": {
-                "enable_meshcoll 0x393c": true,
-                "health 0x394c": 1000000.0
+            "loc_mclrg01_waist_col_01": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_02 0x3950": {
-                "enable_meshcoll 0x399c": true,
-                "health 0x39ac": 1000000.0
+            "loc_mclrg01_waist_col_02": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_03 0x39b0": {
-                "enable_meshcoll 0x39fc": true,
-                "health 0x3a0c": 1000000.0
+            "loc_mclrg01_waist_col_03": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_04 0x3a10": {
-                "enable_meshcoll 0x3a5c": true,
-                "health 0x3a6c": 1000000.0
+            "loc_mclrg01_waist_col_04": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_05 0x3a70": {
-                "enable_meshcoll 0x3abc": true,
-                "health 0x3acc": 1000000.0
+            "loc_mclrg01_waist_col_05": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_06 0x3ad0": {
-                "enable_meshcoll 0x3b1c": true,
-                "health 0x3b2c": 1000000.0
+            "loc_mclrg01_waist_col_06": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_07 0x3b30": {
-                "enable_meshcoll 0x3b7c": true,
-                "health 0x3b8c": 1000000.0
+            "loc_mclrg01_waist_col_07": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_08 0x3b90": {
-                "enable_meshcoll 0x3bdc": true,
-                "health 0x3bec": 1000000.0
-            }
-        }
-    },
-    "hard 0x4870": {
-        "brain 0x4940": {
-            "ai_grade 0x4a0c": "boss",
-            "ai_type 0x49dc": "mechbig",
-            "animjoint 0x49ec": "mechbig",
-            "race 0x49fc": "machine",
-            "type 0x49cc": "EnemyBrain"
-        },
-        "enemy_action_common 0x6bf0": {
-            "find 0x6c3c": 100.0,
-            "lose 0x6c4c": 110.0
-        },
-        "enemy_actions 0x60f0": {
-            "attack_bomb 0x6920": {
-                "damage_type 0x6a0c": "normal",
-                "force 0x69ec": 1.0,
-                "power 0x69bc": 15.0,
-                "rate_of_bg 0x69dc": 1500.0,
-                "rate_of_power 0x69cc": 15.0,
-                "upper_force 0x69fc": 1.0
-            },
-            "bomb 0x66f0": {
-                "damage_cumulation 0x689c": 0.0,
-                "damage_type 0x688c": "blow",
-                "explosion_radius 0x68ec": 3.5,
-                "explosion_time 0x68fc": 0.10000000149011612,
-                "force 0x686c": 1.0,
-                "free 0x691c": 3.0,
-                "height 0x68bc": 2.5,
-                "ignore_super_armor 0x690c": true,
-                "interval 0x68cc": 5.0,
-                "power 0x683c": 25.0,
-                "range 0x68ac": 10.0,
-                "rate_of_bg 0x685c": 2500.0,
-                "rate_of_power 0x684c": 12.0,
-                "upper_force 0x687c": 1.0,
-                "velocity 0x68dc": 5.0
-            },
-            "fall 0x6b00": {
-                "damage_cumulation 0x6bec": 0.0,
-                "damage_type 0x6bdc": "normal",
-                "force 0x6bcc": 1.0,
-                "power 0x6b9c": 15.0,
-                "rate_of_bg 0x6bbc": 220.0,
-                "rate_of_power 0x6bac": 1.0
-            },
-            "kick 0x6a10": {
-                "damage_cumulation 0x6afc": 1000.0,
-                "damage_type 0x6aec": "normal",
-                "force 0x6adc": 1.0,
-                "power 0x6aac": 1.0,
-                "rate_of_bg 0x6acc": 150.0,
-                "rate_of_power 0x6abc": -1.0
-            },
-            "laser 0x6390": {
-                "damage_cumulation 0x64fc": 0.0,
-                "damage_type 0x64ec": "blow",
-                "force 0x64cc": 2.0,
-                "free 0x653c": 200.0,
-                "ignore_super_armor 0x652c": true,
-                "interval 0x650c": 1.0,
-                "power 0x649c": 70.0,
-                "rate_of_bg 0x64bc": 7000.0,
-                "rate_of_power 0x64ac": 30.0,
-                "upper_force 0x64dc": 1.0,
-                "velocity 0x651c": 500.0
-            },
-            "missile 0x6540": {
-                "damage_cumulation 0x66ac": 0.0,
-                "damage_type 0x669c": "blow",
-                "explosion_radius 0x66cc": 2.0,
-                "explosion_time 0x66dc": 0.20000000298023224,
-                "force 0x667c": 2.0,
-                "ignore_super_armor 0x66ec": true,
-                "interval 0x66bc": 3.0,
-                "power 0x664c": 25.0,
-                "rate_of_bg 0x666c": 2500.0,
-                "rate_of_power 0x665c": 50.0,
-                "upper_force 0x668c": 1.0
-            },
-            "vulcan 0x6200": {
-                "damage_cumulation 0x634c": 1000.0,
-                "damage_type 0x633c": "normal",
-                "explosion_radius 0x637c": 0.5,
-                "explosion_time 0x638c": 0.10000000149011612,
-                "force 0x632c": 1.0,
-                "interval 0x635c": 2.0,
-                "power 0x62fc": 20.0,
-                "rate_of_bg 0x631c": 2000.0,
-                "rate_of_power 0x630c": 40.0,
-                "velocity 0x636c": 25.0
-            }
-        },
-        "enemy_body 0x4a10": {
-            "battle_field_prio 0x4a8c": 10.0,
-            "battle_field_range 0x4a7c": 20.0,
-            "health 0x4a6c": 100.0
-        },
-        "enemy_parts 0x4a90": {
-            "loc_mclrg01_chest_col 0x6030": {
-                "enable_meshcoll 0x607c": true,
-                "health 0x608c": 1000000.0
-            },
-            "loc_mclrg01_chimney_col 0x5fd0": {
-                "enable_meshcoll 0x601c": true,
-                "health 0x602c": 1000000.0
-            },
-            "loc_mclrg01_core_back 0x4d60": {
-                "angle 0x4fcc": 360.0,
-                "body_damage 0x4f0c": 100.0,
-                "core 0x4fbc": true,
-                "crowspecial_rate 0x4f9c": 0.5,
-                "debribullet_rate 0x4f7c": 0.6000000238418579,
-                "drillkick_rate 0x4f8c": 0.6000000238418579,
-                "gravitythrow_rate 0x4f4c": 1.0,
-                "gravitytyphoon_rate 0x4f2c": 1.0,
-                "health 0x4efc": 1000.0,
-                "homing_angle 0x4fdc": 240.0,
-                "lockon 0x4fac": true,
-                "microblackhole_rate 0x4f3c": 1.0,
-                "offset_y 0x4fec": 0.5,
-                "penetrate_rate 0x4f5c": 0.25,
-                "scratchtornado_rate 0x4f1c": 0.25,
-                "vortex_rate 0x4f6c": 1.0
-            },
-            "loc_mclrg01_core_bl 0x5450": {
-                "angle 0x565c": 360.0,
-                "core 0x564c": true,
-                "crowspecial_rate 0x562c": 0.5,
-                "debribullet_rate 0x560c": 0.6000000238418579,
-                "drillkick_rate 0x561c": 0.6000000238418579,
-                "gravitythrow_rate 0x55dc": 1.0,
-                "gravitytyphoon_rate 0x55bc": 1.0,
-                "health 0x559c": 400.0,
-                "homing_angle 0x566c": 240.0,
-                "lockon 0x563c": true,
-                "microblackhole_rate 0x55cc": 1.0,
-                "offset_y 0x567c": 0.30000001192092896,
-                "penetrate_rate 0x55ec": 0.25,
-                "scratchtornado_rate 0x55ac": 0.25,
-                "vortex_rate 0x55fc": 1.0
-            },
-            "loc_mclrg01_core_br 0x5680": {
-                "angle 0x588c": 360.0,
-                "core 0x587c": true,
-                "crowspecial_rate 0x585c": 0.5,
-                "debribullet_rate 0x583c": 0.6000000238418579,
-                "drillkick_rate 0x584c": 0.6000000238418579,
-                "gravitythrow_rate 0x580c": 1.0,
-                "gravitytyphoon_rate 0x57ec": 1.0,
-                "health 0x57cc": 400.0,
-                "homing_angle 0x589c": 240.0,
-                "lockon 0x586c": true,
-                "microblackhole_rate 0x57fc": 1.0,
-                "offset_y 0x58ac": 0.30000001192092896,
-                "penetrate_rate 0x581c": 0.25,
-                "scratchtornado_rate 0x57dc": 0.25,
-                "vortex_rate 0x582c": 1.0
-            },
-            "loc_mclrg01_core_fl 0x4ff0": {
-                "angle 0x51fc": 360.0,
-                "core 0x51ec": true,
-                "crowspecial_rate 0x51cc": 0.5,
-                "debribullet_rate 0x51ac": 0.6000000238418579,
-                "drillkick_rate 0x51bc": 0.6000000238418579,
-                "gravitythrow_rate 0x517c": 1.0,
-                "gravitytyphoon_rate 0x515c": 1.0,
-                "health 0x513c": 400.0,
-                "homing_angle 0x520c": 240.0,
-                "lockon 0x51dc": true,
-                "microblackhole_rate 0x516c": 1.0,
-                "offset_y 0x521c": 0.30000001192092896,
-                "penetrate_rate 0x518c": 0.25,
-                "scratchtornado_rate 0x514c": 0.25,
-                "vortex_rate 0x519c": 1.0
-            },
-            "loc_mclrg01_core_fr 0x5220": {
-                "angle 0x542c": 360.0,
-                "core 0x541c": true,
-                "crowspecial_rate 0x53fc": 0.5,
-                "debribullet_rate 0x53dc": 0.6000000238418579,
-                "drillkick_rate 0x53ec": 0.6000000238418579,
-                "gravitythrow_rate 0x53ac": 1.0,
-                "gravitytyphoon_rate 0x538c": 1.0,
-                "health 0x536c": 400.0,
-                "homing_angle 0x543c": 240.0,
-                "lockon 0x540c": true,
-                "microblackhole_rate 0x539c": 1.0,
-                "offset_y 0x544c": 0.30000001192092896,
-                "penetrate_rate 0x53bc": 0.25,
-                "scratchtornado_rate 0x537c": 0.25,
-                "vortex_rate 0x53cc": 1.0
-            },
-            "loc_mclrg01_cover_col 0x6090": {
-                "enable_meshcoll 0x60dc": true,
-                "health 0x60ec": 1000000.0
-            },
-            "loc_mclrg01_gunslide_l 0x58b0": {
-                "angle 0x5aac": 360.0,
-                "core 0x5a9c": true,
-                "crowspecial_rate 0x5a7c": 0.5,
-                "debribullet_rate 0x5a5c": 0.6000000238418579,
-                "drillkick_rate 0x5a6c": 0.6000000238418579,
-                "gravitythrow_rate 0x5a2c": 1.0,
-                "gravitytyphoon_rate 0x5a0c": 1.0,
-                "health 0x59ec": 300.0,
-                "homing_angle 0x5abc": 240.0,
-                "lockon 0x5a8c": true,
-                "microblackhole_rate 0x5a1c": 1.0,
-                "penetrate_rate 0x5a3c": 0.25,
-                "scratchtornado_rate 0x59fc": 0.25,
-                "vortex_rate 0x5a4c": 1.0
-            },
-            "loc_mclrg01_gunslide_r 0x5ac0": {
-                "angle 0x5cbc": 360.0,
-                "core 0x5cac": true,
-                "crowspecial_rate 0x5c8c": 0.5,
-                "debribullet_rate 0x5c6c": 0.6000000238418579,
-                "drillkick_rate 0x5c7c": 0.6000000238418579,
-                "gravitythrow_rate 0x5c3c": 1.0,
-                "gravitytyphoon_rate 0x5c1c": 1.0,
-                "health 0x5bfc": 300.0,
-                "homing_angle 0x5ccc": 240.0,
-                "lockon 0x5c9c": true,
-                "microblackhole_rate 0x5c2c": 1.0,
-                "penetrate_rate 0x5c4c": 0.25,
-                "scratchtornado_rate 0x5c0c": 0.25,
-                "vortex_rate 0x5c5c": 1.0
-            },
-            "loc_mclrg01_waist_col_01 0x5cd0": {
-                "enable_meshcoll 0x5d1c": true,
-                "health 0x5d2c": 1000000.0
-            },
-            "loc_mclrg01_waist_col_02 0x5d30": {
-                "enable_meshcoll 0x5d7c": true,
-                "health 0x5d8c": 1000000.0
-            },
-            "loc_mclrg01_waist_col_03 0x5d90": {
-                "enable_meshcoll 0x5ddc": true,
-                "health 0x5dec": 1000000.0
-            },
-            "loc_mclrg01_waist_col_04 0x5df0": {
-                "enable_meshcoll 0x5e3c": true,
-                "health 0x5e4c": 1000000.0
-            },
-            "loc_mclrg01_waist_col_05 0x5e50": {
-                "enable_meshcoll 0x5e9c": true,
-                "health 0x5eac": 1000000.0
-            },
-            "loc_mclrg01_waist_col_06 0x5eb0": {
-                "enable_meshcoll 0x5efc": true,
-                "health 0x5f0c": 1000000.0
-            },
-            "loc_mclrg01_waist_col_07 0x5f10": {
-                "enable_meshcoll 0x5f5c": true,
-                "health 0x5f6c": 1000000.0
-            },
-            "loc_mclrg01_waist_col_08 0x5f70": {
-                "enable_meshcoll 0x5fbc": true,
-                "health 0x5fcc": 1000000.0
+            "loc_mclrg01_waist_col_08": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             }
         }
     },
-    "normal 0xb0": {
-        "brain 0x180": {
-            "ai_grade 0x24c": "boss",
-            "ai_type 0x21c": "mechbig",
-            "animjoint 0x22c": "mechbig",
-            "race 0x23c": "machine",
-            "type 0x20c": "EnemyBrain"
+    "hard": {
+        "brain": {
+            "ai_grade": "boss",
+            "ai_type": "mechbig",
+            "animjoint": "mechbig",
+            "race": "machine",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x2430": {
-            "find 0x247c": 100.0,
-            "lose 0x248c": 110.0
+        "enemy_action_common": {
+            "find": 100.0,
+            "lose": 110.0
         },
-        "enemy_actions 0x1930": {
-            "attack_bomb 0x2160": {
-                "damage_type 0x224c": "normal",
-                "force 0x222c": 1.0,
-                "power 0x21fc": 15.0,
-                "rate_of_bg 0x221c": 1500.0,
-                "rate_of_power 0x220c": 15.0,
-                "upper_force 0x223c": 1.0
+        "enemy_actions": {
+            "attack_bomb": {
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 15.0,
+                "rate_of_bg": 1500.0,
+                "rate_of_power": 15.0,
+                "upper_force": 1.0
             },
-            "bomb 0x1f30": {
-                "damage_cumulation 0x20dc": 0.0,
-                "damage_type 0x20cc": "blow",
-                "explosion_radius 0x212c": 3.5,
-                "explosion_time 0x213c": 0.10000000149011612,
-                "force 0x20ac": 1.0,
-                "free 0x215c": 3.0,
-                "height 0x20fc": 2.5,
-                "ignore_super_armor 0x214c": true,
-                "interval 0x210c": 5.0,
-                "power 0x207c": 25.0,
-                "range 0x20ec": 10.0,
-                "rate_of_bg 0x209c": 2500.0,
-                "rate_of_power 0x208c": 12.0,
-                "upper_force 0x20bc": 1.0,
-                "velocity 0x211c": 5.0
+            "bomb": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "explosion_radius": 3.5,
+                "explosion_time": 0.10000000149011612,
+                "force": 1.0,
+                "free": 3.0,
+                "height": 2.5,
+                "ignore_super_armor": true,
+                "interval": 5.0,
+                "power": 25.0,
+                "range": 10.0,
+                "rate_of_bg": 2500.0,
+                "rate_of_power": 12.0,
+                "upper_force": 1.0,
+                "velocity": 5.0
             },
-            "fall 0x2340": {
-                "damage_cumulation 0x242c": 0.0,
-                "damage_type 0x241c": "normal",
-                "force 0x240c": 1.0,
-                "power 0x23dc": 15.0,
-                "rate_of_bg 0x23fc": 220.0,
-                "rate_of_power 0x23ec": 1.0
+            "fall": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 15.0,
+                "rate_of_bg": 220.0,
+                "rate_of_power": 1.0
             },
-            "kick 0x2250": {
-                "damage_cumulation 0x233c": 1000.0,
-                "damage_type 0x232c": "normal",
-                "force 0x231c": 1.0,
-                "power 0x22ec": 1.0,
-                "rate_of_bg 0x230c": 150.0,
-                "rate_of_power 0x22fc": -1.0
+            "kick": {
+                "damage_cumulation": 1000.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 1.0,
+                "rate_of_bg": 150.0,
+                "rate_of_power": -1.0
             },
-            "laser 0x1bd0": {
-                "damage_cumulation 0x1d3c": 0.0,
-                "damage_type 0x1d2c": "blow",
-                "force 0x1d0c": 2.0,
-                "free 0x1d7c": 200.0,
-                "ignore_super_armor 0x1d6c": true,
-                "interval 0x1d4c": 1.0,
-                "power 0x1cdc": 70.0,
-                "rate_of_bg 0x1cfc": 7000.0,
-                "rate_of_power 0x1cec": 30.0,
-                "upper_force 0x1d1c": 1.0,
-                "velocity 0x1d5c": 500.0
+            "laser": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "force": 2.0,
+                "free": 200.0,
+                "ignore_super_armor": true,
+                "interval": 1.0,
+                "power": 70.0,
+                "rate_of_bg": 7000.0,
+                "rate_of_power": 30.0,
+                "upper_force": 1.0,
+                "velocity": 500.0
             },
-            "missile 0x1d80": {
-                "damage_cumulation 0x1eec": 0.0,
-                "damage_type 0x1edc": "blow",
-                "explosion_radius 0x1f0c": 2.0,
-                "explosion_time 0x1f1c": 0.20000000298023224,
-                "force 0x1ebc": 2.0,
-                "ignore_super_armor 0x1f2c": true,
-                "interval 0x1efc": 3.0,
-                "power 0x1e8c": 25.0,
-                "rate_of_bg 0x1eac": 2500.0,
-                "rate_of_power 0x1e9c": 50.0,
-                "upper_force 0x1ecc": 1.0
+            "missile": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "explosion_radius": 2.0,
+                "explosion_time": 0.20000000298023224,
+                "force": 2.0,
+                "ignore_super_armor": true,
+                "interval": 3.0,
+                "power": 25.0,
+                "rate_of_bg": 2500.0,
+                "rate_of_power": 50.0,
+                "upper_force": 1.0
             },
-            "vulcan 0x1a40": {
-                "damage_cumulation 0x1b8c": 1000.0,
-                "damage_type 0x1b7c": "normal",
-                "explosion_radius 0x1bbc": 0.5,
-                "explosion_time 0x1bcc": 0.10000000149011612,
-                "force 0x1b6c": 1.0,
-                "interval 0x1b9c": 2.0,
-                "power 0x1b3c": 20.0,
-                "rate_of_bg 0x1b5c": 2000.0,
-                "rate_of_power 0x1b4c": 40.0,
-                "velocity 0x1bac": 25.0
+            "vulcan": {
+                "damage_cumulation": 1000.0,
+                "damage_type": "normal",
+                "explosion_radius": 0.5,
+                "explosion_time": 0.10000000149011612,
+                "force": 1.0,
+                "interval": 2.0,
+                "power": 20.0,
+                "rate_of_bg": 2000.0,
+                "rate_of_power": 40.0,
+                "velocity": 25.0
             }
         },
-        "enemy_body 0x250": {
-            "battle_field_prio 0x2cc": 10.0,
-            "battle_field_range 0x2bc": 20.0,
-            "health 0x2ac": 100.0
+        "enemy_body": {
+            "battle_field_prio": 10.0,
+            "battle_field_range": 20.0,
+            "health": 100.0
         },
-        "enemy_parts 0x2d0": {
-            "loc_mclrg01_chest_col 0x1870": {
-                "enable_meshcoll 0x18bc": true,
-                "health 0x18cc": 1000000.0
+        "enemy_parts": {
+            "loc_mclrg01_chest_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_chimney_col 0x1810": {
-                "enable_meshcoll 0x185c": true,
-                "health 0x186c": 1000000.0
+            "loc_mclrg01_chimney_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_core_back 0x5a0": {
-                "angle 0x80c": 360.0,
-                "body_damage 0x74c": 100.0,
-                "core 0x7fc": true,
-                "crowspecial_rate 0x7dc": 0.5,
-                "debribullet_rate 0x7bc": 0.6000000238418579,
-                "drillkick_rate 0x7cc": 0.6000000238418579,
-                "gravitythrow_rate 0x78c": 1.0,
-                "gravitytyphoon_rate 0x76c": 1.0,
-                "health 0x73c": 1000.0,
-                "homing_angle 0x81c": 240.0,
-                "lockon 0x7ec": true,
-                "microblackhole_rate 0x77c": 1.0,
-                "offset_y 0x82c": 0.5,
-                "penetrate_rate 0x79c": 0.25,
-                "scratchtornado_rate 0x75c": 0.25,
-                "vortex_rate 0x7ac": 1.0
+            "loc_mclrg01_core_back": {
+                "angle": 360.0,
+                "body_damage": 100.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 1000.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.5,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_core_bl 0xc90": {
-                "angle 0xe9c": 360.0,
-                "core 0xe8c": true,
-                "crowspecial_rate 0xe6c": 0.5,
-                "debribullet_rate 0xe4c": 0.6000000238418579,
-                "drillkick_rate 0xe5c": 0.6000000238418579,
-                "gravitythrow_rate 0xe1c": 1.0,
-                "gravitytyphoon_rate 0xdfc": 1.0,
-                "health 0xddc": 400.0,
-                "homing_angle 0xeac": 240.0,
-                "lockon 0xe7c": true,
-                "microblackhole_rate 0xe0c": 1.0,
-                "offset_y 0xebc": 0.30000001192092896,
-                "penetrate_rate 0xe2c": 0.25,
-                "scratchtornado_rate 0xdec": 0.25,
-                "vortex_rate 0xe3c": 1.0
+            "loc_mclrg01_core_bl": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_core_br 0xec0": {
-                "angle 0x10cc": 360.0,
-                "core 0x10bc": true,
-                "crowspecial_rate 0x109c": 0.5,
-                "debribullet_rate 0x107c": 0.6000000238418579,
-                "drillkick_rate 0x108c": 0.6000000238418579,
-                "gravitythrow_rate 0x104c": 1.0,
-                "gravitytyphoon_rate 0x102c": 1.0,
-                "health 0x100c": 400.0,
-                "homing_angle 0x10dc": 240.0,
-                "lockon 0x10ac": true,
-                "microblackhole_rate 0x103c": 1.0,
-                "offset_y 0x10ec": 0.30000001192092896,
-                "penetrate_rate 0x105c": 0.25,
-                "scratchtornado_rate 0x101c": 0.25,
-                "vortex_rate 0x106c": 1.0
+            "loc_mclrg01_core_br": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_core_fl 0x830": {
-                "angle 0xa3c": 360.0,
-                "core 0xa2c": true,
-                "crowspecial_rate 0xa0c": 0.5,
-                "debribullet_rate 0x9ec": 0.6000000238418579,
-                "drillkick_rate 0x9fc": 0.6000000238418579,
-                "gravitythrow_rate 0x9bc": 1.0,
-                "gravitytyphoon_rate 0x99c": 1.0,
-                "health 0x97c": 400.0,
-                "homing_angle 0xa4c": 240.0,
-                "lockon 0xa1c": true,
-                "microblackhole_rate 0x9ac": 1.0,
-                "offset_y 0xa5c": 0.30000001192092896,
-                "penetrate_rate 0x9cc": 0.25,
-                "scratchtornado_rate 0x98c": 0.25,
-                "vortex_rate 0x9dc": 1.0
+            "loc_mclrg01_core_fl": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_core_fr 0xa60": {
-                "angle 0xc6c": 360.0,
-                "core 0xc5c": true,
-                "crowspecial_rate 0xc3c": 0.5,
-                "debribullet_rate 0xc1c": 0.6000000238418579,
-                "drillkick_rate 0xc2c": 0.6000000238418579,
-                "gravitythrow_rate 0xbec": 1.0,
-                "gravitytyphoon_rate 0xbcc": 1.0,
-                "health 0xbac": 400.0,
-                "homing_angle 0xc7c": 240.0,
-                "lockon 0xc4c": true,
-                "microblackhole_rate 0xbdc": 1.0,
-                "offset_y 0xc8c": 0.30000001192092896,
-                "penetrate_rate 0xbfc": 0.25,
-                "scratchtornado_rate 0xbbc": 0.25,
-                "vortex_rate 0xc0c": 1.0
+            "loc_mclrg01_core_fr": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_cover_col 0x18d0": {
-                "enable_meshcoll 0x191c": true,
-                "health 0x192c": 1000000.0
+            "loc_mclrg01_cover_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_gunslide_l 0x10f0": {
-                "angle 0x12ec": 360.0,
-                "core 0x12dc": true,
-                "crowspecial_rate 0x12bc": 0.5,
-                "debribullet_rate 0x129c": 0.6000000238418579,
-                "drillkick_rate 0x12ac": 0.6000000238418579,
-                "gravitythrow_rate 0x126c": 1.0,
-                "gravitytyphoon_rate 0x124c": 1.0,
-                "health 0x122c": 300.0,
-                "homing_angle 0x12fc": 240.0,
-                "lockon 0x12cc": true,
-                "microblackhole_rate 0x125c": 1.0,
-                "penetrate_rate 0x127c": 0.25,
-                "scratchtornado_rate 0x123c": 0.25,
-                "vortex_rate 0x128c": 1.0
+            "loc_mclrg01_gunslide_l": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 300.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_gunslide_r 0x1300": {
-                "angle 0x14fc": 360.0,
-                "core 0x14ec": true,
-                "crowspecial_rate 0x14cc": 0.5,
-                "debribullet_rate 0x14ac": 0.6000000238418579,
-                "drillkick_rate 0x14bc": 0.6000000238418579,
-                "gravitythrow_rate 0x147c": 1.0,
-                "gravitytyphoon_rate 0x145c": 1.0,
-                "health 0x143c": 300.0,
-                "homing_angle 0x150c": 240.0,
-                "lockon 0x14dc": true,
-                "microblackhole_rate 0x146c": 1.0,
-                "penetrate_rate 0x148c": 0.25,
-                "scratchtornado_rate 0x144c": 0.25,
-                "vortex_rate 0x149c": 1.0
+            "loc_mclrg01_gunslide_r": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 300.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
             },
-            "loc_mclrg01_waist_col_01 0x1510": {
-                "enable_meshcoll 0x155c": true,
-                "health 0x156c": 1000000.0
+            "loc_mclrg01_waist_col_01": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_02 0x1570": {
-                "enable_meshcoll 0x15bc": true,
-                "health 0x15cc": 1000000.0
+            "loc_mclrg01_waist_col_02": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_03 0x15d0": {
-                "enable_meshcoll 0x161c": true,
-                "health 0x162c": 1000000.0
+            "loc_mclrg01_waist_col_03": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_04 0x1630": {
-                "enable_meshcoll 0x167c": true,
-                "health 0x168c": 1000000.0
+            "loc_mclrg01_waist_col_04": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_05 0x1690": {
-                "enable_meshcoll 0x16dc": true,
-                "health 0x16ec": 1000000.0
+            "loc_mclrg01_waist_col_05": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_06 0x16f0": {
-                "enable_meshcoll 0x173c": true,
-                "health 0x174c": 1000000.0
+            "loc_mclrg01_waist_col_06": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_07 0x1750": {
-                "enable_meshcoll 0x179c": true,
-                "health 0x17ac": 1000000.0
+            "loc_mclrg01_waist_col_07": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             },
-            "loc_mclrg01_waist_col_08 0x17b0": {
-                "enable_meshcoll 0x17fc": true,
-                "health 0x180c": 1000000.0
+            "loc_mclrg01_waist_col_08": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            }
+        }
+    },
+    "normal": {
+        "brain": {
+            "ai_grade": "boss",
+            "ai_type": "mechbig",
+            "animjoint": "mechbig",
+            "race": "machine",
+            "type": "EnemyBrain"
+        },
+        "enemy_action_common": {
+            "find": 100.0,
+            "lose": 110.0
+        },
+        "enemy_actions": {
+            "attack_bomb": {
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 15.0,
+                "rate_of_bg": 1500.0,
+                "rate_of_power": 15.0,
+                "upper_force": 1.0
+            },
+            "bomb": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "explosion_radius": 3.5,
+                "explosion_time": 0.10000000149011612,
+                "force": 1.0,
+                "free": 3.0,
+                "height": 2.5,
+                "ignore_super_armor": true,
+                "interval": 5.0,
+                "power": 25.0,
+                "range": 10.0,
+                "rate_of_bg": 2500.0,
+                "rate_of_power": 12.0,
+                "upper_force": 1.0,
+                "velocity": 5.0
+            },
+            "fall": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 15.0,
+                "rate_of_bg": 220.0,
+                "rate_of_power": 1.0
+            },
+            "kick": {
+                "damage_cumulation": 1000.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 1.0,
+                "rate_of_bg": 150.0,
+                "rate_of_power": -1.0
+            },
+            "laser": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "force": 2.0,
+                "free": 200.0,
+                "ignore_super_armor": true,
+                "interval": 1.0,
+                "power": 70.0,
+                "rate_of_bg": 7000.0,
+                "rate_of_power": 30.0,
+                "upper_force": 1.0,
+                "velocity": 500.0
+            },
+            "missile": {
+                "damage_cumulation": 0.0,
+                "damage_type": "blow",
+                "explosion_radius": 2.0,
+                "explosion_time": 0.20000000298023224,
+                "force": 2.0,
+                "ignore_super_armor": true,
+                "interval": 3.0,
+                "power": 25.0,
+                "rate_of_bg": 2500.0,
+                "rate_of_power": 50.0,
+                "upper_force": 1.0
+            },
+            "vulcan": {
+                "damage_cumulation": 1000.0,
+                "damage_type": "normal",
+                "explosion_radius": 0.5,
+                "explosion_time": 0.10000000149011612,
+                "force": 1.0,
+                "interval": 2.0,
+                "power": 20.0,
+                "rate_of_bg": 2000.0,
+                "rate_of_power": 40.0,
+                "velocity": 25.0
+            }
+        },
+        "enemy_body": {
+            "battle_field_prio": 10.0,
+            "battle_field_range": 20.0,
+            "health": 100.0
+        },
+        "enemy_parts": {
+            "loc_mclrg01_chest_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_chimney_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_core_back": {
+                "angle": 360.0,
+                "body_damage": 100.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 1000.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.5,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
+            },
+            "loc_mclrg01_core_bl": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
+            },
+            "loc_mclrg01_core_br": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
+            },
+            "loc_mclrg01_core_fl": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
+            },
+            "loc_mclrg01_core_fr": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 400.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "offset_y": 0.30000001192092896,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
+            },
+            "loc_mclrg01_cover_col": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_gunslide_l": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 300.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
+            },
+            "loc_mclrg01_gunslide_r": {
+                "angle": 360.0,
+                "core": true,
+                "crowspecial_rate": 0.5,
+                "debribullet_rate": 0.6000000238418579,
+                "drillkick_rate": 0.6000000238418579,
+                "gravitythrow_rate": 1.0,
+                "gravitytyphoon_rate": 1.0,
+                "health": 300.0,
+                "homing_angle": 240.0,
+                "lockon": true,
+                "microblackhole_rate": 1.0,
+                "penetrate_rate": 0.25,
+                "scratchtornado_rate": 0.25,
+                "vortex_rate": 1.0
+            },
+            "loc_mclrg01_waist_col_01": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_waist_col_02": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_waist_col_03": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_waist_col_04": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_waist_col_05": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_waist_col_06": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_waist_col_07": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
+            },
+            "loc_mclrg01_waist_col_08": {
+                "enable_meshcoll": true,
+                "health": 1000000.0
             }
         }
     }

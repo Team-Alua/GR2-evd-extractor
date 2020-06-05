@@ -1,226 +1,226 @@
 {
-    "bgObjAreas 0x15f0": {
-        "az2_a_root 0x1700": {
+    "bgObjAreas": {
+        "az2_a_root": {
             "0x171c": "az2_anmo_01_brk_dy"
         },
-        "az3_a_root 0x1720": {
+        "az3_a_root": {
             "0x173c": "az3_himmeli_oc_06_brk_dy"
         },
-        "az_a_root 0x16e0": {
+        "az_a_root": {
             "0x16fc": "az_grab_cactus_a"
         },
-        "co_a_root 0x1740": {
+        "co_a_root": {
             "0x175c": "co_moss_oc_03"
         },
-        "pi2_a_root 0x1780": {
+        "pi2_a_root": {
             "0x179c": "pi2_grab_ground_01_brk_dy"
         },
-        "pi_a_root 0x1760": {
+        "pi_a_root": {
             "0x177c": "pi_grab_piller_01_brk_dy"
         }
     },
-    "effAreas 0x1240": {
-        "ar_a_root 0x150c": "dust01",
-        "ar_b_root 0x151c": "dust01",
-        "az2_a_root 0x159c": "water01",
-        "az3_a_root 0x15ac": "dust01",
-        "az4_a_root 0x15bc": "dust01",
-        "az5_a_root 0x15cc": "dust01",
-        "az6_a_root 0x15dc": "dust01",
-        "az_a_root 0x158c": "spores01",
-        "bu_a_root 0x149c": "dust01",
-        "bu_d_root 0x14ac": "dust01",
-        "cc_a_root 0x155c": "dust01",
-        "dt_a_root 0x157c": "dust01",
-        "ed_a_root 0x154c": "dust01",
-        "go_a_root 0x152c": "dust01",
-        "hx_a_root 0x153c": "dust01",
-        "id_a_root 0x156c": "dust01",
-        "lo_a_01 0x14fc": "no_eff",
-        "lo_a_root 0x14ec": "rainy01",
-        "mi_a_root 0x14dc": "dust01",
-        "pi2_a_root 0x148c": "dust01",
-        "pi_a_root 0x147c": "dust01",
-        "pi_c_root 0x146c": "dust02",
-        "po_a_root 0x14bc": "dust01",
-        "up_a_root 0x14cc": "dust01",
-        "ve_et_a 0x15ec": "snowy01"
+    "effAreas": {
+        "ar_a_root": "dust01",
+        "ar_b_root": "dust01",
+        "az2_a_root": "water01",
+        "az3_a_root": "dust01",
+        "az4_a_root": "dust01",
+        "az5_a_root": "dust01",
+        "az6_a_root": "dust01",
+        "az_a_root": "spores01",
+        "bu_a_root": "dust01",
+        "bu_d_root": "dust01",
+        "cc_a_root": "dust01",
+        "dt_a_root": "dust01",
+        "ed_a_root": "dust01",
+        "go_a_root": "dust01",
+        "hx_a_root": "dust01",
+        "id_a_root": "dust01",
+        "lo_a_01": "no_eff",
+        "lo_a_root": "rainy01",
+        "mi_a_root": "dust01",
+        "pi2_a_root": "dust01",
+        "pi_a_root": "dust01",
+        "pi_c_root": "dust02",
+        "po_a_root": "dust01",
+        "up_a_root": "dust01",
+        "ve_et_a": "snowy01"
     },
-    "effDefs 0xb0": {
+    "effDefs": {
         "0x130": {
-            "cameraEffect 0x190": {
-                "emitFadeInSec 0x2cc": 2.0,
-                "emitFadeOutSec 0x2dc": 2.0,
-                "killDelaySec 0x2bc": 2.0,
-                "name 0x26c": "ef_bg_noting",
-                "pos 0x2e0": {
+            "cameraEffect": {
+                "emitFadeInSec": 2.0,
+                "emitFadeOutSec": 2.0,
+                "killDelaySec": 2.0,
+                "name": "ef_bg_noting",
+                "pos": {
                     "0x2fc": 0.0,
                     "0x30c": 0.0,
                     "0x31c": 0.0
                 },
-                "rot 0x320": {
+                "rot": {
                     "0x33c": 0.0,
                     "0x34c": 0.0,
                     "0x35c": 0.0
                 },
-                "scl 0x360": {
+                "scl": {
                     "0x37c": 1.0,
                     "0x38c": 1.0,
                     "0x39c": 1.0
                 },
-                "worldRot 0x2ac": true
+                "worldRot": true
             },
-            "name 0x17c": "no_eff"
+            "name": "no_eff"
         },
         "0x3a0": {
-            "cameraEffect 0x400": {
-                "emitFadeInSec 0x53c": 2.0,
-                "emitFadeOutSec 0x54c": 2.0,
-                "killDelaySec 0x52c": 2.0,
-                "name 0x4dc": "ef_bg_rain_01",
-                "pos 0x550": {
+            "cameraEffect": {
+                "emitFadeInSec": 2.0,
+                "emitFadeOutSec": 2.0,
+                "killDelaySec": 2.0,
+                "name": "ef_bg_rain_01",
+                "pos": {
                     "0x56c": 0.0,
                     "0x57c": 0.0,
                     "0x58c": -5.0
                 },
-                "rot 0x590": {
+                "rot": {
                     "0x5ac": 0.0,
                     "0x5bc": 0.0,
                     "0x5cc": 0.0
                 },
-                "scl 0x5d0": {
+                "scl": {
                     "0x5ec": 1.0,
                     "0x5fc": 1.0,
                     "0x60c": 1.0
                 },
-                "worldRot 0x51c": true
+                "worldRot": true
             },
-            "name 0x3ec": "rainy01"
+            "name": "rainy01"
         },
         "0x610": {
-            "cameraEffect 0x670": {
-                "emitFadeInSec 0x7ac": 3.0,
-                "emitFadeOutSec 0x7bc": 3.0,
-                "killDelaySec 0x79c": 5.0,
-                "name 0x74c": "ef_bg_spo_01",
-                "pos 0x7c0": {
+            "cameraEffect": {
+                "emitFadeInSec": 3.0,
+                "emitFadeOutSec": 3.0,
+                "killDelaySec": 5.0,
+                "name": "ef_bg_spo_01",
+                "pos": {
                     "0x7dc": 0.0,
                     "0x7ec": 0.0,
                     "0x7fc": -5.0
                 },
-                "rot 0x800": {
+                "rot": {
                     "0x81c": 0.0,
                     "0x82c": 0.0,
                     "0x83c": 0.0
                 },
-                "scl 0x840": {
+                "scl": {
                     "0x85c": 1.0,
                     "0x86c": 1.0,
                     "0x87c": 1.0
                 },
-                "worldRot 0x78c": true
+                "worldRot": true
             },
-            "name 0x65c": "spores01"
+            "name": "spores01"
         },
         "0x880": {
-            "cameraEffect 0x8e0": {
-                "emitFadeInSec 0xa1c": 5.0,
-                "emitFadeOutSec 0xa2c": 5.0,
-                "killDelaySec 0xa0c": 10.0,
-                "name 0x9bc": "ef_bg_snw_01",
-                "pos 0xa30": {
+            "cameraEffect": {
+                "emitFadeInSec": 5.0,
+                "emitFadeOutSec": 5.0,
+                "killDelaySec": 10.0,
+                "name": "ef_bg_snw_01",
+                "pos": {
                     "0xa4c": 0.0,
                     "0xa5c": -3.0,
                     "0xa6c": -5.0
                 },
-                "rot 0xa70": {
+                "rot": {
                     "0xa8c": 0.0,
                     "0xa9c": 0.0,
                     "0xaac": 0.0
                 },
-                "scl 0xab0": {
+                "scl": {
                     "0xacc": 1.0,
                     "0xadc": 1.0,
                     "0xaec": 1.0
                 },
-                "worldRot 0x9fc": true
+                "worldRot": true
             },
-            "name 0x8cc": "snowy01"
+            "name": "snowy01"
         },
         "0xaf0": {
-            "cameraEffect 0xb50": {
-                "emitFadeInSec 0xc8c": 5.0,
-                "emitFadeOutSec 0xc9c": 5.0,
-                "killDelaySec 0xc7c": 10.0,
-                "name 0xc2c": "ef_cam_chiri_01",
-                "pos 0xca0": {
+            "cameraEffect": {
+                "emitFadeInSec": 5.0,
+                "emitFadeOutSec": 5.0,
+                "killDelaySec": 10.0,
+                "name": "ef_cam_chiri_01",
+                "pos": {
                     "0xcbc": 0.0,
                     "0xccc": 0.0,
                     "0xcdc": -5.0
                 },
-                "rot 0xce0": {
+                "rot": {
                     "0xcfc": 0.0,
                     "0xd0c": 0.0,
                     "0xd1c": 0.0
                 },
-                "scl 0xd20": {
+                "scl": {
                     "0xd3c": 1.0,
                     "0xd4c": 1.0,
                     "0xd5c": 1.0
                 },
-                "worldRot 0xc6c": true
+                "worldRot": true
             },
-            "name 0xb3c": "dust01"
+            "name": "dust01"
         },
         "0xd60": {
-            "cameraEffect 0xdc0": {
-                "emitFadeInSec 0xefc": 5.0,
-                "emitFadeOutSec 0xf0c": 5.0,
-                "killDelaySec 0xeec": 10.0,
-                "name 0xe9c": "ef_cam_wtr_01",
-                "pos 0xf10": {
+            "cameraEffect": {
+                "emitFadeInSec": 5.0,
+                "emitFadeOutSec": 5.0,
+                "killDelaySec": 10.0,
+                "name": "ef_cam_wtr_01",
+                "pos": {
                     "0xf2c": 0.0,
                     "0xf3c": 0.0,
                     "0xf4c": -5.0
                 },
-                "rot 0xf50": {
+                "rot": {
                     "0xf6c": 0.0,
                     "0xf7c": 0.0,
                     "0xf8c": 0.0
                 },
-                "scl 0xf90": {
+                "scl": {
                     "0xfac": 1.0,
                     "0xfbc": 1.0,
                     "0xfcc": 1.0
                 },
-                "worldRot 0xedc": true
+                "worldRot": true
             },
-            "name 0xdac": "water01"
+            "name": "water01"
         },
         "0xfd0": {
-            "cameraEffect 0x1030": {
-                "emitFadeInSec 0x116c": 5.0,
-                "emitFadeOutSec 0x117c": 5.0,
-                "killDelaySec 0x115c": 10.0,
-                "name 0x110c": "ef_cam_chiri_02",
-                "pos 0x1180": {
+            "cameraEffect": {
+                "emitFadeInSec": 5.0,
+                "emitFadeOutSec": 5.0,
+                "killDelaySec": 10.0,
+                "name": "ef_cam_chiri_02",
+                "pos": {
                     "0x119c": 0.0,
                     "0x11ac": 0.0,
                     "0x11bc": -5.0
                 },
-                "rot 0x11c0": {
+                "rot": {
                     "0x11dc": 0.0,
                     "0x11ec": 0.0,
                     "0x11fc": 0.0
                 },
-                "scl 0x1200": {
+                "scl": {
                     "0x121c": 1.0,
                     "0x122c": 1.0,
                     "0x123c": 1.0
                 },
-                "worldRot 0x114c": true
+                "worldRot": true
             },
-            "name 0x101c": "dust02"
+            "name": "dust02"
         }
     }
 }

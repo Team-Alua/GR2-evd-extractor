@@ -1,0 +1,136 @@
+{
+    "_default_bundles 0xdc": "bundle_default",
+    "_virtual_bundles 0x140": {
+        "bundle_default 0x180": {
+            "0x19c": "bundle_default_stand",
+            "0x1ac": "bundle_default_roam",
+            "0x1bc": "bundle_3rd_floor"
+        }
+    },
+    "bundle_3rd_floor 0x980": {
+        "0x9a0": {
+            "classGroup 0xa4c": "yy_bu_all_00",
+            "label 0xa2c": "3rd_floor",
+            "num 0xa6c": 1.0,
+            "role 0xa5c": "kRoleRoam",
+            "zone 0xa3c": "f3"
+        }
+    },
+    "bundle_default_roam 0x5f0": {
+        "0x640": {
+            "classGroup 0x6ec": "yy_bu_all_00",
+            "label 0x6cc": "1st_floor",
+            "num 0x70c": 1.0,
+            "role 0x6fc": "kRoleRoam",
+            "zone 0x6dc": "f1"
+        },
+        "0x710": {
+            "classGroup 0x7bc": "yy_bu_all_00",
+            "label 0x79c": "2nd_floor",
+            "num 0x7dc": 1.0,
+            "role 0x7cc": "kRoleRoam",
+            "zone 0x7ac": "f2"
+        },
+        "0x7e0": {
+            "classGroup 0x88c": "yy_pig",
+            "label 0x86c": "animals",
+            "num 0x8ac": 2.0,
+            "role 0x89c": "kRoleRoam",
+            "zone 0x87c": "space_01"
+        },
+        "0x8b0": {
+            "classGroup 0x95c": "yy_dog_m_poor",
+            "label 0x93c": "animals",
+            "num 0x97c": 1.0,
+            "role 0x96c": "kRoleRoam",
+            "zone 0x94c": "space_02"
+        }
+    },
+    "bundle_default_stand 0x1c0": {
+        "0x220": {
+            "classGroup 0x2ac": "yy_bu_wom_00",
+            "guide 0x29c": "window_01",
+            "num 0x2cc": 1.0,
+            "role 0x2bc": "kRoleCleanWall"
+        },
+        "0x2d0": {
+            "classGroup 0x35c": "yy_bu_all_00_not_old",
+            "guide 0x34c": "guide1",
+            "num 0x380": {
+                "0x39c": 2.0,
+                "0x3ac": 3.0
+            },
+            "role 0x36c": "kRoleTalk"
+        },
+        "0x3b0": {
+            "classGroup 0x43c": "yy_bu_wom_00",
+            "guide 0x42c": "scold_01",
+            "num 0x45c": 1.0,
+            "role 0x44c": "kRoleStay"
+        },
+        "0x460": {
+            "classGroup 0x4ec": "yy_bu_man_00",
+            "guide 0x4dc": "brush_01",
+            "num 0x50c": 1.0,
+            "role 0x4fc": "kRoleBrushFloor"
+        },
+        "0x510": {
+            "classGroup 0x59c": "yy_bu_all_00_not_old",
+            "guide 0x58c": "guide3",
+            "num 0x5c0": {
+                "0x5dc": 2.0,
+                "0x5ec": 3.0
+            },
+            "role 0x5ac": "kRoleTalk"
+        }
+    },
+    "bundle_patrol_bu 0xa70": {
+        "0xab0": {
+            "classGroup 0xb5c": "yy_jilga_mp_01",
+            "label 0xb3c": "1st_floor",
+            "num 0xb7c": 2.0,
+            "role 0xb6c": "kRoleRoam",
+            "zone 0xb4c": "f1"
+        },
+        "0xb80": {
+            "classGroup 0xc2c": "yy_jilga_mp_01",
+            "label 0xc0c": "2nd_floor",
+            "num 0xc4c": 1.0,
+            "role 0xc3c": "kRoleRoam",
+            "zone 0xc1c": "f2"
+        },
+        "0xc50": {
+            "classGroup 0xcfc": "yy_jilga_mp_01",
+            "label 0xcdc": "3rd_floor",
+            "num 0xd1c": 3.0,
+            "role 0xd0c": "kRoleRoam",
+            "zone 0xcec": "f3"
+        }
+    },
+    "bundle_sm03_test 0xd20": {
+        "0xd60": {
+            "classGroup 0xe1c": "yy_bu_chi_00",
+            "label 0xdfc": "1st_floor",
+            "num 0xe4c": 10.0,
+            "role 0xe2c": "kRoleRoam",
+            "standardAppearance 0xe3c": true,
+            "zone 0xe0c": "f1"
+        },
+        "0xe50": {
+            "classGroup 0xf0c": "yy_bu_chi_00",
+            "label 0xeec": "2nd_floor",
+            "num 0xf3c": 10.0,
+            "role 0xf1c": "kRoleRoam",
+            "standardAppearance 0xf2c": true,
+            "zone 0xefc": "f2"
+        },
+        "0xf40": {
+            "classGroup 0xffc": "yy_bu_chi_00",
+            "label 0xfdc": "2nd_floor",
+            "num 0x102c": 10.0,
+            "role 0x100c": "kRoleRoam",
+            "standardAppearance 0x101c": true,
+            "zone 0xfec": "f3"
+        }
+    }
+}

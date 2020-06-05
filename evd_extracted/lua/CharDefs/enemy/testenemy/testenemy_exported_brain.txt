@@ -1,184 +1,184 @@
 {
-    "easy 0x8b0": {
-        "brain 0x980": {
-            "ai_type 0xa0c": "testenemy",
-            "animjoint 0xa1c": "testenemy",
-            "race 0xa2c": "nevi",
-            "type 0x9fc": "EnemyBrain"
+    "easy": {
+        "brain": {
+            "ai_type": "testenemy",
+            "animjoint": "testenemy",
+            "race": "nevi",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x1050": {
-            "find 0x109c": 30.0,
-            "lose 0x10ac": 35.0
+        "enemy_action_common": {
+            "find": 30.0,
+            "lose": 35.0
         },
-        "enemy_actions 0xd30": {
-            "attack 0xd90": {
-                "damage_cumulation 0xefc": 0.0,
-                "damage_type 0xeec": "normal",
-                "force 0xecc": 1.0,
-                "height 0xf1c": 10.0,
-                "interval 0xf2c": 6.0,
-                "power 0xe9c": 25.0,
-                "range 0xf0c": 30.0,
-                "rate_of_bg 0xebc": 50.0,
-                "rate_of_power 0xeac": 12.0,
-                "upper_force 0xedc": 0.0,
-                "velocity 0xf3c": 20.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 10.0,
+                "interval": 6.0,
+                "power": 25.0,
+                "range": 30.0,
+                "rate_of_bg": 50.0,
+                "rate_of_power": 12.0,
+                "upper_force": 0.0,
+                "velocity": 20.0
             },
-            "spawn 0xf40": {
-                "damage_cumulation 0x104c": 0.0,
-                "damage_type 0x103c": "normal",
-                "force 0x101c": 1.0,
-                "power 0xfec": 10.0,
-                "rate_of_bg 0x100c": 20.0,
-                "rate_of_power 0xffc": -2.0,
-                "upper_force 0x102c": 0.0
+            "spawn": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "rate_of_bg": 20.0,
+                "rate_of_power": -2.0,
+                "upper_force": 0.0
             }
         },
-        "enemy_body 0xa30": {
-            "ash_effect 0xadc": "ef_nev_death",
-            "ash_se 0xaec": "ene_disappear",
-            "health 0xafc": 10.0,
-            "spawn_effect 0xabc": "ef_nev_spw_01",
-            "spawn_se 0xacc": "ene_come"
+        "enemy_body": {
+            "ash_effect": "ef_nev_death",
+            "ash_se": "ene_disappear",
+            "health": 10.0,
+            "spawn_effect": "ef_nev_spw_01",
+            "spawn_se": "ene_come"
         },
-        "enemy_parts 0xb00": {
-            "loc_nvgrd01_armor 0xcf0": {
-                "health 0xd2c": 50.0
+        "enemy_parts": {
+            "loc_nvgrd01_armor": {
+                "health": 50.0
             },
-            "loc_setCore01 0xb60": {
-                "angle 0xcac": 240.0,
-                "body_damage 0xc5c": 10.0,
-                "core 0xc9c": true,
-                "damage_motion_type 0xcbc": "FRONT",
-                "defenders 0xcd0": {
+            "loc_setCore01": {
+                "angle": 240.0,
+                "body_damage": 10.0,
+                "core": true,
+                "damage_motion_type": "FRONT",
+                "defenders": {
                     "0xcec": "loc_nvgrd01_armor"
                 },
-                "eye_aim_limit 0xc8c": 30.0,
-                "health 0xc4c": 150.0,
-                "homing_angle 0xccc": 240.0,
-                "lockon 0xc7c": true
+                "eye_aim_limit": 30.0,
+                "health": 150.0,
+                "homing_angle": 240.0,
+                "lockon": true
             }
         }
     },
-    "hard 0x10b0": {
-        "brain 0x1180": {
-            "ai_type 0x120c": "testenemy",
-            "animjoint 0x121c": "testenemy",
-            "race 0x122c": "nevi",
-            "type 0x11fc": "EnemyBrain"
+    "hard": {
+        "brain": {
+            "ai_type": "testenemy",
+            "animjoint": "testenemy",
+            "race": "nevi",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x1850": {
-            "find 0x189c": 30.0,
-            "lose 0x18ac": 35.0
+        "enemy_action_common": {
+            "find": 30.0,
+            "lose": 35.0
         },
-        "enemy_actions 0x1530": {
-            "attack 0x1590": {
-                "damage_cumulation 0x16fc": 0.0,
-                "damage_type 0x16ec": "normal",
-                "force 0x16cc": 1.0,
-                "height 0x171c": 10.0,
-                "interval 0x172c": 6.0,
-                "power 0x169c": 25.0,
-                "range 0x170c": 30.0,
-                "rate_of_bg 0x16bc": 50.0,
-                "rate_of_power 0x16ac": 12.0,
-                "upper_force 0x16dc": 0.0,
-                "velocity 0x173c": 20.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 10.0,
+                "interval": 6.0,
+                "power": 25.0,
+                "range": 30.0,
+                "rate_of_bg": 50.0,
+                "rate_of_power": 12.0,
+                "upper_force": 0.0,
+                "velocity": 20.0
             },
-            "spawn 0x1740": {
-                "damage_cumulation 0x184c": 0.0,
-                "damage_type 0x183c": "normal",
-                "force 0x181c": 1.0,
-                "power 0x17ec": 10.0,
-                "rate_of_bg 0x180c": 20.0,
-                "rate_of_power 0x17fc": -2.0,
-                "upper_force 0x182c": 0.0
+            "spawn": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "rate_of_bg": 20.0,
+                "rate_of_power": -2.0,
+                "upper_force": 0.0
             }
         },
-        "enemy_body 0x1230": {
-            "ash_effect 0x12dc": "ef_nev_death",
-            "ash_se 0x12ec": "ene_disappear",
-            "health 0x12fc": 10.0,
-            "spawn_effect 0x12bc": "ef_nev_spw_01",
-            "spawn_se 0x12cc": "ene_come"
+        "enemy_body": {
+            "ash_effect": "ef_nev_death",
+            "ash_se": "ene_disappear",
+            "health": 10.0,
+            "spawn_effect": "ef_nev_spw_01",
+            "spawn_se": "ene_come"
         },
-        "enemy_parts 0x1300": {
-            "loc_nvgrd01_armor 0x14f0": {
-                "health 0x152c": 50.0
+        "enemy_parts": {
+            "loc_nvgrd01_armor": {
+                "health": 50.0
             },
-            "loc_setCore01 0x1360": {
-                "angle 0x14ac": 240.0,
-                "body_damage 0x145c": 10.0,
-                "core 0x149c": true,
-                "damage_motion_type 0x14bc": "FRONT",
-                "defenders 0x14d0": {
+            "loc_setCore01": {
+                "angle": 240.0,
+                "body_damage": 10.0,
+                "core": true,
+                "damage_motion_type": "FRONT",
+                "defenders": {
                     "0x14ec": "loc_nvgrd01_armor"
                 },
-                "eye_aim_limit 0x148c": 30.0,
-                "health 0x144c": 150.0,
-                "homing_angle 0x14cc": 240.0,
-                "lockon 0x147c": true
+                "eye_aim_limit": 30.0,
+                "health": 150.0,
+                "homing_angle": 240.0,
+                "lockon": true
             }
         }
     },
-    "normal 0xb0": {
-        "brain 0x180": {
-            "ai_type 0x20c": "testenemy",
-            "animjoint 0x21c": "testenemy",
-            "race 0x22c": "nevi",
-            "type 0x1fc": "EnemyBrain"
+    "normal": {
+        "brain": {
+            "ai_type": "testenemy",
+            "animjoint": "testenemy",
+            "race": "nevi",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x850": {
-            "find 0x89c": 30.0,
-            "lose 0x8ac": 35.0
+        "enemy_action_common": {
+            "find": 30.0,
+            "lose": 35.0
         },
-        "enemy_actions 0x530": {
-            "attack 0x590": {
-                "damage_cumulation 0x6fc": 0.0,
-                "damage_type 0x6ec": "normal",
-                "force 0x6cc": 1.0,
-                "height 0x71c": 10.0,
-                "interval 0x72c": 6.0,
-                "power 0x69c": 25.0,
-                "range 0x70c": 30.0,
-                "rate_of_bg 0x6bc": 50.0,
-                "rate_of_power 0x6ac": 12.0,
-                "upper_force 0x6dc": 0.0,
-                "velocity 0x73c": 20.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 10.0,
+                "interval": 6.0,
+                "power": 25.0,
+                "range": 30.0,
+                "rate_of_bg": 50.0,
+                "rate_of_power": 12.0,
+                "upper_force": 0.0,
+                "velocity": 20.0
             },
-            "spawn 0x740": {
-                "damage_cumulation 0x84c": 0.0,
-                "damage_type 0x83c": "normal",
-                "force 0x81c": 1.0,
-                "power 0x7ec": 10.0,
-                "rate_of_bg 0x80c": 20.0,
-                "rate_of_power 0x7fc": -2.0,
-                "upper_force 0x82c": 0.0
+            "spawn": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "rate_of_bg": 20.0,
+                "rate_of_power": -2.0,
+                "upper_force": 0.0
             }
         },
-        "enemy_body 0x230": {
-            "ash_effect 0x2dc": "ef_nev_death",
-            "ash_se 0x2ec": "ene_disappear",
-            "health 0x2fc": 10.0,
-            "spawn_effect 0x2bc": "ef_nev_spw_01",
-            "spawn_se 0x2cc": "ene_come"
+        "enemy_body": {
+            "ash_effect": "ef_nev_death",
+            "ash_se": "ene_disappear",
+            "health": 10.0,
+            "spawn_effect": "ef_nev_spw_01",
+            "spawn_se": "ene_come"
         },
-        "enemy_parts 0x300": {
-            "loc_nvgrd01_armor 0x4f0": {
-                "health 0x52c": 50.0
+        "enemy_parts": {
+            "loc_nvgrd01_armor": {
+                "health": 50.0
             },
-            "loc_setCore01 0x360": {
-                "angle 0x4ac": 240.0,
-                "body_damage 0x45c": 10.0,
-                "core 0x49c": true,
-                "damage_motion_type 0x4bc": "FRONT",
-                "defenders 0x4d0": {
+            "loc_setCore01": {
+                "angle": 240.0,
+                "body_damage": 10.0,
+                "core": true,
+                "damage_motion_type": "FRONT",
+                "defenders": {
                     "0x4ec": "loc_nvgrd01_armor"
                 },
-                "eye_aim_limit 0x48c": 30.0,
-                "health 0x44c": 150.0,
-                "homing_angle 0x4cc": 240.0,
-                "lockon 0x47c": true
+                "eye_aim_limit": 30.0,
+                "health": 150.0,
+                "homing_angle": 240.0,
+                "lockon": true
             }
         }
     }

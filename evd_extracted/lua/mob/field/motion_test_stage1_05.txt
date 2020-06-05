@@ -1,16 +1,16 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {
+    "birdNetHolder": {
+        "__netNames": {
             "0x15c": "birdNet4",
             "0x16c": "birdNet2",
             "0x17c": "birdNet",
             "0x18c": "birdNet3",
             "0x19c": "birdNet1"
         },
-        "nets 0x1a0": {
-            "birdNet 0x270": {
-                "paths 0x2f0": {
-                    "path 0x370": {
+        "nets": {
+            "birdNet": {
+                "paths": {
+                    "path": {
                         "0x3d0": {
                             "0x3ec": 16.14049530029297,
                             "0x3fc": 0.9136576652526855,
@@ -37,7 +37,7 @@
                             "0x50c": -47.08519744873047
                         }
                     },
-                    "path1 0x510": {
+                    "path1": {
                         "0x570": {
                             "0x58c": 16.14049530029297,
                             "0x59c": 0.9136576652526855,
@@ -64,7 +64,7 @@
                             "0x6ac": 18.061233520507812
                         }
                     },
-                    "path2 0x6b0": {
+                    "path2": {
                         "0x710": {
                             "0x72c": 16.14049530029297,
                             "0x73c": 0.9136576652526855,
@@ -92,16 +92,16 @@
                         }
                     }
                 },
-                "pos 0x850": {
+                "pos": {
                     "0x86c": 16.14049530029297,
                     "0x87c": 0.9136576652526855,
                     "0x88c": -49.645538330078125
                 },
-                "radius 0x2ec": 5.0
+                "radius": 5.0
             },
-            "birdNet1 0x890": {
-                "paths 0x910": {
-                    "path 0x970": {
+            "birdNet1": {
+                "paths": {
+                    "path": {
                         "0x9d0": {
                             "0x9ec": -19.811429977416992,
                             "0x9fc": 0.0,
@@ -128,7 +128,7 @@
                             "0xb0c": 18.061233520507812
                         }
                     },
-                    "path3 0xb10": {
+                    "path3": {
                         "0xb70": {
                             "0xb8c": -19.811429977416992,
                             "0xb9c": 0.0,
@@ -156,16 +156,16 @@
                         }
                     }
                 },
-                "pos 0xcb0": {
+                "pos": {
                     "0xccc": -19.811429977416992,
                     "0xcdc": 0.0,
                     "0xcec": -47.08519744873047
                 },
-                "radius 0x90c": 5.0
+                "radius": 5.0
             },
-            "birdNet2 0xcf0": {
-                "paths 0xd70": {
-                    "path 0xdd0": {
+            "birdNet2": {
+                "paths": {
+                    "path": {
                         "0xe30": {
                             "0xe4c": -16.665803909301758,
                             "0xe5c": 0.0,
@@ -192,7 +192,7 @@
                             "0xf6c": 11.783644676208496
                         }
                     },
-                    "path4 0xf70": {
+                    "path4": {
                         "0x1010": {
                             "0x102c": -12.49935245513916,
                             "0x103c": 17.376333236694336,
@@ -220,16 +220,16 @@
                         }
                     }
                 },
-                "pos 0x1110": {
+                "pos": {
                     "0x112c": -16.665803909301758,
                     "0x113c": 0.0,
                     "0x114c": 18.061235427856445
                 },
-                "radius 0xd6c": 5.0
+                "radius": 5.0
             },
-            "birdNet3 0x1150": {
-                "paths 0x11d0": {
-                    "path 0x1210": {
+            "birdNet3": {
+                "paths": {
+                    "path": {
                         "0x1270": {
                             "0x128c": 19.1109561920166,
                             "0x129c": 0.0,
@@ -257,31 +257,31 @@
                         }
                     }
                 },
-                "pos 0x13b0": {
+                "pos": {
                     "0x13cc": 19.1109561920166,
                     "0x13dc": 0.0,
                     "0x13ec": 11.783644676208496
                 },
-                "radius 0x11cc": 5.0
+                "radius": 5.0
             },
-            "birdNet4 0x13f0": {
-                "pos 0x1450": {
+            "birdNet4": {
+                "pos": {
                     "0x146c": 0.0,
                     "0x147c": 20.811281204223633,
                     "0x148c": -61.954219818115234
                 },
-                "radius 0x144c": 5.0
+                "radius": 5.0
             }
         }
     },
-    "guideInfo 0x1490": {
-        "__guideNames 0x14f0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x150c": "guide0"
         },
-        "guides 0x1510": {
+        "guides": {
             "0x1530": {
-                "name 0x157c": "guide0",
-                "points 0x1590": {
+                "name": "guide0",
+                "points": {
                     "0x15d0": {
                         "0x15ec": -11.609999656677246,
                         "0x15fc": 0.6164155602455139,
@@ -301,19 +301,19 @@
             }
         }
     },
-    "volumeGroup 0x1690": {
-        "__numVolumes 0x16dc": 0.0,
-        "root 0x16ec": null
+    "volumeGroup": {
+        "__numVolumes": 0.0,
+        "root": null
     },
-    "zoneGroup 0x16f0": {
-        "__overlapIndices 0x17e0": {
-            "10 0x185c": 3.0,
-            "5 0x183c": 0.0,
-            "6 0x184c": 3.0
+    "zoneGroup": {
+        "__overlapIndices": {
+            "10": 3.0,
+            "5": 0.0,
+            "6": 3.0
         },
-        "_numStops 0x179c": 8.0,
-        "_numZones 0x17ac": 3.0,
-        "stops 0x1860": {
+        "_numStops": 8.0,
+        "_numZones": 3.0,
+        "stops": {
             "0x18f0": {
                 "0x190c": -24.610523223876953,
                 "0x191c": 0.6164155602455139,
@@ -363,7 +363,7 @@
                 "0x1b6c": 1.0
             }
         },
-        "zoneTree 0x1b70": {
+        "zoneTree": {
             "0x1b8c": "mob_zones",
             "0x1bb0": {
                 "0x1bcc": "foo_zone"
@@ -372,14 +372,14 @@
                 "0x1bec": "bar_zone"
             }
         },
-        "zones 0x1bf0": {
+        "zones": {
             "0x1c30": {
-                "name 0x1c7c": "mob_zones",
-                "strips 0x1c90": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0x1ca0": {
-                "name 0x1cec": "foo_zone",
-                "strips 0x1d00": {
+                "name": "foo_zone",
+                "strips": {
                     "0x1d20": {
                         "0x1d3c": 0.0,
                         "0x1d4c": 1.0,
@@ -391,8 +391,8 @@
                 }
             },
             "0x1d90": {
-                "name 0x1ddc": "bar_zone",
-                "strips 0x1df0": {
+                "name": "bar_zone",
+                "strips": {
                     "0x1e10": {
                         "0x1e2c": 3.0,
                         "0x1e3c": 5.0,

@@ -1,71 +1,71 @@
 {
-    "animjoint 0x70": {
+    "animjoint": {
         "0x210": {
-            "anim 0x2bc": "attack_b",
-            "attr 0x29c": "Attack",
-            "shape 0x2e0": {
+            "anim": "attack_b",
+            "attr": "Attack",
+            "shape": {
                 "0x2fc": "Sphere",
                 "0x30c": 1.25
             },
-            "timing 0x310": {
+            "timing": {
                 "0x32c": 5.0,
                 "0x33c": 20.0
             },
-            "userData 0x2ac": "attack_b"
+            "userData": "attack_b"
         },
         "0x340": {
-            "anim 0x3ac": "shoot",
-            "attr 0x3c0": {
+            "anim": "shoot",
+            "attr": {
                 "0x3dc": "EventMessage",
                 "0x3ec": "shoooooooot!!!"
             },
-            "timing 0x3f0": {
+            "timing": {
                 "0x40c": 5.0
             }
         },
         "0x410": {
-            "anim 0x47c": "attack_a",
-            "attr 0x490": {
+            "anim": "attack_a",
+            "attr": {
                 "0x4ac": "MotionSpeed",
                 "0x4bc": 2.0
             },
-            "timing 0x4c0": {
+            "timing": {
                 "0x4dc": 0.0
             }
         },
         "0x4e0": {
-            "anim 0x57c": "shoot",
-            "attr 0x590": {
+            "anim": "shoot",
+            "attr": {
                 "0x5ac": "Sound",
                 "0x5bc": "ene_jfs_charge"
             },
-            "timing 0x5c0": {
+            "timing": {
                 "0x5dc": 10.0
             },
-            "userData 0x56c": "shoot"
+            "userData": "shoot"
         },
         "0x5e0": {
-            "anim 0x64c": "shoot",
-            "attr 0x660": {
+            "anim": "shoot",
+            "attr": {
                 "0x67c": "Sound",
                 "0x68c": "ene_jfs_attack"
             },
-            "timing 0x690": {
+            "timing": {
                 "0x6ac": 33.0
             }
         },
         "0xe0": {
-            "anim 0x18c": "spawn",
-            "attr 0x16c": "Attack",
-            "shape 0x1b0": {
+            "anim": "spawn",
+            "attr": "Attack",
+            "shape": {
                 "0x1cc": "Sphere",
                 "0x1dc": 1.25
             },
-            "timing 0x1e0": {
+            "timing": {
                 "0x1fc": 0.0,
                 "0x20c": 30.0
             },
-            "userData 0x17c": "spawn"
+            "userData": "spawn"
         }
     }
 }

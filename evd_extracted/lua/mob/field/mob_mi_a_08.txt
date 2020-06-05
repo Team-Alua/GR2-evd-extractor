@@ -1,17 +1,17 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "guide1",
             "0x1ec": "guide2"
         },
-        "guides 0x1f0": {
+        "guides": {
             "0x220": {
-                "name 0x26c": "guide1",
-                "points 0x280": {
+                "name": "guide1",
+                "points": {
                     "0x2c0": {
                         "0x2dc": 23.432342529296875,
                         "0x2ec": 0.0,
@@ -30,8 +30,8 @@
                 }
             },
             "0x380": {
-                "name 0x3cc": "guide2",
-                "points 0x3e0": {
+                "name": "guide2",
+                "points": {
                     "0x420": {
                         "0x43c": 13.168377876281738,
                         "0x44c": 0.19218386709690094,
@@ -51,15 +51,15 @@
             }
         }
     },
-    "volumeGroup 0x4e0": {
-        "__numVolumes 0x52c": 0.0,
-        "root 0x53c": null
+    "volumeGroup": {
+        "__numVolumes": 0.0,
+        "root": null
     },
-    "zoneGroup 0x540": {
-        "__overlapIndices 0x630": {},
-        "_numStops 0x5ec": 5.0,
-        "_numZones 0x5fc": 2.0,
-        "stops 0x640": {
+    "zoneGroup": {
+        "__overlapIndices": {},
+        "_numStops": 5.0,
+        "_numZones": 2.0,
+        "stops": {
             "0x6a0": {
                 "0x6bc": -25.408449172973633,
                 "0x6cc": 0.0,
@@ -91,20 +91,20 @@
                 "0x82c": 1.390446662902832
             }
         },
-        "zoneTree 0x830": {
+        "zoneTree": {
             "0x84c": "mob_zones",
             "0x860": {
                 "0x87c": "zone1"
             }
         },
-        "zones 0x880": {
+        "zones": {
             "0x8b0": {
-                "name 0x8fc": "mob_zones",
-                "strips 0x910": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0x920": {
-                "name 0x96c": "zone1",
-                "strips 0x980": {
+                "name": "zone1",
+                "strips": {
                     "0x9a0": {
                         "0x9bc": 0.0,
                         "0x9cc": 1.0,

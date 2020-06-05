@@ -1,17 +1,17 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "guide1",
             "0x1ec": "guide2"
         },
-        "guides 0x1f0": {
+        "guides": {
             "0x220": {
-                "name 0x26c": "guide1",
-                "points 0x280": {
+                "name": "guide1",
+                "points": {
                     "0x2c0": {
                         "0x2dc": -26.11146354675293,
                         "0x2ec": -0.004220121074467897,
@@ -30,8 +30,8 @@
                 }
             },
             "0x380": {
-                "name 0x3cc": "guide2",
-                "points 0x3e0": {
+                "name": "guide2",
+                "points": {
                     "0x420": {
                         "0x43c": 21.95708465576172,
                         "0x44c": -2.232956886291504,
@@ -51,17 +51,17 @@
             }
         }
     },
-    "volumeGroup 0x4e0": {
-        "__numVolumes 0x52c": 0.0,
-        "root 0x53c": null
+    "volumeGroup": {
+        "__numVolumes": 0.0,
+        "root": null
     },
-    "zoneGroup 0x540": {
-        "__overlapIndices 0x630": {
-            "10 0x66c": 0.0
+    "zoneGroup": {
+        "__overlapIndices": {
+            "10": 0.0
         },
-        "_numStops 0x5ec": 10.0,
-        "_numZones 0x5fc": 2.0,
-        "stops 0x670": {
+        "_numStops": 10.0,
+        "_numZones": 2.0,
+        "stops": {
             "0x720": {
                 "0x73c": 11.061161041259766,
                 "0x74c": -1.180350422859192,
@@ -123,20 +123,20 @@
                 "0xa3c": 1.8511691093444824
             }
         },
-        "zoneTree 0xa40": {
+        "zoneTree": {
             "0xa5c": "mob_zones",
             "0xa70": {
                 "0xa8c": "zone1"
             }
         },
-        "zones 0xa90": {
+        "zones": {
             "0xac0": {
-                "name 0xb0c": "mob_zones",
-                "strips 0xb20": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0xb30": {
-                "name 0xb7c": "zone1",
-                "strips 0xb90": {
+                "name": "zone1",
+                "strips": {
                     "0xbb0": {
                         "0xbcc": 0.0,
                         "0xbdc": 1.0,

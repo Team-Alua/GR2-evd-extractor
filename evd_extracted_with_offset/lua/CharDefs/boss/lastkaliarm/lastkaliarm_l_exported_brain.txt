@@ -1,0 +1,438 @@
+{
+    "easy 0x1520": {
+        "brain 0x15f0": {
+            "ai_grade 0x16bc": "boss",
+            "ai_type 0x168c": "lastkaliarm",
+            "animjoint 0x169c": "lastkaliarm_l",
+            "race 0x16ac": "nevi",
+            "type 0x167c": "EnemyBrain"
+        },
+        "enemy_action_common 0x2910": {
+            "find 0x295c": 100.0,
+            "lose 0x296c": 105.0
+        },
+        "enemy_actions 0x2390": {
+            "grab_damage 0x2770": {
+                "damage_cumulation 0x284c": -1.0,
+                "damage_type 0x283c": "poison",
+                "force 0x282c": 0.0,
+                "free 0x285c": 10.0,
+                "power 0x280c": 15.0,
+                "rate_of_power 0x281c": 120.0
+            },
+            "grab_throw 0x2860": {
+                "damage_type 0x290c": "normal",
+                "force 0x28fc": 200.0,
+                "power 0x28dc": 40.0,
+                "rate_of_power 0x28ec": 120.0
+            },
+            "spawn 0x2460": {
+                "damage_cumulation 0x255c": 0.0,
+                "damage_type 0x254c": "normal",
+                "force 0x252c": 1.0,
+                "power 0x250c": 20.0,
+                "range 0x256c": 2.5,
+                "rate_of_power 0x251c": -2.0,
+                "upper_force 0x253c": 0.0
+            },
+            "swing 0x2570": {
+                "damage_cumulation 0x267c": 0.0,
+                "damage_type 0x266c": "blow",
+                "force 0x264c": 20.0,
+                "power 0x261c": 25.0,
+                "rate_of_bg 0x263c": 3000.0,
+                "rate_of_power 0x262c": 180.0,
+                "upper_force 0x265c": 0.0
+            },
+            "swing_bullet 0x2680": {
+                "force 0x273c": 3.0,
+                "free 0x276c": 20.0,
+                "power 0x271c": 15.0,
+                "range 0x274c": 1.0,
+                "rate_of_power 0x272c": 120.0,
+                "velocity 0x275c": 30.0
+            }
+        },
+        "enemy_body 0x16c0": {
+            "health 0x16fc": 30.0
+        },
+        "enemy_parts 0x1700": {
+            "bn_l_hand_a 0x2080": {
+                "angle 0x233c": 360.0,
+                "body_damage 0x226c": 0.0,
+                "core 0x232c": true,
+                "crowspecial_rate 0x22fc": 1.0,
+                "damage_motion_type 0x234c": "FRONT",
+                "debribullet_rate 0x22dc": 0.5,
+                "drillkick_rate 0x22ec": 1.0,
+                "gravitythrow_rate 0x22ac": 1.0,
+                "gravitytyphoon_rate 0x228c": 1.0,
+                "health 0x225c": 50.0,
+                "homing_angle 0x235c": 360.0,
+                "lockon 0x231c": true,
+                "microblackhole_rate 0x229c": 1.0,
+                "model_scale 0x230c": 9.0,
+                "offset_x 0x236c": 0.0,
+                "offset_y 0x237c": 0.0,
+                "offset_z 0x238c": 0.0,
+                "penetrate_rate 0x22bc": 0.5,
+                "scratchtornado_rate 0x227c": 1.0,
+                "vortex_rate 0x22cc": 1.0
+            },
+            "loc_weakpoint_l_00_col 0x17b0": {
+                "angle 0x1a4c": 360.0,
+                "body_damage 0x198c": 10.0,
+                "core 0x1a3c": true,
+                "crowspecial_rate 0x1a1c": 1.0,
+                "damage_motion_type 0x1a5c": "FRONT",
+                "debribullet_rate 0x19fc": 0.5,
+                "drillkick_rate 0x1a0c": 1.0,
+                "gravitythrow_rate 0x19cc": 1.0,
+                "gravitytyphoon_rate 0x19ac": 1.0,
+                "health 0x197c": 300.0,
+                "homing_angle 0x1a6c": 210.0,
+                "lockon 0x1a2c": true,
+                "microblackhole_rate 0x19bc": 1.0,
+                "offset_x 0x1a7c": 2.0,
+                "offset_y 0x1a8c": 0.0,
+                "offset_z 0x1a9c": 0.0,
+                "penetrate_rate 0x19dc": 0.5,
+                "scratchtornado_rate 0x199c": 1.0,
+                "vortex_rate 0x19ec": 1.0
+            },
+            "loc_weakpoint_l_01_col 0x1aa0": {
+                "angle 0x1d3c": 360.0,
+                "body_damage 0x1c7c": 10.0,
+                "core 0x1d2c": true,
+                "crowspecial_rate 0x1d0c": 1.0,
+                "damage_motion_type 0x1d4c": "FRONT",
+                "debribullet_rate 0x1cec": 0.5,
+                "drillkick_rate 0x1cfc": 1.0,
+                "gravitythrow_rate 0x1cbc": 1.0,
+                "gravitytyphoon_rate 0x1c9c": 1.0,
+                "health 0x1c6c": 300.0,
+                "homing_angle 0x1d5c": 210.0,
+                "lockon 0x1d1c": true,
+                "microblackhole_rate 0x1cac": 1.0,
+                "offset_x 0x1d6c": 2.0,
+                "offset_y 0x1d7c": 0.0,
+                "offset_z 0x1d8c": 0.0,
+                "penetrate_rate 0x1ccc": 0.5,
+                "scratchtornado_rate 0x1c8c": 1.0,
+                "vortex_rate 0x1cdc": 1.0
+            },
+            "loc_weakpoint_l_02_col 0x1d90": {
+                "angle 0x202c": 360.0,
+                "body_damage 0x1f6c": 10.0,
+                "core 0x201c": true,
+                "crowspecial_rate 0x1ffc": 1.0,
+                "damage_motion_type 0x203c": "FRONT",
+                "debribullet_rate 0x1fdc": 0.5,
+                "drillkick_rate 0x1fec": 1.0,
+                "gravitythrow_rate 0x1fac": 1.0,
+                "gravitytyphoon_rate 0x1f8c": 1.0,
+                "health 0x1f5c": 300.0,
+                "homing_angle 0x204c": 210.0,
+                "lockon 0x200c": true,
+                "microblackhole_rate 0x1f9c": 1.0,
+                "offset_x 0x205c": 2.0,
+                "offset_y 0x206c": 0.0,
+                "offset_z 0x207c": 0.0,
+                "penetrate_rate 0x1fbc": 0.5,
+                "scratchtornado_rate 0x1f7c": 1.0,
+                "vortex_rate 0x1fcc": 1.0
+            }
+        }
+    },
+    "hard 0x2970": {
+        "brain 0x2a40": {
+            "ai_grade 0x2b0c": "boss",
+            "ai_type 0x2adc": "lastkaliarm",
+            "animjoint 0x2aec": "lastkaliarm_l",
+            "race 0x2afc": "nevi",
+            "type 0x2acc": "EnemyBrain"
+        },
+        "enemy_action_common 0x3d60": {
+            "find 0x3dac": 100.0,
+            "lose 0x3dbc": 105.0
+        },
+        "enemy_actions 0x37e0": {
+            "grab_damage 0x3bc0": {
+                "damage_cumulation 0x3c9c": -1.0,
+                "damage_type 0x3c8c": "poison",
+                "force 0x3c7c": 0.0,
+                "free 0x3cac": 10.0,
+                "power 0x3c5c": 25.0,
+                "rate_of_power 0x3c6c": 120.0
+            },
+            "grab_throw 0x3cb0": {
+                "damage_type 0x3d5c": "normal",
+                "force 0x3d4c": 200.0,
+                "power 0x3d2c": 50.0,
+                "rate_of_power 0x3d3c": 120.0
+            },
+            "spawn 0x38b0": {
+                "damage_cumulation 0x39ac": 0.0,
+                "damage_type 0x399c": "normal",
+                "force 0x397c": 1.0,
+                "power 0x395c": 20.0,
+                "range 0x39bc": 2.5,
+                "rate_of_power 0x396c": -2.0,
+                "upper_force 0x398c": 0.0
+            },
+            "swing 0x39c0": {
+                "damage_cumulation 0x3acc": 0.0,
+                "damage_type 0x3abc": "blow",
+                "force 0x3a9c": 20.0,
+                "power 0x3a6c": 35.0,
+                "rate_of_bg 0x3a8c": 3000.0,
+                "rate_of_power 0x3a7c": 180.0,
+                "upper_force 0x3aac": 0.0
+            },
+            "swing_bullet 0x3ad0": {
+                "force 0x3b8c": 3.0,
+                "free 0x3bbc": 20.0,
+                "power 0x3b6c": 25.0,
+                "range 0x3b9c": 1.0,
+                "rate_of_power 0x3b7c": 120.0,
+                "velocity 0x3bac": 30.0
+            }
+        },
+        "enemy_body 0x2b10": {
+            "health 0x2b4c": 30.0
+        },
+        "enemy_parts 0x2b50": {
+            "bn_l_hand_a 0x34d0": {
+                "angle 0x378c": 360.0,
+                "body_damage 0x36bc": 0.0,
+                "core 0x377c": true,
+                "crowspecial_rate 0x374c": 1.0,
+                "damage_motion_type 0x379c": "FRONT",
+                "debribullet_rate 0x372c": 0.5,
+                "drillkick_rate 0x373c": 1.0,
+                "gravitythrow_rate 0x36fc": 1.0,
+                "gravitytyphoon_rate 0x36dc": 1.0,
+                "health 0x36ac": 50.0,
+                "homing_angle 0x37ac": 360.0,
+                "lockon 0x376c": true,
+                "microblackhole_rate 0x36ec": 1.0,
+                "model_scale 0x375c": 9.0,
+                "offset_x 0x37bc": 0.0,
+                "offset_y 0x37cc": 0.0,
+                "offset_z 0x37dc": 0.0,
+                "penetrate_rate 0x370c": 0.5,
+                "scratchtornado_rate 0x36cc": 1.0,
+                "vortex_rate 0x371c": 1.0
+            },
+            "loc_weakpoint_l_00_col 0x2c00": {
+                "angle 0x2e9c": 360.0,
+                "body_damage 0x2ddc": 10.0,
+                "core 0x2e8c": true,
+                "crowspecial_rate 0x2e6c": 1.0,
+                "damage_motion_type 0x2eac": "FRONT",
+                "debribullet_rate 0x2e4c": 0.5,
+                "drillkick_rate 0x2e5c": 1.0,
+                "gravitythrow_rate 0x2e1c": 1.0,
+                "gravitytyphoon_rate 0x2dfc": 1.0,
+                "health 0x2dcc": 300.0,
+                "homing_angle 0x2ebc": 210.0,
+                "lockon 0x2e7c": true,
+                "microblackhole_rate 0x2e0c": 1.0,
+                "offset_x 0x2ecc": 2.0,
+                "offset_y 0x2edc": 0.0,
+                "offset_z 0x2eec": 0.0,
+                "penetrate_rate 0x2e2c": 0.5,
+                "scratchtornado_rate 0x2dec": 1.0,
+                "vortex_rate 0x2e3c": 1.0
+            },
+            "loc_weakpoint_l_01_col 0x2ef0": {
+                "angle 0x318c": 360.0,
+                "body_damage 0x30cc": 10.0,
+                "core 0x317c": true,
+                "crowspecial_rate 0x315c": 1.0,
+                "damage_motion_type 0x319c": "FRONT",
+                "debribullet_rate 0x313c": 0.5,
+                "drillkick_rate 0x314c": 1.0,
+                "gravitythrow_rate 0x310c": 1.0,
+                "gravitytyphoon_rate 0x30ec": 1.0,
+                "health 0x30bc": 300.0,
+                "homing_angle 0x31ac": 210.0,
+                "lockon 0x316c": true,
+                "microblackhole_rate 0x30fc": 1.0,
+                "offset_x 0x31bc": 2.0,
+                "offset_y 0x31cc": 0.0,
+                "offset_z 0x31dc": 0.0,
+                "penetrate_rate 0x311c": 0.5,
+                "scratchtornado_rate 0x30dc": 1.0,
+                "vortex_rate 0x312c": 1.0
+            },
+            "loc_weakpoint_l_02_col 0x31e0": {
+                "angle 0x347c": 360.0,
+                "body_damage 0x33bc": 10.0,
+                "core 0x346c": true,
+                "crowspecial_rate 0x344c": 1.0,
+                "damage_motion_type 0x348c": "FRONT",
+                "debribullet_rate 0x342c": 0.5,
+                "drillkick_rate 0x343c": 1.0,
+                "gravitythrow_rate 0x33fc": 1.0,
+                "gravitytyphoon_rate 0x33dc": 1.0,
+                "health 0x33ac": 300.0,
+                "homing_angle 0x349c": 210.0,
+                "lockon 0x345c": true,
+                "microblackhole_rate 0x33ec": 1.0,
+                "offset_x 0x34ac": 2.0,
+                "offset_y 0x34bc": 0.0,
+                "offset_z 0x34cc": 0.0,
+                "penetrate_rate 0x340c": 0.5,
+                "scratchtornado_rate 0x33cc": 1.0,
+                "vortex_rate 0x341c": 1.0
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_grade 0x24c": "boss",
+            "ai_type 0x21c": "lastkaliarm",
+            "animjoint 0x22c": "lastkaliarm_l",
+            "race 0x23c": "nevi",
+            "type 0x20c": "EnemyBrain"
+        },
+        "enemy_action_common 0x14c0": {
+            "find 0x150c": 100.0,
+            "lose 0x151c": 105.0
+        },
+        "enemy_actions 0xf20": {
+            "grab_damage 0x1320": {
+                "damage_cumulation 0x13fc": -1.0,
+                "damage_type 0x13ec": "poison",
+                "force 0x13dc": 0.0,
+                "free 0x140c": 10.0,
+                "power 0x13bc": 20.0,
+                "rate_of_power 0x13cc": 120.0
+            },
+            "grab_throw 0x1410": {
+                "damage_type 0x14bc": "normal",
+                "force 0x14ac": 200.0,
+                "power 0x148c": 45.0,
+                "rate_of_power 0x149c": 120.0
+            },
+            "spawn 0xff0": {
+                "damage_cumulation 0x10ec": 0.0,
+                "damage_type 0x10dc": "normal",
+                "force 0x10bc": 1.0,
+                "power 0x109c": 20.0,
+                "range 0x10fc": 2.5,
+                "rate_of_power 0x10ac": -2.0,
+                "upper_force 0x10cc": 0.0
+            },
+            "swing 0x1100": {
+                "damage_cumulation 0x120c": 0.0,
+                "damage_type 0x11fc": "blow",
+                "force 0x11dc": 20.0,
+                "power 0x11ac": 30.0,
+                "rate_of_bg 0x11cc": 3000.0,
+                "rate_of_power 0x11bc": 180.0,
+                "upper_force 0x11ec": 0.0
+            },
+            "swing_bullet 0x1210": {
+                "damage_type 0x12ec": "normal",
+                "force 0x12dc": 3.0,
+                "free 0x131c": 20.0,
+                "power 0x12bc": 20.0,
+                "range 0x12fc": 1.0,
+                "rate_of_power 0x12cc": 120.0,
+                "velocity 0x130c": 30.0
+            }
+        },
+        "enemy_body 0x250": {
+            "health 0x28c": 30.0
+        },
+        "enemy_parts 0x290": {
+            "bn_l_hand_a 0xc10": {
+                "angle 0xecc": 360.0,
+                "body_damage 0xdfc": 0.0,
+                "core 0xebc": true,
+                "crowspecial_rate 0xe8c": 1.0,
+                "damage_motion_type 0xedc": "FRONT",
+                "debribullet_rate 0xe6c": 0.5,
+                "drillkick_rate 0xe7c": 1.0,
+                "gravitythrow_rate 0xe3c": 1.0,
+                "gravitytyphoon_rate 0xe1c": 1.0,
+                "health 0xdec": 50.0,
+                "homing_angle 0xeec": 360.0,
+                "lockon 0xeac": true,
+                "microblackhole_rate 0xe2c": 1.0,
+                "model_scale 0xe9c": 9.0,
+                "offset_x 0xefc": 0.0,
+                "offset_y 0xf0c": 0.0,
+                "offset_z 0xf1c": 0.0,
+                "penetrate_rate 0xe4c": 0.5,
+                "scratchtornado_rate 0xe0c": 1.0,
+                "vortex_rate 0xe5c": 1.0
+            },
+            "loc_weakpoint_l_00_col 0x340": {
+                "angle 0x5dc": 360.0,
+                "body_damage 0x51c": 10.0,
+                "core 0x5cc": true,
+                "crowspecial_rate 0x5ac": 1.0,
+                "damage_motion_type 0x5ec": "FRONT",
+                "debribullet_rate 0x58c": 0.5,
+                "drillkick_rate 0x59c": 1.0,
+                "gravitythrow_rate 0x55c": 1.0,
+                "gravitytyphoon_rate 0x53c": 1.0,
+                "health 0x50c": 300.0,
+                "homing_angle 0x5fc": 210.0,
+                "lockon 0x5bc": true,
+                "microblackhole_rate 0x54c": 1.0,
+                "offset_x 0x60c": 2.0,
+                "offset_y 0x61c": 0.0,
+                "offset_z 0x62c": 0.0,
+                "penetrate_rate 0x56c": 0.5,
+                "scratchtornado_rate 0x52c": 1.0,
+                "vortex_rate 0x57c": 1.0
+            },
+            "loc_weakpoint_l_01_col 0x630": {
+                "angle 0x8cc": 360.0,
+                "body_damage 0x80c": 10.0,
+                "core 0x8bc": true,
+                "crowspecial_rate 0x89c": 1.0,
+                "damage_motion_type 0x8dc": "FRONT",
+                "debribullet_rate 0x87c": 0.5,
+                "drillkick_rate 0x88c": 1.0,
+                "gravitythrow_rate 0x84c": 1.0,
+                "gravitytyphoon_rate 0x82c": 1.0,
+                "health 0x7fc": 300.0,
+                "homing_angle 0x8ec": 210.0,
+                "lockon 0x8ac": true,
+                "microblackhole_rate 0x83c": 1.0,
+                "offset_x 0x8fc": 2.0,
+                "offset_y 0x90c": 0.0,
+                "offset_z 0x91c": 0.0,
+                "penetrate_rate 0x85c": 0.5,
+                "scratchtornado_rate 0x81c": 1.0,
+                "vortex_rate 0x86c": 1.0
+            },
+            "loc_weakpoint_l_02_col 0x920": {
+                "angle 0xbbc": 360.0,
+                "body_damage 0xafc": 10.0,
+                "core 0xbac": true,
+                "crowspecial_rate 0xb8c": 1.0,
+                "damage_motion_type 0xbcc": "FRONT",
+                "debribullet_rate 0xb6c": 0.5,
+                "drillkick_rate 0xb7c": 1.0,
+                "gravitythrow_rate 0xb3c": 1.0,
+                "gravitytyphoon_rate 0xb1c": 1.0,
+                "health 0xaec": 300.0,
+                "homing_angle 0xbdc": 210.0,
+                "lockon 0xb9c": true,
+                "microblackhole_rate 0xb2c": 1.0,
+                "offset_x 0xbec": 2.0,
+                "offset_y 0xbfc": 0.0,
+                "offset_z 0xc0c": 0.0,
+                "penetrate_rate 0xb4c": 0.5,
+                "scratchtornado_rate 0xb0c": 1.0,
+                "vortex_rate 0xb5c": 1.0
+            }
+        }
+    }
+}

@@ -1,202 +1,202 @@
 {
-    "easy 0x9a0": {
-        "brain 0xa70": {
-            "ai_type 0xafc": "parasite_nest",
-            "animjoint 0xb0c": "parasite_nest",
-            "race 0xb1c": "nevi",
-            "type 0xaec": "EnemyBrain"
+    "easy": {
+        "brain": {
+            "ai_type": "parasite_nest",
+            "animjoint": "parasite_nest",
+            "race": "nevi",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x1230": {
-            "find 0x127c": 70.0,
-            "lose 0x128c": 75.0
+        "enemy_action_common": {
+            "find": 70.0,
+            "lose": 75.0
         },
-        "enemy_actions 0x1080": {
-            "parasite_spawn 0x11f0": {
-                "interval 0x122c": 8.0
+        "enemy_actions": {
+            "parasite_spawn": {
+                "interval": 8.0
             },
-            "spawn 0x10e0": {
-                "damage_cumulation 0x11dc": 100.0,
-                "damage_type 0x11cc": "normal",
-                "force 0x11bc": 1.0,
-                "power 0x118c": 0.0,
-                "range 0x11ec": 1.0,
-                "rate_of_bg 0x11ac": 0.0,
-                "rate_of_power 0x119c": 0.0
+            "spawn": {
+                "damage_cumulation": 100.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 0.0,
+                "range": 1.0,
+                "rate_of_bg": 0.0,
+                "rate_of_power": 0.0
             }
         },
-        "enemy_body 0xb20": {
-            "ash_effect 0xc1c": "ef_nev_death",
-            "ash_se 0xc2c": "ene_disappear",
-            "ash_vanish_start_time 0xc3c": 5.0,
-            "battle_field_prio 0xc6c": 1.0,
-            "battle_field_range 0xc5c": 12.0,
-            "health 0xc4c": 100.0,
-            "spawn_effect 0xbfc": "ef_nev_spw_04",
-            "spawn_se 0xc0c": "ene_come"
+        "enemy_body": {
+            "ash_effect": "ef_nev_death",
+            "ash_se": "ene_disappear",
+            "ash_vanish_start_time": 5.0,
+            "battle_field_prio": 1.0,
+            "battle_field_range": 12.0,
+            "health": 100.0,
+            "spawn_effect": "ef_nev_spw_04",
+            "spawn_se": "ene_come"
         },
-        "enemy_parts 0xc70": {
-            "loc_nvprs01nest01_col1 0xd20": {
-                "angle 0xddc": 360.0,
-                "body_damage 0xdcc": 0.0,
-                "enable_meshcoll 0xdac": true,
-                "health 0xdbc": 1000000.0,
-                "homing_angle 0xdec": 360.0
+        "enemy_parts": {
+            "loc_nvprs01nest01_col1": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 1000000.0,
+                "homing_angle": 360.0
             },
-            "loc_nvprs01nest01_col2 0xdf0": {
-                "angle 0xecc": 360.0,
-                "body_damage 0xe9c": 100.0,
-                "core 0xebc": true,
-                "health 0xe8c": 400.0,
-                "homing_angle 0xedc": 360.0,
-                "lockon 0xeac": true
+            "loc_nvprs01nest01_col2": {
+                "angle": 360.0,
+                "body_damage": 100.0,
+                "core": true,
+                "health": 400.0,
+                "homing_angle": 360.0,
+                "lockon": true
             },
-            "loc_nvprs01nest01_trunk 0xee0": {
-                "angle 0xf9c": 360.0,
-                "body_damage 0xf8c": 0.0,
-                "enable_meshcoll 0xf6c": true,
-                "health 0xf7c": 400.0,
-                "homing_angle 0xfac": 360.0
+            "loc_nvprs01nest01_trunk": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 400.0,
+                "homing_angle": 360.0
             },
-            "loc_nvprs01nest01_trunk_col1 0xfb0": {
-                "angle 0x106c": 360.0,
-                "body_damage 0x105c": 0.0,
-                "enable_meshcoll 0x103c": true,
-                "health 0x104c": 400.0,
-                "homing_angle 0x107c": 360.0
-            }
-        }
-    },
-    "hard 0x1290": {
-        "brain 0x1360": {
-            "ai_type 0x13ec": "parasite_nest",
-            "animjoint 0x13fc": "parasite_nest",
-            "race 0x140c": "nevi",
-            "type 0x13dc": "EnemyBrain"
-        },
-        "enemy_action_common 0x1b20": {
-            "find 0x1b6c": 70.0,
-            "lose 0x1b7c": 75.0
-        },
-        "enemy_actions 0x1970": {
-            "parasite_spawn 0x1ae0": {
-                "interval 0x1b1c": 8.0
-            },
-            "spawn 0x19d0": {
-                "damage_cumulation 0x1acc": 100.0,
-                "damage_type 0x1abc": "normal",
-                "force 0x1aac": 1.0,
-                "power 0x1a7c": 0.0,
-                "range 0x1adc": 1.0,
-                "rate_of_bg 0x1a9c": 0.0,
-                "rate_of_power 0x1a8c": 0.0
-            }
-        },
-        "enemy_body 0x1410": {
-            "ash_effect 0x150c": "ef_nev_death",
-            "ash_se 0x151c": "ene_disappear",
-            "ash_vanish_start_time 0x152c": 5.0,
-            "battle_field_prio 0x155c": 1.0,
-            "battle_field_range 0x154c": 12.0,
-            "health 0x153c": 100.0,
-            "spawn_effect 0x14ec": "ef_nev_spw_04",
-            "spawn_se 0x14fc": "ene_come"
-        },
-        "enemy_parts 0x1560": {
-            "loc_nvprs01nest01_col1 0x1610": {
-                "angle 0x16cc": 360.0,
-                "body_damage 0x16bc": 0.0,
-                "enable_meshcoll 0x169c": true,
-                "health 0x16ac": 1000000.0,
-                "homing_angle 0x16dc": 360.0
-            },
-            "loc_nvprs01nest01_col2 0x16e0": {
-                "angle 0x17bc": 360.0,
-                "body_damage 0x178c": 100.0,
-                "core 0x17ac": true,
-                "health 0x177c": 400.0,
-                "homing_angle 0x17cc": 360.0,
-                "lockon 0x179c": true
-            },
-            "loc_nvprs01nest01_trunk 0x17d0": {
-                "angle 0x188c": 360.0,
-                "body_damage 0x187c": 0.0,
-                "enable_meshcoll 0x185c": true,
-                "health 0x186c": 400.0,
-                "homing_angle 0x189c": 360.0
-            },
-            "loc_nvprs01nest01_trunk_col1 0x18a0": {
-                "angle 0x195c": 360.0,
-                "body_damage 0x194c": 0.0,
-                "enable_meshcoll 0x192c": true,
-                "health 0x193c": 400.0,
-                "homing_angle 0x196c": 360.0
+            "loc_nvprs01nest01_trunk_col1": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 400.0,
+                "homing_angle": 360.0
             }
         }
     },
-    "normal 0xb0": {
-        "brain 0x180": {
-            "ai_type 0x20c": "parasite_nest",
-            "animjoint 0x21c": "parasite_nest",
-            "race 0x22c": "nevi",
-            "type 0x1fc": "EnemyBrain"
+    "hard": {
+        "brain": {
+            "ai_type": "parasite_nest",
+            "animjoint": "parasite_nest",
+            "race": "nevi",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x940": {
-            "find 0x98c": 70.0,
-            "lose 0x99c": 75.0
+        "enemy_action_common": {
+            "find": 70.0,
+            "lose": 75.0
         },
-        "enemy_actions 0x790": {
-            "parasite_spawn 0x900": {
-                "interval 0x93c": 8.0
+        "enemy_actions": {
+            "parasite_spawn": {
+                "interval": 8.0
             },
-            "spawn 0x7f0": {
-                "damage_cumulation 0x8ec": 100.0,
-                "damage_type 0x8dc": "normal",
-                "force 0x8cc": 1.0,
-                "power 0x89c": 0.0,
-                "range 0x8fc": 1.0,
-                "rate_of_bg 0x8bc": 0.0,
-                "rate_of_power 0x8ac": 0.0
+            "spawn": {
+                "damage_cumulation": 100.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 0.0,
+                "range": 1.0,
+                "rate_of_bg": 0.0,
+                "rate_of_power": 0.0
             }
         },
-        "enemy_body 0x230": {
-            "ash_effect 0x32c": "ef_nev_death",
-            "ash_se 0x33c": "ene_disappear",
-            "ash_vanish_start_time 0x34c": 5.0,
-            "battle_field_prio 0x37c": 1.0,
-            "battle_field_range 0x36c": 12.0,
-            "health 0x35c": 100.0,
-            "spawn_effect 0x30c": "ef_nev_spw_04",
-            "spawn_se 0x31c": "ene_come"
+        "enemy_body": {
+            "ash_effect": "ef_nev_death",
+            "ash_se": "ene_disappear",
+            "ash_vanish_start_time": 5.0,
+            "battle_field_prio": 1.0,
+            "battle_field_range": 12.0,
+            "health": 100.0,
+            "spawn_effect": "ef_nev_spw_04",
+            "spawn_se": "ene_come"
         },
-        "enemy_parts 0x380": {
-            "loc_nvprs01nest01_col1 0x430": {
-                "angle 0x4ec": 360.0,
-                "body_damage 0x4dc": 0.0,
-                "enable_meshcoll 0x4bc": true,
-                "health 0x4cc": 1000000.0,
-                "homing_angle 0x4fc": 360.0
+        "enemy_parts": {
+            "loc_nvprs01nest01_col1": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 1000000.0,
+                "homing_angle": 360.0
             },
-            "loc_nvprs01nest01_col2 0x500": {
-                "angle 0x5dc": 360.0,
-                "body_damage 0x5ac": 100.0,
-                "core 0x5cc": true,
-                "health 0x59c": 400.0,
-                "homing_angle 0x5ec": 360.0,
-                "lockon 0x5bc": true
+            "loc_nvprs01nest01_col2": {
+                "angle": 360.0,
+                "body_damage": 100.0,
+                "core": true,
+                "health": 400.0,
+                "homing_angle": 360.0,
+                "lockon": true
             },
-            "loc_nvprs01nest01_trunk 0x5f0": {
-                "angle 0x6ac": 360.0,
-                "body_damage 0x69c": 0.0,
-                "enable_meshcoll 0x67c": true,
-                "health 0x68c": 400.0,
-                "homing_angle 0x6bc": 360.0
+            "loc_nvprs01nest01_trunk": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 400.0,
+                "homing_angle": 360.0
             },
-            "loc_nvprs01nest01_trunk_col1 0x6c0": {
-                "angle 0x77c": 360.0,
-                "body_damage 0x76c": 0.0,
-                "enable_meshcoll 0x74c": true,
-                "health 0x75c": 400.0,
-                "homing_angle 0x78c": 360.0
+            "loc_nvprs01nest01_trunk_col1": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 400.0,
+                "homing_angle": 360.0
+            }
+        }
+    },
+    "normal": {
+        "brain": {
+            "ai_type": "parasite_nest",
+            "animjoint": "parasite_nest",
+            "race": "nevi",
+            "type": "EnemyBrain"
+        },
+        "enemy_action_common": {
+            "find": 70.0,
+            "lose": 75.0
+        },
+        "enemy_actions": {
+            "parasite_spawn": {
+                "interval": 8.0
+            },
+            "spawn": {
+                "damage_cumulation": 100.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 0.0,
+                "range": 1.0,
+                "rate_of_bg": 0.0,
+                "rate_of_power": 0.0
+            }
+        },
+        "enemy_body": {
+            "ash_effect": "ef_nev_death",
+            "ash_se": "ene_disappear",
+            "ash_vanish_start_time": 5.0,
+            "battle_field_prio": 1.0,
+            "battle_field_range": 12.0,
+            "health": 100.0,
+            "spawn_effect": "ef_nev_spw_04",
+            "spawn_se": "ene_come"
+        },
+        "enemy_parts": {
+            "loc_nvprs01nest01_col1": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 1000000.0,
+                "homing_angle": 360.0
+            },
+            "loc_nvprs01nest01_col2": {
+                "angle": 360.0,
+                "body_damage": 100.0,
+                "core": true,
+                "health": 400.0,
+                "homing_angle": 360.0,
+                "lockon": true
+            },
+            "loc_nvprs01nest01_trunk": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 400.0,
+                "homing_angle": 360.0
+            },
+            "loc_nvprs01nest01_trunk_col1": {
+                "angle": 360.0,
+                "body_damage": 0.0,
+                "enable_meshcoll": true,
+                "health": 400.0,
+                "homing_angle": 360.0
             }
         }
     }

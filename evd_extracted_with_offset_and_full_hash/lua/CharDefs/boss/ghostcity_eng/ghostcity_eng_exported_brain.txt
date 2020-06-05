@@ -1,0 +1,2348 @@
+{
+    "easy 1b7a5305 0x6fc0": {
+        "brain f3912883 0x7090": {
+            "ai_grade 17b9230d 0x717c": "boss 0c168ad1",
+            "ai_type a8e9a23c 0x713c": "ghostcity_eng ac940729",
+            "animjoint 9c2354a2 0x714c": "ghostcity_eng ac940729",
+            "race 98c2bb8e 0x715c": "nevi 3520c46d",
+            "tailchain 48b91069 0x716c": "ghostcity_eng ac940729",
+            "type 4df12751 0x712c": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0xde70": {
+            "find 5a85f0bd 0xdebc": 100.0,
+            "lose 785834d1 0xdecc": 105.0
+        },
+        "enemy_actions 877ce571 0xd5f0": {
+            "attack_laser ad00d246 0xd7d0": {
+                "damage_cumulation e2d9c67e 0xd93c": 0.0,
+                "damage_type c5871e0c 0xd92c": "blow 21c5bc70",
+                "force 8488a979 0xd90c": 1.0,
+                "free dbeeb399 0xd97c": 3.5,
+                "interval 7885ddce 0xd95c": 1.5,
+                "power 46234ff5 0xd8dc": 20.0,
+                "range d20cdcfa 0xd94c": 3.0,
+                "rate_of_bg 359b8dca 0xd8fc": 2500.0,
+                "rate_of_power 037c9b8a 0xd8ec": 25.0,
+                "upper_force bb35102a 0xd91c": 0.0,
+                "velocity 321c7432 0xd96c": 88.0
+            },
+            "attack_reflect 5ba11486 0xdb50": {
+                "damage_cumulation e2d9c67e 0xdcac": 0.0,
+                "damage_type c5871e0c 0xdc9c": "blow 21c5bc70",
+                "force 8488a979 0xdc7c": 1.0,
+                "height 42bbbdd5 0xdccc": 1.0,
+                "power 46234ff5 0xdc4c": 15.0,
+                "range d20cdcfa 0xdcbc": 3.0,
+                "rate_of_bg 359b8dca 0xdc6c": 2000.0,
+                "rate_of_power 037c9b8a 0xdc5c": 20.0,
+                "upper_force bb35102a 0xdc8c": 0.0,
+                "velocity 321c7432 0xdcdc": 400.0
+            },
+            "attack_reflect_sub 5ebc627a 0xdce0": {
+                "damage_cumulation e2d9c67e 0xde3c": 0.0,
+                "damage_type c5871e0c 0xde2c": "normal 529c8be6",
+                "force 8488a979 0xde0c": 1.0,
+                "height 42bbbdd5 0xde5c": 1.5,
+                "power 46234ff5 0xdddc": 3.0,
+                "range d20cdcfa 0xde4c": 0.5,
+                "rate_of_bg 359b8dca 0xddfc": 500.0,
+                "rate_of_power 037c9b8a 0xddec": 5.0,
+                "upper_force bb35102a 0xde1c": 0.0,
+                "velocity 321c7432 0xde6c": 33.0
+            },
+            "attack_spread 4d6233d4 0xd980": {
+                "damage_cumulation e2d9c67e 0xdafc": 0.0,
+                "damage_type c5871e0c 0xdaec": "normal 529c8be6",
+                "force 8488a979 0xdacc": 1.0,
+                "free dbeeb399 0xdb4c": 90.0,
+                "height 42bbbdd5 0xdb1c": 3.5999999046325684,
+                "interval 7885ddce 0xdb2c": 2.5,
+                "power 46234ff5 0xda9c": 5.0,
+                "range d20cdcfa 0xdb0c": 1.0,
+                "rate_of_bg 359b8dca 0xdabc": 800.0,
+                "rate_of_power 037c9b8a 0xdaac": 8.0,
+                "upper_force bb35102a 0xdadc": 0.0,
+                "velocity 321c7432 0xdb3c": 17.0
+            },
+            "spawn 984d223a 0xd6c0": {
+                "damage_cumulation e2d9c67e 0xd7bc": 0.0,
+                "damage_type c5871e0c 0xd7ac": "normal 529c8be6",
+                "force 8488a979 0xd78c": 1.0,
+                "power 46234ff5 0xd76c": 20.0,
+                "range d20cdcfa 0xd7cc": 2.5,
+                "rate_of_power 037c9b8a 0xd77c": -2.0,
+                "upper_force bb35102a 0xd79c": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x7180": {
+            "battle_field_prio 5324db77 0x71fc": 99.0,
+            "battle_field_range 7e1a8055 0x71ec": 30.0,
+            "health 8fed986b 0x71dc": 2500.0
+        },
+        "enemy_parts 7e7c4e31 0x7200": {
+            "loc_nveng01_col04 b8a3b27b 0xc9f0": {
+                "body_damage ebb248f9 0xca6c": 0.0,
+                "enable_meshcoll 88534f79 0xca4c": true,
+                "health 8fed986b 0xca5c": 1000000.0
+            },
+            "loc_nveng01_col05 4ba5b27c 0xca70": {
+                "body_damage ebb248f9 0xcaec": 0.0,
+                "enable_meshcoll 88534f79 0xcacc": true,
+                "health 8fed986b 0xcadc": 1000000.0
+            },
+            "loc_nveng01_col06 dea6b27d 0xcaf0": {
+                "body_damage ebb248f9 0xcb6c": 0.0,
+                "enable_meshcoll 88534f79 0xcb4c": true,
+                "health 8fed986b 0xcb5c": 1000000.0
+            },
+            "loc_nveng01_col08 6c9db277 0xcb70": {
+                "body_damage ebb248f9 0xcbec": 0.0,
+                "enable_meshcoll 88534f79 0xcbcc": true,
+                "health 8fed986b 0xcbdc": 1000000.0
+            },
+            "loc_nveng01_col09 ff9eb278 0xcbf0": {
+                "body_damage ebb248f9 0xcc6c": 0.0,
+                "enable_meshcoll 88534f79 0xcc4c": true,
+                "health 8fed986b 0xcc5c": 1000000.0
+            },
+            "loc_nveng01_col10 0df2b485 0xcc70": {
+                "body_damage ebb248f9 0xccec": 0.0,
+                "enable_meshcoll 88534f79 0xcccc": true,
+                "health 8fed986b 0xccdc": 1000000.0
+            },
+            "loc_nveng01_col11 7af0b484 0xccf0": {
+                "body_damage ebb248f9 0xcd6c": 0.0,
+                "enable_meshcoll 88534f79 0xcd4c": true,
+                "health 8fed986b 0xcd5c": 1000000.0
+            },
+            "loc_nveng01_col12 e7eeb483 0xcd70": {
+                "body_damage ebb248f9 0xcdec": 0.0,
+                "enable_meshcoll 88534f79 0xcdcc": true,
+                "health 8fed986b 0xcddc": 1000000.0
+            },
+            "loc_nveng01_col13 54edb482 0xcdf0": {
+                "body_damage ebb248f9 0xce6c": 0.0,
+                "enable_meshcoll 88534f79 0xce4c": true,
+                "health 8fed986b 0xce5c": 1000000.0
+            },
+            "loc_nveng01_col14 c1ebb481 0xce70": {
+                "body_damage ebb248f9 0xceec": 0.0,
+                "enable_meshcoll 88534f79 0xcecc": true,
+                "health 8fed986b 0xcedc": 1000000.0
+            },
+            "loc_nveng01_col15 2eeab480 0xcef0": {
+                "body_damage ebb248f9 0xcf6c": 0.0,
+                "enable_meshcoll 88534f79 0xcf4c": true,
+                "health 8fed986b 0xcf5c": 1000000.0
+            },
+            "loc_nveng01_col16 9be8b47f 0xcf70": {
+                "body_damage ebb248f9 0xcfec": 0.0,
+                "enable_meshcoll 88534f79 0xcfcc": true,
+                "health 8fed986b 0xcfdc": 1000000.0
+            },
+            "loc_nveng01_col17 08e7b47e 0xcff0": {
+                "body_damage ebb248f9 0xd06c": 0.0,
+                "enable_meshcoll 88534f79 0xd04c": true,
+                "health 8fed986b 0xd05c": 1000000.0
+            },
+            "loc_nveng01_col18 75e5b47d 0xd070": {
+                "body_damage ebb248f9 0xd0ec": 0.0,
+                "enable_meshcoll 88534f79 0xd0cc": true,
+                "health 8fed986b 0xd0dc": 1000000.0
+            },
+            "loc_nveng01_col19 e2e3b47c 0xd0f0": {
+                "body_damage ebb248f9 0xd16c": 0.0,
+                "enable_meshcoll 88534f79 0xd14c": true,
+                "health 8fed986b 0xd15c": 1000000.0
+            },
+            "loc_nveng01_col20 36d1b7eb 0xd170": {
+                "body_damage ebb248f9 0xd1ec": 0.0,
+                "enable_meshcoll 88534f79 0xd1cc": true,
+                "health 8fed986b 0xd1dc": 1000000.0
+            },
+            "loc_nveng01_col21 c9d2b7ec 0xd1f0": {
+                "body_damage ebb248f9 0xd26c": 0.0,
+                "enable_meshcoll 88534f79 0xd24c": true,
+                "health 8fed986b 0xd25c": 1000000.0
+            },
+            "loc_nveng01_col22 10ceb7e9 0xd270": {
+                "body_damage ebb248f9 0xd2ec": 0.0,
+                "enable_meshcoll 88534f79 0xd2cc": true,
+                "health 8fed986b 0xd2dc": 1000000.0
+            },
+            "loc_nveng01_col23 a3cfb7ea 0xd2f0": {
+                "body_damage ebb248f9 0xd36c": 0.0,
+                "enable_meshcoll 88534f79 0xd34c": true,
+                "health 8fed986b 0xd35c": 1000000.0
+            },
+            "loc_nveng01_col24 82d7b7ef 0xd370": {
+                "body_damage ebb248f9 0xd3ec": 0.0,
+                "enable_meshcoll 88534f79 0xd3cc": true,
+                "health 8fed986b 0xd3dc": 1000000.0
+            },
+            "loc_nveng01_col25 15d9b7f0 0xd3f0": {
+                "body_damage ebb248f9 0xd46c": 0.0,
+                "enable_meshcoll 88534f79 0xd44c": true,
+                "health 8fed986b 0xd45c": 1000000.0
+            },
+            "loc_nveng01_col26 5cd4b7ed 0xd470": {
+                "body_damage ebb248f9 0xd4ec": 0.0,
+                "enable_meshcoll 88534f79 0xd4cc": true,
+                "health 8fed986b 0xd4dc": 1000000.0
+            },
+            "loc_nveng01_col27 efd5b7ee 0xd4f0": {
+                "body_damage ebb248f9 0xd56c": 0.0,
+                "enable_meshcoll 88534f79 0xd54c": true,
+                "health 8fed986b 0xd55c": 1000000.0
+            },
+            "loc_nveng01_col28 ceddb7f3 0xd570": {
+                "body_damage ebb248f9 0xd5ec": 0.0,
+                "enable_meshcoll 88534f79 0xd5cc": true,
+                "health 8fed986b 0xd5dc": 1000000.0
+            },
+            "loc_setCore01 368cc729 0x7dd0": {
+                "angle 184454ad 0x806c": 360.0,
+                "body_damage ebb248f9 0x7f9c": 250.0,
+                "core 7e605edd 0x805c": true,
+                "crowspecial_rate a47a385e 0x802c": 1.0,
+                "damage_motion_type 08588c30 0x807c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x800c": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x801c": 1.0,
+                "eye_aim_limit 7825aec6 0x804c": 30.0,
+                "gravitythrow_rate 12b575d6 0x7fdc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x7fbc": 1.0,
+                "health 8fed986b 0x7f8c": 200.0,
+                "homing_angle e1eaa8a7 0x808c": 360.0,
+                "lockon 3b8d25f8 0x803c": true,
+                "microblackhole_rate a7e6ad6b 0x7fcc": 1.0,
+                "offset_y 426c5e67 0x809c": 0.5,
+                "penetrate_rate b6dedea8 0x7fec": 1.0,
+                "scratchtornado_rate 85446029 0x7fac": 1.0,
+                "vortex_rate 20f1fc29 0x7ffc": 1.0
+            },
+            "loc_setCore02 a38ac728 0x80a0": {
+                "angle 184454ad 0x833c": 360.0,
+                "body_damage ebb248f9 0x826c": 250.0,
+                "core 7e605edd 0x832c": true,
+                "crowspecial_rate a47a385e 0x82fc": 1.0,
+                "damage_motion_type 08588c30 0x834c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x82dc": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x82ec": 1.0,
+                "eye_aim_limit 7825aec6 0x831c": 30.0,
+                "gravitythrow_rate 12b575d6 0x82ac": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x828c": 1.0,
+                "health 8fed986b 0x825c": 200.0,
+                "homing_angle e1eaa8a7 0x835c": 360.0,
+                "lockon 3b8d25f8 0x830c": true,
+                "microblackhole_rate a7e6ad6b 0x829c": 1.0,
+                "offset_y 426c5e67 0x836c": 0.5,
+                "penetrate_rate b6dedea8 0x82bc": 1.0,
+                "scratchtornado_rate 85446029 0x827c": 1.0,
+                "vortex_rate 20f1fc29 0x82cc": 1.0
+            },
+            "loc_setCore03 1089c727 0x8370": {
+                "angle 184454ad 0x860c": 360.0,
+                "body_damage ebb248f9 0x853c": 2000.0,
+                "core 7e605edd 0x85fc": true,
+                "crowspecial_rate a47a385e 0x85cc": 1.0,
+                "damage_motion_type 08588c30 0x861c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x85ac": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x85bc": 1.0,
+                "eye_aim_limit 7825aec6 0x85ec": 45.0,
+                "gravitythrow_rate 12b575d6 0x857c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x855c": 1.0,
+                "health 8fed986b 0x852c": 1800.0,
+                "homing_angle e1eaa8a7 0x862c": 360.0,
+                "lockon 3b8d25f8 0x85dc": true,
+                "microblackhole_rate a7e6ad6b 0x856c": 1.0,
+                "offset_y 426c5e67 0x863c": 0.5,
+                "penetrate_rate b6dedea8 0x858c": 1.0,
+                "scratchtornado_rate 85446029 0x854c": 1.0,
+                "vortex_rate 20f1fc29 0x859c": 1.0
+            },
+            "loc_setCore04 1594c72e 0x8640": {
+                "angle 184454ad 0x88cc": 360.0,
+                "collision_scale 325a8ced 0x888c": 1.100000023841858,
+                "core 7e605edd 0x88bc": true,
+                "crowspecial_rate a47a385e 0x887c": 1.0,
+                "damage_motion_type 08588c30 0x88dc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x885c": 1.0,
+                "drillkick_rate 470e15ee 0x886c": 1.0,
+                "eye_aim_limit 7825aec6 0x88ac": 360.0,
+                "gravitythrow_rate 12b575d6 0x882c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x880c": 1.0,
+                "health 8fed986b 0x87ec": 60.0,
+                "homing_angle e1eaa8a7 0x88ec": 360.0,
+                "lockon 3b8d25f8 0x889c": true,
+                "microblackhole_rate a7e6ad6b 0x881c": 1.0,
+                "penetrate_rate b6dedea8 0x883c": 1.0,
+                "scratchtornado_rate 85446029 0x87fc": 1.0,
+                "vortex_rate 20f1fc29 0x884c": 1.0
+            },
+            "loc_setCore05 8292c72d 0x88f0": {
+                "angle 184454ad 0x8b7c": 360.0,
+                "collision_scale 325a8ced 0x8b3c": 1.100000023841858,
+                "core 7e605edd 0x8b6c": true,
+                "crowspecial_rate a47a385e 0x8b2c": 1.0,
+                "damage_motion_type 08588c30 0x8b8c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x8b0c": 1.0,
+                "drillkick_rate 470e15ee 0x8b1c": 1.0,
+                "eye_aim_limit 7825aec6 0x8b5c": 360.0,
+                "gravitythrow_rate 12b575d6 0x8adc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x8abc": 1.0,
+                "health 8fed986b 0x8a9c": 60.0,
+                "homing_angle e1eaa8a7 0x8b9c": 360.0,
+                "lockon 3b8d25f8 0x8b4c": true,
+                "microblackhole_rate a7e6ad6b 0x8acc": 1.0,
+                "penetrate_rate b6dedea8 0x8aec": 1.0,
+                "scratchtornado_rate 85446029 0x8aac": 1.0,
+                "vortex_rate 20f1fc29 0x8afc": 1.0
+            },
+            "loc_setCore06 ef90c72c 0x8ba0": {
+                "angle 184454ad 0x8e2c": 360.0,
+                "collision_scale 325a8ced 0x8dec": 1.100000023841858,
+                "core 7e605edd 0x8e1c": true,
+                "crowspecial_rate a47a385e 0x8ddc": 1.0,
+                "damage_motion_type 08588c30 0x8e3c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x8dbc": 1.0,
+                "drillkick_rate 470e15ee 0x8dcc": 1.0,
+                "eye_aim_limit 7825aec6 0x8e0c": 360.0,
+                "gravitythrow_rate 12b575d6 0x8d8c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x8d6c": 1.0,
+                "health 8fed986b 0x8d4c": 60.0,
+                "homing_angle e1eaa8a7 0x8e4c": 360.0,
+                "lockon 3b8d25f8 0x8dfc": true,
+                "microblackhole_rate a7e6ad6b 0x8d7c": 1.0,
+                "penetrate_rate b6dedea8 0x8d9c": 1.0,
+                "scratchtornado_rate 85446029 0x8d5c": 1.0,
+                "vortex_rate 20f1fc29 0x8dac": 1.0
+            },
+            "loc_setCore07 5c8fc72b 0x8e50": {
+                "angle 184454ad 0x90dc": 360.0,
+                "collision_scale 325a8ced 0x909c": 1.100000023841858,
+                "core 7e605edd 0x90cc": true,
+                "crowspecial_rate a47a385e 0x908c": 1.0,
+                "damage_motion_type 08588c30 0x90ec": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x906c": 1.0,
+                "drillkick_rate 470e15ee 0x907c": 1.0,
+                "eye_aim_limit 7825aec6 0x90bc": 360.0,
+                "gravitythrow_rate 12b575d6 0x903c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x901c": 1.0,
+                "health 8fed986b 0x8ffc": 60.0,
+                "homing_angle e1eaa8a7 0x90fc": 360.0,
+                "lockon 3b8d25f8 0x90ac": true,
+                "microblackhole_rate a7e6ad6b 0x902c": 1.0,
+                "penetrate_rate b6dedea8 0x904c": 1.0,
+                "scratchtornado_rate 85446029 0x900c": 1.0,
+                "vortex_rate 20f1fc29 0x905c": 1.0
+            },
+            "loc_setCore08 619ac732 0x9100": {
+                "angle 184454ad 0x938c": 360.0,
+                "collision_scale 325a8ced 0x934c": 1.100000023841858,
+                "core 7e605edd 0x937c": true,
+                "crowspecial_rate a47a385e 0x933c": 1.0,
+                "damage_motion_type 08588c30 0x939c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x931c": 1.0,
+                "drillkick_rate 470e15ee 0x932c": 1.0,
+                "eye_aim_limit 7825aec6 0x936c": 360.0,
+                "gravitythrow_rate 12b575d6 0x92ec": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x92cc": 1.0,
+                "health 8fed986b 0x92ac": 60.0,
+                "homing_angle e1eaa8a7 0x93ac": 360.0,
+                "lockon 3b8d25f8 0x935c": true,
+                "microblackhole_rate a7e6ad6b 0x92dc": 1.0,
+                "penetrate_rate b6dedea8 0x92fc": 1.0,
+                "scratchtornado_rate 85446029 0x92bc": 1.0,
+                "vortex_rate 20f1fc29 0x930c": 1.0
+            },
+            "loc_setCore09 ce98c731 0x93b0": {
+                "angle 184454ad 0x963c": 360.0,
+                "collision_scale 325a8ced 0x95fc": 1.100000023841858,
+                "core 7e605edd 0x962c": true,
+                "crowspecial_rate a47a385e 0x95ec": 1.0,
+                "damage_motion_type 08588c30 0x964c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x95cc": 1.0,
+                "drillkick_rate 470e15ee 0x95dc": 1.0,
+                "eye_aim_limit 7825aec6 0x961c": 360.0,
+                "gravitythrow_rate 12b575d6 0x959c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x957c": 1.0,
+                "health 8fed986b 0x955c": 60.0,
+                "homing_angle e1eaa8a7 0x965c": 360.0,
+                "lockon 3b8d25f8 0x960c": true,
+                "microblackhole_rate a7e6ad6b 0x958c": 1.0,
+                "penetrate_rate b6dedea8 0x95ac": 1.0,
+                "scratchtornado_rate 85446029 0x956c": 1.0,
+                "vortex_rate 20f1fc29 0x95bc": 1.0
+            },
+            "loc_setCore10 407cc4a4 0x9660": {
+                "angle 184454ad 0x98ec": 360.0,
+                "collision_scale 325a8ced 0x98ac": 1.100000023841858,
+                "core 7e605edd 0x98dc": true,
+                "crowspecial_rate a47a385e 0x989c": 1.0,
+                "damage_motion_type 08588c30 0x98fc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x987c": 1.0,
+                "drillkick_rate 470e15ee 0x988c": 1.0,
+                "eye_aim_limit 7825aec6 0x98cc": 360.0,
+                "gravitythrow_rate 12b575d6 0x984c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x982c": 1.0,
+                "health 8fed986b 0x980c": 60.0,
+                "homing_angle e1eaa8a7 0x990c": 360.0,
+                "lockon 3b8d25f8 0x98bc": true,
+                "microblackhole_rate a7e6ad6b 0x983c": 1.0,
+                "penetrate_rate b6dedea8 0x985c": 1.0,
+                "scratchtornado_rate 85446029 0x981c": 1.0,
+                "vortex_rate 20f1fc29 0x986c": 1.0
+            },
+            "loc_setCore11 d37dc4a5 0x9910": {
+                "angle 184454ad 0x9b9c": 360.0,
+                "collision_scale 325a8ced 0x9b5c": 1.100000023841858,
+                "core 7e605edd 0x9b8c": true,
+                "crowspecial_rate a47a385e 0x9b4c": 1.0,
+                "damage_motion_type 08588c30 0x9bac": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x9b2c": 1.0,
+                "drillkick_rate 470e15ee 0x9b3c": 1.0,
+                "eye_aim_limit 7825aec6 0x9b7c": 360.0,
+                "gravitythrow_rate 12b575d6 0x9afc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x9adc": 1.0,
+                "health 8fed986b 0x9abc": 60.0,
+                "homing_angle e1eaa8a7 0x9bbc": 360.0,
+                "lockon 3b8d25f8 0x9b6c": true,
+                "microblackhole_rate a7e6ad6b 0x9aec": 1.0,
+                "penetrate_rate b6dedea8 0x9b0c": 1.0,
+                "scratchtornado_rate 85446029 0x9acc": 1.0,
+                "vortex_rate 20f1fc29 0x9b1c": 1.0
+            },
+            "loc_setCore12 667fc4a6 0x9bc0": {
+                "angle 184454ad 0x9e4c": 360.0,
+                "collision_scale 325a8ced 0x9e0c": 1.100000023841858,
+                "core 7e605edd 0x9e3c": true,
+                "crowspecial_rate a47a385e 0x9dfc": 1.0,
+                "damage_motion_type 08588c30 0x9e5c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x9ddc": 1.0,
+                "drillkick_rate 470e15ee 0x9dec": 1.0,
+                "eye_aim_limit 7825aec6 0x9e2c": 360.0,
+                "gravitythrow_rate 12b575d6 0x9dac": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x9d8c": 1.0,
+                "health 8fed986b 0x9d6c": 60.0,
+                "homing_angle e1eaa8a7 0x9e6c": 360.0,
+                "lockon 3b8d25f8 0x9e1c": true,
+                "microblackhole_rate a7e6ad6b 0x9d9c": 1.0,
+                "penetrate_rate b6dedea8 0x9dbc": 1.0,
+                "scratchtornado_rate 85446029 0x9d7c": 1.0,
+                "vortex_rate 20f1fc29 0x9dcc": 1.0
+            },
+            "loc_setCore13 f980c4a7 0x9e70": {
+                "angle 184454ad 0xa0fc": 360.0,
+                "collision_scale 325a8ced 0xa0bc": 1.100000023841858,
+                "core 7e605edd 0xa0ec": true,
+                "crowspecial_rate a47a385e 0xa0ac": 1.0,
+                "damage_motion_type 08588c30 0xa10c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xa08c": 1.0,
+                "drillkick_rate 470e15ee 0xa09c": 1.0,
+                "eye_aim_limit 7825aec6 0xa0dc": 360.0,
+                "gravitythrow_rate 12b575d6 0xa05c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xa03c": 1.0,
+                "health 8fed986b 0xa01c": 60.0,
+                "homing_angle e1eaa8a7 0xa11c": 360.0,
+                "lockon 3b8d25f8 0xa0cc": true,
+                "microblackhole_rate a7e6ad6b 0xa04c": 1.0,
+                "penetrate_rate b6dedea8 0xa06c": 1.0,
+                "scratchtornado_rate 85446029 0xa02c": 1.0,
+                "vortex_rate 20f1fc29 0xa07c": 1.0
+            },
+            "loc_setCore14 8c82c4a8 0xa120": {
+                "angle 184454ad 0xa3ac": 360.0,
+                "collision_scale 325a8ced 0xa36c": 1.100000023841858,
+                "core 7e605edd 0xa39c": true,
+                "crowspecial_rate a47a385e 0xa35c": 1.0,
+                "damage_motion_type 08588c30 0xa3bc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xa33c": 1.0,
+                "drillkick_rate 470e15ee 0xa34c": 1.0,
+                "eye_aim_limit 7825aec6 0xa38c": 360.0,
+                "gravitythrow_rate 12b575d6 0xa30c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xa2ec": 1.0,
+                "health 8fed986b 0xa2cc": 60.0,
+                "homing_angle e1eaa8a7 0xa3cc": 360.0,
+                "lockon 3b8d25f8 0xa37c": true,
+                "microblackhole_rate a7e6ad6b 0xa2fc": 1.0,
+                "penetrate_rate b6dedea8 0xa31c": 1.0,
+                "scratchtornado_rate 85446029 0xa2dc": 1.0,
+                "vortex_rate 20f1fc29 0xa32c": 1.0
+            },
+            "loc_setCore15 1f84c4a9 0xa3d0": {
+                "angle 184454ad 0xa65c": 360.0,
+                "collision_scale 325a8ced 0xa61c": 1.100000023841858,
+                "core 7e605edd 0xa64c": true,
+                "crowspecial_rate a47a385e 0xa60c": 1.0,
+                "damage_motion_type 08588c30 0xa66c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xa5ec": 1.0,
+                "drillkick_rate 470e15ee 0xa5fc": 1.0,
+                "eye_aim_limit 7825aec6 0xa63c": 360.0,
+                "gravitythrow_rate 12b575d6 0xa5bc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xa59c": 1.0,
+                "health 8fed986b 0xa57c": 60.0,
+                "homing_angle e1eaa8a7 0xa67c": 360.0,
+                "lockon 3b8d25f8 0xa62c": true,
+                "microblackhole_rate a7e6ad6b 0xa5ac": 1.0,
+                "penetrate_rate b6dedea8 0xa5cc": 1.0,
+                "scratchtornado_rate 85446029 0xa58c": 1.0,
+                "vortex_rate 20f1fc29 0xa5dc": 1.0
+            },
+            "loc_setCore16 b285c4aa 0xa680": {
+                "angle 184454ad 0xa90c": 360.0,
+                "collision_scale 325a8ced 0xa8cc": 1.100000023841858,
+                "core 7e605edd 0xa8fc": true,
+                "crowspecial_rate a47a385e 0xa8bc": 1.0,
+                "damage_motion_type 08588c30 0xa91c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xa89c": 1.0,
+                "drillkick_rate 470e15ee 0xa8ac": 1.0,
+                "eye_aim_limit 7825aec6 0xa8ec": 360.0,
+                "gravitythrow_rate 12b575d6 0xa86c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xa84c": 1.0,
+                "health 8fed986b 0xa82c": 60.0,
+                "homing_angle e1eaa8a7 0xa92c": 360.0,
+                "lockon 3b8d25f8 0xa8dc": true,
+                "microblackhole_rate a7e6ad6b 0xa85c": 1.0,
+                "penetrate_rate b6dedea8 0xa87c": 1.0,
+                "scratchtornado_rate 85446029 0xa83c": 1.0,
+                "vortex_rate 20f1fc29 0xa88c": 1.0
+            },
+            "loc_setCore17 4587c4ab 0xa930": {
+                "angle 184454ad 0xabbc": 360.0,
+                "collision_scale 325a8ced 0xab7c": 1.100000023841858,
+                "core 7e605edd 0xabac": true,
+                "crowspecial_rate a47a385e 0xab6c": 1.0,
+                "damage_motion_type 08588c30 0xabcc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xab4c": 1.0,
+                "drillkick_rate 470e15ee 0xab5c": 1.0,
+                "eye_aim_limit 7825aec6 0xab9c": 360.0,
+                "gravitythrow_rate 12b575d6 0xab1c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xaafc": 1.0,
+                "health 8fed986b 0xaadc": 60.0,
+                "homing_angle e1eaa8a7 0xabdc": 360.0,
+                "lockon 3b8d25f8 0xab8c": true,
+                "microblackhole_rate a7e6ad6b 0xab0c": 1.0,
+                "penetrate_rate b6dedea8 0xab2c": 1.0,
+                "scratchtornado_rate 85446029 0xaaec": 1.0,
+                "vortex_rate 20f1fc29 0xab3c": 1.0
+            },
+            "loc_setCore18 d888c4ac 0xabe0": {
+                "angle 184454ad 0xae6c": 360.0,
+                "collision_scale 325a8ced 0xae2c": 1.100000023841858,
+                "core 7e605edd 0xae5c": true,
+                "crowspecial_rate a47a385e 0xae1c": 1.0,
+                "damage_motion_type 08588c30 0xae7c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xadfc": 1.0,
+                "drillkick_rate 470e15ee 0xae0c": 1.0,
+                "eye_aim_limit 7825aec6 0xae4c": 360.0,
+                "gravitythrow_rate 12b575d6 0xadcc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xadac": 1.0,
+                "health 8fed986b 0xad8c": 60.0,
+                "homing_angle e1eaa8a7 0xae8c": 360.0,
+                "lockon 3b8d25f8 0xae3c": true,
+                "microblackhole_rate a7e6ad6b 0xadbc": 1.0,
+                "penetrate_rate b6dedea8 0xaddc": 1.0,
+                "scratchtornado_rate 85446029 0xad9c": 1.0,
+                "vortex_rate 20f1fc29 0xadec": 1.0
+            },
+            "loc_setCore19 6b8ac4ad 0xae90": {
+                "angle 184454ad 0xb11c": 360.0,
+                "collision_scale 325a8ced 0xb0dc": 1.100000023841858,
+                "core 7e605edd 0xb10c": true,
+                "crowspecial_rate a47a385e 0xb0cc": 1.0,
+                "damage_motion_type 08588c30 0xb12c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xb0ac": 1.0,
+                "drillkick_rate 470e15ee 0xb0bc": 1.0,
+                "eye_aim_limit 7825aec6 0xb0fc": 360.0,
+                "gravitythrow_rate 12b575d6 0xb07c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xb05c": 1.0,
+                "health 8fed986b 0xb03c": 60.0,
+                "homing_angle e1eaa8a7 0xb13c": 360.0,
+                "lockon 3b8d25f8 0xb0ec": true,
+                "microblackhole_rate a7e6ad6b 0xb06c": 1.0,
+                "penetrate_rate b6dedea8 0xb08c": 1.0,
+                "scratchtornado_rate 85446029 0xb04c": 1.0,
+                "vortex_rate 20f1fc29 0xb09c": 1.0
+            },
+            "loc_setCore20 db1dcc36 0xb140": {
+                "angle 184454ad 0xb3cc": 360.0,
+                "collision_scale 325a8ced 0xb38c": 1.100000023841858,
+                "core 7e605edd 0xb3bc": true,
+                "crowspecial_rate a47a385e 0xb37c": 1.0,
+                "damage_motion_type 08588c30 0xb3dc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xb35c": 1.0,
+                "drillkick_rate 470e15ee 0xb36c": 1.0,
+                "eye_aim_limit 7825aec6 0xb3ac": 360.0,
+                "gravitythrow_rate 12b575d6 0xb32c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xb30c": 1.0,
+                "health 8fed986b 0xb2ec": 60.0,
+                "homing_angle e1eaa8a7 0xb3ec": 360.0,
+                "lockon 3b8d25f8 0xb39c": true,
+                "microblackhole_rate a7e6ad6b 0xb31c": 1.0,
+                "penetrate_rate b6dedea8 0xb33c": 1.0,
+                "scratchtornado_rate 85446029 0xb2fc": 1.0,
+                "vortex_rate 20f1fc29 0xb34c": 1.0
+            },
+            "loc_setCore21 481ccc35 0xb3f0": {
+                "angle 184454ad 0xb67c": 360.0,
+                "collision_scale 325a8ced 0xb63c": 1.100000023841858,
+                "core 7e605edd 0xb66c": true,
+                "crowspecial_rate a47a385e 0xb62c": 1.0,
+                "damage_motion_type 08588c30 0xb68c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xb60c": 1.0,
+                "drillkick_rate 470e15ee 0xb61c": 1.0,
+                "eye_aim_limit 7825aec6 0xb65c": 360.0,
+                "gravitythrow_rate 12b575d6 0xb5dc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xb5bc": 1.0,
+                "health 8fed986b 0xb59c": 60.0,
+                "homing_angle e1eaa8a7 0xb69c": 360.0,
+                "lockon 3b8d25f8 0xb64c": true,
+                "microblackhole_rate a7e6ad6b 0xb5cc": 1.0,
+                "penetrate_rate b6dedea8 0xb5ec": 1.0,
+                "scratchtornado_rate 85446029 0xb5ac": 1.0,
+                "vortex_rate 20f1fc29 0xb5fc": 1.0
+            },
+            "loc_setCore22 0121cc38 0xb6a0": {
+                "angle 184454ad 0xb92c": 360.0,
+                "collision_scale 325a8ced 0xb8ec": 1.100000023841858,
+                "core 7e605edd 0xb91c": true,
+                "crowspecial_rate a47a385e 0xb8dc": 1.0,
+                "damage_motion_type 08588c30 0xb93c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xb8bc": 1.0,
+                "drillkick_rate 470e15ee 0xb8cc": 1.0,
+                "eye_aim_limit 7825aec6 0xb90c": 360.0,
+                "gravitythrow_rate 12b575d6 0xb88c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xb86c": 1.0,
+                "health 8fed986b 0xb84c": 60.0,
+                "homing_angle e1eaa8a7 0xb94c": 360.0,
+                "lockon 3b8d25f8 0xb8fc": true,
+                "microblackhole_rate a7e6ad6b 0xb87c": 1.0,
+                "penetrate_rate b6dedea8 0xb89c": 1.0,
+                "scratchtornado_rate 85446029 0xb85c": 1.0,
+                "vortex_rate 20f1fc29 0xb8ac": 1.0
+            },
+            "loc_setCore23 6e1fcc37 0xb950": {
+                "angle 184454ad 0xbbdc": 360.0,
+                "collision_scale 325a8ced 0xbb9c": 1.100000023841858,
+                "core 7e605edd 0xbbcc": true,
+                "crowspecial_rate a47a385e 0xbb8c": 1.0,
+                "damage_motion_type 08588c30 0xbbec": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xbb6c": 1.0,
+                "drillkick_rate 470e15ee 0xbb7c": 1.0,
+                "eye_aim_limit 7825aec6 0xbbbc": 360.0,
+                "gravitythrow_rate 12b575d6 0xbb3c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xbb1c": 1.0,
+                "health 8fed986b 0xbafc": 60.0,
+                "homing_angle e1eaa8a7 0xbbfc": 360.0,
+                "lockon 3b8d25f8 0xbbac": true,
+                "microblackhole_rate a7e6ad6b 0xbb2c": 1.0,
+                "penetrate_rate b6dedea8 0xbb4c": 1.0,
+                "scratchtornado_rate 85446029 0xbb0c": 1.0,
+                "vortex_rate 20f1fc29 0xbb5c": 1.0
+            },
+            "loc_setCore24 2724cc3a 0xbc00": {
+                "angle 184454ad 0xbe8c": 360.0,
+                "collision_scale 325a8ced 0xbe4c": 1.100000023841858,
+                "core 7e605edd 0xbe7c": true,
+                "crowspecial_rate a47a385e 0xbe3c": 1.0,
+                "damage_motion_type 08588c30 0xbe9c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xbe1c": 1.0,
+                "drillkick_rate 470e15ee 0xbe2c": 1.0,
+                "eye_aim_limit 7825aec6 0xbe6c": 360.0,
+                "gravitythrow_rate 12b575d6 0xbdec": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xbdcc": 1.0,
+                "health 8fed986b 0xbdac": 60.0,
+                "homing_angle e1eaa8a7 0xbeac": 360.0,
+                "lockon 3b8d25f8 0xbe5c": true,
+                "microblackhole_rate a7e6ad6b 0xbddc": 1.0,
+                "penetrate_rate b6dedea8 0xbdfc": 1.0,
+                "scratchtornado_rate 85446029 0xbdbc": 1.0,
+                "vortex_rate 20f1fc29 0xbe0c": 1.0
+            },
+            "loc_setNveng01lasmec01 c92011ec 0xbeb0": {
+                "health 8fed986b 0xbefc": 60.0,
+                "lockon 3b8d25f8 0xbf0c": true
+            },
+            "loc_setNveng01lasmec010 fbe7f697 0xc210": {
+                "health 8fed986b 0xc25c": 60.0,
+                "lockon 3b8d25f8 0xc26c": true
+            },
+            "loc_setNveng01lasmec011 68e6f696 0xc270": {
+                "health 8fed986b 0xc2bc": 60.0,
+                "lockon 3b8d25f8 0xc2cc": true
+            },
+            "loc_setNveng01lasmec012 21ebf699 0xc2d0": {
+                "health 8fed986b 0xc31c": 60.0,
+                "lockon 3b8d25f8 0xc32c": true
+            },
+            "loc_setNveng01lasmec013 8ee9f698 0xc330": {
+                "health 8fed986b 0xc37c": 60.0,
+                "lockon 3b8d25f8 0xc38c": true
+            },
+            "loc_setNveng01lasmec014 47eef69b 0xc390": {
+                "health 8fed986b 0xc3dc": 60.0,
+                "lockon 3b8d25f8 0xc3ec": true
+            },
+            "loc_setNveng01lasmec015 b4ecf69a 0xc3f0": {
+                "health 8fed986b 0xc43c": 60.0,
+                "lockon 3b8d25f8 0xc44c": true
+            },
+            "loc_setNveng01lasmec016 6df1f69d 0xc450": {
+                "health 8fed986b 0xc49c": 60.0,
+                "lockon 3b8d25f8 0xc4ac": true
+            },
+            "loc_setNveng01lasmec017 daeff69c 0xc4b0": {
+                "health 8fed986b 0xc4fc": 60.0,
+                "lockon 3b8d25f8 0xc50c": true
+            },
+            "loc_setNveng01lasmec018 63dbf68f 0xc510": {
+                "health 8fed986b 0xc55c": 60.0,
+                "lockon 3b8d25f8 0xc56c": true
+            },
+            "loc_setNveng01lasmec019 d0d9f68e 0xc570": {
+                "health 8fed986b 0xc5bc": 60.0,
+                "lockon 3b8d25f8 0xc5cc": true
+            },
+            "loc_setNveng01lasmec02 101c11e9 0xbf10": {
+                "health 8fed986b 0xbf5c": 60.0,
+                "lockon 3b8d25f8 0xbf6c": true
+            },
+            "loc_setNveng01lasmec020 6046ef05 0xc5d0": {
+                "health 8fed986b 0xc61c": 60.0,
+                "lockon 3b8d25f8 0xc62c": true
+            },
+            "loc_setNveng01lasmec021 f347ef06 0xc630": {
+                "health 8fed986b 0xc67c": 60.0,
+                "lockon 3b8d25f8 0xc68c": true
+            },
+            "loc_setNveng01lasmec022 8649ef07 0xc690": {
+                "health 8fed986b 0xc6dc": 60.0,
+                "lockon 3b8d25f8 0xc6ec": true
+            },
+            "loc_setNveng01lasmec023 194bef08 0xc6f0": {
+                "health 8fed986b 0xc73c": 60.0,
+                "lockon 3b8d25f8 0xc74c": true
+            },
+            "loc_setNveng01lasmec024 ac4cef09 0xc750": {
+                "health 8fed986b 0xc79c": 60.0,
+                "lockon 3b8d25f8 0xc7ac": true
+            },
+            "loc_setNveng01lasmec025 3f4eef0a 0xc7b0": {
+                "health 8fed986b 0xc7fc": 60.0,
+                "lockon 3b8d25f8 0xc80c": true
+            },
+            "loc_setNveng01lasmec026 d24fef0b 0xc810": {
+                "health 8fed986b 0xc85c": 60.0,
+                "lockon 3b8d25f8 0xc86c": true
+            },
+            "loc_setNveng01lasmec027 6551ef0c 0xc870": {
+                "health 8fed986b 0xc8bc": 60.0,
+                "lockon 3b8d25f8 0xc8cc": true
+            },
+            "loc_setNveng01lasmec028 f852ef0d 0xc8d0": {
+                "health 8fed986b 0xc91c": 60.0,
+                "lockon 3b8d25f8 0xc92c": true
+            },
+            "loc_setNveng01lasmec029 8b54ef0e 0xc930": {
+                "health 8fed986b 0xc97c": 60.0,
+                "lockon 3b8d25f8 0xc98c": true
+            },
+            "loc_setNveng01lasmec03 a31d11ea 0xbf70": {
+                "health 8fed986b 0xbfbc": 60.0,
+                "lockon 3b8d25f8 0xbfcc": true
+            },
+            "loc_setNveng01lasmec030 698ef10b 0xc990": {
+                "health 8fed986b 0xc9dc": 60.0,
+                "lockon 3b8d25f8 0xc9ec": true
+            },
+            "loc_setNveng01lasmec04 822511ef 0xbfd0": {
+                "health 8fed986b 0xc01c": 60.0,
+                "lockon 3b8d25f8 0xc02c": true
+            },
+            "loc_setNveng01lasmec05 152711f0 0xc030": {
+                "health 8fed986b 0xc07c": 60.0,
+                "lockon 3b8d25f8 0xc08c": true
+            },
+            "loc_setNveng01lasmec06 5c2211ed 0xc090": {
+                "health 8fed986b 0xc0dc": 60.0,
+                "lockon 3b8d25f8 0xc0ec": true
+            },
+            "loc_setNveng01lasmec07 ef2311ee 0xc0f0": {
+                "health 8fed986b 0xc13c": 60.0,
+                "lockon 3b8d25f8 0xc14c": true
+            },
+            "loc_setNveng01lasmec08 ce2b11f3 0xc150": {
+                "health 8fed986b 0xc19c": 60.0,
+                "lockon 3b8d25f8 0xc1ac": true
+            },
+            "loc_setNveng01lasmec09 612d11f4 0xc1b0": {
+                "health 8fed986b 0xc1fc": 60.0,
+                "lockon 3b8d25f8 0xc20c": true
+            }
+        }
+    },
+    "hard dc5bc3e4 0xded0": {
+        "brain f3912883 0xdfa0": {
+            "ai_grade 17b9230d 0xe08c": "boss 0c168ad1",
+            "ai_type a8e9a23c 0xe04c": "ghostcity_eng ac940729",
+            "animjoint 9c2354a2 0xe05c": "ghostcity_eng ac940729",
+            "race 98c2bb8e 0xe06c": "nevi 3520c46d",
+            "tailchain 48b91069 0xe07c": "ghostcity_eng ac940729",
+            "type 4df12751 0xe03c": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0x14d80": {
+            "find 5a85f0bd 0x14dcc": 100.0,
+            "lose 785834d1 0x14ddc": 105.0
+        },
+        "enemy_actions 877ce571 0x14500": {
+            "attack_laser ad00d246 0x146e0": {
+                "damage_cumulation e2d9c67e 0x1484c": 0.0,
+                "damage_type c5871e0c 0x1483c": "blow 21c5bc70",
+                "force 8488a979 0x1481c": 1.0,
+                "free dbeeb399 0x1488c": 3.5,
+                "interval 7885ddce 0x1486c": 1.5,
+                "power 46234ff5 0x147ec": 30.0,
+                "range d20cdcfa 0x1485c": 3.0,
+                "rate_of_bg 359b8dca 0x1480c": 2500.0,
+                "rate_of_power 037c9b8a 0x147fc": 25.0,
+                "upper_force bb35102a 0x1482c": 0.0,
+                "velocity 321c7432 0x1487c": 88.0
+            },
+            "attack_reflect 5ba11486 0x14a60": {
+                "damage_cumulation e2d9c67e 0x14bbc": 0.0,
+                "damage_type c5871e0c 0x14bac": "blow 21c5bc70",
+                "force 8488a979 0x14b8c": 1.0,
+                "height 42bbbdd5 0x14bdc": 1.0,
+                "power 46234ff5 0x14b5c": 25.0,
+                "range d20cdcfa 0x14bcc": 3.0,
+                "rate_of_bg 359b8dca 0x14b7c": 2000.0,
+                "rate_of_power 037c9b8a 0x14b6c": 20.0,
+                "upper_force bb35102a 0x14b9c": 0.0,
+                "velocity 321c7432 0x14bec": 400.0
+            },
+            "attack_reflect_sub 5ebc627a 0x14bf0": {
+                "damage_cumulation e2d9c67e 0x14d4c": 0.0,
+                "damage_type c5871e0c 0x14d3c": "normal 529c8be6",
+                "force 8488a979 0x14d1c": 1.0,
+                "height 42bbbdd5 0x14d6c": 1.5,
+                "power 46234ff5 0x14cec": 8.0,
+                "range d20cdcfa 0x14d5c": 0.5,
+                "rate_of_bg 359b8dca 0x14d0c": 500.0,
+                "rate_of_power 037c9b8a 0x14cfc": 5.0,
+                "upper_force bb35102a 0x14d2c": 0.0,
+                "velocity 321c7432 0x14d7c": 33.0
+            },
+            "attack_spread 4d6233d4 0x14890": {
+                "damage_cumulation e2d9c67e 0x14a0c": 0.0,
+                "damage_type c5871e0c 0x149fc": "normal 529c8be6",
+                "force 8488a979 0x149dc": 1.0,
+                "free dbeeb399 0x14a5c": 90.0,
+                "height 42bbbdd5 0x14a2c": 3.5999999046325684,
+                "interval 7885ddce 0x14a3c": 2.5,
+                "power 46234ff5 0x149ac": 10.0,
+                "range d20cdcfa 0x14a1c": 1.0,
+                "rate_of_bg 359b8dca 0x149cc": 800.0,
+                "rate_of_power 037c9b8a 0x149bc": 8.0,
+                "upper_force bb35102a 0x149ec": 0.0,
+                "velocity 321c7432 0x14a4c": 17.0
+            },
+            "spawn 984d223a 0x145d0": {
+                "damage_cumulation e2d9c67e 0x146cc": 0.0,
+                "damage_type c5871e0c 0x146bc": "normal 529c8be6",
+                "force 8488a979 0x1469c": 1.0,
+                "power 46234ff5 0x1467c": 20.0,
+                "range d20cdcfa 0x146dc": 2.5,
+                "rate_of_power 037c9b8a 0x1468c": -2.0,
+                "upper_force bb35102a 0x146ac": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0xe090": {
+            "battle_field_prio 5324db77 0xe10c": 99.0,
+            "battle_field_range 7e1a8055 0xe0fc": 30.0,
+            "health 8fed986b 0xe0ec": 2500.0
+        },
+        "enemy_parts 7e7c4e31 0xe110": {
+            "loc_nveng01_col04 b8a3b27b 0x13900": {
+                "body_damage ebb248f9 0x1397c": 0.0,
+                "enable_meshcoll 88534f79 0x1395c": true,
+                "health 8fed986b 0x1396c": 1000000.0
+            },
+            "loc_nveng01_col05 4ba5b27c 0x13980": {
+                "body_damage ebb248f9 0x139fc": 0.0,
+                "enable_meshcoll 88534f79 0x139dc": true,
+                "health 8fed986b 0x139ec": 1000000.0
+            },
+            "loc_nveng01_col06 dea6b27d 0x13a00": {
+                "body_damage ebb248f9 0x13a7c": 0.0,
+                "enable_meshcoll 88534f79 0x13a5c": true,
+                "health 8fed986b 0x13a6c": 1000000.0
+            },
+            "loc_nveng01_col08 6c9db277 0x13a80": {
+                "body_damage ebb248f9 0x13afc": 0.0,
+                "enable_meshcoll 88534f79 0x13adc": true,
+                "health 8fed986b 0x13aec": 1000000.0
+            },
+            "loc_nveng01_col09 ff9eb278 0x13b00": {
+                "body_damage ebb248f9 0x13b7c": 0.0,
+                "enable_meshcoll 88534f79 0x13b5c": true,
+                "health 8fed986b 0x13b6c": 1000000.0
+            },
+            "loc_nveng01_col10 0df2b485 0x13b80": {
+                "body_damage ebb248f9 0x13bfc": 0.0,
+                "enable_meshcoll 88534f79 0x13bdc": true,
+                "health 8fed986b 0x13bec": 1000000.0
+            },
+            "loc_nveng01_col11 7af0b484 0x13c00": {
+                "body_damage ebb248f9 0x13c7c": 0.0,
+                "enable_meshcoll 88534f79 0x13c5c": true,
+                "health 8fed986b 0x13c6c": 1000000.0
+            },
+            "loc_nveng01_col12 e7eeb483 0x13c80": {
+                "body_damage ebb248f9 0x13cfc": 0.0,
+                "enable_meshcoll 88534f79 0x13cdc": true,
+                "health 8fed986b 0x13cec": 1000000.0
+            },
+            "loc_nveng01_col13 54edb482 0x13d00": {
+                "body_damage ebb248f9 0x13d7c": 0.0,
+                "enable_meshcoll 88534f79 0x13d5c": true,
+                "health 8fed986b 0x13d6c": 1000000.0
+            },
+            "loc_nveng01_col14 c1ebb481 0x13d80": {
+                "body_damage ebb248f9 0x13dfc": 0.0,
+                "enable_meshcoll 88534f79 0x13ddc": true,
+                "health 8fed986b 0x13dec": 1000000.0
+            },
+            "loc_nveng01_col15 2eeab480 0x13e00": {
+                "body_damage ebb248f9 0x13e7c": 0.0,
+                "enable_meshcoll 88534f79 0x13e5c": true,
+                "health 8fed986b 0x13e6c": 1000000.0
+            },
+            "loc_nveng01_col16 9be8b47f 0x13e80": {
+                "body_damage ebb248f9 0x13efc": 0.0,
+                "enable_meshcoll 88534f79 0x13edc": true,
+                "health 8fed986b 0x13eec": 1000000.0
+            },
+            "loc_nveng01_col17 08e7b47e 0x13f00": {
+                "body_damage ebb248f9 0x13f7c": 0.0,
+                "enable_meshcoll 88534f79 0x13f5c": true,
+                "health 8fed986b 0x13f6c": 1000000.0
+            },
+            "loc_nveng01_col18 75e5b47d 0x13f80": {
+                "body_damage ebb248f9 0x13ffc": 0.0,
+                "enable_meshcoll 88534f79 0x13fdc": true,
+                "health 8fed986b 0x13fec": 1000000.0
+            },
+            "loc_nveng01_col19 e2e3b47c 0x14000": {
+                "body_damage ebb248f9 0x1407c": 0.0,
+                "enable_meshcoll 88534f79 0x1405c": true,
+                "health 8fed986b 0x1406c": 1000000.0
+            },
+            "loc_nveng01_col20 36d1b7eb 0x14080": {
+                "body_damage ebb248f9 0x140fc": 0.0,
+                "enable_meshcoll 88534f79 0x140dc": true,
+                "health 8fed986b 0x140ec": 1000000.0
+            },
+            "loc_nveng01_col21 c9d2b7ec 0x14100": {
+                "body_damage ebb248f9 0x1417c": 0.0,
+                "enable_meshcoll 88534f79 0x1415c": true,
+                "health 8fed986b 0x1416c": 1000000.0
+            },
+            "loc_nveng01_col22 10ceb7e9 0x14180": {
+                "body_damage ebb248f9 0x141fc": 0.0,
+                "enable_meshcoll 88534f79 0x141dc": true,
+                "health 8fed986b 0x141ec": 1000000.0
+            },
+            "loc_nveng01_col23 a3cfb7ea 0x14200": {
+                "body_damage ebb248f9 0x1427c": 0.0,
+                "enable_meshcoll 88534f79 0x1425c": true,
+                "health 8fed986b 0x1426c": 1000000.0
+            },
+            "loc_nveng01_col24 82d7b7ef 0x14280": {
+                "body_damage ebb248f9 0x142fc": 0.0,
+                "enable_meshcoll 88534f79 0x142dc": true,
+                "health 8fed986b 0x142ec": 1000000.0
+            },
+            "loc_nveng01_col25 15d9b7f0 0x14300": {
+                "body_damage ebb248f9 0x1437c": 0.0,
+                "enable_meshcoll 88534f79 0x1435c": true,
+                "health 8fed986b 0x1436c": 1000000.0
+            },
+            "loc_nveng01_col26 5cd4b7ed 0x14380": {
+                "body_damage ebb248f9 0x143fc": 0.0,
+                "enable_meshcoll 88534f79 0x143dc": true,
+                "health 8fed986b 0x143ec": 1000000.0
+            },
+            "loc_nveng01_col27 efd5b7ee 0x14400": {
+                "body_damage ebb248f9 0x1447c": 0.0,
+                "enable_meshcoll 88534f79 0x1445c": true,
+                "health 8fed986b 0x1446c": 1000000.0
+            },
+            "loc_nveng01_col28 ceddb7f3 0x14480": {
+                "body_damage ebb248f9 0x144fc": 0.0,
+                "enable_meshcoll 88534f79 0x144dc": true,
+                "health 8fed986b 0x144ec": 1000000.0
+            },
+            "loc_setCore01 368cc729 0xece0": {
+                "angle 184454ad 0xef7c": 360.0,
+                "body_damage ebb248f9 0xeeac": 250.0,
+                "core 7e605edd 0xef6c": true,
+                "crowspecial_rate a47a385e 0xef3c": 1.0,
+                "damage_motion_type 08588c30 0xef8c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xef1c": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0xef2c": 1.0,
+                "eye_aim_limit 7825aec6 0xef5c": 30.0,
+                "gravitythrow_rate 12b575d6 0xeeec": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xeecc": 1.0,
+                "health 8fed986b 0xee9c": 300.0,
+                "homing_angle e1eaa8a7 0xef9c": 360.0,
+                "lockon 3b8d25f8 0xef4c": true,
+                "microblackhole_rate a7e6ad6b 0xeedc": 1.0,
+                "offset_y 426c5e67 0xefac": 0.5,
+                "penetrate_rate b6dedea8 0xeefc": 1.0,
+                "scratchtornado_rate 85446029 0xeebc": 1.0,
+                "vortex_rate 20f1fc29 0xef0c": 1.0
+            },
+            "loc_setCore02 a38ac728 0xefb0": {
+                "angle 184454ad 0xf24c": 360.0,
+                "body_damage ebb248f9 0xf17c": 250.0,
+                "core 7e605edd 0xf23c": true,
+                "crowspecial_rate a47a385e 0xf20c": 1.0,
+                "damage_motion_type 08588c30 0xf25c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xf1ec": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0xf1fc": 1.0,
+                "eye_aim_limit 7825aec6 0xf22c": 30.0,
+                "gravitythrow_rate 12b575d6 0xf1bc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xf19c": 1.0,
+                "health 8fed986b 0xf16c": 300.0,
+                "homing_angle e1eaa8a7 0xf26c": 360.0,
+                "lockon 3b8d25f8 0xf21c": true,
+                "microblackhole_rate a7e6ad6b 0xf1ac": 1.0,
+                "offset_y 426c5e67 0xf27c": 0.5,
+                "penetrate_rate b6dedea8 0xf1cc": 1.0,
+                "scratchtornado_rate 85446029 0xf18c": 1.0,
+                "vortex_rate 20f1fc29 0xf1dc": 1.0
+            },
+            "loc_setCore03 1089c727 0xf280": {
+                "angle 184454ad 0xf51c": 360.0,
+                "body_damage ebb248f9 0xf44c": 2000.0,
+                "core 7e605edd 0xf50c": true,
+                "crowspecial_rate a47a385e 0xf4dc": 1.0,
+                "damage_motion_type 08588c30 0xf52c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xf4bc": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0xf4cc": 1.0,
+                "eye_aim_limit 7825aec6 0xf4fc": 45.0,
+                "gravitythrow_rate 12b575d6 0xf48c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xf46c": 1.0,
+                "health 8fed986b 0xf43c": 2200.0,
+                "homing_angle e1eaa8a7 0xf53c": 360.0,
+                "lockon 3b8d25f8 0xf4ec": true,
+                "microblackhole_rate a7e6ad6b 0xf47c": 1.0,
+                "offset_y 426c5e67 0xf54c": 0.5,
+                "penetrate_rate b6dedea8 0xf49c": 1.0,
+                "scratchtornado_rate 85446029 0xf45c": 1.0,
+                "vortex_rate 20f1fc29 0xf4ac": 1.0
+            },
+            "loc_setCore04 1594c72e 0xf550": {
+                "angle 184454ad 0xf7dc": 360.0,
+                "collision_scale 325a8ced 0xf79c": 1.100000023841858,
+                "core 7e605edd 0xf7cc": true,
+                "crowspecial_rate a47a385e 0xf78c": 1.0,
+                "damage_motion_type 08588c30 0xf7ec": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xf76c": 1.0,
+                "drillkick_rate 470e15ee 0xf77c": 1.0,
+                "eye_aim_limit 7825aec6 0xf7bc": 360.0,
+                "gravitythrow_rate 12b575d6 0xf73c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xf71c": 1.0,
+                "health 8fed986b 0xf6fc": 120.0,
+                "homing_angle e1eaa8a7 0xf7fc": 360.0,
+                "lockon 3b8d25f8 0xf7ac": true,
+                "microblackhole_rate a7e6ad6b 0xf72c": 1.0,
+                "penetrate_rate b6dedea8 0xf74c": 1.0,
+                "scratchtornado_rate 85446029 0xf70c": 1.0,
+                "vortex_rate 20f1fc29 0xf75c": 1.0
+            },
+            "loc_setCore05 8292c72d 0xf800": {
+                "angle 184454ad 0xfa8c": 360.0,
+                "collision_scale 325a8ced 0xfa4c": 1.100000023841858,
+                "core 7e605edd 0xfa7c": true,
+                "crowspecial_rate a47a385e 0xfa3c": 1.0,
+                "damage_motion_type 08588c30 0xfa9c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xfa1c": 1.0,
+                "drillkick_rate 470e15ee 0xfa2c": 1.0,
+                "eye_aim_limit 7825aec6 0xfa6c": 360.0,
+                "gravitythrow_rate 12b575d6 0xf9ec": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xf9cc": 1.0,
+                "health 8fed986b 0xf9ac": 120.0,
+                "homing_angle e1eaa8a7 0xfaac": 360.0,
+                "lockon 3b8d25f8 0xfa5c": true,
+                "microblackhole_rate a7e6ad6b 0xf9dc": 1.0,
+                "penetrate_rate b6dedea8 0xf9fc": 1.0,
+                "scratchtornado_rate 85446029 0xf9bc": 1.0,
+                "vortex_rate 20f1fc29 0xfa0c": 1.0
+            },
+            "loc_setCore06 ef90c72c 0xfab0": {
+                "angle 184454ad 0xfd3c": 360.0,
+                "collision_scale 325a8ced 0xfcfc": 1.100000023841858,
+                "core 7e605edd 0xfd2c": true,
+                "crowspecial_rate a47a385e 0xfcec": 1.0,
+                "damage_motion_type 08588c30 0xfd4c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xfccc": 1.0,
+                "drillkick_rate 470e15ee 0xfcdc": 1.0,
+                "eye_aim_limit 7825aec6 0xfd1c": 360.0,
+                "gravitythrow_rate 12b575d6 0xfc9c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xfc7c": 1.0,
+                "health 8fed986b 0xfc5c": 120.0,
+                "homing_angle e1eaa8a7 0xfd5c": 360.0,
+                "lockon 3b8d25f8 0xfd0c": true,
+                "microblackhole_rate a7e6ad6b 0xfc8c": 1.0,
+                "penetrate_rate b6dedea8 0xfcac": 1.0,
+                "scratchtornado_rate 85446029 0xfc6c": 1.0,
+                "vortex_rate 20f1fc29 0xfcbc": 1.0
+            },
+            "loc_setCore07 5c8fc72b 0xfd60": {
+                "angle 184454ad 0xffec": 360.0,
+                "collision_scale 325a8ced 0xffac": 1.100000023841858,
+                "core 7e605edd 0xffdc": true,
+                "crowspecial_rate a47a385e 0xff9c": 1.0,
+                "damage_motion_type 08588c30 0xfffc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xff7c": 1.0,
+                "drillkick_rate 470e15ee 0xff8c": 1.0,
+                "eye_aim_limit 7825aec6 0xffcc": 360.0,
+                "gravitythrow_rate 12b575d6 0xff4c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0xff2c": 1.0,
+                "health 8fed986b 0xff0c": 120.0,
+                "homing_angle e1eaa8a7 0x1000c": 360.0,
+                "lockon 3b8d25f8 0xffbc": true,
+                "microblackhole_rate a7e6ad6b 0xff3c": 1.0,
+                "penetrate_rate b6dedea8 0xff5c": 1.0,
+                "scratchtornado_rate 85446029 0xff1c": 1.0,
+                "vortex_rate 20f1fc29 0xff6c": 1.0
+            },
+            "loc_setCore08 619ac732 0x10010": {
+                "angle 184454ad 0x1029c": 360.0,
+                "collision_scale 325a8ced 0x1025c": 1.100000023841858,
+                "core 7e605edd 0x1028c": true,
+                "crowspecial_rate a47a385e 0x1024c": 1.0,
+                "damage_motion_type 08588c30 0x102ac": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x1022c": 1.0,
+                "drillkick_rate 470e15ee 0x1023c": 1.0,
+                "eye_aim_limit 7825aec6 0x1027c": 360.0,
+                "gravitythrow_rate 12b575d6 0x101fc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x101dc": 1.0,
+                "health 8fed986b 0x101bc": 120.0,
+                "homing_angle e1eaa8a7 0x102bc": 360.0,
+                "lockon 3b8d25f8 0x1026c": true,
+                "microblackhole_rate a7e6ad6b 0x101ec": 1.0,
+                "penetrate_rate b6dedea8 0x1020c": 1.0,
+                "scratchtornado_rate 85446029 0x101cc": 1.0,
+                "vortex_rate 20f1fc29 0x1021c": 1.0
+            },
+            "loc_setCore09 ce98c731 0x102c0": {
+                "angle 184454ad 0x1054c": 360.0,
+                "collision_scale 325a8ced 0x1050c": 1.100000023841858,
+                "core 7e605edd 0x1053c": true,
+                "crowspecial_rate a47a385e 0x104fc": 1.0,
+                "damage_motion_type 08588c30 0x1055c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x104dc": 1.0,
+                "drillkick_rate 470e15ee 0x104ec": 1.0,
+                "eye_aim_limit 7825aec6 0x1052c": 360.0,
+                "gravitythrow_rate 12b575d6 0x104ac": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x1048c": 1.0,
+                "health 8fed986b 0x1046c": 120.0,
+                "homing_angle e1eaa8a7 0x1056c": 360.0,
+                "lockon 3b8d25f8 0x1051c": true,
+                "microblackhole_rate a7e6ad6b 0x1049c": 1.0,
+                "penetrate_rate b6dedea8 0x104bc": 1.0,
+                "scratchtornado_rate 85446029 0x1047c": 1.0,
+                "vortex_rate 20f1fc29 0x104cc": 1.0
+            },
+            "loc_setCore10 407cc4a4 0x10570": {
+                "angle 184454ad 0x107fc": 360.0,
+                "collision_scale 325a8ced 0x107bc": 1.100000023841858,
+                "core 7e605edd 0x107ec": true,
+                "crowspecial_rate a47a385e 0x107ac": 1.0,
+                "damage_motion_type 08588c30 0x1080c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x1078c": 1.0,
+                "drillkick_rate 470e15ee 0x1079c": 1.0,
+                "eye_aim_limit 7825aec6 0x107dc": 360.0,
+                "gravitythrow_rate 12b575d6 0x1075c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x1073c": 1.0,
+                "health 8fed986b 0x1071c": 120.0,
+                "homing_angle e1eaa8a7 0x1081c": 360.0,
+                "lockon 3b8d25f8 0x107cc": true,
+                "microblackhole_rate a7e6ad6b 0x1074c": 1.0,
+                "penetrate_rate b6dedea8 0x1076c": 1.0,
+                "scratchtornado_rate 85446029 0x1072c": 1.0,
+                "vortex_rate 20f1fc29 0x1077c": 1.0
+            },
+            "loc_setCore11 d37dc4a5 0x10820": {
+                "angle 184454ad 0x10aac": 360.0,
+                "collision_scale 325a8ced 0x10a6c": 1.100000023841858,
+                "core 7e605edd 0x10a9c": true,
+                "crowspecial_rate a47a385e 0x10a5c": 1.0,
+                "damage_motion_type 08588c30 0x10abc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x10a3c": 1.0,
+                "drillkick_rate 470e15ee 0x10a4c": 1.0,
+                "eye_aim_limit 7825aec6 0x10a8c": 360.0,
+                "gravitythrow_rate 12b575d6 0x10a0c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x109ec": 1.0,
+                "health 8fed986b 0x109cc": 120.0,
+                "homing_angle e1eaa8a7 0x10acc": 360.0,
+                "lockon 3b8d25f8 0x10a7c": true,
+                "microblackhole_rate a7e6ad6b 0x109fc": 1.0,
+                "penetrate_rate b6dedea8 0x10a1c": 1.0,
+                "scratchtornado_rate 85446029 0x109dc": 1.0,
+                "vortex_rate 20f1fc29 0x10a2c": 1.0
+            },
+            "loc_setCore12 667fc4a6 0x10ad0": {
+                "angle 184454ad 0x10d5c": 360.0,
+                "collision_scale 325a8ced 0x10d1c": 1.100000023841858,
+                "core 7e605edd 0x10d4c": true,
+                "crowspecial_rate a47a385e 0x10d0c": 1.0,
+                "damage_motion_type 08588c30 0x10d6c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x10cec": 1.0,
+                "drillkick_rate 470e15ee 0x10cfc": 1.0,
+                "eye_aim_limit 7825aec6 0x10d3c": 360.0,
+                "gravitythrow_rate 12b575d6 0x10cbc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x10c9c": 1.0,
+                "health 8fed986b 0x10c7c": 120.0,
+                "homing_angle e1eaa8a7 0x10d7c": 360.0,
+                "lockon 3b8d25f8 0x10d2c": true,
+                "microblackhole_rate a7e6ad6b 0x10cac": 1.0,
+                "penetrate_rate b6dedea8 0x10ccc": 1.0,
+                "scratchtornado_rate 85446029 0x10c8c": 1.0,
+                "vortex_rate 20f1fc29 0x10cdc": 1.0
+            },
+            "loc_setCore13 f980c4a7 0x10d80": {
+                "angle 184454ad 0x1100c": 360.0,
+                "collision_scale 325a8ced 0x10fcc": 1.100000023841858,
+                "core 7e605edd 0x10ffc": true,
+                "crowspecial_rate a47a385e 0x10fbc": 1.0,
+                "damage_motion_type 08588c30 0x1101c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x10f9c": 1.0,
+                "drillkick_rate 470e15ee 0x10fac": 1.0,
+                "eye_aim_limit 7825aec6 0x10fec": 360.0,
+                "gravitythrow_rate 12b575d6 0x10f6c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x10f4c": 1.0,
+                "health 8fed986b 0x10f2c": 120.0,
+                "homing_angle e1eaa8a7 0x1102c": 360.0,
+                "lockon 3b8d25f8 0x10fdc": true,
+                "microblackhole_rate a7e6ad6b 0x10f5c": 1.0,
+                "penetrate_rate b6dedea8 0x10f7c": 1.0,
+                "scratchtornado_rate 85446029 0x10f3c": 1.0,
+                "vortex_rate 20f1fc29 0x10f8c": 1.0
+            },
+            "loc_setCore14 8c82c4a8 0x11030": {
+                "angle 184454ad 0x112bc": 360.0,
+                "collision_scale 325a8ced 0x1127c": 1.100000023841858,
+                "core 7e605edd 0x112ac": true,
+                "crowspecial_rate a47a385e 0x1126c": 1.0,
+                "damage_motion_type 08588c30 0x112cc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x1124c": 1.0,
+                "drillkick_rate 470e15ee 0x1125c": 1.0,
+                "eye_aim_limit 7825aec6 0x1129c": 360.0,
+                "gravitythrow_rate 12b575d6 0x1121c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x111fc": 1.0,
+                "health 8fed986b 0x111dc": 120.0,
+                "homing_angle e1eaa8a7 0x112dc": 360.0,
+                "lockon 3b8d25f8 0x1128c": true,
+                "microblackhole_rate a7e6ad6b 0x1120c": 1.0,
+                "penetrate_rate b6dedea8 0x1122c": 1.0,
+                "scratchtornado_rate 85446029 0x111ec": 1.0,
+                "vortex_rate 20f1fc29 0x1123c": 1.0
+            },
+            "loc_setCore15 1f84c4a9 0x112e0": {
+                "angle 184454ad 0x1156c": 360.0,
+                "collision_scale 325a8ced 0x1152c": 1.100000023841858,
+                "core 7e605edd 0x1155c": true,
+                "crowspecial_rate a47a385e 0x1151c": 1.0,
+                "damage_motion_type 08588c30 0x1157c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x114fc": 1.0,
+                "drillkick_rate 470e15ee 0x1150c": 1.0,
+                "eye_aim_limit 7825aec6 0x1154c": 360.0,
+                "gravitythrow_rate 12b575d6 0x114cc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x114ac": 1.0,
+                "health 8fed986b 0x1148c": 120.0,
+                "homing_angle e1eaa8a7 0x1158c": 360.0,
+                "lockon 3b8d25f8 0x1153c": true,
+                "microblackhole_rate a7e6ad6b 0x114bc": 1.0,
+                "penetrate_rate b6dedea8 0x114dc": 1.0,
+                "scratchtornado_rate 85446029 0x1149c": 1.0,
+                "vortex_rate 20f1fc29 0x114ec": 1.0
+            },
+            "loc_setCore16 b285c4aa 0x11590": {
+                "angle 184454ad 0x1181c": 360.0,
+                "collision_scale 325a8ced 0x117dc": 1.100000023841858,
+                "core 7e605edd 0x1180c": true,
+                "crowspecial_rate a47a385e 0x117cc": 1.0,
+                "damage_motion_type 08588c30 0x1182c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x117ac": 1.0,
+                "drillkick_rate 470e15ee 0x117bc": 1.0,
+                "eye_aim_limit 7825aec6 0x117fc": 360.0,
+                "gravitythrow_rate 12b575d6 0x1177c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x1175c": 1.0,
+                "health 8fed986b 0x1173c": 120.0,
+                "homing_angle e1eaa8a7 0x1183c": 360.0,
+                "lockon 3b8d25f8 0x117ec": true,
+                "microblackhole_rate a7e6ad6b 0x1176c": 1.0,
+                "penetrate_rate b6dedea8 0x1178c": 1.0,
+                "scratchtornado_rate 85446029 0x1174c": 1.0,
+                "vortex_rate 20f1fc29 0x1179c": 1.0
+            },
+            "loc_setCore17 4587c4ab 0x11840": {
+                "angle 184454ad 0x11acc": 360.0,
+                "collision_scale 325a8ced 0x11a8c": 1.100000023841858,
+                "core 7e605edd 0x11abc": true,
+                "crowspecial_rate a47a385e 0x11a7c": 1.0,
+                "damage_motion_type 08588c30 0x11adc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x11a5c": 1.0,
+                "drillkick_rate 470e15ee 0x11a6c": 1.0,
+                "eye_aim_limit 7825aec6 0x11aac": 360.0,
+                "gravitythrow_rate 12b575d6 0x11a2c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x11a0c": 1.0,
+                "health 8fed986b 0x119ec": 120.0,
+                "homing_angle e1eaa8a7 0x11aec": 360.0,
+                "lockon 3b8d25f8 0x11a9c": true,
+                "microblackhole_rate a7e6ad6b 0x11a1c": 1.0,
+                "penetrate_rate b6dedea8 0x11a3c": 1.0,
+                "scratchtornado_rate 85446029 0x119fc": 1.0,
+                "vortex_rate 20f1fc29 0x11a4c": 1.0
+            },
+            "loc_setCore18 d888c4ac 0x11af0": {
+                "angle 184454ad 0x11d7c": 360.0,
+                "collision_scale 325a8ced 0x11d3c": 1.100000023841858,
+                "core 7e605edd 0x11d6c": true,
+                "crowspecial_rate a47a385e 0x11d2c": 1.0,
+                "damage_motion_type 08588c30 0x11d8c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x11d0c": 1.0,
+                "drillkick_rate 470e15ee 0x11d1c": 1.0,
+                "eye_aim_limit 7825aec6 0x11d5c": 360.0,
+                "gravitythrow_rate 12b575d6 0x11cdc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x11cbc": 1.0,
+                "health 8fed986b 0x11c9c": 120.0,
+                "homing_angle e1eaa8a7 0x11d9c": 360.0,
+                "lockon 3b8d25f8 0x11d4c": true,
+                "microblackhole_rate a7e6ad6b 0x11ccc": 1.0,
+                "penetrate_rate b6dedea8 0x11cec": 1.0,
+                "scratchtornado_rate 85446029 0x11cac": 1.0,
+                "vortex_rate 20f1fc29 0x11cfc": 1.0
+            },
+            "loc_setCore19 6b8ac4ad 0x11da0": {
+                "angle 184454ad 0x1202c": 360.0,
+                "collision_scale 325a8ced 0x11fec": 1.100000023841858,
+                "core 7e605edd 0x1201c": true,
+                "crowspecial_rate a47a385e 0x11fdc": 1.0,
+                "damage_motion_type 08588c30 0x1203c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x11fbc": 1.0,
+                "drillkick_rate 470e15ee 0x11fcc": 1.0,
+                "eye_aim_limit 7825aec6 0x1200c": 360.0,
+                "gravitythrow_rate 12b575d6 0x11f8c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x11f6c": 1.0,
+                "health 8fed986b 0x11f4c": 120.0,
+                "homing_angle e1eaa8a7 0x1204c": 360.0,
+                "lockon 3b8d25f8 0x11ffc": true,
+                "microblackhole_rate a7e6ad6b 0x11f7c": 1.0,
+                "penetrate_rate b6dedea8 0x11f9c": 1.0,
+                "scratchtornado_rate 85446029 0x11f5c": 1.0,
+                "vortex_rate 20f1fc29 0x11fac": 1.0
+            },
+            "loc_setCore20 db1dcc36 0x12050": {
+                "angle 184454ad 0x122dc": 360.0,
+                "collision_scale 325a8ced 0x1229c": 1.100000023841858,
+                "core 7e605edd 0x122cc": true,
+                "crowspecial_rate a47a385e 0x1228c": 1.0,
+                "damage_motion_type 08588c30 0x122ec": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x1226c": 1.0,
+                "drillkick_rate 470e15ee 0x1227c": 1.0,
+                "eye_aim_limit 7825aec6 0x122bc": 360.0,
+                "gravitythrow_rate 12b575d6 0x1223c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x1221c": 1.0,
+                "health 8fed986b 0x121fc": 120.0,
+                "homing_angle e1eaa8a7 0x122fc": 360.0,
+                "lockon 3b8d25f8 0x122ac": true,
+                "microblackhole_rate a7e6ad6b 0x1222c": 1.0,
+                "penetrate_rate b6dedea8 0x1224c": 1.0,
+                "scratchtornado_rate 85446029 0x1220c": 1.0,
+                "vortex_rate 20f1fc29 0x1225c": 1.0
+            },
+            "loc_setCore21 481ccc35 0x12300": {
+                "angle 184454ad 0x1258c": 360.0,
+                "collision_scale 325a8ced 0x1254c": 1.100000023841858,
+                "core 7e605edd 0x1257c": true,
+                "crowspecial_rate a47a385e 0x1253c": 1.0,
+                "damage_motion_type 08588c30 0x1259c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x1251c": 1.0,
+                "drillkick_rate 470e15ee 0x1252c": 1.0,
+                "eye_aim_limit 7825aec6 0x1256c": 360.0,
+                "gravitythrow_rate 12b575d6 0x124ec": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x124cc": 1.0,
+                "health 8fed986b 0x124ac": 120.0,
+                "homing_angle e1eaa8a7 0x125ac": 360.0,
+                "lockon 3b8d25f8 0x1255c": true,
+                "microblackhole_rate a7e6ad6b 0x124dc": 1.0,
+                "penetrate_rate b6dedea8 0x124fc": 1.0,
+                "scratchtornado_rate 85446029 0x124bc": 1.0,
+                "vortex_rate 20f1fc29 0x1250c": 1.0
+            },
+            "loc_setCore22 0121cc38 0x125b0": {
+                "angle 184454ad 0x1283c": 360.0,
+                "collision_scale 325a8ced 0x127fc": 1.100000023841858,
+                "core 7e605edd 0x1282c": true,
+                "crowspecial_rate a47a385e 0x127ec": 1.0,
+                "damage_motion_type 08588c30 0x1284c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x127cc": 1.0,
+                "drillkick_rate 470e15ee 0x127dc": 1.0,
+                "eye_aim_limit 7825aec6 0x1281c": 360.0,
+                "gravitythrow_rate 12b575d6 0x1279c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x1277c": 1.0,
+                "health 8fed986b 0x1275c": 120.0,
+                "homing_angle e1eaa8a7 0x1285c": 360.0,
+                "lockon 3b8d25f8 0x1280c": true,
+                "microblackhole_rate a7e6ad6b 0x1278c": 1.0,
+                "penetrate_rate b6dedea8 0x127ac": 1.0,
+                "scratchtornado_rate 85446029 0x1276c": 1.0,
+                "vortex_rate 20f1fc29 0x127bc": 1.0
+            },
+            "loc_setCore23 6e1fcc37 0x12860": {
+                "angle 184454ad 0x12aec": 360.0,
+                "collision_scale 325a8ced 0x12aac": 1.100000023841858,
+                "core 7e605edd 0x12adc": true,
+                "crowspecial_rate a47a385e 0x12a9c": 1.0,
+                "damage_motion_type 08588c30 0x12afc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x12a7c": 1.0,
+                "drillkick_rate 470e15ee 0x12a8c": 1.0,
+                "eye_aim_limit 7825aec6 0x12acc": 360.0,
+                "gravitythrow_rate 12b575d6 0x12a4c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x12a2c": 1.0,
+                "health 8fed986b 0x12a0c": 120.0,
+                "homing_angle e1eaa8a7 0x12b0c": 360.0,
+                "lockon 3b8d25f8 0x12abc": true,
+                "microblackhole_rate a7e6ad6b 0x12a3c": 1.0,
+                "penetrate_rate b6dedea8 0x12a5c": 1.0,
+                "scratchtornado_rate 85446029 0x12a1c": 1.0,
+                "vortex_rate 20f1fc29 0x12a6c": 1.0
+            },
+            "loc_setCore24 2724cc3a 0x12b10": {
+                "angle 184454ad 0x12d9c": 360.0,
+                "collision_scale 325a8ced 0x12d5c": 1.100000023841858,
+                "core 7e605edd 0x12d8c": true,
+                "crowspecial_rate a47a385e 0x12d4c": 1.0,
+                "damage_motion_type 08588c30 0x12dac": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x12d2c": 1.0,
+                "drillkick_rate 470e15ee 0x12d3c": 1.0,
+                "eye_aim_limit 7825aec6 0x12d7c": 360.0,
+                "gravitythrow_rate 12b575d6 0x12cfc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x12cdc": 1.0,
+                "health 8fed986b 0x12cbc": 120.0,
+                "homing_angle e1eaa8a7 0x12dbc": 360.0,
+                "lockon 3b8d25f8 0x12d6c": true,
+                "microblackhole_rate a7e6ad6b 0x12cec": 1.0,
+                "penetrate_rate b6dedea8 0x12d0c": 1.0,
+                "scratchtornado_rate 85446029 0x12ccc": 1.0,
+                "vortex_rate 20f1fc29 0x12d1c": 1.0
+            },
+            "loc_setNveng01lasmec01 c92011ec 0x12dc0": {
+                "health 8fed986b 0x12e0c": 120.0,
+                "lockon 3b8d25f8 0x12e1c": true
+            },
+            "loc_setNveng01lasmec010 fbe7f697 0x13120": {
+                "health 8fed986b 0x1316c": 120.0,
+                "lockon 3b8d25f8 0x1317c": true
+            },
+            "loc_setNveng01lasmec011 68e6f696 0x13180": {
+                "health 8fed986b 0x131cc": 120.0,
+                "lockon 3b8d25f8 0x131dc": true
+            },
+            "loc_setNveng01lasmec012 21ebf699 0x131e0": {
+                "health 8fed986b 0x1322c": 120.0,
+                "lockon 3b8d25f8 0x1323c": true
+            },
+            "loc_setNveng01lasmec013 8ee9f698 0x13240": {
+                "health 8fed986b 0x1328c": 120.0,
+                "lockon 3b8d25f8 0x1329c": true
+            },
+            "loc_setNveng01lasmec014 47eef69b 0x132a0": {
+                "health 8fed986b 0x132ec": 120.0,
+                "lockon 3b8d25f8 0x132fc": true
+            },
+            "loc_setNveng01lasmec015 b4ecf69a 0x13300": {
+                "health 8fed986b 0x1334c": 120.0,
+                "lockon 3b8d25f8 0x1335c": true
+            },
+            "loc_setNveng01lasmec016 6df1f69d 0x13360": {
+                "health 8fed986b 0x133ac": 120.0,
+                "lockon 3b8d25f8 0x133bc": true
+            },
+            "loc_setNveng01lasmec017 daeff69c 0x133c0": {
+                "health 8fed986b 0x1340c": 120.0,
+                "lockon 3b8d25f8 0x1341c": true
+            },
+            "loc_setNveng01lasmec018 63dbf68f 0x13420": {
+                "health 8fed986b 0x1346c": 120.0,
+                "lockon 3b8d25f8 0x1347c": true
+            },
+            "loc_setNveng01lasmec019 d0d9f68e 0x13480": {
+                "health 8fed986b 0x134cc": 120.0,
+                "lockon 3b8d25f8 0x134dc": true
+            },
+            "loc_setNveng01lasmec02 101c11e9 0x12e20": {
+                "health 8fed986b 0x12e6c": 120.0,
+                "lockon 3b8d25f8 0x12e7c": true
+            },
+            "loc_setNveng01lasmec020 6046ef05 0x134e0": {
+                "health 8fed986b 0x1352c": 120.0,
+                "lockon 3b8d25f8 0x1353c": true
+            },
+            "loc_setNveng01lasmec021 f347ef06 0x13540": {
+                "health 8fed986b 0x1358c": 120.0,
+                "lockon 3b8d25f8 0x1359c": true
+            },
+            "loc_setNveng01lasmec022 8649ef07 0x135a0": {
+                "health 8fed986b 0x135ec": 120.0,
+                "lockon 3b8d25f8 0x135fc": true
+            },
+            "loc_setNveng01lasmec023 194bef08 0x13600": {
+                "health 8fed986b 0x1364c": 120.0,
+                "lockon 3b8d25f8 0x1365c": true
+            },
+            "loc_setNveng01lasmec024 ac4cef09 0x13660": {
+                "health 8fed986b 0x136ac": 120.0,
+                "lockon 3b8d25f8 0x136bc": true
+            },
+            "loc_setNveng01lasmec025 3f4eef0a 0x136c0": {
+                "health 8fed986b 0x1370c": 120.0,
+                "lockon 3b8d25f8 0x1371c": true
+            },
+            "loc_setNveng01lasmec026 d24fef0b 0x13720": {
+                "health 8fed986b 0x1376c": 120.0,
+                "lockon 3b8d25f8 0x1377c": true
+            },
+            "loc_setNveng01lasmec027 6551ef0c 0x13780": {
+                "health 8fed986b 0x137cc": 120.0,
+                "lockon 3b8d25f8 0x137dc": true
+            },
+            "loc_setNveng01lasmec028 f852ef0d 0x137e0": {
+                "health 8fed986b 0x1382c": 120.0,
+                "lockon 3b8d25f8 0x1383c": true
+            },
+            "loc_setNveng01lasmec029 8b54ef0e 0x13840": {
+                "health 8fed986b 0x1388c": 120.0,
+                "lockon 3b8d25f8 0x1389c": true
+            },
+            "loc_setNveng01lasmec03 a31d11ea 0x12e80": {
+                "health 8fed986b 0x12ecc": 120.0,
+                "lockon 3b8d25f8 0x12edc": true
+            },
+            "loc_setNveng01lasmec030 698ef10b 0x138a0": {
+                "health 8fed986b 0x138ec": 120.0,
+                "lockon 3b8d25f8 0x138fc": true
+            },
+            "loc_setNveng01lasmec04 822511ef 0x12ee0": {
+                "health 8fed986b 0x12f2c": 120.0,
+                "lockon 3b8d25f8 0x12f3c": true
+            },
+            "loc_setNveng01lasmec05 152711f0 0x12f40": {
+                "health 8fed986b 0x12f8c": 120.0,
+                "lockon 3b8d25f8 0x12f9c": true
+            },
+            "loc_setNveng01lasmec06 5c2211ed 0x12fa0": {
+                "health 8fed986b 0x12fec": 120.0,
+                "lockon 3b8d25f8 0x12ffc": true
+            },
+            "loc_setNveng01lasmec07 ef2311ee 0x13000": {
+                "health 8fed986b 0x1304c": 120.0,
+                "lockon 3b8d25f8 0x1305c": true
+            },
+            "loc_setNveng01lasmec08 ce2b11f3 0x13060": {
+                "health 8fed986b 0x130ac": 120.0,
+                "lockon 3b8d25f8 0x130bc": true
+            },
+            "loc_setNveng01lasmec09 612d11f4 0x130c0": {
+                "health 8fed986b 0x1310c": 120.0,
+                "lockon 3b8d25f8 0x1311c": true
+            }
+        }
+    },
+    "normal 529c8be6 0xb0": {
+        "brain f3912883 0x180": {
+            "ai_grade 17b9230d 0x26c": "boss 0c168ad1",
+            "ai_type a8e9a23c 0x22c": "ghostcity_eng ac940729",
+            "animjoint 9c2354a2 0x23c": "ghostcity_eng ac940729",
+            "race 98c2bb8e 0x24c": "nevi 3520c46d",
+            "tailchain 48b91069 0x25c": "ghostcity_eng ac940729",
+            "type 4df12751 0x21c": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0x6f60": {
+            "find 5a85f0bd 0x6fac": 100.0,
+            "lose 785834d1 0x6fbc": 105.0
+        },
+        "enemy_actions 877ce571 0x66e0": {
+            "attack_laser ad00d246 0x68c0": {
+                "damage_cumulation e2d9c67e 0x6a2c": 0.0,
+                "damage_type c5871e0c 0x6a1c": "blow 21c5bc70",
+                "force 8488a979 0x69fc": 1.0,
+                "free dbeeb399 0x6a6c": 3.5,
+                "interval 7885ddce 0x6a4c": 1.5,
+                "power 46234ff5 0x69cc": 25.0,
+                "range d20cdcfa 0x6a3c": 3.0,
+                "rate_of_bg 359b8dca 0x69ec": 2500.0,
+                "rate_of_power 037c9b8a 0x69dc": 25.0,
+                "upper_force bb35102a 0x6a0c": 0.0,
+                "velocity 321c7432 0x6a5c": 88.0
+            },
+            "attack_reflect 5ba11486 0x6c40": {
+                "damage_cumulation e2d9c67e 0x6d9c": 0.0,
+                "damage_type c5871e0c 0x6d8c": "blow 21c5bc70",
+                "force 8488a979 0x6d6c": 1.0,
+                "height 42bbbdd5 0x6dbc": 1.0,
+                "power 46234ff5 0x6d3c": 20.0,
+                "range d20cdcfa 0x6dac": 3.0,
+                "rate_of_bg 359b8dca 0x6d5c": 2000.0,
+                "rate_of_power 037c9b8a 0x6d4c": 20.0,
+                "upper_force bb35102a 0x6d7c": 0.0,
+                "velocity 321c7432 0x6dcc": 400.0
+            },
+            "attack_reflect_sub 5ebc627a 0x6dd0": {
+                "damage_cumulation e2d9c67e 0x6f2c": 0.0,
+                "damage_type c5871e0c 0x6f1c": "normal 529c8be6",
+                "force 8488a979 0x6efc": 1.0,
+                "height 42bbbdd5 0x6f4c": 1.5,
+                "power 46234ff5 0x6ecc": 5.0,
+                "range d20cdcfa 0x6f3c": 0.5,
+                "rate_of_bg 359b8dca 0x6eec": 500.0,
+                "rate_of_power 037c9b8a 0x6edc": 5.0,
+                "upper_force bb35102a 0x6f0c": 0.0,
+                "velocity 321c7432 0x6f5c": 33.0
+            },
+            "attack_spread 4d6233d4 0x6a70": {
+                "damage_cumulation e2d9c67e 0x6bec": 0.0,
+                "damage_type c5871e0c 0x6bdc": "normal 529c8be6",
+                "force 8488a979 0x6bbc": 1.0,
+                "free dbeeb399 0x6c3c": 90.0,
+                "height 42bbbdd5 0x6c0c": 3.5999999046325684,
+                "interval 7885ddce 0x6c1c": 2.5,
+                "power 46234ff5 0x6b8c": 8.0,
+                "range d20cdcfa 0x6bfc": 1.0,
+                "rate_of_bg 359b8dca 0x6bac": 800.0,
+                "rate_of_power 037c9b8a 0x6b9c": 8.0,
+                "upper_force bb35102a 0x6bcc": 0.0,
+                "velocity 321c7432 0x6c2c": 17.0
+            },
+            "spawn 984d223a 0x67b0": {
+                "damage_cumulation e2d9c67e 0x68ac": 0.0,
+                "damage_type c5871e0c 0x689c": "normal 529c8be6",
+                "force 8488a979 0x687c": 1.0,
+                "power 46234ff5 0x685c": 20.0,
+                "range d20cdcfa 0x68bc": 2.5,
+                "rate_of_power 037c9b8a 0x686c": -2.0,
+                "upper_force bb35102a 0x688c": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x270": {
+            "battle_field_prio 5324db77 0x2ec": 99.0,
+            "battle_field_range 7e1a8055 0x2dc": 30.0,
+            "health 8fed986b 0x2cc": 2500.0
+        },
+        "enemy_parts 7e7c4e31 0x2f0": {
+            "loc_nveng01_col04 b8a3b27b 0x5ae0": {
+                "body_damage ebb248f9 0x5b5c": 0.0,
+                "enable_meshcoll 88534f79 0x5b3c": true,
+                "health 8fed986b 0x5b4c": 1000000.0
+            },
+            "loc_nveng01_col05 4ba5b27c 0x5b60": {
+                "body_damage ebb248f9 0x5bdc": 0.0,
+                "enable_meshcoll 88534f79 0x5bbc": true,
+                "health 8fed986b 0x5bcc": 1000000.0
+            },
+            "loc_nveng01_col06 dea6b27d 0x5be0": {
+                "body_damage ebb248f9 0x5c5c": 0.0,
+                "enable_meshcoll 88534f79 0x5c3c": true,
+                "health 8fed986b 0x5c4c": 1000000.0
+            },
+            "loc_nveng01_col08 6c9db277 0x5c60": {
+                "body_damage ebb248f9 0x5cdc": 0.0,
+                "enable_meshcoll 88534f79 0x5cbc": true,
+                "health 8fed986b 0x5ccc": 1000000.0
+            },
+            "loc_nveng01_col09 ff9eb278 0x5ce0": {
+                "body_damage ebb248f9 0x5d5c": 0.0,
+                "enable_meshcoll 88534f79 0x5d3c": true,
+                "health 8fed986b 0x5d4c": 1000000.0
+            },
+            "loc_nveng01_col10 0df2b485 0x5d60": {
+                "body_damage ebb248f9 0x5ddc": 0.0,
+                "enable_meshcoll 88534f79 0x5dbc": true,
+                "health 8fed986b 0x5dcc": 1000000.0
+            },
+            "loc_nveng01_col11 7af0b484 0x5de0": {
+                "body_damage ebb248f9 0x5e5c": 0.0,
+                "enable_meshcoll 88534f79 0x5e3c": true,
+                "health 8fed986b 0x5e4c": 1000000.0
+            },
+            "loc_nveng01_col12 e7eeb483 0x5e60": {
+                "body_damage ebb248f9 0x5edc": 0.0,
+                "enable_meshcoll 88534f79 0x5ebc": true,
+                "health 8fed986b 0x5ecc": 1000000.0
+            },
+            "loc_nveng01_col13 54edb482 0x5ee0": {
+                "body_damage ebb248f9 0x5f5c": 0.0,
+                "enable_meshcoll 88534f79 0x5f3c": true,
+                "health 8fed986b 0x5f4c": 1000000.0
+            },
+            "loc_nveng01_col14 c1ebb481 0x5f60": {
+                "body_damage ebb248f9 0x5fdc": 0.0,
+                "enable_meshcoll 88534f79 0x5fbc": true,
+                "health 8fed986b 0x5fcc": 1000000.0
+            },
+            "loc_nveng01_col15 2eeab480 0x5fe0": {
+                "body_damage ebb248f9 0x605c": 0.0,
+                "enable_meshcoll 88534f79 0x603c": true,
+                "health 8fed986b 0x604c": 1000000.0
+            },
+            "loc_nveng01_col16 9be8b47f 0x6060": {
+                "body_damage ebb248f9 0x60dc": 0.0,
+                "enable_meshcoll 88534f79 0x60bc": true,
+                "health 8fed986b 0x60cc": 1000000.0
+            },
+            "loc_nveng01_col17 08e7b47e 0x60e0": {
+                "body_damage ebb248f9 0x615c": 0.0,
+                "enable_meshcoll 88534f79 0x613c": true,
+                "health 8fed986b 0x614c": 1000000.0
+            },
+            "loc_nveng01_col18 75e5b47d 0x6160": {
+                "body_damage ebb248f9 0x61dc": 0.0,
+                "enable_meshcoll 88534f79 0x61bc": true,
+                "health 8fed986b 0x61cc": 1000000.0
+            },
+            "loc_nveng01_col19 e2e3b47c 0x61e0": {
+                "body_damage ebb248f9 0x625c": 0.0,
+                "enable_meshcoll 88534f79 0x623c": true,
+                "health 8fed986b 0x624c": 1000000.0
+            },
+            "loc_nveng01_col20 36d1b7eb 0x6260": {
+                "body_damage ebb248f9 0x62dc": 0.0,
+                "enable_meshcoll 88534f79 0x62bc": true,
+                "health 8fed986b 0x62cc": 1000000.0
+            },
+            "loc_nveng01_col21 c9d2b7ec 0x62e0": {
+                "body_damage ebb248f9 0x635c": 0.0,
+                "enable_meshcoll 88534f79 0x633c": true,
+                "health 8fed986b 0x634c": 1000000.0
+            },
+            "loc_nveng01_col22 10ceb7e9 0x6360": {
+                "body_damage ebb248f9 0x63dc": 0.0,
+                "enable_meshcoll 88534f79 0x63bc": true,
+                "health 8fed986b 0x63cc": 1000000.0
+            },
+            "loc_nveng01_col23 a3cfb7ea 0x63e0": {
+                "body_damage ebb248f9 0x645c": 0.0,
+                "enable_meshcoll 88534f79 0x643c": true,
+                "health 8fed986b 0x644c": 1000000.0
+            },
+            "loc_nveng01_col24 82d7b7ef 0x6460": {
+                "body_damage ebb248f9 0x64dc": 0.0,
+                "enable_meshcoll 88534f79 0x64bc": true,
+                "health 8fed986b 0x64cc": 1000000.0
+            },
+            "loc_nveng01_col25 15d9b7f0 0x64e0": {
+                "body_damage ebb248f9 0x655c": 0.0,
+                "enable_meshcoll 88534f79 0x653c": true,
+                "health 8fed986b 0x654c": 1000000.0
+            },
+            "loc_nveng01_col26 5cd4b7ed 0x6560": {
+                "body_damage ebb248f9 0x65dc": 0.0,
+                "enable_meshcoll 88534f79 0x65bc": true,
+                "health 8fed986b 0x65cc": 1000000.0
+            },
+            "loc_nveng01_col27 efd5b7ee 0x65e0": {
+                "body_damage ebb248f9 0x665c": 0.0,
+                "enable_meshcoll 88534f79 0x663c": true,
+                "health 8fed986b 0x664c": 1000000.0
+            },
+            "loc_nveng01_col28 ceddb7f3 0x6660": {
+                "body_damage ebb248f9 0x66dc": 0.0,
+                "enable_meshcoll 88534f79 0x66bc": true,
+                "health 8fed986b 0x66cc": 1000000.0
+            },
+            "loc_setCore01 368cc729 0xec0": {
+                "angle 184454ad 0x115c": 360.0,
+                "body_damage ebb248f9 0x108c": 250.0,
+                "core 7e605edd 0x114c": true,
+                "crowspecial_rate a47a385e 0x111c": 1.0,
+                "damage_motion_type 08588c30 0x116c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x10fc": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x110c": 1.0,
+                "eye_aim_limit 7825aec6 0x113c": 30.0,
+                "gravitythrow_rate 12b575d6 0x10cc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x10ac": 1.0,
+                "health 8fed986b 0x107c": 250.0,
+                "homing_angle e1eaa8a7 0x117c": 360.0,
+                "lockon 3b8d25f8 0x112c": true,
+                "microblackhole_rate a7e6ad6b 0x10bc": 1.0,
+                "offset_y 426c5e67 0x118c": 0.5,
+                "penetrate_rate b6dedea8 0x10dc": 1.0,
+                "scratchtornado_rate 85446029 0x109c": 1.0,
+                "vortex_rate 20f1fc29 0x10ec": 1.0
+            },
+            "loc_setCore02 a38ac728 0x1190": {
+                "angle 184454ad 0x142c": 360.0,
+                "body_damage ebb248f9 0x135c": 250.0,
+                "core 7e605edd 0x141c": true,
+                "crowspecial_rate a47a385e 0x13ec": 1.0,
+                "damage_motion_type 08588c30 0x143c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x13cc": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x13dc": 1.0,
+                "eye_aim_limit 7825aec6 0x140c": 30.0,
+                "gravitythrow_rate 12b575d6 0x139c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x137c": 1.0,
+                "health 8fed986b 0x134c": 250.0,
+                "homing_angle e1eaa8a7 0x144c": 360.0,
+                "lockon 3b8d25f8 0x13fc": true,
+                "microblackhole_rate a7e6ad6b 0x138c": 1.0,
+                "offset_y 426c5e67 0x145c": 0.5,
+                "penetrate_rate b6dedea8 0x13ac": 1.0,
+                "scratchtornado_rate 85446029 0x136c": 1.0,
+                "vortex_rate 20f1fc29 0x13bc": 1.0
+            },
+            "loc_setCore03 1089c727 0x1460": {
+                "angle 184454ad 0x16fc": 360.0,
+                "body_damage ebb248f9 0x162c": 2000.0,
+                "core 7e605edd 0x16ec": true,
+                "crowspecial_rate a47a385e 0x16bc": 1.0,
+                "damage_motion_type 08588c30 0x170c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x169c": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x16ac": 1.0,
+                "eye_aim_limit 7825aec6 0x16dc": 45.0,
+                "gravitythrow_rate 12b575d6 0x166c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x164c": 1.0,
+                "health 8fed986b 0x161c": 2000.0,
+                "homing_angle e1eaa8a7 0x171c": 360.0,
+                "lockon 3b8d25f8 0x16cc": true,
+                "microblackhole_rate a7e6ad6b 0x165c": 1.0,
+                "offset_y 426c5e67 0x172c": 0.5,
+                "penetrate_rate b6dedea8 0x167c": 1.0,
+                "scratchtornado_rate 85446029 0x163c": 1.0,
+                "vortex_rate 20f1fc29 0x168c": 1.0
+            },
+            "loc_setCore04 1594c72e 0x1730": {
+                "angle 184454ad 0x19bc": 360.0,
+                "collision_scale 325a8ced 0x197c": 1.100000023841858,
+                "core 7e605edd 0x19ac": true,
+                "crowspecial_rate a47a385e 0x196c": 1.0,
+                "damage_motion_type 08588c30 0x19cc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x194c": 1.0,
+                "drillkick_rate 470e15ee 0x195c": 1.0,
+                "eye_aim_limit 7825aec6 0x199c": 360.0,
+                "gravitythrow_rate 12b575d6 0x191c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x18fc": 1.0,
+                "health 8fed986b 0x18dc": 80.0,
+                "homing_angle e1eaa8a7 0x19dc": 360.0,
+                "lockon 3b8d25f8 0x198c": true,
+                "microblackhole_rate a7e6ad6b 0x190c": 1.0,
+                "penetrate_rate b6dedea8 0x192c": 1.0,
+                "scratchtornado_rate 85446029 0x18ec": 1.0,
+                "vortex_rate 20f1fc29 0x193c": 1.0
+            },
+            "loc_setCore05 8292c72d 0x19e0": {
+                "angle 184454ad 0x1c6c": 360.0,
+                "collision_scale 325a8ced 0x1c2c": 1.100000023841858,
+                "core 7e605edd 0x1c5c": true,
+                "crowspecial_rate a47a385e 0x1c1c": 1.0,
+                "damage_motion_type 08588c30 0x1c7c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x1bfc": 1.0,
+                "drillkick_rate 470e15ee 0x1c0c": 1.0,
+                "eye_aim_limit 7825aec6 0x1c4c": 360.0,
+                "gravitythrow_rate 12b575d6 0x1bcc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x1bac": 1.0,
+                "health 8fed986b 0x1b8c": 80.0,
+                "homing_angle e1eaa8a7 0x1c8c": 360.0,
+                "lockon 3b8d25f8 0x1c3c": true,
+                "microblackhole_rate a7e6ad6b 0x1bbc": 1.0,
+                "penetrate_rate b6dedea8 0x1bdc": 1.0,
+                "scratchtornado_rate 85446029 0x1b9c": 1.0,
+                "vortex_rate 20f1fc29 0x1bec": 1.0
+            },
+            "loc_setCore06 ef90c72c 0x1c90": {
+                "angle 184454ad 0x1f1c": 360.0,
+                "collision_scale 325a8ced 0x1edc": 1.100000023841858,
+                "core 7e605edd 0x1f0c": true,
+                "crowspecial_rate a47a385e 0x1ecc": 1.0,
+                "damage_motion_type 08588c30 0x1f2c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x1eac": 1.0,
+                "drillkick_rate 470e15ee 0x1ebc": 1.0,
+                "eye_aim_limit 7825aec6 0x1efc": 360.0,
+                "gravitythrow_rate 12b575d6 0x1e7c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x1e5c": 1.0,
+                "health 8fed986b 0x1e3c": 80.0,
+                "homing_angle e1eaa8a7 0x1f3c": 360.0,
+                "lockon 3b8d25f8 0x1eec": true,
+                "microblackhole_rate a7e6ad6b 0x1e6c": 1.0,
+                "penetrate_rate b6dedea8 0x1e8c": 1.0,
+                "scratchtornado_rate 85446029 0x1e4c": 1.0,
+                "vortex_rate 20f1fc29 0x1e9c": 1.0
+            },
+            "loc_setCore07 5c8fc72b 0x1f40": {
+                "angle 184454ad 0x21cc": 360.0,
+                "collision_scale 325a8ced 0x218c": 1.100000023841858,
+                "core 7e605edd 0x21bc": true,
+                "crowspecial_rate a47a385e 0x217c": 1.0,
+                "damage_motion_type 08588c30 0x21dc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x215c": 1.0,
+                "drillkick_rate 470e15ee 0x216c": 1.0,
+                "eye_aim_limit 7825aec6 0x21ac": 360.0,
+                "gravitythrow_rate 12b575d6 0x212c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x210c": 1.0,
+                "health 8fed986b 0x20ec": 80.0,
+                "homing_angle e1eaa8a7 0x21ec": 360.0,
+                "lockon 3b8d25f8 0x219c": true,
+                "microblackhole_rate a7e6ad6b 0x211c": 1.0,
+                "penetrate_rate b6dedea8 0x213c": 1.0,
+                "scratchtornado_rate 85446029 0x20fc": 1.0,
+                "vortex_rate 20f1fc29 0x214c": 1.0
+            },
+            "loc_setCore08 619ac732 0x21f0": {
+                "angle 184454ad 0x247c": 360.0,
+                "collision_scale 325a8ced 0x243c": 1.100000023841858,
+                "core 7e605edd 0x246c": true,
+                "crowspecial_rate a47a385e 0x242c": 1.0,
+                "damage_motion_type 08588c30 0x248c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x240c": 1.0,
+                "drillkick_rate 470e15ee 0x241c": 1.0,
+                "eye_aim_limit 7825aec6 0x245c": 360.0,
+                "gravitythrow_rate 12b575d6 0x23dc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x23bc": 1.0,
+                "health 8fed986b 0x239c": 80.0,
+                "homing_angle e1eaa8a7 0x249c": 360.0,
+                "lockon 3b8d25f8 0x244c": true,
+                "microblackhole_rate a7e6ad6b 0x23cc": 1.0,
+                "penetrate_rate b6dedea8 0x23ec": 1.0,
+                "scratchtornado_rate 85446029 0x23ac": 1.0,
+                "vortex_rate 20f1fc29 0x23fc": 1.0
+            },
+            "loc_setCore09 ce98c731 0x24a0": {
+                "angle 184454ad 0x272c": 360.0,
+                "collision_scale 325a8ced 0x26ec": 1.100000023841858,
+                "core 7e605edd 0x271c": true,
+                "crowspecial_rate a47a385e 0x26dc": 1.0,
+                "damage_motion_type 08588c30 0x273c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x26bc": 1.0,
+                "drillkick_rate 470e15ee 0x26cc": 1.0,
+                "eye_aim_limit 7825aec6 0x270c": 360.0,
+                "gravitythrow_rate 12b575d6 0x268c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x266c": 1.0,
+                "health 8fed986b 0x264c": 80.0,
+                "homing_angle e1eaa8a7 0x274c": 360.0,
+                "lockon 3b8d25f8 0x26fc": true,
+                "microblackhole_rate a7e6ad6b 0x267c": 1.0,
+                "penetrate_rate b6dedea8 0x269c": 1.0,
+                "scratchtornado_rate 85446029 0x265c": 1.0,
+                "vortex_rate 20f1fc29 0x26ac": 1.0
+            },
+            "loc_setCore10 407cc4a4 0x2750": {
+                "angle 184454ad 0x29dc": 360.0,
+                "collision_scale 325a8ced 0x299c": 1.100000023841858,
+                "core 7e605edd 0x29cc": true,
+                "crowspecial_rate a47a385e 0x298c": 1.0,
+                "damage_motion_type 08588c30 0x29ec": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x296c": 1.0,
+                "drillkick_rate 470e15ee 0x297c": 1.0,
+                "eye_aim_limit 7825aec6 0x29bc": 360.0,
+                "gravitythrow_rate 12b575d6 0x293c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x291c": 1.0,
+                "health 8fed986b 0x28fc": 80.0,
+                "homing_angle e1eaa8a7 0x29fc": 360.0,
+                "lockon 3b8d25f8 0x29ac": true,
+                "microblackhole_rate a7e6ad6b 0x292c": 1.0,
+                "penetrate_rate b6dedea8 0x294c": 1.0,
+                "scratchtornado_rate 85446029 0x290c": 1.0,
+                "vortex_rate 20f1fc29 0x295c": 1.0
+            },
+            "loc_setCore11 d37dc4a5 0x2a00": {
+                "angle 184454ad 0x2c8c": 360.0,
+                "collision_scale 325a8ced 0x2c4c": 1.100000023841858,
+                "core 7e605edd 0x2c7c": true,
+                "crowspecial_rate a47a385e 0x2c3c": 1.0,
+                "damage_motion_type 08588c30 0x2c9c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x2c1c": 1.0,
+                "drillkick_rate 470e15ee 0x2c2c": 1.0,
+                "eye_aim_limit 7825aec6 0x2c6c": 360.0,
+                "gravitythrow_rate 12b575d6 0x2bec": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x2bcc": 1.0,
+                "health 8fed986b 0x2bac": 80.0,
+                "homing_angle e1eaa8a7 0x2cac": 360.0,
+                "lockon 3b8d25f8 0x2c5c": true,
+                "microblackhole_rate a7e6ad6b 0x2bdc": 1.0,
+                "penetrate_rate b6dedea8 0x2bfc": 1.0,
+                "scratchtornado_rate 85446029 0x2bbc": 1.0,
+                "vortex_rate 20f1fc29 0x2c0c": 1.0
+            },
+            "loc_setCore12 667fc4a6 0x2cb0": {
+                "angle 184454ad 0x2f3c": 360.0,
+                "collision_scale 325a8ced 0x2efc": 1.100000023841858,
+                "core 7e605edd 0x2f2c": true,
+                "crowspecial_rate a47a385e 0x2eec": 1.0,
+                "damage_motion_type 08588c30 0x2f4c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x2ecc": 1.0,
+                "drillkick_rate 470e15ee 0x2edc": 1.0,
+                "eye_aim_limit 7825aec6 0x2f1c": 360.0,
+                "gravitythrow_rate 12b575d6 0x2e9c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x2e7c": 1.0,
+                "health 8fed986b 0x2e5c": 80.0,
+                "homing_angle e1eaa8a7 0x2f5c": 360.0,
+                "lockon 3b8d25f8 0x2f0c": true,
+                "microblackhole_rate a7e6ad6b 0x2e8c": 1.0,
+                "penetrate_rate b6dedea8 0x2eac": 1.0,
+                "scratchtornado_rate 85446029 0x2e6c": 1.0,
+                "vortex_rate 20f1fc29 0x2ebc": 1.0
+            },
+            "loc_setCore13 f980c4a7 0x2f60": {
+                "angle 184454ad 0x31ec": 360.0,
+                "collision_scale 325a8ced 0x31ac": 1.100000023841858,
+                "core 7e605edd 0x31dc": true,
+                "crowspecial_rate a47a385e 0x319c": 1.0,
+                "damage_motion_type 08588c30 0x31fc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x317c": 1.0,
+                "drillkick_rate 470e15ee 0x318c": 1.0,
+                "eye_aim_limit 7825aec6 0x31cc": 360.0,
+                "gravitythrow_rate 12b575d6 0x314c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x312c": 1.0,
+                "health 8fed986b 0x310c": 80.0,
+                "homing_angle e1eaa8a7 0x320c": 360.0,
+                "lockon 3b8d25f8 0x31bc": true,
+                "microblackhole_rate a7e6ad6b 0x313c": 1.0,
+                "penetrate_rate b6dedea8 0x315c": 1.0,
+                "scratchtornado_rate 85446029 0x311c": 1.0,
+                "vortex_rate 20f1fc29 0x316c": 1.0
+            },
+            "loc_setCore14 8c82c4a8 0x3210": {
+                "angle 184454ad 0x349c": 360.0,
+                "collision_scale 325a8ced 0x345c": 1.100000023841858,
+                "core 7e605edd 0x348c": true,
+                "crowspecial_rate a47a385e 0x344c": 1.0,
+                "damage_motion_type 08588c30 0x34ac": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x342c": 1.0,
+                "drillkick_rate 470e15ee 0x343c": 1.0,
+                "eye_aim_limit 7825aec6 0x347c": 360.0,
+                "gravitythrow_rate 12b575d6 0x33fc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x33dc": 1.0,
+                "health 8fed986b 0x33bc": 80.0,
+                "homing_angle e1eaa8a7 0x34bc": 360.0,
+                "lockon 3b8d25f8 0x346c": true,
+                "microblackhole_rate a7e6ad6b 0x33ec": 1.0,
+                "penetrate_rate b6dedea8 0x340c": 1.0,
+                "scratchtornado_rate 85446029 0x33cc": 1.0,
+                "vortex_rate 20f1fc29 0x341c": 1.0
+            },
+            "loc_setCore15 1f84c4a9 0x34c0": {
+                "angle 184454ad 0x374c": 360.0,
+                "collision_scale 325a8ced 0x370c": 1.100000023841858,
+                "core 7e605edd 0x373c": true,
+                "crowspecial_rate a47a385e 0x36fc": 1.0,
+                "damage_motion_type 08588c30 0x375c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x36dc": 1.0,
+                "drillkick_rate 470e15ee 0x36ec": 1.0,
+                "eye_aim_limit 7825aec6 0x372c": 360.0,
+                "gravitythrow_rate 12b575d6 0x36ac": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x368c": 1.0,
+                "health 8fed986b 0x366c": 80.0,
+                "homing_angle e1eaa8a7 0x376c": 360.0,
+                "lockon 3b8d25f8 0x371c": true,
+                "microblackhole_rate a7e6ad6b 0x369c": 1.0,
+                "penetrate_rate b6dedea8 0x36bc": 1.0,
+                "scratchtornado_rate 85446029 0x367c": 1.0,
+                "vortex_rate 20f1fc29 0x36cc": 1.0
+            },
+            "loc_setCore16 b285c4aa 0x3770": {
+                "angle 184454ad 0x39fc": 360.0,
+                "collision_scale 325a8ced 0x39bc": 1.100000023841858,
+                "core 7e605edd 0x39ec": true,
+                "crowspecial_rate a47a385e 0x39ac": 1.0,
+                "damage_motion_type 08588c30 0x3a0c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x398c": 1.0,
+                "drillkick_rate 470e15ee 0x399c": 1.0,
+                "eye_aim_limit 7825aec6 0x39dc": 360.0,
+                "gravitythrow_rate 12b575d6 0x395c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x393c": 1.0,
+                "health 8fed986b 0x391c": 80.0,
+                "homing_angle e1eaa8a7 0x3a1c": 360.0,
+                "lockon 3b8d25f8 0x39cc": true,
+                "microblackhole_rate a7e6ad6b 0x394c": 1.0,
+                "penetrate_rate b6dedea8 0x396c": 1.0,
+                "scratchtornado_rate 85446029 0x392c": 1.0,
+                "vortex_rate 20f1fc29 0x397c": 1.0
+            },
+            "loc_setCore17 4587c4ab 0x3a20": {
+                "angle 184454ad 0x3cac": 360.0,
+                "collision_scale 325a8ced 0x3c6c": 1.100000023841858,
+                "core 7e605edd 0x3c9c": true,
+                "crowspecial_rate a47a385e 0x3c5c": 1.0,
+                "damage_motion_type 08588c30 0x3cbc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x3c3c": 1.0,
+                "drillkick_rate 470e15ee 0x3c4c": 1.0,
+                "eye_aim_limit 7825aec6 0x3c8c": 360.0,
+                "gravitythrow_rate 12b575d6 0x3c0c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x3bec": 1.0,
+                "health 8fed986b 0x3bcc": 80.0,
+                "homing_angle e1eaa8a7 0x3ccc": 360.0,
+                "lockon 3b8d25f8 0x3c7c": true,
+                "microblackhole_rate a7e6ad6b 0x3bfc": 1.0,
+                "penetrate_rate b6dedea8 0x3c1c": 1.0,
+                "scratchtornado_rate 85446029 0x3bdc": 1.0,
+                "vortex_rate 20f1fc29 0x3c2c": 1.0
+            },
+            "loc_setCore18 d888c4ac 0x3cd0": {
+                "angle 184454ad 0x3f5c": 360.0,
+                "collision_scale 325a8ced 0x3f1c": 1.100000023841858,
+                "core 7e605edd 0x3f4c": true,
+                "crowspecial_rate a47a385e 0x3f0c": 1.0,
+                "damage_motion_type 08588c30 0x3f6c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x3eec": 1.0,
+                "drillkick_rate 470e15ee 0x3efc": 1.0,
+                "eye_aim_limit 7825aec6 0x3f3c": 360.0,
+                "gravitythrow_rate 12b575d6 0x3ebc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x3e9c": 1.0,
+                "health 8fed986b 0x3e7c": 80.0,
+                "homing_angle e1eaa8a7 0x3f7c": 360.0,
+                "lockon 3b8d25f8 0x3f2c": true,
+                "microblackhole_rate a7e6ad6b 0x3eac": 1.0,
+                "penetrate_rate b6dedea8 0x3ecc": 1.0,
+                "scratchtornado_rate 85446029 0x3e8c": 1.0,
+                "vortex_rate 20f1fc29 0x3edc": 1.0
+            },
+            "loc_setCore19 6b8ac4ad 0x3f80": {
+                "angle 184454ad 0x420c": 360.0,
+                "collision_scale 325a8ced 0x41cc": 1.100000023841858,
+                "core 7e605edd 0x41fc": true,
+                "crowspecial_rate a47a385e 0x41bc": 1.0,
+                "damage_motion_type 08588c30 0x421c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x419c": 1.0,
+                "drillkick_rate 470e15ee 0x41ac": 1.0,
+                "eye_aim_limit 7825aec6 0x41ec": 360.0,
+                "gravitythrow_rate 12b575d6 0x416c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x414c": 1.0,
+                "health 8fed986b 0x412c": 80.0,
+                "homing_angle e1eaa8a7 0x422c": 360.0,
+                "lockon 3b8d25f8 0x41dc": true,
+                "microblackhole_rate a7e6ad6b 0x415c": 1.0,
+                "penetrate_rate b6dedea8 0x417c": 1.0,
+                "scratchtornado_rate 85446029 0x413c": 1.0,
+                "vortex_rate 20f1fc29 0x418c": 1.0
+            },
+            "loc_setCore20 db1dcc36 0x4230": {
+                "angle 184454ad 0x44bc": 360.0,
+                "collision_scale 325a8ced 0x447c": 1.100000023841858,
+                "core 7e605edd 0x44ac": true,
+                "crowspecial_rate a47a385e 0x446c": 1.0,
+                "damage_motion_type 08588c30 0x44cc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x444c": 1.0,
+                "drillkick_rate 470e15ee 0x445c": 1.0,
+                "eye_aim_limit 7825aec6 0x449c": 360.0,
+                "gravitythrow_rate 12b575d6 0x441c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x43fc": 1.0,
+                "health 8fed986b 0x43dc": 80.0,
+                "homing_angle e1eaa8a7 0x44dc": 360.0,
+                "lockon 3b8d25f8 0x448c": true,
+                "microblackhole_rate a7e6ad6b 0x440c": 1.0,
+                "penetrate_rate b6dedea8 0x442c": 1.0,
+                "scratchtornado_rate 85446029 0x43ec": 1.0,
+                "vortex_rate 20f1fc29 0x443c": 1.0
+            },
+            "loc_setCore21 481ccc35 0x44e0": {
+                "angle 184454ad 0x476c": 360.0,
+                "collision_scale 325a8ced 0x472c": 1.100000023841858,
+                "core 7e605edd 0x475c": true,
+                "crowspecial_rate a47a385e 0x471c": 1.0,
+                "damage_motion_type 08588c30 0x477c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x46fc": 1.0,
+                "drillkick_rate 470e15ee 0x470c": 1.0,
+                "eye_aim_limit 7825aec6 0x474c": 360.0,
+                "gravitythrow_rate 12b575d6 0x46cc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x46ac": 1.0,
+                "health 8fed986b 0x468c": 80.0,
+                "homing_angle e1eaa8a7 0x478c": 360.0,
+                "lockon 3b8d25f8 0x473c": true,
+                "microblackhole_rate a7e6ad6b 0x46bc": 1.0,
+                "penetrate_rate b6dedea8 0x46dc": 1.0,
+                "scratchtornado_rate 85446029 0x469c": 1.0,
+                "vortex_rate 20f1fc29 0x46ec": 1.0
+            },
+            "loc_setCore22 0121cc38 0x4790": {
+                "angle 184454ad 0x4a1c": 360.0,
+                "collision_scale 325a8ced 0x49dc": 1.100000023841858,
+                "core 7e605edd 0x4a0c": true,
+                "crowspecial_rate a47a385e 0x49cc": 1.0,
+                "damage_motion_type 08588c30 0x4a2c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x49ac": 1.0,
+                "drillkick_rate 470e15ee 0x49bc": 1.0,
+                "eye_aim_limit 7825aec6 0x49fc": 360.0,
+                "gravitythrow_rate 12b575d6 0x497c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x495c": 1.0,
+                "health 8fed986b 0x493c": 80.0,
+                "homing_angle e1eaa8a7 0x4a3c": 360.0,
+                "lockon 3b8d25f8 0x49ec": true,
+                "microblackhole_rate a7e6ad6b 0x496c": 1.0,
+                "penetrate_rate b6dedea8 0x498c": 1.0,
+                "scratchtornado_rate 85446029 0x494c": 1.0,
+                "vortex_rate 20f1fc29 0x499c": 1.0
+            },
+            "loc_setCore23 6e1fcc37 0x4a40": {
+                "angle 184454ad 0x4ccc": 360.0,
+                "collision_scale 325a8ced 0x4c8c": 1.100000023841858,
+                "core 7e605edd 0x4cbc": true,
+                "crowspecial_rate a47a385e 0x4c7c": 1.0,
+                "damage_motion_type 08588c30 0x4cdc": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x4c5c": 1.0,
+                "drillkick_rate 470e15ee 0x4c6c": 1.0,
+                "eye_aim_limit 7825aec6 0x4cac": 360.0,
+                "gravitythrow_rate 12b575d6 0x4c2c": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x4c0c": 1.0,
+                "health 8fed986b 0x4bec": 80.0,
+                "homing_angle e1eaa8a7 0x4cec": 360.0,
+                "lockon 3b8d25f8 0x4c9c": true,
+                "microblackhole_rate a7e6ad6b 0x4c1c": 1.0,
+                "penetrate_rate b6dedea8 0x4c3c": 1.0,
+                "scratchtornado_rate 85446029 0x4bfc": 1.0,
+                "vortex_rate 20f1fc29 0x4c4c": 1.0
+            },
+            "loc_setCore24 2724cc3a 0x4cf0": {
+                "angle 184454ad 0x4f7c": 360.0,
+                "collision_scale 325a8ced 0x4f3c": 1.100000023841858,
+                "core 7e605edd 0x4f6c": true,
+                "crowspecial_rate a47a385e 0x4f2c": 1.0,
+                "damage_motion_type 08588c30 0x4f8c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x4f0c": 1.0,
+                "drillkick_rate 470e15ee 0x4f1c": 1.0,
+                "eye_aim_limit 7825aec6 0x4f5c": 360.0,
+                "gravitythrow_rate 12b575d6 0x4edc": 1.0,
+                "gravitytyphoon_rate b15c2e8f 0x4ebc": 1.0,
+                "health 8fed986b 0x4e9c": 80.0,
+                "homing_angle e1eaa8a7 0x4f9c": 360.0,
+                "lockon 3b8d25f8 0x4f4c": true,
+                "microblackhole_rate a7e6ad6b 0x4ecc": 1.0,
+                "penetrate_rate b6dedea8 0x4eec": 1.0,
+                "scratchtornado_rate 85446029 0x4eac": 1.0,
+                "vortex_rate 20f1fc29 0x4efc": 1.0
+            },
+            "loc_setNveng01lasmec01 c92011ec 0x4fa0": {
+                "health 8fed986b 0x4fec": 80.0,
+                "lockon 3b8d25f8 0x4ffc": true
+            },
+            "loc_setNveng01lasmec010 fbe7f697 0x5300": {
+                "health 8fed986b 0x534c": 80.0,
+                "lockon 3b8d25f8 0x535c": true
+            },
+            "loc_setNveng01lasmec011 68e6f696 0x5360": {
+                "health 8fed986b 0x53ac": 80.0,
+                "lockon 3b8d25f8 0x53bc": true
+            },
+            "loc_setNveng01lasmec012 21ebf699 0x53c0": {
+                "health 8fed986b 0x540c": 80.0,
+                "lockon 3b8d25f8 0x541c": true
+            },
+            "loc_setNveng01lasmec013 8ee9f698 0x5420": {
+                "health 8fed986b 0x546c": 80.0,
+                "lockon 3b8d25f8 0x547c": true
+            },
+            "loc_setNveng01lasmec014 47eef69b 0x5480": {
+                "health 8fed986b 0x54cc": 80.0,
+                "lockon 3b8d25f8 0x54dc": true
+            },
+            "loc_setNveng01lasmec015 b4ecf69a 0x54e0": {
+                "health 8fed986b 0x552c": 80.0,
+                "lockon 3b8d25f8 0x553c": true
+            },
+            "loc_setNveng01lasmec016 6df1f69d 0x5540": {
+                "health 8fed986b 0x558c": 80.0,
+                "lockon 3b8d25f8 0x559c": true
+            },
+            "loc_setNveng01lasmec017 daeff69c 0x55a0": {
+                "health 8fed986b 0x55ec": 80.0,
+                "lockon 3b8d25f8 0x55fc": true
+            },
+            "loc_setNveng01lasmec018 63dbf68f 0x5600": {
+                "health 8fed986b 0x564c": 80.0,
+                "lockon 3b8d25f8 0x565c": true
+            },
+            "loc_setNveng01lasmec019 d0d9f68e 0x5660": {
+                "health 8fed986b 0x56ac": 80.0,
+                "lockon 3b8d25f8 0x56bc": true
+            },
+            "loc_setNveng01lasmec02 101c11e9 0x5000": {
+                "health 8fed986b 0x504c": 80.0,
+                "lockon 3b8d25f8 0x505c": true
+            },
+            "loc_setNveng01lasmec020 6046ef05 0x56c0": {
+                "health 8fed986b 0x570c": 80.0,
+                "lockon 3b8d25f8 0x571c": true
+            },
+            "loc_setNveng01lasmec021 f347ef06 0x5720": {
+                "health 8fed986b 0x576c": 80.0,
+                "lockon 3b8d25f8 0x577c": true
+            },
+            "loc_setNveng01lasmec022 8649ef07 0x5780": {
+                "health 8fed986b 0x57cc": 80.0,
+                "lockon 3b8d25f8 0x57dc": true
+            },
+            "loc_setNveng01lasmec023 194bef08 0x57e0": {
+                "health 8fed986b 0x582c": 80.0,
+                "lockon 3b8d25f8 0x583c": true
+            },
+            "loc_setNveng01lasmec024 ac4cef09 0x5840": {
+                "health 8fed986b 0x588c": 80.0,
+                "lockon 3b8d25f8 0x589c": true
+            },
+            "loc_setNveng01lasmec025 3f4eef0a 0x58a0": {
+                "health 8fed986b 0x58ec": 80.0,
+                "lockon 3b8d25f8 0x58fc": true
+            },
+            "loc_setNveng01lasmec026 d24fef0b 0x5900": {
+                "health 8fed986b 0x594c": 80.0,
+                "lockon 3b8d25f8 0x595c": true
+            },
+            "loc_setNveng01lasmec027 6551ef0c 0x5960": {
+                "health 8fed986b 0x59ac": 80.0,
+                "lockon 3b8d25f8 0x59bc": true
+            },
+            "loc_setNveng01lasmec028 f852ef0d 0x59c0": {
+                "health 8fed986b 0x5a0c": 80.0,
+                "lockon 3b8d25f8 0x5a1c": true
+            },
+            "loc_setNveng01lasmec029 8b54ef0e 0x5a20": {
+                "health 8fed986b 0x5a6c": 80.0,
+                "lockon 3b8d25f8 0x5a7c": true
+            },
+            "loc_setNveng01lasmec03 a31d11ea 0x5060": {
+                "health 8fed986b 0x50ac": 80.0,
+                "lockon 3b8d25f8 0x50bc": true
+            },
+            "loc_setNveng01lasmec030 698ef10b 0x5a80": {
+                "health 8fed986b 0x5acc": 80.0,
+                "lockon 3b8d25f8 0x5adc": true
+            },
+            "loc_setNveng01lasmec04 822511ef 0x50c0": {
+                "health 8fed986b 0x510c": 80.0,
+                "lockon 3b8d25f8 0x511c": true
+            },
+            "loc_setNveng01lasmec05 152711f0 0x5120": {
+                "health 8fed986b 0x516c": 80.0,
+                "lockon 3b8d25f8 0x517c": true
+            },
+            "loc_setNveng01lasmec06 5c2211ed 0x5180": {
+                "health 8fed986b 0x51cc": 80.0,
+                "lockon 3b8d25f8 0x51dc": true
+            },
+            "loc_setNveng01lasmec07 ef2311ee 0x51e0": {
+                "health 8fed986b 0x522c": 80.0,
+                "lockon 3b8d25f8 0x523c": true
+            },
+            "loc_setNveng01lasmec08 ce2b11f3 0x5240": {
+                "health 8fed986b 0x528c": 80.0,
+                "lockon 3b8d25f8 0x529c": true
+            },
+            "loc_setNveng01lasmec09 612d11f4 0x52a0": {
+                "health 8fed986b 0x52ec": 80.0,
+                "lockon 3b8d25f8 0x52fc": true
+            }
+        }
+    }
+}

@@ -1,0 +1,242 @@
+{
+    "easy 1b7a5305 0xb60": {
+        "brain f3912883 0xc30": {
+            "ai_grade 17b9230d 0xd1c": "dark",
+            "ai_type a8e9a23c 0xcdc": "lasercannon",
+            "animjoint 9c2354a2 0xcec": "lasercannon",
+            "body_effect 139c5efa 0xd0c": "lasercannon",
+            "race 98c2bb8e 0xcfc": "nevi",
+            "type 4df12751 0xccc": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0x15b0": {
+            "find 5a85f0bd 0x15fc": 80.0,
+            "lose 785834d1 0x160c": 85.0
+        },
+        "enemy_actions 877ce571 0x10a0": {
+            "laser 8c71ac9d 0x1120": {
+                "damage_cumulation e2d9c67e 0x129c": 0.0,
+                "damage_type c5871e0c 0x128c": "blow",
+                "force 8488a979 0x126c": 2.0,
+                "free dbeeb399 0x12ec": 35.0,
+                "ignore_super_armor 6f3f7919 0x12dc": true,
+                "interval 7885ddce 0x12bc": 3.0,
+                "power 46234ff5 0x123c": 20.0,
+                "range d20cdcfa 0x12ac": 50.0,
+                "rate_of_bg 359b8dca 0x125c": 75.0,
+                "rate_of_power 037c9b8a 0x124c": 10.0,
+                "upper_force bb35102a 0x127c": 2.0,
+                "velocity 321c7432 0x12cc": 500.0
+            },
+            "spawn 984d223a 0x14a0": {
+                "damage_cumulation e2d9c67e 0x15ac": 0.0,
+                "damage_type c5871e0c 0x159c": "normal",
+                "force 8488a979 0x157c": 1.0,
+                "power 46234ff5 0x154c": 10.0,
+                "rate_of_bg 359b8dca 0x156c": 30.0,
+                "rate_of_power 037c9b8a 0x155c": -2.0,
+                "upper_force bb35102a 0x158c": 0.0
+            },
+            "spinlaser 18189c2d 0x12f0": {
+                "damage_cumulation e2d9c67e 0x145c": 0.0,
+                "damage_type c5871e0c 0x144c": "normal",
+                "force 8488a979 0x142c": 1.0,
+                "free dbeeb399 0x149c": 15.0,
+                "interval 7885ddce 0x147c": 5.0,
+                "power 46234ff5 0x13fc": 20.0,
+                "range d20cdcfa 0x146c": 15.0,
+                "rate_of_bg 359b8dca 0x141c": 75.0,
+                "rate_of_power 037c9b8a 0x140c": 10.0,
+                "upper_force bb35102a 0x143c": 2.0,
+                "velocity 321c7432 0x148c": 300.0
+            }
+        },
+        "enemy_body f895dcbb 0xd20": {
+            "ash_effect f1d8dab1 0xe1c": "ef_nev_death_nvlas",
+            "ash_effect_node 860db1c8 0xe2c": "samplelink",
+            "ash_se 649d8f77 0xe3c": "ene_disappear",
+            "battle_field_prio 5324db77 0xe6c": 1.0,
+            "battle_field_range 7e1a8055 0xe5c": 20.0,
+            "health 8fed986b 0xe4c": 10.0,
+            "spawn_effect d4cb9f81 0xdfc": "ef_nev_spw_01",
+            "spawn_se 25611442 0xe0c": "ene_come"
+        },
+        "enemy_parts 7e7c4e31 0xe70": {
+            "loc_nvlas01_armor c11c5f7d 0x1060": {
+                "health 8fed986b 0x109c": 200.0
+            },
+            "loc_setCore01 368cc729 0xed0": {
+                "angle 184454ad 0x101c": 360.0,
+                "body_damage ebb248f9 0xfcc": 10.0,
+                "core 7e605edd 0x100c": true,
+                "damage_motion_type 08588c30 0x102c": "FRONT",
+                "defenders ab6537f0 0x1040": {
+                    "0x105c": "loc_nvlas01_armor"
+                },
+                "eye_aim_limit 7825aec6 0xffc": 30.0,
+                "health 8fed986b 0xfbc": 120.0,
+                "homing_angle e1eaa8a7 0x103c": 360.0,
+                "lockon 3b8d25f8 0xfec": true
+            }
+        }
+    },
+    "hard dc5bc3e4 0x1610": {
+        "brain f3912883 0x16e0": {
+            "ai_grade 17b9230d 0x17cc": "dark",
+            "ai_type a8e9a23c 0x178c": "lasercannon",
+            "animjoint 9c2354a2 0x179c": "lasercannon",
+            "body_effect 139c5efa 0x17bc": "lasercannon",
+            "race 98c2bb8e 0x17ac": "nevi",
+            "type 4df12751 0x177c": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0x2060": {
+            "find 5a85f0bd 0x20ac": 80.0,
+            "lose 785834d1 0x20bc": 85.0
+        },
+        "enemy_actions 877ce571 0x1b50": {
+            "laser 8c71ac9d 0x1bd0": {
+                "damage_cumulation e2d9c67e 0x1d4c": 0.0,
+                "damage_type c5871e0c 0x1d3c": "blow",
+                "force 8488a979 0x1d1c": 2.0,
+                "free dbeeb399 0x1d9c": 35.0,
+                "ignore_super_armor 6f3f7919 0x1d8c": true,
+                "interval 7885ddce 0x1d6c": 3.0,
+                "power 46234ff5 0x1cec": 50.0,
+                "range d20cdcfa 0x1d5c": 50.0,
+                "rate_of_bg 359b8dca 0x1d0c": 75.0,
+                "rate_of_power 037c9b8a 0x1cfc": 10.0,
+                "upper_force bb35102a 0x1d2c": 2.0,
+                "velocity 321c7432 0x1d7c": 500.0
+            },
+            "spawn 984d223a 0x1f50": {
+                "damage_cumulation e2d9c67e 0x205c": 0.0,
+                "damage_type c5871e0c 0x204c": "normal",
+                "force 8488a979 0x202c": 1.0,
+                "power 46234ff5 0x1ffc": 10.0,
+                "rate_of_bg 359b8dca 0x201c": 30.0,
+                "rate_of_power 037c9b8a 0x200c": -2.0,
+                "upper_force bb35102a 0x203c": 0.0
+            },
+            "spinlaser 18189c2d 0x1da0": {
+                "damage_cumulation e2d9c67e 0x1f0c": 0.0,
+                "damage_type c5871e0c 0x1efc": "normal",
+                "force 8488a979 0x1edc": 1.0,
+                "free dbeeb399 0x1f4c": 15.0,
+                "interval 7885ddce 0x1f2c": 5.0,
+                "power 46234ff5 0x1eac": 35.0,
+                "range d20cdcfa 0x1f1c": 15.0,
+                "rate_of_bg 359b8dca 0x1ecc": 75.0,
+                "rate_of_power 037c9b8a 0x1ebc": 10.0,
+                "upper_force bb35102a 0x1eec": 2.0,
+                "velocity 321c7432 0x1f3c": 300.0
+            }
+        },
+        "enemy_body f895dcbb 0x17d0": {
+            "ash_effect f1d8dab1 0x18cc": "ef_nev_death_nvlas",
+            "ash_effect_node 860db1c8 0x18dc": "samplelink",
+            "ash_se 649d8f77 0x18ec": "ene_disappear",
+            "battle_field_prio 5324db77 0x191c": 1.0,
+            "battle_field_range 7e1a8055 0x190c": 20.0,
+            "health 8fed986b 0x18fc": 10.0,
+            "spawn_effect d4cb9f81 0x18ac": "ef_nev_spw_01",
+            "spawn_se 25611442 0x18bc": "ene_come"
+        },
+        "enemy_parts 7e7c4e31 0x1920": {
+            "loc_nvlas01_armor c11c5f7d 0x1b10": {
+                "health 8fed986b 0x1b4c": 200.0
+            },
+            "loc_setCore01 368cc729 0x1980": {
+                "angle 184454ad 0x1acc": 360.0,
+                "body_damage ebb248f9 0x1a7c": 10.0,
+                "core 7e605edd 0x1abc": true,
+                "damage_motion_type 08588c30 0x1adc": "FRONT",
+                "defenders ab6537f0 0x1af0": {
+                    "0x1b0c": "loc_nvlas01_armor"
+                },
+                "eye_aim_limit 7825aec6 0x1aac": 30.0,
+                "health 8fed986b 0x1a6c": 180.0,
+                "homing_angle e1eaa8a7 0x1aec": 360.0,
+                "lockon 3b8d25f8 0x1a9c": true
+            }
+        }
+    },
+    "normal 529c8be6 0xb0": {
+        "brain f3912883 0x180": {
+            "ai_grade 17b9230d 0x26c": "dark",
+            "ai_type a8e9a23c 0x22c": "lasercannon",
+            "animjoint 9c2354a2 0x23c": "lasercannon",
+            "body_effect 139c5efa 0x25c": "lasercannon",
+            "race 98c2bb8e 0x24c": "nevi",
+            "type 4df12751 0x21c": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0xb00": {
+            "find 5a85f0bd 0xb4c": 80.0,
+            "lose 785834d1 0xb5c": 85.0
+        },
+        "enemy_actions 877ce571 0x5f0": {
+            "laser 8c71ac9d 0x670": {
+                "damage_cumulation e2d9c67e 0x7ec": 0.0,
+                "damage_type c5871e0c 0x7dc": "blow",
+                "force 8488a979 0x7bc": 2.0,
+                "free dbeeb399 0x83c": 35.0,
+                "ignore_super_armor 6f3f7919 0x82c": true,
+                "interval 7885ddce 0x80c": 3.0,
+                "power 46234ff5 0x78c": 25.0,
+                "range d20cdcfa 0x7fc": 50.0,
+                "rate_of_bg 359b8dca 0x7ac": 75.0,
+                "rate_of_power 037c9b8a 0x79c": 10.0,
+                "upper_force bb35102a 0x7cc": 2.0,
+                "velocity 321c7432 0x81c": 500.0
+            },
+            "spawn 984d223a 0x9f0": {
+                "damage_cumulation e2d9c67e 0xafc": 0.0,
+                "damage_type c5871e0c 0xaec": "normal",
+                "force 8488a979 0xacc": 1.0,
+                "power 46234ff5 0xa9c": 10.0,
+                "rate_of_bg 359b8dca 0xabc": 30.0,
+                "rate_of_power 037c9b8a 0xaac": -2.0,
+                "upper_force bb35102a 0xadc": 0.0
+            },
+            "spinlaser 18189c2d 0x840": {
+                "damage_cumulation e2d9c67e 0x9ac": 0.0,
+                "damage_type c5871e0c 0x99c": "normal",
+                "force 8488a979 0x97c": 1.0,
+                "free dbeeb399 0x9ec": 15.0,
+                "interval 7885ddce 0x9cc": 5.0,
+                "power 46234ff5 0x94c": 25.0,
+                "range d20cdcfa 0x9bc": 15.0,
+                "rate_of_bg 359b8dca 0x96c": 75.0,
+                "rate_of_power 037c9b8a 0x95c": 10.0,
+                "upper_force bb35102a 0x98c": 2.0,
+                "velocity 321c7432 0x9dc": 300.0
+            }
+        },
+        "enemy_body f895dcbb 0x270": {
+            "ash_effect f1d8dab1 0x36c": "ef_nev_death_nvlas",
+            "ash_effect_node 860db1c8 0x37c": "samplelink",
+            "ash_se 649d8f77 0x38c": "ene_disappear",
+            "battle_field_prio 5324db77 0x3bc": 1.0,
+            "battle_field_range 7e1a8055 0x3ac": 20.0,
+            "health 8fed986b 0x39c": 10.0,
+            "spawn_effect d4cb9f81 0x34c": "ef_nev_spw_01",
+            "spawn_se 25611442 0x35c": "ene_come"
+        },
+        "enemy_parts 7e7c4e31 0x3c0": {
+            "loc_nvlas01_armor c11c5f7d 0x5b0": {
+                "health 8fed986b 0x5ec": 200.0
+            },
+            "loc_setCore01 368cc729 0x420": {
+                "angle 184454ad 0x56c": 360.0,
+                "body_damage ebb248f9 0x51c": 10.0,
+                "core 7e605edd 0x55c": true,
+                "damage_motion_type 08588c30 0x57c": "FRONT",
+                "defenders ab6537f0 0x590": {
+                    "0x5ac": "loc_nvlas01_armor"
+                },
+                "eye_aim_limit 7825aec6 0x54c": 30.0,
+                "health 8fed986b 0x50c": 150.0,
+                "homing_angle e1eaa8a7 0x58c": 360.0,
+                "lockon 3b8d25f8 0x53c": true
+            }
+        }
+    }
+}

@@ -1,0 +1,995 @@
+{
+    "defaultSceneParam 0xac": "lt_ug_a_root",
+    "defaultSkyModel 0xbc": "sky_ug_a_root",
+    "entities 0xe0": {
+        "0x1d0": {
+            "animations 0x2c0": {
+                "sceneparam 0x300": {
+                    "G2RendererGlobals 0x340": {
+                        "stratusOffsetX0 0x380": {
+                            "keyframes 0x3c0": {
+                                "0x3f0": {
+                                    "key 0x43c": 0.03350000083446503,
+                                    "time 0x44c": 0.0
+                                },
+                                "0x450": {
+                                    "key 0x49c": 0.4000000059604645,
+                                    "time 0x4ac": 149.0
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "clips 0x4b0": {
+                "0x4d0": {
+                    "endFrame 0x51c": 149.0,
+                    "startFrame 0x52c": 0.0
+                }
+            },
+            "name 0x28c": "c02",
+            "sceneparam 0x530": {
+                "G2CameraLight 0x5b0": {
+                    "attenuationFactor 0x68c": 2.0,
+                    "directivity 0x69c": 1.0,
+                    "innerRadius 0x6ac": 0.0,
+                    "lightColorB 0x6bc": 1.0,
+                    "lightColorG 0x6cc": 1.0,
+                    "lightColorR 0x6dc": 1.0,
+                    "lightIntensity 0x6ec": 0.0,
+                    "outerRadius 0x6fc": 0.0
+                },
+                "G2DirectionalLight 0x700": {
+                    "cascade0Distance 0x8ec": 4.0,
+                    "cascade1Distance 0x8fc": 16.0,
+                    "fastShadowCullingDist 0x90c": 130.0,
+                    "foregroundBackColorB 0x91c": 1.0,
+                    "foregroundBackColorG 0x92c": 1.0,
+                    "foregroundBackColorR 0x93c": 1.0,
+                    "foregroundBasis 0x94c": 1.0,
+                    "foregroundBorder 0x95c": 0.0,
+                    "foregroundInfluence 0x96c": 0.0,
+                    "foregroundShadowDensity 0x97c": 0.8999999761581421,
+                    "lightColorB 0x98c": 1.0,
+                    "lightColorG 0x99c": 1.0,
+                    "lightColorR 0x9ac": 1.0,
+                    "lightDirectionX 0x9bc": 0.0,
+                    "lightDirectionY 0x9cc": -1.0,
+                    "lightDirectionZ 0x9dc": 0.0,
+                    "lightIntensity 0x9ec": 0.0,
+                    "lightRotation 0xa30": {
+                        "0xa4c": 0.0,
+                        "0xa5c": 0.0,
+                        "0xa6c": 0.0
+                    },
+                    "perspectiveDistance 0xa0c": 300.0,
+                    "shadowRange 0xa1c": 100.0,
+                    "shadowclipRatio 0xa2c": 1.0
+                },
+                "G2RendererGlobals 0xa70": {
+                    "_ctl_a0_val 0x18bc": 0.0,
+                    "_ctl_a1_val 0x18cc": 0.16666699945926666,
+                    "_ctl_a2_val 0x18dc": 0.33333298563957214,
+                    "_ctl_a3_val 0x18ec": 0.5,
+                    "_ctl_a4_val 0x18fc": 0.6666669845581055,
+                    "_ctl_a5_val 0x190c": 0.8333330154418945,
+                    "_ctl_a6_val 0x191c": 1.0,
+                    "_ctl_b0_val 0x192c": 0.0,
+                    "_ctl_b1_val 0x193c": 0.16666699945926666,
+                    "_ctl_b2_val 0x194c": 0.33333298563957214,
+                    "_ctl_b3_val 0x195c": 0.5,
+                    "_ctl_b4_val 0x196c": 0.6666669845581055,
+                    "_ctl_b5_val 0x197c": 0.8333330154418945,
+                    "_ctl_b6_val 0x198c": 1.0,
+                    "_ctl_g0_val 0x199c": 0.0,
+                    "_ctl_g1_val 0x19ac": 0.16666699945926666,
+                    "_ctl_g2_val 0x19bc": 0.33333298563957214,
+                    "_ctl_g3_val 0x19cc": 0.5,
+                    "_ctl_g4_val 0x19dc": 0.6666669845581055,
+                    "_ctl_g5_val 0x19ec": 0.8333330154418945,
+                    "_ctl_g6_val 0x19fc": 1.0,
+                    "_ctl_r0_val 0x1a0c": 0.0,
+                    "_ctl_r1_val 0x1a1c": 0.16666699945926666,
+                    "_ctl_r2_val 0x1a2c": 0.33333298563957214,
+                    "_ctl_r3_val 0x1a3c": 0.5,
+                    "_ctl_r4_val 0x1a4c": 0.6666669845581055,
+                    "_ctl_r5_val 0x1a5c": 0.8333330154418945,
+                    "_ctl_r6_val 0x1a6c": 1.0,
+                    "backgroundBlend 0x1a7c": 0.0,
+                    "backgroundFar 0x1a8c": 800.0,
+                    "backgroundLod 0x1a9c": 5.0,
+                    "backgroundNear 0x1aac": 500.0,
+                    "bgSpecularFade 0x1abc": 20.0,
+                    "bgSpecularFar 0x1acc": 85.0,
+                    "bloom_compositeColorB 0x1adc": 1.0,
+                    "bloom_compositeColorG 0x1aec": 1.0,
+                    "bloom_compositeColorR 0x1afc": 1.0,
+                    "bloom_compositeIntensity 0x1b0c": 0.0,
+                    "bloom_feedback 0x1b1c": 0.20000000298023224,
+                    "bloom_filterLuminanceHi 0x1b2c": 0.0,
+                    "bloom_filterLuminanceLo 0x1b3c": 0.0,
+                    "chIblIntensity 0x1b4c": 0.0,
+                    "chPointInfluence 0x1b5c": 1.0,
+                    "chShadowColor 0x1b6c": 0.23000000417232513,
+                    "clearColorB 0x1b7c": 0.20000000298023224,
+                    "clearColorG 0x1b8c": 0.20000000298023224,
+                    "clearColorR 0x1b9c": 0.20000000298023224,
+                    "cloudAlpha 0x1bac": 0.0,
+                    "cloudDarkness 0x1bbc": 1.0,
+                    "cloudHeight 0x1bcc": 35.0,
+                    "cloudOffset 0x1bdc": 25.0,
+                    "cloudRepeat 0x1bec": 1.0,
+                    "cloudShadow 0x1bfc": 0.0,
+                    "cloudSize 0x1c0c": 100.0,
+                    "cloudSpeed 0x1c1c": 1.0,
+                    "contourBlend 0x1c2c": 0.0,
+                    "contourColorB 0x1c3c": 0.0,
+                    "contourColorG 0x1c4c": 0.0,
+                    "contourColorR 0x1c5c": 0.0,
+                    "contourFar 0x1c6c": 500.0,
+                    "contourFarBlend 0x1c7c": 0.0,
+                    "contourNear 0x1c8c": 100.0,
+                    "cumulusDensity0 0x1c9c": 0.0,
+                    "cumulusDensity1 0x1cac": 0.0,
+                    "cumulusDensity2 0x1cbc": 0.0,
+                    "cumulusSize0 0x1ccc": 512.0,
+                    "cumulusSize1 0x1cdc": 512.0,
+                    "cumulusSize2 0x1cec": 512.0,
+                    "cumulusThickness0 0x1cfc": 50.0,
+                    "cumulusThickness1 0x1d0c": 50.0,
+                    "cumulusThickness2 0x1d1c": 50.0,
+                    "cumulusVelocity0 0x1d2c": 0.0,
+                    "cumulusVelocity1 0x1d3c": 0.0,
+                    "cumulusVelocity2 0x1d4c": 0.0,
+                    "cumulusY0 0x1d5c": 0.0,
+                    "cumulusY1 0x1d6c": 0.0,
+                    "cumulusY2 0x1d7c": 0.0,
+                    "exposureAdaptionRange 0x1d8c": 0.0,
+                    "exposureAdaptionSpeed 0x1d9c": 1.0,
+                    "exposureIntensity 0x1dac": 0.0,
+                    "exposureKeyValue 0x1dbc": 0.10000000149011612,
+                    "fluctuatingDistortion 0x1dcc": 0.0,
+                    "fogAlpha 0x1ddc": 1.0,
+                    "fogColorB 0x1dec": 0.0,
+                    "fogColorG 0x1dfc": 0.0,
+                    "fogColorR 0x1e0c": 0.0,
+                    "fogDensity 0x1e1c": 0.0,
+                    "fogDirection 0x1e2c": 0.0,
+                    "fogFar 0x1e3c": 200.0,
+                    "fogFrequency 0x1e4c": 0.10000000149011612,
+                    "fogIntensity 0x1e5c": 0.0,
+                    "fogIntensityCloud 0x1e6c": 0.0,
+                    "fogLogDensity 0x1e7c": 0.0,
+                    "fogNoiseAttenuation 0x1e8c": 0.0,
+                    "fogNoiseScale 0x1e9c": 1.0,
+                    "fogScattering 0x1eac": 0.10000000149011612,
+                    "fogScatteringCloud 0x1ebc": 0.10000000149011612,
+                    "fogVelocity 0x1ecc": 1.0,
+                    "fogVelocityY 0x1edc": 0.0,
+                    "gradationFar 0x1eec": 800.0,
+                    "gradationHiB 0x1efc": 1.0,
+                    "gradationHiG 0x1f0c": 1.0,
+                    "gradationHiR 0x1f1c": 1.0,
+                    "gradationLwB 0x1f2c": 1.0,
+                    "gradationLwG 0x1f3c": 1.0,
+                    "gradationLwR 0x1f4c": 1.0,
+                    "gradationMdB 0x1f5c": 1.0,
+                    "gradationMdG 0x1f6c": 1.0,
+                    "gradationMdR 0x1f7c": 1.0,
+                    "gradationNear 0x1f8c": 500.0,
+                    "hatchingIntensity 0x1f9c": 1.0,
+                    "iblIntensity 0x1fac": 1.0,
+                    "puddleDensity 0x1fbc": 0.0,
+                    "puddleHeight 0x1fcc": 0.0,
+                    "regionBottom0 0x1fdc": 0.0,
+                    "regionDarkness0 0x1fec": 1.0,
+                    "regionDensity0 0x1ffc": 0.0,
+                    "regionDirectionX 0x200c": 0.0,
+                    "regionDirectionY 0x201c": 0.0,
+                    "regionDirectionZ 0x202c": -1.0,
+                    "regionDistHumidity0 0x203c": 0.5,
+                    "regionEdgePow0 0x204c": 0.4000000059604645,
+                    "regionEdgeRange0 0x205c": 0.4000000059604645,
+                    "regionHumidity0 0x206c": 0.0,
+                    "regionOffsetX0 0x207c": 0.5,
+                    "regionOffsetZ0 0x208c": 0.5,
+                    "regionTexIndex0 0x209c": 0.0,
+                    "regionThickness0 0x20ac": 300.0,
+                    "regionTop0 0x20bc": 0.0,
+                    "regionVelocity 0x20cc": 0.0,
+                    "regionY0 0x20dc": 0.0,
+                    "saturation 0x20ec": 1.0,
+                    "scatterColorB 0x20fc": 0.0,
+                    "scatterColorG 0x210c": 0.0,
+                    "scatterColorR 0x211c": 0.0,
+                    "shadowDarkness 0x212c": 0.0,
+                    "shadowInfluence 0x213c": 0.0,
+                    "ssaoBlur 0x214c": 0.0,
+                    "ssaoIntensity 0x215c": 0.0,
+                    "stratusBottom0 0x216c": -0.1136000007390976,
+                    "stratusDarkness0 0x217c": 0.728600025177002,
+                    "stratusDensity0 0x218c": 0.42750000953674316,
+                    "stratusDirectionX 0x219c": 0.0,
+                    "stratusDirectionY 0x21ac": 0.0,
+                    "stratusDirectionZ 0x21bc": -1.0,
+                    "stratusDistHumidity0 0x21cc": 0.17839999496936798,
+                    "stratusEdgePow0 0x21dc": 0.4000000059604645,
+                    "stratusEdgeRange0 0x21ec": 0.4000000059604645,
+                    "stratusHumidity0 0x21fc": 0.460999995470047,
+                    "stratusOffsetX0 0x220c": 0.24539999663829803,
+                    "stratusOffsetZ0 0x221c": 0.3160000145435333,
+                    "stratusTexIndex0 0x222c": 0.0,
+                    "stratusThickness0 0x223c": 198.22999572753906,
+                    "stratusTop0 0x224c": -0.05299999937415123,
+                    "stratusVelocity 0x225c": 0.0,
+                    "stratusY0 0x226c": 0.0,
+                    "sunColorB 0x227c": 1.0,
+                    "sunColorG 0x228c": 1.0,
+                    "sunColorR 0x229c": 1.0,
+                    "sunIntensity 0x22ac": 0.0,
+                    "sunOuter 0x22bc": 4.0,
+                    "sunSize 0x22cc": 0.0,
+                    "toning 0x22dc": 0.0
+                }
+            },
+            "type 0x2ac": "sceneparam",
+            "uuid 0x2bc": "{ab292207-1efa-4b81-80d2-ceaf0e2818d6}"
+        },
+        "0x22e0": {
+            "clips 0x23b0": {
+                "0x23d0": {
+                    "endFrame 0x241c": 224.0,
+                    "startFrame 0x242c": 150.0
+                }
+            },
+            "name 0x237c": "c03",
+            "sceneparam 0x2430": {
+                "G2CameraLight 0x24b0": {
+                    "attenuationFactor 0x258c": 2.0,
+                    "directivity 0x259c": 1.0,
+                    "innerRadius 0x25ac": 0.0,
+                    "lightColorB 0x25bc": 1.0,
+                    "lightColorG 0x25cc": 1.0,
+                    "lightColorR 0x25dc": 1.0,
+                    "lightIntensity 0x25ec": 0.0,
+                    "outerRadius 0x25fc": 0.0
+                },
+                "G2DirectionalLight 0x2600": {
+                    "cascade0Distance 0x27ec": 4.0,
+                    "cascade1Distance 0x27fc": 16.0,
+                    "fastShadowCullingDist 0x280c": 130.0,
+                    "foregroundBackColorB 0x281c": 1.0,
+                    "foregroundBackColorG 0x282c": 1.0,
+                    "foregroundBackColorR 0x283c": 1.0,
+                    "foregroundBasis 0x284c": 1.0,
+                    "foregroundBorder 0x285c": 0.0,
+                    "foregroundInfluence 0x286c": 0.0,
+                    "foregroundShadowDensity 0x287c": 0.8999999761581421,
+                    "lightColorB 0x288c": 1.0,
+                    "lightColorG 0x289c": 1.0,
+                    "lightColorR 0x28ac": 1.0,
+                    "lightDirectionX 0x28bc": 0.0,
+                    "lightDirectionY 0x28cc": -1.0,
+                    "lightDirectionZ 0x28dc": 0.0,
+                    "lightIntensity 0x28ec": 0.0,
+                    "lightRotation 0x2930": {
+                        "0x294c": 0.0,
+                        "0x295c": 0.0,
+                        "0x296c": 0.0
+                    },
+                    "perspectiveDistance 0x290c": 300.0,
+                    "shadowRange 0x291c": 100.0,
+                    "shadowclipRatio 0x292c": 1.0
+                },
+                "G2RendererGlobals 0x2970": {
+                    "_ctl_a0_val 0x37bc": 0.0,
+                    "_ctl_a1_val 0x37cc": 0.16666699945926666,
+                    "_ctl_a2_val 0x37dc": 0.33333298563957214,
+                    "_ctl_a3_val 0x37ec": 0.5,
+                    "_ctl_a4_val 0x37fc": 0.6666669845581055,
+                    "_ctl_a5_val 0x380c": 0.8333330154418945,
+                    "_ctl_a6_val 0x381c": 1.0,
+                    "_ctl_b0_val 0x382c": 0.0,
+                    "_ctl_b1_val 0x383c": 0.16666699945926666,
+                    "_ctl_b2_val 0x384c": 0.33333298563957214,
+                    "_ctl_b3_val 0x385c": 0.5,
+                    "_ctl_b4_val 0x386c": 0.6666669845581055,
+                    "_ctl_b5_val 0x387c": 0.8333330154418945,
+                    "_ctl_b6_val 0x388c": 1.0,
+                    "_ctl_g0_val 0x389c": 0.0,
+                    "_ctl_g1_val 0x38ac": 0.16666699945926666,
+                    "_ctl_g2_val 0x38bc": 0.33333298563957214,
+                    "_ctl_g3_val 0x38cc": 0.5,
+                    "_ctl_g4_val 0x38dc": 0.6666669845581055,
+                    "_ctl_g5_val 0x38ec": 0.8333330154418945,
+                    "_ctl_g6_val 0x38fc": 1.0,
+                    "_ctl_r0_val 0x390c": 0.0,
+                    "_ctl_r1_val 0x391c": 0.16666699945926666,
+                    "_ctl_r2_val 0x392c": 0.33333298563957214,
+                    "_ctl_r3_val 0x393c": 0.5,
+                    "_ctl_r4_val 0x394c": 0.6666669845581055,
+                    "_ctl_r5_val 0x395c": 0.8333330154418945,
+                    "_ctl_r6_val 0x396c": 1.0,
+                    "backgroundBlend 0x397c": 0.0,
+                    "backgroundFar 0x398c": 800.0,
+                    "backgroundLod 0x399c": 5.0,
+                    "backgroundNear 0x39ac": 500.0,
+                    "bgSpecularFade 0x39bc": 20.0,
+                    "bgSpecularFar 0x39cc": 85.0,
+                    "bloom_compositeColorB 0x39dc": 1.0,
+                    "bloom_compositeColorG 0x39ec": 1.0,
+                    "bloom_compositeColorR 0x39fc": 1.0,
+                    "bloom_compositeIntensity 0x3a0c": 0.0,
+                    "bloom_feedback 0x3a1c": 0.20000000298023224,
+                    "bloom_filterLuminanceHi 0x3a2c": 0.0,
+                    "bloom_filterLuminanceLo 0x3a3c": 0.0,
+                    "chIblIntensity 0x3a4c": 0.0,
+                    "chPointInfluence 0x3a5c": 1.0,
+                    "chShadowColor 0x3a6c": 0.23000000417232513,
+                    "clearColorB 0x3a7c": 0.20000000298023224,
+                    "clearColorG 0x3a8c": 0.20000000298023224,
+                    "clearColorR 0x3a9c": 0.20000000298023224,
+                    "cloudAlpha 0x3aac": 0.0,
+                    "cloudDarkness 0x3abc": 1.0,
+                    "cloudHeight 0x3acc": 35.0,
+                    "cloudOffset 0x3adc": 25.0,
+                    "cloudRepeat 0x3aec": 1.0,
+                    "cloudShadow 0x3afc": 0.0,
+                    "cloudSize 0x3b0c": 100.0,
+                    "cloudSpeed 0x3b1c": 1.0,
+                    "contourBlend 0x3b2c": 0.0,
+                    "contourColorB 0x3b3c": 0.0,
+                    "contourColorG 0x3b4c": 0.0,
+                    "contourColorR 0x3b5c": 0.0,
+                    "contourFar 0x3b6c": 500.0,
+                    "contourFarBlend 0x3b7c": 0.0,
+                    "contourNear 0x3b8c": 100.0,
+                    "cumulusDensity0 0x3b9c": 0.0,
+                    "cumulusDensity1 0x3bac": 0.0,
+                    "cumulusDensity2 0x3bbc": 0.0,
+                    "cumulusSize0 0x3bcc": 512.0,
+                    "cumulusSize1 0x3bdc": 512.0,
+                    "cumulusSize2 0x3bec": 512.0,
+                    "cumulusThickness0 0x3bfc": 100.0,
+                    "cumulusThickness1 0x3c0c": 50.0,
+                    "cumulusThickness2 0x3c1c": 50.0,
+                    "cumulusVelocity0 0x3c2c": 0.0,
+                    "cumulusVelocity1 0x3c3c": 0.0,
+                    "cumulusVelocity2 0x3c4c": 0.0,
+                    "cumulusY0 0x3c5c": 0.0,
+                    "cumulusY1 0x3c6c": 0.0,
+                    "cumulusY2 0x3c7c": 0.0,
+                    "exposureAdaptionRange 0x3c8c": 0.0,
+                    "exposureAdaptionSpeed 0x3c9c": 1.0,
+                    "exposureIntensity 0x3cac": 0.0,
+                    "exposureKeyValue 0x3cbc": 0.10000000149011612,
+                    "fluctuatingDistortion 0x3ccc": 0.0,
+                    "fogAlpha 0x3cdc": 1.0,
+                    "fogColorB 0x3cec": 0.0,
+                    "fogColorG 0x3cfc": 0.0,
+                    "fogColorR 0x3d0c": 0.0,
+                    "fogDensity 0x3d1c": 0.0,
+                    "fogDirection 0x3d2c": 0.0,
+                    "fogFar 0x3d3c": 200.0,
+                    "fogFrequency 0x3d4c": 0.10000000149011612,
+                    "fogIntensity 0x3d5c": 0.0,
+                    "fogIntensityCloud 0x3d6c": 0.0,
+                    "fogLogDensity 0x3d7c": 0.0,
+                    "fogNoiseAttenuation 0x3d8c": 0.0,
+                    "fogNoiseScale 0x3d9c": 1.0,
+                    "fogScattering 0x3dac": 0.10000000149011612,
+                    "fogScatteringCloud 0x3dbc": 0.10000000149011612,
+                    "fogVelocity 0x3dcc": 1.0,
+                    "fogVelocityY 0x3ddc": 0.0,
+                    "gradationFar 0x3dec": 800.0,
+                    "gradationHiB 0x3dfc": 1.0,
+                    "gradationHiG 0x3e0c": 1.0,
+                    "gradationHiR 0x3e1c": 1.0,
+                    "gradationLwB 0x3e2c": 1.0,
+                    "gradationLwG 0x3e3c": 1.0,
+                    "gradationLwR 0x3e4c": 1.0,
+                    "gradationMdB 0x3e5c": 1.0,
+                    "gradationMdG 0x3e6c": 1.0,
+                    "gradationMdR 0x3e7c": 1.0,
+                    "gradationNear 0x3e8c": 500.0,
+                    "hatchingIntensity 0x3e9c": 1.0,
+                    "iblIntensity 0x3eac": 1.0,
+                    "puddleDensity 0x3ebc": 0.0,
+                    "puddleHeight 0x3ecc": 0.0,
+                    "regionBottom0 0x3edc": 0.0,
+                    "regionDarkness0 0x3eec": 1.0,
+                    "regionDensity0 0x3efc": 0.0,
+                    "regionDirectionX 0x3f0c": 0.0,
+                    "regionDirectionY 0x3f1c": 0.0,
+                    "regionDirectionZ 0x3f2c": -1.0,
+                    "regionDistHumidity0 0x3f3c": 0.5,
+                    "regionEdgePow0 0x3f4c": 0.4000000059604645,
+                    "regionEdgeRange0 0x3f5c": 0.4000000059604645,
+                    "regionHumidity0 0x3f6c": 0.0,
+                    "regionOffsetX0 0x3f7c": 0.5,
+                    "regionOffsetZ0 0x3f8c": 0.5,
+                    "regionTexIndex0 0x3f9c": 0.0,
+                    "regionThickness0 0x3fac": 300.0,
+                    "regionTop0 0x3fbc": 0.0,
+                    "regionVelocity 0x3fcc": 0.0,
+                    "regionY0 0x3fdc": 0.0,
+                    "saturation 0x3fec": 1.0,
+                    "scatterColorB 0x3ffc": 0.0,
+                    "scatterColorG 0x400c": 0.0,
+                    "scatterColorR 0x401c": 0.0,
+                    "shadowDarkness 0x402c": 0.0,
+                    "shadowInfluence 0x403c": 0.0,
+                    "ssaoBlur 0x404c": 0.0,
+                    "ssaoIntensity 0x405c": 0.0,
+                    "stratusBottom0 0x406c": 0.0,
+                    "stratusDarkness0 0x407c": 1.0,
+                    "stratusDensity0 0x408c": 0.0,
+                    "stratusDirectionX 0x409c": 0.0,
+                    "stratusDirectionY 0x40ac": 0.0,
+                    "stratusDirectionZ 0x40bc": -1.0,
+                    "stratusDistHumidity0 0x40cc": 0.0,
+                    "stratusEdgePow0 0x40dc": 0.4000000059604645,
+                    "stratusEdgeRange0 0x40ec": 0.4000000059604645,
+                    "stratusHumidity0 0x40fc": 0.5,
+                    "stratusOffsetX0 0x410c": 0.5,
+                    "stratusOffsetZ0 0x411c": 0.5,
+                    "stratusTexIndex0 0x412c": 0.0,
+                    "stratusThickness0 0x413c": 300.0,
+                    "stratusTop0 0x414c": 0.0,
+                    "stratusVelocity 0x415c": 0.0,
+                    "stratusY0 0x416c": 0.0,
+                    "sunColorB 0x417c": 1.0,
+                    "sunColorG 0x418c": 1.0,
+                    "sunColorR 0x419c": 1.0,
+                    "sunIntensity 0x41ac": 0.0,
+                    "sunOuter 0x41bc": 4.0,
+                    "sunSize 0x41cc": 0.0,
+                    "toning 0x41dc": 0.0
+                }
+            },
+            "type 0x239c": "sceneparam",
+            "uuid 0x23ac": "{4cd9fda2-6b70-48e2-baa9-f40daf99cde8}"
+        },
+        "0x41e0": {
+            "clips 0x42b0": {
+                "0x42d0": {
+                    "endFrame 0x431c": 329.0,
+                    "startFrame 0x432c": 225.0
+                }
+            },
+            "name 0x427c": "c04",
+            "sceneparam 0x4330": {
+                "G2CameraLight 0x43b0": {
+                    "attenuationFactor 0x448c": 2.0,
+                    "directivity 0x449c": 1.0,
+                    "innerRadius 0x44ac": 0.0,
+                    "lightColorB 0x44bc": 1.0,
+                    "lightColorG 0x44cc": 1.0,
+                    "lightColorR 0x44dc": 1.0,
+                    "lightIntensity 0x44ec": 0.0,
+                    "outerRadius 0x44fc": 0.0
+                },
+                "G2DirectionalLight 0x4500": {
+                    "cascade0Distance 0x46ec": 4.0,
+                    "cascade1Distance 0x46fc": 16.0,
+                    "fastShadowCullingDist 0x470c": 130.0,
+                    "foregroundBackColorB 0x471c": 1.0,
+                    "foregroundBackColorG 0x472c": 1.0,
+                    "foregroundBackColorR 0x473c": 1.0,
+                    "foregroundBasis 0x474c": 1.0,
+                    "foregroundBorder 0x475c": 0.0,
+                    "foregroundInfluence 0x476c": 0.0,
+                    "foregroundShadowDensity 0x477c": 0.8999999761581421,
+                    "lightColorB 0x478c": 1.0,
+                    "lightColorG 0x479c": 1.0,
+                    "lightColorR 0x47ac": 1.0,
+                    "lightDirectionX 0x47bc": 0.0,
+                    "lightDirectionY 0x47cc": -1.0,
+                    "lightDirectionZ 0x47dc": 0.0,
+                    "lightIntensity 0x47ec": 0.0,
+                    "lightRotation 0x4830": {
+                        "0x484c": 0.0,
+                        "0x485c": 0.0,
+                        "0x486c": 0.0
+                    },
+                    "perspectiveDistance 0x480c": 300.0,
+                    "shadowRange 0x481c": 100.0,
+                    "shadowclipRatio 0x482c": 1.0
+                },
+                "G2RendererGlobals 0x4870": {
+                    "_ctl_a0_val 0x56bc": 0.0,
+                    "_ctl_a1_val 0x56cc": 0.16666699945926666,
+                    "_ctl_a2_val 0x56dc": 0.33333298563957214,
+                    "_ctl_a3_val 0x56ec": 0.5,
+                    "_ctl_a4_val 0x56fc": 0.6666669845581055,
+                    "_ctl_a5_val 0x570c": 0.8333330154418945,
+                    "_ctl_a6_val 0x571c": 1.0,
+                    "_ctl_b0_val 0x572c": 0.0,
+                    "_ctl_b1_val 0x573c": 0.16666699945926666,
+                    "_ctl_b2_val 0x574c": 0.33333298563957214,
+                    "_ctl_b3_val 0x575c": 0.5,
+                    "_ctl_b4_val 0x576c": 0.6666669845581055,
+                    "_ctl_b5_val 0x577c": 0.8333330154418945,
+                    "_ctl_b6_val 0x578c": 1.0,
+                    "_ctl_g0_val 0x579c": 0.0,
+                    "_ctl_g1_val 0x57ac": 0.16666699945926666,
+                    "_ctl_g2_val 0x57bc": 0.33333298563957214,
+                    "_ctl_g3_val 0x57cc": 0.5,
+                    "_ctl_g4_val 0x57dc": 0.6666669845581055,
+                    "_ctl_g5_val 0x57ec": 0.8333330154418945,
+                    "_ctl_g6_val 0x57fc": 1.0,
+                    "_ctl_r0_val 0x580c": 0.0,
+                    "_ctl_r1_val 0x581c": 0.16666699945926666,
+                    "_ctl_r2_val 0x582c": 0.33333298563957214,
+                    "_ctl_r3_val 0x583c": 0.5,
+                    "_ctl_r4_val 0x584c": 0.6666669845581055,
+                    "_ctl_r5_val 0x585c": 0.8333330154418945,
+                    "_ctl_r6_val 0x586c": 1.0,
+                    "backgroundBlend 0x587c": 0.0,
+                    "backgroundFar 0x588c": 800.0,
+                    "backgroundLod 0x589c": 5.0,
+                    "backgroundNear 0x58ac": 500.0,
+                    "bgSpecularFade 0x58bc": 20.0,
+                    "bgSpecularFar 0x58cc": 85.0,
+                    "bloom_compositeColorB 0x58dc": 1.0,
+                    "bloom_compositeColorG 0x58ec": 1.0,
+                    "bloom_compositeColorR 0x58fc": 1.0,
+                    "bloom_compositeIntensity 0x590c": 0.0,
+                    "bloom_feedback 0x591c": 0.20000000298023224,
+                    "bloom_filterLuminanceHi 0x592c": 0.0,
+                    "bloom_filterLuminanceLo 0x593c": 0.0,
+                    "chIblIntensity 0x594c": 0.0,
+                    "chPointInfluence 0x595c": 1.0,
+                    "chShadowColor 0x596c": 0.23000000417232513,
+                    "clearColorB 0x597c": 0.20000000298023224,
+                    "clearColorG 0x598c": 0.20000000298023224,
+                    "clearColorR 0x599c": 0.20000000298023224,
+                    "cloudAlpha 0x59ac": 0.0,
+                    "cloudDarkness 0x59bc": 1.0,
+                    "cloudHeight 0x59cc": 35.0,
+                    "cloudOffset 0x59dc": 25.0,
+                    "cloudRepeat 0x59ec": 1.0,
+                    "cloudShadow 0x59fc": 0.0,
+                    "cloudSize 0x5a0c": 100.0,
+                    "cloudSpeed 0x5a1c": 1.0,
+                    "contourBlend 0x5a2c": 0.0,
+                    "contourColorB 0x5a3c": 0.0,
+                    "contourColorG 0x5a4c": 0.0,
+                    "contourColorR 0x5a5c": 0.0,
+                    "contourFar 0x5a6c": 500.0,
+                    "contourFarBlend 0x5a7c": 0.0,
+                    "contourNear 0x5a8c": 100.0,
+                    "cumulusDensity0 0x5a9c": 0.0,
+                    "cumulusDensity1 0x5aac": 0.0,
+                    "cumulusDensity2 0x5abc": 0.0,
+                    "cumulusSize0 0x5acc": 512.0,
+                    "cumulusSize1 0x5adc": 512.0,
+                    "cumulusSize2 0x5aec": 512.0,
+                    "cumulusThickness0 0x5afc": 50.0,
+                    "cumulusThickness1 0x5b0c": 50.0,
+                    "cumulusThickness2 0x5b1c": 50.0,
+                    "cumulusVelocity0 0x5b2c": 0.0,
+                    "cumulusVelocity1 0x5b3c": 0.0,
+                    "cumulusVelocity2 0x5b4c": 0.0,
+                    "cumulusY0 0x5b5c": 0.0,
+                    "cumulusY1 0x5b6c": 0.0,
+                    "cumulusY2 0x5b7c": 0.0,
+                    "exposureAdaptionRange 0x5b8c": 0.0,
+                    "exposureAdaptionSpeed 0x5b9c": 1.0,
+                    "exposureIntensity 0x5bac": 0.0,
+                    "exposureKeyValue 0x5bbc": 0.10000000149011612,
+                    "fluctuatingDistortion 0x5bcc": 0.0,
+                    "fogAlpha 0x5bdc": 1.0,
+                    "fogColorB 0x5bec": 0.0,
+                    "fogColorG 0x5bfc": 0.0,
+                    "fogColorR 0x5c0c": 0.0,
+                    "fogDensity 0x5c1c": 0.0,
+                    "fogDirection 0x5c2c": 0.0,
+                    "fogFar 0x5c3c": 200.0,
+                    "fogFrequency 0x5c4c": 0.10000000149011612,
+                    "fogIntensity 0x5c5c": 0.0,
+                    "fogIntensityCloud 0x5c6c": 0.0,
+                    "fogLogDensity 0x5c7c": 0.0,
+                    "fogNoiseAttenuation 0x5c8c": 0.0,
+                    "fogNoiseScale 0x5c9c": 1.0,
+                    "fogScattering 0x5cac": 0.10000000149011612,
+                    "fogScatteringCloud 0x5cbc": 0.10000000149011612,
+                    "fogVelocity 0x5ccc": 1.0,
+                    "fogVelocityY 0x5cdc": 0.0,
+                    "gradationFar 0x5cec": 800.0,
+                    "gradationHiB 0x5cfc": 1.0,
+                    "gradationHiG 0x5d0c": 1.0,
+                    "gradationHiR 0x5d1c": 1.0,
+                    "gradationLwB 0x5d2c": 1.0,
+                    "gradationLwG 0x5d3c": 1.0,
+                    "gradationLwR 0x5d4c": 1.0,
+                    "gradationMdB 0x5d5c": 1.0,
+                    "gradationMdG 0x5d6c": 1.0,
+                    "gradationMdR 0x5d7c": 1.0,
+                    "gradationNear 0x5d8c": 500.0,
+                    "hatchingIntensity 0x5d9c": 1.0,
+                    "iblIntensity 0x5dac": 1.0,
+                    "puddleDensity 0x5dbc": 0.0,
+                    "puddleHeight 0x5dcc": 0.0,
+                    "regionBottom0 0x5ddc": 0.0,
+                    "regionDarkness0 0x5dec": 1.0,
+                    "regionDensity0 0x5dfc": 0.0,
+                    "regionDirectionX 0x5e0c": 0.0,
+                    "regionDirectionY 0x5e1c": 0.0,
+                    "regionDirectionZ 0x5e2c": -1.0,
+                    "regionDistHumidity0 0x5e3c": 0.5,
+                    "regionEdgePow0 0x5e4c": 0.4000000059604645,
+                    "regionEdgeRange0 0x5e5c": 0.4000000059604645,
+                    "regionHumidity0 0x5e6c": 0.0,
+                    "regionOffsetX0 0x5e7c": 0.5,
+                    "regionOffsetZ0 0x5e8c": 0.5,
+                    "regionTexIndex0 0x5e9c": 0.0,
+                    "regionThickness0 0x5eac": 300.0,
+                    "regionTop0 0x5ebc": 0.0,
+                    "regionVelocity 0x5ecc": 0.0,
+                    "regionY0 0x5edc": 0.0,
+                    "saturation 0x5eec": 1.0,
+                    "scatterColorB 0x5efc": 0.0,
+                    "scatterColorG 0x5f0c": 0.0,
+                    "scatterColorR 0x5f1c": 0.0,
+                    "shadowDarkness 0x5f2c": 0.0,
+                    "shadowInfluence 0x5f3c": 0.0,
+                    "ssaoBlur 0x5f4c": 0.0,
+                    "ssaoIntensity 0x5f5c": 0.0,
+                    "stratusBottom0 0x5f6c": 0.0,
+                    "stratusDarkness0 0x5f7c": 1.0,
+                    "stratusDensity0 0x5f8c": 0.0,
+                    "stratusDirectionX 0x5f9c": 0.0,
+                    "stratusDirectionY 0x5fac": 0.0,
+                    "stratusDirectionZ 0x5fbc": -1.0,
+                    "stratusDistHumidity0 0x5fcc": 0.0,
+                    "stratusEdgePow0 0x5fdc": 0.4000000059604645,
+                    "stratusEdgeRange0 0x5fec": 0.4000000059604645,
+                    "stratusHumidity0 0x5ffc": 0.5,
+                    "stratusOffsetX0 0x600c": 0.5,
+                    "stratusOffsetZ0 0x601c": 0.5,
+                    "stratusTexIndex0 0x602c": 0.0,
+                    "stratusThickness0 0x603c": 300.0,
+                    "stratusTop0 0x604c": 0.0,
+                    "stratusVelocity 0x605c": 0.0,
+                    "stratusY0 0x606c": 0.0,
+                    "sunColorB 0x607c": 1.0,
+                    "sunColorG 0x608c": 1.0,
+                    "sunColorR 0x609c": 1.0,
+                    "sunIntensity 0x60ac": 0.0,
+                    "sunOuter 0x60bc": 4.0,
+                    "sunSize 0x60cc": 0.0,
+                    "toning 0x60dc": 0.0
+                }
+            },
+            "type 0x429c": "sceneparam",
+            "uuid 0x42ac": "{7258e326-6d64-4b48-a3aa-c5fa3e2f8014}"
+        },
+        "0x60e0": {
+            "clips 0x61d0": {
+                "0x61f0": {
+                    "endFrame 0x623c": 329.0,
+                    "startFrame 0x624c": 225.0
+                }
+            },
+            "name 0x618c": "c04_01",
+            "pointlight 0x6250": {
+                "/root/G2PointLight1/G2PointLightShape1 0x6290": {
+                    "attenuationFactor 0x632c": 2.4730000495910645,
+                    "lightColorB 0x633c": 0.4274509847164154,
+                    "lightColorG 0x634c": 0.18431372940540314,
+                    "lightColorR 0x635c": 1.0,
+                    "lightIntensity 0x636c": 9.892000198364258,
+                    "outerRadius 0x637c": 15.100000381469727
+                }
+            },
+            "transform 0x6380": {
+                "translation 0x63c0": {
+                    "0x63dc": 4.081581115722656,
+                    "0x63ec": 42.38194274902344,
+                    "0x63fc": -5.163696765899658
+                }
+            },
+            "type 0x61bc": "pointlight",
+            "uuid 0x61cc": "{ab6b2419-162a-4080-bb27-bdf2af639029}"
+        },
+        "0x6400": {
+            "clips 0x64f0": {
+                "0x6510": {
+                    "endFrame 0x655c": 329.0,
+                    "startFrame 0x656c": 225.0
+                }
+            },
+            "name 0x64ac": "c04_02",
+            "pointlight 0x6570": {
+                "/root/G2PointLight1/G2PointLightShape1 0x65b0": {
+                    "attenuationFactor 0x664c": 0.5730000138282776,
+                    "lightColorB 0x665c": 0.4274509847164154,
+                    "lightColorG 0x666c": 0.18431372940540314,
+                    "lightColorR 0x667c": 1.0,
+                    "lightIntensity 0x668c": 2.4010000228881836,
+                    "outerRadius 0x669c": 15.100000381469727
+                }
+            },
+            "transform 0x66a0": {
+                "translation 0x66e0": {
+                    "0x66fc": -0.992497980594635,
+                    "0x670c": 51.84743881225586,
+                    "0x671c": 0.45378801226615906
+                }
+            },
+            "type 0x64dc": "pointlight",
+            "uuid 0x64ec": "{9c6757b9-95e6-4e92-8363-82406e4b7eca}"
+        },
+        "0x6720": {
+            "clips 0x67f0": {
+                "0x6810": {
+                    "endFrame 0x685c": 419.0,
+                    "startFrame 0x686c": 330.0
+                }
+            },
+            "name 0x67bc": "c05",
+            "sceneparam 0x6870": {
+                "G2DirectionalLight 0x68d0": {
+                    "lightColorB 0x69ac": 0.38431400060653687,
+                    "lightColorG 0x69bc": 0.33725500106811523,
+                    "lightColorR 0x69cc": 0.6313729882240295,
+                    "lightDirectionX 0x69dc": 0.3542349934577942,
+                    "lightDirectionY 0x69ec": -0.49067598581314087,
+                    "lightDirectionZ 0x69fc": -0.7960870265960693,
+                    "lightIntensity 0x6a0c": 5.1620001792907715,
+                    "lightRotation 0x6a20": {
+                        "0x6a3c": 0.0,
+                        "0x6a4c": 0.0,
+                        "0x6a5c": 0.0
+                    }
+                },
+                "G2RendererGlobals 0x6a60": {
+                    "fogDensity 0x6afc": 0.15610000491142273,
+                    "iblIntensity 0x6b0c": 0.9962000250816345,
+                    "scatterColorB 0x6b1c": 0.8784313797950745,
+                    "scatterColorG 0x6b2c": 0.7176470756530762,
+                    "scatterColorR 0x6b3c": 1.0,
+                    "ssaoIntensity 0x6b4c": 0.1607999950647354
+                }
+            },
+            "type 0x67dc": "sceneparam",
+            "uuid 0x67ec": "{4f992f80-3ed2-435c-a090-f5913f901d66}"
+        },
+        "0x6b50": {
+            "clips 0x6c40": {
+                "0x6c60": {
+                    "endFrame 0x6cac": 419.0,
+                    "startFrame 0x6cbc": 330.0
+                }
+            },
+            "name 0x6bfc": "c05_01",
+            "pointlight 0x6cc0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x6d00": {
+                    "attenuationFactor 0x6d9c": 0.5730000138282776,
+                    "lightColorB 0x6dac": 0.4274509847164154,
+                    "lightColorG 0x6dbc": 0.18431372940540314,
+                    "lightColorR 0x6dcc": 1.0,
+                    "lightIntensity 0x6ddc": 2.687999963760376,
+                    "outerRadius 0x6dec": 15.100000381469727
+                }
+            },
+            "transform 0x6df0": {
+                "translation 0x6e30": {
+                    "0x6e4c": 0.03436899930238724,
+                    "0x6e5c": 292.8238525390625,
+                    "0x6e6c": 77.21324157714844
+                }
+            },
+            "type 0x6c2c": "pointlight",
+            "uuid 0x6c3c": "{1845cfdc-e474-4c0d-9667-96948dffe53a}"
+        },
+        "0x6e70": {
+            "clips 0x6f60": {
+                "0x6f80": {
+                    "endFrame 0x6fcc": 419.0,
+                    "startFrame 0x6fdc": 330.0
+                }
+            },
+            "name 0x6f1c": "c05_02",
+            "pointlight 0x6fe0": {
+                "/root/G2PointLight1/G2PointLightShape1 0x7020": {
+                    "attenuationFactor 0x70bc": 0.5730000138282776,
+                    "lightColorB 0x70cc": 0.4274509847164154,
+                    "lightColorG 0x70dc": 0.18431372940540314,
+                    "lightColorR 0x70ec": 1.0,
+                    "lightIntensity 0x70fc": 2.3299999237060547,
+                    "outerRadius 0x710c": 15.100000381469727
+                }
+            },
+            "transform 0x7110": {
+                "translation 0x7150": {
+                    "0x716c": 3.2765960693359375,
+                    "0x717c": 294.8404846191406,
+                    "0x718c": 78.9260482788086
+                }
+            },
+            "type 0x6f4c": "pointlight",
+            "uuid 0x6f5c": "{821b3cbf-c434-4d22-91d9-a0618bc87cca}"
+        },
+        "0x7190": {
+            "clips 0x7280": {
+                "0x72a0": {
+                    "endFrame 0x72ec": 419.0,
+                    "startFrame 0x72fc": 330.0
+                }
+            },
+            "name 0x723c": "c05_03",
+            "pointlight 0x7300": {
+                "/root/G2PointLight1/G2PointLightShape1 0x7340": {
+                    "attenuationFactor 0x73dc": 0.5730000138282776,
+                    "lightColorB 0x73ec": 0.4274509847164154,
+                    "lightColorG 0x73fc": 0.18431372940540314,
+                    "lightColorR 0x740c": 1.0,
+                    "lightIntensity 0x741c": 2.257999897003174,
+                    "outerRadius 0x742c": 10.0
+                }
+            },
+            "transform 0x7430": {
+                "translation 0x7470": {
+                    "0x748c": 0.7244210243225098,
+                    "0x749c": 289.9496765136719,
+                    "0x74ac": 80.442138671875
+                }
+            },
+            "type 0x726c": "pointlight",
+            "uuid 0x727c": "{7b4598e6-fa7f-4682-8f76-ee6544e9b839}"
+        },
+        "0x74b0": {
+            "clips 0x7580": {
+                "0x75a0": {
+                    "endFrame 0x75ec": 519.0,
+                    "startFrame 0x75fc": 420.0
+                }
+            },
+            "name 0x754c": "c06",
+            "sceneparam 0x7600": {
+                "G2DirectionalLight 0x7660": {
+                    "lightColorB 0x773c": 0.38431400060653687,
+                    "lightColorG 0x774c": 0.33725500106811523,
+                    "lightColorR 0x775c": 0.6313729882240295,
+                    "lightDirectionX 0x776c": -0.7962902784347534,
+                    "lightDirectionY 0x777c": -0.28690192103385925,
+                    "lightDirectionZ 0x778c": -0.5325496196746826,
+                    "lightIntensity 0x779c": 8.932000160217285,
+                    "lightRotation 0x77b0": {
+                        "0x77cc": 0.0,
+                        "0x77dc": 0.0,
+                        "0x77ec": 0.0
+                    }
+                },
+                "G2RendererGlobals 0x77f0": {
+                    "fogDensity 0x788c": 0.15610000491142273,
+                    "iblIntensity 0x789c": 0.9962000250816345,
+                    "scatterColorB 0x78ac": 0.8784310221672058,
+                    "scatterColorG 0x78bc": 0.7176470160484314,
+                    "scatterColorR 0x78cc": 1.0,
+                    "ssaoIntensity 0x78dc": 0.1607999950647354
+                }
+            },
+            "type 0x756c": "sceneparam",
+            "uuid 0x757c": "{8346a6fd-c460-4156-9b77-2fab9c8df459}"
+        },
+        "0x78e0": {
+            "clips 0x79d0": {
+                "0x79f0": {
+                    "endFrame 0x7a3c": 519.0,
+                    "startFrame 0x7a4c": 420.0
+                }
+            },
+            "name 0x798c": "c06_01",
+            "pointlight 0x7a50": {
+                "/root/G2PointLight1/G2PointLightShape1 0x7a90": {
+                    "attenuationFactor 0x7b2c": 0.5730000138282776,
+                    "lightColorB 0x7b3c": 0.4274509847164154,
+                    "lightColorG 0x7b4c": 0.18431372940540314,
+                    "lightColorR 0x7b5c": 1.0,
+                    "lightIntensity 0x7b6c": 7.025000095367432,
+                    "outerRadius 0x7b7c": 15.100000381469727
+                }
+            },
+            "transform 0x7b80": {
+                "translation 0x7bc0": {
+                    "0x7bdc": -171.84278869628906,
+                    "0x7bec": 251.18800354003906,
+                    "0x7bfc": 1.7164249420166016
+                }
+            },
+            "type 0x79bc": "pointlight",
+            "uuid 0x79cc": "{e7011dd1-4674-40e6-8981-90e355d6a0ef}"
+        },
+        "0x7c00": {
+            "clips 0x7cf0": {
+                "0x7d10": {
+                    "endFrame 0x7d5c": 519.0,
+                    "startFrame 0x7d6c": 420.0
+                }
+            },
+            "name 0x7cac": "c06_02",
+            "pointlight 0x7d70": {
+                "/root/G2PointLight1/G2PointLightShape1 0x7db0": {
+                    "attenuationFactor 0x7e4c": 0.5730000138282776,
+                    "lightColorB 0x7e5c": 0.4274509847164154,
+                    "lightColorG 0x7e6c": 0.18431372940540314,
+                    "lightColorR 0x7e7c": 1.0,
+                    "lightIntensity 0x7e8c": 6.486999988555908,
+                    "outerRadius 0x7e9c": 15.100000381469727
+                }
+            },
+            "transform 0x7ea0": {
+                "translation 0x7ee0": {
+                    "0x7efc": -176.13397216796875,
+                    "0x7f0c": 258.232421875,
+                    "0x7f1c": -4.739078998565674
+                }
+            },
+            "type 0x7cdc": "pointlight",
+            "uuid 0x7cec": "{d64b8543-228a-42ac-aff9-46dd6e9a8c54}"
+        },
+        "0x7f20": {
+            "clips 0x7ff0": {
+                "0x8010": {
+                    "endFrame 0x805c": 684.0,
+                    "startFrame 0x806c": 520.0
+                }
+            },
+            "name 0x7fbc": "c07",
+            "sceneparam 0x8070": {
+                "G2DirectionalLight 0x80d0": {
+                    "cascade0Distance 0x81fc": 1.587211012840271,
+                    "cascade1Distance 0x820c": 12.907547950744629,
+                    "fastShadowCullingDist 0x821c": 130.0,
+                    "lightColorB 0x822c": 0.3840000033378601,
+                    "lightColorG 0x823c": 0.3370000123977661,
+                    "lightColorR 0x824c": 0.6309999823570251,
+                    "lightDirectionX 0x825c": 0.8193521499633789,
+                    "lightDirectionY 0x826c": -0.49067601561546326,
+                    "lightDirectionZ 0x827c": -0.2964777946472168,
+                    "lightIntensity 0x828c": 13.053999900817871,
+                    "perspectiveDistance 0x829c": 71.66480255126953,
+                    "shadowRange 0x82ac": 10.0,
+                    "shadowclipRatio 0x82bc": 1.0
+                },
+                "G2RendererGlobals 0x82c0": {
+                    "ssaoIntensity 0x82fc": 0.1607999950647354
+                }
+            },
+            "type 0x7fdc": "sceneparam",
+            "uuid 0x7fec": "{4e909068-fae6-4034-a941-06285fa17d24}"
+        },
+        "0x8300": {
+            "clips 0x83f0": {
+                "0x8410": {
+                    "endFrame 0x845c": 684.0,
+                    "startFrame 0x846c": 520.0
+                }
+            },
+            "name 0x83ac": "c07_01",
+            "pointlight 0x8470": {
+                "/root/G2PointLight1/G2PointLightShape1 0x84b0": {
+                    "attenuationFactor 0x854c": 0.5730000138282776,
+                    "lightColorB 0x855c": 0.4274509847164154,
+                    "lightColorG 0x856c": 0.18431372940540314,
+                    "lightColorR 0x857c": 1.0,
+                    "lightIntensity 0x858c": 2.0789999961853027,
+                    "outerRadius 0x859c": 20.0
+                }
+            },
+            "transform 0x85a0": {
+                "translation 0x85e0": {
+                    "0x85fc": -0.5049089789390564,
+                    "0x860c": 303.8390197753906,
+                    "0x861c": 78.66616821289062
+                }
+            },
+            "type 0x83dc": "pointlight",
+            "uuid 0x83ec": "{2b4a8cb8-cc0b-47ed-b1ed-a3be5ba7bf01}"
+        }
+    },
+    "ignoreOwnSceneParam 0xdc": false
+}

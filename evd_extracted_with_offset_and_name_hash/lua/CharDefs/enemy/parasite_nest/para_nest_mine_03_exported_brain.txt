@@ -1,0 +1,203 @@
+{
+    "easy 1b7a5305 0x9a0": {
+        "brain f3912883 0xa70": {
+            "ai_type a8e9a23c 0xafc": "parasite_nest",
+            "animjoint 9c2354a2 0xb0c": "parasite_nest",
+            "race 98c2bb8e 0xb1c": "nevi",
+            "type 4df12751 0xaec": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0x1230": {
+            "find 5a85f0bd 0x127c": 70.0,
+            "lose 785834d1 0x128c": 75.0
+        },
+        "enemy_actions 877ce571 0x1080": {
+            "parasite_spawn 2054ae7f 0x11f0": {
+                "interval 7885ddce 0x122c": 8.0
+            },
+            "spawn 984d223a 0x10e0": {
+                "damage_cumulation e2d9c67e 0x11dc": 100.0,
+                "damage_type c5871e0c 0x11cc": "normal",
+                "force 8488a979 0x11bc": 1.0,
+                "power 46234ff5 0x118c": 0.0,
+                "range d20cdcfa 0x11ec": 1.0,
+                "rate_of_bg 359b8dca 0x11ac": 0.0,
+                "rate_of_power 037c9b8a 0x119c": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0xb20": {
+            "ash_effect f1d8dab1 0xc1c": "ef_nev_death",
+            "ash_se 649d8f77 0xc2c": "ene_disappear",
+            "ash_vanish_start_time f80fd386 0xc3c": 5.0,
+            "battle_field_prio 5324db77 0xc6c": 1.0,
+            "battle_field_range 7e1a8055 0xc5c": 12.0,
+            "health 8fed986b 0xc4c": 100.0,
+            "spawn_effect d4cb9f81 0xbfc": "ef_nev_spw_04",
+            "spawn_se 25611442 0xc0c": "ene_come"
+        },
+        "enemy_parts 7e7c4e31 0xc70": {
+            "loc_nvprs01nest01_col1 d9299cbc 0xd20": {
+                "angle 184454ad 0xddc": 360.0,
+                "body_damage ebb248f9 0xdcc": 0.0,
+                "enable_meshcoll 88534f79 0xdac": true,
+                "health 8fed986b 0xdbc": 1000000.0,
+                "homing_angle e1eaa8a7 0xdec": 360.0
+            },
+            "loc_nvprs01nest01_col2 20259cb9 0xdf0": {
+                "angle 184454ad 0xecc": 360.0,
+                "body_damage ebb248f9 0xe9c": 100.0,
+                "core 7e605edd 0xebc": true,
+                "health 8fed986b 0xe8c": 400.0,
+                "homing_angle e1eaa8a7 0xedc": 360.0,
+                "lockon 3b8d25f8 0xeac": true
+            },
+            "loc_nvprs01nest01_trunk 7e135027 0xee0": {
+                "angle 184454ad 0xf9c": 360.0,
+                "body_damage ebb248f9 0xf8c": 0.0,
+                "enable_meshcoll 88534f79 0xf6c": true,
+                "health 8fed986b 0xf7c": 400.0,
+                "homing_angle e1eaa8a7 0xfac": 360.0
+            },
+            "loc_nvprs01nest01_trunk_col1 a61de27a 0xfb0": {
+                "angle 184454ad 0x106c": 360.0,
+                "body_damage ebb248f9 0x105c": 0.0,
+                "enable_meshcoll 88534f79 0x103c": true,
+                "health 8fed986b 0x104c": 400.0,
+                "homing_angle e1eaa8a7 0x107c": 360.0
+            }
+        }
+    },
+    "hard dc5bc3e4 0x1290": {
+        "brain f3912883 0x1360": {
+            "ai_type a8e9a23c 0x13ec": "parasite_nest",
+            "animjoint 9c2354a2 0x13fc": "parasite_nest",
+            "race 98c2bb8e 0x140c": "nevi",
+            "type 4df12751 0x13dc": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0x1b20": {
+            "find 5a85f0bd 0x1b6c": 70.0,
+            "lose 785834d1 0x1b7c": 75.0
+        },
+        "enemy_actions 877ce571 0x1970": {
+            "parasite_spawn 2054ae7f 0x1ae0": {
+                "interval 7885ddce 0x1b1c": 8.0
+            },
+            "spawn 984d223a 0x19d0": {
+                "damage_cumulation e2d9c67e 0x1acc": 100.0,
+                "damage_type c5871e0c 0x1abc": "normal",
+                "force 8488a979 0x1aac": 1.0,
+                "power 46234ff5 0x1a7c": 0.0,
+                "range d20cdcfa 0x1adc": 1.0,
+                "rate_of_bg 359b8dca 0x1a9c": 0.0,
+                "rate_of_power 037c9b8a 0x1a8c": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x1410": {
+            "ash_effect f1d8dab1 0x150c": "ef_nev_death",
+            "ash_se 649d8f77 0x151c": "ene_disappear",
+            "ash_vanish_start_time f80fd386 0x152c": 5.0,
+            "battle_field_prio 5324db77 0x155c": 1.0,
+            "battle_field_range 7e1a8055 0x154c": 12.0,
+            "health 8fed986b 0x153c": 100.0,
+            "spawn_effect d4cb9f81 0x14ec": "ef_nev_spw_04",
+            "spawn_se 25611442 0x14fc": "ene_come"
+        },
+        "enemy_parts 7e7c4e31 0x1560": {
+            "loc_nvprs01nest01_col1 d9299cbc 0x1610": {
+                "angle 184454ad 0x16cc": 360.0,
+                "body_damage ebb248f9 0x16bc": 0.0,
+                "enable_meshcoll 88534f79 0x169c": true,
+                "health 8fed986b 0x16ac": 1000000.0,
+                "homing_angle e1eaa8a7 0x16dc": 360.0
+            },
+            "loc_nvprs01nest01_col2 20259cb9 0x16e0": {
+                "angle 184454ad 0x17bc": 360.0,
+                "body_damage ebb248f9 0x178c": 100.0,
+                "core 7e605edd 0x17ac": true,
+                "health 8fed986b 0x177c": 400.0,
+                "homing_angle e1eaa8a7 0x17cc": 360.0,
+                "lockon 3b8d25f8 0x179c": true
+            },
+            "loc_nvprs01nest01_trunk 7e135027 0x17d0": {
+                "angle 184454ad 0x188c": 360.0,
+                "body_damage ebb248f9 0x187c": 0.0,
+                "enable_meshcoll 88534f79 0x185c": true,
+                "health 8fed986b 0x186c": 400.0,
+                "homing_angle e1eaa8a7 0x189c": 360.0
+            },
+            "loc_nvprs01nest01_trunk_col1 a61de27a 0x18a0": {
+                "angle 184454ad 0x195c": 360.0,
+                "body_damage ebb248f9 0x194c": 0.0,
+                "enable_meshcoll 88534f79 0x192c": true,
+                "health 8fed986b 0x193c": 400.0,
+                "homing_angle e1eaa8a7 0x196c": 360.0
+            }
+        }
+    },
+    "normal 529c8be6 0xb0": {
+        "brain f3912883 0x180": {
+            "ai_type a8e9a23c 0x20c": "parasite_nest",
+            "animjoint 9c2354a2 0x21c": "parasite_nest",
+            "race 98c2bb8e 0x22c": "nevi",
+            "type 4df12751 0x1fc": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0x940": {
+            "find 5a85f0bd 0x98c": 70.0,
+            "lose 785834d1 0x99c": 75.0
+        },
+        "enemy_actions 877ce571 0x790": {
+            "parasite_spawn 2054ae7f 0x900": {
+                "interval 7885ddce 0x93c": 8.0
+            },
+            "spawn 984d223a 0x7f0": {
+                "damage_cumulation e2d9c67e 0x8ec": 100.0,
+                "damage_type c5871e0c 0x8dc": "normal",
+                "force 8488a979 0x8cc": 1.0,
+                "power 46234ff5 0x89c": 0.0,
+                "range d20cdcfa 0x8fc": 1.0,
+                "rate_of_bg 359b8dca 0x8bc": 0.0,
+                "rate_of_power 037c9b8a 0x8ac": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x230": {
+            "ash_effect f1d8dab1 0x32c": "ef_nev_death",
+            "ash_se 649d8f77 0x33c": "ene_disappear",
+            "ash_vanish_start_time f80fd386 0x34c": 5.0,
+            "battle_field_prio 5324db77 0x37c": 1.0,
+            "battle_field_range 7e1a8055 0x36c": 12.0,
+            "health 8fed986b 0x35c": 100.0,
+            "spawn_effect d4cb9f81 0x30c": "ef_nev_spw_04",
+            "spawn_se 25611442 0x31c": "ene_come"
+        },
+        "enemy_parts 7e7c4e31 0x380": {
+            "loc_nvprs01nest01_col1 d9299cbc 0x430": {
+                "angle 184454ad 0x4ec": 360.0,
+                "body_damage ebb248f9 0x4dc": 0.0,
+                "enable_meshcoll 88534f79 0x4bc": true,
+                "health 8fed986b 0x4cc": 1000000.0,
+                "homing_angle e1eaa8a7 0x4fc": 360.0
+            },
+            "loc_nvprs01nest01_col2 20259cb9 0x500": {
+                "angle 184454ad 0x5dc": 360.0,
+                "body_damage ebb248f9 0x5ac": 100.0,
+                "core 7e605edd 0x5cc": true,
+                "health 8fed986b 0x59c": 400.0,
+                "homing_angle e1eaa8a7 0x5ec": 360.0,
+                "lockon 3b8d25f8 0x5bc": true
+            },
+            "loc_nvprs01nest01_trunk 7e135027 0x5f0": {
+                "angle 184454ad 0x6ac": 360.0,
+                "body_damage ebb248f9 0x69c": 0.0,
+                "enable_meshcoll 88534f79 0x67c": true,
+                "health 8fed986b 0x68c": 400.0,
+                "homing_angle e1eaa8a7 0x6bc": 360.0
+            },
+            "loc_nvprs01nest01_trunk_col1 a61de27a 0x6c0": {
+                "angle 184454ad 0x77c": 360.0,
+                "body_damage ebb248f9 0x76c": 0.0,
+                "enable_meshcoll 88534f79 0x74c": true,
+                "health 8fed986b 0x75c": 400.0,
+                "homing_angle e1eaa8a7 0x78c": 360.0
+            }
+        }
+    }
+}

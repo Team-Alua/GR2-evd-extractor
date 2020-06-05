@@ -1,0 +1,528 @@
+{
+    "_races 0xb0": {
+        "chi_gen 0x20c": "chi01",
+        "chi_kid 0x21c": "kid01",
+        "man_fat 0x1ac": "man62",
+        "man_gen 0x19c": "man01",
+        "man_stu 0x1bc": "man69",
+        "wom_fat 0x1ec": "wom21",
+        "wom_gen 0x1cc": "wom01",
+        "wom_old 0x1dc": "wom06",
+        "wom_stu 0x1fc": "wom36"
+    },
+    "familyDeps 0x220": {
+        "man_gen 0x260": {
+            "chi_gen 0x31c": 0.0,
+            "chi_kid 0x32c": 0.0,
+            "man_fat 0x2ec": 0.0,
+            "man_stu 0x2fc": 0.0,
+            "wom_gen 0x330": {
+                "wom_fat 0x39c": 0.0,
+                "wom_old 0x38c": 0.0,
+                "wom_stu 0x3ac": 0.0
+            }
+        }
+    },
+    "human 0x3b0": {
+        "zz_accordion_00 0x12dc": null,
+        "zz_angry_00 0x3f80": {
+            "man_gen 0x3fbc": "wom01_angry_00"
+        },
+        "zz_audience_00 0x38c0": {
+            "__base_label 0x38fc": "cheer_soft_00"
+        },
+        "zz_audience_01 0x3900": {
+            "__base_label 0x393c": "handclap_00"
+        },
+        "zz_balloon_stay_00 0x12cc": null,
+        "zz_brush_floor_00 0x3e40": {
+            "man_gen 0x3e7c": "man01_idle_bu_01"
+        },
+        "zz_call_00 0x1b9c": null,
+        "zz_check_up_object_00 0x4160": {
+            "man_gen 0x419c": "man01_count_00"
+        },
+        "zz_check_up_object_01 0x41a0": {
+            "man_gen 0x41dc": "man01_check_00"
+        },
+        "zz_check_up_object_02 0x41e0": {
+            "man_gen 0x421c": "man01_check_01"
+        },
+        "zz_clean_wall_00 0x3ec0": {
+            "man_gen 0x3efc": "wom01_idle_bu_01"
+        },
+        "zz_cook_yakitori_00 0x3780": {
+            "man_gen 0x37bc": "man01_cook_yakitori_00"
+        },
+        "zz_damage_middle_b_00 0x2810": {
+            "man_gen 0x285c": "man01_damage_middle_b_00",
+            "wom_gen 0x286c": "wom01_damage_middle_b_00"
+        },
+        "zz_damage_middle_f_00 0x27b0": {
+            "man_gen 0x27fc": "man01_damage_middle_f_00",
+            "wom_gen 0x280c": "wom01_damage_middle_f_00"
+        },
+        "zz_dash_00 0x126c": null,
+        "zz_down_facedown_in_00 0x2a80": {
+            "__base_label 0x2b0c": "down_a_00",
+            "chi_gen 0x2b4c": "chi01_down_a_00",
+            "man_gen 0x2b1c": "man01_down_a_00",
+            "wom_gen 0x2b2c": "wom01_down_a_00",
+            "wom_old 0x2b3c": "wom06_down_a_00"
+        },
+        "zz_down_facedown_loop_00 0x2c20": {
+            "__base_label 0x2cac": "down_b_00",
+            "chi_gen 0x2cec": "chi01_down_b_00",
+            "man_gen 0x2cbc": "man01_down_b_00",
+            "wom_gen 0x2ccc": "wom01_down_b_00",
+            "wom_old 0x2cdc": "wom06_down_b_00"
+        },
+        "zz_down_faceup_in_00 0x2b50": {
+            "__base_label 0x2bdc": "down_a_01",
+            "chi_gen 0x2c1c": "chi01_down_a_01",
+            "man_gen 0x2bec": "man01_down_a_01",
+            "wom_gen 0x2bfc": "wom01_down_a_01",
+            "wom_old 0x2c0c": "wom06_down_a_01"
+        },
+        "zz_down_faceup_loop_00 0x2cf0": {
+            "__base_label 0x2d7c": "down_b_01",
+            "chi_gen 0x2dbc": "chi01_down_b_01",
+            "man_gen 0x2d8c": "man01_down_b_01",
+            "wom_gen 0x2d9c": "wom01_down_b_01",
+            "wom_old 0x2dac": "wom06_down_b_01"
+        },
+        "zz_down_steped_00 0x15fc": null,
+        "zz_down_steped_01 0x160c": null,
+        "zz_drink_something_00 0x4120": {
+            "man_gen 0x415c": "chi01_idle_po_01"
+        },
+        "zz_drunk_ground_01 0x3ac0": {
+            "man_gen 0x3afc": "man01_idle_lo_02"
+        },
+        "zz_drunk_walk_00 0x129c": null,
+        "zz_eat_something_00 0x3fc0": {
+            "chi_gen 0x401c": "chi01_eat_meat_00",
+            "man_gen 0x400c": "wom01_idle_po_00"
+        },
+        "zz_fall_00 0x2870": {
+            "chi_gen 0x291c": "chi01_fall_00",
+            "man_gen 0x28ec": "man01_fall_00",
+            "wom_gen 0x28fc": "wom01_fall_00",
+            "wom_old 0x290c": "wom06_fall_00"
+        },
+        "zz_fall_01 0x2920": {
+            "chi_gen 0x29cc": "chi01_fall_01",
+            "man_gen 0x299c": "man01_fall_01",
+            "wom_gen 0x29ac": "wom01_fall_01",
+            "wom_old 0x29bc": "wom06_fall_01"
+        },
+        "zz_feeding_pigeon_00 0x183c": null,
+        "zz_give_food_00 0x3be0": {
+            "man_gen 0x3c1c": "man01_vendors_skewered_00"
+        },
+        "zz_greeting_00 0x2f60": {
+            "chi_gen 0x2fdc": "chi01_greeting_00",
+            "man_gen 0x2fbc": "man01_greeting_00",
+            "wom_gen 0x2fcc": "wom01_greeting_00"
+        },
+        "zz_groggy_00 0x161c": null,
+        "zz_groggy_01 0x162c": null,
+        "zz_groggy_in_00 0x163c": null,
+        "zz_groggy_in_01 0x164c": null,
+        "zz_guard_00 0x3940": {
+            "man_gen 0x397c": "man57_rifle_stay_00"
+        },
+        "zz_guard_01 0x3980": {
+            "man_gen 0x39bc": "man57_rifle_stay_01"
+        },
+        "zz_hang_out_laundry_00 0x40a0": {
+            "man_gen 0x40dc": "wom01_idle_po_02"
+        },
+        "zz_hit_b_00 0x26b0": {
+            "man_gen 0x270c": "man01_hit_b_00",
+            "wom_gen 0x271c": "wom01_hit_b_00",
+            "wom_old 0x272c": "wom06_hit_b_00"
+        },
+        "zz_hit_b_r_00 0x2730": {
+            "man_gen 0x278c": "man01_hit_b_r_00",
+            "wom_gen 0x279c": "wom01_hit_b_r_00",
+            "wom_old 0x27ac": "wom06_hit_b_00"
+        },
+        "zz_hit_f_00 0x25b0": {
+            "man_gen 0x260c": "man01_hit_f_00",
+            "wom_gen 0x261c": "wom01_hit_f_00",
+            "wom_old 0x262c": "wom06_hit_f_00"
+        },
+        "zz_hit_f_r_00 0x2630": {
+            "man_gen 0x268c": "man01_hit_f_r_00",
+            "wom_gen 0x269c": "wom01_hit_f_r_00",
+            "wom_old 0x26ac": "wom06_hit_f_00"
+        },
+        "zz_houkenrei_00 0x45c0": {
+            "man_gen 0x45fc": "man52_fee_00"
+        },
+        "zz_idle_00 0x1ec0": {
+            "chi_gen 0x1f8c": "chi01_stay_00",
+            "man_gen 0x1f4c": "man01_stay_00",
+            "wom_fat 0x1f7c": "wom21_stay_00",
+            "wom_gen 0x1f5c": "wom01_stay_00",
+            "wom_old 0x1f6c": "wom06_stay_00"
+        },
+        "zz_inform_00 0x30e0": {
+            "man_gen 0x311c": "man01_inform_00"
+        },
+        "zz_inform_in_00 0x30a0": {
+            "man_gen 0x30dc": "man01_inform_in_00"
+        },
+        "zz_inform_out_00 0x3120": {
+            "man_gen 0x315c": "man01_inform_out_00"
+        },
+        "zz_juggling_00 0x1e00": {
+            "man_gen 0x1e3c": "man03_juggling_00"
+        },
+        "zz_juggling_in_00 0x1d80": {
+            "man_gen 0x1dbc": "man03_juggling_in_00"
+        },
+        "zz_juggling_out_00 0x1dc0": {
+            "man_gen 0x1dfc": "man03_juggling_out_00"
+        },
+        "zz_juggling_talk_00 0x1e40": {
+            "man_gen 0x1e7c": "man03_juggling_talk_00"
+        },
+        "zz_juggling_talk_01 0x1e80": {
+            "man_gen 0x1ebc": "man03_juggling_talk_01"
+        },
+        "zz_land_00 0x29d0": {
+            "chi_gen 0x2a7c": "chi01_land_00",
+            "man_gen 0x2a4c": "man01_land_00",
+            "wom_gen 0x2a5c": "wom01_land_00",
+            "wom_old 0x2a6c": "wom06_land_00"
+        },
+        "zz_lay_on_chair_00 0x2570": {
+            "__base_label 0x25ac": "idle_up_00"
+        },
+        "zz_lazy_on_ground_00 0x44c0": {
+            "man_gen 0x44fc": "man01_idle_lo_01"
+        },
+        "zz_lean_00 0x133c": null,
+        "zz_lean_01 0x134c": null,
+        "zz_listen_speech_00 0x3f40": {
+            "__base_label 0x3f7c": "handclap_00"
+        },
+        "zz_look_after_animal_00 0x4420": {
+            "chi_gen 0x447c": "chi01_idle_bu_00",
+            "man_gen 0x446c": "wom01_idle_bu_02"
+        },
+        "zz_look_over_00 0x4540": {
+            "man_gen 0x457c": "wom01_idle_po_01"
+        },
+        "zz_lookaround_00 0x131c": null,
+        "zz_lookaround_01 0x132c": null,
+        "zz_lookup_00 0x1bcc": null,
+        "zz_lookup_in_00 0x1bac": null,
+        "zz_lookup_out_00 0x1bbc": null,
+        "zz_make_speech_00 0x3f00": {
+            "man_gen 0x3f3c": "man01_speech_00"
+        },
+        "zz_merry_00 0x1b8c": null,
+        "zz_play_alone_00 0x40e0": {
+            "man_gen 0x411c": "chi01_idle_po_00"
+        },
+        "zz_play_guitar_00 0x4020": {
+            "man_gen 0x405c": "man01_play_guitar_00"
+        },
+        "zz_play_violin_00 0x4060": {
+            "man_gen 0x409c": "man01_play_violin_00"
+        },
+        "zz_play_with_bugs_00 0x4480": {
+            "man_gen 0x44bc": "chi01_idle_lo_00"
+        },
+        "zz_play_with_magichand_00 0x3d40": {
+            "man_gen 0x3d7c": "chi01_magichand_00"
+        },
+        "zz_play_with_magichand_01 0x3d80": {
+            "man_gen 0x3dbc": "chi01_sq_magichand_00"
+        },
+        "zz_play_with_sword_00 0x3e00": {
+            "man_gen 0x3e3c": "chi01_idle_dt_01"
+        },
+        "zz_play_with_watergun_00 0x3dc0": {
+            "man_gen 0x3dfc": "chi01_idle_up_01"
+        },
+        "zz_porter_walk_00 0x128c": null,
+        "zz_pour_water_00 0x3e80": {
+            "man_gen 0x3ebc": "man01_idle_up_02"
+        },
+        "zz_reaction_boo_00 0x1c3c": null,
+        "zz_reaction_goo_00 0x1c2c": null,
+        "zz_read_book_00 0x3b40": {
+            "man_gen 0x3b8c": "man01_idle_dt_01",
+            "wom_gen 0x3b9c": "wom01_idle_dt_00"
+        },
+        "zz_relax_on_ground_00 0x3b00": {
+            "man_gen 0x3b3c": "man01_idle_dt_02"
+        },
+        "zz_reply_no_00 0x16ac": null,
+        "zz_reply_unknown_00 0x16bc": null,
+        "zz_reply_yes_00 0x169c": null,
+        "zz_rifle_00 0x3a00": {
+            "man_gen 0x3a3c": "man57_rifle_00"
+        },
+        "zz_rifle_out_00 0x3a40": {
+            "man_gen 0x3a7c": "man57_rifle_out_00"
+        },
+        "zz_rifle_walk_00 0x1d40": {
+            "man_gen 0x1d7c": "man57_rifle_walk_00"
+        },
+        "zz_run_00 0x120c": null,
+        "zz_run_01 0x1c40": {
+            "wom_old 0x1c7c": "wom06_run_00"
+        },
+        "zz_run_afraid_00 0x1c80": {
+            "wom_old 0x1cbc": "wom06_run_00"
+        },
+        "zz_run_afraid_01 0x1cc0": {
+            "wom_old 0x1cfc": "wom06_run_00"
+        },
+        "zz_run_down_00 0x124c": null,
+        "zz_run_snatch_00 0x1d00": {
+            "man_gen 0x1d3c": "man01_snatcher_01"
+        },
+        "zz_salute_00 0x4580": {
+            "man_gen 0x45bc": "kit01_salute_00"
+        },
+        "zz_scared_00 0x1c1c": null,
+        "zz_shock_00 0x3020": {
+            "man_gen 0x305c": "man01_shock_00"
+        },
+        "zz_shock_in_00 0x2fe0": {
+            "man_gen 0x301c": "man01_shock_in_00"
+        },
+        "zz_shock_out_00 0x3060": {
+            "man_gen 0x309c": "man01_shock_out_00"
+        },
+        "zz_shop_00 0x37c0": {
+            "__base_label 0x37fc": "buyer_idle_00"
+        },
+        "zz_shop_01 0x3800": {
+            "man_gen 0x384c": "man01_stay_01",
+            "wom_gen 0x385c": "man01_stay_01"
+        },
+        "zz_shop_02 0x3860": {
+            "man_gen 0x38ac": "man01_stay_02",
+            "wom_gen 0x38bc": "man01_stay_03"
+        },
+        "zz_sit_00 0x2210": {
+            "chi_gen 0x228c": "chi01_sit_00",
+            "man_gen 0x226c": "man01_sit_00",
+            "wom_gen 0x227c": "wom01_sit_00"
+        },
+        "zz_sit_01 0x2390": {
+            "chi_gen 0x240c": "chi01_sit_01",
+            "man_gen 0x23ec": "man01_sit_01",
+            "wom_gen 0x23fc": "wom01_sit_01"
+        },
+        "zz_sit_02 0x24d0": {
+            "chi_gen 0x252c": "chi01_sit_02",
+            "man_gen 0x251c": "man01_sit_02"
+        },
+        "zz_sit_in_00 0x2110": {
+            "chi_gen 0x218c": "chi01_sit_in_00",
+            "man_gen 0x216c": "man01_sit_in_00",
+            "wom_gen 0x217c": "wom01_sit_in_00"
+        },
+        "zz_sit_in_01 0x2290": {
+            "chi_gen 0x230c": "chi01_sit_in_01",
+            "man_gen 0x22ec": "man01_sit_in_01",
+            "wom_gen 0x22fc": "wom01_sit_in_01"
+        },
+        "zz_sit_in_02 0x2410": {
+            "chi_gen 0x246c": "chi01_sit_in_02",
+            "man_gen 0x245c": "man01_sit_in_02"
+        },
+        "zz_sit_out_00 0x2190": {
+            "chi_gen 0x220c": "chi01_sit_out_00",
+            "man_gen 0x21ec": "man01_sit_out_00",
+            "wom_gen 0x21fc": "wom01_sit_out_00"
+        },
+        "zz_sit_out_01 0x2310": {
+            "chi_gen 0x238c": "chi01_sit_out_01",
+            "man_gen 0x236c": "man01_sit_out_01",
+            "wom_gen 0x237c": "wom01_sit_out_01"
+        },
+        "zz_sit_out_02 0x2470": {
+            "chi_gen 0x24cc": "chi01_sit_out_02",
+            "man_gen 0x24bc": "man01_sit_out_02"
+        },
+        "zz_sit_table_00 0x138c": null,
+        "zz_sit_table_01 0x13bc": null,
+        "zz_sit_table_in_00 0x137c": null,
+        "zz_sit_table_in_01 0x13ac": null,
+        "zz_sit_table_out_00 0x139c": null,
+        "zz_sit_table_out_01 0x13cc": null,
+        "zz_sit_up_00 0x2530": {
+            "man_gen 0x256c": "man01_sit_up_00"
+        },
+        "zz_slide_00 0x135c": null,
+        "zz_slide_03 0x136c": null,
+        "zz_stand_with_balloon_00 0x3d00": {
+            "man_gen 0x3d3c": "chi01_balloon_stay_00"
+        },
+        "zz_stand_with_flower_00 0x3c20": {
+            "man_gen 0x3c5c": "man01_idle_po_01"
+        },
+        "zz_stand_with_glass_00 0x3ca0": {
+            "man_gen 0x3cec": "man01_idle_up_01",
+            "wom_gen 0x3cfc": "wom01_idle_up_01"
+        },
+        "zz_stand_with_paperbag_00 0x3c60": {
+            "man_gen 0x3c9c": "wom01_idle_dt_01"
+        },
+        "zz_standup_facedown_in_00 0x2dc0": {
+            "__base_label 0x2e4c": "down_c_00",
+            "chi_gen 0x2e8c": "chi01_down_c_00",
+            "man_gen 0x2e5c": "man01_down_c_00",
+            "wom_gen 0x2e6c": "wom01_down_c_00",
+            "wom_old 0x2e7c": "wom06_down_c_00"
+        },
+        "zz_standup_faceup_in_00 0x2e90": {
+            "__base_label 0x2f1c": "down_c_01",
+            "chi_gen 0x2f5c": "chi01_down_c_01",
+            "man_gen 0x2f2c": "man01_down_c_01",
+            "wom_gen 0x2f3c": "wom01_down_c_01",
+            "wom_old 0x2f4c": "wom06_down_c_01"
+        },
+        "zz_stay_00 0x1f90": {
+            "chi_gen 0x205c": "chi01_stay_00",
+            "man_gen 0x201c": "man01_stay_00",
+            "wom_fat 0x204c": "wom21_stay_00",
+            "wom_gen 0x202c": "wom01_stay_00",
+            "wom_old 0x203c": "wom06_stay_00"
+        },
+        "zz_stay_01 0x2060": {
+            "chi_gen 0x210c": "chi01_stay_01",
+            "man_gen 0x20dc": "man01_stay_01",
+            "wom_gen 0x20ec": "wom01_stay_01",
+            "wom_old 0x20fc": "wom06_stay_01"
+        },
+        "zz_stay_02 0x1a8c": null,
+        "zz_stoop_00 0x12fc": null,
+        "zz_stoop_in_00 0x12ec": null,
+        "zz_stoop_out_00 0x130c": null,
+        "zz_stretch_00 0x4500": {
+            "man_gen 0x453c": "wom01_idle_up_02"
+        },
+        "zz_surprise_00 0x1b6c": null,
+        "zz_surprise_01 0x1b7c": null,
+        "zz_talk_00 0x3480": {
+            "chi_gen 0x34fc": "chi01_talk_00",
+            "man_gen 0x34dc": "man01_talk_00",
+            "wom_gen 0x34ec": "wom01_talk_00"
+        },
+        "zz_talk_01 0x3500": {
+            "chi_gen 0x357c": "chi01_talk_01",
+            "man_gen 0x355c": "man01_talk_01",
+            "wom_gen 0x356c": "wom01_talk_01"
+        },
+        "zz_talk_02 0x3580": {
+            "chi_gen 0x35fc": "chi01_talk_00",
+            "man_gen 0x35dc": "man01_talk_02",
+            "wom_gen 0x35ec": "wom01_talk_02"
+        },
+        "zz_talk_03 0x3600": {
+            "chi_gen 0x367c": "chi01_talk_01",
+            "man_gen 0x365c": "man01_talk_03",
+            "wom_gen 0x366c": "wom01_talk_03"
+        },
+        "zz_talk_04 0x1a9c": null,
+        "zz_talk_04 0x1aac": null,
+        "zz_talk_angry_00 0x1acc": null,
+        "zz_talk_angry_01 0x42a0": {
+            "__base_label 0x42ec": "talk_angry_01",
+            "chi_gen 0x42fc": "chi01_talk_angry_00"
+        },
+        "zz_talk_angry_02 0x4300": {
+            "__base_label 0x434c": "talk_angry_02",
+            "chi_gen 0x435c": "chi01_talk_angry_00"
+        },
+        "zz_talk_laugh_00 0x3680": {
+            "chi_gen 0x36fc": "chi01_talk_laugh_00",
+            "man_gen 0x36dc": "man01_talk_laugh_00",
+            "wom_gen 0x36ec": "wom01_talk_laugh_00"
+        },
+        "zz_talk_sad_00 0x3700": {
+            "chi_gen 0x377c": "chi01_talk_sad_00",
+            "man_gen 0x375c": "man01_talk_sad_00",
+            "wom_gen 0x376c": "wom01_talk_sad_00"
+        },
+        "zz_talk_sad_02 0x1abc": null,
+        "zz_turn_90_l_00 0x3260": {
+            "chi_gen 0x32dc": "chi01_turn_90_l_00",
+            "man_gen 0x32bc": "man01_turn_90_l_00",
+            "wom_gen 0x32cc": "wom01_turn_90_l_00"
+        },
+        "zz_turn_90_r_00 0x32e0": {
+            "chi_gen 0x335c": "chi01_turn_90_r_00",
+            "man_gen 0x333c": "man01_turn_90_r_00",
+            "wom_gen 0x334c": "wom01_turn_90_r_00"
+        },
+        "zz_turn_l_00 0x3160": {
+            "chi_gen 0x31dc": "chi01_turn_l_00",
+            "man_gen 0x31bc": "man01_turn_l_00",
+            "wom_gen 0x31cc": "wom01_turn_l_00"
+        },
+        "zz_turn_r_00 0x31e0": {
+            "chi_gen 0x325c": "chi01_turn_r_00",
+            "man_gen 0x323c": "man01_turn_r_00",
+            "wom_gen 0x324c": "wom01_turn_r_00"
+        },
+        "zz_twist_left_00_add 0x3360": {
+            "man_gen 0x33ac": "man01_twist_left_00_add",
+            "wom_gen 0x33bc": "wom01_twist_left_00_add"
+        },
+        "zz_twist_right_00_add 0x33c0": {
+            "man_gen 0x340c": "man01_twist_right_00_add",
+            "wom_gen 0x341c": "wom01_twist_right_00_add"
+        },
+        "zz_vendor_angry_00 0x176c": null,
+        "zz_vendor_attract_00 0x3420": {
+            "man_gen 0x346c": "man01_vendor_attract_00",
+            "wom_gen 0x347c": "wom01_vendor_attract_00"
+        },
+        "zz_wait_for_rescue_00 0x4360": {
+            "man_gen 0x43ac": "man01_stay_rescued_00",
+            "wom_gen 0x43bc": "wom01_stay_rescued_00"
+        },
+        "zz_wait_for_rescue_01 0x43c0": {
+            "man_gen 0x440c": "man01_betimid_sm12_00",
+            "wom_gen 0x441c": "wom01_stay_rescued_01"
+        },
+        "zz_wait_for_result_00 0x4220": {
+            "__base_label 0x425c": "stay_line_00"
+        },
+        "zz_wait_for_result_01 0x4260": {
+            "__base_label 0x429c": "stay_line_01"
+        },
+        "zz_walk_00 0x127c": null,
+        "zz_walk_b_00 0x12bc": null,
+        "zz_watch_above_00 0x3ba0": {
+            "__base_label 0x3bdc": "watching_soft_00"
+        },
+        "zz_whistle_00 0x39c0": {
+            "man_gen 0x39fc": "man57_whistle_00"
+        },
+        "zz_whistle_01 0x3a80": {
+            "man_gen 0x3abc": "man31_whistle_00"
+        },
+        "zz_wonder_00 0x4600": {
+            "chi_gen 0x467c": "chi01_lookaround_00",
+            "man_gen 0x465c": "man01_lookaround_00",
+            "wom_gen 0x466c": "wom01_lookaround_00"
+        },
+        "zz_wonder_01 0x4680": {
+            "chi_gen 0x46fc": "chi01_lookaround_01",
+            "man_gen 0x46dc": "man01_lookaround_02",
+            "wom_gen 0x46ec": "wom01_lookaround_01"
+        }
+    }
+}

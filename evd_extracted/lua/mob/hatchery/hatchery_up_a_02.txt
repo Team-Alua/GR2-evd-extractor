@@ -1,47 +1,47 @@
 {
-    "_default_bundles 0xbc": "bundle_default",
-    "_virtual_bundles 0x100": {
-        "bundle_default 0x140": {
+    "_default_bundles": "bundle_default",
+    "_virtual_bundles": {
+        "bundle_default": {
             "0x15c": "bundle_default_core",
             "0x16c": "bundle_wine"
         }
     },
-    "bundle_default_core 0x170": {
+    "bundle_default_core": {
         "0x1b0": {
-            "classGroup 0x23c": "yy_jilga_celeb_wom_01",
-            "guide 0x22c": "yoga_01",
-            "num 0x25c": 1.0,
-            "role 0x24c": "kRoleStretch"
+            "classGroup": "yy_jilga_celeb_wom_01",
+            "guide": "yoga_01",
+            "num": 1.0,
+            "role": "kRoleStretch"
         },
         "0x260": {
-            "classGroup 0x30c": "yy_up_all_00",
-            "label 0x2ec": "garden",
-            "num 0x32c": 1.0,
-            "role 0x31c": "kRoleRoam",
-            "zone 0x2fc": "space_01"
+            "classGroup": "yy_up_all_00",
+            "label": "garden",
+            "num": 1.0,
+            "role": "kRoleRoam",
+            "zone": "space_01"
         },
         "0x330": {
-            "classGroup 0x3dc": "yy_dog_s",
-            "label 0x3bc": "animals",
-            "num 0x3fc": 5.0,
-            "role 0x3ec": "kRoleTamed",
-            "zone 0x3cc": "space_01"
+            "classGroup": "yy_dog_s",
+            "label": "animals",
+            "num": 5.0,
+            "role": "kRoleTamed",
+            "zone": "space_01"
         }
     },
-    "bundle_stand 0x4d0": {
+    "bundle_stand": {
         "0x4f0": {
-            "classGroup 0x57c": "yy_up_all_04",
-            "guide 0x56c": "drink_wine",
-            "num 0x59c": 1.0,
-            "role 0x58c": "kRoleStay"
+            "classGroup": "yy_up_all_04",
+            "guide": "drink_wine",
+            "num": 1.0,
+            "role": "kRoleStay"
         }
     },
-    "bundle_wine 0x400": {
+    "bundle_wine": {
         "0x420": {
-            "classGroup 0x4ac": "yy_up_all_04",
-            "guide 0x49c": "drink_wine",
-            "num 0x4cc": 1.0,
-            "role 0x4bc": "kRoleStandWithGlass"
+            "classGroup": "yy_up_all_04",
+            "guide": "drink_wine",
+            "num": 1.0,
+            "role": "kRoleStandWithGlass"
         }
     }
 }

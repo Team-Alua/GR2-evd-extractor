@@ -1,88 +1,88 @@
 {
-    "LineSourceList 0x340": {},
-    "LineStripsSourceList 0x350": {},
-    "PointSourceList 0x100": {
-        "4317 0x160": {
-            "PosX 0x22c": -34.0684814453125,
-            "PosY 0x23c": 23.450349807739258,
-            "PosZ 0x24c": 66.020263671875,
-            "RequestName 0x1fc": "amb_spring_water",
-            "VariableStr 0x20c": 0.0,
-            "Volume 0x21c": 1.0
+    "LineSourceList": {},
+    "LineStripsSourceList": {},
+    "PointSourceList": {
+        "4317": {
+            "PosX": -34.0684814453125,
+            "PosY": 23.450349807739258,
+            "PosZ": 66.020263671875,
+            "RequestName": "amb_spring_water",
+            "VariableStr": 0.0,
+            "Volume": 1.0
         },
-        "4335 0x250": {
-            "PosX 0x31c": -33.947689056396484,
-            "PosY 0x32c": 26.986570358276367,
-            "PosZ 0x33c": 66.20234680175781,
-            "RequestName 0x2ec": "fountain",
-            "VariableStr 0x2fc": 0.0,
-            "Volume 0x30c": 1.0
+        "4335": {
+            "PosX": -33.947689056396484,
+            "PosY": 26.986570358276367,
+            "PosZ": 66.20234680175781,
+            "RequestName": "fountain",
+            "VariableStr": 0.0,
+            "Volume": 1.0
         }
     },
-    "PolysSourceList 0x360": {
-        "4319 0x3a0": {
-            "PosList 0x450": {
+    "PolysSourceList": {
+        "4319": {
+            "PosList": {
                 "0x4b0": {
-                    "PosX 0x50c": 35.28173828125,
-                    "PosY 0x51c": 32.923648834228516,
-                    "PosZ 0x52c": -8.009963989257812
+                    "PosX": 35.28173828125,
+                    "PosY": 32.923648834228516,
+                    "PosZ": -8.009963989257812
                 },
                 "0x530": {
-                    "PosX 0x58c": 35.40338134765625,
-                    "PosY 0x59c": 32.922119140625,
-                    "PosZ 0x5ac": 8.027252197265625
+                    "PosX": 35.40338134765625,
+                    "PosY": 32.922119140625,
+                    "PosZ": 8.027252197265625
                 },
                 "0x5b0": {
-                    "PosX 0x60c": 30.936220169067383,
-                    "PosY 0x61c": 32.919368743896484,
-                    "PosZ 0x62c": 8.043427467346191
+                    "PosX": 30.936220169067383,
+                    "PosY": 32.919368743896484,
+                    "PosZ": 8.043427467346191
                 },
                 "0x630": {
-                    "PosX 0x68c": 30.786190032958984,
-                    "PosY 0x69c": 32.9193115234375,
-                    "PosZ 0x6ac": -7.882584095001221
+                    "PosX": 30.786190032958984,
+                    "PosY": 32.9193115234375,
+                    "PosZ": -7.882584095001221
                 },
                 "0x6b0": {
-                    "PosX 0x70c": 30.786190032958984,
-                    "PosY 0x71c": 32.91925048828125,
-                    "PosZ 0x72c": -7.8825531005859375
+                    "PosX": 30.786190032958984,
+                    "PosY": 32.91925048828125,
+                    "PosZ": -7.8825531005859375
                 }
             },
-            "RequestName 0x41c": "amb_spring_water",
-            "VariableStr 0x42c": 0.0,
-            "Volume 0x43c": 1.0
+            "RequestName": "amb_spring_water",
+            "VariableStr": 0.0,
+            "Volume": 1.0
         }
     },
-    "SensorList 0x730": {
-        "amb_up_a_04_02_mid 0x990": {
-            "ChildList 0xb80": {},
-            "OnEnterName 0xabc": "variable_amb006_set_05_OnEnter",
-            "OnLeaveName 0xacc": "variable_amb006_set_0_OnEnter",
-            "PosX 0xadc": -48.0306396484375,
-            "PosY 0xaec": 27.579830169677734,
-            "PosZ 0xafc": 73.40496826171875,
-            "RotX 0xb0c": 0.0,
-            "RotY 0xb1c": 2.792526960372925,
-            "RotZ 0xb2c": 0.0,
-            "ScaleX 0xb3c": 32.5,
-            "ScaleY 0xb4c": 7.5,
-            "ScaleZ 0xb5c": 25.0,
-            "ShapeType 0xb6c": 0.0
+    "SensorList": {
+        "amb_up_a_04_02_mid": {
+            "ChildList": {},
+            "OnEnterName": "variable_amb006_set_05_OnEnter",
+            "OnLeaveName": "variable_amb006_set_0_OnEnter",
+            "PosX": -48.0306396484375,
+            "PosY": 27.579830169677734,
+            "PosZ": 73.40496826171875,
+            "RotX": 0.0,
+            "RotY": 2.792526960372925,
+            "RotZ": 0.0,
+            "ScaleX": 32.5,
+            "ScaleY": 7.5,
+            "ScaleZ": 25.0,
+            "ShapeType": 0.0
         },
-        "rev_pu_a_04_02_01 0x790": {
-            "ChildList 0x980": {},
-            "OnEnterName 0x8bc": "Revset_eaves_small",
-            "OnLeaveName 0x8cc": "Revset_OnLeave",
-            "PosX 0x8dc": 34.736568450927734,
-            "PosY 0x8ec": 34.779109954833984,
-            "PosZ 0x8fc": -20.805679321289062,
-            "RotX 0x90c": 0.0,
-            "RotY 0x91c": 0.0,
-            "RotZ 0x92c": 0.0,
-            "ScaleX 0x93c": 7.5,
-            "ScaleY 0x94c": 3.0,
-            "ScaleZ 0x95c": 3.0,
-            "ShapeType 0x96c": 0.0
+        "rev_pu_a_04_02_01": {
+            "ChildList": {},
+            "OnEnterName": "Revset_eaves_small",
+            "OnLeaveName": "Revset_OnLeave",
+            "PosX": 34.736568450927734,
+            "PosY": 34.779109954833984,
+            "PosZ": -20.805679321289062,
+            "RotX": 0.0,
+            "RotY": 0.0,
+            "RotZ": 0.0,
+            "ScaleX": 7.5,
+            "ScaleY": 3.0,
+            "ScaleZ": 3.0,
+            "ShapeType": 0.0
         }
     }
 }

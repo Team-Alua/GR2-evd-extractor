@@ -1,0 +1,56 @@
+{
+    "brain f3912883 0x370": {
+        "ai_type a8e9a23c 0x3dc": "grn",
+        "animjoint 9c2354a2 0x3ec": "grn_s_01",
+        "type 4df12751 0x3cc": "EnemyBrain"
+    },
+    "enemy_actions 877ce571 0x5f0": {
+        "attack fdb89545 0x630": {
+            "absorb_time 846b68f0 0x75c": 5.0,
+            "chase_range 738ae4aa 0x79c": 20.0,
+            "force 8488a979 0x72c": 0.25,
+            "height 42bbbdd5 0x77c": 5.0,
+            "interval 7885ddce 0x78c": 5.0,
+            "power 46234ff5 0x71c": 30.0,
+            "prepare_speed 04440ba8 0x73c": 1.0,
+            "range d20cdcfa 0x76c": 20.0,
+            "speed 80c7807b 0x74c": 1.5
+        }
+    },
+    "enemy_body f895dcbb 0x3f0": {
+        "ash_effect f1d8dab1 0x49c": "grn_s_01_death_eff",
+        "ash_se 649d8f77 0x4ac": "ene_disappear",
+        "health 8fed986b 0x4bc": 60.0,
+        "spawn_effect d4cb9f81 0x47c": "gp_m_spawn_s",
+        "spawn_se 25611442 0x48c": "ene_come"
+    },
+    "enemy_parts 7e7c4e31 0x4c0": {
+        "loc_setCore01 368cc729 0x500": {
+            "body_damage ebb248f9 0x5cc": 60.0,
+            "effect 548d6e6e 0x59c": "gp_sy_enemycor_s_eff",
+            "eye 1aeda88b 0x5ec": true,
+            "health 8fed986b 0x5bc": 60.0,
+            "lockon 3b8d25f8 0x5dc": true,
+            "marker_alpha 1c9d1cf0 0x5ac": 1.0
+        }
+    },
+    "puppet af1330e6 0x100": {
+        "animattr b3f5105f 0x24c": "grn_s_01",
+        "animset c0c373e2 0x23c": "grn_s_01",
+        "center_y a88d0e22 0x26c": 0.5,
+        "collision 8fdb7621 0x290": {
+            "center_y a88d0e22 0x30c": 0.25,
+            "height 42bbbdd5 0x2fc": 0.5,
+            "radius b34cba0d 0x2ec": 0.25
+        },
+        "drivenkey e2d9c316 0x22c": null,
+        "modelName 014b8a4a 0x20c": "grn_s_01_base",
+        "replace_models 569f97cf 0x310": {
+            "loc_setCore01 368cc729 0x35c": "cor03",
+            "loc_setObj01 00cda26e 0x36c": "/OFF"
+        },
+        "scale 711c9782 0x25c": 1.0,
+        "type 4df12751 0x1fc": "Puppet",
+        "yureName 89561704 0x21c": null
+    }
+}

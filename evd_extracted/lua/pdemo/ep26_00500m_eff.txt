@@ -1,1583 +1,1583 @@
 {
-    "entities 0x70": {
+    "entities": {
         "0x1470": {
-            "animations 0x1580": {
-                "pointlight 0x15c0": {
-                    "/root/G2PointLight1/G2PointLightShape1 0x1600": {
-                        "lightIntensity 0x1640": {
-                            "keyframes 0x1680": {
+            "animations": {
+                "pointlight": {
+                    "/root/G2PointLight1/G2PointLightShape1": {
+                        "lightIntensity": {
+                            "keyframes": {
                                 "0x16b0": {
-                                    "key 0x16fc": 10.0,
-                                    "time 0x170c": 510.0
+                                    "key": 10.0,
+                                    "time": 510.0
                                 },
                                 "0x1710": {
-                                    "key 0x175c": 0.0,
-                                    "time 0x176c": 569.0
+                                    "key": 0.0,
+                                    "time": 569.0
                                 }
                             }
                         }
                     }
                 }
             },
-            "clips 0x1770": {
+            "clips": {
                 "0x1790": {
-                    "endFrame 0x17dc": 569.0,
-                    "startFrame 0x17ec": 510.0
+                    "endFrame": 569.0,
+                    "startFrame": 510.0
                 }
             },
-            "name 0x153c": "c10_plt",
-            "pointlight 0x17f0": {
-                "/root/G2PointLight1/G2PointLightShape1 0x1830": {
-                    "lightColorB 0x18bc": 0.9372549057006836,
-                    "lightColorG 0x18cc": 0.9372549057006836,
-                    "lightColorR 0x18dc": 1.0,
-                    "lightIntensity 0x18ec": 10.0,
-                    "outerRadius 0x18fc": 74.0999984741211
+            "name": "c10_plt",
+            "pointlight": {
+                "/root/G2PointLight1/G2PointLightShape1": {
+                    "lightColorB": 0.9372549057006836,
+                    "lightColorG": 0.9372549057006836,
+                    "lightColorR": 1.0,
+                    "lightIntensity": 10.0,
+                    "outerRadius": 74.0999984741211
                 }
             },
-            "transform 0x1900": {
-                "translation 0x1940": {
+            "transform": {
+                "translation": {
                     "0x195c": 73.87774658203125,
                     "0x196c": 89.70556640625,
                     "0x197c": 45.25460433959961
                 }
             },
-            "type 0x156c": "pointlight",
-            "uuid 0x157c": "{46a87501-2727-457e-b3fa-25eb92016616}"
+            "type": "pointlight",
+            "uuid": "{46a87501-2727-457e-b3fa-25eb92016616}"
         },
         "0x1980": {
-            "clips 0x1a90": {
+            "clips": {
                 "0x1ab0": {
-                    "endFrame 0x1afc": 105.0,
-                    "startFrame 0x1b0c": 96.0
+                    "endFrame": 105.0,
+                    "startFrame": 96.0
                 }
             },
-            "effect 0x1b10": {
-                "modelName 0x1b5c": "ef_dm_ep26_00500m_cmr_fls_01",
-                "scale 0x1b70": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_cmr_fls_01",
+                "scale": {
                     "0x1b8c": 0.800000011920929,
                     "0x1b9c": 1.0,
                     "0x1bac": 1.0
                 }
             },
-            "name 0x1a4c": "c2_cmr_glw_out",
-            "parentJointName 0x1a5c": "camera",
-            "transform 0x1bb0": {
-                "translation 0x1bf0": {
+            "name": "c2_cmr_glw_out",
+            "parentJointName": "camera",
+            "transform": {
+                "translation": {
                     "0x1c0c": 0.02674099989235401,
                     "0x1c1c": -0.00241499999538064,
                     "0x1c2c": -0.3499999940395355
                 }
             },
-            "type 0x1a7c": "effect",
-            "uuid 0x1a8c": "{a4386200-5146-487b-9d89-bef7c0c0be67}"
+            "type": "effect",
+            "uuid": "{a4386200-5146-487b-9d89-bef7c0c0be67}"
         },
         "0x1c30": {
-            "clips 0x1d20": {
+            "clips": {
                 "0x1d40": {
-                    "endFrame 0x1d8c": 194.0,
-                    "startFrame 0x1d9c": 97.0
+                    "endFrame": 194.0,
+                    "startFrame": 97.0
                 }
             },
-            "effect 0x1da0": {
-                "modelName 0x1ddc": "ef_dm_ep26_00500m_fls_01"
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_fls_01"
             },
-            "name 0x1cec": "c2_flash",
-            "transform 0x1de0": {
-                "translation 0x1e20": {
+            "name": "c2_flash",
+            "transform": {
+                "translation": {
                     "0x1e3c": 98.991943359375,
                     "0x1e4c": 89.2706298828125,
                     "0x1e5c": 56.1931037902832
                 }
             },
-            "type 0x1d0c": "effect",
-            "uuid 0x1d1c": "{bf0c712b-a69f-44f7-b437-e2d1a6ff344c}"
+            "type": "effect",
+            "uuid": "{bf0c712b-a69f-44f7-b437-e2d1a6ff344c}"
         },
         "0x1e60": {
-            "clips 0x1fb0": {
+            "clips": {
                 "0x1fd0": {
-                    "endFrame 0x201c": 100.0,
-                    "startFrame 0x202c": 44.0
+                    "endFrame": 100.0,
+                    "startFrame": 44.0
                 }
             },
-            "effect 0x2030": {
-                "modelName 0x206c": "ef_dm_ep26_00500m_glw_01"
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_glw_01"
             },
-            "name 0x1f5c": "c2_glw",
-            "parentJointName 0x1f6c": "bn_spine3",
-            "parentNodeName 0x1f7c": "sis01",
-            "transform 0x2070": {
-                "translation 0x20b0": {
+            "name": "c2_glw",
+            "parentJointName": "bn_spine3",
+            "parentNodeName": "sis01",
+            "transform": {
+                "translation": {
                     "0x20cc": 0.05730399861931801,
                     "0x20dc": -0.08225999772548676,
                     "0x20ec": -0.014275000430643559
                 }
             },
-            "type 0x1f9c": "effect",
-            "uuid 0x1fac": "{18351630-1433-412e-9a80-04155efbe83c}"
+            "type": "effect",
+            "uuid": "{18351630-1433-412e-9a80-04155efbe83c}"
         },
         "0x20f0": {
-            "clips 0x2240": {
+            "clips": {
                 "0x2260": {
-                    "endFrame 0x22bc": 239.0,
-                    "startFrame 0x22cc": 170.0,
-                    "visibilityOffset 0x22dc": 0.0
+                    "endFrame": 239.0,
+                    "startFrame": 170.0,
+                    "visibilityOffset": 0.0
                 }
             },
-            "effect 0x22e0": {
-                "modelName 0x232c": "ef_dm_ep26_00500m_ang_par_01",
-                "scale 0x2340": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_par_01",
+                "scale": {
                     "0x235c": 1.0,
                     "0x236c": 1.0,
                     "0x237c": 1.0
                 }
             },
-            "name 0x21ec": "c3_ang_par",
-            "parentJointName 0x21fc": "bn_root",
-            "parentNodeName 0x220c": "ang01",
-            "transform 0x2380": {
-                "translation 0x23c0": {
+            "name": "c3_ang_par",
+            "parentJointName": "bn_root",
+            "parentNodeName": "ang01",
+            "transform": {
+                "translation": {
                     "0x23dc": 0.0,
                     "0x23ec": 0.0,
                     "0x23fc": 0.0
                 }
             },
-            "type 0x222c": "effect",
-            "uuid 0x223c": "{37d4f666-75bd-4697-a1c8-b8dd7d9eb995}"
+            "type": "effect",
+            "uuid": "{37d4f666-75bd-4697-a1c8-b8dd7d9eb995}"
         },
         "0x2400": {
-            "clips 0x2510": {
+            "clips": {
                 "0x2530": {
-                    "endFrame 0x258c": 194.0,
-                    "startFrame 0x259c": 101.0,
-                    "visibilityOffset 0x25ac": 3.0
+                    "endFrame": 194.0,
+                    "startFrame": 101.0,
+                    "visibilityOffset": 3.0
                 }
             },
-            "effect 0x25b0": {
-                "modelName 0x25fc": "ef_dm_ep26_00500m_cmr_fls_01",
-                "scale 0x2610": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_cmr_fls_01",
+                "scale": {
                     "0x262c": 0.800000011920929,
                     "0x263c": 1.0,
                     "0x264c": 1.0
                 }
             },
-            "name 0x24cc": "c3_cmr_glw_out",
-            "parentJointName 0x24dc": "camera",
-            "transform 0x2650": {
-                "translation 0x2690": {
+            "name": "c3_cmr_glw_out",
+            "parentJointName": "camera",
+            "transform": {
+                "translation": {
                     "0x26ac": 0.006792999804019928,
                     "0x26bc": 0.003860000055283308,
                     "0x26cc": -0.39048799872398376
                 }
             },
-            "type 0x24fc": "effect",
-            "uuid 0x250c": "{8e7feb64-a776-493d-9d60-daba46d754be}"
+            "type": "effect",
+            "uuid": "{8e7feb64-a776-493d-9d60-daba46d754be}"
         },
         "0x26d0": {
-            "clips 0x2820": {
+            "clips": {
                 "0x2840": {
-                    "endFrame 0x288c": 299.0,
-                    "startFrame 0x289c": 258.0
+                    "endFrame": 299.0,
+                    "startFrame": 258.0
                 }
             },
-            "effect 0x28a0": {
-                "modelName 0x28ec": "ef_dm_ep26_00500m_ang_ks_in_01",
-                "scale 0x2900": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_in_01",
+                "scale": {
                     "0x291c": 2.0,
                     "0x292c": 1.0,
                     "0x293c": 1.0
                 }
             },
-            "name 0x27cc": "c5_ks_in",
-            "parentJointName 0x27dc": "loc_l_hand",
-            "parentNodeName 0x27ec": "ang01",
-            "transform 0x2940": {
-                "translation 0x2980": {
+            "name": "c5_ks_in",
+            "parentJointName": "loc_l_hand",
+            "parentNodeName": "ang01",
+            "transform": {
+                "translation": {
                     "0x299c": -0.08555600047111511,
                     "0x29ac": -0.0070039997808635235,
                     "0x29bc": 0.035193998366594315
                 }
             },
-            "type 0x280c": "effect",
-            "uuid 0x281c": "{3c9fb6b3-176a-4815-b3e1-6e2937614c9d}"
+            "type": "effect",
+            "uuid": "{3c9fb6b3-176a-4815-b3e1-6e2937614c9d}"
         },
         "0x29c0": {
-            "clips 0x2b10": {
+            "clips": {
                 "0x2b30": {
-                    "endFrame 0x2b7c": 299.0,
-                    "startFrame 0x2b8c": 288.0
+                    "endFrame": 299.0,
+                    "startFrame": 288.0
                 }
             },
-            "effect 0x2b90": {
-                "modelName 0x2bec": "ef_dm_ep26_00500m_ang_ks_01",
-                "scale 0x2c10": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_01",
+                "scale": {
                     "0x2c2c": 0.6000000238418579,
                     "0x2c3c": 1.0,
                     "0x2c4c": 1.0
                 },
-                "targetNodeName 0x2c0c": "c5_ks_point_l"
+                "targetNodeName": "c5_ks_point_l"
             },
-            "name 0x2abc": "c5_ks_l",
-            "parentJointName 0x2acc": "loc_l_hand",
-            "parentNodeName 0x2adc": "ang01",
-            "transform 0x2c50": {
-                "rotation 0x2cb0": {
+            "name": "c5_ks_l",
+            "parentJointName": "loc_l_hand",
+            "parentNodeName": "ang01",
+            "transform": {
+                "rotation": {
                     "0x2ccc": 0.0,
                     "0x2cdc": 0.0,
                     "0x2cec": 0.0
                 },
-                "translation 0x2cf0": {
+                "translation": {
                     "0x2d0c": 0.0,
                     "0x2d1c": 0.0,
                     "0x2d2c": 0.0
                 }
             },
-            "type 0x2afc": "effect",
-            "uuid 0x2b0c": "{8c4bc99e-8dc5-4c05-aad4-063a348690e1}"
+            "type": "effect",
+            "uuid": "{8c4bc99e-8dc5-4c05-aad4-063a348690e1}"
         },
         "0x2d30": {
-            "clips 0x2e00": {
+            "clips": {
                 "0x2e20": {
-                    "endFrame 0x2e6c": 299.0,
-                    "startFrame 0x2e7c": 0.0
+                    "endFrame": 299.0,
+                    "startFrame": 0.0
                 }
             },
-            "name 0x2dcc": "c5_ks_point_l",
-            "transform 0x2e80": {
-                "translation 0x2ec0": {
+            "name": "c5_ks_point_l",
+            "transform": {
+                "translation": {
                     "0x2edc": 99.7119140625,
                     "0x2eec": 106.48774719238281,
                     "0x2efc": 70.48538208007812
                 }
             },
-            "type 0x2dec": "node",
-            "uuid 0x2dfc": "{3d80cbcd-ae33-42b4-8b4f-8866fbb0075c}"
+            "type": "node",
+            "uuid": "{3d80cbcd-ae33-42b4-8b4f-8866fbb0075c}"
         },
         "0x2f00": {
-            "clips 0x3050": {
+            "clips": {
                 "0x3070": {
-                    "endFrame 0x30bc": 299.0,
-                    "startFrame 0x30cc": 288.0
+                    "endFrame": 299.0,
+                    "startFrame": 288.0
                 }
             },
-            "effect 0x30d0": {
-                "modelName 0x312c": "ef_dm_ep26_00500m_ang_ks_01",
-                "scale 0x3150": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_01",
+                "scale": {
                     "0x316c": 1.0,
                     "0x317c": 1.0,
                     "0x318c": 1.0
                 },
-                "targetNodeName 0x314c": "c5_ks_point_l"
+                "targetNodeName": "c5_ks_point_l"
             },
-            "name 0x2ffc": "c5_ks_r",
-            "parentJointName 0x300c": "loc_r_hand",
-            "parentNodeName 0x301c": "ang01",
-            "transform 0x3190": {
-                "rotation 0x31f0": {
+            "name": "c5_ks_r",
+            "parentJointName": "loc_r_hand",
+            "parentNodeName": "ang01",
+            "transform": {
+                "rotation": {
                     "0x320c": 0.0,
                     "0x321c": 0.0,
                     "0x322c": 0.0
                 },
-                "translation 0x3230": {
+                "translation": {
                     "0x324c": 0.0,
                     "0x325c": 0.0,
                     "0x326c": 0.0
                 }
             },
-            "type 0x303c": "effect",
-            "uuid 0x304c": "{0cdeeca5-9e66-47d6-baa5-9a786bb7b818}"
+            "type": "effect",
+            "uuid": "{0cdeeca5-9e66-47d6-baa5-9a786bb7b818}"
         },
         "0x3270": {
-            "clips 0x33c0": {
+            "clips": {
                 "0x33e0": {
-                    "endFrame 0x342c": 344.0,
-                    "startFrame 0x343c": 287.0
+                    "endFrame": 344.0,
+                    "startFrame": 287.0
                 }
             },
-            "effect 0x3440": {
-                "modelName 0x348c": "ef_dm_ep26_00500m_wind_smk_01",
-                "scale 0x34a0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_wind_smk_01",
+                "scale": {
                     "0x34bc": 0.5,
                     "0x34cc": 1.0,
                     "0x34dc": 1.0
                 }
             },
-            "name 0x336c": "c5_shock_smk",
-            "parentJointName 0x337c": "bn_spine2",
-            "parentNodeName 0x338c": "ang01",
-            "transform 0x34e0": {
-                "rotation 0x3540": {
+            "name": "c5_shock_smk",
+            "parentJointName": "bn_spine2",
+            "parentNodeName": "ang01",
+            "transform": {
+                "rotation": {
                     "0x355c": 0.0,
                     "0x356c": 15.84000015258789,
                     "0x357c": 88.99199676513672
                 },
-                "translation 0x3580": {
+                "translation": {
                     "0x359c": 0.0,
                     "0x35ac": 0.0,
                     "0x35bc": 0.0
                 }
             },
-            "type 0x33ac": "effect",
-            "uuid 0x33bc": "{adce7a12-6eed-48f6-9db2-2c9019e4d356}"
+            "type": "effect",
+            "uuid": "{adce7a12-6eed-48f6-9db2-2c9019e4d356}"
         },
         "0x35c0": {
-            "clips 0x3690": {
+            "clips": {
                 "0x36b0": {
-                    "endFrame 0x36fc": 344.0,
-                    "startFrame 0x370c": 240.0
+                    "endFrame": 344.0,
+                    "startFrame": 240.0
                 }
             },
-            "name 0x365c": "c6_hand_point",
-            "transform 0x3710": {
-                "translation 0x3750": {
+            "name": "c6_hand_point",
+            "transform": {
+                "translation": {
                     "0x376c": -0.24797199666500092,
                     "0x377c": 0.06696099787950516,
                     "0x378c": -0.01960499957203865
                 }
             },
-            "type 0x367c": "node",
-            "uuid 0x368c": "{30efb4df-f752-49b8-9b02-431061c17e63}"
+            "type": "node",
+            "uuid": "{30efb4df-f752-49b8-9b02-431061c17e63}"
         },
         "0x3790": {
-            "clips 0x38a0": {
+            "clips": {
                 "0x38c0": {
-                    "endFrame 0x391c": 344.0,
-                    "startFrame 0x392c": 240.0,
-                    "visibilityOffset 0x393c": 0.0
+                    "endFrame": 344.0,
+                    "startFrame": 240.0,
+                    "visibilityOffset": 0.0
                 }
             },
-            "effect 0x3940": {
-                "modelName 0x398c": "ef_dm_ep26_00500m_ang_ks_02",
-                "scale 0x39a0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_02",
+                "scale": {
                     "0x39bc": 1.0,
                     "0x39cc": 1.0,
                     "0x39dc": 1.0
                 }
             },
-            "name 0x385c": "c6_ks_l_2",
-            "parentNodeName 0x386c": "c6_hand_point",
-            "transform 0x39e0": {
-                "rotation 0x3a40": {
+            "name": "c6_ks_l_2",
+            "parentNodeName": "c6_hand_point",
+            "transform": {
+                "rotation": {
                     "0x3a5c": 80.0,
                     "0x3a6c": -140.0,
                     "0x3a7c": 0.0
                 },
-                "translation 0x3a80": {
+                "translation": {
                     "0x3a9c": 93.25111389160156,
                     "0x3aac": 108.56774139404297,
                     "0x3abc": 59.713497161865234
                 }
             },
-            "type 0x388c": "effect",
-            "uuid 0x389c": "{1f55655c-91f2-4bd6-9eec-3dc1b954869f}"
+            "type": "effect",
+            "uuid": "{1f55655c-91f2-4bd6-9eec-3dc1b954869f}"
         },
         "0x3ac0": {
-            "clips 0x3c10": {
+            "clips": {
                 "0x3c30": {
-                    "endFrame 0x3c8c": 344.0,
-                    "startFrame 0x3c9c": 300.0,
-                    "visibilityOffset 0x3cac": 0.0
+                    "endFrame": 344.0,
+                    "startFrame": 300.0,
+                    "visibilityOffset": 0.0
                 }
             },
-            "effect 0x3cb0": {
-                "modelName 0x3cfc": "ef_dm_ep26_00500m_ang_ks_02",
-                "scale 0x3d10": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_02",
+                "scale": {
                     "0x3d2c": 1.0,
                     "0x3d3c": 1.0,
                     "0x3d4c": 1.0
                 }
             },
-            "name 0x3bbc": "c6_ks_r_1",
-            "parentJointName 0x3bcc": "loc_l_hand",
-            "parentNodeName 0x3bdc": "ang01",
-            "transform 0x3d50": {
-                "rotation 0x3db0": {
+            "name": "c6_ks_r_1",
+            "parentJointName": "loc_l_hand",
+            "parentNodeName": "ang01",
+            "transform": {
+                "rotation": {
                     "0x3dcc": 10.0,
                     "0x3ddc": 0.0,
                     "0x3dec": -98.0
                 },
-                "translation 0x3df0": {
+                "translation": {
                     "0x3e0c": 0.0,
                     "0x3e1c": 0.0,
                     "0x3e2c": 0.0
                 }
             },
-            "type 0x3bfc": "effect",
-            "uuid 0x3c0c": "{32b2ed4c-9f64-4c2c-97ec-147a6660d003}"
+            "type": "effect",
+            "uuid": "{32b2ed4c-9f64-4c2c-97ec-147a6660d003}"
         },
         "0x3c0": {
-            "animations 0x510": {
-                "pointlight 0x550": {
-                    "/root/G2PointLight1/G2PointLightShape1 0x590": {
-                        "lightIntensity 0x5d0": {
-                            "keyframes 0x610": {
+            "animations": {
+                "pointlight": {
+                    "/root/G2PointLight1/G2PointLightShape1": {
+                        "lightIntensity": {
+                            "keyframes": {
                                 "0x640": {
-                                    "key 0x68c": 10.0,
-                                    "time 0x69c": 510.0
+                                    "key": 10.0,
+                                    "time": 510.0
                                 },
                                 "0x6a0": {
-                                    "key 0x6ec": 0.0,
-                                    "time 0x6fc": 569.0
+                                    "key": 0.0,
+                                    "time": 569.0
                                 }
                             }
                         }
                     }
                 }
             },
-            "clips 0x700": {
+            "clips": {
                 "0x720": {
-                    "endFrame 0x76c": 569.0,
-                    "startFrame 0x77c": 490.0
+                    "endFrame": 569.0,
+                    "startFrame": 490.0
                 }
             },
-            "effect 0x780": {
-                "modelName 0x7bc": "ef_dm_ep26_00500m_nvwol_smk_02"
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_nvwol_smk_02"
             },
-            "name 0x4cc": "c10_nvwol_smk_01",
-            "pointlight 0x7c0": {
-                "/root/G2PointLight1/G2PointLightShape1 0x800": {
-                    "lightColorB 0x88c": 0.9372549057006836,
-                    "lightColorG 0x89c": 0.9372549057006836,
-                    "lightColorR 0x8ac": 1.0,
-                    "lightIntensity 0x8bc": 10.0,
-                    "outerRadius 0x8cc": 74.0999984741211
+            "name": "c10_nvwol_smk_01",
+            "pointlight": {
+                "/root/G2PointLight1/G2PointLightShape1": {
+                    "lightColorB": 0.9372549057006836,
+                    "lightColorG": 0.9372549057006836,
+                    "lightColorR": 1.0,
+                    "lightIntensity": 10.0,
+                    "outerRadius": 74.0999984741211
                 }
             },
-            "transform 0x8d0": {
-                "translation 0x910": {
+            "transform": {
+                "translation": {
                     "0x92c": 70.48636627197266,
                     "0x93c": 96.96887969970703,
                     "0x94c": 27.724241256713867
                 }
             },
-            "type 0x4fc": "effect",
-            "uuid 0x50c": "{87951a96-ba13-4b44-84ce-929e211b4e09}"
+            "type": "effect",
+            "uuid": "{87951a96-ba13-4b44-84ce-929e211b4e09}"
         },
         "0x3e30": {
-            "clips 0x3f40": {
+            "clips": {
                 "0x3f60": {
-                    "endFrame 0x3fbc": 344.0,
-                    "startFrame 0x3fcc": 240.0,
-                    "visibilityOffset 0x3fdc": 0.0
+                    "endFrame": 344.0,
+                    "startFrame": 240.0,
+                    "visibilityOffset": 0.0
                 }
             },
-            "effect 0x3fe0": {
-                "modelName 0x402c": "ef_dm_ep26_00500m_ang_ks_02",
-                "scale 0x4040": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_02",
+                "scale": {
                     "0x405c": 1.0,
                     "0x406c": 1.0,
                     "0x407c": 1.0
                 }
             },
-            "name 0x3efc": "c6_ks_r_2",
-            "parentNodeName 0x3f0c": "c6_hand_point",
-            "transform 0x4080": {
-                "rotation 0x40e0": {
+            "name": "c6_ks_r_2",
+            "parentNodeName": "c6_hand_point",
+            "transform": {
+                "rotation": {
                     "0x40fc": -100.0,
                     "0x410c": 30.0,
                     "0x411c": 0.0
                 },
-                "translation 0x4120": {
+                "translation": {
                     "0x413c": 93.25111389160156,
                     "0x414c": 108.56774139404297,
                     "0x415c": 59.713497161865234
                 }
             },
-            "type 0x3f2c": "effect",
-            "uuid 0x3f3c": "{6169c260-8f7f-4a4a-bd74-7756ca8a99ab}"
+            "type": "effect",
+            "uuid": "{6169c260-8f7f-4a4a-bd74-7756ca8a99ab}"
         },
         "0x4160": {
-            "clips 0x4250": {
+            "clips": {
                 "0x4270": {
-                    "endFrame 0x42bc": 389.0,
-                    "startFrame 0x42cc": 345.0
+                    "endFrame": 389.0,
+                    "startFrame": 345.0
                 }
             },
-            "effect 0x42d0": {
-                "modelName 0x430c": "ef_dm_ep26_00500m_ang_ks_grow_01"
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01"
             },
-            "name 0x421c": "c7_drg_grow_01",
-            "transform 0x4310": {
-                "translation 0x4350": {
+            "name": "c7_drg_grow_01",
+            "transform": {
+                "translation": {
                     "0x436c": 81.06261444091797,
                     "0x437c": 94.75276184082031,
                     "0x438c": 17.112808227539062
                 }
             },
-            "type 0x423c": "effect",
-            "uuid 0x424c": "{028199e0-259f-4d57-9c75-0fc2d4833d17}"
+            "type": "effect",
+            "uuid": "{028199e0-259f-4d57-9c75-0fc2d4833d17}"
         },
         "0x4390": {
-            "clips 0x4480": {
+            "clips": {
                 "0x44a0": {
-                    "endFrame 0x44ec": 389.0,
-                    "startFrame 0x44fc": 350.0
+                    "endFrame": 389.0,
+                    "startFrame": 350.0
                 }
             },
-            "effect 0x4500": {
-                "modelName 0x453c": "ef_dm_ep26_00500m_ang_ks_grow_01"
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01"
             },
-            "name 0x444c": "c7_drg_grow_02",
-            "transform 0x4540": {
-                "rotation 0x45a0": {
+            "name": "c7_drg_grow_02",
+            "transform": {
+                "rotation": {
                     "0x45bc": 36.57600021362305,
                     "0x45cc": 0.0,
                     "0x45dc": 0.0
                 },
-                "translation 0x45e0": {
+                "translation": {
                     "0x45fc": 76.19780731201172,
                     "0x460c": 96.05626678466797,
                     "0x461c": 15.040300369262695
                 }
             },
-            "type 0x446c": "effect",
-            "uuid 0x447c": "{1d2a6e45-769b-4b3b-8a30-1eddd29e0c5d}"
+            "type": "effect",
+            "uuid": "{1d2a6e45-769b-4b3b-8a30-1eddd29e0c5d}"
         },
         "0x4620": {
-            "clips 0x4710": {
+            "clips": {
                 "0x4730": {
-                    "endFrame 0x477c": 389.0,
-                    "startFrame 0x478c": 352.0
+                    "endFrame": 389.0,
+                    "startFrame": 352.0
                 }
             },
-            "effect 0x4790": {
-                "modelName 0x47cc": "ef_dm_ep26_00500m_ang_ks_grow_01"
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01"
             },
-            "name 0x46dc": "c7_drg_grow_03",
-            "transform 0x47d0": {
-                "rotation 0x4830": {
+            "name": "c7_drg_grow_03",
+            "transform": {
+                "rotation": {
                     "0x484c": -78.6240005493164,
                     "0x485c": 0.0,
                     "0x486c": 0.0
                 },
-                "translation 0x4870": {
+                "translation": {
                     "0x488c": 79.89327239990234,
                     "0x489c": 94.61640167236328,
                     "0x48ac": 12.041303634643555
                 }
             },
-            "type 0x46fc": "effect",
-            "uuid 0x470c": "{66527b42-ac01-4440-97eb-8329c0c7c833}"
+            "type": "effect",
+            "uuid": "{66527b42-ac01-4440-97eb-8329c0c7c833}"
         },
         "0x48b0": {
-            "clips 0x49a0": {
+            "clips": {
                 "0x49c0": {
-                    "endFrame 0x4a0c": 389.0,
-                    "startFrame 0x4a1c": 370.0
+                    "endFrame": 389.0,
+                    "startFrame": 370.0
                 }
             },
-            "effect 0x4a20": {
-                "modelName 0x4a6c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x4a80": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x4a9c": 1.2000000476837158,
                     "0x4aac": 1.0,
                     "0x4abc": 1.0
                 }
             },
-            "name 0x496c": "c7_drg_grow_04",
-            "transform 0x4ac0": {
-                "rotation 0x4b20": {
+            "name": "c7_drg_grow_04",
+            "transform": {
+                "rotation": {
                     "0x4b3c": 57.599998474121094,
                     "0x4b4c": 36.57600021362305,
                     "0x4b5c": 0.0
                 },
-                "translation 0x4b60": {
+                "translation": {
                     "0x4b7c": 72.5065689086914,
                     "0x4b8c": 98.33493041992188,
                     "0x4b9c": 12.198501586914062
                 }
             },
-            "type 0x498c": "effect",
-            "uuid 0x499c": "{8f5ed1a3-877c-4837-b3b3-5ed6290c5a95}"
+            "type": "effect",
+            "uuid": "{8f5ed1a3-877c-4837-b3b3-5ed6290c5a95}"
         },
         "0x4ba0": {
-            "clips 0x4c90": {
+            "clips": {
                 "0x4cb0": {
-                    "endFrame 0x4cfc": 389.0,
-                    "startFrame 0x4d0c": 352.0
+                    "endFrame": 389.0,
+                    "startFrame": 352.0
                 }
             },
-            "effect 0x4d10": {
-                "modelName 0x4d5c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x4d70": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x4d8c": 0.699999988079071,
                     "0x4d9c": 1.0,
                     "0x4dac": 1.0
                 }
             },
-            "name 0x4c5c": "c7_drg_grow_05",
-            "transform 0x4db0": {
-                "rotation 0x4e10": {
+            "name": "c7_drg_grow_05",
+            "transform": {
+                "rotation": {
                     "0x4e2c": 36.57600021362305,
                     "0x4e3c": 0.0,
                     "0x4e4c": 0.0
                 },
-                "translation 0x4e50": {
+                "translation": {
                     "0x4e6c": 75.57730865478516,
                     "0x4e7c": 95.88602447509766,
                     "0x4e8c": 16.238927841186523
                 }
             },
-            "type 0x4c7c": "effect",
-            "uuid 0x4c8c": "{5a650e3f-5e35-4698-bd90-b51a4fb773e5}"
+            "type": "effect",
+            "uuid": "{5a650e3f-5e35-4698-bd90-b51a4fb773e5}"
         },
         "0x4e90": {
-            "clips 0x4f80": {
+            "clips": {
                 "0x4fa0": {
-                    "endFrame 0x4fec": 389.0,
-                    "startFrame 0x4ffc": 359.0
+                    "endFrame": 389.0,
+                    "startFrame": 359.0
                 }
             },
-            "effect 0x5000": {
-                "modelName 0x504c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x5060": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x507c": 0.800000011920929,
                     "0x508c": 1.0,
                     "0x509c": 1.0
                 }
             },
-            "name 0x4f4c": "c7_drg_grow_06",
-            "transform 0x50a0": {
-                "rotation 0x5100": {
+            "name": "c7_drg_grow_06",
+            "transform": {
+                "rotation": {
                     "0x511c": 57.599998474121094,
                     "0x512c": -47.231998443603516,
                     "0x513c": 0.0
                 },
-                "translation 0x5140": {
+                "translation": {
                     "0x515c": 73.7093734741211,
                     "0x516c": 94.40718078613281,
                     "0x517c": 16.57380485534668
                 }
             },
-            "type 0x4f6c": "effect",
-            "uuid 0x4f7c": "{06e3574e-00a0-4243-a0d8-e7e640760d18}"
+            "type": "effect",
+            "uuid": "{06e3574e-00a0-4243-a0d8-e7e640760d18}"
         },
         "0x5180": {
-            "clips 0x5270": {
+            "clips": {
                 "0x5290": {
-                    "endFrame 0x52dc": 389.0,
-                    "startFrame 0x52ec": 360.0
+                    "endFrame": 389.0,
+                    "startFrame": 360.0
                 }
             },
-            "effect 0x52f0": {
-                "modelName 0x533c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x5350": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x536c": 0.800000011920929,
                     "0x537c": 1.0,
                     "0x538c": 1.0
                 }
             },
-            "name 0x523c": "c7_drg_grow_07",
-            "transform 0x5390": {
-                "rotation 0x53f0": {
+            "name": "c7_drg_grow_07",
+            "transform": {
+                "rotation": {
                     "0x540c": 57.599998474121094,
                     "0x541c": 15.84000015258789,
                     "0x542c": 0.0
                 },
-                "translation 0x5430": {
+                "translation": {
                     "0x544c": 74.17288970947266,
                     "0x545c": 93.83794403076172,
                     "0x546c": 17.32463264465332
                 }
             },
-            "type 0x525c": "effect",
-            "uuid 0x526c": "{1aced2b2-353c-49c5-b7b5-f4305f832c0c}"
+            "type": "effect",
+            "uuid": "{1aced2b2-353c-49c5-b7b5-f4305f832c0c}"
         },
         "0x5470": {
-            "clips 0x5560": {
+            "clips": {
                 "0x5580": {
-                    "endFrame 0x55cc": 389.0,
-                    "startFrame 0x55dc": 351.0
+                    "endFrame": 389.0,
+                    "startFrame": 351.0
                 }
             },
-            "effect 0x55e0": {
-                "modelName 0x562c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x5640": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x565c": 0.699999988079071,
                     "0x566c": 1.0,
                     "0x567c": 1.0
                 }
             },
-            "name 0x552c": "c7_drg_grow_08",
-            "transform 0x5680": {
-                "rotation 0x56e0": {
+            "name": "c7_drg_grow_08",
+            "transform": {
+                "rotation": {
                     "0x56fc": 36.57600021362305,
                     "0x570c": 0.0,
                     "0x571c": 0.0
                 },
-                "translation 0x5720": {
+                "translation": {
                     "0x573c": 77.304443359375,
                     "0x574c": 96.13786315917969,
                     "0x575c": 15.93024730682373
                 }
             },
-            "type 0x554c": "effect",
-            "uuid 0x555c": "{02553ef3-4da3-4cc7-80b5-e689cf7d2d2a}"
+            "type": "effect",
+            "uuid": "{02553ef3-4da3-4cc7-80b5-e689cf7d2d2a}"
         },
         "0x5760": {
-            "clips 0x5850": {
+            "clips": {
                 "0x5870": {
-                    "endFrame 0x58bc": 389.0,
-                    "startFrame 0x58cc": 370.0
+                    "endFrame": 389.0,
+                    "startFrame": 370.0
                 }
             },
-            "effect 0x58d0": {
-                "modelName 0x591c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x5930": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x594c": 0.699999988079071,
                     "0x595c": 1.0,
                     "0x596c": 1.0
                 }
             },
-            "name 0x581c": "c7_drg_grow_09",
-            "transform 0x5970": {
-                "rotation 0x59d0": {
+            "name": "c7_drg_grow_09",
+            "transform": {
+                "rotation": {
                     "0x59ec": 36.57600021362305,
                     "0x59fc": 0.0,
                     "0x5a0c": 0.0
                 },
-                "translation 0x5a10": {
+                "translation": {
                     "0x5a2c": 82.4765853881836,
                     "0x5a3c": 93.27706909179688,
                     "0x5a4c": 18.22422218322754
                 }
             },
-            "type 0x583c": "effect",
-            "uuid 0x584c": "{c3145ec9-1737-45aa-b4c1-a8737fc651a9}"
+            "type": "effect",
+            "uuid": "{c3145ec9-1737-45aa-b4c1-a8737fc651a9}"
         },
         "0x5a50": {
-            "clips 0x5b40": {
+            "clips": {
                 "0x5b60": {
-                    "endFrame 0x5bac": 389.0,
-                    "startFrame 0x5bbc": 365.0
+                    "endFrame": 389.0,
+                    "startFrame": 365.0
                 }
             },
-            "effect 0x5bc0": {
-                "modelName 0x5c0c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x5c20": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x5c3c": 0.699999988079071,
                     "0x5c4c": 1.0,
                     "0x5c5c": 1.0
                 }
             },
-            "name 0x5b0c": "c7_drg_grow_10",
-            "transform 0x5c60": {
-                "rotation 0x5cc0": {
+            "name": "c7_drg_grow_10",
+            "transform": {
+                "rotation": {
                     "0x5cdc": 36.57600021362305,
                     "0x5cec": 0.0,
                     "0x5cfc": 0.0
                 },
-                "translation 0x5d00": {
+                "translation": {
                     "0x5d1c": 77.5776138305664,
                     "0x5d2c": 93.51583862304688,
                     "0x5d3c": 21.340986251831055
                 }
             },
-            "type 0x5b2c": "effect",
-            "uuid 0x5b3c": "{2a28f501-b8a4-41f9-965a-02292d9eed12}"
+            "type": "effect",
+            "uuid": "{2a28f501-b8a4-41f9-965a-02292d9eed12}"
         },
         "0x5d40": {
-            "clips 0x5e30": {
+            "clips": {
                 "0x5e50": {
-                    "endFrame 0x5eac": 389.0,
-                    "startFrame 0x5ebc": 325.0,
-                    "visibilityOffset 0x5ecc": 20.0
+                    "endFrame": 389.0,
+                    "startFrame": 325.0,
+                    "visibilityOffset": 20.0
                 }
             },
-            "effect 0x5ed0": {
-                "modelName 0x5f1c": "ef_dm_ep26_00500m_ang_ks_02",
-                "scale 0x5f30": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_02",
+                "scale": {
                     "0x5f4c": 2.5,
                     "0x5f5c": 1.0,
                     "0x5f6c": 1.0
                 }
             },
-            "name 0x5dfc": "c7_ks",
-            "transform 0x5f70": {
-                "rotation 0x5fd0": {
+            "name": "c7_ks",
+            "transform": {
+                "rotation": {
                     "0x5fec": -36.57600021362305,
                     "0x5ffc": 0.0,
                     "0x600c": 151.7760009765625
                 },
-                "translation 0x6010": {
+                "translation": {
                     "0x602c": 83.45183563232422,
                     "0x603c": 121.87190246582031,
                     "0x604c": 43.1302604675293
                 }
             },
-            "type 0x5e1c": "effect",
-            "uuid 0x5e2c": "{475bccdf-f1dd-4822-9c14-7744a4cb7acb}"
+            "type": "effect",
+            "uuid": "{475bccdf-f1dd-4822-9c14-7744a4cb7acb}"
         },
         "0x6050": {
-            "clips 0x6120": {
+            "clips": {
                 "0x6140": {
-                    "endFrame 0x618c": 389.0,
-                    "startFrame 0x619c": 345.0
+                    "endFrame": 389.0,
+                    "startFrame": 345.0
                 }
             },
-            "effect 0x61a0": {
-                "modelName 0x61dc": "ef_ep26_00500m_nvwol_crystal_00"
+            "effect": {
+                "modelName": "ef_ep26_00500m_nvwol_crystal_00"
             },
-            "name 0x60fc": "c7_nvwol_crystal",
-            "type 0x610c": "effect",
-            "uuid 0x611c": "{a8d6def6-db7a-4bca-bc13-851c41e27574}"
+            "name": "c7_nvwol_crystal",
+            "type": "effect",
+            "uuid": "{a8d6def6-db7a-4bca-bc13-851c41e27574}"
         },
         "0x61e0": {
-            "clips 0x62d0": {
+            "clips": {
                 "0x62f0": {
-                    "endFrame 0x633c": 434.0,
-                    "startFrame 0x634c": 390.0
+                    "endFrame": 434.0,
+                    "startFrame": 390.0
                 }
             },
-            "effect 0x6350": {
-                "modelName 0x639c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x63b0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x63cc": 1.2000000476837158,
                     "0x63dc": 1.0,
                     "0x63ec": 1.0
                 }
             },
-            "name 0x629c": "c8_drg_grow_01",
-            "transform 0x63f0": {
-                "rotation 0x6450": {
+            "name": "c8_drg_grow_01",
+            "transform": {
+                "rotation": {
                     "0x646c": 88.99199676513672,
                     "0x647c": 371.8080139160156,
                     "0x648c": 0.0
                 },
-                "translation 0x6490": {
+                "translation": {
                     "0x64ac": 53.717716217041016,
                     "0x64bc": 97.67414855957031,
                     "0x64cc": 28.119548797607422
                 }
             },
-            "type 0x62bc": "effect",
-            "uuid 0x62cc": "{62c5da97-ef9f-48e5-a69f-9495cc341f6d}"
+            "type": "effect",
+            "uuid": "{62c5da97-ef9f-48e5-a69f-9495cc341f6d}"
         },
         "0x64d0": {
-            "clips 0x65c0": {
+            "clips": {
                 "0x65e0": {
-                    "endFrame 0x662c": 434.0,
-                    "startFrame 0x663c": 393.0
+                    "endFrame": 434.0,
+                    "startFrame": 393.0
                 }
             },
-            "effect 0x6640": {
-                "modelName 0x668c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x66a0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x66bc": 1.0,
                     "0x66cc": 1.0,
                     "0x66dc": 1.0
                 }
             },
-            "name 0x658c": "c8_drg_grow_02",
-            "transform 0x66e0": {
-                "rotation 0x6740": {
+            "name": "c8_drg_grow_02",
+            "transform": {
+                "rotation": {
                     "0x675c": 88.99199676513672,
                     "0x676c": 371.8080139160156,
                     "0x677c": 0.0
                 },
-                "translation 0x6780": {
+                "translation": {
                     "0x679c": 52.90138626098633,
                     "0x67ac": 98.95769500732422,
                     "0x67bc": 28.218368530273438
                 }
             },
-            "type 0x65ac": "effect",
-            "uuid 0x65bc": "{21fa5f76-c148-4f0b-9b50-1bd7af814a6d}"
+            "type": "effect",
+            "uuid": "{21fa5f76-c148-4f0b-9b50-1bd7af814a6d}"
         },
         "0x67c0": {
-            "clips 0x68b0": {
+            "clips": {
                 "0x68d0": {
-                    "endFrame 0x691c": 434.0,
-                    "startFrame 0x692c": 395.0
+                    "endFrame": 434.0,
+                    "startFrame": 395.0
                 }
             },
-            "effect 0x6930": {
-                "modelName 0x697c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x6990": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x69ac": 1.5,
                     "0x69bc": 1.0,
                     "0x69cc": 1.0
                 }
             },
-            "name 0x687c": "c8_drg_grow_03",
-            "transform 0x69d0": {
-                "rotation 0x6a30": {
+            "name": "c8_drg_grow_03",
+            "transform": {
+                "rotation": {
                     "0x6a4c": -15.84000015258789,
                     "0x6a5c": 15.84000015258789,
                     "0x6a6c": 0.0
                 },
-                "translation 0x6a70": {
+                "translation": {
                     "0x6a8c": 58.05836486816406,
                     "0x6a9c": 101.65372467041016,
                     "0x6aac": 27.550912857055664
                 }
             },
-            "type 0x689c": "effect",
-            "uuid 0x68ac": "{aa33c735-7e25-4e68-bcbf-e96e98453f2d}"
+            "type": "effect",
+            "uuid": "{aa33c735-7e25-4e68-bcbf-e96e98453f2d}"
         },
         "0x6ab0": {
-            "clips 0x6ba0": {
+            "clips": {
                 "0x6bc0": {
-                    "endFrame 0x6c0c": 434.0,
-                    "startFrame 0x6c1c": 391.0
+                    "endFrame": 434.0,
+                    "startFrame": 391.0
                 }
             },
-            "effect 0x6c20": {
-                "modelName 0x6c6c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x6c80": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x6c9c": 1.100000023841858,
                     "0x6cac": 1.0,
                     "0x6cbc": 1.0
                 }
             },
-            "name 0x6b6c": "c8_drg_grow_04",
-            "transform 0x6cc0": {
-                "rotation 0x6d20": {
+            "name": "c8_drg_grow_04",
+            "transform": {
+                "rotation": {
                     "0x6d3c": -47.231998443603516,
                     "0x6d4c": 15.84000015258789,
                     "0x6d5c": 0.0
                 },
-                "translation 0x6d60": {
+                "translation": {
                     "0x6d7c": 53.384727478027344,
                     "0x6d8c": 103.58721923828125,
                     "0x6d9c": 29.95846176147461
                 }
             },
-            "type 0x6b8c": "effect",
-            "uuid 0x6b9c": "{22162b4d-ca3c-4642-8fe9-5893465fbd77}"
+            "type": "effect",
+            "uuid": "{22162b4d-ca3c-4642-8fe9-5893465fbd77}"
         },
         "0x6da0": {
-            "clips 0x6e90": {
+            "clips": {
                 "0x6eb0": {
-                    "endFrame 0x6efc": 434.0,
-                    "startFrame 0x6f0c": 400.0
+                    "endFrame": 434.0,
+                    "startFrame": 400.0
                 }
             },
-            "effect 0x6f10": {
-                "modelName 0x6f5c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x6f70": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x6f8c": 1.0,
                     "0x6f9c": 1.0,
                     "0x6fac": 1.0
                 }
             },
-            "name 0x6e5c": "c8_drg_grow_05",
-            "transform 0x6fb0": {
-                "rotation 0x7010": {
+            "name": "c8_drg_grow_05",
+            "transform": {
+                "rotation": {
                     "0x702c": -47.231998443603516,
                     "0x703c": 15.84000015258789,
                     "0x704c": 0.0
                 },
-                "translation 0x7050": {
+                "translation": {
                     "0x706c": 59.78225326538086,
                     "0x707c": 103.97605895996094,
                     "0x708c": 30.148359298706055
                 }
             },
-            "type 0x6e7c": "effect",
-            "uuid 0x6e8c": "{4a435ca9-88fd-45c9-9707-d1a75186c35c}"
+            "type": "effect",
+            "uuid": "{4a435ca9-88fd-45c9-9707-d1a75186c35c}"
         },
         "0x7090": {
-            "clips 0x7180": {
+            "clips": {
                 "0x71a0": {
-                    "endFrame 0x71ec": 434.0,
-                    "startFrame 0x71fc": 396.0
+                    "endFrame": 434.0,
+                    "startFrame": 396.0
                 }
             },
-            "effect 0x7200": {
-                "modelName 0x724c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x7260": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x727c": 0.699999988079071,
                     "0x728c": 1.0,
                     "0x729c": 1.0
                 }
             },
-            "name 0x714c": "c8_drg_grow_06",
-            "transform 0x72a0": {
-                "rotation 0x7300": {
+            "name": "c8_drg_grow_06",
+            "transform": {
+                "rotation": {
                     "0x731c": -15.84000015258789,
                     "0x732c": 88.99199676513672,
                     "0x733c": 0.0
                 },
-                "translation 0x7340": {
+                "translation": {
                     "0x735c": 62.47980880737305,
                     "0x736c": 101.91957092285156,
                     "0x737c": 25.287899017333984
                 }
             },
-            "type 0x716c": "effect",
-            "uuid 0x717c": "{266a7aa2-1643-4707-aa2c-d4b54cfb5178}"
+            "type": "effect",
+            "uuid": "{266a7aa2-1643-4707-aa2c-d4b54cfb5178}"
         },
         "0x7380": {
-            "clips 0x7470": {
+            "clips": {
                 "0x7490": {
-                    "endFrame 0x74dc": 434.0,
-                    "startFrame 0x74ec": 405.0
+                    "endFrame": 434.0,
+                    "startFrame": 405.0
                 }
             },
-            "effect 0x74f0": {
-                "modelName 0x753c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x7550": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x756c": 1.399999976158142,
                     "0x757c": 1.0,
                     "0x758c": 1.0
                 }
             },
-            "name 0x743c": "c8_drg_grow_07",
-            "transform 0x7590": {
-                "rotation 0x75f0": {
+            "name": "c8_drg_grow_07",
+            "transform": {
+                "rotation": {
                     "0x760c": 57.599998474121094,
                     "0x761c": -5.184000015258789,
                     "0x762c": 0.0
                 },
-                "translation 0x7630": {
+                "translation": {
                     "0x764c": 60.182071685791016,
                     "0x765c": 100.82884979248047,
                     "0x766c": 22.90853500366211
                 }
             },
-            "type 0x745c": "effect",
-            "uuid 0x746c": "{38957507-17b1-4c4b-8600-0cf50e1ee2d8}"
+            "type": "effect",
+            "uuid": "{38957507-17b1-4c4b-8600-0cf50e1ee2d8}"
         },
         "0x7670": {
-            "clips 0x7760": {
+            "clips": {
                 "0x7780": {
-                    "endFrame 0x77cc": 434.0,
-                    "startFrame 0x77dc": 410.0
+                    "endFrame": 434.0,
+                    "startFrame": 410.0
                 }
             },
-            "effect 0x77e0": {
-                "modelName 0x782c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x7840": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x785c": 1.0,
                     "0x786c": 1.0,
                     "0x787c": 1.0
                 }
             },
-            "name 0x772c": "c8_drg_grow_08",
-            "transform 0x7880": {
-                "rotation 0x78e0": {
+            "name": "c8_drg_grow_08",
+            "transform": {
+                "rotation": {
                     "0x78fc": -47.231998443603516,
                     "0x790c": 15.84000015258789,
                     "0x791c": 0.0
                 },
-                "translation 0x7920": {
+                "translation": {
                     "0x793c": 59.837913513183594,
                     "0x794c": 104.40821075439453,
                     "0x795c": 31.183311462402344
                 }
             },
-            "type 0x774c": "effect",
-            "uuid 0x775c": "{1fe8c315-cd3d-4df0-98c9-52459b3bf713}"
+            "type": "effect",
+            "uuid": "{1fe8c315-cd3d-4df0-98c9-52459b3bf713}"
         },
         "0x7960": {
-            "clips 0x7a50": {
+            "clips": {
                 "0x7a70": {
-                    "endFrame 0x7abc": 434.0,
-                    "startFrame 0x7acc": 398.0
+                    "endFrame": 434.0,
+                    "startFrame": 398.0
                 }
             },
-            "effect 0x7ad0": {
-                "modelName 0x7b1c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x7b30": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x7b4c": 1.0,
                     "0x7b5c": 1.0,
                     "0x7b6c": 1.0
                 }
             },
-            "name 0x7a1c": "c8_drg_grow_09",
-            "transform 0x7b70": {
-                "rotation 0x7bd0": {
+            "name": "c8_drg_grow_09",
+            "transform": {
+                "rotation": {
                     "0x7bec": 49.24800109863281,
                     "0x7bfc": -69.12000274658203,
                     "0x7c0c": 29.663999557495117
                 },
-                "translation 0x7c10": {
+                "translation": {
                     "0x7c2c": 66.74143981933594,
                     "0x7c3c": 106.2752456665039,
                     "0x7c4c": 22.949644088745117
                 }
             },
-            "type 0x7a3c": "effect",
-            "uuid 0x7a4c": "{8dff3792-90a4-4019-a5b0-9c441f30feb9}"
+            "type": "effect",
+            "uuid": "{8dff3792-90a4-4019-a5b0-9c441f30feb9}"
         },
         "0x7c50": {
-            "clips 0x7d40": {
+            "clips": {
                 "0x7d60": {
-                    "endFrame 0x7dac": 434.0,
-                    "startFrame 0x7dbc": 394.0
+                    "endFrame": 434.0,
+                    "startFrame": 394.0
                 }
             },
-            "effect 0x7dc0": {
-                "modelName 0x7e0c": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x7e20": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x7e3c": 1.0,
                     "0x7e4c": 1.0,
                     "0x7e5c": 1.0
                 }
             },
-            "name 0x7d0c": "c8_drg_grow_10",
-            "transform 0x7e60": {
-                "rotation 0x7ec0": {
+            "name": "c8_drg_grow_10",
+            "transform": {
+                "rotation": {
                     "0x7edc": 49.24800109863281,
                     "0x7eec": -69.12000274658203,
                     "0x7efc": 29.663999557495117
                 },
-                "translation 0x7f00": {
+                "translation": {
                     "0x7f1c": 58.0573616027832,
                     "0x7f2c": 98.66417694091797,
                     "0x7f3c": 19.30500030517578
                 }
             },
-            "type 0x7d2c": "effect",
-            "uuid 0x7d3c": "{6806bf7a-4923-4ff4-bc0e-4499d1b0d5a2}"
+            "type": "effect",
+            "uuid": "{6806bf7a-4923-4ff4-bc0e-4499d1b0d5a2}"
         },
         "0x7f40": {
-            "clips 0x8030": {
+            "clips": {
                 "0x8050": {
-                    "endFrame 0x809c": 434.0,
-                    "startFrame 0x80ac": 400.0
+                    "endFrame": 434.0,
+                    "startFrame": 400.0
                 }
             },
-            "effect 0x80b0": {
-                "modelName 0x80fc": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x8110": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x812c": 1.2000000476837158,
                     "0x813c": 1.0,
                     "0x814c": 1.0
                 }
             },
-            "name 0x7ffc": "c8_drg_grow_11",
-            "transform 0x8150": {
-                "rotation 0x81b0": {
+            "name": "c8_drg_grow_11",
+            "transform": {
+                "rotation": {
                     "0x81cc": 108.57599639892578,
                     "0x81dc": 0.0,
                     "0x81ec": 0.0
                 },
-                "translation 0x81f0": {
+                "translation": {
                     "0x820c": 55.782535552978516,
                     "0x821c": 107.6119384765625,
                     "0x822c": 33.418601989746094
                 }
             },
-            "type 0x801c": "effect",
-            "uuid 0x802c": "{25d4b50c-3a85-4299-8ac0-25c593730a1f}"
+            "type": "effect",
+            "uuid": "{25d4b50c-3a85-4299-8ac0-25c593730a1f}"
         },
         "0x8230": {
-            "clips 0x8320": {
+            "clips": {
                 "0x8340": {
-                    "endFrame 0x838c": 434.0,
-                    "startFrame 0x839c": 404.0
+                    "endFrame": 434.0,
+                    "startFrame": 404.0
                 }
             },
-            "effect 0x83a0": {
-                "modelName 0x83ec": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x8400": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x841c": 1.0,
                     "0x842c": 1.0,
                     "0x843c": 1.0
                 }
             },
-            "name 0x82ec": "c8_drg_grow_12",
-            "transform 0x8440": {
-                "rotation 0x84a0": {
+            "name": "c8_drg_grow_12",
+            "transform": {
+                "rotation": {
                     "0x84bc": 108.57599639892578,
                     "0x84cc": 0.0,
                     "0x84dc": 0.0
                 },
-                "translation 0x84e0": {
+                "translation": {
                     "0x84fc": 66.22024536132812,
                     "0x850c": 109.01171875,
                     "0x851c": 26.99605369567871
                 }
             },
-            "type 0x830c": "effect",
-            "uuid 0x831c": "{b001bb21-3629-4ef1-a565-3db2964d8c10}"
+            "type": "effect",
+            "uuid": "{b001bb21-3629-4ef1-a565-3db2964d8c10}"
         },
         "0x8520": {
-            "clips 0x8610": {
+            "clips": {
                 "0x8630": {
-                    "endFrame 0x867c": 434.0,
-                    "startFrame 0x868c": 412.0
+                    "endFrame": 434.0,
+                    "startFrame": 412.0
                 }
             },
-            "effect 0x8690": {
-                "modelName 0x86dc": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x86f0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x870c": 0.5,
                     "0x871c": 1.0,
                     "0x872c": 1.0
                 }
             },
-            "name 0x85dc": "c8_drg_grow_13",
-            "transform 0x8730": {
-                "rotation 0x8790": {
+            "name": "c8_drg_grow_13",
+            "transform": {
+                "rotation": {
                     "0x87ac": 108.57599639892578,
                     "0x87bc": 0.0,
                     "0x87cc": 0.0
                 },
-                "translation 0x87d0": {
+                "translation": {
                     "0x87ec": 67.25103759765625,
                     "0x87fc": 108.57896423339844,
                     "0x880c": 26.885265350341797
                 }
             },
-            "type 0x85fc": "effect",
-            "uuid 0x860c": "{0a509642-8899-4954-a02c-5553be103587}"
+            "type": "effect",
+            "uuid": "{0a509642-8899-4954-a02c-5553be103587}"
         },
         "0x8810": {
-            "clips 0x8900": {
+            "clips": {
                 "0x8920": {
-                    "endFrame 0x896c": 434.0,
-                    "startFrame 0x897c": 420.0
+                    "endFrame": 434.0,
+                    "startFrame": 420.0
                 }
             },
-            "effect 0x8980": {
-                "modelName 0x89cc": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x89e0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x89fc": 1.7000000476837158,
                     "0x8a0c": 1.0,
                     "0x8a1c": 1.0
                 }
             },
-            "name 0x88cc": "c8_drg_grow_14",
-            "transform 0x8a20": {
-                "rotation 0x8a80": {
+            "name": "c8_drg_grow_14",
+            "transform": {
+                "rotation": {
                     "0x8a9c": 167.61599731445312,
                     "0x8aac": 39.45600128173828,
                     "0x8abc": 0.0
                 },
-                "translation 0x8ac0": {
+                "translation": {
                     "0x8adc": 69.49565887451172,
                     "0x8aec": 108.4135971069336,
                     "0x8afc": 17.162580490112305
                 }
             },
-            "type 0x88ec": "effect",
-            "uuid 0x88fc": "{074bbca8-deec-4588-a09e-2b3dab405f45}"
+            "type": "effect",
+            "uuid": "{074bbca8-deec-4588-a09e-2b3dab405f45}"
         },
         "0x8b00": {
-            "clips 0x8bf0": {
+            "clips": {
                 "0x8c10": {
-                    "endFrame 0x8c5c": 434.0,
-                    "startFrame 0x8c6c": 399.0
+                    "endFrame": 434.0,
+                    "startFrame": 399.0
                 }
             },
-            "effect 0x8c70": {
-                "modelName 0x8cbc": "ef_dm_ep26_00500m_ang_ks_grow_01",
-                "scale 0x8cd0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_grow_01",
+                "scale": {
                     "0x8cec": 1.0,
                     "0x8cfc": 1.0,
                     "0x8d0c": 1.0
                 }
             },
-            "name 0x8bbc": "c8_drg_grow_15",
-            "transform 0x8d10": {
-                "rotation 0x8d70": {
+            "name": "c8_drg_grow_15",
+            "transform": {
+                "rotation": {
                     "0x8d8c": 141.4080047607422,
                     "0x8d9c": 392.8320007324219,
                     "0x8dac": 15.84000015258789
                 },
-                "translation 0x8db0": {
+                "translation": {
                     "0x8dcc": 66.4792251586914,
                     "0x8ddc": 103.88899230957031,
                     "0x8dec": 13.565192222595215
                 }
             },
-            "type 0x8bdc": "effect",
-            "uuid 0x8bec": "{a47c063b-e214-4a82-9438-0c1478fa90f7}"
+            "type": "effect",
+            "uuid": "{a47c063b-e214-4a82-9438-0c1478fa90f7}"
         },
         "0x8df0": {
-            "clips 0x8ee0": {
+            "clips": {
                 "0x8f00": {
-                    "endFrame 0x8f4c": 434.0,
-                    "startFrame 0x8f5c": 370.0
+                    "endFrame": 434.0,
+                    "startFrame": 370.0
                 }
             },
-            "effect 0x8f60": {
-                "modelName 0x8fac": "ef_dm_ep26_00500m_ang_ks_02",
-                "scale 0x8fc0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_02",
+                "scale": {
                     "0x8fdc": 2.5,
                     "0x8fec": 1.0,
                     "0x8ffc": 1.0
                 }
             },
-            "name 0x8eac": "c8_ks",
-            "transform 0x9000": {
-                "rotation 0x9060": {
+            "name": "c8_ks",
+            "transform": {
+                "rotation": {
                     "0x907c": -78.6240005493164,
                     "0x908c": 47.231998443603516,
                     "0x909c": 0.0
                 },
-                "translation 0x90a0": {
+                "translation": {
                     "0x90bc": 75.20211791992188,
                     "0x90cc": 101.1093978881836,
                     "0x90dc": 42.96240234375
                 }
             },
-            "type 0x8ecc": "effect",
-            "uuid 0x8edc": "{0a38b586-48f3-49d4-b561-83534c5b0d10}"
+            "type": "effect",
+            "uuid": "{0a38b586-48f3-49d4-b561-83534c5b0d10}"
         },
         "0x90e0": {
-            "clips 0x91d0": {
+            "clips": {
                 "0x91f0": {
-                    "endFrame 0x923c": 434.0,
-                    "startFrame 0x924c": 390.0
+                    "endFrame": 434.0,
+                    "startFrame": 390.0
                 }
             },
-            "effect 0x9250": {
-                "modelName 0x929c": "ef_ep26_00500m_nvwol_crystal_01",
-                "scale 0x92b0": {
+            "effect": {
+                "modelName": "ef_ep26_00500m_nvwol_crystal_01",
+                "scale": {
                     "0x92cc": 1.0,
                     "0x92dc": 1.0,
                     "0x92ec": 1.0
                 }
             },
-            "name 0x919c": "c8_nvwol_crystal",
-            "transform 0x92f0": {
-                "translation 0x9330": {
+            "name": "c8_nvwol_crystal",
+            "transform": {
+                "translation": {
                     "0x934c": 0.0,
                     "0x935c": 0.0,
                     "0x936c": 0.0
                 }
             },
-            "type 0x91bc": "effect",
-            "uuid 0x91cc": "{24905c07-2f2d-4ff9-a6e5-f2b3c603ab68}"
+            "type": "effect",
+            "uuid": "{24905c07-2f2d-4ff9-a6e5-f2b3c603ab68}"
         },
         "0x9370": {
-            "clips 0x94c0": {
+            "clips": {
                 "0x94e0": {
-                    "endFrame 0x952c": 509.0,
-                    "startFrame 0x953c": 430.0
+                    "endFrame": 509.0,
+                    "startFrame": 430.0
                 }
             },
-            "effect 0x9540": {
-                "modelName 0x959c": "ef_dm_ep26_00500m_ang_ks_03",
-                "scale 0x95c0": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_03",
+                "scale": {
                     "0x95dc": 1.0,
                     "0x95ec": 1.0,
                     "0x95fc": 1.0
                 },
-                "targetNodeName 0x95bc": "c9_ks_point"
+                "targetNodeName": "c9_ks_point"
             },
-            "name 0x946c": "c9_ks_l",
-            "parentJointName 0x947c": "loc_l_hand",
-            "parentNodeName 0x948c": "ang01",
-            "transform 0x9600": {
-                "rotation 0x9660": {
+            "name": "c9_ks_l",
+            "parentJointName": "loc_l_hand",
+            "parentNodeName": "ang01",
+            "transform": {
+                "rotation": {
                     "0x967c": 0.0,
                     "0x968c": 0.0,
                     "0x969c": 0.0
                 },
-                "translation 0x96a0": {
+                "translation": {
                     "0x96bc": 0.031943999230861664,
                     "0x96cc": -0.06909199804067612,
                     "0x96dc": -0.009185999631881714
                 }
             },
-            "type 0x94ac": "effect",
-            "uuid 0x94bc": "{2a875fba-529a-4947-ab42-b1c645acb070}"
+            "type": "effect",
+            "uuid": "{2a875fba-529a-4947-ab42-b1c645acb070}"
         },
         "0x950": {
-            "animations 0xaa0": {
-                "pointlight 0xae0": {
-                    "/root/G2PointLight1/G2PointLightShape1 0xb20": {
-                        "lightIntensity 0xb60": {
-                            "keyframes 0xba0": {
+            "animations": {
+                "pointlight": {
+                    "/root/G2PointLight1/G2PointLightShape1": {
+                        "lightIntensity": {
+                            "keyframes": {
                                 "0xbd0": {
-                                    "key 0xc1c": 10.0,
-                                    "time 0xc2c": 510.0
+                                    "key": 10.0,
+                                    "time": 510.0
                                 },
                                 "0xc30": {
-                                    "key 0xc7c": 0.0,
-                                    "time 0xc8c": 569.0
+                                    "key": 0.0,
+                                    "time": 569.0
                                 }
                             }
                         }
                     }
                 }
             },
-            "clips 0xc90": {
+            "clips": {
                 "0xcb0": {
-                    "endFrame 0xcfc": 569.0,
-                    "startFrame 0xd0c": 500.0
+                    "endFrame": 569.0,
+                    "startFrame": 500.0
                 }
             },
-            "effect 0xd10": {
-                "modelName 0xd4c": "ef_dm_ep26_00500m_nvwol_smk_02"
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_nvwol_smk_02"
             },
-            "name 0xa5c": "c10_nvwol_smk_02",
-            "pointlight 0xd50": {
-                "/root/G2PointLight1/G2PointLightShape1 0xd90": {
-                    "lightColorB 0xe1c": 0.9372549057006836,
-                    "lightColorG 0xe2c": 0.9372549057006836,
-                    "lightColorR 0xe3c": 1.0,
-                    "lightIntensity 0xe4c": 10.0,
-                    "outerRadius 0xe5c": 74.0999984741211
+            "name": "c10_nvwol_smk_02",
+            "pointlight": {
+                "/root/G2PointLight1/G2PointLightShape1": {
+                    "lightColorB": 0.9372549057006836,
+                    "lightColorG": 0.9372549057006836,
+                    "lightColorR": 1.0,
+                    "lightIntensity": 10.0,
+                    "outerRadius": 74.0999984741211
                 }
             },
-            "transform 0xe60": {
-                "translation 0xea0": {
+            "transform": {
+                "translation": {
                     "0xebc": 61.58922576904297,
                     "0xecc": 99.61969757080078,
                     "0xedc": 34.407615661621094
                 }
             },
-            "type 0xa8c": "effect",
-            "uuid 0xa9c": "{b4f8e0f4-d9d7-48f0-af12-5dc3bc03b52c}"
+            "type": "effect",
+            "uuid": "{b4f8e0f4-d9d7-48f0-af12-5dc3bc03b52c}"
         },
         "0x96e0": {
-            "clips 0x97b0": {
+            "clips": {
                 "0x97d0": {
-                    "endFrame 0x981c": 509.0,
-                    "startFrame 0x982c": 430.0
+                    "endFrame": 509.0,
+                    "startFrame": 430.0
                 }
             },
-            "name 0x977c": "c9_ks_point",
-            "transform 0x9830": {
-                "translation 0x9870": {
+            "name": "c9_ks_point",
+            "transform": {
+                "translation": {
                     "0x988c": 92.27325439453125,
                     "0x989c": 107.75567626953125,
                     "0x98ac": 58.59375762939453
                 }
             },
-            "type 0x979c": "node",
-            "uuid 0x97ac": "{8879eb45-efd6-441e-a642-f4f30f94f3a8}"
+            "type": "node",
+            "uuid": "{8879eb45-efd6-441e-a642-f4f30f94f3a8}"
         },
         "0x98b0": {
-            "clips 0x9a00": {
+            "clips": {
                 "0x9a20": {
-                    "endFrame 0x9a6c": 509.0,
-                    "startFrame 0x9a7c": 430.0
+                    "endFrame": 509.0,
+                    "startFrame": 430.0
                 }
             },
-            "effect 0x9a80": {
-                "modelName 0x9adc": "ef_dm_ep26_00500m_ang_ks_03",
-                "scale 0x9b00": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_03",
+                "scale": {
                     "0x9b1c": 1.0,
                     "0x9b2c": 1.0,
                     "0x9b3c": 1.0
                 },
-                "targetNodeName 0x9afc": "c9_ks_point"
+                "targetNodeName": "c9_ks_point"
             },
-            "name 0x99ac": "c9_ks_r",
-            "parentJointName 0x99bc": "loc_r_hand",
-            "parentNodeName 0x99cc": "ang01",
-            "transform 0x9b40": {
-                "rotation 0x9ba0": {
+            "name": "c9_ks_r",
+            "parentJointName": "loc_r_hand",
+            "parentNodeName": "ang01",
+            "transform": {
+                "rotation": {
                     "0x9bbc": 0.0,
                     "0x9bcc": 0.0,
                     "0x9bdc": 0.0
                 },
-                "translation 0x9be0": {
+                "translation": {
                     "0x9bfc": -0.06102399900555611,
                     "0x9c0c": -0.07171600311994553,
                     "0x9c1c": 0.00013000000035390258
                 }
             },
-            "type 0x99ec": "effect",
-            "uuid 0x99fc": "{8ae90e89-b514-43ba-bed4-d8c3f23a08de}"
+            "type": "effect",
+            "uuid": "{8ae90e89-b514-43ba-bed4-d8c3f23a08de}"
         },
         "0x9c20": {
-            "clips 0x9d10": {
+            "clips": {
                 "0x9d30": {
-                    "endFrame 0x9d8c": 389.0,
-                    "startFrame 0x9d9c": 325.0,
-                    "visibilityOffset 0x9dac": 20.0
+                    "endFrame": 389.0,
+                    "startFrame": 325.0,
+                    "visibilityOffset": 20.0
                 }
             },
-            "effect 0x9db0": {
-                "modelName 0x9dfc": "ef_dm_ep26_00500m_ang_ks_02",
-                "scale 0x9e10": {
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_ang_ks_02",
+                "scale": {
                     "0x9e2c": 2.5,
                     "0x9e3c": 1.0,
                     "0x9e4c": 1.0
                 }
             },
-            "name 0x9cdc": "c7_ks01",
-            "transform 0x9e50": {
-                "rotation 0x9eb0": {
+            "name": "c7_ks01",
+            "transform": {
+                "rotation": {
                     "0x9ecc": -36.57600021362305,
                     "0x9edc": 0.0,
                     "0x9eec": 151.7760009765625
                 },
-                "translation 0x9ef0": {
+                "translation": {
                     "0x9f0c": 91.87776184082031,
                     "0x9f1c": 121.14228057861328,
                     "0x9f2c": 41.62820816040039
                 }
             },
-            "type 0x9cfc": "effect",
-            "uuid 0x9d0c": "{66041be4-0e21-4246-aa90-8125ad12f961}"
+            "type": "effect",
+            "uuid": "{66041be4-0e21-4246-aa90-8125ad12f961}"
         },
         "0x9f30": {
-            "clips 0xa020": {
+            "clips": {
                 "0xa040": {
-                    "endFrame 0xa08c": 569.0,
-                    "startFrame 0xa09c": 0.0
+                    "endFrame": 569.0,
+                    "startFrame": 0.0
                 }
             },
-            "effect 0xa0a0": {
-                "modelName 0xa0dc": "ef_dm_ep26_00750m_snow_fall_01"
+            "effect": {
+                "modelName": "ef_dm_ep26_00750m_snow_fall_01"
             },
-            "name 0x9fec": "snow_c1",
-            "transform 0xa0e0": {
-                "translation 0xa120": {
+            "name": "snow_c1",
+            "transform": {
+                "translation": {
                     "0xa13c": 95.88722229003906,
                     "0xa14c": 89.74620819091797,
                     "0xa15c": 53.20180130004883
                 }
             },
-            "type 0xa00c": "effect",
-            "uuid 0xa01c": "{e8efe577-f54c-48b6-be5a-44bc1ee51e69}"
+            "type": "effect",
+            "uuid": "{e8efe577-f54c-48b6-be5a-44bc1ee51e69}"
         },
         "0xee0": {
-            "animations 0x1030": {
-                "pointlight 0x1070": {
-                    "/root/G2PointLight1/G2PointLightShape1 0x10b0": {
-                        "lightIntensity 0x10f0": {
-                            "keyframes 0x1130": {
+            "animations": {
+                "pointlight": {
+                    "/root/G2PointLight1/G2PointLightShape1": {
+                        "lightIntensity": {
+                            "keyframes": {
                                 "0x1160": {
-                                    "key 0x11ac": 10.0,
-                                    "time 0x11bc": 510.0
+                                    "key": 10.0,
+                                    "time": 510.0
                                 },
                                 "0x11c0": {
-                                    "key 0x120c": 0.0,
-                                    "time 0x121c": 569.0
+                                    "key": 0.0,
+                                    "time": 569.0
                                 }
                             }
                         }
                     }
                 }
             },
-            "clips 0x1220": {
+            "clips": {
                 "0x1240": {
-                    "endFrame 0x128c": 569.0,
-                    "startFrame 0x129c": 490.0
+                    "endFrame": 569.0,
+                    "startFrame": 490.0
                 }
             },
-            "effect 0x12a0": {
-                "modelName 0x12dc": "ef_dm_ep26_00500m_nvwol_smk_01"
+            "effect": {
+                "modelName": "ef_dm_ep26_00500m_nvwol_smk_01"
             },
-            "name 0xfec": "c10_nvwol_smk_mesh",
-            "pointlight 0x12e0": {
-                "/root/G2PointLight1/G2PointLightShape1 0x1320": {
-                    "lightColorB 0x13ac": 0.9372549057006836,
-                    "lightColorG 0x13bc": 0.9372549057006836,
-                    "lightColorR 0x13cc": 1.0,
-                    "lightIntensity 0x13dc": 10.0,
-                    "outerRadius 0x13ec": 74.0999984741211
+            "name": "c10_nvwol_smk_mesh",
+            "pointlight": {
+                "/root/G2PointLight1/G2PointLightShape1": {
+                    "lightColorB": 0.9372549057006836,
+                    "lightColorG": 0.9372549057006836,
+                    "lightColorR": 1.0,
+                    "lightIntensity": 10.0,
+                    "outerRadius": 74.0999984741211
                 }
             },
-            "transform 0x13f0": {
-                "translation 0x1430": {
+            "transform": {
+                "translation": {
                     "0x144c": 4.796442985534668,
                     "0x145c": -0.03175299987196922,
                     "0x146c": 2.899333953857422
                 }
             },
-            "type 0x101c": "effect",
-            "uuid 0x102c": "{f8e28109-d566-4d8e-a0ae-73ed93265256}"
+            "type": "effect",
+            "uuid": "{f8e28109-d566-4d8e-a0ae-73ed93265256}"
         }
     }
 }

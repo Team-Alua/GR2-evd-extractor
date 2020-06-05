@@ -1,0 +1,1689 @@
+{
+    "animjoint 9c2354a2 0x70": {
+        "0x1170": {
+            "anim 5025dec5 0x125c": "attack_a 2587aac2",
+            "attr b238a810 0x124c": "Wind 273d4194",
+            "force 8488a979 0x13a0": {
+                "0x13bc": 15.0,
+                "0x13cc": 10.0
+            },
+            "force_vector fea656d6 0x129c": "charaZ 2ae1cee9",
+            "layout ff7cc1ca 0x12f0": {
+                "pos 89643354 0x1330": {
+                    "0x134c": 0.0,
+                    "0x135c": 0.0,
+                    "0x136c": -2.0
+                }
+            },
+            "parent fdfccdea 0x127c": "loc_hand_col 9ec76289",
+            "shape 26d9c39d 0x12c0": {
+                "0x12dc": "Sphere 38a32d22",
+                "0x12ec": 5.5
+            },
+            "timing 37012fb5 0x1370": {
+                "0x138c": 53.0,
+                "0x139c": 60.0
+            }
+        },
+        "0x13d0": {
+            "anim 5025dec5 0x148c": "attack_grab_a a8a45a80",
+            "attr b238a810 0x146c": "Grab 5fd8c621",
+            "layout ff7cc1ca 0x14f0": {
+                "pos 89643354 0x1530": {
+                    "0x154c": 0.0,
+                    "0x155c": 20.0,
+                    "0x156c": 0.0
+                }
+            },
+            "shape 26d9c39d 0x14c0": {
+                "0x14dc": "Sphere 38a32d22",
+                "0x14ec": 0.0
+            },
+            "timing 37012fb5 0x1570": {
+                "0x158c": 36.0,
+                "0x159c": 50.0
+            },
+            "userData 82c5915a 0x147c": "grab_punch 78c2550e"
+        },
+        "0x15a0": {
+            "anim 5025dec5 0x165c": "attack_grab_a a8a45a80",
+            "attr b238a810 0x163c": "Grab 5fd8c621",
+            "parent fdfccdea 0x167c": "loc_hand_col 9ec76289",
+            "shape 26d9c39d 0x1690": {
+                "0x16ac": "Sphere 38a32d22",
+                "0x16bc": 6.0
+            },
+            "timing 37012fb5 0x16c0": {
+                "0x16dc": 36.0,
+                "0x16ec": 50.0
+            },
+            "userData 82c5915a 0x164c": "grab_punch 78c2550e"
+        },
+        "0x16f0": {
+            "anim 5025dec5 0x17bc": "attack_shock_wave 08c48bf5",
+            "attr b238a810 0x179c": "Attack 1d33a98b",
+            "force_vector fea656d6 0x17ec": "groundBlast 94add702",
+            "parent fdfccdea 0x17dc": "bn_c02_spine0 177ffc3d",
+            "shape 26d9c39d 0x1800": {
+                "0x181c": "Sphere 38a32d22",
+                "0x182c": 9.0
+            },
+            "timing 37012fb5 0x1830": {
+                "0x184c": 106.0,
+                "0x185c": 116.0
+            },
+            "userData 82c5915a 0x17ac": "attack_shockwave 3de7d07d"
+        },
+        "0x1860": {
+            "anim 5025dec5 0x194c": "attack_shock_wave 08c48bf5",
+            "attr b238a810 0x193c": "Wind 273d4194",
+            "force 8488a979 0x1a10": {
+                "0x1a2c": 15.0,
+                "0x1a3c": 10.0
+            },
+            "force_vector fea656d6 0x197c": "outward bd9cd93e",
+            "force_vector fea656d6 0x199c": "groundBlast 94add702",
+            "parent fdfccdea 0x196c": "bn_c02_spine0 177ffc3d",
+            "shape 26d9c39d 0x19b0": {
+                "0x19cc": "Sphere 38a32d22",
+                "0x19dc": 11.5
+            },
+            "timing 37012fb5 0x19e0": {
+                "0x19fc": 106.0,
+                "0x1a0c": 116.0
+            }
+        },
+        "0x1a40": {
+            "amplitude a26a7416 0x1bf0": {
+                "0x1c0c": 0.10000000149011612
+            },
+            "anim 5025dec5 0x1b2c": "spawn 984d223a",
+            "attr b238a810 0x1b1c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x1c30": {
+                "0x1c4c": 40.0
+            },
+            "durationSec 6a40e549 0x1bd0": {
+                "0x1bec": 1.2000000476837158
+            },
+            "frequency 011cb32f 0x1c10": {
+                "0x1c2c": 1.5
+            },
+            "timing 37012fb5 0x1b90": {
+                "0x1bac": 5.0
+            },
+            "waveSlot 8871ad8d 0x1bb0": {
+                "0x1bcc": 0.0
+            }
+        },
+        "0x1c50": {
+            "amplitude a26a7416 0x1e00": {
+                "0x1e1c": 0.15000000596046448
+            },
+            "anim 5025dec5 0x1d3c": "spawn 984d223a",
+            "attr b238a810 0x1d2c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x1e40": {
+                "0x1e5c": 40.0
+            },
+            "durationSec 6a40e549 0x1de0": {
+                "0x1dfc": 1.0
+            },
+            "frequency 011cb32f 0x1e20": {
+                "0x1e3c": 4.0
+            },
+            "timing 37012fb5 0x1da0": {
+                "0x1dbc": 31.0
+            },
+            "waveSlot 8871ad8d 0x1dc0": {
+                "0x1ddc": 0.0
+            }
+        },
+        "0x1e60": {
+            "amplitude a26a7416 0x2010": {
+                "0x202c": 0.05999999865889549
+            },
+            "anim 5025dec5 0x1f4c": "spawn 984d223a",
+            "attr b238a810 0x1f3c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x2050": {
+                "0x206c": 40.0
+            },
+            "durationSec 6a40e549 0x1ff0": {
+                "0x200c": 6.0
+            },
+            "frequency 011cb32f 0x2030": {
+                "0x204c": 3.5
+            },
+            "timing 37012fb5 0x1fb0": {
+                "0x1fcc": 44.0
+            },
+            "waveSlot 8871ad8d 0x1fd0": {
+                "0x1fec": 0.0
+            }
+        },
+        "0x2070": {
+            "amplitude a26a7416 0x2220": {
+                "0x223c": 0.10000000149011612
+            },
+            "anim 5025dec5 0x215c": "spawn 984d223a",
+            "attr b238a810 0x214c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x2260": {
+                "0x227c": 40.0
+            },
+            "durationSec 6a40e549 0x2200": {
+                "0x221c": 0.4000000059604645
+            },
+            "frequency 011cb32f 0x2240": {
+                "0x225c": 5.0
+            },
+            "timing 37012fb5 0x21c0": {
+                "0x21dc": 112.0
+            },
+            "waveSlot 8871ad8d 0x21e0": {
+                "0x21fc": 0.0
+            }
+        },
+        "0x2280": {
+            "amplitude a26a7416 0x2430": {
+                "0x244c": 0.10000000149011612
+            },
+            "anim 5025dec5 0x236c": "spawn 984d223a",
+            "attr b238a810 0x235c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x2470": {
+                "0x248c": 40.0
+            },
+            "durationSec 6a40e549 0x2410": {
+                "0x242c": 0.6000000238418579
+            },
+            "frequency 011cb32f 0x2450": {
+                "0x246c": 5.0
+            },
+            "timing 37012fb5 0x23d0": {
+                "0x23ec": 144.0
+            },
+            "waveSlot 8871ad8d 0x23f0": {
+                "0x240c": 0.0
+            }
+        },
+        "0x2490": {
+            "amplitude a26a7416 0x2640": {
+                "0x265c": 0.10000000149011612
+            },
+            "anim 5025dec5 0x257c": "turn_l a9f288f0",
+            "attr b238a810 0x256c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x2680": {
+                "0x269c": 30.0
+            },
+            "durationSec 6a40e549 0x2620": {
+                "0x263c": 0.4000000059604645
+            },
+            "frequency 011cb32f 0x2660": {
+                "0x267c": 7.0
+            },
+            "timing 37012fb5 0x25e0": {
+                "0x25fc": 24.0
+            },
+            "waveSlot 8871ad8d 0x2600": {
+                "0x261c": 0.0
+            }
+        },
+        "0x26a0": {
+            "amplitude a26a7416 0x2850": {
+                "0x286c": 0.10000000149011612
+            },
+            "anim 5025dec5 0x278c": "turn_r 37e988ea",
+            "attr b238a810 0x277c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x2890": {
+                "0x28ac": 30.0
+            },
+            "durationSec 6a40e549 0x2830": {
+                "0x284c": 0.4000000059604645
+            },
+            "frequency 011cb32f 0x2870": {
+                "0x288c": 7.0
+            },
+            "timing 37012fb5 0x27f0": {
+                "0x280c": 21.0
+            },
+            "waveSlot 8871ad8d 0x2810": {
+                "0x282c": 0.0
+            }
+        },
+        "0x28b0": {
+            "amplitude a26a7416 0x2a80": {
+                "0x2a9c": 0.15000000596046448
+            },
+            "anim 5025dec5 0x29ac": "attack_a 2587aac2",
+            "attr b238a810 0x299c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x2ac0": {
+                "0x2adc": 40.0
+            },
+            "durationSec 6a40e549 0x2a60": {
+                "0x2a7c": 2.0
+            },
+            "frequency 011cb32f 0x2aa0": {
+                "0x2abc": 2.0
+            },
+            "parent fdfccdea 0x29bc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x2a20": {
+                "0x2a3c": 2.0
+            },
+            "waveSlot 8871ad8d 0x2a40": {
+                "0x2a5c": 0.0
+            }
+        },
+        "0x2ae0": {
+            "amplitude a26a7416 0x2cb0": {
+                "0x2ccc": 1.25
+            },
+            "anim 5025dec5 0x2bdc": "attack_a 2587aac2",
+            "attr b238a810 0x2bcc": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x2cf0": {
+                "0x2d0c": 40.0
+            },
+            "durationSec 6a40e549 0x2c90": {
+                "0x2cac": 0.30000001192092896
+            },
+            "frequency 011cb32f 0x2cd0": {
+                "0x2cec": 5.0
+            },
+            "parent fdfccdea 0x2bec": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x2c50": {
+                "0x2c6c": 20.0
+            },
+            "waveSlot 8871ad8d 0x2c70": {
+                "0x2c8c": 0.0
+            }
+        },
+        "0x2d10": {
+            "amplitude a26a7416 0x2ee0": {
+                "0x2efc": 0.4000000059604645
+            },
+            "anim 5025dec5 0x2e0c": "attack_a 2587aac2",
+            "attr b238a810 0x2dfc": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x2f20": {
+                "0x2f3c": 40.0
+            },
+            "durationSec 6a40e549 0x2ec0": {
+                "0x2edc": 0.699999988079071
+            },
+            "frequency 011cb32f 0x2f00": {
+                "0x2f1c": 4.0
+            },
+            "parent fdfccdea 0x2e1c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x2e80": {
+                "0x2e9c": 38.0
+            },
+            "waveSlot 8871ad8d 0x2ea0": {
+                "0x2ebc": 0.0
+            }
+        },
+        "0x2f40": {
+            "amplitude a26a7416 0x30f0": {
+                "0x310c": 0.05000000074505806
+            },
+            "anim 5025dec5 0x302c": "attack_shock_wave 08c48bf5",
+            "attr b238a810 0x301c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x3130": {
+                "0x314c": 40.0
+            },
+            "durationSec 6a40e549 0x30d0": {
+                "0x30ec": 6.0
+            },
+            "frequency 011cb32f 0x3110": {
+                "0x312c": 10.0
+            },
+            "timing 37012fb5 0x3090": {
+                "0x30ac": 10.0
+            },
+            "waveSlot 8871ad8d 0x30b0": {
+                "0x30cc": 0.0
+            }
+        },
+        "0x3150": {
+            "amplitude a26a7416 0x3300": {
+                "0x331c": 0.11999999731779099
+            },
+            "anim 5025dec5 0x323c": "attack_shock_wave 08c48bf5",
+            "attr b238a810 0x322c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x3340": {
+                "0x335c": 40.0
+            },
+            "durationSec 6a40e549 0x32e0": {
+                "0x32fc": 1.0
+            },
+            "frequency 011cb32f 0x3320": {
+                "0x333c": 5.0
+            },
+            "timing 37012fb5 0x32a0": {
+                "0x32bc": 110.0
+            },
+            "waveSlot 8871ad8d 0x32c0": {
+                "0x32dc": 0.0
+            }
+        },
+        "0x3360": {
+            "amplitude a26a7416 0x3510": {
+                "0x352c": 0.10000000149011612
+            },
+            "anim 5025dec5 0x344c": "damage_leg_a 73ceb072",
+            "attr b238a810 0x343c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x3550": {
+                "0x356c": 40.0
+            },
+            "durationSec 6a40e549 0x34f0": {
+                "0x350c": 0.699999988079071
+            },
+            "frequency 011cb32f 0x3530": {
+                "0x354c": 3.0
+            },
+            "timing 37012fb5 0x34b0": {
+                "0x34cc": 57.0
+            },
+            "waveSlot 8871ad8d 0x34d0": {
+                "0x34ec": 0.0
+            }
+        },
+        "0x3570": {
+            "amplitude a26a7416 0x3720": {
+                "0x373c": 0.10000000149011612
+            },
+            "anim 5025dec5 0x365c": "ash 7fc87219",
+            "attr b238a810 0x364c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x3760": {
+                "0x377c": 40.0
+            },
+            "durationSec 6a40e549 0x3700": {
+                "0x371c": 0.5
+            },
+            "frequency 011cb32f 0x3740": {
+                "0x375c": 5.0
+            },
+            "timing 37012fb5 0x36c0": {
+                "0x36dc": 113.0
+            },
+            "waveSlot 8871ad8d 0x36e0": {
+                "0x36fc": 0.0
+            }
+        },
+        "0x3780": {
+            "amplitude a26a7416 0x3930": {
+                "0x394c": 0.15000000596046448
+            },
+            "anim 5025dec5 0x386c": "ash 7fc87219",
+            "attr b238a810 0x385c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x3970": {
+                "0x398c": 50.0
+            },
+            "durationSec 6a40e549 0x3910": {
+                "0x392c": 1.5
+            },
+            "frequency 011cb32f 0x3950": {
+                "0x396c": 3.0
+            },
+            "timing 37012fb5 0x38d0": {
+                "0x38ec": 150.0
+            },
+            "waveSlot 8871ad8d 0x38f0": {
+                "0x390c": 0.0
+            }
+        },
+        "0x3990": {
+            "amplitude a26a7416 0x3b40": {
+                "0x3b5c": 0.10000000149011612
+            },
+            "anim 5025dec5 0x3a7c": "ash_punchType d0db037b",
+            "attr b238a810 0x3a6c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x3b80": {
+                "0x3b9c": 40.0
+            },
+            "durationSec 6a40e549 0x3b20": {
+                "0x3b3c": 0.5
+            },
+            "frequency 011cb32f 0x3b60": {
+                "0x3b7c": 5.0
+            },
+            "timing 37012fb5 0x3ae0": {
+                "0x3afc": 113.0
+            },
+            "waveSlot 8871ad8d 0x3b00": {
+                "0x3b1c": 0.0
+            }
+        },
+        "0x3ba0": {
+            "amplitude a26a7416 0x3d50": {
+                "0x3d6c": 0.15000000596046448
+            },
+            "anim 5025dec5 0x3c8c": "ash_punchType d0db037b",
+            "attr b238a810 0x3c7c": "CameraShake 583ff0a4",
+            "distFalloff 111a2a7b 0x3d90": {
+                "0x3dac": 50.0
+            },
+            "durationSec 6a40e549 0x3d30": {
+                "0x3d4c": 1.5
+            },
+            "frequency 011cb32f 0x3d70": {
+                "0x3d8c": 3.0
+            },
+            "timing 37012fb5 0x3cf0": {
+                "0x3d0c": 150.0
+            },
+            "waveSlot 8871ad8d 0x3d10": {
+                "0x3d2c": 0.0
+            }
+        },
+        "0x3db0": {
+            "anim 5025dec5 0x3e1c": "spawn 984d223a",
+            "attr b238a810 0x3e30": {
+                "0x3e4c": "Sound 349acab3",
+                "0x3e5c": "ene_giant_emerge 0dc15331"
+            },
+            "timing 37012fb5 0x3e60": {
+                "0x3e7c": 0.0
+            }
+        },
+        "0x3e80": {
+            "anim 5025dec5 0x3eec": "spawn 984d223a",
+            "attr b238a810 0x3f00": {
+                "0x3f1c": "Sound 349acab3",
+                "0x3f2c": "ene_giant_open 9093e15a"
+            },
+            "timing 37012fb5 0x3f30": {
+                "0x3f4c": 3.0
+            }
+        },
+        "0x3f50": {
+            "anim 5025dec5 0x3fbc": "spawn 984d223a",
+            "attr b238a810 0x3fd0": {
+                "0x3fec": "Sound 349acab3",
+                "0x3ffc": "ene_giant_emerge_righthand fdabd8ee"
+            },
+            "timing 37012fb5 0x4000": {
+                "0x401c": 6.0
+            }
+        },
+        "0x4020": {
+            "anim 5025dec5 0x40ac": "spawn 984d223a",
+            "attr b238a810 0x40d0": {
+                "0x40ec": "Sound 349acab3",
+                "0x40fc": "ene_giant_vo_emerge 2570608f"
+            },
+            "timing 37012fb5 0x4120": {
+                "0x413c": 68.0
+            },
+            "voice f9c99b7f 0x4100": {
+                "0x411c": 1.0
+            }
+        },
+        "0x4140": {
+            "anim 5025dec5 0x41ac": "spawn 984d223a",
+            "attr b238a810 0x41c0": {
+                "0x41dc": "Sound 349acab3",
+                "0x41ec": "ene_giant_emerge_leftfoot 6b251487"
+            },
+            "timing 37012fb5 0x41f0": {
+                "0x420c": 117.0
+            }
+        },
+        "0x4210": {
+            "anim 5025dec5 0x427c": "spawn 984d223a",
+            "attr b238a810 0x4290": {
+                "0x42ac": "Sound 349acab3",
+                "0x42bc": "ene_giant_emerge_rightfoot 20867a4f"
+            },
+            "timing 37012fb5 0x42c0": {
+                "0x42dc": 150.0
+            }
+        },
+        "0x42e0": {
+            "anim 5025dec5 0x434c": "spawn 984d223a",
+            "attr b238a810 0x4360": {
+                "0x437c": "Sound 349acab3",
+                "0x438c": "ene_giant_emerge_rightfoot 20867a4f"
+            },
+            "timing 37012fb5 0x4390": {
+                "0x43ac": 148.0
+            }
+        },
+        "0x43b0": {
+            "anim 5025dec5 0x441c": "spawn 984d223a",
+            "attr b238a810 0x4430": {
+                "0x444c": "Sound 349acab3",
+                "0x445c": "ene_giant_emerge_stand 9a081d49"
+            },
+            "timing 37012fb5 0x4460": {
+                "0x447c": 156.0
+            }
+        },
+        "0x4480": {
+            "anim 5025dec5 0x44ec": "spawn 984d223a",
+            "attr b238a810 0x4500": {
+                "0x451c": "Sound 349acab3",
+                "0x452c": "ene_giant_hole_close 0d89e24f"
+            },
+            "timing 37012fb5 0x4530": {
+                "0x454c": 158.0
+            }
+        },
+        "0x4550": {
+            "anim 5025dec5 0x45bc": "ash 7fc87219",
+            "attr b238a810 0x45d0": {
+                "0x45ec": "Sound 349acab3",
+                "0x45fc": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x4600": {
+                "0x461c": 10.0
+            }
+        },
+        "0x4620": {
+            "anim 5025dec5 0x46ac": "ash 7fc87219",
+            "attr b238a810 0x46d0": {
+                "0x46ec": "Sound 349acab3",
+                "0x46fc": "ene_giant_vo_damaged 7f049a0b"
+            },
+            "timing 37012fb5 0x4720": {
+                "0x473c": 100.0
+            },
+            "voice f9c99b7f 0x4700": {
+                "0x471c": 1.0
+            }
+        },
+        "0x4740": {
+            "anim 5025dec5 0x47ac": "ash 7fc87219",
+            "attr b238a810 0x47c0": {
+                "0x47dc": "Sound 349acab3",
+                "0x47ec": "ene_giant_down_knee 4e463a42"
+            },
+            "timing 37012fb5 0x47f0": {
+                "0x480c": 118.0
+            }
+        },
+        "0x4810": {
+            "anim 5025dec5 0x487c": "ash 7fc87219",
+            "attr b238a810 0x4890": {
+                "0x48ac": "Sound 349acab3",
+                "0x48bc": "ene_giant_down_head ffaf03ca"
+            },
+            "timing 37012fb5 0x48c0": {
+                "0x48dc": 156.0
+            }
+        },
+        "0x48e0": {
+            "anim 5025dec5 0x494c": "ash 7fc87219",
+            "attr b238a810 0x4960": {
+                "0x497c": "Sound 349acab3",
+                "0x498c": "ene_giant_down_disappear ce378dec"
+            },
+            "timing 37012fb5 0x4990": {
+                "0x49ac": 151.0
+            }
+        },
+        "0x49b0": {
+            "anim 5025dec5 0x4a1c": "ash_PunchType 70602a5a",
+            "attr b238a810 0x4a30": {
+                "0x4a4c": "Sound 349acab3",
+                "0x4a5c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x4a60": {
+                "0x4a7c": 10.0
+            }
+        },
+        "0x4a80": {
+            "anim 5025dec5 0x4b0c": "ash_PunchType 70602a5a",
+            "attr b238a810 0x4b30": {
+                "0x4b4c": "Sound 349acab3",
+                "0x4b5c": "ene_giant_vo_damaged 7f049a0b"
+            },
+            "timing 37012fb5 0x4b80": {
+                "0x4b9c": 100.0
+            },
+            "voice f9c99b7f 0x4b60": {
+                "0x4b7c": 1.0
+            }
+        },
+        "0x4ba0": {
+            "anim 5025dec5 0x4c0c": "ash_PunchType 70602a5a",
+            "attr b238a810 0x4c20": {
+                "0x4c3c": "Sound 349acab3",
+                "0x4c4c": "ene_giant_down_knee 4e463a42"
+            },
+            "timing 37012fb5 0x4c50": {
+                "0x4c6c": 118.0
+            }
+        },
+        "0x4c70": {
+            "anim 5025dec5 0x4cdc": "ash_PunchType 70602a5a",
+            "attr b238a810 0x4cf0": {
+                "0x4d0c": "Sound 349acab3",
+                "0x4d1c": "ene_giant_down_head ffaf03ca"
+            },
+            "timing 37012fb5 0x4d20": {
+                "0x4d3c": 156.0
+            }
+        },
+        "0x4d40": {
+            "anim 5025dec5 0x4dac": "ash_PunchType 70602a5a",
+            "attr b238a810 0x4dc0": {
+                "0x4ddc": "Sound 349acab3",
+                "0x4dec": "ene_giant_down_disappear ce378dec"
+            },
+            "timing 37012fb5 0x4df0": {
+                "0x4e0c": 151.0
+            }
+        },
+        "0x4e10": {
+            "anim 5025dec5 0x4e7c": "ash_punchType d0db037b",
+            "attr b238a810 0x4e90": {
+                "0x4eac": "Sound 349acab3",
+                "0x4ebc": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x4ec0": {
+                "0x4edc": 10.0
+            }
+        },
+        "0x4ee0": {
+            "anim 5025dec5 0x4f6c": "ash_punchType d0db037b",
+            "attr b238a810 0x4f90": {
+                "0x4fac": "Sound 349acab3",
+                "0x4fbc": "ene_giant_vo_damaged 7f049a0b"
+            },
+            "timing 37012fb5 0x4fe0": {
+                "0x4ffc": 100.0
+            },
+            "voice f9c99b7f 0x4fc0": {
+                "0x4fdc": 1.0
+            }
+        },
+        "0x5000": {
+            "anim 5025dec5 0x506c": "ash_punchType d0db037b",
+            "attr b238a810 0x5080": {
+                "0x509c": "Sound 349acab3",
+                "0x50ac": "ene_giant_down_knee 4e463a42"
+            },
+            "timing 37012fb5 0x50b0": {
+                "0x50cc": 118.0
+            }
+        },
+        "0x50d0": {
+            "anim 5025dec5 0x513c": "ash_punchType d0db037b",
+            "attr b238a810 0x5150": {
+                "0x516c": "Sound 349acab3",
+                "0x517c": "ene_giant_down_head ffaf03ca"
+            },
+            "timing 37012fb5 0x5180": {
+                "0x519c": 156.0
+            }
+        },
+        "0x51a0": {
+            "anim 5025dec5 0x520c": "turn_l a9f288f0",
+            "attr b238a810 0x5220": {
+                "0x523c": "Sound 349acab3",
+                "0x524c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5250": {
+                "0x526c": 19.0
+            }
+        },
+        "0x5270": {
+            "anim 5025dec5 0x52dc": "turn_l a9f288f0",
+            "attr b238a810 0x52f0": {
+                "0x530c": "Sound 349acab3",
+                "0x531c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5320": {
+                "0x533c": 44.0
+            }
+        },
+        "0x5340": {
+            "anim 5025dec5 0x53ac": "turn_r 37e988ea",
+            "attr b238a810 0x53c0": {
+                "0x53dc": "Sound 349acab3",
+                "0x53ec": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x53f0": {
+                "0x540c": 21.0
+            }
+        },
+        "0x5410": {
+            "anim 5025dec5 0x547c": "turn_r 37e988ea",
+            "attr b238a810 0x5490": {
+                "0x54ac": "Sound 349acab3",
+                "0x54bc": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x54c0": {
+                "0x54dc": 54.0
+            }
+        },
+        "0x54e0": {
+            "anim 5025dec5 0x554c": "attack_a 2587aac2",
+            "attr b238a810 0x5560": {
+                "0x557c": "Sound 349acab3",
+                "0x558c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5590": {
+                "0x55ac": 15.0
+            }
+        },
+        "0x55b0": {
+            "anim 5025dec5 0x561c": "attack_a 2587aac2",
+            "attr b238a810 0x5630": {
+                "0x564c": "Sound 349acab3",
+                "0x565c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5660": {
+                "0x567c": 30.0
+            }
+        },
+        "0x5680": {
+            "anim 5025dec5 0x56ec": "attack_up_a b776dc22",
+            "attr b238a810 0x5700": {
+                "0x571c": "Sound 349acab3",
+                "0x572c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5730": {
+                "0x574c": 13.0
+            }
+        },
+        "0x5750": {
+            "anim 5025dec5 0x57bc": "attack_up_a b776dc22",
+            "attr b238a810 0x57d0": {
+                "0x57ec": "Sound 349acab3",
+                "0x57fc": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5800": {
+                "0x581c": 30.0
+            }
+        },
+        "0x5820": {
+            "anim 5025dec5 0x588c": "attack_c ff83aac0",
+            "attr b238a810 0x58a0": {
+                "0x58bc": "Sound 349acab3",
+                "0x58cc": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x58d0": {
+                "0x58ec": 70.0
+            }
+        },
+        "0x58f0": {
+            "anim 5025dec5 0x595c": "attack_c ff83aac0",
+            "attr b238a810 0x5970": {
+                "0x598c": "Sound 349acab3",
+                "0x599c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x59a0": {
+                "0x59bc": 94.0
+            }
+        },
+        "0x59c0": {
+            "anim 5025dec5 0x5a2c": "attack_up_c dd79dc24",
+            "attr b238a810 0x5a40": {
+                "0x5a5c": "Sound 349acab3",
+                "0x5a6c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5a70": {
+                "0x5a8c": 74.0
+            }
+        },
+        "0x5a90": {
+            "anim 5025dec5 0x5afc": "attack_up_c dd79dc24",
+            "attr b238a810 0x5b10": {
+                "0x5b2c": "Sound 349acab3",
+                "0x5b3c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5b40": {
+                "0x5b5c": 96.0
+            }
+        },
+        "0x5b60": {
+            "anim 5025dec5 0x5bcc": "touched 59218852",
+            "attr b238a810 0x5be0": {
+                "0x5bfc": "Sound 349acab3",
+                "0x5c0c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5c10": {
+                "0x5c2c": 11.0
+            }
+        },
+        "0x5c30": {
+            "anim 5025dec5 0x5c9c": "touched 59218852",
+            "attr b238a810 0x5cb0": {
+                "0x5ccc": "Sound 349acab3",
+                "0x5cdc": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5ce0": {
+                "0x5cfc": 66.0
+            }
+        },
+        "0x5d00": {
+            "anim 5025dec5 0x5d6c": "damaged acdc42ae",
+            "attr b238a810 0x5d80": {
+                "0x5d9c": "Sound 349acab3",
+                "0x5dac": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5db0": {
+                "0x5dcc": 11.0
+            }
+        },
+        "0x5dd0": {
+            "anim 5025dec5 0x5e3c": "damaged acdc42ae",
+            "attr b238a810 0x5e50": {
+                "0x5e6c": "Sound 349acab3",
+                "0x5e7c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5e80": {
+                "0x5e9c": 66.0
+            }
+        },
+        "0x5ea0": {
+            "anim 5025dec5 0x5f0c": "damaged_front 343f3e4c",
+            "attr b238a810 0x5f20": {
+                "0x5f3c": "Sound 349acab3",
+                "0x5f4c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x5f50": {
+                "0x5f6c": 11.0
+            }
+        },
+        "0x5f70": {
+            "anim 5025dec5 0x5fdc": "damaged_front 343f3e4c",
+            "attr b238a810 0x5ff0": {
+                "0x600c": "Sound 349acab3",
+                "0x601c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x6020": {
+                "0x603c": 66.0
+            }
+        },
+        "0x6040": {
+            "anim 5025dec5 0x60ac": "damaged_back e6ca9703",
+            "attr b238a810 0x60c0": {
+                "0x60dc": "Sound 349acab3",
+                "0x60ec": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x60f0": {
+                "0x610c": 16.0
+            }
+        },
+        "0x6110": {
+            "anim 5025dec5 0x617c": "damaged_back e6ca9703",
+            "attr b238a810 0x6190": {
+                "0x61ac": "Sound 349acab3",
+                "0x61bc": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x61c0": {
+                "0x61dc": 87.0
+            }
+        },
+        "0x61e0": {
+            "anim 5025dec5 0x624c": "broken a0d86d78",
+            "attr b238a810 0x6260": {
+                "0x627c": "Sound 349acab3",
+                "0x628c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x6290": {
+                "0x62ac": 16.0
+            }
+        },
+        "0x62b0": {
+            "anim 5025dec5 0x631c": "broken a0d86d78",
+            "attr b238a810 0x6330": {
+                "0x634c": "Sound 349acab3",
+                "0x635c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x6360": {
+                "0x637c": 83.0
+            }
+        },
+        "0x6380": {
+            "anim 5025dec5 0x63ec": "damage_leg_a 73ceb072",
+            "attr b238a810 0x6400": {
+                "0x641c": "Sound 349acab3",
+                "0x642c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x6430": {
+                "0x644c": 16.0
+            }
+        },
+        "0x6450": {
+            "anim 5025dec5 0x64bc": "damage_leg_a 73ceb072",
+            "attr b238a810 0x64d0": {
+                "0x64ec": "Sound 349acab3",
+                "0x64fc": "ene_giant_down d465a262"
+            },
+            "timing 37012fb5 0x6500": {
+                "0x651c": 56.0
+            }
+        },
+        "0x6520": {
+            "anim 5025dec5 0x658c": "damage_leg_c 99d1b074",
+            "attr b238a810 0x65a0": {
+                "0x65bc": "Sound 349acab3",
+                "0x65cc": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x65d0": {
+                "0x65ec": 63.0
+            }
+        },
+        "0x65f0": {
+            "anim 5025dec5 0x665c": "damage_leg_c 99d1b074",
+            "attr b238a810 0x6670": {
+                "0x668c": "Sound 349acab3",
+                "0x669c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x66a0": {
+                "0x66bc": 80.0
+            }
+        },
+        "0x66c0": {
+            "anim 5025dec5 0x674c": "damaged acdc42ae",
+            "attr b238a810 0x6770": {
+                "0x678c": "Sound 349acab3",
+                "0x679c": "ene_giant_vo_damaged 7f049a0b"
+            },
+            "timing 37012fb5 0x67c0": {
+                "0x67dc": 9.0
+            },
+            "voice f9c99b7f 0x67a0": {
+                "0x67bc": 1.0
+            }
+        },
+        "0x67e0": {
+            "anim 5025dec5 0x686c": "damaged_front 343f3e4c",
+            "attr b238a810 0x6890": {
+                "0x68ac": "Sound 349acab3",
+                "0x68bc": "ene_giant_vo_damaged 7f049a0b"
+            },
+            "timing 37012fb5 0x68e0": {
+                "0x68fc": 9.0
+            },
+            "voice f9c99b7f 0x68c0": {
+                "0x68dc": 1.0
+            }
+        },
+        "0x6900": {
+            "anim 5025dec5 0x698c": "damaged_back e6ca9703",
+            "attr b238a810 0x69b0": {
+                "0x69cc": "Sound 349acab3",
+                "0x69dc": "ene_giant_vo_damaged 7f049a0b"
+            },
+            "timing 37012fb5 0x6a00": {
+                "0x6a1c": 9.0
+            },
+            "voice f9c99b7f 0x69e0": {
+                "0x69fc": 1.0
+            }
+        },
+        "0x6a20": {
+            "anim 5025dec5 0x6aac": "damage_leg_a 73ceb072",
+            "attr b238a810 0x6ad0": {
+                "0x6aec": "Sound 349acab3",
+                "0x6afc": "ene_giant_vo_damaged 7f049a0b"
+            },
+            "timing 37012fb5 0x6b20": {
+                "0x6b3c": 0.0
+            },
+            "voice f9c99b7f 0x6b00": {
+                "0x6b1c": 1.0
+            }
+        },
+        "0x6b40": {
+            "anim 5025dec5 0x6bac": "attack_shock_wave 08c48bf5",
+            "attr b238a810 0x6bc0": {
+                "0x6bdc": "Sound 349acab3",
+                "0x6bec": "ene_giant_shockwave 233023f4"
+            },
+            "timing 37012fb5 0x6bf0": {
+                "0x6c0c": 104.0
+            }
+        },
+        "0x6c10": {
+            "anim 5025dec5 0x6c9c": "attack_a 2587aac2",
+            "attr b238a810 0x6cc0": {
+                "0x6cdc": "Sound 349acab3",
+                "0x6cec": "ene_giant_raise 68dbc00f"
+            },
+            "parent fdfccdea 0x6cac": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x6cf0": {
+                "0x6d0c": 17.0
+            }
+        },
+        "0x6d10": {
+            "anim 5025dec5 0x6dac": "attack_a 2587aac2",
+            "attr b238a810 0x6de0": {
+                "0x6dfc": "Sound 349acab3",
+                "0x6e0c": "ene_giant_vo_attack 6cfa3c8e"
+            },
+            "parent fdfccdea 0x6dbc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x6e30": {
+                "0x6e4c": 20.0
+            },
+            "voice f9c99b7f 0x6e10": {
+                "0x6e2c": 1.0
+            }
+        },
+        "0x6e50": {
+            "anim 5025dec5 0x6edc": "attack_a 2587aac2",
+            "attr b238a810 0x6f00": {
+                "0x6f1c": "Sound 349acab3",
+                "0x6f2c": "ene_giant_punch 10e0357f"
+            },
+            "parent fdfccdea 0x6eec": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x6f30": {
+                "0x6f4c": 29.0
+            }
+        },
+        "0x6f50": {
+            "anim 5025dec5 0x6fec": "attack_up_a b776dc22",
+            "attr b238a810 0x7020": {
+                "0x703c": "Sound 349acab3",
+                "0x704c": "ene_giant_vo_attack 6cfa3c8e"
+            },
+            "parent fdfccdea 0x6ffc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7070": {
+                "0x708c": 20.0
+            },
+            "voice f9c99b7f 0x7050": {
+                "0x706c": 1.0
+            }
+        },
+        "0x7090": {
+            "anim 5025dec5 0x711c": "attack_up_a b776dc22",
+            "attr b238a810 0x7140": {
+                "0x715c": "Sound 349acab3",
+                "0x716c": "ene_giant_raise 68dbc00f"
+            },
+            "parent fdfccdea 0x712c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7170": {
+                "0x718c": 22.0
+            }
+        },
+        "0x7190": {
+            "anim 5025dec5 0x721c": "attack_up_a b776dc22",
+            "attr b238a810 0x7240": {
+                "0x725c": "Sound 349acab3",
+                "0x726c": "ene_giant_punch 10e0357f"
+            },
+            "parent fdfccdea 0x722c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7270": {
+                "0x728c": 32.0
+            }
+        },
+        "0x7290": {
+            "anim 5025dec5 0x731c": "attack_b_hit ee1b38a2",
+            "attr b238a810 0x7340": {
+                "0x735c": "Sound 349acab3",
+                "0x736c": "ene_giant_atk f2853883"
+            },
+            "parent fdfccdea 0x732c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7370": {
+                "0x738c": 0.0
+            }
+        },
+        "0x7390": {
+            "anim 5025dec5 0x741c": "attack_up_b_hit 70b17b6c",
+            "attr b238a810 0x7440": {
+                "0x745c": "Sound 349acab3",
+                "0x746c": "ene_giant_atk f2853883"
+            },
+            "parent fdfccdea 0x742c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7470": {
+                "0x748c": 0.0
+            }
+        },
+        "0x7490": {
+            "anim 5025dec5 0x751c": "attack_c ff83aac0",
+            "attr b238a810 0x7540": {
+                "0x755c": "Sound 349acab3",
+                "0x756c": "ene_giant_punch3 19d7cf64"
+            },
+            "parent fdfccdea 0x752c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7570": {
+                "0x758c": 10.0
+            }
+        },
+        "0x7590": {
+            "anim 5025dec5 0x761c": "attack_up_c dd79dc24",
+            "attr b238a810 0x7640": {
+                "0x765c": "Sound 349acab3",
+                "0x766c": "ene_giant_punch3 19d7cf64"
+            },
+            "parent fdfccdea 0x762c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7670": {
+                "0x768c": 10.0
+            }
+        },
+        "0x7690": {
+            "anim 5025dec5 0x771c": "attack_b 6c82aabf",
+            "attr b238a810 0x7740": {
+                "0x775c": "Sound 349acab3",
+                "0x776c": "ene_giant_arm_beat 0b68fab8"
+            },
+            "parent fdfccdea 0x772c": "bn_ra06_forearm2R ce659a2a",
+            "timing 37012fb5 0x7770": {
+                "0x778c": 1.0
+            }
+        },
+        "0x7790": {
+            "anim 5025dec5 0x781c": "attack_up_b 4a78dc23",
+            "attr b238a810 0x7840": {
+                "0x785c": "Sound 349acab3",
+                "0x786c": "ene_giant_arm_beat 0b68fab8"
+            },
+            "parent fdfccdea 0x782c": "bn_ra06_forearm2R ce659a2a",
+            "timing 37012fb5 0x7870": {
+                "0x788c": 1.0
+            }
+        },
+        "0x7890": {
+            "anim 5025dec5 0x791c": "attack_down_b 131e4e36",
+            "attr b238a810 0x7940": {
+                "0x795c": "Sound 349acab3",
+                "0x796c": "ene_giant_arm_beat 0b68fab8"
+            },
+            "parent fdfccdea 0x792c": "bn_ra06_forearm2R ce659a2a",
+            "timing 37012fb5 0x7970": {
+                "0x798c": 1.0
+            }
+        },
+        "0x7990": {
+            "anim 5025dec5 0x7a1c": "attack_b_hit ee1b38a2",
+            "attr b238a810 0x7a40": {
+                "0x7a5c": "Sound 349acab3",
+                "0x7a6c": "ene_giant_atk f2853883"
+            },
+            "parent fdfccdea 0x7a2c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7a70": {
+                "0x7a8c": 0.0
+            }
+        },
+        "0x7a90": {
+            "anim 5025dec5 0x7b1c": "bn_ra06_forearm2R ce659a2a",
+            "attr b238a810 0x7b40": {
+                "0x7b5c": "Sound 349acab3",
+                "0x7b6c": "ene_giant_arm_beat 0b68fab8"
+            },
+            "parent fdfccdea 0x7b2c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7b70": {
+                "0x7b8c": 3.0
+            }
+        },
+        "0x7b90": {
+            "anim 5025dec5 0x7c1c": "attack_up_b_hit 70b17b6c",
+            "attr b238a810 0x7c40": {
+                "0x7c5c": "Sound 349acab3",
+                "0x7c6c": "ene_giant_arm_beat 0b68fab8"
+            },
+            "parent fdfccdea 0x7c2c": "bn_ra06_forearm2R ce659a2a",
+            "timing 37012fb5 0x7c70": {
+                "0x7c8c": 3.0
+            }
+        },
+        "0x7c90": {
+            "anim 5025dec5 0x7d1c": "attack_down_b 131e4e36",
+            "attr b238a810 0x7d40": {
+                "0x7d5c": "Sound 349acab3",
+                "0x7d6c": "ene_giant_arm_beat 0b68fab8"
+            },
+            "parent fdfccdea 0x7d2c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7d70": {
+                "0x7d8c": 3.0
+            }
+        },
+        "0x7d90": {
+            "anim 5025dec5 0x7e1c": "attack_down_b_hit 796826c0",
+            "attr b238a810 0x7e40": {
+                "0x7e5c": "Sound 349acab3",
+                "0x7e6c": "ene_giant_atk f2853883"
+            },
+            "parent fdfccdea 0x7e2c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x7e70": {
+                "0x7e8c": 0.0
+            }
+        },
+        "0x7e90": {
+            "anim 5025dec5 0x7f1c": "attack_down_b_hit 796826c0",
+            "attr b238a810 0x7f40": {
+                "0x7f5c": "Sound 349acab3",
+                "0x7f6c": "ene_giant_arm_beat 0b68fab8"
+            },
+            "parent fdfccdea 0x7f2c": "bn_ra06_forearm2R ce659a2a",
+            "timing 37012fb5 0x7f70": {
+                "0x7f8c": 3.0
+            }
+        },
+        "0x7f90": {
+            "anim 5025dec5 0x801c": "attack_down_a a61f4e37",
+            "attr b238a810 0x8040": {
+                "0x805c": "Sound 349acab3",
+                "0x806c": "ene_giant_raise 68dbc00f"
+            },
+            "parent fdfccdea 0x802c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8070": {
+                "0x808c": 8.0
+            }
+        },
+        "0x8090": {
+            "anim 5025dec5 0x811c": "attack_down_a a61f4e37",
+            "attr b238a810 0x8140": {
+                "0x815c": "Sound 349acab3",
+                "0x816c": "ene_giant_vo_attack 6cfa3c8e"
+            },
+            "parent fdfccdea 0x812c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8170": {
+                "0x818c": 20.0
+            }
+        },
+        "0x8190": {
+            "anim 5025dec5 0x81fc": "attack_down_a a61f4e37",
+            "attr b238a810 0x8210": {
+                "0x822c": "Sound 349acab3",
+                "0x823c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x8240": {
+                "0x825c": 13.0
+            }
+        },
+        "0x8260": {
+            "anim 5025dec5 0x82cc": "attack_down_a a61f4e37",
+            "attr b238a810 0x82e0": {
+                "0x82fc": "Sound 349acab3",
+                "0x830c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x8310": {
+                "0x832c": 30.0
+            }
+        },
+        "0x8330": {
+            "anim 5025dec5 0x83bc": "attack_down_a a61f4e37",
+            "attr b238a810 0x83e0": {
+                "0x83fc": "Sound 349acab3",
+                "0x840c": "ene_giant_punch 10e0357f"
+            },
+            "parent fdfccdea 0x83cc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8410": {
+                "0x842c": 31.0
+            }
+        },
+        "0x8430": {
+            "anim 5025dec5 0x84bc": "attack_down_c 801c4e35",
+            "attr b238a810 0x84e0": {
+                "0x84fc": "Sound 349acab3",
+                "0x850c": "ene_giant_punch3 19d7cf64"
+            },
+            "parent fdfccdea 0x84cc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8510": {
+                "0x852c": 10.0
+            }
+        },
+        "0x8530": {
+            "anim 5025dec5 0x85bc": "attack_down_c 801c4e35",
+            "attr b238a810 0x85e0": {
+                "0x85fc": "Sound 349acab3",
+                "0x860c": "ene_giant_footstep be0c50c1"
+            },
+            "parent fdfccdea 0x85cc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8610": {
+                "0x862c": 74.0
+            }
+        },
+        "0x8630": {
+            "anim 5025dec5 0x86bc": "attack_down_c 801c4e35",
+            "attr b238a810 0x86e0": {
+                "0x86fc": "Sound 349acab3",
+                "0x870c": "ene_giant_footstep be0c50c1"
+            },
+            "parent fdfccdea 0x86cc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8710": {
+                "0x872c": 99.0
+            }
+        },
+        "0x8730": {
+            "anim 5025dec5 0x87bc": "attack_grab_a a8a45a80",
+            "attr b238a810 0x87e0": {
+                "0x87fc": "Sound 349acab3",
+                "0x880c": "ene_giant_footstep be0c50c1"
+            },
+            "parent fdfccdea 0x87cc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8810": {
+                "0x882c": 15.0
+            }
+        },
+        "0x880": {
+            "anim 5025dec5 0x92c": "spawn 984d223a",
+            "attr b238a810 0x90c": "Attack 1d33a98b",
+            "shape 26d9c39d 0x950": {
+                "0x96c": "Sphere 38a32d22",
+                "0x97c": 2.0
+            },
+            "timing 37012fb5 0x980": {
+                "0x99c": 0.0,
+                "0x9ac": 50.0
+            },
+            "userData 82c5915a 0x91c": "spawn 984d223a"
+        },
+        "0x8830": {
+            "anim 5025dec5 0x88bc": "attack_grab_a a8a45a80",
+            "attr b238a810 0x88e0": {
+                "0x88fc": "Sound 349acab3",
+                "0x890c": "ene_giant_grasp_arm ea39fdd6"
+            },
+            "parent fdfccdea 0x88cc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8910": {
+                "0x892c": 24.0
+            }
+        },
+        "0x8930": {
+            "anim 5025dec5 0x89bc": "attack_grab_a a8a45a80",
+            "attr b238a810 0x89e0": {
+                "0x89fc": "Sound 349acab3",
+                "0x8a0c": "ene_giant_catch 0fe1bbb7"
+            },
+            "parent fdfccdea 0x89cc": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8a10": {
+                "0x8a2c": 30.0
+            }
+        },
+        "0x8a30": {
+            "anim 5025dec5 0x8a9c": "attack_grab_a a8a45a80",
+            "attr b238a810 0x8ab0": {
+                "0x8acc": "Sound 349acab3",
+                "0x8adc": "ene_giant_grasp_stand a08dec3a"
+            },
+            "timing 37012fb5 0x8ae0": {
+                "0x8afc": 83.0
+            }
+        },
+        "0x8b00": {
+            "anim 5025dec5 0x8b8c": "attack_grab_b 61a95a83",
+            "attr b238a810 0x8bb0": {
+                "0x8bcc": "Sound 349acab3",
+                "0x8bdc": "ene_giant_grasp_leftside da1fbb5d"
+            },
+            "parent fdfccdea 0x8b9c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8be0": {
+                "0x8bfc": 5.0
+            }
+        },
+        "0x8c00": {
+            "anim 5025dec5 0x8c8c": "attack_grab_b 61a95a83",
+            "attr b238a810 0x8cb0": {
+                "0x8ccc": "Sound 349acab3",
+                "0x8cdc": "ene_giant_grasp 6fee6103"
+            },
+            "parent fdfccdea 0x8c9c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8ce0": {
+                "0x8cfc": 30.0
+            }
+        },
+        "0x8d00": {
+            "anim 5025dec5 0x8d8c": "attack_grab_c cea75a82",
+            "attr b238a810 0x8db0": {
+                "0x8dcc": "Sound 349acab3",
+                "0x8ddc": "ene_giant_throw 10edd055"
+            },
+            "parent fdfccdea 0x8d9c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x8de0": {
+                "0x8dfc": 24.0
+            }
+        },
+        "0x8e00": {
+            "anim 5025dec5 0x8e6c": "attack_grab_c cea75a82",
+            "attr b238a810 0x8e80": {
+                "0x8e9c": "Sound 349acab3",
+                "0x8eac": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x8eb0": {
+                "0x8ecc": 32.0
+            }
+        },
+        "0x8ed0": {
+            "anim 5025dec5 0x8f3c": "attack_grab_c cea75a82",
+            "attr b238a810 0x8f50": {
+                "0x8f6c": "Sound 349acab3",
+                "0x8f7c": "ene_giant_footstep be0c50c1"
+            },
+            "timing 37012fb5 0x8f80": {
+                "0x8f9c": 89.0
+            }
+        },
+        "0x8fa0": {
+            "anim 5025dec5 0x902c": "damage_leg_a 73ceb072",
+            "attr b238a810 0x9050": {
+                "0x906c": "Particle df59fd80",
+                "0x907c": "ef_nev_kem_03 302f2aa9"
+            },
+            "layout ff7cc1ca 0x9080": {
+                "pos 89643354 0x90c0": {
+                    "0x90dc": 0.0,
+                    "0x90ec": 0.0,
+                    "0x90fc": 0.0
+                }
+            },
+            "timing 37012fb5 0x9100": {
+                "0x911c": 59.0
+            }
+        },
+        "0x9120": {
+            "anim 5025dec5 0x91ac": "ash 7fc87219",
+            "attr b238a810 0x91d0": {
+                "0x91ec": "Particle df59fd80",
+                "0x91fc": "ef_nev_kem_03 302f2aa9"
+            },
+            "layout ff7cc1ca 0x9200": {
+                "pos 89643354 0x9240": {
+                    "0x925c": 0.0,
+                    "0x926c": 0.0,
+                    "0x927c": 0.0
+                }
+            },
+            "timing 37012fb5 0x9280": {
+                "0x929c": 115.0
+            }
+        },
+        "0x92a0": {
+            "anim 5025dec5 0x932c": "ash 7fc87219",
+            "attr b238a810 0x9350": {
+                "0x936c": "Particle df59fd80",
+                "0x937c": "ef_nev_kem_03 302f2aa9"
+            },
+            "layout ff7cc1ca 0x9380": {
+                "pos 89643354 0x93c0": {
+                    "0x93dc": 1.0,
+                    "0x93ec": 0.0,
+                    "0x93fc": 1.5
+                }
+            },
+            "timing 37012fb5 0x9400": {
+                "0x941c": 156.0
+            }
+        },
+        "0x9420": {
+            "anim 5025dec5 0x94ac": "ash_punchType d0db037b",
+            "attr b238a810 0x94d0": {
+                "0x94ec": "Particle df59fd80",
+                "0x94fc": "ef_nev_kem_03 302f2aa9"
+            },
+            "layout ff7cc1ca 0x9500": {
+                "pos 89643354 0x9540": {
+                    "0x955c": 0.0,
+                    "0x956c": 0.0,
+                    "0x957c": 0.0
+                }
+            },
+            "timing 37012fb5 0x9580": {
+                "0x959c": 115.0
+            }
+        },
+        "0x95a0": {
+            "anim 5025dec5 0x962c": "ash_punchType d0db037b",
+            "attr b238a810 0x9650": {
+                "0x966c": "Particle df59fd80",
+                "0x967c": "ef_nev_kem_03 302f2aa9"
+            },
+            "layout ff7cc1ca 0x9680": {
+                "pos 89643354 0x96c0": {
+                    "0x96dc": 1.0,
+                    "0x96ec": 0.0,
+                    "0x96fc": 1.5
+                }
+            },
+            "timing 37012fb5 0x9700": {
+                "0x971c": 156.0
+            }
+        },
+        "0x9720": {
+            "anim 5025dec5 0x97ac": "attack_shock_wave 08c48bf5",
+            "attr b238a810 0x97d0": {
+                "0x97ec": "Particle df59fd80",
+                "0x97fc": "ef_nev_chg_00 5874ba1a"
+            },
+            "layout ff7cc1ca 0x9800": {
+                "pos 89643354 0x9840": {
+                    "0x985c": 0.0,
+                    "0x986c": 2.5,
+                    "0x987c": 0.0
+                }
+            },
+            "timing 37012fb5 0x9880": {
+                "0x989c": 0.0,
+                "0x98ac": 104.0
+            }
+        },
+        "0x98b0": {
+            "anim 5025dec5 0x993c": "attack_shock_wave 08c48bf5",
+            "attr b238a810 0x9960": {
+                "0x997c": "Particle df59fd80",
+                "0x998c": "ef_nev_swb_00 9418748d"
+            },
+            "layout ff7cc1ca 0x9990": {
+                "pos 89643354 0x99d0": {
+                    "0x99ec": 0.0,
+                    "0x99fc": 2.5,
+                    "0x9a0c": 0.0
+                }
+            },
+            "timing 37012fb5 0x9a10": {
+                "0x9a2c": 104.0
+            }
+        },
+        "0x9a30": {
+            "anim 5025dec5 0x9abc": "attack_shock_wave 08c48bf5",
+            "attr b238a810 0x9ae0": {
+                "0x9afc": "Particle df59fd80",
+                "0x9b0c": "ef_nev_sw_01 d7b52ea8"
+            },
+            "layout ff7cc1ca 0x9b10": {
+                "pos 89643354 0x9b50": {
+                    "0x9b6c": 0.0,
+                    "0x9b7c": 0.0,
+                    "0x9b8c": 0.0
+                }
+            },
+            "timing 37012fb5 0x9b90": {
+                "0x9bac": 104.0
+            }
+        },
+        "0x9b0": {
+            "anim 5025dec5 0xa7c": "attack_a 2587aac2",
+            "attr b238a810 0xa5c": "Attack 1d33a98b",
+            "force_vector fea656d6 0xaac": "charaZ 2ae1cee9",
+            "parent fdfccdea 0xa9c": "loc_hand_col 9ec76289",
+            "shape 26d9c39d 0xac0": {
+                "0xadc": "Sphere 38a32d22",
+                "0xaec": 1.0
+            },
+            "timing 37012fb5 0xaf0": {
+                "0xb0c": 36.0,
+                "0xb1c": 53.0
+            },
+            "userData 82c5915a 0xa6c": "attack_punch 0a4014ff"
+        },
+        "0x9bb0": {
+            "anim 5025dec5 0x9c3c": "attack_a 2587aac2",
+            "attr b238a810 0x9c60": {
+                "0x9c7c": "Particle df59fd80",
+                "0x9c8c": "ef_nev_sw_00 44b42ea7"
+            },
+            "parent fdfccdea 0x9c4c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x9c90": {
+                "0x9cac": 30.0
+            }
+        },
+        "0x9cb0": {
+            "anim 5025dec5 0x9d3c": "attack_grab_a a8a45a80",
+            "attr b238a810 0x9d60": {
+                "0x9d7c": "Particle df59fd80",
+                "0x9d8c": "ef_nev_pline_02 ec05789a"
+            },
+            "parent fdfccdea 0x9d4c": "loc_hand_col 9ec76289",
+            "timing 37012fb5 0x9d90": {
+                "0x9dac": 34.0
+            }
+        },
+        "0xb20": {
+            "anim 5025dec5 0xbdc": "attack_a 2587aac2",
+            "attr b238a810 0xbbc": "Attack 1d33a98b",
+            "parent fdfccdea 0xbfc": "bn_ra07_forearm3R 50f52e93",
+            "shape 26d9c39d 0xc10": {
+                "0xc2c": "Sphere 38a32d22",
+                "0xc3c": 1.0
+            },
+            "timing 37012fb5 0xc40": {
+                "0xc5c": 36.0,
+                "0xc6c": 53.0
+            },
+            "userData 82c5915a 0xbcc": "attack_punch 0a4014ff"
+        },
+        "0xc70": {
+            "anim 5025dec5 0xd2c": "attack_a 2587aac2",
+            "attr b238a810 0xd0c": "Attack 1d33a98b",
+            "parent fdfccdea 0xd4c": "bn_ra06_forearm2R ce659a2a",
+            "shape 26d9c39d 0xd60": {
+                "0xd7c": "Sphere 38a32d22",
+                "0xd8c": 1.0
+            },
+            "timing 37012fb5 0xd90": {
+                "0xdac": 36.0,
+                "0xdbc": 53.0
+            },
+            "userData 82c5915a 0xd1c": "attack_punch 0a4014ff"
+        },
+        "0xdc0": {
+            "anim 5025dec5 0xe7c": "attack_a 2587aac2",
+            "attr b238a810 0xe5c": "Attack 1d33a98b",
+            "parent fdfccdea 0xe9c": "bn_ra05_forearm1R 042f7ca0",
+            "shape 26d9c39d 0xeb0": {
+                "0xecc": "Sphere 38a32d22",
+                "0xedc": 1.0
+            },
+            "timing 37012fb5 0xee0": {
+                "0xefc": 36.0,
+                "0xf0c": 53.0
+            },
+            "userData 82c5915a 0xe6c": "attack_punch 0a4014ff"
+        },
+        "0xf10": {
+            "anim 5025dec5 0xffc": "attack_a 2587aac2",
+            "attr b238a810 0xfec": "Wind 273d4194",
+            "force 8488a979 0x1140": {
+                "0x115c": 15.0,
+                "0x116c": 10.0
+            },
+            "force_vector fea656d6 0x103c": "charaZ 2ae1cee9",
+            "layout ff7cc1ca 0x1090": {
+                "pos 89643354 0x10d0": {
+                    "0x10ec": 0.0,
+                    "0x10fc": 0.0,
+                    "0x110c": -5.0
+                }
+            },
+            "parent fdfccdea 0x101c": "loc_hand_col 9ec76289",
+            "shape 26d9c39d 0x1060": {
+                "0x107c": "Sphere 38a32d22",
+                "0x108c": 5.5
+            },
+            "timing 37012fb5 0x1110": {
+                "0x112c": 36.0,
+                "0x113c": 53.0
+            }
+        }
+    }
+}

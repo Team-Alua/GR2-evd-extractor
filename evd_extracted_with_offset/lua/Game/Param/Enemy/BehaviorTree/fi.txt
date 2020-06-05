@@ -1,0 +1,59 @@
+{
+    "DataTerm 0xdc": true,
+    "Description 0xac": "BehaviorTreeParameter",
+    "TopNode 0xe0": {
+        "BaseNodeType 0x16c": "Top",
+        "Child 0x190": {
+            "0x1b0": {
+                "BaseNodeType 0x23c": "Composite",
+                "Child 0x260": {
+                    "0x2c0": {
+                        "BaseNodeType 0x35c": "Decorator",
+                        "Child 0x390": {
+                            "0x3b0": {
+                                "BaseNodeType 0x43c": "Task",
+                                "Child 0x45c": 0.0,
+                                "CommandName 0x44c": "Task_Attack1",
+                                "Name 0x42c": "ddd"
+                            }
+                        },
+                        "CommandName 0x36c": "Decorator_BellCheck",
+                        "CommandParameter 0x37c": false,
+                        "Name 0x34c": "ccc"
+                    },
+                    "0x460": {
+                        "BaseNodeType 0x4fc": "Task",
+                        "Child 0x52c": 0.0,
+                        "CommandName 0x50c": "Task_MoveTo",
+                        "CommandParameter 0x51c": 3.0,
+                        "Name 0x4ec": "eeee"
+                    },
+                    "0x530": {
+                        "BaseNodeType 0x5bc": "Task",
+                        "Child 0x5dc": 0.0,
+                        "CommandName 0x5cc": "Task_WhipAction1",
+                        "Name 0x5ac": "ffffff"
+                    },
+                    "0x5e0": {
+                        "BaseNodeType 0x67c": "Task",
+                        "Child 0x6ac": 0.0,
+                        "CommandName 0x68c": "Task_MoveTo",
+                        "CommandParameter 0x69c": 3.0,
+                        "Name 0x66c": "ffffff"
+                    },
+                    "0x6b0": {
+                        "BaseNodeType 0x73c": "Task",
+                        "Child 0x75c": 0.0,
+                        "CommandName 0x74c": "Task_Attack3",
+                        "Name 0x72c": "bbb"
+                    }
+                },
+                "CommandName 0x24c": "Sequence",
+                "Name 0x22c": "aaa"
+            }
+        },
+        "CommandName 0x17c": "non",
+        "Name 0x15c": "top"
+    },
+    "TypeName 0xbc": "Non"
+}

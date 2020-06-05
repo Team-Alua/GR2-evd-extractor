@@ -1,95 +1,95 @@
 {
-    "animjoint 0x70": {
+    "animjoint": {
         "0x110": {
-            "anim 0x1bc": "spawn",
-            "attr 0x19c": "Attack",
-            "shape 0x1e0": {
+            "anim": "spawn",
+            "attr": "Attack",
+            "shape": {
                 "0x1fc": "Sphere",
                 "0x20c": 1.75
             },
-            "timing 0x210": {
+            "timing": {
                 "0x22c": 0.0,
                 "0x23c": 50.0
             },
-            "userData 0x1ac": "spawn"
+            "userData": "spawn"
         },
         "0x240": {
-            "anim 0x2ac": "open",
-            "attr 0x2c0": {
+            "anim": "open",
+            "attr": {
                 "0x2dc": "EventMessage",
                 "0x2ec": "playOpenCloseSound"
             },
-            "timing 0x2f0": {
+            "timing": {
                 "0x30c": 2.0
             }
         },
         "0x310": {
-            "anim 0x37c": "open",
-            "attr 0x390": {
+            "anim": "open",
+            "attr": {
                 "0x3ac": "EventMessage",
                 "0x3bc": "stopOpenCloseSound"
             },
-            "timing 0x3c0": {
+            "timing": {
                 "0x3dc": 72.0
             }
         },
         "0x3e0": {
-            "anim 0x44c": "close",
-            "attr 0x460": {
+            "anim": "close",
+            "attr": {
                 "0x47c": "EventMessage",
                 "0x48c": "playOpenCloseSound"
             },
-            "timing 0x490": {
+            "timing": {
                 "0x4ac": 2.0
             }
         },
         "0x4b0": {
-            "anim 0x51c": "close",
-            "attr 0x530": {
+            "anim": "close",
+            "attr": {
                 "0x54c": "EventMessage",
                 "0x55c": "stopOpenCloseSound"
             },
-            "timing 0x560": {
+            "timing": {
                 "0x57c": 80.0
             }
         },
         "0x580": {
-            "anim 0x5ec": "open",
-            "attr 0x600": {
+            "anim": "open",
+            "attr": {
                 "0x61c": "Sound",
                 "0x62c": "ene_bub_open"
             },
-            "timing 0x630": {
+            "timing": {
                 "0x64c": 5.0
             }
         },
         "0x650": {
-            "anim 0x6bc": "open",
-            "attr 0x6d0": {
+            "anim": "open",
+            "attr": {
                 "0x6ec": "Sound",
                 "0x6fc": "ene_bub_close"
             },
-            "timing 0x700": {
+            "timing": {
                 "0x71c": 65.0
             }
         },
         "0x720": {
-            "anim 0x78c": "close",
-            "attr 0x7a0": {
+            "anim": "close",
+            "attr": {
                 "0x7bc": "Sound",
                 "0x7cc": "ene_bub_open"
             },
-            "timing 0x7d0": {
+            "timing": {
                 "0x7ec": 8.0
             }
         },
         "0x7f0": {
-            "anim 0x85c": "close",
-            "attr 0x870": {
+            "anim": "close",
+            "attr": {
                 "0x88c": "Sound",
                 "0x89c": "ene_bub_close"
             },
-            "timing 0x8a0": {
+            "timing": {
                 "0x8bc": 64.0
             }
         }

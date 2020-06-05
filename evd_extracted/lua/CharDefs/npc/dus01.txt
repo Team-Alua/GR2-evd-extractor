@@ -1,70 +1,70 @@
 {
-    "animset 0x120": {
-        "hold 0x230": {
-            "blendDuration 0x28c": 0.0,
-            "file 0x29c": "dus01_held_sissy_00",
-            "repeatCount 0x2ac": -1.0
+    "animset": {
+        "hold": {
+            "blendDuration": 0.0,
+            "file": "dus01_held_sissy_00",
+            "repeatCount": -1.0
         },
-        "run 0x2b0": {
-            "blendDuration 0x30c": 0.10000000149011612,
-            "file 0x31c": "dus01_run_00",
-            "repeatCount 0x32c": -1.0
+        "run": {
+            "blendDuration": 0.10000000149011612,
+            "file": "dus01_run_00",
+            "repeatCount": -1.0
         },
-        "stay 0x330": {
-            "blendDuration 0x38c": 0.10000000149011612,
-            "file 0x39c": "dus01_stay_00",
-            "repeatCount 0x3ac": -1.0
+        "stay": {
+            "blendDuration": 0.10000000149011612,
+            "file": "dus01_stay_00",
+            "repeatCount": -1.0
         },
-        "turn_l 0x3b0": {
-            "blendDuration 0x40c": 0.10000000149011612,
-            "file 0x41c": "dus01_turn_l_00",
-            "repeatCount 0x42c": 0.0
+        "turn_l": {
+            "blendDuration": 0.10000000149011612,
+            "file": "dus01_turn_l_00",
+            "repeatCount": 0.0
         },
-        "turn_r 0x430": {
-            "blendDuration 0x48c": 0.10000000149011612,
-            "file 0x49c": "dus01_turn_r_00",
-            "repeatCount 0x4ac": 0.0
+        "turn_r": {
+            "blendDuration": 0.10000000149011612,
+            "file": "dus01_turn_r_00",
+            "repeatCount": 0.0
         },
-        "walk 0x4b0": {
-            "blendDuration 0x50c": 0.10000000149011612,
-            "file 0x51c": "dus01_walk_00",
-            "repeatCount 0x52c": -1.0
+        "walk": {
+            "blendDuration": 0.10000000149011612,
+            "file": "dus01_walk_00",
+            "repeatCount": -1.0
         },
-        "walk_b 0x530": {
-            "blendDuration 0x58c": 0.10000000149011612,
-            "file 0x59c": "dus01_walk_00",
-            "repeatCount 0x5ac": -1.0
+        "walk_b": {
+            "blendDuration": 0.10000000149011612,
+            "file": "dus01_walk_00",
+            "repeatCount": -1.0
         }
     },
-    "brain 0x5b0": {
-        "ai_type 0x5fc": "npc",
-        "type 0x60c": "EnemyBrain"
+    "brain": {
+        "ai_type": "npc",
+        "type": "EnemyBrain"
     },
-    "enemy_action_common 0x610": {
-        "find 0x65c": 40.0,
-        "lose 0x66c": 45.0
+    "enemy_action_common": {
+        "find": 40.0,
+        "lose": 45.0
     },
-    "enemy_body 0x670": {
-        "health 0x6bc": 9999.0,
-        "hit 0x6cc": true
+    "enemy_body": {
+        "health": 9999.0,
+        "hit": true
     },
-    "npc_param 0x6d0": {
-        "param 0x730": {
-            "category 0x78c": "animal",
-            "damage_type 0x79c": 0.0,
-            "grabbed_type 0x7ac": 0.0
+    "npc_param": {
+        "param": {
+            "category": "animal",
+            "damage_type": 0.0,
+            "grabbed_type": 0.0
         },
-        "valid 0x72c": true
+        "valid": true
     },
-    "puppet 0x7b0": {
-        "animset 0x83c": "npc/dus01",
-        "collision 0x880": {
-            "center_y 0x8dc": 0.4000000059604645,
-            "height 0x8ec": 0.20000000298023224,
-            "radius 0x8fc": 0.20000000298023224
+    "puppet": {
+        "animset": "npc/dus01",
+        "collision": {
+            "center_y": 0.4000000059604645,
+            "height": 0.20000000298023224,
+            "radius": 0.20000000298023224
         },
-        "modelName 0x85c": "dus01_base",
-        "scale 0x86c": 1.0,
-        "type 0x87c": "Puppet"
+        "modelName": "dus01_base",
+        "scale": 1.0,
+        "type": "Puppet"
     }
 }

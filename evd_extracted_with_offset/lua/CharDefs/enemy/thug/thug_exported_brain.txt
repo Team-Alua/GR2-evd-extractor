@@ -1,0 +1,239 @@
+{
+    "easy 0xb50": {
+        "brain 0xc20": {
+            "ai_type 0xcac": "thug",
+            "animjoint 0xcbc": "thug",
+            "race 0xccc": "human",
+            "type 0xc9c": "EnemyBrain"
+        },
+        "enemy_action_common 0x1590": {
+            "find 0x15dc": 20.0,
+            "lose 0x15ec": 25.0
+        },
+        "enemy_actions 0xea0": {
+            "attack 0xf50": {
+                "damage_cumulation 0x10cc": 0.0,
+                "damage_type 0x10ac": "normal",
+                "force 0x108c": 1.0,
+                "height 0x10ec": 5.0,
+                "hit_se 0x10bc": "ene_fight_atk",
+                "interval 0x10fc": 2.0,
+                "power 0x105c": 8.0,
+                "range 0x10dc": 3.0,
+                "rate_of_bg 0x107c": 10.0,
+                "rate_of_power 0x106c": 10.0,
+                "upper_force 0x109c": 0.0
+            },
+            "damaged_large 0x1480": {
+                "damage_cumulation 0x158c": 0.0,
+                "damage_type 0x157c": "normal",
+                "force 0x155c": 1.0,
+                "power 0x152c": 8.0,
+                "rate_of_bg 0x154c": 10.0,
+                "rate_of_power 0x153c": -3.0,
+                "upper_force 0x156c": 0.0
+            },
+            "pipe 0x12d0": {
+                "damage_cumulation 0x144c": 0.0,
+                "damage_type 0x142c": "normal",
+                "force 0x140c": 1.0,
+                "height 0x146c": 5.0,
+                "hit_se 0x143c": "ene_human_atk_pipe",
+                "interval 0x147c": 2.0,
+                "power 0x13dc": 15.0,
+                "range 0x145c": 5.0,
+                "rate_of_bg 0x13fc": 20.0,
+                "rate_of_power 0x13ec": 20.0,
+                "upper_force 0x141c": 0.0
+            },
+            "throw 0x1100": {
+                "damage_cumulation 0x128c": 0.0,
+                "damage_type 0x126c": "normal",
+                "force 0x124c": 1.0,
+                "height 0x12ac": 5.0,
+                "hit_se 0x127c": "ene_human_atk_pipe",
+                "interval 0x12bc": 2.0,
+                "power 0x121c": 15.0,
+                "range 0x129c": 10.0,
+                "rate_of_bg 0x123c": 20.0,
+                "rate_of_power 0x122c": 20.0,
+                "upper_force 0x125c": 0.0,
+                "velocity 0x12cc": 15.0
+            }
+        },
+        "enemy_body 0xcd0": {
+            "battle_field_prio 0xd4c": 1.0,
+            "battle_field_range 0xd3c": 10.0,
+            "health 0xd2c": 80.0
+        },
+        "enemy_parts 0xd50": {
+            "loc_top 0xd90": {
+                "angle 0xe7c": 360.0,
+                "body_damage 0xe4c": 80.0,
+                "core 0xe6c": true,
+                "health 0xe3c": 60.0,
+                "homing_angle 0xe8c": 360.0,
+                "lockon 0xe5c": true,
+                "offset_z 0xe9c": 0.15000000596046448
+            }
+        }
+    },
+    "hard 0x15f0": {
+        "brain 0x16c0": {
+            "ai_type 0x174c": "thug",
+            "animjoint 0x175c": "thug",
+            "race 0x176c": "human",
+            "type 0x173c": "EnemyBrain"
+        },
+        "enemy_action_common 0x2030": {
+            "find 0x207c": 20.0,
+            "lose 0x208c": 25.0
+        },
+        "enemy_actions 0x1940": {
+            "attack 0x19f0": {
+                "damage_cumulation 0x1b6c": 0.0,
+                "damage_type 0x1b4c": "normal",
+                "force 0x1b2c": 1.0,
+                "height 0x1b8c": 5.0,
+                "hit_se 0x1b5c": "ene_fight_atk",
+                "interval 0x1b9c": 2.0,
+                "power 0x1afc": 20.0,
+                "range 0x1b7c": 3.0,
+                "rate_of_bg 0x1b1c": 10.0,
+                "rate_of_power 0x1b0c": 10.0,
+                "upper_force 0x1b3c": 0.0
+            },
+            "damaged_large 0x1f20": {
+                "damage_cumulation 0x202c": 0.0,
+                "damage_type 0x201c": "normal",
+                "force 0x1ffc": 1.0,
+                "power 0x1fcc": 10.0,
+                "rate_of_bg 0x1fec": 10.0,
+                "rate_of_power 0x1fdc": -3.0,
+                "upper_force 0x200c": 0.0
+            },
+            "pipe 0x1d70": {
+                "damage_cumulation 0x1eec": 0.0,
+                "damage_type 0x1ecc": "normal",
+                "force 0x1eac": 1.0,
+                "height 0x1f0c": 5.0,
+                "hit_se 0x1edc": "ene_human_atk_pipe",
+                "interval 0x1f1c": 2.0,
+                "power 0x1e7c": 25.0,
+                "range 0x1efc": 5.0,
+                "rate_of_bg 0x1e9c": 20.0,
+                "rate_of_power 0x1e8c": 20.0,
+                "upper_force 0x1ebc": 0.0
+            },
+            "throw 0x1ba0": {
+                "damage_cumulation 0x1d2c": 0.0,
+                "damage_type 0x1d0c": "normal",
+                "force 0x1cec": 1.0,
+                "height 0x1d4c": 5.0,
+                "hit_se 0x1d1c": "ene_human_atk_pipe",
+                "interval 0x1d5c": 2.0,
+                "power 0x1cbc": 25.0,
+                "range 0x1d3c": 10.0,
+                "rate_of_bg 0x1cdc": 20.0,
+                "rate_of_power 0x1ccc": 20.0,
+                "upper_force 0x1cfc": 0.0,
+                "velocity 0x1d6c": 15.0
+            }
+        },
+        "enemy_body 0x1770": {
+            "battle_field_prio 0x17ec": 1.0,
+            "battle_field_range 0x17dc": 10.0,
+            "health 0x17cc": 80.0
+        },
+        "enemy_parts 0x17f0": {
+            "loc_top 0x1830": {
+                "angle 0x191c": 360.0,
+                "body_damage 0x18ec": 80.0,
+                "core 0x190c": true,
+                "health 0x18dc": 60.0,
+                "homing_angle 0x192c": 360.0,
+                "lockon 0x18fc": true,
+                "offset_z 0x193c": 0.15000000596046448
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_type 0x20c": "thug",
+            "animjoint 0x21c": "thug",
+            "race 0x22c": "human",
+            "type 0x1fc": "EnemyBrain"
+        },
+        "enemy_action_common 0xaf0": {
+            "find 0xb3c": 40.0,
+            "lose 0xb4c": 45.0
+        },
+        "enemy_actions 0x400": {
+            "attack 0x4b0": {
+                "damage_cumulation 0x62c": 0.0,
+                "damage_type 0x60c": "normal",
+                "force 0x5ec": 1.0,
+                "height 0x64c": 5.0,
+                "hit_se 0x61c": "ene_fight_atk",
+                "interval 0x65c": 2.0,
+                "power 0x5bc": 10.0,
+                "range 0x63c": 3.0,
+                "rate_of_bg 0x5dc": 10.0,
+                "rate_of_power 0x5cc": 10.0,
+                "upper_force 0x5fc": 0.0
+            },
+            "damaged_large 0x9e0": {
+                "damage_cumulation 0xaec": 0.0,
+                "damage_type 0xadc": "normal",
+                "force 0xabc": 1.0,
+                "power 0xa8c": 10.0,
+                "rate_of_bg 0xaac": 10.0,
+                "rate_of_power 0xa9c": -3.0,
+                "upper_force 0xacc": 0.0
+            },
+            "pipe 0x830": {
+                "damage_cumulation 0x9ac": 0.0,
+                "damage_type 0x98c": "normal",
+                "force 0x96c": 1.0,
+                "height 0x9cc": 5.0,
+                "hit_se 0x99c": "ene_human_atk_pipe",
+                "interval 0x9dc": 2.0,
+                "power 0x93c": 20.0,
+                "range 0x9bc": 5.0,
+                "rate_of_bg 0x95c": 20.0,
+                "rate_of_power 0x94c": 20.0,
+                "upper_force 0x97c": 0.0
+            },
+            "throw 0x660": {
+                "damage_cumulation 0x7ec": 0.0,
+                "damage_type 0x7cc": "normal",
+                "force 0x7ac": 1.0,
+                "height 0x80c": 5.0,
+                "hit_se 0x7dc": "ene_human_atk_pipe",
+                "interval 0x81c": 2.0,
+                "power 0x77c": 20.0,
+                "range 0x7fc": 10.0,
+                "rate_of_bg 0x79c": 20.0,
+                "rate_of_power 0x78c": 20.0,
+                "upper_force 0x7bc": 0.0,
+                "velocity 0x82c": 15.0
+            }
+        },
+        "enemy_body 0x230": {
+            "battle_field_prio 0x2ac": 1.0,
+            "battle_field_range 0x29c": 10.0,
+            "health 0x28c": 80.0
+        },
+        "enemy_parts 0x2b0": {
+            "loc_top 0x2f0": {
+                "angle 0x3dc": 360.0,
+                "body_damage 0x3ac": 80.0,
+                "core 0x3cc": true,
+                "health 0x39c": 60.0,
+                "homing_angle 0x3ec": 360.0,
+                "lockon 0x3bc": true,
+                "offset_z 0x3fc": 0.15000000596046448
+            }
+        }
+    }
+}

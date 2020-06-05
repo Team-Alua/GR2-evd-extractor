@@ -1,0 +1,48 @@
+{
+    "animset 0xb0": {
+        "fall00 0x3a0": {
+            "blendDuration 0x41c": 0.5,
+            "file 0x3fc": "wom01_fall_00",
+            "repeatCount 0x40c": -1.0
+        },
+        "fall01 0x420": {
+            "blendDuration 0x49c": 0.5,
+            "file 0x47c": "wom01_fall_01",
+            "repeatCount 0x48c": -1.0
+        },
+        "hello 0x2a0": {
+            "blendDuration 0x31c": 0.20000000298023224,
+            "file 0x2fc": "wom01_wave_hand_ship_00",
+            "repeatCount 0x30c": 0.0
+        },
+        "reaction00 0x320": {
+            "blendDuration 0x39c": 0.20000000298023224,
+            "file 0x37c": "wom01_reaction_ship_00",
+            "repeatCount 0x38c": 0.0
+        },
+        "stay 0x1a0": {
+            "blendDuration 0x21c": 1.0,
+            "file 0x1fc": "wom01_sit_ship_00",
+            "repeatCount 0x20c": -1.0
+        },
+        "view 0x220": {
+            "blendDuration 0x29c": 1.0,
+            "file 0x27c": "wom01_sit_ship_01",
+            "repeatCount 0x28c": 0.0
+        }
+    },
+    "puppet 0x4a0": {
+        "animset 0x52c": "vehicle/passenger_wom01",
+        "collision 0x550": {
+            "center_y 0x5cc": 0.5,
+            "height 0x5bc": 1.0,
+            "radius 0x5ac": 0.4000000059604645
+        },
+        "scale 0x53c": 1.0,
+        "type 0x51c": "Puppet"
+    },
+    "vehicle_param 0x5d0": {
+        "keepSeat 0x62c": false,
+        "type 0x61c": "passenger"
+    }
+}

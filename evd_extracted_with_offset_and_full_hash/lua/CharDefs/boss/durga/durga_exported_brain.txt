@@ -1,0 +1,230 @@
+{
+    "easy 1b7a5305 0xb10": {
+        "brain f3912883 0xbe0": {
+            "ai_grade 17b9230d 0xccc": "boss 0c168ad1",
+            "ai_type a8e9a23c 0xc8c": "durga 0c78f766",
+            "animjoint 9c2354a2 0xc9c": "durga 0c78f766",
+            "race 98c2bb8e 0xcac": "human 7aaa4d71",
+            "tailchain 48b91069 0xcbc": "durga 0c78f766",
+            "type 4df12751 0xc7c": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0x1510": {
+            "find 5a85f0bd 0x155c": 1000.0,
+            "lose 785834d1 0x156c": 1000.0
+        },
+        "enemy_actions 877ce571 0x1020": {
+            "crystal_bullet 5e4b1dd4 0x11e0": {
+                "damage_cumulation e2d9c67e 0x131c": 0.0,
+                "damage_type c5871e0c 0x130c": "normal 529c8be6",
+                "force 8488a979 0x12ec": 0.20000000298023224,
+                "power 46234ff5 0x12bc": 15.0,
+                "rate_of_bg 359b8dca 0x12dc": 100.0,
+                "rate_of_power 037c9b8a 0x12cc": 10.0,
+                "upper_force bb35102a 0x12fc": 0.0,
+                "velocity 321c7432 0x132c": 5.0
+            },
+            "crystal_cage 92ce8dc2 0x1330": {
+                "damage_cumulation e2d9c67e 0x140c": 0.0,
+                "damage_type c5871e0c 0x13fc": "normal 529c8be6",
+                "force 8488a979 0x13ec": 0.0,
+                "free dbeeb399 0x141c": 200.0,
+                "power 46234ff5 0x13cc": 0.0,
+                "rate_of_power 037c9b8a 0x13dc": -1.0
+            },
+            "crystal_shield df6dc570 0x1420": {
+                "damage_cumulation e2d9c67e 0x14fc": 0.0,
+                "damage_type c5871e0c 0x14ec": "normal 529c8be6",
+                "force 8488a979 0x14dc": 0.0,
+                "free dbeeb399 0x150c": 70.0,
+                "power 46234ff5 0x14bc": 0.0,
+                "rate_of_power 037c9b8a 0x14cc": -1.0
+            },
+            "spawn 984d223a 0x10d0": {
+                "damage_cumulation e2d9c67e 0x11cc": 0.0,
+                "damage_type c5871e0c 0x11bc": "normal 529c8be6",
+                "force 8488a979 0x119c": 1.0,
+                "power 46234ff5 0x117c": 20.0,
+                "range d20cdcfa 0x11dc": 2.5,
+                "rate_of_power 037c9b8a 0x118c": -2.0,
+                "upper_force bb35102a 0x11ac": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0xcd0": {
+            "battle_field_prio 5324db77 0xd4c": 100.0,
+            "battle_field_range 7e1a8055 0xd3c": 15.0,
+            "health 8fed986b 0xd2c": 10.0
+        },
+        "enemy_parts 7e7c4e31 0xd50": {
+            "loc_top 91f85c50 0xd90": {
+                "angle 184454ad 0xffc": 360.0,
+                "body_damage ebb248f9 0xf3c": 10.0,
+                "core 7e605edd 0xfec": true,
+                "crowspecial_rate a47a385e 0xfcc": 1.0,
+                "damage_motion_type 08588c30 0x100c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0xfac": 0.5,
+                "drillkick_rate 470e15ee 0xfbc": 1.0,
+                "gravitythrow_rate 12b575d6 0xf7c": 0.4000000059604645,
+                "gravitytyphoon_rate b15c2e8f 0xf5c": 0.14000000059604645,
+                "health 8fed986b 0xf2c": 1000.0,
+                "homing_angle e1eaa8a7 0x101c": 360.0,
+                "lockon 3b8d25f8 0xfdc": true,
+                "microblackhole_rate a7e6ad6b 0xf6c": 1.0,
+                "penetrate_rate b6dedea8 0xf8c": 0.05000000074505806,
+                "scratchtornado_rate 85446029 0xf4c": 0.20000000298023224,
+                "vortex_rate 20f1fc29 0xf9c": 0.4000000059604645
+            }
+        }
+    },
+    "hard dc5bc3e4 0x1570": {
+        "brain f3912883 0x1640": {
+            "ai_grade 17b9230d 0x172c": "boss 0c168ad1",
+            "ai_type a8e9a23c 0x16ec": "durga 0c78f766",
+            "animjoint 9c2354a2 0x16fc": "durga 0c78f766",
+            "race 98c2bb8e 0x170c": "human 7aaa4d71",
+            "tailchain 48b91069 0x171c": "durga 0c78f766",
+            "type 4df12751 0x16dc": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0x1f70": {
+            "find 5a85f0bd 0x1fbc": 1000.0,
+            "lose 785834d1 0x1fcc": 1000.0
+        },
+        "enemy_actions 877ce571 0x1a80": {
+            "crystal_bullet 5e4b1dd4 0x1c40": {
+                "damage_cumulation e2d9c67e 0x1d7c": 0.0,
+                "damage_type c5871e0c 0x1d6c": "normal 529c8be6",
+                "force 8488a979 0x1d4c": 0.20000000298023224,
+                "power 46234ff5 0x1d1c": 27.0,
+                "rate_of_bg 359b8dca 0x1d3c": 100.0,
+                "rate_of_power 037c9b8a 0x1d2c": 10.0,
+                "upper_force bb35102a 0x1d5c": 0.0,
+                "velocity 321c7432 0x1d8c": 5.0
+            },
+            "crystal_cage 92ce8dc2 0x1d90": {
+                "damage_cumulation e2d9c67e 0x1e6c": 0.0,
+                "damage_type c5871e0c 0x1e5c": "normal 529c8be6",
+                "force 8488a979 0x1e4c": 0.0,
+                "free dbeeb399 0x1e7c": 200.0,
+                "power 46234ff5 0x1e2c": 0.0,
+                "rate_of_power 037c9b8a 0x1e3c": -1.0
+            },
+            "crystal_shield df6dc570 0x1e80": {
+                "damage_cumulation e2d9c67e 0x1f5c": 0.0,
+                "damage_type c5871e0c 0x1f4c": "normal 529c8be6",
+                "force 8488a979 0x1f3c": 0.0,
+                "free dbeeb399 0x1f6c": 70.0,
+                "power 46234ff5 0x1f1c": 0.0,
+                "rate_of_power 037c9b8a 0x1f2c": -1.0
+            },
+            "spawn 984d223a 0x1b30": {
+                "damage_cumulation e2d9c67e 0x1c2c": 0.0,
+                "damage_type c5871e0c 0x1c1c": "normal 529c8be6",
+                "force 8488a979 0x1bfc": 1.0,
+                "power 46234ff5 0x1bdc": 20.0,
+                "range d20cdcfa 0x1c3c": 2.5,
+                "rate_of_power 037c9b8a 0x1bec": -2.0,
+                "upper_force bb35102a 0x1c0c": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x1730": {
+            "battle_field_prio 5324db77 0x17ac": 100.0,
+            "battle_field_range 7e1a8055 0x179c": 15.0,
+            "health 8fed986b 0x178c": 10.0
+        },
+        "enemy_parts 7e7c4e31 0x17b0": {
+            "loc_top 91f85c50 0x17f0": {
+                "angle 184454ad 0x1a5c": 360.0,
+                "body_damage ebb248f9 0x199c": 10.0,
+                "core 7e605edd 0x1a4c": true,
+                "crowspecial_rate a47a385e 0x1a2c": 1.0,
+                "damage_motion_type 08588c30 0x1a6c": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x1a0c": 0.5,
+                "drillkick_rate 470e15ee 0x1a1c": 1.0,
+                "gravitythrow_rate 12b575d6 0x19dc": 0.4000000059604645,
+                "gravitytyphoon_rate b15c2e8f 0x19bc": 0.14000000059604645,
+                "health 8fed986b 0x198c": 1000.0,
+                "homing_angle e1eaa8a7 0x1a7c": 360.0,
+                "lockon 3b8d25f8 0x1a3c": true,
+                "microblackhole_rate a7e6ad6b 0x19cc": 1.0,
+                "penetrate_rate b6dedea8 0x19ec": 0.05000000074505806,
+                "scratchtornado_rate 85446029 0x19ac": 0.20000000298023224,
+                "vortex_rate 20f1fc29 0x19fc": 0.4000000059604645
+            }
+        }
+    },
+    "normal 529c8be6 0xb0": {
+        "brain f3912883 0x180": {
+            "ai_grade 17b9230d 0x26c": "boss 0c168ad1",
+            "ai_type a8e9a23c 0x22c": "durga 0c78f766",
+            "animjoint 9c2354a2 0x23c": "durga 0c78f766",
+            "race 98c2bb8e 0x24c": "human 7aaa4d71",
+            "tailchain 48b91069 0x25c": "durga 0c78f766",
+            "type 4df12751 0x21c": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0xab0": {
+            "find 5a85f0bd 0xafc": 1000.0,
+            "lose 785834d1 0xb0c": 1000.0
+        },
+        "enemy_actions 877ce571 0x5c0": {
+            "crystal_bullet 5e4b1dd4 0x780": {
+                "damage_cumulation e2d9c67e 0x8bc": 0.0,
+                "damage_type c5871e0c 0x8ac": "normal 529c8be6",
+                "force 8488a979 0x88c": 0.20000000298023224,
+                "power 46234ff5 0x85c": 20.0,
+                "rate_of_bg 359b8dca 0x87c": 100.0,
+                "rate_of_power 037c9b8a 0x86c": 10.0,
+                "upper_force bb35102a 0x89c": 0.0,
+                "velocity 321c7432 0x8cc": 5.0
+            },
+            "crystal_cage 92ce8dc2 0x8d0": {
+                "damage_cumulation e2d9c67e 0x9ac": 0.0,
+                "damage_type c5871e0c 0x99c": "normal 529c8be6",
+                "force 8488a979 0x98c": 0.0,
+                "free dbeeb399 0x9bc": 200.0,
+                "power 46234ff5 0x96c": 0.0,
+                "rate_of_power 037c9b8a 0x97c": -1.0
+            },
+            "crystal_shield df6dc570 0x9c0": {
+                "damage_cumulation e2d9c67e 0xa9c": 0.0,
+                "damage_type c5871e0c 0xa8c": "normal 529c8be6",
+                "force 8488a979 0xa7c": 0.0,
+                "free dbeeb399 0xaac": 70.0,
+                "power 46234ff5 0xa5c": 0.0,
+                "rate_of_power 037c9b8a 0xa6c": -1.0
+            },
+            "spawn 984d223a 0x670": {
+                "damage_cumulation e2d9c67e 0x76c": 0.0,
+                "damage_type c5871e0c 0x75c": "normal 529c8be6",
+                "force 8488a979 0x73c": 1.0,
+                "power 46234ff5 0x71c": 20.0,
+                "range d20cdcfa 0x77c": 2.5,
+                "rate_of_power 037c9b8a 0x72c": -2.0,
+                "upper_force bb35102a 0x74c": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x270": {
+            "battle_field_prio 5324db77 0x2ec": 100.0,
+            "battle_field_range 7e1a8055 0x2dc": 15.0,
+            "health 8fed986b 0x2cc": 10.0
+        },
+        "enemy_parts 7e7c4e31 0x2f0": {
+            "loc_top 91f85c50 0x330": {
+                "angle 184454ad 0x59c": 360.0,
+                "body_damage ebb248f9 0x4dc": 10.0,
+                "core 7e605edd 0x58c": true,
+                "crowspecial_rate a47a385e 0x56c": 1.0,
+                "damage_motion_type 08588c30 0x5ac": "FRONT 38ea2ec4",
+                "debribullet_rate 28d934a7 0x54c": 0.5,
+                "drillkick_rate 470e15ee 0x55c": 1.0,
+                "gravitythrow_rate 12b575d6 0x51c": 0.4000000059604645,
+                "gravitytyphoon_rate b15c2e8f 0x4fc": 0.14000000059604645,
+                "health 8fed986b 0x4cc": 1000.0,
+                "homing_angle e1eaa8a7 0x5bc": 360.0,
+                "lockon 3b8d25f8 0x57c": true,
+                "microblackhole_rate a7e6ad6b 0x50c": 1.0,
+                "penetrate_rate b6dedea8 0x52c": 0.05000000074505806,
+                "scratchtornado_rate 85446029 0x4ec": 0.20000000298023224,
+                "vortex_rate 20f1fc29 0x53c": 0.4000000059604645
+            }
+        }
+    }
+}

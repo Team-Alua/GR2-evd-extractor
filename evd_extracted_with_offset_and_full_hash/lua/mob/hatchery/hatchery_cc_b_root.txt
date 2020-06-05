@@ -1,0 +1,475 @@
+{
+    "_default_bundles c5f1c788 0xdc": "bundle_default 53ca2d80",
+    "_plc_traits 59d2e2b1 0x140": {
+        "0x1d0": {
+            "classGroup 06c5de0f 0x22c": "yy_cc_sittable 6fddaab3",
+            "traitName b0d5c0f0 0x21c": "vendors_sk_01 27f137b8"
+        },
+        "0x230": {
+            "classGroup 06c5de0f 0x28c": "yy_cc_sittable 6fddaab3",
+            "traitName b0d5c0f0 0x27c": "vendors_sk_02 baf237b9"
+        },
+        "0x290": {
+            "classGroup 06c5de0f 0x2ec": "yy_cc_sittable 6fddaab3",
+            "traitName b0d5c0f0 0x2dc": "vendors_sk_05 dbea37b4"
+        },
+        "0x2f0": {
+            "classGroup 06c5de0f 0x34c": "yy_cc_sittable 6fddaab3",
+            "traitName b0d5c0f0 0x33c": "bench_kw_01 360b4ac8"
+        },
+        "0x350": {
+            "classGroup 06c5de0f 0x3ac": "yy_cc_sittable 6fddaab3",
+            "traitName b0d5c0f0 0x39c": "g1_bench_iy_01 cf28d012"
+        },
+        "0x3b0": {
+            "classGroup 06c5de0f 0x40c": "yy_cc_sittable 6fddaab3",
+            "traitName b0d5c0f0 0x3fc": "bench_kw_04 15134acd"
+        },
+        "0x410": {
+            "classGroup 06c5de0f 0x46c": "yy_cc_sittable 6fddaab3",
+            "traitName b0d5c0f0 0x45c": "bench_kk_01 b2f96376"
+        },
+        "0x470": {
+            "classGroup 06c5de0f 0x4cc": "yy_cc_sittable 6fddaab3",
+            "traitName b0d5c0f0 0x4bc": "bench_kk_03 8cf66374"
+        }
+    },
+    "_virtual_bundles ef5ed8a9 0x4d0": {
+        "bundle_default 53ca2d80 0x510": {
+            "0x52c": "bundle_default_stand 843bd196",
+            "0x53c": "bundle_default_roam 9d714fd6",
+            "0x54c": "bundle_default_fountain 68a14302",
+            "0x55c": "bundle_pigeon e86a0652"
+        }
+    },
+    "bundle_default_fountain 68a14302 0x3690": {
+        "0x36b0": {
+            "classGroup 06c5de0f 0x375c": "yy_cc_all_00 8bf778a2",
+            "label fd1797f6 0x373c": "main_street 6e3bc572",
+            "num b35d720e 0x377c": 30.0,
+            "role 1932ff0f 0x376c": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x374c": "main_street 6e3bc572"
+        }
+    },
+    "bundle_default_roam 9d714fd6 0xf80": {
+        "0x1270": {
+            "classGroup 06c5de0f 0x131c": "yy_cc_all_00 8bf778a2",
+            "label fd1797f6 0x12fc": "main_street 6e3bc572",
+            "num b35d720e 0x133c": 15.0,
+            "role 1932ff0f 0x132c": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x130c": "main_street 6e3bc572"
+        },
+        "0x1340": {
+            "classGroup 06c5de0f 0x13ec": "yy_cc_all_01 f8f578a1",
+            "label fd1797f6 0x13cc": "street3 7760056e",
+            "num b35d720e 0x140c": 24.0,
+            "role 1932ff0f 0x13fc": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x13dc": "street3 7760056e"
+        },
+        "0x1410": {
+            "classGroup 06c5de0f 0x14bc": "yy_hek_showbiz_man_00 5fa99bf5",
+            "label fd1797f6 0x149c": "street3 7760056e",
+            "num b35d720e 0x14dc": 6.0,
+            "role 1932ff0f 0x14cc": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x14ac": "street3 7760056e"
+        },
+        "0x14e0": {
+            "classGroup 06c5de0f 0x158c": "yy_cc_all_00 8bf778a2",
+            "label fd1797f6 0x156c": "street4 be5b056b",
+            "num b35d720e 0x15ac": 30.0,
+            "role 1932ff0f 0x159c": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x157c": "street4 be5b056b"
+        },
+        "0x15b0": {
+            "classGroup 06c5de0f 0x165c": "yy_cc_all_00 8bf778a2",
+            "label fd1797f6 0x163c": "station_stairs fab455a4",
+            "num b35d720e 0x167c": 3.0,
+            "role 1932ff0f 0x166c": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x164c": "station_stairs fab455a4"
+        },
+        "0x1680": {
+            "classGroup 06c5de0f 0x172c": "yy_cc_all_00 8bf778a2",
+            "label fd1797f6 0x170c": "south_east_block f09f1d23",
+            "num b35d720e 0x174c": 20.0,
+            "role 1932ff0f 0x173c": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x171c": "south_east_block f09f1d23"
+        },
+        "0x1750": {
+            "classGroup 06c5de0f 0x17fc": "yy_cc_all_00 8bf778a2",
+            "label fd1797f6 0x17dc": "loop_line_ne 067b393f",
+            "num b35d720e 0x181c": 15.0,
+            "role 1932ff0f 0x180c": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x17ec": "loop_line_ne 067b393f"
+        },
+        "0x1820": {
+            "classGroup 06c5de0f 0x18cc": "yy_cc_all_00 8bf778a2",
+            "label fd1797f6 0x18ac": "island_block 7e31b5a1",
+            "num b35d720e 0x18ec": 20.0,
+            "role 1932ff0f 0x18dc": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x18bc": "island_block 7e31b5a1"
+        },
+        "0x18f0": {
+            "classGroup 06c5de0f 0x199c": "yy_dog_l a17d2f82",
+            "label fd1797f6 0x197c": "animals 6ae888ed",
+            "num b35d720e 0x19bc": 3.0,
+            "role 1932ff0f 0x19ac": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x198c": "street3 7760056e"
+        },
+        "0x19c0": {
+            "classGroup 06c5de0f 0x1a6c": "yy_dog_m 0e7c2f81",
+            "label fd1797f6 0x1a4c": "animals 6ae888ed",
+            "num b35d720e 0x1a8c": 4.0,
+            "role 1932ff0f 0x1a7c": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x1a5c": "main_street 6e3bc572"
+        },
+        "0x1a90": {
+            "classGroup 06c5de0f 0x1b3c": "yy_dog_m 0e7c2f81",
+            "label fd1797f6 0x1b1c": "animals 6ae888ed",
+            "num b35d720e 0x1b5c": 2.0,
+            "role 1932ff0f 0x1b4c": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x1b2c": "south_east_block f09f1d23"
+        },
+        "0x1b60": {
+            "classGroup 06c5de0f 0x1c0c": "yy_dog_m_rich 1d3598a8",
+            "label fd1797f6 0x1bec": "animals 6ae888ed",
+            "num b35d720e 0x1c2c": 1.0,
+            "role 1932ff0f 0x1c1c": "kRoleTamed 55bd903e",
+            "zone 47dc9003 0x1bfc": "island_block 7e31b5a1"
+        },
+        "0x1c30": {
+            "classGroup 06c5de0f 0x1cdc": "yy_dog_l a17d2f82",
+            "label fd1797f6 0x1cbc": "animals 6ae888ed",
+            "num b35d720e 0x1cfc": 1.0,
+            "role 1932ff0f 0x1cec": "kRoleRoam 9387f3e5",
+            "zone 47dc9003 0x1ccc": "island_block 7e31b5a1"
+        },
+        "0x1d00": {
+            "birdNet 55ca7f1a 0x1d8c": "birdNet 55ca7f1a",
+            "classGroup 06c5de0f 0x1d9c": "yy_pigeon a6344382",
+            "label fd1797f6 0x1d7c": "bird b2287197",
+            "num b35d720e 0x1dac": 5.0
+        },
+        "0x1db0": {
+            "birdNet 55ca7f1a 0x1e3c": "birdNet4 b3962b18",
+            "classGroup 06c5de0f 0x1e4c": "yy_pigeon a6344382",
+            "label fd1797f6 0x1e2c": "bird b2287197",
+            "num b35d720e 0x1e5c": 5.0
+        },
+        "0x1e60": {
+            "birdNet 55ca7f1a 0x1eec": "birdNet6 d9992b1a",
+            "classGroup 06c5de0f 0x1efc": "yy_pigeon a6344382",
+            "label fd1797f6 0x1edc": "bird b2287197",
+            "num b35d720e 0x1f0c": 5.0
+        },
+        "0x1f10": {
+            "birdNet 55ca7f1a 0x1f9c": "birdNet8 97a92b24",
+            "classGroup 06c5de0f 0x1fac": "yy_pigeon a6344382",
+            "label fd1797f6 0x1f8c": "bird b2287197",
+            "num b35d720e 0x1fbc": 5.0
+        },
+        "0x1fc0": {
+            "birdNet 55ca7f1a 0x204c": "birdNet12 fa94a523",
+            "classGroup 06c5de0f 0x205c": "yy_pigeon a6344382",
+            "label fd1797f6 0x203c": "bird b2287197",
+            "num b35d720e 0x206c": 5.0
+        },
+        "0x2070": {
+            "birdNet 55ca7f1a 0x20fc": "birdNet13 8d96a524",
+            "classGroup 06c5de0f 0x210c": "yy_pigeon a6344382",
+            "label fd1797f6 0x20ec": "bird b2287197",
+            "num b35d720e 0x211c": 5.0
+        },
+        "0x2120": {
+            "birdNet 55ca7f1a 0x21ac": "birdNet14 888ba51d",
+            "classGroup 06c5de0f 0x21bc": "yy_pigeon a6344382",
+            "label fd1797f6 0x219c": "bird b2287197",
+            "num b35d720e 0x21cc": 5.0
+        },
+        "0x21d0": {
+            "birdNet 55ca7f1a 0x225c": "birdNet16 ae8ea51f",
+            "classGroup 06c5de0f 0x226c": "yy_pigeon a6344382",
+            "label fd1797f6 0x224c": "bird b2287197",
+            "num b35d720e 0x227c": 5.0
+        },
+        "0x2280": {
+            "birdNet 55ca7f1a 0x230c": "birdNet17 4190a520",
+            "classGroup 06c5de0f 0x231c": "yy_pigeon a6344382",
+            "label fd1797f6 0x22fc": "bird b2287197",
+            "num b35d720e 0x232c": 5.0
+        },
+        "0x2330": {
+            "birdNet 55ca7f1a 0x23bc": "birdNet21 7cffac92",
+            "classGroup 06c5de0f 0x23cc": "yy_pigeon a6344382",
+            "label fd1797f6 0x23ac": "bird b2287197",
+            "num b35d720e 0x23dc": 5.0
+        },
+        "0x23e0": {
+            "classGroup 06c5de0f 0x248c": "yy_bird a34bfd24",
+            "label fd1797f6 0x246c": "bird b2287197",
+            "nest 8bd4d05e 0x247c": "birdNet35 e5c0aa92",
+            "num b35d720e 0x24ac": 5.0,
+            "role 1932ff0f 0x249c": "kRoleFlyOff 30d03e32"
+        },
+        "0x24b0": {
+            "classGroup 06c5de0f 0x255c": "yy_bird a34bfd24",
+            "label fd1797f6 0x253c": "bird b2287197",
+            "nest 8bd4d05e 0x254c": "birdNet36 2cbcaa8f",
+            "num b35d720e 0x257c": 5.0,
+            "role 1932ff0f 0x256c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2580": {
+            "classGroup 06c5de0f 0x262c": "yy_bird a34bfd24",
+            "label fd1797f6 0x260c": "bird b2287197",
+            "nest 8bd4d05e 0x261c": "birdNet37 bfbdaa90",
+            "num b35d720e 0x264c": 5.0,
+            "role 1932ff0f 0x263c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2650": {
+            "classGroup 06c5de0f 0x26fc": "yy_bird a34bfd24",
+            "label fd1797f6 0x26dc": "bird b2287197",
+            "nest 8bd4d05e 0x26ec": "birdNet38 9ec5aa95",
+            "num b35d720e 0x271c": 7.0,
+            "role 1932ff0f 0x270c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2720": {
+            "classGroup 06c5de0f 0x27cc": "yy_bird a34bfd24",
+            "label fd1797f6 0x27ac": "bird b2287197",
+            "nest 8bd4d05e 0x27bc": "birdNet39 31c7aa96",
+            "num b35d720e 0x27ec": 7.0,
+            "role 1932ff0f 0x27dc": "kRoleFlyOff 30d03e32"
+        },
+        "0x27f0": {
+            "classGroup 06c5de0f 0x289c": "yy_bird a34bfd24",
+            "label fd1797f6 0x287c": "bird b2287197",
+            "nest 8bd4d05e 0x288c": "birdNet40 39f09d8f",
+            "num b35d720e 0x28bc": 7.0,
+            "role 1932ff0f 0x28ac": "kRoleFlyOff 30d03e32"
+        },
+        "0x28c0": {
+            "classGroup 06c5de0f 0x296c": "yy_bird a34bfd24",
+            "label fd1797f6 0x294c": "bird b2287197",
+            "nest 8bd4d05e 0x295c": "birdNet41 a6ee9d8e",
+            "num b35d720e 0x298c": 6.0,
+            "role 1932ff0f 0x297c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2990": {
+            "classGroup 06c5de0f 0x2a3c": "yy_bird a34bfd24",
+            "label fd1797f6 0x2a1c": "bird b2287197",
+            "nest 8bd4d05e 0x2a2c": "birdNet42 13ed9d8d",
+            "num b35d720e 0x2a5c": 5.0,
+            "role 1932ff0f 0x2a4c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2a60": {
+            "classGroup 06c5de0f 0x2b0c": "yy_bird a34bfd24",
+            "label fd1797f6 0x2aec": "bird b2287197",
+            "nest 8bd4d05e 0x2afc": "birdNet43 80eb9d8c",
+            "num b35d720e 0x2b2c": 5.0,
+            "role 1932ff0f 0x2b1c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2b30": {
+            "classGroup 06c5de0f 0x2bdc": "yy_bird a34bfd24",
+            "label fd1797f6 0x2bbc": "bird b2287197",
+            "nest 8bd4d05e 0x2bcc": "birdNet44 85f69d93",
+            "num b35d720e 0x2bfc": 4.0,
+            "role 1932ff0f 0x2bec": "kRoleFlyOff 30d03e32"
+        },
+        "0x2c00": {
+            "classGroup 06c5de0f 0x2cac": "yy_bird a34bfd24",
+            "label fd1797f6 0x2c8c": "bird b2287197",
+            "nest 8bd4d05e 0x2c9c": "birdNet45 f2f49d92",
+            "num b35d720e 0x2ccc": 5.0,
+            "role 1932ff0f 0x2cbc": "kRoleFlyOff 30d03e32"
+        },
+        "0x2cd0": {
+            "classGroup 06c5de0f 0x2d7c": "yy_bird a34bfd24",
+            "label fd1797f6 0x2d5c": "bird b2287197",
+            "nest 8bd4d05e 0x2d6c": "birdNet46 5ff39d91",
+            "num b35d720e 0x2d9c": 4.0,
+            "role 1932ff0f 0x2d8c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2da0": {
+            "classGroup 06c5de0f 0x2e4c": "yy_bird a34bfd24",
+            "label fd1797f6 0x2e2c": "bird b2287197",
+            "nest 8bd4d05e 0x2e3c": "birdNet47 ccf19d90",
+            "num b35d720e 0x2e6c": 5.0,
+            "role 1932ff0f 0x2e5c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2e70": {
+            "classGroup 06c5de0f 0x2f1c": "yy_bird a34bfd24",
+            "label fd1797f6 0x2efc": "bird b2287197",
+            "nest 8bd4d05e 0x2f0c": "birdNet48 d1fc9d97",
+            "num b35d720e 0x2f3c": 4.0,
+            "role 1932ff0f 0x2f2c": "kRoleFlyOff 30d03e32"
+        },
+        "0x2f40": {
+            "classGroup 06c5de0f 0x2fec": "yy_bird a34bfd24",
+            "label fd1797f6 0x2fcc": "bird b2287197",
+            "nest 8bd4d05e 0x2fdc": "birdNet49 3efb9d96",
+            "num b35d720e 0x300c": 5.0,
+            "role 1932ff0f 0x2ffc": "kRoleFlyOff 30d03e32"
+        },
+        "0x3010": {
+            "classGroup 06c5de0f 0x30bc": "yy_bird a34bfd24",
+            "label fd1797f6 0x309c": "bird b2287197",
+            "nest 8bd4d05e 0x30ac": "birdNet50 30a89b89",
+            "num b35d720e 0x30dc": 4.0,
+            "role 1932ff0f 0x30cc": "kRoleFlyOff 30d03e32"
+        },
+        "0x30e0": {
+            "classGroup 06c5de0f 0x318c": "yy_bird a34bfd24",
+            "label fd1797f6 0x316c": "bird b2287197",
+            "nest 8bd4d05e 0x317c": "birdNet51 c3a99b8a",
+            "num b35d720e 0x31ac": 6.0,
+            "role 1932ff0f 0x319c": "kRoleFlyOff 30d03e32"
+        },
+        "0x31b0": {
+            "classGroup 06c5de0f 0x325c": "yy_bird a34bfd24",
+            "label fd1797f6 0x323c": "bird b2287197",
+            "nest 8bd4d05e 0x324c": "birdNet52 56ab9b8b",
+            "num b35d720e 0x327c": 4.0,
+            "role 1932ff0f 0x326c": "kRoleFlyOff 30d03e32"
+        },
+        "0x3280": {
+            "classGroup 06c5de0f 0x332c": "yy_bird a34bfd24",
+            "label fd1797f6 0x330c": "bird b2287197",
+            "nest 8bd4d05e 0x331c": "birdNet53 e9ac9b8c",
+            "num b35d720e 0x334c": 3.0,
+            "role 1932ff0f 0x333c": "kRoleFlyOff 30d03e32"
+        },
+        "0x3350": {
+            "classGroup 06c5de0f 0x33fc": "yy_bird a34bfd24",
+            "label fd1797f6 0x33dc": "bird b2287197",
+            "nest 8bd4d05e 0x33ec": "birdNet54 7cae9b8d",
+            "num b35d720e 0x341c": 5.0,
+            "role 1932ff0f 0x340c": "kRoleFlyOff 30d03e32"
+        },
+        "0x3420": {
+            "classGroup 06c5de0f 0x34cc": "yy_bird a34bfd24",
+            "label fd1797f6 0x34ac": "bird b2287197",
+            "nest 8bd4d05e 0x34bc": "birdNet55 0fb09b8e",
+            "num b35d720e 0x34ec": 4.0,
+            "role 1932ff0f 0x34dc": "kRoleFlyOff 30d03e32"
+        },
+        "0x34f0": {
+            "classGroup 06c5de0f 0x359c": "yy_bird a34bfd24",
+            "label fd1797f6 0x357c": "bird b2287197",
+            "nest 8bd4d05e 0x358c": "birdNet56 a2b19b8f",
+            "num b35d720e 0x35bc": 5.0,
+            "role 1932ff0f 0x35ac": "kRoleFlyOff 30d03e32"
+        },
+        "0x35c0": {
+            "classGroup 06c5de0f 0x366c": "yy_bird a34bfd24",
+            "label fd1797f6 0x364c": "bird b2287197",
+            "nest 8bd4d05e 0x365c": "birdNet57 35b39b90",
+            "num b35d720e 0x368c": 5.0,
+            "role 1932ff0f 0x367c": "kRoleFlyOff 30d03e32"
+        }
+    },
+    "bundle_default_stand 843bd196 0x560": {
+        "0x630": {
+            "classGroup 06c5de0f 0x6bc": "yy_cc_all_00_not_old f360c1c7",
+            "guide 4b92c9a1 0x6ac": "guide 4b92c9a1",
+            "num b35d720e 0x6e0": {
+                "0x6fc": 2.0,
+                "0x70c": 3.0
+            },
+            "role 1932ff0f 0x6cc": "kRoleTalk 14bdbb7a"
+        },
+        "0x710": {
+            "classGroup 06c5de0f 0x79c": "yy_cc_all_00_not_old f360c1c7",
+            "guide 4b92c9a1 0x78c": "guide1 0e96512a",
+            "num b35d720e 0x7c0": {
+                "0x7dc": 2.0,
+                "0x7ec": 3.0
+            },
+            "role 1932ff0f 0x7ac": "kRoleTalk 14bdbb7a"
+        },
+        "0x7f0": {
+            "classGroup 06c5de0f 0x87c": "yy_cc_all_00_not_old f360c1c7",
+            "guide 4b92c9a1 0x86c": "guide2 7b945129",
+            "num b35d720e 0x8a0": {
+                "0x8bc": 2.0,
+                "0x8cc": 3.0
+            },
+            "role 1932ff0f 0x88c": "kRoleTalk 14bdbb7a"
+        },
+        "0x8d0": {
+            "classGroup 06c5de0f 0x95c": "yy_cc_all_00_adu a40a3bbd",
+            "guide 4b92c9a1 0x94c": "read_stand_01 5c775774",
+            "num b35d720e 0x97c": 1.0,
+            "role 1932ff0f 0x96c": "kRoleReadBook 77535de4"
+        },
+        "0x980": {
+            "classGroup 06c5de0f 0xa0c": "yy_cc_wom_00 b94d5be4",
+            "guide 4b92c9a1 0x9fc": "stand_paperbag_01 025c1742",
+            "num b35d720e 0xa2c": 1.0,
+            "role 1932ff0f 0xa1c": "kRoleStandWithPaperBag b2548055"
+        },
+        "0xa30": {
+            "classGroup 06c5de0f 0xabc": "yy_cc_chi_00 3c40f311",
+            "guide 4b92c9a1 0xaac": "play_sword_01 890a9f1e",
+            "num b35d720e 0xadc": 2.0,
+            "role 1932ff0f 0xacc": "kRolePlayWithSword b5103b6a"
+        },
+        "0xae0": {
+            "classGroup 06c5de0f 0xb6c": "yy_cc_all_00_not_old f360c1c7",
+            "guide 4b92c9a1 0xb5c": "talk_normal_01 b77d4051",
+            "num b35d720e 0xb8c": 2.0,
+            "role 1932ff0f 0xb7c": "kRoleTalk 14bdbb7a"
+        },
+        "0xb90": {
+            "classGroup 06c5de0f 0xc1c": "yy_cc_man_00 0e740e23",
+            "guide 4b92c9a1 0xc0c": "feed_bird_01 5d74c57f",
+            "num b35d720e 0xc3c": 1.0,
+            "role 1932ff0f 0xc2c": "kRoleFeedPigion 505054be"
+        },
+        "0xc40": {
+            "classGroup 06c5de0f 0xccc": "yy_hek_station_00 e0509513",
+            "guide 4b92c9a1 0xcbc": "station_01 b72d2352",
+            "num b35d720e 0xcec": 1.0,
+            "role 1932ff0f 0xcdc": "kRoleStay 37e23606"
+        },
+        "0xcf0": {
+            "classGroup 06c5de0f 0xd7c": "yy_hek_station_00 e0509513",
+            "guide 4b92c9a1 0xd6c": "station_02 4a2f2353",
+            "num b35d720e 0xd9c": 1.0,
+            "role 1932ff0f 0xd8c": "kRoleStay 37e23606"
+        },
+        "0xda0": {
+            "classGroup 06c5de0f 0xe4c": "yy_photo_man82 0188733e",
+            "guide 4b92c9a1 0xe3c": "photo_man82 4e21ae33",
+            "num b35d720e 0xe8c": 1.0,
+            "role 1932ff0f 0xe6c": "kRoleStay 37e23606",
+            "somebodyId b480133e 0xe5c": 2.0,
+            "standardAppearance eade63d8 0xe7c": true
+        },
+        "0xe90": {
+            "classGroup 06c5de0f 0xf3c": "yy_photo_wom04 d2da32c6",
+            "guide 4b92c9a1 0xf2c": "photo_wom04 d990e8de",
+            "num b35d720e 0xf7c": 1.0,
+            "role 1932ff0f 0xf5c": "kRoleStay 37e23606",
+            "somebodyId b480133e 0xf4c": 2.0,
+            "standardAppearance eade63d8 0xf6c": true
+        }
+    },
+    "bundle_pigeon e86a0652 0x3780": {
+        "0x37c0": {
+            "birdNet 55ca7f1a 0x384c": "birdNet23 a202ad94",
+            "classGroup 06c5de0f 0x385c": "yy_pigeon a6344382",
+            "label fd1797f6 0x383c": "bird b2287197",
+            "num b35d720e 0x386c": 2.0
+        },
+        "0x3870": {
+            "birdNet 55ca7f1a 0x38fc": "birdNet27 56fcac90",
+            "classGroup 06c5de0f 0x390c": "yy_pigeon a6344382",
+            "label fd1797f6 0x38ec": "bird b2287197",
+            "num b35d720e 0x391c": 4.0
+        },
+        "0x3920": {
+            "birdNet 55ca7f1a 0x39ac": "birdNet31 99baaa8e",
+            "classGroup 06c5de0f 0x39bc": "yy_pigeon a6344382",
+            "label fd1797f6 0x399c": "bird b2287197",
+            "num b35d720e 0x39cc": 4.0
+        }
+    }
+}

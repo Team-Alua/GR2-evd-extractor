@@ -1,16 +1,16 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {
+    "birdNetHolder": {
+        "__netNames": {
             "0x15c": "birdNet4",
             "0x16c": "birdNet2",
             "0x17c": "birdNet",
             "0x18c": "birdNet3",
             "0x19c": "birdNet1"
         },
-        "nets 0x1a0": {
-            "birdNet 0x270": {
-                "paths 0x2f0": {
-                    "path 0x370": {
+        "nets": {
+            "birdNet": {
+                "paths": {
+                    "path": {
                         "0x3d0": {
                             "0x3ec": 16.14049530029297,
                             "0x3fc": 0.9136576652526855,
@@ -37,7 +37,7 @@
                             "0x50c": -47.08519744873047
                         }
                     },
-                    "path1 0x510": {
+                    "path1": {
                         "0x570": {
                             "0x58c": 16.14049530029297,
                             "0x59c": 0.9136576652526855,
@@ -64,7 +64,7 @@
                             "0x6ac": 18.061233520507812
                         }
                     },
-                    "path2 0x6b0": {
+                    "path2": {
                         "0x710": {
                             "0x72c": 16.14049530029297,
                             "0x73c": 0.9136576652526855,
@@ -92,16 +92,16 @@
                         }
                     }
                 },
-                "pos 0x850": {
+                "pos": {
                     "0x86c": 16.14049530029297,
                     "0x87c": 0.9136576652526855,
                     "0x88c": -49.645538330078125
                 },
-                "radius 0x2ec": 5.0
+                "radius": 5.0
             },
-            "birdNet1 0x890": {
-                "paths 0x910": {
-                    "path 0x970": {
+            "birdNet1": {
+                "paths": {
+                    "path": {
                         "0x9d0": {
                             "0x9ec": -19.811429977416992,
                             "0x9fc": 0.0,
@@ -128,7 +128,7 @@
                             "0xb0c": 18.061233520507812
                         }
                     },
-                    "path3 0xb10": {
+                    "path3": {
                         "0xb70": {
                             "0xb8c": -19.811429977416992,
                             "0xb9c": 0.0,
@@ -156,16 +156,16 @@
                         }
                     }
                 },
-                "pos 0xcb0": {
+                "pos": {
                     "0xccc": -19.811429977416992,
                     "0xcdc": 0.0,
                     "0xcec": -47.08519744873047
                 },
-                "radius 0x90c": 5.0
+                "radius": 5.0
             },
-            "birdNet2 0xcf0": {
-                "paths 0xd70": {
-                    "path 0xdd0": {
+            "birdNet2": {
+                "paths": {
+                    "path": {
                         "0xe30": {
                             "0xe4c": -16.665803909301758,
                             "0xe5c": 0.0,
@@ -192,7 +192,7 @@
                             "0xf6c": 11.783644676208496
                         }
                     },
-                    "path4 0xf70": {
+                    "path4": {
                         "0x1010": {
                             "0x102c": -12.49935245513916,
                             "0x103c": 17.376333236694336,
@@ -220,16 +220,16 @@
                         }
                     }
                 },
-                "pos 0x1110": {
+                "pos": {
                     "0x112c": -16.665803909301758,
                     "0x113c": 0.0,
                     "0x114c": 18.061235427856445
                 },
-                "radius 0xd6c": 5.0
+                "radius": 5.0
             },
-            "birdNet3 0x1150": {
-                "paths 0x11d0": {
-                    "path 0x1210": {
+            "birdNet3": {
+                "paths": {
+                    "path": {
                         "0x1270": {
                             "0x128c": 19.1109561920166,
                             "0x129c": 0.0,
@@ -257,32 +257,32 @@
                         }
                     }
                 },
-                "pos 0x13b0": {
+                "pos": {
                     "0x13cc": 19.1109561920166,
                     "0x13dc": 0.0,
                     "0x13ec": 11.783644676208496
                 },
-                "radius 0x11cc": 5.0
+                "radius": 5.0
             },
-            "birdNet4 0x13f0": {
-                "pos 0x1450": {
+            "birdNet4": {
+                "pos": {
                     "0x146c": 0.0,
                     "0x147c": 20.811281204223633,
                     "0x148c": -61.954219818115234
                 },
-                "radius 0x144c": 5.0
+                "radius": 5.0
             }
         }
     },
-    "guideInfo 0x1490": {
-        "__guideNames 0x14f0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x150c": "guide0",
             "0x151c": "test_guard"
         },
-        "guides 0x1520": {
+        "guides": {
             "0x1550": {
-                "name 0x159c": "guide0",
-                "points 0x15b0": {
+                "name": "guide0",
+                "points": {
                     "0x15f0": {
                         "0x160c": -11.609999656677246,
                         "0x161c": 0.6164155602455139,
@@ -301,111 +301,111 @@
                 }
             },
             "0x16b0": {
-                "name 0x170c": "test_guard",
-                "points 0x1730": {
+                "name": "test_guard",
+                "points": {
                     "0x1750": {
                         "0x176c": -16.07716941833496,
                         "0x177c": 0.004693744238466024,
                         "0x178c": -59.392066955566406
                     }
                 },
-                "yaw 0x172c": 0.0
+                "yaw": 0.0
             }
         }
     },
-    "volumeGroup 0x1790": {
-        "__numVolumes 0x17dc": 5.0,
-        "root 0x17f0": {
-            "children 0x18c0": {
+    "volumeGroup": {
+        "__numVolumes": 5.0,
+        "root": {
+            "children": {
                 "0x18f0": {
-                    "children 0x19c0": {},
-                    "hasShape 0x198c": true,
-                    "name 0x199c": "vol_one",
-                    "scale 0x19d0": {
+                    "children": {},
+                    "hasShape": true,
+                    "name": "vol_one",
+                    "scale": {
                         "0x19ec": 11.331596374511719,
                         "0x19fc": 6.4020466804504395,
                         "0x1a0c": 11.331596374511719
                     },
-                    "translate 0x1a10": {
+                    "translate": {
                         "0x1a2c": -13.29208755493164,
                         "0x1a3c": -0.2199999988079071,
                         "0x1a4c": -25.892749786376953
                     }
                 },
                 "0x1a50": {
-                    "children 0x1b20": {
+                    "children": {
                         "0x1b50": {
-                            "children 0x1c20": {},
-                            "hasShape 0x1bec": true,
-                            "name 0x1bfc": "vol_two",
-                            "scale 0x1c30": {
+                            "children": {},
+                            "hasShape": true,
+                            "name": "vol_two",
+                            "scale": {
                                 "0x1c4c": 2.0,
                                 "0x1c5c": 4.0,
                                 "0x1c6c": 6.0
                             },
-                            "translate 0x1c70": {
+                            "translate": {
                                 "0x1c8c": -29.19780731201172,
                                 "0x1c9c": -0.2199999988079071,
                                 "0x1cac": -40.521663665771484
                             }
                         },
                         "0x1cb0": {
-                            "children 0x1d80": {},
-                            "hasShape 0x1d4c": true,
-                            "name 0x1d5c": "vol_tree",
-                            "scale 0x1d90": {
+                            "children": {},
+                            "hasShape": true,
+                            "name": "vol_tree",
+                            "scale": {
                                 "0x1dac": 5.0,
                                 "0x1dbc": 5.0,
                                 "0x1dcc": 5.0
                             },
-                            "translate 0x1dd0": {
+                            "translate": {
                                 "0x1dec": -22.301105499267578,
                                 "0x1dfc": -0.2199999988079071,
                                 "0x1e0c": -42.864173889160156
                             }
                         }
                     },
-                    "hasShape 0x1aec": false,
-                    "name 0x1afc": "vol_group",
-                    "scale 0x1e10": {
+                    "hasShape": false,
+                    "name": "vol_group",
+                    "scale": {
                         "0x1e2c": 1.0,
                         "0x1e3c": 1.0,
                         "0x1e4c": 1.0
                     },
-                    "translate 0x1e50": {
+                    "translate": {
                         "0x1e6c": 29.216880798339844,
                         "0x1e7c": 0.0,
                         "0x1e8c": 0.0
                     }
                 }
             },
-            "hasShape 0x188c": false,
-            "name 0x189c": "root",
-            "scale 0x1e90": {
+            "hasShape": false,
+            "name": "root",
+            "scale": {
                 "0x1eac": 1.0,
                 "0x1ebc": 1.0,
                 "0x1ecc": 1.0
             },
-            "translate 0x1ed0": {
+            "translate": {
                 "0x1eec": 0.0,
                 "0x1efc": 0.0,
                 "0x1f0c": 0.0
             }
         }
     },
-    "zoneGroup 0x1f10": {
-        "__overlapIndices 0x2000": {
-            "10 0x20cc": 3.0,
-            "15 0x20dc": 11.0,
-            "24 0x20ec": 12.0,
-            "30 0x20fc": 36.0,
-            "35 0x210c": 33.0,
-            "5 0x20ac": 0.0,
-            "6 0x20bc": 3.0
+    "zoneGroup": {
+        "__overlapIndices": {
+            "10": 3.0,
+            "15": 11.0,
+            "24": 12.0,
+            "30": 36.0,
+            "35": 33.0,
+            "5": 0.0,
+            "6": 3.0
         },
-        "_numStops 0x1fbc": 30.0,
-        "_numZones 0x1fcc": 11.0,
-        "stops 0x2110": {
+        "_numStops": 30.0,
+        "_numZones": 11.0,
+        "stops": {
             "0x2300": {
                 "0x231c": -24.610523223876953,
                 "0x232c": 0.6164155602455139,
@@ -587,7 +587,7 @@
                 "0x2c5c": 2.364449977874756
             }
         },
-        "zoneTree 0x2c60": {
+        "zoneTree": {
             "0x2c7c": "mob_zones",
             "0x2cb0": {
                 "0x2ccc": "center_zone",
@@ -620,18 +620,18 @@
                 }
             }
         },
-        "zones 0x2e60": {
+        "zones": {
             "0x2f20": {
-                "name 0x2f6c": "mob_zones",
-                "strips 0x2f80": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0x2f90": {
-                "name 0x2fdc": "center_zone",
-                "strips 0x2ff0": {}
+                "name": "center_zone",
+                "strips": {}
             },
             "0x3000": {
-                "name 0x304c": "foo_zone",
-                "strips 0x3060": {
+                "name": "foo_zone",
+                "strips": {
                     "0x3080": {
                         "0x309c": 0.0,
                         "0x30ac": 1.0,
@@ -643,8 +643,8 @@
                 }
             },
             "0x30f0": {
-                "name 0x313c": "bar_zone",
-                "strips 0x3150": {
+                "name": "bar_zone",
+                "strips": {
                     "0x3170": {
                         "0x318c": 3.0,
                         "0x319c": 5.0,
@@ -655,8 +655,8 @@
                 }
             },
             "0x31d0": {
-                "name 0x321c": "pyramid",
-                "strips 0x3230": {
+                "name": "pyramid",
+                "strips": {
                     "0x3270": {
                         "0x328c": 9.0,
                         "0x329c": 10.0,
@@ -682,12 +682,12 @@
                 }
             },
             "0x33a0": {
-                "name 0x33ec": "cubic_building",
-                "strips 0x3400": {}
+                "name": "cubic_building",
+                "strips": {}
             },
             "0x3410": {
-                "name 0x345c": "top",
-                "strips 0x3470": {
+                "name": "top",
+                "strips": {
                     "0x3490": {
                         "0x34ac": 20.0,
                         "0x34bc": 21.0,
@@ -697,12 +697,12 @@
                 }
             },
             "0x34e0": {
-                "name 0x352c": "bottom",
-                "strips 0x3540": {}
+                "name": "bottom",
+                "strips": {}
             },
             "0x3550": {
-                "name 0x359c": "outside",
-                "strips 0x35b0": {
+                "name": "outside",
+                "strips": {
                     "0x35d0": {
                         "0x35ec": 24.0,
                         "0x35fc": 29.0,
@@ -711,8 +711,8 @@
                 }
             },
             "0x3610": {
-                "name 0x365c": "inside",
-                "strips 0x3670": {
+                "name": "inside",
+                "strips": {
                     "0x3690": {
                         "0x36ac": 26.0,
                         "0x36bc": 27.0,
@@ -721,8 +721,8 @@
                 }
             },
             "0x36d0": {
-                "name 0x371c": "bridge",
-                "strips 0x3730": {
+                "name": "bridge",
+                "strips": {
                     "0x3750": {
                         "0x376c": 27.0,
                         "0x377c": 29.0

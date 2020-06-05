@@ -1,16 +1,16 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "lazy"
         },
-        "guides 0x1e0": {
+        "guides": {
             "0x200": {
-                "name 0x24c": "lazy",
-                "points 0x260": {
+                "name": "lazy",
+                "points": {
                     "0x2a0": {
                         "0x2bc": 1.0089001655578613,
                         "0x2cc": -3.952620267868042,
@@ -30,15 +30,15 @@
             }
         }
     },
-    "volumeGroup 0x360": {
-        "__numVolumes 0x3ac": 0.0,
-        "root 0x3bc": null
+    "volumeGroup": {
+        "__numVolumes": 0.0,
+        "root": null
     },
-    "zoneGroup 0x3c0": {
-        "__overlapIndices 0x4b0": {},
-        "_numStops 0x46c": 5.0,
-        "_numZones 0x47c": 3.0,
-        "stops 0x4c0": {
+    "zoneGroup": {
+        "__overlapIndices": {},
+        "_numStops": 5.0,
+        "_numZones": 3.0,
+        "stops": {
             "0x520": {
                 "0x53c": 9.39046859741211,
                 "0x54c": -3.982828140258789,
@@ -70,7 +70,7 @@
                 "0x6ac": 0.6925817131996155
             }
         },
-        "zoneTree 0x6b0": {
+        "zoneTree": {
             "0x6cc": "mob_zones",
             "0x6e0": {
                 "0x6fc": "deck",
@@ -79,18 +79,18 @@
                 }
             }
         },
-        "zones 0x730": {
+        "zones": {
             "0x770": {
-                "name 0x7bc": "mob_zones",
-                "strips 0x7d0": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0x7e0": {
-                "name 0x82c": "deck",
-                "strips 0x840": {}
+                "name": "deck",
+                "strips": {}
             },
             "0x850": {
-                "name 0x89c": "space_01",
-                "strips 0x8b0": {
+                "name": "space_01",
+                "strips": {
                     "0x8d0": {
                         "0x8ec": 0.0,
                         "0x8fc": 1.0,

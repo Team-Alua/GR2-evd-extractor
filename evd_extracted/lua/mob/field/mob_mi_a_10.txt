@@ -1,19 +1,19 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "guide1",
             "0x1ec": "guide2",
             "0x1fc": "guide3",
             "0x20c": "guide4"
         },
-        "guides 0x210": {
+        "guides": {
             "0x260": {
-                "name 0x2ac": "guide1",
-                "points 0x2c0": {
+                "name": "guide1",
+                "points": {
                     "0x300": {
                         "0x31c": 2.132314682006836,
                         "0x32c": -16.323001861572266,
@@ -32,8 +32,8 @@
                 }
             },
             "0x3c0": {
-                "name 0x40c": "guide2",
-                "points 0x420": {
+                "name": "guide2",
+                "points": {
                     "0x460": {
                         "0x47c": 16.10905647277832,
                         "0x48c": 0.11782141774892807,
@@ -52,8 +52,8 @@
                 }
             },
             "0x520": {
-                "name 0x56c": "guide3",
-                "points 0x580": {
+                "name": "guide3",
+                "points": {
                     "0x5c0": {
                         "0x5dc": 14.218867301940918,
                         "0x5ec": 0.11782141774892807,
@@ -72,8 +72,8 @@
                 }
             },
             "0x680": {
-                "name 0x6cc": "guide4",
-                "points 0x6e0": {
+                "name": "guide4",
+                "points": {
                     "0x720": {
                         "0x73c": -2.2826476097106934,
                         "0x74c": 0.011498268693685532,
@@ -93,18 +93,18 @@
             }
         }
     },
-    "volumeGroup 0x7e0": {
-        "__numVolumes 0x82c": 0.0,
-        "root 0x83c": null
+    "volumeGroup": {
+        "__numVolumes": 0.0,
+        "root": null
     },
-    "zoneGroup 0x840": {
-        "__overlapIndices 0x930": {
-            "10 0x98c": 7.0,
-            "6 0x97c": 3.0
+    "zoneGroup": {
+        "__overlapIndices": {
+            "10": 7.0,
+            "6": 3.0
         },
-        "_numStops 0x8ec": 9.0,
-        "_numZones 0x8fc": 4.0,
-        "stops 0x990": {
+        "_numStops": 9.0,
+        "_numZones": 4.0,
+        "stops": {
             "0xa30": {
                 "0xa4c": 4.279112339019775,
                 "0xa5c": -16.376230239868164,
@@ -160,7 +160,7 @@
                 "0xcfc": 1.6120027303695679
             }
         },
-        "zoneTree 0xd00": {
+        "zoneTree": {
             "0xd1c": "mob_zones",
             "0xd50": {
                 "0xd6c": "zone_1f"
@@ -172,10 +172,10 @@
                 "0xdac": "zone_2fb"
             }
         },
-        "zones 0xdb0": {
+        "zones": {
             "0x1000": {
-                "name 0x104c": "zone_2fb",
-                "strips 0x1060": {
+                "name": "zone_2fb",
+                "strips": {
                     "0x1080": {
                         "0x109c": 6.0,
                         "0x10ac": 7.0,
@@ -185,12 +185,12 @@
                 }
             },
             "0xe00": {
-                "name 0xe4c": "mob_zones",
-                "strips 0xe60": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0xe70": {
-                "name 0xebc": "zone_1f",
-                "strips 0xed0": {
+                "name": "zone_1f",
+                "strips": {
                     "0xef0": {
                         "0xf0c": 0.0,
                         "0xf1c": 1.0,
@@ -199,8 +199,8 @@
                 }
             },
             "0xf30": {
-                "name 0xf7c": "zone_2fa",
-                "strips 0xf90": {
+                "name": "zone_2fa",
+                "strips": {
                     "0xfb0": {
                         "0xfcc": 3.0,
                         "0xfdc": 4.0,

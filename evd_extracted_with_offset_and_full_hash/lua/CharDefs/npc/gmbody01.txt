@@ -1,0 +1,70 @@
+{
+    "animset c0c373e2 0x120": {
+        "attack_break_00 f658b419 0x230": {
+            "blendDuration 4896a897 0x28c": 1.0,
+            "file 4357eaaa 0x29c": "gmbody01_attack_break_00 5480c148",
+            "repeatCount c19d74e0 0x2ac": 0.0
+        },
+        "attack_l_00 8bd18f2c 0x2b0": {
+            "blendDuration 4896a897 0x30c": 1.0,
+            "file 4357eaaa 0x31c": "gmbody01_attack_l_00 cd79a282",
+            "repeatCount c19d74e0 0x32c": 0.0
+        },
+        "attack_r_00 41ee9f1c 0x330": {
+            "blendDuration 4896a897 0x38c": 1.0,
+            "file 4357eaaa 0x39c": "gmbody01_attack_r_00 ffefb4d4",
+            "repeatCount c19d74e0 0x3ac": 0.0
+        },
+        "dead_00 28496f41 0x3b0": {
+            "blendDuration 4896a897 0x40c": 1.0,
+            "file 4357eaaa 0x41c": "gmbody01_dead_00 d6f85ea0",
+            "repeatCount c19d74e0 0x42c": 0.0
+        },
+        "stay 201e3bc6 0x430": {
+            "blendDuration 4896a897 0x48c": 1.0,
+            "file 4357eaaa 0x49c": "gmbody01_stay_00 5f990611",
+            "repeatCount c19d74e0 0x4ac": -1.0
+        },
+        "stay_01 e2fa9620 0x4b0": {
+            "blendDuration 4896a897 0x50c": 1.0,
+            "file 4357eaaa 0x51c": "gmbody01_stay_01 cc970610",
+            "repeatCount c19d74e0 0x52c": -1.0
+        },
+        "walk 102226a0 0x530": {
+            "blendDuration 4896a897 0x58c": 1.0,
+            "file 4357eaaa 0x59c": "gmbody01_walk_00 a3b27518",
+            "repeatCount c19d74e0 0x5ac": -1.0
+        }
+    },
+    "brain f3912883 0x5b0": {
+        "ai_type a8e9a23c 0x5fc": "npc 90316a24",
+        "type 4df12751 0x60c": "EnemyBrain 11f7389c"
+    },
+    "enemy_action_common 627efe6e 0x610": {
+        "find 5a85f0bd 0x65c": 40.0,
+        "lose 785834d1 0x66c": 45.0
+    },
+    "enemy_body f895dcbb 0x670": {
+        "health 8fed986b 0x6bc": 9999.0,
+        "hit aab8d202 0x6cc": false
+    },
+    "npc_param ca10d731 0x6d0": {
+        "param 32360e4e 0x730": {
+            "category 71422fcf 0x78c": "noarea ff546aa0",
+            "damage_type c5871e0c 0x79c": 0.0,
+            "grabbed_type 232c1fef 0x7ac": 0.0
+        },
+        "valid 71ea7c43 0x72c": true
+    },
+    "puppet af1330e6 0x7b0": {
+        "animset c0c373e2 0x83c": "npc/gmbody01 4e0f13fe",
+        "collision 8fdb7621 0x880": {
+            "center_y a88d0e22 0x8dc": 0.0,
+            "height 42bbbdd5 0x8ec": 0.0,
+            "radius b34cba0d 0x8fc": 0.0
+        },
+        "modelName 014b8a4a 0x85c": "gmbody01_base 56c33d8e",
+        "scale 711c9782 0x86c": 1.0,
+        "type 4df12751 0x87c": "Puppet cfca4402"
+    }
+}

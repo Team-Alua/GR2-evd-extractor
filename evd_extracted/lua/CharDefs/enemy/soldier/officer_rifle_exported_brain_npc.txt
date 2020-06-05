@@ -1,233 +1,233 @@
 {
-    "easy 0xa40": {
-        "brain 0xb30": {
-            "ai_grade 0xbfc": "officer_rifle",
-            "ai_type 0xbcc": "soldier",
-            "animjoint 0xbdc": "officer_rifle",
-            "race 0xbec": "human",
-            "type 0xbbc": "EnemyBrain"
+    "easy": {
+        "brain": {
+            "ai_grade": "officer_rifle",
+            "ai_type": "soldier",
+            "animjoint": "officer_rifle",
+            "race": "human",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x1340": {
-            "find 0x138c": 40.0,
-            "lose 0x139c": 45.0
+        "enemy_action_common": {
+            "find": 40.0,
+            "lose": 45.0
         },
-        "enemy_actions 0xdd0": {
-            "attack 0x1000": {
-                "damage_cumulation 0x117c": 0.0,
-                "damage_type 0x115c": "normal",
-                "force 0x113c": 1.0,
-                "height 0x119c": 5.0,
-                "hit_se 0x116c": "ene_barrel_atk",
-                "interval 0x11ac": 1.5,
-                "power 0x110c": 8.0,
-                "range 0x118c": 2.5,
-                "rate_of_bg 0x112c": 10.0,
-                "rate_of_power 0x111c": 10.0,
-                "upper_force 0x114c": 0.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 5.0,
+                "hit_se": "ene_barrel_atk",
+                "interval": 1.5,
+                "power": 8.0,
+                "range": 2.5,
+                "rate_of_bg": 10.0,
+                "rate_of_power": 10.0,
+                "upper_force": 0.0
             },
-            "damaged_large 0x11b0": {
-                "damage_cumulation 0x12bc": 0.0,
-                "damage_type 0x12ac": "normal",
-                "force 0x128c": 1.0,
-                "power 0x125c": 10.0,
-                "rate_of_bg 0x127c": 10.0,
-                "rate_of_power 0x126c": -3.0,
-                "upper_force 0x129c": 0.0
+            "damaged_large": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "rate_of_bg": 10.0,
+                "rate_of_power": -3.0,
+                "upper_force": 0.0
             },
-            "shoot 0xe50": {
-                "damage_cumulation 0xfbc": 60.0,
-                "damage_type 0xfac": "normal",
-                "force 0xf8c": 1.0,
-                "height 0xfdc": 5.0,
-                "interval 0xfec": 3.0,
-                "power 0xf5c": 10.0,
-                "range 0xfcc": 20.0,
-                "rate_of_bg 0xf7c": 20.0,
-                "rate_of_power 0xf6c": 13.0,
-                "upper_force 0xf9c": 0.0,
-                "velocity 0xffc": 100.0
+            "shoot": {
+                "damage_cumulation": 60.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 5.0,
+                "interval": 3.0,
+                "power": 10.0,
+                "range": 20.0,
+                "rate_of_bg": 20.0,
+                "rate_of_power": 13.0,
+                "upper_force": 0.0,
+                "velocity": 100.0
             }
         },
-        "enemy_body 0xc00": {
-            "battle_field_prio 0xc7c": 1.0,
-            "battle_field_range 0xc6c": 14.0,
-            "health 0xc5c": 80.0
+        "enemy_body": {
+            "battle_field_prio": 1.0,
+            "battle_field_range": 14.0,
+            "health": 80.0
         },
-        "enemy_items 0x12c0": {
-            "cigun01_base 0x1300": {
-                "item_attach_joint 0x133c": "loc_r_hand"
+        "enemy_items": {
+            "cigun01_base": {
+                "item_attach_joint": "loc_r_hand"
             }
         },
-        "enemy_parts 0xc80": {
-            "loc_top 0xcc0": {
-                "angle 0xdac": 360.0,
-                "body_damage 0xd7c": 80.0,
-                "core 0xd9c": true,
-                "health 0xd6c": 80.0,
-                "homing_angle 0xdbc": 360.0,
-                "lockon 0xd8c": true,
-                "offset_z 0xdcc": 0.15000000596046448
+        "enemy_parts": {
+            "loc_top": {
+                "angle": 360.0,
+                "body_damage": 80.0,
+                "core": true,
+                "health": 80.0,
+                "homing_angle": 360.0,
+                "lockon": true,
+                "offset_z": 0.15000000596046448
             }
         }
     },
-    "hard 0x13a0": {
-        "brain 0x1490": {
-            "ai_grade 0x155c": "officer_rifle",
-            "ai_type 0x152c": "soldier",
-            "animjoint 0x153c": "officer_rifle",
-            "race 0x154c": "human",
-            "type 0x151c": "EnemyBrain"
+    "hard": {
+        "brain": {
+            "ai_grade": "officer_rifle",
+            "ai_type": "soldier",
+            "animjoint": "officer_rifle",
+            "race": "human",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x1ca0": {
-            "find 0x1cec": 40.0,
-            "lose 0x1cfc": 45.0
+        "enemy_action_common": {
+            "find": 40.0,
+            "lose": 45.0
         },
-        "enemy_actions 0x1730": {
-            "attack 0x1960": {
-                "damage_cumulation 0x1adc": 0.0,
-                "damage_type 0x1abc": "normal",
-                "force 0x1a9c": 1.0,
-                "height 0x1afc": 5.0,
-                "hit_se 0x1acc": "ene_barrel_atk",
-                "interval 0x1b0c": 1.5,
-                "power 0x1a6c": 15.0,
-                "range 0x1aec": 2.5,
-                "rate_of_bg 0x1a8c": 10.0,
-                "rate_of_power 0x1a7c": 10.0,
-                "upper_force 0x1aac": 0.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 5.0,
+                "hit_se": "ene_barrel_atk",
+                "interval": 1.5,
+                "power": 15.0,
+                "range": 2.5,
+                "rate_of_bg": 10.0,
+                "rate_of_power": 10.0,
+                "upper_force": 0.0
             },
-            "damaged_large 0x1b10": {
-                "damage_cumulation 0x1c1c": 0.0,
-                "damage_type 0x1c0c": "normal",
-                "force 0x1bec": 1.0,
-                "power 0x1bbc": 10.0,
-                "rate_of_bg 0x1bdc": 10.0,
-                "rate_of_power 0x1bcc": -3.0,
-                "upper_force 0x1bfc": 0.0
+            "damaged_large": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "rate_of_bg": 10.0,
+                "rate_of_power": -3.0,
+                "upper_force": 0.0
             },
-            "shoot 0x17b0": {
-                "damage_cumulation 0x191c": 60.0,
-                "damage_type 0x190c": "normal",
-                "force 0x18ec": 1.0,
-                "height 0x193c": 5.0,
-                "interval 0x194c": 3.0,
-                "power 0x18bc": 20.0,
-                "range 0x192c": 32.0,
-                "rate_of_bg 0x18dc": 20.0,
-                "rate_of_power 0x18cc": 13.0,
-                "upper_force 0x18fc": 0.0,
-                "velocity 0x195c": 100.0
+            "shoot": {
+                "damage_cumulation": 60.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 5.0,
+                "interval": 3.0,
+                "power": 20.0,
+                "range": 32.0,
+                "rate_of_bg": 20.0,
+                "rate_of_power": 13.0,
+                "upper_force": 0.0,
+                "velocity": 100.0
             }
         },
-        "enemy_body 0x1560": {
-            "battle_field_prio 0x15dc": 1.0,
-            "battle_field_range 0x15cc": 14.0,
-            "health 0x15bc": 80.0
+        "enemy_body": {
+            "battle_field_prio": 1.0,
+            "battle_field_range": 14.0,
+            "health": 80.0
         },
-        "enemy_items 0x1c20": {
-            "cigun01_base 0x1c60": {
-                "item_attach_joint 0x1c9c": "loc_r_hand"
+        "enemy_items": {
+            "cigun01_base": {
+                "item_attach_joint": "loc_r_hand"
             }
         },
-        "enemy_parts 0x15e0": {
-            "loc_top 0x1620": {
-                "angle 0x170c": 360.0,
-                "body_damage 0x16dc": 80.0,
-                "core 0x16fc": true,
-                "health 0x16cc": 80.0,
-                "homing_angle 0x171c": 360.0,
-                "lockon 0x16ec": true,
-                "offset_z 0x172c": 0.15000000596046448
+        "enemy_parts": {
+            "loc_top": {
+                "angle": 360.0,
+                "body_damage": 80.0,
+                "core": true,
+                "health": 80.0,
+                "homing_angle": 360.0,
+                "lockon": true,
+                "offset_z": 0.15000000596046448
             }
         }
     },
-    "normal 0xe0": {
-        "brain 0x1d0": {
-            "ai_grade 0x29c": "officer_rifle",
-            "ai_type 0x26c": "soldier",
-            "animjoint 0x27c": "officer_rifle",
-            "race 0x28c": "human",
-            "type 0x25c": "EnemyBrain"
+    "normal": {
+        "brain": {
+            "ai_grade": "officer_rifle",
+            "ai_type": "soldier",
+            "animjoint": "officer_rifle",
+            "race": "human",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x9e0": {
-            "find 0xa2c": 40.0,
-            "lose 0xa3c": 45.0
+        "enemy_action_common": {
+            "find": 40.0,
+            "lose": 45.0
         },
-        "enemy_actions 0x470": {
-            "attack 0x6a0": {
-                "damage_cumulation 0x81c": 0.0,
-                "damage_type 0x7fc": "normal",
-                "force 0x7dc": 1.0,
-                "height 0x83c": 5.0,
-                "hit_se 0x80c": "ene_barrel_atk",
-                "interval 0x84c": 1.5,
-                "power 0x7ac": 10.0,
-                "range 0x82c": 2.5,
-                "rate_of_bg 0x7cc": 10.0,
-                "rate_of_power 0x7bc": 10.0,
-                "upper_force 0x7ec": 0.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 5.0,
+                "hit_se": "ene_barrel_atk",
+                "interval": 1.5,
+                "power": 10.0,
+                "range": 2.5,
+                "rate_of_bg": 10.0,
+                "rate_of_power": 10.0,
+                "upper_force": 0.0
             },
-            "damaged_large 0x850": {
-                "damage_cumulation 0x95c": 0.0,
-                "damage_type 0x94c": "normal",
-                "force 0x92c": 1.0,
-                "power 0x8fc": 10.0,
-                "rate_of_bg 0x91c": 10.0,
-                "rate_of_power 0x90c": -3.0,
-                "upper_force 0x93c": 0.0
+            "damaged_large": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "rate_of_bg": 10.0,
+                "rate_of_power": -3.0,
+                "upper_force": 0.0
             },
-            "shoot 0x4f0": {
-                "damage_cumulation 0x65c": 60.0,
-                "damage_type 0x64c": "normal",
-                "force 0x62c": 1.0,
-                "height 0x67c": 5.0,
-                "interval 0x68c": 3.0,
-                "power 0x5fc": 13.0,
-                "range 0x66c": 26.0,
-                "rate_of_bg 0x61c": 20.0,
-                "rate_of_power 0x60c": 13.0,
-                "upper_force 0x63c": 0.0,
-                "velocity 0x69c": 100.0
+            "shoot": {
+                "damage_cumulation": 60.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "height": 5.0,
+                "interval": 3.0,
+                "power": 13.0,
+                "range": 26.0,
+                "rate_of_bg": 20.0,
+                "rate_of_power": 13.0,
+                "upper_force": 0.0,
+                "velocity": 100.0
             }
         },
-        "enemy_body 0x2a0": {
-            "battle_field_prio 0x31c": 1.0,
-            "battle_field_range 0x30c": 14.0,
-            "health 0x2fc": 80.0
+        "enemy_body": {
+            "battle_field_prio": 1.0,
+            "battle_field_range": 14.0,
+            "health": 80.0
         },
-        "enemy_items 0x960": {
-            "cigun01_base 0x9a0": {
-                "item_attach_joint 0x9dc": "loc_r_hand"
+        "enemy_items": {
+            "cigun01_base": {
+                "item_attach_joint": "loc_r_hand"
             }
         },
-        "enemy_parts 0x320": {
-            "loc_top 0x360": {
-                "angle 0x44c": 360.0,
-                "body_damage 0x41c": 80.0,
-                "core 0x43c": true,
-                "health 0x40c": 80.0,
-                "homing_angle 0x45c": 360.0,
-                "lockon 0x42c": true,
-                "offset_z 0x46c": 0.15000000596046448
+        "enemy_parts": {
+            "loc_top": {
+                "angle": 360.0,
+                "body_damage": 80.0,
+                "core": true,
+                "health": 80.0,
+                "homing_angle": 360.0,
+                "lockon": true,
+                "offset_z": 0.15000000596046448
             }
         }
     },
-    "npc_param 0x1d00": {
-        "param 0x1db0": {
-            "category 0x1e2c": "human",
-            "damage_type 0x1e0c": 1.0,
-            "grabbed_type 0x1e1c": 0.0
+    "npc_param": {
+        "param": {
+            "category": "human",
+            "damage_type": 1.0,
+            "grabbed_type": 0.0
         },
-        "sight 0x1e30": {
-            "degree_h 0x1eec": 60.0,
-            "degree_v 0x1efc": 45.0,
-            "in_length 0x1ecc": 4.0,
-            "out_length 0x1edc": 6.0,
-            "valid 0x1ebc": true
+        "sight": {
+            "degree_h": 60.0,
+            "degree_v": 45.0,
+            "in_length": 4.0,
+            "out_length": 6.0,
+            "valid": true
         },
-        "turn 0x1f00": {
-            "degree 0x1f3c": 30.0
+        "turn": {
+            "degree": 30.0
         },
-        "valid 0x1d7c": true
+        "valid": true
     }
 }

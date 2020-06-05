@@ -1,20 +1,20 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "trio01",
             "0x1ec": "alone01",
             "0x1fc": "alone02",
             "0x20c": "alone03",
             "0x21c": "alone04"
         },
-        "guides 0x220": {
+        "guides": {
             "0x280": {
-                "name 0x2cc": "trio01",
-                "points 0x2e0": {
+                "name": "trio01",
+                "points": {
                     "0x320": {
                         "0x33c": -18.871089935302734,
                         "0x34c": 4.967418670654297,
@@ -33,77 +33,77 @@
                 }
             },
             "0x3e0": {
-                "name 0x43c": "alone01",
-                "points 0x460": {
+                "name": "alone01",
+                "points": {
                     "0x480": {
                         "0x49c": 22.39745330810547,
                         "0x4ac": 0.0036190757527947426,
                         "0x4bc": -10.350900650024414
                     }
                 },
-                "yaw 0x45c": -2.591172456741333
+                "yaw": -2.591172456741333
             },
             "0x4c0": {
-                "name 0x51c": "alone02",
-                "points 0x540": {
+                "name": "alone02",
+                "points": {
                     "0x560": {
                         "0x57c": -41.8006591796875,
                         "0x58c": 4.809842586517334,
                         "0x59c": 3.167776346206665
                     }
                 },
-                "yaw 0x53c": -0.0840328112244606
+                "yaw": -0.0840328112244606
             },
             "0x5a0": {
-                "name 0x5fc": "alone03",
-                "points 0x620": {
+                "name": "alone03",
+                "points": {
                     "0x640": {
                         "0x65c": -53.48517990112305,
                         "0x66c": 4.809842586517334,
                         "0x67c": -2.4373393058776855
                     }
                 },
-                "yaw 0x61c": -2.716813087463379
+                "yaw": -2.716813087463379
             },
             "0x680": {
-                "name 0x6dc": "alone04",
-                "points 0x700": {
+                "name": "alone04",
+                "points": {
                     "0x720": {
                         "0x73c": 12.03673267364502,
                         "0x74c": 0.004270691890269518,
                         "0x75c": 8.627005577087402
                     }
                 },
-                "yaw 0x6fc": -0.09737423062324524
+                "yaw": -0.09737423062324524
             }
         }
     },
-    "volumeGroup 0x760": {
-        "__numVolumes 0x7ac": 1.0,
-        "root 0x7c0": {
-            "children 0x890": {},
-            "hasShape 0x85c": false,
-            "name 0x86c": "root",
-            "scale 0x8a0": {
+    "volumeGroup": {
+        "__numVolumes": 1.0,
+        "root": {
+            "children": {},
+            "hasShape": false,
+            "name": "root",
+            "scale": {
                 "0x8bc": 1.0,
                 "0x8cc": 1.0,
                 "0x8dc": 1.0
             },
-            "translate 0x8e0": {
+            "translate": {
                 "0x8fc": 0.0,
                 "0x90c": 0.0,
                 "0x91c": 0.0
             }
         }
     },
-    "zoneGroup 0x920": {
-        "__overlapIndices 0xa10": {
-            "2 0xa5c": 5.0,
-            "6 0xa6c": 0.0
+    "zoneGroup": {
+        "__overlapIndices": {
+            "2": 5.0,
+            "6": 0.0
         },
-        "_numStops 0x9cc": 5.0,
-        "_numZones 0x9dc": 2.0,
-        "stops 0xa70": {
+        "_numStops": 5.0,
+        "_numZones": 2.0,
+        "stops": {
             "0xad0": {
                 "0xaec": 5.1482415199279785,
                 "0xafc": 0.04320439696311951,
@@ -135,20 +135,20 @@
                 "0xc5c": 1.9850425720214844
             }
         },
-        "zoneTree 0xc60": {
+        "zoneTree": {
             "0xc7c": "mob_zones",
             "0xc90": {
                 "0xcac": "zone01"
             }
         },
-        "zones 0xcb0": {
+        "zones": {
             "0xce0": {
-                "name 0xd2c": "mob_zones",
-                "strips 0xd40": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0xd50": {
-                "name 0xd9c": "zone01",
-                "strips 0xdb0": {
+                "name": "zone01",
+                "strips": {
                     "0xde0": {
                         "0xdfc": 1.0,
                         "0xe0c": 4.0

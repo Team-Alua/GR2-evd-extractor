@@ -1,1479 +1,1479 @@
 {
-    "entities 0x70": {
+    "entities": {
         "0x11f0": {
-            "clips 0x1340": {
+            "clips": {
                 "0x1370": {
-                    "endFrame 0x13bc": 387.0,
-                    "startFrame 0x13cc": 343.0
+                    "endFrame": 387.0,
+                    "startFrame": 343.0
                 },
                 "0x13d0": {
-                    "endFrame 0x141c": 525.0,
-                    "startFrame 0x142c": 426.0
+                    "endFrame": 525.0,
+                    "startFrame": 426.0
                 }
             },
-            "effect 0x1430": {
-                "modelName 0x148c": "ef_dm_ep05_00300m_mzf_01",
-                "spawn_duration 0x149c": 100.0,
-                "spawn_interval 0x14ac": 5.0
+            "effect": {
+                "modelName": "ef_dm_ep05_00300m_mzf_01",
+                "spawn_duration": 100.0,
+                "spawn_interval": 5.0
             },
-            "name 0x12ec": "c05_c07_man58_GunMuz",
-            "parentJointName 0x12fc": "loc_r_hand",
-            "parentNodeName 0x130c": "man58",
-            "transform 0x14b0": {
-                "translation 0x14f0": {
+            "name": "c05_c07_man58_GunMuz",
+            "parentJointName": "loc_r_hand",
+            "parentNodeName": "man58",
+            "transform": {
+                "translation": {
                     "0x150c": 0.0,
                     "0x151c": 0.10000000149011612,
                     "0x152c": 0.5699999928474426
                 }
             },
-            "type 0x132c": "effect",
-            "uuid 0x133c": "{65079d3d-568a-4668-9717-582ff14ce8f1}"
+            "type": "effect",
+            "uuid": "{65079d3d-568a-4668-9717-582ff14ce8f1}"
         },
         "0x1530": {
-            "animations 0x16c0": {
-                "pointlight 0x1700": {
-                    "/root/G2PointLight1/G2PointLightShape1 0x1740": {
-                        "lightIntensity 0x1780": {
-                            "keyframes 0x1800": {
+            "animations": {
+                "pointlight": {
+                    "/root/G2PointLight1/G2PointLightShape1": {
+                        "lightIntensity": {
+                            "keyframes": {
                                 "0x1850": {
-                                    "key 0x189c": 10.0,
-                                    "time 0x18ac": 343.0
+                                    "key": 10.0,
+                                    "time": 343.0
                                 },
                                 "0x18b0": {
-                                    "key 0x18fc": 0.0,
-                                    "time 0x190c": 345.0
+                                    "key": 0.0,
+                                    "time": 345.0
                                 },
                                 "0x1910": {
-                                    "key 0x195c": 10.0,
-                                    "time 0x196c": 346.0
+                                    "key": 10.0,
+                                    "time": 346.0
                                 },
                                 "0x1970": {
-                                    "key 0x19bc": 0.0,
-                                    "time 0x19cc": 348.0
+                                    "key": 0.0,
+                                    "time": 348.0
                                 }
                             },
-                            "post_inf 0x17ec": "loop",
-                            "pre_inf 0x17fc": "loop"
+                            "post_inf": "loop",
+                            "pre_inf": "loop"
                         }
                     }
                 }
             },
-            "clips 0x19d0": {
+            "clips": {
                 "0x1a00": {
-                    "endFrame 0x1a4c": 387.0,
-                    "startFrame 0x1a5c": 343.0
+                    "endFrame": 387.0,
+                    "startFrame": 343.0
                 },
                 "0x1a60": {
-                    "endFrame 0x1aac": 525.0,
-                    "startFrame 0x1abc": 426.0
+                    "endFrame": 525.0,
+                    "startFrame": 426.0
                 }
             },
-            "effect 0x1ac0": {
-                "loop 0x1b3c": true,
-                "modelName 0x1b4c": "ef_gun_muz_pointlight",
-                "spawn_duration 0x1b5c": 45.0,
-                "spawn_interval 0x1b6c": 4.0
+            "effect": {
+                "loop": true,
+                "modelName": "ef_gun_muz_pointlight",
+                "spawn_duration": 45.0,
+                "spawn_interval": 4.0
             },
-            "name 0x165c": "c05_c07_man58_GunMuz_light",
-            "parentJointName 0x166c": "loc_r_hand",
-            "parentNodeName 0x167c": "man58",
-            "pointlight 0x1b70": {
-                "/root/G2PointLight1/G2PointLightShape1 0x1bb0": {
-                    "attenuationFactor 0x1c9c": 0.5,
-                    "colorRange 0x1cac": 1.0,
-                    "innerRadius 0x1cbc": 0.0,
-                    "lightColorB 0x1ccc": 0.14079999923706055,
-                    "lightColorG 0x1cdc": 0.552299976348877,
-                    "lightColorR 0x1cec": 1.0,
-                    "lightIntensity 0x1cfc": 10.0,
-                    "outerRadius 0x1d0c": 3.0,
-                    "shadowDensity 0x1d1c": 0.0
+            "name": "c05_c07_man58_GunMuz_light",
+            "parentJointName": "loc_r_hand",
+            "parentNodeName": "man58",
+            "pointlight": {
+                "/root/G2PointLight1/G2PointLightShape1": {
+                    "attenuationFactor": 0.5,
+                    "colorRange": 1.0,
+                    "innerRadius": 0.0,
+                    "lightColorB": 0.14079999923706055,
+                    "lightColorG": 0.552299976348877,
+                    "lightColorR": 1.0,
+                    "lightIntensity": 10.0,
+                    "outerRadius": 3.0,
+                    "shadowDensity": 0.0
                 }
             },
-            "transform 0x1d20": {
-                "translation 0x1d60": {
+            "transform": {
+                "translation": {
                     "0x1d7c": 0.0,
                     "0x1d8c": 0.10000000149011612,
                     "0x1d9c": 0.5699999928474426
                 }
             },
-            "type 0x16ac": "pointlight",
-            "uuid 0x16bc": "{861f0327-946b-4188-b68f-cd9e8f85e66e}"
+            "type": "pointlight",
+            "uuid": "{861f0327-946b-4188-b68f-cd9e8f85e66e}"
         },
         "0x1da0": {
-            "clips 0x1ef0": {
+            "clips": {
                 "0x1f20": {
-                    "endFrame 0x1f6c": 387.0,
-                    "startFrame 0x1f7c": 343.0
+                    "endFrame": 387.0,
+                    "startFrame": 343.0
                 },
                 "0x1f80": {
-                    "endFrame 0x1fcc": 525.0,
-                    "startFrame 0x1fdc": 426.0
+                    "endFrame": 525.0,
+                    "startFrame": 426.0
                 }
             },
-            "effect 0x1fe0": {
-                "modelName 0x205c": "ef_dm_ep05_00300m_mzf_01",
-                "scale 0x2090": {
+            "effect": {
+                "modelName": "ef_dm_ep05_00300m_mzf_01",
+                "scale": {
                     "0x20ac": 1.0,
                     "0x20bc": 1.0,
                     "0x20cc": 1.0
                 },
-                "spawn_duration 0x207c": 100.0,
-                "spawn_interval 0x208c": 6.999300003051758
+                "spawn_duration": 100.0,
+                "spawn_interval": 6.999300003051758
             },
-            "name 0x1e9c": "c05_c07_man59_GunMuz",
-            "parentJointName 0x1eac": "loc_r_hand",
-            "parentNodeName 0x1ebc": "man59",
-            "transform 0x20d0": {
-                "translation 0x2110": {
+            "name": "c05_c07_man59_GunMuz",
+            "parentJointName": "loc_r_hand",
+            "parentNodeName": "man59",
+            "transform": {
+                "translation": {
                     "0x212c": 0.0,
                     "0x213c": 0.10000000149011612,
                     "0x214c": 0.5699999928474426
                 }
             },
-            "type 0x1edc": "effect",
-            "uuid 0x1eec": "{c0651a3d-3463-4e14-998e-eb500492605a}"
+            "type": "effect",
+            "uuid": "{c0651a3d-3463-4e14-998e-eb500492605a}"
         },
         "0x2150": {
-            "animations 0x22e0": {
-                "pointlight 0x2320": {
-                    "/root/G2PointLight1/G2PointLightShape1 0x2360": {
-                        "lightIntensity 0x23a0": {
-                            "keyframes 0x2420": {
+            "animations": {
+                "pointlight": {
+                    "/root/G2PointLight1/G2PointLightShape1": {
+                        "lightIntensity": {
+                            "keyframes": {
                                 "0x2470": {
-                                    "key 0x24bc": 10.0,
-                                    "time 0x24cc": 343.0
+                                    "key": 10.0,
+                                    "time": 343.0
                                 },
                                 "0x24d0": {
-                                    "key 0x251c": 0.0,
-                                    "time 0x252c": 345.0
+                                    "key": 0.0,
+                                    "time": 345.0
                                 },
                                 "0x2530": {
-                                    "key 0x257c": 10.0,
-                                    "time 0x258c": 346.0
+                                    "key": 10.0,
+                                    "time": 346.0
                                 },
                                 "0x2590": {
-                                    "key 0x25dc": 0.0,
-                                    "time 0x25ec": 348.0
+                                    "key": 0.0,
+                                    "time": 348.0
                                 }
                             },
-                            "post_inf 0x240c": "loop",
-                            "pre_inf 0x241c": "loop"
+                            "post_inf": "loop",
+                            "pre_inf": "loop"
                         }
                     }
                 }
             },
-            "clips 0x25f0": {
+            "clips": {
                 "0x2620": {
-                    "endFrame 0x266c": 387.0,
-                    "startFrame 0x267c": 343.0
+                    "endFrame": 387.0,
+                    "startFrame": 343.0
                 },
                 "0x2680": {
-                    "endFrame 0x26cc": 525.0,
-                    "startFrame 0x26dc": 426.0
+                    "endFrame": 525.0,
+                    "startFrame": 426.0
                 }
             },
-            "effect 0x26e0": {
-                "loop 0x275c": true,
-                "modelName 0x276c": "ef_gun_muz_pointlight",
-                "spawn_duration 0x277c": 45.0,
-                "spawn_interval 0x278c": 4.0
+            "effect": {
+                "loop": true,
+                "modelName": "ef_gun_muz_pointlight",
+                "spawn_duration": 45.0,
+                "spawn_interval": 4.0
             },
-            "name 0x227c": "c05_c07_man59_GunMuz_light",
-            "parentJointName 0x228c": "loc_r_hand",
-            "parentNodeName 0x229c": "man59",
-            "pointlight 0x2790": {
-                "/root/G2PointLight1/G2PointLightShape1 0x27d0": {
-                    "attenuationFactor 0x28bc": 0.5,
-                    "colorRange 0x28cc": 1.0,
-                    "innerRadius 0x28dc": 0.0,
-                    "lightColorB 0x28ec": 0.14079999923706055,
-                    "lightColorG 0x28fc": 0.552299976348877,
-                    "lightColorR 0x290c": 1.0,
-                    "lightIntensity 0x291c": 10.0,
-                    "outerRadius 0x292c": 3.0,
-                    "shadowDensity 0x293c": 0.0
+            "name": "c05_c07_man59_GunMuz_light",
+            "parentJointName": "loc_r_hand",
+            "parentNodeName": "man59",
+            "pointlight": {
+                "/root/G2PointLight1/G2PointLightShape1": {
+                    "attenuationFactor": 0.5,
+                    "colorRange": 1.0,
+                    "innerRadius": 0.0,
+                    "lightColorB": 0.14079999923706055,
+                    "lightColorG": 0.552299976348877,
+                    "lightColorR": 1.0,
+                    "lightIntensity": 10.0,
+                    "outerRadius": 3.0,
+                    "shadowDensity": 0.0
                 }
             },
-            "transform 0x2940": {
-                "translation 0x2980": {
+            "transform": {
+                "translation": {
                     "0x299c": 0.0,
                     "0x29ac": 0.10000000149011612,
                     "0x29bc": 0.5699999928474426
                 }
             },
-            "type 0x22cc": "pointlight",
-            "uuid 0x22dc": "{9460896d-96e4-4232-9263-87474fd50247}"
+            "type": "pointlight",
+            "uuid": "{9460896d-96e4-4232-9263-87474fd50247}"
         },
         "0x29c0": {
-            "clips 0x2ab0": {
+            "clips": {
                 "0x2ad0": {
-                    "endFrame 0x2b1c": 746.0,
-                    "startFrame 0x2b2c": 686.0
+                    "endFrame": 746.0,
+                    "startFrame": 686.0
                 }
             },
-            "effect 0x2b30": {
-                "modelName 0x2b6c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x2a7c": "c10_bullet_A00",
-            "transform 0x2b70": {
-                "rotation 0x2bd0": {
+            "name": "c10_bullet_A00",
+            "transform": {
+                "rotation": {
                     "0x2bec": 55.0,
                     "0x2bfc": 15.234999656677246,
                     "0x2c0c": -18.200000762939453
                 },
-                "translation 0x2c10": {
+                "translation": {
                     "0x2c2c": -15.010000228881836,
                     "0x2c3c": 5.369999885559082,
                     "0x2c4c": 83.41000366210938
                 }
             },
-            "type 0x2a9c": "effect",
-            "uuid 0x2aac": "{6db15748-b8e9-4107-bc88-339005d3d89d}"
+            "type": "effect",
+            "uuid": "{6db15748-b8e9-4107-bc88-339005d3d89d}"
         },
         "0x2c50": {
-            "clips 0x2d40": {
+            "clips": {
                 "0x2d60": {
-                    "endFrame 0x2dac": 751.0,
-                    "startFrame 0x2dbc": 691.0
+                    "endFrame": 751.0,
+                    "startFrame": 691.0
                 }
             },
-            "effect 0x2dc0": {
-                "modelName 0x2dfc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x2d0c": "c10_bullet_A01",
-            "transform 0x2e00": {
-                "rotation 0x2e60": {
+            "name": "c10_bullet_A01",
+            "transform": {
+                "rotation": {
                     "0x2e7c": 54.0,
                     "0x2e8c": 15.234999656677246,
                     "0x2e9c": -15.199999809265137
                 },
-                "translation 0x2ea0": {
+                "translation": {
                     "0x2ebc": -15.010000228881836,
                     "0x2ecc": 5.369999885559082,
                     "0x2edc": 83.41000366210938
                 }
             },
-            "type 0x2d2c": "effect",
-            "uuid 0x2d3c": "{06e4e43f-366f-4337-b70b-586aa50005a2}"
+            "type": "effect",
+            "uuid": "{06e4e43f-366f-4337-b70b-586aa50005a2}"
         },
         "0x2ee0": {
-            "clips 0x2fd0": {
+            "clips": {
                 "0x2ff0": {
-                    "endFrame 0x303c": 756.0,
-                    "startFrame 0x304c": 696.0
+                    "endFrame": 756.0,
+                    "startFrame": 696.0
                 }
             },
-            "effect 0x3050": {
-                "modelName 0x308c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x2f9c": "c10_bullet_A02",
-            "transform 0x3090": {
-                "rotation 0x30f0": {
+            "name": "c10_bullet_A02",
+            "transform": {
+                "rotation": {
                     "0x310c": 53.0,
                     "0x311c": 15.234999656677246,
                     "0x312c": -12.199999809265137
                 },
-                "translation 0x3130": {
+                "translation": {
                     "0x314c": -15.010000228881836,
                     "0x315c": 5.369999885559082,
                     "0x316c": 83.41000366210938
                 }
             },
-            "type 0x2fbc": "effect",
-            "uuid 0x2fcc": "{c72e2fbf-952c-47b6-95a1-10384a8d22d8}"
+            "type": "effect",
+            "uuid": "{c72e2fbf-952c-47b6-95a1-10384a8d22d8}"
         },
         "0x3170": {
-            "clips 0x3260": {
+            "clips": {
                 "0x3280": {
-                    "endFrame 0x32cc": 761.0,
-                    "startFrame 0x32dc": 701.0
+                    "endFrame": 761.0,
+                    "startFrame": 701.0
                 }
             },
-            "effect 0x32e0": {
-                "modelName 0x331c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x322c": "c10_bullet_A03",
-            "transform 0x3320": {
-                "rotation 0x3380": {
+            "name": "c10_bullet_A03",
+            "transform": {
+                "rotation": {
                     "0x339c": 52.0,
                     "0x33ac": 15.234999656677246,
                     "0x33bc": -9.199999809265137
                 },
-                "translation 0x33c0": {
+                "translation": {
                     "0x33dc": -15.010000228881836,
                     "0x33ec": 5.369999885559082,
                     "0x33fc": 83.41000366210938
                 }
             },
-            "type 0x324c": "effect",
-            "uuid 0x325c": "{f3623167-a36c-4b84-b4bf-a863eeb27021}"
+            "type": "effect",
+            "uuid": "{f3623167-a36c-4b84-b4bf-a863eeb27021}"
         },
         "0x3400": {
-            "clips 0x34f0": {
+            "clips": {
                 "0x3510": {
-                    "endFrame 0x355c": 766.0,
-                    "startFrame 0x356c": 706.0
+                    "endFrame": 766.0,
+                    "startFrame": 706.0
                 }
             },
-            "effect 0x3570": {
-                "modelName 0x35ac": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x34bc": "c10_bullet_A04",
-            "transform 0x35b0": {
-                "rotation 0x3610": {
+            "name": "c10_bullet_A04",
+            "transform": {
+                "rotation": {
                     "0x362c": 53.0,
                     "0x363c": 15.234999656677246,
                     "0x364c": -7.199999809265137
                 },
-                "translation 0x3650": {
+                "translation": {
                     "0x366c": -15.010000228881836,
                     "0x367c": 5.369999885559082,
                     "0x368c": 83.41000366210938
                 }
             },
-            "type 0x34dc": "effect",
-            "uuid 0x34ec": "{d239cf03-37a0-45f3-8707-9d9c8b2072ca}"
+            "type": "effect",
+            "uuid": "{d239cf03-37a0-45f3-8707-9d9c8b2072ca}"
         },
         "0x3690": {
-            "clips 0x3780": {
+            "clips": {
                 "0x37a0": {
-                    "endFrame 0x37ec": 752.0,
-                    "startFrame 0x37fc": 692.0
+                    "endFrame": 752.0,
+                    "startFrame": 692.0
                 }
             },
-            "effect 0x3800": {
-                "modelName 0x383c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x374c": "c10_bullet_B00",
-            "transform 0x3840": {
-                "rotation 0x38a0": {
+            "name": "c10_bullet_B00",
+            "transform": {
+                "rotation": {
                     "0x38bc": 52.81700134277344,
                     "0x38cc": 25.573999404907227,
                     "0x38dc": -6.611000061035156
                 },
-                "translation 0x38e0": {
+                "translation": {
                     "0x38fc": -14.720000267028809,
                     "0x390c": 4.610000133514404,
                     "0x391c": 83.41000366210938
                 }
             },
-            "type 0x376c": "effect",
-            "uuid 0x377c": "{38065ea3-d417-4524-8129-8a33ffd7b1e0}"
+            "type": "effect",
+            "uuid": "{38065ea3-d417-4524-8129-8a33ffd7b1e0}"
         },
         "0x3920": {
-            "clips 0x3a10": {
+            "clips": {
                 "0x3a30": {
-                    "endFrame 0x3a7c": 757.0,
-                    "startFrame 0x3a8c": 697.0
+                    "endFrame": 757.0,
+                    "startFrame": 697.0
                 }
             },
-            "effect 0x3a90": {
-                "modelName 0x3acc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x39dc": "c10_bullet_B01",
-            "transform 0x3ad0": {
-                "rotation 0x3b30": {
+            "name": "c10_bullet_B01",
+            "transform": {
+                "rotation": {
                     "0x3b4c": 51.81700134277344,
                     "0x3b5c": 22.573999404907227,
                     "0x3b6c": -6.611000061035156
                 },
-                "translation 0x3b70": {
+                "translation": {
                     "0x3b8c": -14.720000267028809,
                     "0x3b9c": 4.610000133514404,
                     "0x3bac": 83.41000366210938
                 }
             },
-            "type 0x39fc": "effect",
-            "uuid 0x3a0c": "{b07a8359-2396-4cf3-ac53-254ffc267a75}"
+            "type": "effect",
+            "uuid": "{b07a8359-2396-4cf3-ac53-254ffc267a75}"
         },
         "0x3b0": {
-            "bg 0x4a0": {
-                "modelName 0x4dc": "ar_a_root"
+            "bg": {
+                "modelName": "ar_a_root"
             },
-            "clips 0x4e0": {
+            "clips": {
                 "0x500": {
-                    "endFrame 0x54c": 835.0,
-                    "startFrame 0x55c": 0.0
+                    "endFrame": 835.0,
+                    "startFrame": 0.0
                 }
             },
-            "name 0x46c": "bg",
-            "transform 0x560": {
-                "rotation 0x5c0": {
+            "name": "bg",
+            "transform": {
+                "rotation": {
                     "0x5dc": 0.0,
                     "0x5ec": 0.0,
                     "0x5fc": 0.0
                 },
-                "translation 0x600": {
+                "translation": {
                     "0x61c": 0.0,
                     "0x62c": 0.11999999731779099,
                     "0x63c": 0.0
                 }
             },
-            "type 0x48c": "bg",
-            "uuid 0x49c": "{1c34ace1-fa4a-41cb-a4f2-718b69682ec9}"
+            "type": "bg",
+            "uuid": "{1c34ace1-fa4a-41cb-a4f2-718b69682ec9}"
         },
         "0x3bb0": {
-            "clips 0x3ca0": {
+            "clips": {
                 "0x3cc0": {
-                    "endFrame 0x3d0c": 762.0,
-                    "startFrame 0x3d1c": 702.0
+                    "endFrame": 762.0,
+                    "startFrame": 702.0
                 }
             },
-            "effect 0x3d20": {
-                "modelName 0x3d5c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x3c6c": "c10_bullet_B02",
-            "transform 0x3d60": {
-                "rotation 0x3dc0": {
+            "name": "c10_bullet_B02",
+            "transform": {
+                "rotation": {
                     "0x3ddc": 50.81700134277344,
                     "0x3dec": 19.573999404907227,
                     "0x3dfc": -6.611000061035156
                 },
-                "translation 0x3e00": {
+                "translation": {
                     "0x3e1c": -14.720000267028809,
                     "0x3e2c": 4.610000133514404,
                     "0x3e3c": 83.41000366210938
                 }
             },
-            "type 0x3c8c": "effect",
-            "uuid 0x3c9c": "{fc8b21d7-1059-48b3-904d-94b80de8f802}"
+            "type": "effect",
+            "uuid": "{fc8b21d7-1059-48b3-904d-94b80de8f802}"
         },
         "0x3e40": {
-            "clips 0x3f30": {
+            "clips": {
                 "0x3f50": {
-                    "endFrame 0x3f9c": 767.0,
-                    "startFrame 0x3fac": 707.0
+                    "endFrame": 767.0,
+                    "startFrame": 707.0
                 }
             },
-            "effect 0x3fb0": {
-                "modelName 0x3fec": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x3efc": "c10_bullet_B03",
-            "transform 0x3ff0": {
-                "rotation 0x4050": {
+            "name": "c10_bullet_B03",
+            "transform": {
+                "rotation": {
                     "0x406c": 49.81700134277344,
                     "0x407c": 16.573999404907227,
                     "0x408c": -6.611000061035156
                 },
-                "translation 0x4090": {
+                "translation": {
                     "0x40ac": -14.720000267028809,
                     "0x40bc": 4.610000133514404,
                     "0x40cc": 83.41000366210938
                 }
             },
-            "type 0x3f1c": "effect",
-            "uuid 0x3f2c": "{c6c52084-03c9-4e9c-98ae-94adb79f623a}"
+            "type": "effect",
+            "uuid": "{c6c52084-03c9-4e9c-98ae-94adb79f623a}"
         },
         "0x40d0": {
-            "clips 0x41c0": {
+            "clips": {
                 "0x41e0": {
-                    "endFrame 0x422c": 772.0,
-                    "startFrame 0x423c": 712.0
+                    "endFrame": 772.0,
+                    "startFrame": 712.0
                 }
             },
-            "effect 0x4240": {
-                "modelName 0x427c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x418c": "c10_bullet_B04",
-            "transform 0x4280": {
-                "rotation 0x42e0": {
+            "name": "c10_bullet_B04",
+            "transform": {
+                "rotation": {
                     "0x42fc": 48.81700134277344,
                     "0x430c": 13.574000358581543,
                     "0x431c": -6.611000061035156
                 },
-                "translation 0x4320": {
+                "translation": {
                     "0x433c": -14.720000267028809,
                     "0x434c": 4.610000133514404,
                     "0x435c": 83.41000366210938
                 }
             },
-            "type 0x41ac": "effect",
-            "uuid 0x41bc": "{7856a9f3-cd5e-4e1c-b3e3-deb7df32591e}"
+            "type": "effect",
+            "uuid": "{7856a9f3-cd5e-4e1c-b3e3-deb7df32591e}"
         },
         "0x4360": {
-            "clips 0x4450": {
+            "clips": {
                 "0x4470": {
-                    "endFrame 0x44bc": 777.0,
-                    "startFrame 0x44cc": 717.0
+                    "endFrame": 777.0,
+                    "startFrame": 717.0
                 }
             },
-            "effect 0x44d0": {
-                "modelName 0x450c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x441c": "c10_bullet_B05",
-            "transform 0x4510": {
-                "rotation 0x4570": {
+            "name": "c10_bullet_B05",
+            "transform": {
+                "rotation": {
                     "0x458c": 47.81700134277344,
                     "0x459c": 10.574000358581543,
                     "0x45ac": -6.611000061035156
                 },
-                "translation 0x45b0": {
+                "translation": {
                     "0x45cc": -14.720000267028809,
                     "0x45dc": 4.610000133514404,
                     "0x45ec": 83.41000366210938
                 }
             },
-            "type 0x443c": "effect",
-            "uuid 0x444c": "{0bd5af18-a063-485a-945f-0eb31d202711}"
+            "type": "effect",
+            "uuid": "{0bd5af18-a063-485a-945f-0eb31d202711}"
         },
         "0x45f0": {
-            "clips 0x46e0": {
+            "clips": {
                 "0x4700": {
-                    "endFrame 0x474c": 749.0,
-                    "startFrame 0x475c": 689.0
+                    "endFrame": 749.0,
+                    "startFrame": 689.0
                 }
             },
-            "effect 0x4760": {
-                "modelName 0x479c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x46ac": "c10_bullet_C00",
-            "transform 0x47a0": {
-                "rotation 0x4800": {
+            "name": "c10_bullet_C00",
+            "transform": {
+                "rotation": {
                     "0x481c": 41.0,
                     "0x482c": -11.838000297546387,
                     "0x483c": 16.357999801635742
                 },
-                "translation 0x4840": {
+                "translation": {
                     "0x485c": -12.550000190734863,
                     "0x486c": 4.599999904632568,
                     "0x487c": 83.56999969482422
                 }
             },
-            "type 0x46cc": "effect",
-            "uuid 0x46dc": "{93e9487f-2a84-4527-848c-d490efd619a3}"
+            "type": "effect",
+            "uuid": "{93e9487f-2a84-4527-848c-d490efd619a3}"
         },
         "0x4880": {
-            "clips 0x4970": {
+            "clips": {
                 "0x4990": {
-                    "endFrame 0x49dc": 754.0,
-                    "startFrame 0x49ec": 694.0
+                    "endFrame": 754.0,
+                    "startFrame": 694.0
                 }
             },
-            "effect 0x49f0": {
-                "modelName 0x4a2c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x493c": "c10_bullet_C01",
-            "transform 0x4a30": {
-                "rotation 0x4a90": {
+            "name": "c10_bullet_C01",
+            "transform": {
+                "rotation": {
                     "0x4aac": 42.0,
                     "0x4abc": -11.838000297546387,
                     "0x4acc": 16.357999801635742
                 },
-                "translation 0x4ad0": {
+                "translation": {
                     "0x4aec": -12.550000190734863,
                     "0x4afc": 4.599999904632568,
                     "0x4b0c": 83.56999969482422
                 }
             },
-            "type 0x495c": "effect",
-            "uuid 0x496c": "{81de78e3-c439-4b9e-8c6a-26fb9ca8d317}"
+            "type": "effect",
+            "uuid": "{81de78e3-c439-4b9e-8c6a-26fb9ca8d317}"
         },
         "0x4b10": {
-            "clips 0x4c00": {
+            "clips": {
                 "0x4c20": {
-                    "endFrame 0x4c6c": 759.0,
-                    "startFrame 0x4c7c": 699.0
+                    "endFrame": 759.0,
+                    "startFrame": 699.0
                 }
             },
-            "effect 0x4c80": {
-                "modelName 0x4cbc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x4bcc": "c10_bullet_C02",
-            "transform 0x4cc0": {
-                "rotation 0x4d20": {
+            "name": "c10_bullet_C02",
+            "transform": {
+                "rotation": {
                     "0x4d3c": 43.0,
                     "0x4d4c": -11.838000297546387,
                     "0x4d5c": 16.357999801635742
                 },
-                "translation 0x4d60": {
+                "translation": {
                     "0x4d7c": -12.550000190734863,
                     "0x4d8c": 4.599999904632568,
                     "0x4d9c": 83.56999969482422
                 }
             },
-            "type 0x4bec": "effect",
-            "uuid 0x4bfc": "{a90618e6-d7db-400a-bbf9-dd671387a98a}"
+            "type": "effect",
+            "uuid": "{a90618e6-d7db-400a-bbf9-dd671387a98a}"
         },
         "0x4da0": {
-            "clips 0x4e90": {
+            "clips": {
                 "0x4eb0": {
-                    "endFrame 0x4efc": 765.0,
-                    "startFrame 0x4f0c": 705.0
+                    "endFrame": 765.0,
+                    "startFrame": 705.0
                 }
             },
-            "effect 0x4f10": {
-                "modelName 0x4f4c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x4e5c": "c10_bullet_C03",
-            "transform 0x4f50": {
-                "rotation 0x4fb0": {
+            "name": "c10_bullet_C03",
+            "transform": {
+                "rotation": {
                     "0x4fcc": 44.0,
                     "0x4fdc": -13.838000297546387,
                     "0x4fec": 16.357999801635742
                 },
-                "translation 0x4ff0": {
+                "translation": {
                     "0x500c": -12.550000190734863,
                     "0x501c": 4.599999904632568,
                     "0x502c": 83.56999969482422
                 }
             },
-            "type 0x4e7c": "effect",
-            "uuid 0x4e8c": "{f0db001b-f3a3-4c6d-8b47-898e278dfc11}"
+            "type": "effect",
+            "uuid": "{f0db001b-f3a3-4c6d-8b47-898e278dfc11}"
         },
         "0x5030": {
-            "clips 0x5120": {
+            "clips": {
                 "0x5140": {
-                    "endFrame 0x518c": 770.0,
-                    "startFrame 0x519c": 710.0
+                    "endFrame": 770.0,
+                    "startFrame": 710.0
                 }
             },
-            "effect 0x51a0": {
-                "modelName 0x51dc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x50ec": "c10_bullet_D00",
-            "transform 0x51e0": {
-                "rotation 0x5240": {
+            "name": "c10_bullet_D00",
+            "transform": {
+                "rotation": {
                     "0x525c": 55.84199905395508,
                     "0x526c": 25.25,
                     "0x527c": -7.3470001220703125
                 },
-                "translation 0x5280": {
+                "translation": {
                     "0x529c": -14.829999923706055,
                     "0x52ac": 4.559999942779541,
                     "0x52bc": 83.83000183105469
                 }
             },
-            "type 0x510c": "effect",
-            "uuid 0x511c": "{0901d4da-f11a-4190-9601-c81740d55f88}"
+            "type": "effect",
+            "uuid": "{0901d4da-f11a-4190-9601-c81740d55f88}"
         },
         "0x52c0": {
-            "clips 0x53b0": {
+            "clips": {
                 "0x53d0": {
-                    "endFrame 0x541c": 775.0,
-                    "startFrame 0x542c": 715.0
+                    "endFrame": 775.0,
+                    "startFrame": 715.0
                 }
             },
-            "effect 0x5430": {
-                "modelName 0x546c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x537c": "c10_bullet_D01",
-            "transform 0x5470": {
-                "rotation 0x54d0": {
+            "name": "c10_bullet_D01",
+            "transform": {
+                "rotation": {
                     "0x54ec": 51.84199905395508,
                     "0x54fc": 20.25,
                     "0x550c": -7.3470001220703125
                 },
-                "translation 0x5510": {
+                "translation": {
                     "0x552c": -14.829999923706055,
                     "0x553c": 4.559999942779541,
                     "0x554c": 83.83000183105469
                 }
             },
-            "type 0x539c": "effect",
-            "uuid 0x53ac": "{a3ed3ad3-6466-4e5a-a850-c8fd4604b546}"
+            "type": "effect",
+            "uuid": "{a3ed3ad3-6466-4e5a-a850-c8fd4604b546}"
         },
         "0x5550": {
-            "clips 0x5640": {
+            "clips": {
                 "0x5660": {
-                    "endFrame 0x56ac": 780.0,
-                    "startFrame 0x56bc": 720.0
+                    "endFrame": 780.0,
+                    "startFrame": 720.0
                 }
             },
-            "effect 0x56c0": {
-                "modelName 0x56fc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x560c": "c10_bullet_D02",
-            "transform 0x5700": {
-                "rotation 0x5760": {
+            "name": "c10_bullet_D02",
+            "transform": {
+                "rotation": {
                     "0x577c": 47.84199905395508,
                     "0x578c": 15.25,
                     "0x579c": -7.3470001220703125
                 },
-                "translation 0x57a0": {
+                "translation": {
                     "0x57bc": -14.829999923706055,
                     "0x57cc": 4.559999942779541,
                     "0x57dc": 83.83000183105469
                 }
             },
-            "type 0x562c": "effect",
-            "uuid 0x563c": "{87a534a2-a851-4a1d-b52f-fa61ce91c91d}"
+            "type": "effect",
+            "uuid": "{87a534a2-a851-4a1d-b52f-fa61ce91c91d}"
         },
         "0x57e0": {
-            "clips 0x58d0": {
+            "clips": {
                 "0x58f0": {
-                    "endFrame 0x593c": 785.0,
-                    "startFrame 0x594c": 725.0
+                    "endFrame": 785.0,
+                    "startFrame": 725.0
                 }
             },
-            "effect 0x5950": {
-                "modelName 0x598c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x589c": "c10_bullet_D03",
-            "transform 0x5990": {
-                "rotation 0x59f0": {
+            "name": "c10_bullet_D03",
+            "transform": {
+                "rotation": {
                     "0x5a0c": 43.84199905395508,
                     "0x5a1c": 10.25,
                     "0x5a2c": -7.3470001220703125
                 },
-                "translation 0x5a30": {
+                "translation": {
                     "0x5a4c": -14.829999923706055,
                     "0x5a5c": 4.559999942779541,
                     "0x5a6c": 83.83000183105469
                 }
             },
-            "type 0x58bc": "effect",
-            "uuid 0x58cc": "{b4bfaed2-4d72-47ac-b72b-7a4fd719c7d7}"
+            "type": "effect",
+            "uuid": "{b4bfaed2-4d72-47ac-b72b-7a4fd719c7d7}"
         },
         "0x5a70": {
-            "clips 0x5b60": {
+            "clips": {
                 "0x5b80": {
-                    "endFrame 0x5bcc": 800.0,
-                    "startFrame 0x5bdc": 740.0
+                    "endFrame": 800.0,
+                    "startFrame": 740.0
                 }
             },
-            "effect 0x5be0": {
-                "modelName 0x5c1c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x5b2c": "c10_bullet_E00",
-            "transform 0x5c20": {
-                "rotation 0x5c80": {
+            "name": "c10_bullet_E00",
+            "transform": {
+                "rotation": {
                     "0x5c9c": 68.0,
                     "0x5cac": -22.235000610351562,
                     "0x5cbc": -32.20000076293945
                 },
-                "translation 0x5cc0": {
+                "translation": {
                     "0x5cdc": -15.010000228881836,
                     "0x5cec": 5.369999885559082,
                     "0x5cfc": 83.41000366210938
                 }
             },
-            "type 0x5b4c": "effect",
-            "uuid 0x5b5c": "{d4005832-22cc-4337-8d09-0a56c8c55a8b}"
+            "type": "effect",
+            "uuid": "{d4005832-22cc-4337-8d09-0a56c8c55a8b}"
         },
         "0x5d00": {
-            "clips 0x5df0": {
+            "clips": {
                 "0x5e10": {
-                    "endFrame 0x5e5c": 805.0,
-                    "startFrame 0x5e6c": 745.0
+                    "endFrame": 805.0,
+                    "startFrame": 745.0
                 }
             },
-            "effect 0x5e70": {
-                "modelName 0x5eac": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x5dbc": "c10_bullet_E01",
-            "transform 0x5eb0": {
-                "rotation 0x5f10": {
+            "name": "c10_bullet_E01",
+            "transform": {
+                "rotation": {
                     "0x5f2c": 73.0,
                     "0x5f3c": -27.235000610351562,
                     "0x5f4c": -32.20000076293945
                 },
-                "translation 0x5f50": {
+                "translation": {
                     "0x5f6c": -15.010000228881836,
                     "0x5f7c": 5.369999885559082,
                     "0x5f8c": 83.41000366210938
                 }
             },
-            "type 0x5ddc": "effect",
-            "uuid 0x5dec": "{96fd4917-8079-4f4e-93b9-05f8dc064287}"
+            "type": "effect",
+            "uuid": "{96fd4917-8079-4f4e-93b9-05f8dc064287}"
         },
         "0x5f90": {
-            "clips 0x6080": {
+            "clips": {
                 "0x60a0": {
-                    "endFrame 0x60ec": 810.0,
-                    "startFrame 0x60fc": 750.0
+                    "endFrame": 810.0,
+                    "startFrame": 750.0
                 }
             },
-            "effect 0x6100": {
-                "modelName 0x613c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x604c": "c10_bullet_E02",
-            "transform 0x6140": {
-                "rotation 0x61a0": {
+            "name": "c10_bullet_E02",
+            "transform": {
+                "rotation": {
                     "0x61bc": 78.0,
                     "0x61cc": -32.23500061035156,
                     "0x61dc": -32.20000076293945
                 },
-                "translation 0x61e0": {
+                "translation": {
                     "0x61fc": -15.010000228881836,
                     "0x620c": 5.369999885559082,
                     "0x621c": 83.41000366210938
                 }
             },
-            "type 0x606c": "effect",
-            "uuid 0x607c": "{65a242bf-5955-4843-808d-08de4ae62c9d}"
+            "type": "effect",
+            "uuid": "{65a242bf-5955-4843-808d-08de4ae62c9d}"
         },
         "0x6220": {
-            "clips 0x6310": {
+            "clips": {
                 "0x6330": {
-                    "endFrame 0x637c": 815.0,
-                    "startFrame 0x638c": 755.0
+                    "endFrame": 815.0,
+                    "startFrame": 755.0
                 }
             },
-            "effect 0x6390": {
-                "modelName 0x63cc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x62dc": "c10_bullet_E03",
-            "transform 0x63d0": {
-                "rotation 0x6430": {
+            "name": "c10_bullet_E03",
+            "transform": {
+                "rotation": {
                     "0x644c": 83.0,
                     "0x645c": -37.23500061035156,
                     "0x646c": -32.20000076293945
                 },
-                "translation 0x6470": {
+                "translation": {
                     "0x648c": -15.010000228881836,
                     "0x649c": 5.369999885559082,
                     "0x64ac": 83.41000366210938
                 }
             },
-            "type 0x62fc": "effect",
-            "uuid 0x630c": "{b5fc361a-abf6-4085-b0c6-6557d7a387a0}"
+            "type": "effect",
+            "uuid": "{b5fc361a-abf6-4085-b0c6-6557d7a387a0}"
         },
         "0x640": {
-            "clips 0x790": {
+            "clips": {
                 "0x7c0": {
-                    "endFrame 0x80c": 387.0,
-                    "startFrame 0x81c": 343.0
+                    "endFrame": 387.0,
+                    "startFrame": 343.0
                 },
                 "0x820": {
-                    "endFrame 0x86c": 525.0,
-                    "startFrame 0x87c": 426.0
+                    "endFrame": 525.0,
+                    "startFrame": 426.0
                 }
             },
-            "effect 0x880": {
-                "modelName 0x8dc": "ef_dm_ep05_00300m_mzf_01",
-                "spawn_duration 0x8ec": 100.0,
-                "spawn_interval 0x8fc": 5.0
+            "effect": {
+                "modelName": "ef_dm_ep05_00300m_mzf_01",
+                "spawn_duration": 100.0,
+                "spawn_interval": 5.0
             },
-            "name 0x73c": "c05_c07_man57_GunMuz",
-            "parentJointName 0x74c": "loc_r_hand",
-            "parentNodeName 0x75c": "man57",
-            "transform 0x900": {
-                "translation 0x940": {
+            "name": "c05_c07_man57_GunMuz",
+            "parentJointName": "loc_r_hand",
+            "parentNodeName": "man57",
+            "transform": {
+                "translation": {
                     "0x95c": 0.0,
                     "0x96c": 0.10000000149011612,
                     "0x97c": 0.5699999928474426
                 }
             },
-            "type 0x77c": "effect",
-            "uuid 0x78c": "{a79e08e6-ad7d-4c87-81dd-b5f3cc99b58d}"
+            "type": "effect",
+            "uuid": "{a79e08e6-ad7d-4c87-81dd-b5f3cc99b58d}"
         },
         "0x64b0": {
-            "clips 0x65a0": {
+            "clips": {
                 "0x65c0": {
-                    "endFrame 0x660c": 820.0,
-                    "startFrame 0x661c": 760.0
+                    "endFrame": 820.0,
+                    "startFrame": 760.0
                 }
             },
-            "effect 0x6620": {
-                "modelName 0x665c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x656c": "c10_bullet_E04",
-            "transform 0x6660": {
-                "rotation 0x66c0": {
+            "name": "c10_bullet_E04",
+            "transform": {
+                "rotation": {
                     "0x66dc": 88.0,
                     "0x66ec": -42.23500061035156,
                     "0x66fc": -32.20000076293945
                 },
-                "translation 0x6700": {
+                "translation": {
                     "0x671c": -15.010000228881836,
                     "0x672c": 5.369999885559082,
                     "0x673c": 83.41000366210938
                 }
             },
-            "type 0x658c": "effect",
-            "uuid 0x659c": "{d000571f-8bc2-4e5a-9b59-4f16a095c02e}"
+            "type": "effect",
+            "uuid": "{d000571f-8bc2-4e5a-9b59-4f16a095c02e}"
         },
         "0x6740": {
-            "clips 0x6830": {
+            "clips": {
                 "0x6850": {
-                    "endFrame 0x689c": 825.0,
-                    "startFrame 0x68ac": 765.0
+                    "endFrame": 825.0,
+                    "startFrame": 765.0
                 }
             },
-            "effect 0x68b0": {
-                "modelName 0x68ec": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x67fc": "c10_bullet_E05",
-            "transform 0x68f0": {
-                "rotation 0x6950": {
+            "name": "c10_bullet_E05",
+            "transform": {
+                "rotation": {
                     "0x696c": 93.0,
                     "0x697c": -47.23500061035156,
                     "0x698c": -32.20000076293945
                 },
-                "translation 0x6990": {
+                "translation": {
                     "0x69ac": -15.010000228881836,
                     "0x69bc": 5.369999885559082,
                     "0x69cc": 83.41000366210938
                 }
             },
-            "type 0x681c": "effect",
-            "uuid 0x682c": "{ad989e72-9e3c-4358-8a2f-cea402d18327}"
+            "type": "effect",
+            "uuid": "{ad989e72-9e3c-4358-8a2f-cea402d18327}"
         },
         "0x69d0": {
-            "clips 0x6ac0": {
+            "clips": {
                 "0x6ae0": {
-                    "endFrame 0x6b2c": 835.0,
-                    "startFrame 0x6b3c": 767.0
+                    "endFrame": 835.0,
+                    "startFrame": 767.0
                 }
             },
-            "effect 0x6b40": {
-                "modelName 0x6b7c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x6a8c": "c10_bullet_F00",
-            "transform 0x6b80": {
-                "rotation 0x6be0": {
+            "name": "c10_bullet_F00",
+            "transform": {
+                "rotation": {
                     "0x6bfc": 24.150999069213867,
                     "0x6c0c": -54.44499969482422,
                     "0x6c1c": 61.84299850463867
                 },
-                "translation 0x6c20": {
+                "translation": {
                     "0x6c3c": -11.680000305175781,
                     "0x6c4c": 5.230000019073486,
                     "0x6c5c": 85.93000030517578
                 }
             },
-            "type 0x6aac": "effect",
-            "uuid 0x6abc": "{22284bd4-d6ce-4a5c-8df9-8639710705a1}"
+            "type": "effect",
+            "uuid": "{22284bd4-d6ce-4a5c-8df9-8639710705a1}"
         },
         "0x6c60": {
-            "clips 0x6d50": {
+            "clips": {
                 "0x6d70": {
-                    "endFrame 0x6dbc": 835.0,
-                    "startFrame 0x6dcc": 772.0
+                    "endFrame": 835.0,
+                    "startFrame": 772.0
                 }
             },
-            "effect 0x6dd0": {
-                "modelName 0x6e0c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x6d1c": "c10_bullet_F01",
-            "transform 0x6e10": {
-                "rotation 0x6e70": {
+            "name": "c10_bullet_F01",
+            "transform": {
+                "rotation": {
                     "0x6e8c": 18.150999069213867,
                     "0x6e9c": -54.44499969482422,
                     "0x6eac": 61.84299850463867
                 },
-                "translation 0x6eb0": {
+                "translation": {
                     "0x6ecc": -11.680000305175781,
                     "0x6edc": 5.230000019073486,
                     "0x6eec": 85.93000030517578
                 }
             },
-            "type 0x6d3c": "effect",
-            "uuid 0x6d4c": "{fa01cd62-6635-4370-a957-b28d63142160}"
+            "type": "effect",
+            "uuid": "{fa01cd62-6635-4370-a957-b28d63142160}"
         },
         "0x6ef0": {
-            "clips 0x6fe0": {
+            "clips": {
                 "0x7000": {
-                    "endFrame 0x704c": 835.0,
-                    "startFrame 0x705c": 777.0
+                    "endFrame": 835.0,
+                    "startFrame": 777.0
                 }
             },
-            "effect 0x7060": {
-                "modelName 0x709c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x6fac": "c10_bullet_F02",
-            "transform 0x70a0": {
-                "rotation 0x7100": {
+            "name": "c10_bullet_F02",
+            "transform": {
+                "rotation": {
                     "0x711c": 12.151000022888184,
                     "0x712c": -54.44499969482422,
                     "0x713c": 61.84299850463867
                 },
-                "translation 0x7140": {
+                "translation": {
                     "0x715c": -11.680000305175781,
                     "0x716c": 5.230000019073486,
                     "0x717c": 85.93000030517578
                 }
             },
-            "type 0x6fcc": "effect",
-            "uuid 0x6fdc": "{de824310-2e7f-4e33-ad22-e9e2fb601be0}"
+            "type": "effect",
+            "uuid": "{de824310-2e7f-4e33-ad22-e9e2fb601be0}"
         },
         "0x7180": {
-            "clips 0x7270": {
+            "clips": {
                 "0x7290": {
-                    "endFrame 0x72dc": 835.0,
-                    "startFrame 0x72ec": 782.0
+                    "endFrame": 835.0,
+                    "startFrame": 782.0
                 }
             },
-            "effect 0x72f0": {
-                "modelName 0x732c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x723c": "c10_bullet_F03",
-            "transform 0x7330": {
-                "rotation 0x7390": {
+            "name": "c10_bullet_F03",
+            "transform": {
+                "rotation": {
                     "0x73ac": 6.151000022888184,
                     "0x73bc": -54.44499969482422,
                     "0x73cc": 61.84299850463867
                 },
-                "translation 0x73d0": {
+                "translation": {
                     "0x73ec": -11.680000305175781,
                     "0x73fc": 5.230000019073486,
                     "0x740c": 85.93000030517578
                 }
             },
-            "type 0x725c": "effect",
-            "uuid 0x726c": "{9ff3035f-7eb5-4585-9ca3-570996a6715b}"
+            "type": "effect",
+            "uuid": "{9ff3035f-7eb5-4585-9ca3-570996a6715b}"
         },
         "0x7410": {
-            "clips 0x7500": {
+            "clips": {
                 "0x7520": {
-                    "endFrame 0x756c": 835.0,
-                    "startFrame 0x757c": 788.0
+                    "endFrame": 835.0,
+                    "startFrame": 788.0
                 }
             },
-            "effect 0x7580": {
-                "modelName 0x75bc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x74cc": "c10_bullet_G00",
-            "transform 0x75c0": {
-                "rotation 0x7620": {
+            "name": "c10_bullet_G00",
+            "transform": {
+                "rotation": {
                     "0x763c": 51.29199981689453,
                     "0x764c": -58.55699920654297,
                     "0x765c": 8.890000343322754
                 },
-                "translation 0x7660": {
+                "translation": {
                     "0x767c": -15.390000343322754,
                     "0x768c": 5.230000019073486,
                     "0x769c": 84.88999938964844
                 }
             },
-            "type 0x74ec": "effect",
-            "uuid 0x74fc": "{206ee235-f591-4a98-adbb-f850dc43f1fa}"
+            "type": "effect",
+            "uuid": "{206ee235-f591-4a98-adbb-f850dc43f1fa}"
         },
         "0x76a0": {
-            "clips 0x7790": {
+            "clips": {
                 "0x77b0": {
-                    "endFrame 0x77fc": 835.0,
-                    "startFrame 0x780c": 793.0
+                    "endFrame": 835.0,
+                    "startFrame": 793.0
                 }
             },
-            "effect 0x7810": {
-                "modelName 0x784c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x775c": "c10_bullet_G01",
-            "transform 0x7850": {
-                "rotation 0x78b0": {
+            "name": "c10_bullet_G01",
+            "transform": {
+                "rotation": {
                     "0x78cc": 56.29199981689453,
                     "0x78dc": -43.55699920654297,
                     "0x78ec": 8.890000343322754
                 },
-                "translation 0x78f0": {
+                "translation": {
                     "0x790c": -15.390000343322754,
                     "0x791c": 5.230000019073486,
                     "0x792c": 84.88999938964844
                 }
             },
-            "type 0x777c": "effect",
-            "uuid 0x778c": "{264150c6-535e-4414-8dec-d79baef33ea9}"
+            "type": "effect",
+            "uuid": "{264150c6-535e-4414-8dec-d79baef33ea9}"
         },
         "0x7930": {
-            "clips 0x7a20": {
+            "clips": {
                 "0x7a40": {
-                    "endFrame 0x7a8c": 835.0,
-                    "startFrame 0x7a9c": 798.0
+                    "endFrame": 835.0,
+                    "startFrame": 798.0
                 }
             },
-            "effect 0x7aa0": {
-                "modelName 0x7adc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x79ec": "c10_bullet_G02",
-            "transform 0x7ae0": {
-                "rotation 0x7b40": {
+            "name": "c10_bullet_G02",
+            "transform": {
+                "rotation": {
                     "0x7b5c": 50.29199981689453,
                     "0x7b6c": -28.55699920654297,
                     "0x7b7c": 8.890000343322754
                 },
-                "translation 0x7b80": {
+                "translation": {
                     "0x7b9c": -15.390000343322754,
                     "0x7bac": 5.230000019073486,
                     "0x7bbc": 84.88999938964844
                 }
             },
-            "type 0x7a0c": "effect",
-            "uuid 0x7a1c": "{101ee97a-3e20-4878-8f70-d64d056cd3d6}"
+            "type": "effect",
+            "uuid": "{101ee97a-3e20-4878-8f70-d64d056cd3d6}"
         },
         "0x7bc0": {
-            "clips 0x7cb0": {
+            "clips": {
                 "0x7cd0": {
-                    "endFrame 0x7d1c": 835.0,
-                    "startFrame 0x7d2c": 803.0
+                    "endFrame": 835.0,
+                    "startFrame": 803.0
                 }
             },
-            "effect 0x7d30": {
-                "modelName 0x7d6c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x7c7c": "c10_bullet_G03",
-            "transform 0x7d70": {
-                "rotation 0x7dd0": {
+            "name": "c10_bullet_G03",
+            "transform": {
+                "rotation": {
                     "0x7dec": 51.29199981689453,
                     "0x7dfc": -13.557000160217285,
                     "0x7e0c": 8.890000343322754
                 },
-                "translation 0x7e10": {
+                "translation": {
                     "0x7e2c": -15.390000343322754,
                     "0x7e3c": 5.230000019073486,
                     "0x7e4c": 84.88999938964844
                 }
             },
-            "type 0x7c9c": "effect",
-            "uuid 0x7cac": "{4cd8cd5e-daac-41bf-94fa-056aaad11d1d}"
+            "type": "effect",
+            "uuid": "{4cd8cd5e-daac-41bf-94fa-056aaad11d1d}"
         },
         "0x7e50": {
-            "clips 0x7f40": {
+            "clips": {
                 "0x7f60": {
-                    "endFrame 0x7fac": 835.0,
-                    "startFrame 0x7fbc": 808.0
+                    "endFrame": 835.0,
+                    "startFrame": 808.0
                 }
             },
-            "effect 0x7fc0": {
-                "modelName 0x7ffc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x7f0c": "c10_bullet_G04",
-            "transform 0x8000": {
-                "rotation 0x8060": {
+            "name": "c10_bullet_G04",
+            "transform": {
+                "rotation": {
                     "0x807c": 51.29199981689453,
                     "0x808c": 2.556999921798706,
                     "0x809c": 8.890000343322754
                 },
-                "translation 0x80a0": {
+                "translation": {
                     "0x80bc": -15.390000343322754,
                     "0x80cc": 5.230000019073486,
                     "0x80dc": 84.88999938964844
                 }
             },
-            "type 0x7f2c": "effect",
-            "uuid 0x7f3c": "{36ee9c56-78cc-4614-85bf-baeed7f7f6d3}"
+            "type": "effect",
+            "uuid": "{36ee9c56-78cc-4614-85bf-baeed7f7f6d3}"
         },
         "0x80e0": {
-            "clips 0x81d0": {
+            "clips": {
                 "0x81f0": {
-                    "endFrame 0x823c": 835.0,
-                    "startFrame 0x824c": 813.0
+                    "endFrame": 835.0,
+                    "startFrame": 813.0
                 }
             },
-            "effect 0x8250": {
-                "modelName 0x828c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x819c": "c10_bullet_G05",
-            "transform 0x8290": {
-                "rotation 0x82f0": {
+            "name": "c10_bullet_G05",
+            "transform": {
+                "rotation": {
                     "0x830c": 51.29199981689453,
                     "0x831c": 17.55699920654297,
                     "0x832c": 8.890000343322754
                 },
-                "translation 0x8330": {
+                "translation": {
                     "0x834c": -15.390000343322754,
                     "0x835c": 5.230000019073486,
                     "0x836c": 84.88999938964844
                 }
             },
-            "type 0x81bc": "effect",
-            "uuid 0x81cc": "{d486375c-9e11-4a4f-81a2-68bfed3cdafb}"
+            "type": "effect",
+            "uuid": "{d486375c-9e11-4a4f-81a2-68bfed3cdafb}"
         },
         "0x8370": {
-            "clips 0x8460": {
+            "clips": {
                 "0x8480": {
-                    "endFrame 0x84cc": 835.0,
-                    "startFrame 0x84dc": 818.0
+                    "endFrame": 835.0,
+                    "startFrame": 818.0
                 }
             },
-            "effect 0x84e0": {
-                "modelName 0x851c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x842c": "c10_bullet_G06",
-            "transform 0x8520": {
-                "rotation 0x8580": {
+            "name": "c10_bullet_G06",
+            "transform": {
+                "rotation": {
                     "0x859c": 51.29199981689453,
                     "0x85ac": 32.55699920654297,
                     "0x85bc": 8.890000343322754
                 },
-                "translation 0x85c0": {
+                "translation": {
                     "0x85dc": -15.390000343322754,
                     "0x85ec": 5.230000019073486,
                     "0x85fc": 84.88999938964844
                 }
             },
-            "type 0x844c": "effect",
-            "uuid 0x845c": "{ba30b9fa-35a6-4ddf-9eec-b6b169b22fa9}"
+            "type": "effect",
+            "uuid": "{ba30b9fa-35a6-4ddf-9eec-b6b169b22fa9}"
         },
         "0x8600": {
-            "clips 0x86f0": {
+            "clips": {
                 "0x8710": {
-                    "endFrame 0x875c": 835.0,
-                    "startFrame 0x876c": 823.0
+                    "endFrame": 835.0,
+                    "startFrame": 823.0
                 }
             },
-            "effect 0x8770": {
-                "modelName 0x87ac": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x86bc": "c10_bullet_G07",
-            "transform 0x87b0": {
-                "rotation 0x8810": {
+            "name": "c10_bullet_G07",
+            "transform": {
+                "rotation": {
                     "0x882c": 53.29199981689453,
                     "0x883c": 47.55699920654297,
                     "0x884c": 8.890000343322754
                 },
-                "translation 0x8850": {
+                "translation": {
                     "0x886c": -15.390000343322754,
                     "0x887c": 5.230000019073486,
                     "0x888c": 84.88999938964844
                 }
             },
-            "type 0x86dc": "effect",
-            "uuid 0x86ec": "{a0b467f4-a452-4c1d-bdcd-d87db6627508}"
+            "type": "effect",
+            "uuid": "{a0b467f4-a452-4c1d-bdcd-d87db6627508}"
         },
         "0x8890": {
-            "clips 0x8980": {
+            "clips": {
                 "0x89a0": {
-                    "endFrame 0x89ec": 835.0,
-                    "startFrame 0x89fc": 828.0
+                    "endFrame": 835.0,
+                    "startFrame": 828.0
                 }
             },
-            "effect 0x8a00": {
-                "modelName 0x8a3c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x894c": "c10_bullet_G08",
-            "transform 0x8a40": {
-                "rotation 0x8aa0": {
+            "name": "c10_bullet_G08",
+            "transform": {
+                "rotation": {
                     "0x8abc": 53.29199981689453,
                     "0x8acc": 62.55699920654297,
                     "0x8adc": 8.890000343322754
                 },
-                "translation 0x8ae0": {
+                "translation": {
                     "0x8afc": -15.390000343322754,
                     "0x8b0c": 5.230000019073486,
                     "0x8b1c": 84.88999938964844
                 }
             },
-            "type 0x896c": "effect",
-            "uuid 0x897c": "{f379a7ba-d5cc-4947-a134-db1c022f39bf}"
+            "type": "effect",
+            "uuid": "{f379a7ba-d5cc-4947-a134-db1c022f39bf}"
         },
         "0x8b20": {
-            "clips 0x8c10": {
+            "clips": {
                 "0x8c30": {
-                    "endFrame 0x8c7c": 835.0,
-                    "startFrame 0x8c8c": 788.0
+                    "endFrame": 835.0,
+                    "startFrame": 788.0
                 }
             },
-            "effect 0x8c90": {
-                "modelName 0x8ccc": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x8bdc": "c10_bullet_H00",
-            "transform 0x8cd0": {
-                "rotation 0x8d30": {
+            "name": "c10_bullet_H00",
+            "transform": {
+                "rotation": {
                     "0x8d4c": 52.47700119018555,
                     "0x8d5c": -24.52199935913086,
                     "0x8d6c": 32.74100112915039
                 },
-                "translation 0x8d70": {
+                "translation": {
                     "0x8d8c": -12.430000305175781,
                     "0x8d9c": 4.449999809265137,
                     "0x8dac": 83.56999969482422
                 }
             },
-            "type 0x8bfc": "effect",
-            "uuid 0x8c0c": "{03728626-d5aa-4b34-bf77-42dd9f25fdc1}"
+            "type": "effect",
+            "uuid": "{03728626-d5aa-4b34-bf77-42dd9f25fdc1}"
         },
         "0x8db0": {
-            "clips 0x8ea0": {
+            "clips": {
                 "0x8ec0": {
-                    "endFrame 0x8f0c": 835.0,
-                    "startFrame 0x8f1c": 793.0
+                    "endFrame": 835.0,
+                    "startFrame": 793.0
                 }
             },
-            "effect 0x8f20": {
-                "modelName 0x8f5c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x8e6c": "c10_bullet_H01",
-            "transform 0x8f60": {
-                "rotation 0x8fc0": {
+            "name": "c10_bullet_H01",
+            "transform": {
+                "rotation": {
                     "0x8fdc": 52.47700119018555,
                     "0x8fec": -14.522000312805176,
                     "0x8ffc": 32.74100112915039
                 },
-                "translation 0x9000": {
+                "translation": {
                     "0x901c": -12.430000305175781,
                     "0x902c": 4.449999809265137,
                     "0x903c": 83.56999969482422
                 }
             },
-            "type 0x8e8c": "effect",
-            "uuid 0x8e9c": "{5c007593-cb83-42ca-bebc-e381ac2a9e52}"
+            "type": "effect",
+            "uuid": "{5c007593-cb83-42ca-bebc-e381ac2a9e52}"
         },
         "0x9040": {
-            "clips 0x9130": {
+            "clips": {
                 "0x9150": {
-                    "endFrame 0x919c": 835.0,
-                    "startFrame 0x91ac": 798.0
+                    "endFrame": 835.0,
+                    "startFrame": 798.0
                 }
             },
-            "effect 0x91b0": {
-                "modelName 0x91ec": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x90fc": "c10_bullet_H02",
-            "transform 0x91f0": {
-                "rotation 0x9250": {
+            "name": "c10_bullet_H02",
+            "transform": {
+                "rotation": {
                     "0x926c": 52.47700119018555,
                     "0x927c": -4.521999835968018,
                     "0x928c": 32.74100112915039
                 },
-                "translation 0x9290": {
+                "translation": {
                     "0x92ac": -12.430000305175781,
                     "0x92bc": 4.449999809265137,
                     "0x92cc": 83.56999969482422
                 }
             },
-            "type 0x911c": "effect",
-            "uuid 0x912c": "{199bbb1e-d45f-444a-8875-68229304ab02}"
+            "type": "effect",
+            "uuid": "{199bbb1e-d45f-444a-8875-68229304ab02}"
         },
         "0x92d0": {
-            "clips 0x93c0": {
+            "clips": {
                 "0x93e0": {
-                    "endFrame 0x942c": 835.0,
-                    "startFrame 0x943c": 803.0
+                    "endFrame": 835.0,
+                    "startFrame": 803.0
                 }
             },
-            "effect 0x9440": {
-                "modelName 0x947c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x938c": "c10_bullet_H03",
-            "transform 0x9480": {
-                "rotation 0x94e0": {
+            "name": "c10_bullet_H03",
+            "transform": {
+                "rotation": {
                     "0x94fc": 52.47700119018555,
                     "0x950c": 6.521999835968018,
                     "0x951c": 32.74100112915039
                 },
-                "translation 0x9520": {
+                "translation": {
                     "0x953c": -12.430000305175781,
                     "0x954c": 4.449999809265137,
                     "0x955c": 83.56999969482422
                 }
             },
-            "type 0x93ac": "effect",
-            "uuid 0x93bc": "{95b7776c-90b1-4058-9130-58254d084537}"
+            "type": "effect",
+            "uuid": "{95b7776c-90b1-4058-9130-58254d084537}"
         },
         "0x9560": {
-            "clips 0x9650": {
+            "clips": {
                 "0x9670": {
-                    "endFrame 0x96bc": 835.0,
-                    "startFrame 0x96cc": 808.0
+                    "endFrame": 835.0,
+                    "startFrame": 808.0
                 }
             },
-            "effect 0x96d0": {
-                "modelName 0x970c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x961c": "c10_bullet_H04",
-            "transform 0x9710": {
-                "rotation 0x9770": {
+            "name": "c10_bullet_H04",
+            "transform": {
+                "rotation": {
                     "0x978c": 52.47700119018555,
                     "0x979c": 16.52199935913086,
                     "0x97ac": 32.74100112915039
                 },
-                "translation 0x97b0": {
+                "translation": {
                     "0x97cc": -12.430000305175781,
                     "0x97dc": 4.449999809265137,
                     "0x97ec": 83.56999969482422
                 }
             },
-            "type 0x963c": "effect",
-            "uuid 0x964c": "{795ca46b-f735-4888-9758-1c96830c4fb4}"
+            "type": "effect",
+            "uuid": "{795ca46b-f735-4888-9758-1c96830c4fb4}"
         },
         "0x97f0": {
-            "clips 0x98e0": {
+            "clips": {
                 "0x9900": {
-                    "endFrame 0x994c": 835.0,
-                    "startFrame 0x995c": 813.0
+                    "endFrame": 835.0,
+                    "startFrame": 813.0
                 }
             },
-            "effect 0x9960": {
-                "modelName 0x999c": "ef_dm_ep08_00200m_gun_bullet_01"
+            "effect": {
+                "modelName": "ef_dm_ep08_00200m_gun_bullet_01"
             },
-            "name 0x98ac": "c10_bullet_H05",
-            "transform 0x99a0": {
-                "rotation 0x9a00": {
+            "name": "c10_bullet_H05",
+            "transform": {
+                "rotation": {
                     "0x9a1c": 52.47700119018555,
                     "0x9a2c": 26.52199935913086,
                     "0x9a3c": 32.74100112915039
                 },
-                "translation 0x9a40": {
+                "translation": {
                     "0x9a5c": -12.430000305175781,
                     "0x9a6c": 4.449999809265137,
                     "0x9a7c": 83.56999969482422
                 }
             },
-            "type 0x98cc": "effect",
-            "uuid 0x98dc": "{aa14f6c2-3e96-43cc-b988-a02a354c7794}"
+            "type": "effect",
+            "uuid": "{aa14f6c2-3e96-43cc-b988-a02a354c7794}"
         },
         "0x980": {
-            "animations 0xb10": {
-                "pointlight 0xb50": {
-                    "/root/G2PointLight1/G2PointLightShape1 0xb90": {
-                        "lightIntensity 0xbd0": {
-                            "keyframes 0xc50": {
+            "animations": {
+                "pointlight": {
+                    "/root/G2PointLight1/G2PointLightShape1": {
+                        "lightIntensity": {
+                            "keyframes": {
                                 "0xca0": {
-                                    "key 0xcec": 10.0,
-                                    "time 0xcfc": 343.0
+                                    "key": 10.0,
+                                    "time": 343.0
                                 },
                                 "0xd00": {
-                                    "key 0xd4c": 0.0,
-                                    "time 0xd5c": 345.0
+                                    "key": 0.0,
+                                    "time": 345.0
                                 },
                                 "0xd60": {
-                                    "key 0xdac": 10.0,
-                                    "time 0xdbc": 346.0
+                                    "key": 10.0,
+                                    "time": 346.0
                                 },
                                 "0xdc0": {
-                                    "key 0xe0c": 0.0,
-                                    "time 0xe1c": 348.0
+                                    "key": 0.0,
+                                    "time": 348.0
                                 }
                             },
-                            "post_inf 0xc3c": "loop",
-                            "pre_inf 0xc4c": "loop"
+                            "post_inf": "loop",
+                            "pre_inf": "loop"
                         }
                     }
                 }
             },
-            "clips 0xe20": {
+            "clips": {
                 "0xe50": {
-                    "endFrame 0xe9c": 387.0,
-                    "startFrame 0xeac": 343.0
+                    "endFrame": 387.0,
+                    "startFrame": 343.0
                 },
                 "0xeb0": {
-                    "endFrame 0xefc": 525.0,
-                    "startFrame 0xf0c": 426.0
+                    "endFrame": 525.0,
+                    "startFrame": 426.0
                 }
             },
-            "effect 0xf10": {
-                "loop 0xf8c": true,
-                "modelName 0xf9c": "ef_gun_muz_pointlight",
-                "spawn_duration 0xfac": 45.0,
-                "spawn_interval 0xfbc": 4.0
+            "effect": {
+                "loop": true,
+                "modelName": "ef_gun_muz_pointlight",
+                "spawn_duration": 45.0,
+                "spawn_interval": 4.0
             },
-            "name 0xaac": "c05_c07_man57_GunMuz_light",
-            "parentJointName 0xabc": "loc_r_hand",
-            "parentNodeName 0xacc": "man57",
-            "pointlight 0xfc0": {
-                "/root/G2PointLight1/G2PointLightShape1 0x1000": {
-                    "attenuationFactor 0x10ec": 0.5,
-                    "colorRange 0x10fc": 1.0,
-                    "innerRadius 0x110c": 0.0,
-                    "lightColorB 0x111c": 0.14079999923706055,
-                    "lightColorG 0x112c": 0.552299976348877,
-                    "lightColorR 0x113c": 1.0,
-                    "lightIntensity 0x114c": 10.0,
-                    "outerRadius 0x115c": 3.0,
-                    "shadowDensity 0x116c": 0.0
+            "name": "c05_c07_man57_GunMuz_light",
+            "parentJointName": "loc_r_hand",
+            "parentNodeName": "man57",
+            "pointlight": {
+                "/root/G2PointLight1/G2PointLightShape1": {
+                    "attenuationFactor": 0.5,
+                    "colorRange": 1.0,
+                    "innerRadius": 0.0,
+                    "lightColorB": 0.14079999923706055,
+                    "lightColorG": 0.552299976348877,
+                    "lightColorR": 1.0,
+                    "lightIntensity": 10.0,
+                    "outerRadius": 3.0,
+                    "shadowDensity": 0.0
                 }
             },
-            "transform 0x1170": {
-                "translation 0x11b0": {
+            "transform": {
+                "translation": {
                     "0x11cc": 0.0,
                     "0x11dc": 0.10000000149011612,
                     "0x11ec": 0.5699999928474426
                 }
             },
-            "type 0xafc": "pointlight",
-            "uuid 0xb0c": "{3fd9bdcd-7e75-4d31-adb5-24382d47d748}"
+            "type": "pointlight",
+            "uuid": "{3fd9bdcd-7e75-4d31-adb5-24382d47d748}"
         }
     }
 }

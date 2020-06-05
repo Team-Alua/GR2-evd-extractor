@@ -1,86 +1,86 @@
 {
-    "LineSourceList 0x110": {},
-    "LineStripsSourceList 0x120": {},
-    "PointSourceList 0x100": {},
-    "PolysSourceList 0x130": {
-        "3090 0x170": {
-            "PosList 0x220": {
+    "LineSourceList": {},
+    "LineStripsSourceList": {},
+    "PointSourceList": {},
+    "PolysSourceList": {
+        "3090": {
+            "PosList": {
                 "0x280": {
-                    "PosX 0x2dc": 8.4195556640625,
-                    "PosY 0x2ec": 40.937740325927734,
-                    "PosZ 0x2fc": -21.32271957397461
+                    "PosX": 8.4195556640625,
+                    "PosY": 40.937740325927734,
+                    "PosZ": -21.32271957397461
                 },
                 "0x300": {
-                    "PosX 0x35c": -2.046509027481079,
-                    "PosY 0x36c": 40.920169830322266,
-                    "PosZ 0x37c": -24.115909576416016
+                    "PosX": -2.046509027481079,
+                    "PosY": 40.920169830322266,
+                    "PosZ": -24.115909576416016
                 },
                 "0x380": {
-                    "PosX 0x3dc": -8.406463623046875,
-                    "PosY 0x3ec": 41.398681640625,
-                    "PosZ 0x3fc": -20.45128059387207
+                    "PosX": -8.406463623046875,
+                    "PosY": 41.398681640625,
+                    "PosZ": -20.45128059387207
                 },
                 "0x400": {
-                    "PosX 0x45c": -8.85205078125,
-                    "PosY 0x46c": 41.4658203125,
-                    "PosZ 0x47c": -15.523269653320312
+                    "PosX": -8.85205078125,
+                    "PosY": 41.4658203125,
+                    "PosZ": -15.523269653320312
                 },
                 "0x480": {
-                    "PosX 0x4dc": 7.726165771484375,
-                    "PosY 0x4ec": 40.91912841796875,
-                    "PosZ 0x4fc": -12.481120109558105
+                    "PosX": 7.726165771484375,
+                    "PosY": 40.91912841796875,
+                    "PosZ": -12.481120109558105
                 }
             },
-            "RequestName 0x1ec": "amb_spring_water",
-            "VariableStr 0x1fc": 0.0,
-            "Volume 0x20c": 1.0
+            "RequestName": "amb_spring_water",
+            "VariableStr": 0.0,
+            "Volume": 1.0
         }
     },
-    "SensorList 0x500": {
-        "amb_up_a_05_mid_01 0x980": {
-            "ChildList 0xb70": {},
-            "OnEnterName 0xaac": "variable_amb006_set_05_OnEnter",
-            "OnLeaveName 0xabc": "variable_amb006_set_0_OnEnter",
-            "PosX 0xacc": 43.67177963256836,
-            "PosY 0xadc": 35.659481048583984,
-            "PosZ 0xaec": 35.950809478759766,
-            "RotX 0xafc": 0.0,
-            "RotY 0xb0c": 0.0,
-            "RotZ 0xb1c": 0.0,
-            "ScaleX 0xb2c": 55.0,
-            "ScaleY 0xb3c": 7.5,
-            "ScaleZ 0xb4c": 35.0,
-            "ShapeType 0xb5c": 0.0
+    "SensorList": {
+        "amb_up_a_05_mid_01": {
+            "ChildList": {},
+            "OnEnterName": "variable_amb006_set_05_OnEnter",
+            "OnLeaveName": "variable_amb006_set_0_OnEnter",
+            "PosX": 43.67177963256836,
+            "PosY": 35.659481048583984,
+            "PosZ": 35.950809478759766,
+            "RotX": 0.0,
+            "RotY": 0.0,
+            "RotZ": 0.0,
+            "ScaleX": 55.0,
+            "ScaleY": 7.5,
+            "ScaleZ": 35.0,
+            "ShapeType": 0.0
         },
-        "rev_pu_a_05_01 0x580": {
-            "ChildList 0x770": {},
-            "OnEnterName 0x6ac": "Revset_eaves_small",
-            "OnLeaveName 0x6bc": "Revset_OnLeave",
-            "PosX 0x6cc": -30.985469818115234,
-            "PosY 0x6dc": 46.922088623046875,
-            "PosZ 0x6ec": -33.17770004272461,
-            "RotX 0x6fc": 0.0,
-            "RotY 0x70c": 6.1086530685424805,
-            "RotZ 0x71c": 0.0,
-            "ScaleX 0x72c": 5.5,
-            "ScaleY 0x73c": 2.5,
-            "ScaleZ 0x74c": 4.5,
-            "ShapeType 0x75c": 0.0
+        "rev_pu_a_05_01": {
+            "ChildList": {},
+            "OnEnterName": "Revset_eaves_small",
+            "OnLeaveName": "Revset_OnLeave",
+            "PosX": -30.985469818115234,
+            "PosY": 46.922088623046875,
+            "PosZ": -33.17770004272461,
+            "RotX": 0.0,
+            "RotY": 6.1086530685424805,
+            "RotZ": 0.0,
+            "ScaleX": 5.5,
+            "ScaleY": 2.5,
+            "ScaleZ": 4.5,
+            "ShapeType": 0.0
         },
-        "rev_pu_a_05_02 0x780": {
-            "ChildList 0x970": {},
-            "OnEnterName 0x8ac": "Revset_eaves_small",
-            "OnLeaveName 0x8bc": "Revset_OnLeave",
-            "PosX 0x8cc": -15.649869918823242,
-            "PosY 0x8dc": -21.319639205932617,
-            "PosZ 0x8ec": -25.418960571289062,
-            "RotX 0x8fc": 0.0,
-            "RotY 0x90c": 0.7853981852531433,
-            "RotZ 0x91c": 0.0,
-            "ScaleX 0x92c": 24.0,
-            "ScaleY 0x93c": 7.0,
-            "ScaleZ 0x94c": 24.0,
-            "ShapeType 0x95c": 0.0
+        "rev_pu_a_05_02": {
+            "ChildList": {},
+            "OnEnterName": "Revset_eaves_small",
+            "OnLeaveName": "Revset_OnLeave",
+            "PosX": -15.649869918823242,
+            "PosY": -21.319639205932617,
+            "PosZ": -25.418960571289062,
+            "RotX": 0.0,
+            "RotY": 0.7853981852531433,
+            "RotZ": 0.0,
+            "ScaleX": 24.0,
+            "ScaleY": 7.0,
+            "ScaleZ": 24.0,
+            "ShapeType": 0.0
         }
     }
 }

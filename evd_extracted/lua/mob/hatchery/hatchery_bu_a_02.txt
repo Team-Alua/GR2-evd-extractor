@@ -1,109 +1,109 @@
 {
-    "_default_bundles 0xdc": "bundle_default",
-    "_virtual_bundles 0x140": {
-        "bundle_default 0x180": {
+    "_default_bundles": "bundle_default",
+    "_virtual_bundles": {
+        "bundle_default": {
             "0x19c": "bundle_default_stand",
             "0x1ac": "bundle_default_roam",
             "0x1bc": "bundle_duck"
         }
     },
-    "bundle_default_roam 0x530": {
+    "bundle_default_roam": {
         "0x570": {
-            "classGroup 0x61c": "yy_bu_all_00",
-            "label 0x5fc": "1st_floor",
-            "num 0x63c": 2.0,
-            "role 0x62c": "kRoleRoam",
-            "zone 0x60c": "f1"
+            "classGroup": "yy_bu_all_00",
+            "label": "1st_floor",
+            "num": 2.0,
+            "role": "kRoleRoam",
+            "zone": "f1"
         },
         "0x640": {
-            "classGroup 0x6ec": "yy_bu_all_00",
-            "label 0x6cc": "2nd_floor",
-            "num 0x70c": 1.0,
-            "role 0x6fc": "kRoleRoam",
-            "zone 0x6dc": "f2"
+            "classGroup": "yy_bu_all_00",
+            "label": "2nd_floor",
+            "num": 1.0,
+            "role": "kRoleRoam",
+            "zone": "f2"
         },
         "0x710": {
-            "classGroup 0x7bc": "yy_dog_m_poor",
-            "label 0x79c": "animals",
-            "num 0x7dc": 1.0,
-            "role 0x7cc": "kRoleTamed",
-            "zone 0x7ac": "space_01"
+            "classGroup": "yy_dog_m_poor",
+            "label": "animals",
+            "num": 1.0,
+            "role": "kRoleTamed",
+            "zone": "space_01"
         }
     },
-    "bundle_default_stand 0x1c0": {
+    "bundle_default_stand": {
         "0x210": {
-            "classGroup 0x29c": "yy_bu_chi_00",
-            "guide 0x28c": "play_pig_01",
-            "num 0x2bc": 1.0,
-            "role 0x2ac": "kRoleLookAfterAnimal"
+            "classGroup": "yy_bu_chi_00",
+            "guide": "play_pig_01",
+            "num": 1.0,
+            "role": "kRoleLookAfterAnimal"
         },
         "0x2c0": {
-            "classGroup 0x34c": "yy_bu_wom_00",
-            "guide 0x33c": "feed_pig_01",
-            "num 0x36c": 1.0,
-            "role 0x35c": "kRoleLookAfterAnimal"
+            "classGroup": "yy_bu_wom_00",
+            "guide": "feed_pig_01",
+            "num": 1.0,
+            "role": "kRoleLookAfterAnimal"
         },
         "0x370": {
-            "classGroup 0x3fc": "yy_bu_all_00_not_old",
-            "guide 0x3ec": "guide2",
-            "num 0x420": {
+            "classGroup": "yy_bu_all_00_not_old",
+            "guide": "guide2",
+            "num": {
                 "0x43c": 2.0,
                 "0x44c": 3.0
             },
-            "role 0x40c": "kRoleTalk"
+            "role": "kRoleTalk"
         },
         "0x450": {
-            "classGroup 0x4dc": "yy_bu_all_00_not_old",
-            "guide 0x4cc": "guide3",
-            "num 0x500": {
+            "classGroup": "yy_bu_all_00_not_old",
+            "guide": "guide3",
+            "num": {
                 "0x51c": 2.0,
                 "0x52c": 3.0
             },
-            "role 0x4ec": "kRoleTalk"
+            "role": "kRoleTalk"
         }
     },
-    "bundle_duck 0x7e0": {
+    "bundle_duck": {
         "0x800": {
-            "classGroup 0x8bc": "yy_duck",
-            "label 0x89c": "animals",
-            "num 0x8ec": 25.0,
-            "role 0x8cc": "kRoleRoam",
-            "standardAppearance 0x8dc": true,
-            "zone 0x8ac": "route_01"
+            "classGroup": "yy_duck",
+            "label": "animals",
+            "num": 25.0,
+            "role": "kRoleRoam",
+            "standardAppearance": true,
+            "zone": "route_01"
         }
     },
-    "bundle_patrol_bu 0x8f0": {
+    "bundle_patrol_bu": {
         "0x920": {
-            "classGroup 0x9cc": "yy_jilga_mp_01",
-            "label 0x9ac": "1st_floor",
-            "num 0x9ec": 1.0,
-            "role 0x9dc": "kRoleRoam",
-            "zone 0x9bc": "f1"
+            "classGroup": "yy_jilga_mp_01",
+            "label": "1st_floor",
+            "num": 1.0,
+            "role": "kRoleRoam",
+            "zone": "f1"
         },
         "0x9f0": {
-            "classGroup 0xa9c": "yy_jilga_mp_01",
-            "label 0xa7c": "2nd_floor",
-            "num 0xabc": 2.0,
-            "role 0xaac": "kRoleRoam",
-            "zone 0xa8c": "f2"
+            "classGroup": "yy_jilga_mp_01",
+            "label": "2nd_floor",
+            "num": 2.0,
+            "role": "kRoleRoam",
+            "zone": "f2"
         }
     },
-    "bundle_sm03_test 0xac0": {
+    "bundle_sm03_test": {
         "0xaf0": {
-            "classGroup 0xbac": "yy_bu_chi_00",
-            "label 0xb8c": "1st_floor",
-            "num 0xbdc": 10.0,
-            "role 0xbbc": "kRoleRoam",
-            "standardAppearance 0xbcc": true,
-            "zone 0xb9c": "f1"
+            "classGroup": "yy_bu_chi_00",
+            "label": "1st_floor",
+            "num": 10.0,
+            "role": "kRoleRoam",
+            "standardAppearance": true,
+            "zone": "f1"
         },
         "0xbe0": {
-            "classGroup 0xc9c": "yy_bu_chi_00",
-            "label 0xc7c": "2nd_floor",
-            "num 0xccc": 10.0,
-            "role 0xcac": "kRoleRoam",
-            "standardAppearance 0xcbc": true,
-            "zone 0xc8c": "f2"
+            "classGroup": "yy_bu_chi_00",
+            "label": "2nd_floor",
+            "num": 10.0,
+            "role": "kRoleRoam",
+            "standardAppearance": true,
+            "zone": "f2"
         }
     }
 }

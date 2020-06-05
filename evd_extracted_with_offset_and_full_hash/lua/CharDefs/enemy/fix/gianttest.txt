@@ -1,0 +1,39 @@
+{
+    "brain f3912883 0x400": {
+        "ai_type a8e9a23c 0x46c": "fix 7882e4b2",
+        "animjoint 9c2354a2 0x47c": "gianttest 56c9960e",
+        "type 4df12751 0x45c": "EnemyBrain 11f7389c"
+    },
+    "enemy_body f895dcbb 0x480": {
+        "ash_effect f1d8dab1 0x52c": "grn_l_02_death_eff e1ff4b2a",
+        "ash_se 649d8f77 0x53c": "ene_disappear_L 0ce01934",
+        "health 8fed986b 0x54c": 360.0,
+        "spawn_effect d4cb9f81 0x50c": "grn_l_02_shutsugen_eff 47f54613",
+        "spawn_se 25611442 0x51c": "ene_come e65e5fbd"
+    },
+    "puppet af1330e6 0xb0": {
+        "animattr b3f5105f 0x1fc": "gianttest 56c9960e",
+        "animset c0c373e2 0x1ec": "gianttest 56c9960e",
+        "center_y a88d0e22 0x21c": 1.0,
+        "collision 8fdb7621 0x240": {
+            "center_y a88d0e22 0x30c": 2.75,
+            "filename_detection bcccbde4 0x2dc": "grn_l_02_base 788812a4",
+            "height 42bbbdd5 0x2fc": 5.5,
+            "keyframe 69c98dfb 0x2cc": true,
+            "radius b34cba0d 0x2ec": 1.399999976158142
+        },
+        "drivenkey e2d9c316 0x1dc": null,
+        "modelName 014b8a4a 0x1bc": "gianttest_base 166c666e",
+        "replace_models 569f97cf 0x310": {
+            "loc_armor_body 92e4d1f7 0x3ac": "/OFF 5b11fd7b",
+            "loc_armor_footL b69146bc 0x3ec": "/OFF 5b11fd7b",
+            "loc_armor_hand 030d67d3 0x3cc": "/OFF 5b11fd7b",
+            "loc_armor_legL d2cc1d08 0x3dc": "/OFF 5b11fd7b",
+            "loc_armor_legR 28e91d1a 0x3fc": "/OFF 5b11fd7b",
+            "loc_armor_shoul fff7c753 0x3bc": "/OFF 5b11fd7b"
+        },
+        "scale 711c9782 0x20c": 0.8999999761581421,
+        "type 4df12751 0x1ac": "Puppet cfca4402",
+        "yureName 89561704 0x1cc": null
+    }
+}

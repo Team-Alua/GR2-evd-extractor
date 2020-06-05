@@ -1,0 +1,3748 @@
+{
+    "_default_bundles 0x3a0": {
+        "0x3bc": "bundle_default"
+    },
+    "_plc_traits 0x3c0": {
+        "0x450": {
+            "classGroup 0x4ac": "yy_dt_sittable",
+            "traitName 0x49c": "vendors_sk_01"
+        },
+        "0x4b0": {
+            "classGroup 0x50c": "yy_dt_sittable",
+            "traitName 0x4fc": "vendors_sk_02"
+        },
+        "0x510": {
+            "classGroup 0x56c": "yy_dt_sittable",
+            "traitName 0x55c": "vendors_sk_05"
+        },
+        "0x570": {
+            "classGroup 0x5cc": "yy_dt_sittable",
+            "traitName 0x5bc": "bench_kw_01"
+        },
+        "0x5d0": {
+            "classGroup 0x62c": "yy_dt_sittable",
+            "traitName 0x61c": "g1_bench_iy_01"
+        },
+        "0x630": {
+            "classGroup 0x68c": "yy_dt_sittable",
+            "traitName 0x67c": "bench_kw_04"
+        },
+        "0x690": {
+            "classGroup 0x6ec": "yy_dt_sittable",
+            "traitName 0x6dc": "bench_kk_01"
+        },
+        "0x6f0": {
+            "classGroup 0x74c": "yy_dt_sittable",
+            "traitName 0x73c": "bench_kk_03"
+        }
+    },
+    "_virtual_bundles 0x750": {
+        "bundle_default 0x790": {
+            "0x7ac": "bundle_default_stand",
+            "0x7bc": "bundle_default_roam",
+            "0x7cc": "bundle_default_grigo",
+            "0x7dc": "bundle_default_park",
+            "0x7ec": "bundle_relax_on_ground",
+            "0x7fc": "bundle_default_parkside",
+            "0x80c": "bundle_subway_station",
+            "0x81c": "bundle_subway_station_grigo"
+        }
+    },
+    "bundle_audience_mayor 0x91f0": {
+        "0x9600": {
+            "classGroup 0x968c": "yy_dt_all_00",
+            "guide 0x967c": "ep15_guide_01",
+            "num 0x96b0": {
+                "0x96cc": 2.0,
+                "0x96dc": 3.0
+            },
+            "role 0x969c": "kRoleStay"
+        },
+        "0x96e0": {
+            "classGroup 0x976c": "yy_dt_all_00",
+            "guide 0x975c": "ep15_guide_02",
+            "num 0x9790": {
+                "0x97ac": 2.0,
+                "0x97bc": 3.0
+            },
+            "role 0x977c": "kRoleStay"
+        },
+        "0x97c0": {
+            "classGroup 0x984c": "yy_dt_all_00",
+            "guide 0x983c": "ep15_guide_03",
+            "num 0x9870": {
+                "0x988c": 2.0,
+                "0x989c": 3.0
+            },
+            "role 0x985c": "kRoleStay"
+        },
+        "0x98a0": {
+            "classGroup 0x992c": "yy_dt_all_00",
+            "guide 0x991c": "ep15_guide_04",
+            "num 0x9950": {
+                "0x996c": 2.0,
+                "0x997c": 3.0
+            },
+            "role 0x993c": "kRoleStay"
+        },
+        "0x9980": {
+            "classGroup 0x9a0c": "yy_dt_all_00",
+            "guide 0x99fc": "ep15_guide_05",
+            "num 0x9a30": {
+                "0x9a4c": 2.0,
+                "0x9a5c": 3.0
+            },
+            "role 0x9a1c": "kRoleStay"
+        },
+        "0x9a60": {
+            "classGroup 0x9aec": "yy_dt_all_00",
+            "guide 0x9adc": "ep15_guide_06",
+            "num 0x9b10": {
+                "0x9b2c": 2.0,
+                "0x9b3c": 3.0
+            },
+            "role 0x9afc": "kRoleStay"
+        },
+        "0x9b40": {
+            "classGroup 0x9bcc": "yy_dt_all_00",
+            "guide 0x9bbc": "ep15_guide_07",
+            "num 0x9bf0": {
+                "0x9c0c": 2.0,
+                "0x9c1c": 3.0
+            },
+            "role 0x9bdc": "kRoleStay"
+        },
+        "0x9c20": {
+            "classGroup 0x9cac": "yy_dt_all_00",
+            "guide 0x9c9c": "ep15_guide_08",
+            "num 0x9cd0": {
+                "0x9cec": 2.0,
+                "0x9cfc": 3.0
+            },
+            "role 0x9cbc": "kRoleStay"
+        },
+        "0x9d00": {
+            "classGroup 0x9d8c": "yy_dt_all_00",
+            "guide 0x9d7c": "ep15_guide_09",
+            "num 0x9db0": {
+                "0x9dcc": 2.0,
+                "0x9ddc": 3.0
+            },
+            "role 0x9d9c": "kRoleStay"
+        },
+        "0x9de0": {
+            "classGroup 0x9e6c": "yy_dt_all_00",
+            "guide 0x9e5c": "ep15_guide_010",
+            "num 0x9e90": {
+                "0x9eac": 2.0,
+                "0x9ebc": 3.0
+            },
+            "role 0x9e7c": "kRoleStay"
+        },
+        "0x9ec0": {
+            "classGroup 0x9f4c": "yy_dt_all_00",
+            "guide 0x9f3c": "ep15_guide_011",
+            "num 0x9f70": {
+                "0x9f8c": 2.0,
+                "0x9f9c": 3.0
+            },
+            "role 0x9f5c": "kRoleStay"
+        },
+        "0x9fa0": {
+            "classGroup 0xa02c": "yy_dt_all_00",
+            "guide 0xa01c": "ep15_guide_012",
+            "num 0xa050": {
+                "0xa06c": 2.0,
+                "0xa07c": 3.0
+            },
+            "role 0xa03c": "kRoleStay"
+        },
+        "0xa080": {
+            "classGroup 0xa10c": "yy_dt_all_00",
+            "guide 0xa0fc": "ep15_guide_013",
+            "num 0xa130": {
+                "0xa14c": 2.0,
+                "0xa15c": 3.0
+            },
+            "role 0xa11c": "kRoleStay"
+        },
+        "0xa160": {
+            "classGroup 0xa1ec": "yy_dt_all_00",
+            "guide 0xa1dc": "ep15_guide_014",
+            "num 0xa210": {
+                "0xa22c": 2.0,
+                "0xa23c": 3.0
+            },
+            "role 0xa1fc": "kRoleStay"
+        },
+        "0xa240": {
+            "classGroup 0xa2cc": "yy_dt_all_00",
+            "guide 0xa2bc": "ep15_guide_015",
+            "num 0xa2f0": {
+                "0xa30c": 2.0,
+                "0xa31c": 3.0
+            },
+            "role 0xa2dc": "kRoleStay"
+        },
+        "0xa320": {
+            "classGroup 0xa3ac": "yy_dt_all_00",
+            "guide 0xa39c": "ep15_guide_016",
+            "num 0xa3d0": {
+                "0xa3ec": 2.0,
+                "0xa3fc": 3.0
+            },
+            "role 0xa3bc": "kRoleStay"
+        },
+        "0xa400": {
+            "classGroup 0xa48c": "yy_dt_all_00",
+            "guide 0xa47c": "ep15_guide_017",
+            "num 0xa4b0": {
+                "0xa4cc": 2.0,
+                "0xa4dc": 3.0
+            },
+            "role 0xa49c": "kRoleStay"
+        },
+        "0xa4e0": {
+            "classGroup 0xa56c": "yy_dt_all_00",
+            "guide 0xa55c": "ep15_guide_018",
+            "num 0xa590": {
+                "0xa5ac": 2.0,
+                "0xa5bc": 3.0
+            },
+            "role 0xa57c": "kRoleStay"
+        },
+        "0xa5c0": {
+            "classGroup 0xa64c": "yy_dt_all_00",
+            "guide 0xa63c": "ep15_guide_019",
+            "num 0xa670": {
+                "0xa68c": 2.0,
+                "0xa69c": 3.0
+            },
+            "role 0xa65c": "kRoleStay"
+        },
+        "0xa6a0": {
+            "classGroup 0xa72c": "yy_dt_all_00",
+            "guide 0xa71c": "ep15_guide_020",
+            "num 0xa750": {
+                "0xa76c": 2.0,
+                "0xa77c": 3.0
+            },
+            "role 0xa73c": "kRoleStay"
+        },
+        "0xa780": {
+            "classGroup 0xa80c": "yy_dt_all_00",
+            "guide 0xa7fc": "ep15_guide_021",
+            "num 0xa830": {
+                "0xa84c": 2.0,
+                "0xa85c": 3.0
+            },
+            "role 0xa81c": "kRoleStay"
+        },
+        "0xa860": {
+            "classGroup 0xa8ec": "yy_dt_all_00",
+            "guide 0xa8dc": "ep15_guide_022",
+            "num 0xa910": {
+                "0xa92c": 2.0,
+                "0xa93c": 3.0
+            },
+            "role 0xa8fc": "kRoleStay"
+        },
+        "0xa940": {
+            "classGroup 0xa9cc": "yy_dt_all_00",
+            "guide 0xa9bc": "ep15_guide_023",
+            "num 0xa9f0": {
+                "0xaa0c": 2.0,
+                "0xaa1c": 3.0
+            },
+            "role 0xa9dc": "kRoleStay"
+        },
+        "0xaa20": {
+            "classGroup 0xaaac": "yy_dt_all_00",
+            "guide 0xaa9c": "ep15_guide_024",
+            "num 0xaad0": {
+                "0xaaec": 2.0,
+                "0xaafc": 3.0
+            },
+            "role 0xaabc": "kRoleStay"
+        },
+        "0xab00": {
+            "classGroup 0xab8c": "yy_dt_all_00",
+            "guide 0xab7c": "ep15_guide_025",
+            "num 0xabb0": {
+                "0xabcc": 2.0,
+                "0xabdc": 3.0
+            },
+            "role 0xab9c": "kRoleStay"
+        },
+        "0xabe0": {
+            "classGroup 0xac6c": "yy_dt_all_00",
+            "guide 0xac5c": "ep15_guide_026",
+            "num 0xac90": {
+                "0xacac": 2.0,
+                "0xacbc": 3.0
+            },
+            "role 0xac7c": "kRoleStay"
+        },
+        "0xacc0": {
+            "classGroup 0xad4c": "yy_dt_all_00",
+            "guide 0xad3c": "ep15_guide_027",
+            "num 0xad70": {
+                "0xad8c": 2.0,
+                "0xad9c": 3.0
+            },
+            "role 0xad5c": "kRoleStay"
+        },
+        "0xada0": {
+            "classGroup 0xae2c": "yy_dt_all_00",
+            "guide 0xae1c": "ep15_guide_028",
+            "num 0xae50": {
+                "0xae6c": 2.0,
+                "0xae7c": 3.0
+            },
+            "role 0xae3c": "kRoleStay"
+        },
+        "0xae80": {
+            "classGroup 0xaf0c": "yy_dt_all_00",
+            "guide 0xaefc": "ep15_guide_029",
+            "num 0xaf30": {
+                "0xaf4c": 2.0,
+                "0xaf5c": 3.0
+            },
+            "role 0xaf1c": "kRoleStay"
+        },
+        "0xaf60": {
+            "classGroup 0xafec": "yy_dt_all_00",
+            "guide 0xafdc": "ep15_guide_030",
+            "num 0xb010": {
+                "0xb02c": 2.0,
+                "0xb03c": 3.0
+            },
+            "role 0xaffc": "kRoleStay"
+        },
+        "0xb040": {
+            "classGroup 0xb0cc": "yy_dt_all_00",
+            "guide 0xb0bc": "ep15_guide_031",
+            "num 0xb0f0": {
+                "0xb10c": 2.0,
+                "0xb11c": 3.0
+            },
+            "role 0xb0dc": "kRoleStay"
+        },
+        "0xb120": {
+            "classGroup 0xb1ac": "yy_dt_all_00",
+            "guide 0xb19c": "ep15_guide_032",
+            "num 0xb1d0": {
+                "0xb1ec": 2.0,
+                "0xb1fc": 3.0
+            },
+            "role 0xb1bc": "kRoleStay"
+        },
+        "0xb200": {
+            "classGroup 0xb28c": "yy_dt_all_00",
+            "guide 0xb27c": "ep15_guide_033",
+            "num 0xb2b0": {
+                "0xb2cc": 2.0,
+                "0xb2dc": 3.0
+            },
+            "role 0xb29c": "kRoleStay"
+        },
+        "0xb2e0": {
+            "classGroup 0xb36c": "yy_dt_all_00",
+            "guide 0xb35c": "ep15_guide_034",
+            "num 0xb390": {
+                "0xb3ac": 2.0,
+                "0xb3bc": 3.0
+            },
+            "role 0xb37c": "kRoleStay"
+        },
+        "0xb3c0": {
+            "classGroup 0xb44c": "yy_dt_all_00",
+            "guide 0xb43c": "ep15_guide_035",
+            "num 0xb470": {
+                "0xb48c": 2.0,
+                "0xb49c": 3.0
+            },
+            "role 0xb45c": "kRoleStay"
+        },
+        "0xb4a0": {
+            "classGroup 0xb52c": "yy_dt_all_00",
+            "guide 0xb51c": "ep15_guide_036",
+            "num 0xb550": {
+                "0xb56c": 2.0,
+                "0xb57c": 3.0
+            },
+            "role 0xb53c": "kRoleStay"
+        },
+        "0xb580": {
+            "classGroup 0xb60c": "yy_dt_all_00",
+            "guide 0xb5fc": "ep15_guide_037",
+            "num 0xb630": {
+                "0xb64c": 2.0,
+                "0xb65c": 3.0
+            },
+            "role 0xb61c": "kRoleStay"
+        },
+        "0xb660": {
+            "classGroup 0xb6ec": "yy_dt_all_00",
+            "guide 0xb6dc": "ep15_guide_038",
+            "num 0xb710": {
+                "0xb72c": 2.0,
+                "0xb73c": 3.0
+            },
+            "role 0xb6fc": "kRoleStay"
+        },
+        "0xb740": {
+            "classGroup 0xb7cc": "yy_dt_all_00",
+            "guide 0xb7bc": "ep15_guide_039",
+            "num 0xb7f0": {
+                "0xb80c": 2.0,
+                "0xb81c": 3.0
+            },
+            "role 0xb7dc": "kRoleStay"
+        },
+        "0xb820": {
+            "classGroup 0xb8ac": "yy_dt_all_00",
+            "guide 0xb89c": "ep15_guide_040",
+            "num 0xb8d0": {
+                "0xb8ec": 2.0,
+                "0xb8fc": 3.0
+            },
+            "role 0xb8bc": "kRoleStay"
+        },
+        "0xb900": {
+            "classGroup 0xb98c": "yy_dt_all_00",
+            "guide 0xb97c": "ep15_guide_041",
+            "num 0xb9b0": {
+                "0xb9cc": 2.0,
+                "0xb9dc": 3.0
+            },
+            "role 0xb99c": "kRoleStay"
+        },
+        "0xb9e0": {
+            "classGroup 0xba6c": "yy_dt_all_00",
+            "guide 0xba5c": "ep15_guide_042",
+            "num 0xba90": {
+                "0xbaac": 2.0,
+                "0xbabc": 3.0
+            },
+            "role 0xba7c": "kRoleStay"
+        },
+        "0xbac0": {
+            "classGroup 0xbb4c": "yy_dt_all_00",
+            "guide 0xbb3c": "ep15_guide_043",
+            "num 0xbb70": {
+                "0xbb8c": 2.0,
+                "0xbb9c": 3.0
+            },
+            "role 0xbb5c": "kRoleStay"
+        },
+        "0xbba0": {
+            "classGroup 0xbc2c": "yy_dt_all_00",
+            "guide 0xbc1c": "ep15_guide_044",
+            "num 0xbc50": {
+                "0xbc6c": 2.0,
+                "0xbc7c": 3.0
+            },
+            "role 0xbc3c": "kRoleStay"
+        },
+        "0xbc80": {
+            "classGroup 0xbd0c": "yy_dt_all_00",
+            "guide 0xbcfc": "ep15_guide_045",
+            "num 0xbd30": {
+                "0xbd4c": 2.0,
+                "0xbd5c": 3.0
+            },
+            "role 0xbd1c": "kRoleStay"
+        },
+        "0xbd60": {
+            "classGroup 0xbdec": "yy_dt_all_00",
+            "guide 0xbddc": "ep15_guide_046",
+            "num 0xbe10": {
+                "0xbe2c": 2.0,
+                "0xbe3c": 3.0
+            },
+            "role 0xbdfc": "kRoleStay"
+        },
+        "0xbe40": {
+            "classGroup 0xbecc": "yy_dt_all_00",
+            "guide 0xbebc": "ep15_guide_047",
+            "num 0xbef0": {
+                "0xbf0c": 2.0,
+                "0xbf1c": 3.0
+            },
+            "role 0xbedc": "kRoleStay"
+        },
+        "0xbf20": {
+            "classGroup 0xbfac": "yy_dt_all_00",
+            "guide 0xbf9c": "ep15_guide_048",
+            "num 0xbfd0": {
+                "0xbfec": 2.0,
+                "0xbffc": 3.0
+            },
+            "role 0xbfbc": "kRoleStay"
+        },
+        "0xc000": {
+            "classGroup 0xc08c": "yy_dt_all_00",
+            "guide 0xc07c": "ep15_guide_049",
+            "num 0xc0b0": {
+                "0xc0cc": 2.0,
+                "0xc0dc": 3.0
+            },
+            "role 0xc09c": "kRoleStay"
+        },
+        "0xc0e0": {
+            "classGroup 0xc16c": "yy_dt_all_00",
+            "guide 0xc15c": "ep15_guide_050",
+            "num 0xc190": {
+                "0xc1ac": 2.0,
+                "0xc1bc": 3.0
+            },
+            "role 0xc17c": "kRoleStay"
+        },
+        "0xc1c0": {
+            "classGroup 0xc24c": "yy_hek_security_00",
+            "guide 0xc23c": "guide03",
+            "num 0xc270": {
+                "0xc28c": 1.0,
+                "0xc29c": 2.0
+            },
+            "role 0xc25c": "kRoleStay"
+        },
+        "0xc2a0": {
+            "classGroup 0xc32c": "yy_hek_security_00",
+            "guide 0xc31c": "guide05",
+            "num 0xc350": {
+                "0xc36c": 1.0,
+                "0xc37c": 2.0
+            },
+            "role 0xc33c": "kRoleStay"
+        },
+        "0xc380": {
+            "classGroup 0xc40c": "yy_hek_security_00",
+            "guide 0xc3fc": "talk_normal_01",
+            "num 0xc430": {
+                "0xc44c": 1.0,
+                "0xc45c": 2.0
+            },
+            "role 0xc41c": "kRoleStay"
+        },
+        "0xc460": {
+            "classGroup 0xc50c": "yy_hek_security_00",
+            "label 0xc4ec": "liberty_park",
+            "num 0xc52c": 3.0,
+            "role 0xc51c": "kRoleRoam",
+            "zone 0xc4fc": "park_01"
+        },
+        "0xc530": {
+            "classGroup 0xc5dc": "yy_hek_security_00",
+            "label 0xc5bc": "liberty_park",
+            "num 0xc5fc": 3.0,
+            "role 0xc5ec": "kRoleRoam",
+            "zone 0xc5cc": "park_02"
+        },
+        "0xc600": {
+            "classGroup 0xc6ac": "yy_hek_security_00",
+            "label 0xc68c": "liberty_park",
+            "num 0xc6cc": 3.0,
+            "role 0xc6bc": "kRoleRoam",
+            "zone 0xc69c": "park_03"
+        },
+        "0xc6d0": {
+            "classGroup 0xc77c": "yy_hek_security_00",
+            "label 0xc75c": "parkside",
+            "num 0xc79c": 2.0,
+            "role 0xc78c": "kRoleRoam",
+            "zone 0xc76c": "park_side_lane_01"
+        },
+        "0xc7a0": {
+            "classGroup 0xc84c": "yy_hek_security_00",
+            "label 0xc82c": "parkside",
+            "num 0xc86c": 2.0,
+            "role 0xc85c": "kRoleRoam",
+            "zone 0xc83c": "park_side_lane_02"
+        },
+        "0xc870": {
+            "classGroup 0xc91c": "yy_hek_security_00",
+            "label 0xc8fc": "parkside",
+            "num 0xc93c": 2.0,
+            "role 0xc92c": "kRoleRoam",
+            "zone 0xc90c": "park_side_lane_03"
+        },
+        "0xc940": {
+            "classGroup 0xc9ec": "yy_hek_security_00",
+            "label 0xc9cc": "parkside",
+            "num 0xca0c": 2.0,
+            "role 0xc9fc": "kRoleRoam",
+            "zone 0xc9dc": "park_side_lane_04"
+        },
+        "0xca10": {
+            "classGroup 0xcabc": "yy_hek_security_00",
+            "label 0xca9c": "parkside",
+            "num 0xcadc": 1.0,
+            "role 0xcacc": "kRoleRoam",
+            "zone 0xcaac": "park_side_lane_05"
+        },
+        "0xcae0": {
+            "classGroup 0xcb8c": "yy_hek_security_00",
+            "label 0xcb6c": "parkside",
+            "num 0xcbac": 2.0,
+            "role 0xcb9c": "kRoleRoam",
+            "zone 0xcb7c": "park_side_lane_07"
+        },
+        "0xcbb0": {
+            "classGroup 0xcc5c": "yy_hek_security_00",
+            "label 0xcc3c": "parkside",
+            "num 0xcc7c": 2.0,
+            "role 0xcc6c": "kRoleRoam",
+            "zone 0xcc4c": "park_side_lane_09"
+        },
+        "0xcc80": {
+            "classGroup 0xcd2c": "yy_hek_security_00",
+            "label 0xcd0c": "parkside",
+            "num 0xcd4c": 2.0,
+            "role 0xcd3c": "kRoleRoam",
+            "zone 0xcd1c": "park_side_lane_10"
+        }
+    },
+    "bundle_default_grigo 0x6580": {
+        "0x6720": {
+            "classGroup 0x67cc": "yy_grigo",
+            "label 0x67ac": "station",
+            "num 0x67ec": 1.0,
+            "role 0x67dc": "kRoleRoam",
+            "zone 0x67bc": "main_street_01"
+        },
+        "0x67f0": {
+            "classGroup 0x689c": "yy_grigo",
+            "label 0x687c": "front_of_station",
+            "num 0x68bc": 1.0,
+            "role 0x68ac": "kRoleRoam",
+            "zone 0x688c": "front_of_station"
+        },
+        "0x68c0": {
+            "classGroup 0x696c": "yy_grigo",
+            "label 0x694c": "sub_street_01",
+            "num 0x698c": 1.0,
+            "role 0x697c": "kRoleRoam",
+            "zone 0x695c": "sub_street_01"
+        },
+        "0x6990": {
+            "classGroup 0x6a3c": "yy_grigo",
+            "label 0x6a1c": "sub_street_02",
+            "num 0x6a5c": 1.0,
+            "role 0x6a4c": "kRoleRoam",
+            "zone 0x6a2c": "sub_street_02"
+        },
+        "0x6a60": {
+            "classGroup 0x6b0c": "yy_grigo",
+            "label 0x6aec": "sub_street_05",
+            "num 0x6b2c": 1.0,
+            "role 0x6b1c": "kRoleRoam",
+            "zone 0x6afc": "sub_street_05"
+        },
+        "0x6b30": {
+            "classGroup 0x6bdc": "yy_grigo",
+            "label 0x6bbc": "parkside",
+            "num 0x6bfc": 1.0,
+            "role 0x6bec": "kRoleRoam",
+            "zone 0x6bcc": "park_side_lane_07"
+        },
+        "0x6c00": {
+            "classGroup 0x6cac": "yy_grigo",
+            "label 0x6c8c": "parkside",
+            "num 0x6ccc": 1.0,
+            "role 0x6cbc": "kRoleRoam",
+            "zone 0x6c9c": "park_side_lane_08"
+        },
+        "0x6cd0": {
+            "classGroup 0x6d7c": "yy_grigo",
+            "label 0x6d5c": "parkside",
+            "num 0x6d9c": 1.0,
+            "role 0x6d8c": "kRoleRoam",
+            "zone 0x6d6c": "park_side_lane_09"
+        },
+        "0x6da0": {
+            "classGroup 0x6e4c": "yy_grigo",
+            "label 0x6e2c": "parkside",
+            "num 0x6e6c": 1.0,
+            "role 0x6e5c": "kRoleRoam",
+            "zone 0x6e3c": "park_side_lane_10"
+        },
+        "0x6e70": {
+            "classGroup 0x6f1c": "yy_grigo",
+            "label 0x6efc": "small_station_a_area",
+            "num 0x6f3c": 1.0,
+            "role 0x6f2c": "kRoleRoam",
+            "zone 0x6f0c": "space_a"
+        },
+        "0x6f40": {
+            "classGroup 0x6fec": "yy_grigo",
+            "label 0x6fcc": "small_station_a_area",
+            "num 0x700c": 1.0,
+            "role 0x6ffc": "kRoleRoam",
+            "zone 0x6fdc": "space_c"
+        },
+        "0x7010": {
+            "classGroup 0x70bc": "yy_grigo",
+            "label 0x709c": "housing_area",
+            "num 0x70dc": 1.0,
+            "role 0x70cc": "kRoleRoam",
+            "zone 0x70ac": "sub_street_06"
+        },
+        "0x70e0": {
+            "classGroup 0x718c": "yy_grigo",
+            "label 0x716c": "housing_area",
+            "num 0x71ac": 1.0,
+            "role 0x719c": "kRoleRoam",
+            "zone 0x717c": "space_d"
+        },
+        "0x71b0": {
+            "classGroup 0x725c": "yy_grigo",
+            "label 0x723c": "housing_area",
+            "num 0x727c": 1.0,
+            "role 0x726c": "kRoleRoam",
+            "zone 0x724c": "space_e"
+        },
+        "0x7280": {
+            "classGroup 0x732c": "yy_grigo",
+            "label 0x730c": "hill_area",
+            "num 0x734c": 1.0,
+            "role 0x733c": "kRoleRoam",
+            "zone 0x731c": "group_e"
+        },
+        "0x7350": {
+            "classGroup 0x73fc": "yy_grigo",
+            "label 0x73dc": "hill_area",
+            "num 0x741c": 1.0,
+            "role 0x740c": "kRoleRoam",
+            "zone 0x73ec": "group_g"
+        },
+        "0x7420": {
+            "classGroup 0x74cc": "yy_grigo",
+            "label 0x74ac": "hill_area",
+            "num 0x74ec": 1.0,
+            "role 0x74dc": "kRoleRoam",
+            "zone 0x74bc": "group_h"
+        },
+        "0x74f0": {
+            "classGroup 0x759c": "yy_grigo",
+            "label 0x757c": "hill_area",
+            "num 0x75bc": 1.0,
+            "role 0x75ac": "kRoleRoam",
+            "zone 0x758c": "group_i"
+        },
+        "0x75c0": {
+            "classGroup 0x766c": "yy_grigo",
+            "label 0x764c": "hill_area",
+            "num 0x768c": 1.0,
+            "role 0x767c": "kRoleRoam",
+            "zone 0x765c": "group_j"
+        },
+        "0x7690": {
+            "classGroup 0x773c": "yy_grigo",
+            "label 0x771c": "hill_area",
+            "num 0x775c": 1.0,
+            "role 0x774c": "kRoleRoam",
+            "zone 0x772c": "group_k"
+        },
+        "0x7760": {
+            "classGroup 0x780c": "yy_grigo",
+            "label 0x77ec": "hill_area",
+            "num 0x782c": 1.0,
+            "role 0x781c": "kRoleRoam",
+            "zone 0x77fc": "group_l"
+        },
+        "0x7830": {
+            "classGroup 0x78dc": "yy_grigo",
+            "label 0x78bc": "underground_area",
+            "num 0x78fc": 1.0,
+            "role 0x78ec": "kRoleRoam",
+            "zone 0x78cc": "area_a"
+        },
+        "0x7900": {
+            "classGroup 0x79ac": "yy_grigo",
+            "label 0x798c": "underground_area",
+            "num 0x79cc": 1.0,
+            "role 0x79bc": "kRoleRoam",
+            "zone 0x799c": "area_b"
+        },
+        "0x79d0": {
+            "classGroup 0x7a7c": "yy_grigo",
+            "label 0x7a5c": "underground_area",
+            "num 0x7a9c": 1.0,
+            "role 0x7a8c": "kRoleRoam",
+            "zone 0x7a6c": "area_c"
+        },
+        "0x7aa0": {
+            "classGroup 0x7b4c": "yy_grigo",
+            "label 0x7b2c": "underground_area",
+            "num 0x7b6c": 1.0,
+            "role 0x7b5c": "kRoleRoam",
+            "zone 0x7b3c": "area_d"
+        }
+    },
+    "bundle_default_park 0x7b70": {
+        "0x7c30": {
+            "classGroup 0x7cbc": "yy_dt_adu_00_not_old",
+            "guide 0x7cac": "guide03",
+            "num 0x7cdc": 3.0,
+            "role 0x7ccc": "kRoleStay"
+        },
+        "0x7ce0": {
+            "classGroup 0x7d6c": "yy_dt_adu_00_not_old",
+            "guide 0x7d5c": "guide05",
+            "num 0x7d8c": 3.0,
+            "role 0x7d7c": "kRoleStay"
+        },
+        "0x7d90": {
+            "classGroup 0x7e1c": "yy_dt_adu_00_not_old",
+            "guide 0x7e0c": "talk_normal_01",
+            "num 0x7e3c": 3.0,
+            "role 0x7e2c": "kRoleTalk"
+        },
+        "0x7e40": {
+            "classGroup 0x7eec": "yy_dt_all_00",
+            "label 0x7ecc": "liberty_park",
+            "num 0x7f0c": 11.0,
+            "role 0x7efc": "kRoleRoam",
+            "zone 0x7edc": "park_01"
+        },
+        "0x7f10": {
+            "classGroup 0x7fbc": "yy_hek_showbiz_man_00",
+            "label 0x7f9c": "liberty_park",
+            "num 0x7fdc": 1.0,
+            "role 0x7fcc": "kRoleRoam",
+            "zone 0x7fac": "park_01"
+        },
+        "0x7fe0": {
+            "classGroup 0x808c": "yy_dt_all_00",
+            "label 0x806c": "liberty_park",
+            "num 0x80ac": 6.0,
+            "role 0x809c": "kRoleRoam",
+            "zone 0x807c": "park_02"
+        },
+        "0x80b0": {
+            "classGroup 0x815c": "yy_dt_all_00",
+            "label 0x813c": "liberty_park",
+            "num 0x817c": 11.0,
+            "role 0x816c": "kRoleRoam",
+            "zone 0x814c": "park_03"
+        },
+        "0x8180": {
+            "classGroup 0x822c": "yy_hek_showbiz_man_00",
+            "label 0x820c": "liberty_park",
+            "num 0x824c": 1.0,
+            "role 0x823c": "kRoleRoam",
+            "zone 0x821c": "park_03"
+        },
+        "0x8250": {
+            "classGroup 0x82fc": "yy_dog_all",
+            "label 0x82dc": "animals",
+            "num 0x831c": 3.0,
+            "role 0x830c": "kRoleRoam",
+            "zone 0x82ec": "park_01"
+        },
+        "0x8320": {
+            "classGroup 0x83cc": "yy_dog_all",
+            "label 0x83ac": "animals",
+            "num 0x83ec": 3.0,
+            "role 0x83dc": "kRoleRoam",
+            "zone 0x83bc": "park_02"
+        },
+        "0x83f0": {
+            "classGroup 0x849c": "yy_dog_all",
+            "label 0x847c": "animals",
+            "num 0x84bc": 3.0,
+            "role 0x84ac": "kRoleRoam",
+            "zone 0x848c": "park_03"
+        }
+    },
+    "bundle_default_park_grigo 0x8650": {
+        "0x8690": {
+            "classGroup 0x873c": "yy_grigo",
+            "label 0x871c": "liberty_park",
+            "num 0x875c": 1.0,
+            "role 0x874c": "kRoleRoam",
+            "zone 0x872c": "park_01"
+        },
+        "0x8760": {
+            "classGroup 0x880c": "yy_grigo",
+            "label 0x87ec": "liberty_park",
+            "num 0x882c": 1.0,
+            "role 0x881c": "kRoleRoam",
+            "zone 0x87fc": "park_02"
+        },
+        "0x8830": {
+            "classGroup 0x88dc": "yy_grigo",
+            "label 0x88bc": "liberty_park",
+            "num 0x88fc": 1.0,
+            "role 0x88ec": "kRoleRoam",
+            "zone 0x88cc": "park_03"
+        }
+    },
+    "bundle_default_parkside 0x8900": {
+        "0x8990": {
+            "classGroup 0x8a3c": "yy_dt_all_00",
+            "label 0x8a1c": "parkside",
+            "num 0x8a5c": 5.0,
+            "role 0x8a4c": "kRoleRoam",
+            "zone 0x8a2c": "park_side_lane_01"
+        },
+        "0x8a60": {
+            "classGroup 0x8b0c": "yy_dt_all_00",
+            "label 0x8aec": "parkside",
+            "num 0x8b2c": 5.0,
+            "role 0x8b1c": "kRoleRoam",
+            "zone 0x8afc": "park_side_lane_02"
+        },
+        "0x8b30": {
+            "classGroup 0x8bdc": "yy_dt_all_00",
+            "label 0x8bbc": "parkside",
+            "num 0x8bfc": 5.0,
+            "role 0x8bec": "kRoleRoam",
+            "zone 0x8bcc": "park_side_lane_03"
+        },
+        "0x8c00": {
+            "classGroup 0x8cac": "yy_dt_all_00",
+            "label 0x8c8c": "parkside",
+            "num 0x8ccc": 5.0,
+            "role 0x8cbc": "kRoleRoam",
+            "zone 0x8c9c": "park_side_lane_04"
+        },
+        "0x8cd0": {
+            "classGroup 0x8d7c": "yy_dt_all_00",
+            "label 0x8d5c": "parkside",
+            "num 0x8d9c": 2.0,
+            "role 0x8d8c": "kRoleRoam",
+            "zone 0x8d6c": "park_side_lane_05"
+        },
+        "0x8da0": {
+            "classGroup 0x8e4c": "yy_dt_all_00",
+            "label 0x8e2c": "parkside",
+            "num 0x8e6c": 15.0,
+            "role 0x8e5c": "kRoleRoam",
+            "zone 0x8e3c": "park_side_lane_07"
+        },
+        "0x8e70": {
+            "classGroup 0x8f1c": "yy_dt_all_00",
+            "label 0x8efc": "parkside",
+            "num 0x8f3c": 15.0,
+            "role 0x8f2c": "kRoleRoam",
+            "zone 0x8f0c": "park_side_lane_09"
+        },
+        "0x8f40": {
+            "classGroup 0x8fec": "yy_dt_all_00",
+            "label 0x8fcc": "parkside",
+            "num 0x900c": 20.0,
+            "role 0x8ffc": "kRoleRoam",
+            "zone 0x8fdc": "park_side_lane_10"
+        }
+    },
+    "bundle_default_roam 0x1970": {
+        "0x1f00": {
+            "classGroup 0x1fac": "yy_dt_all_00",
+            "label 0x1f8c": "station",
+            "num 0x1fcc": 20.0,
+            "role 0x1fbc": "kRoleRoam",
+            "zone 0x1f9c": "main_street_01"
+        },
+        "0x1fd0": {
+            "classGroup 0x207c": "yy_hek_labor_00",
+            "label 0x205c": "station",
+            "num 0x209c": 5.0,
+            "role 0x208c": "kRoleRoam",
+            "zone 0x206c": "main_street_01"
+        },
+        "0x20a0": {
+            "classGroup 0x214c": "yy_hek_robber_00",
+            "label 0x212c": "station",
+            "num 0x216c": 2.0,
+            "role 0x215c": "kRoleRoam",
+            "zone 0x213c": "main_street_01"
+        },
+        "0x2170": {
+            "classGroup 0x221c": "yy_hek_showbiz_man_00",
+            "label 0x21fc": "station",
+            "num 0x223c": 3.0,
+            "role 0x222c": "kRoleRoam",
+            "zone 0x220c": "main_street_01"
+        },
+        "0x2240": {
+            "classGroup 0x22ec": "yy_dt_all_00",
+            "label 0x22cc": "front_of_station",
+            "num 0x230c": 6.0,
+            "role 0x22fc": "kRoleRoam",
+            "zone 0x22dc": "front_of_station"
+        },
+        "0x2310": {
+            "classGroup 0x23bc": "yy_hek_labor_00",
+            "label 0x239c": "front_of_station",
+            "num 0x23dc": 2.0,
+            "role 0x23cc": "kRoleRoam",
+            "zone 0x23ac": "front_of_station"
+        },
+        "0x23e0": {
+            "classGroup 0x248c": "yy_hek_robber_00",
+            "label 0x246c": "front_of_station",
+            "num 0x24ac": 1.0,
+            "role 0x249c": "kRoleRoam",
+            "zone 0x247c": "front_of_station"
+        },
+        "0x24b0": {
+            "classGroup 0x255c": "yy_hek_showbiz_man_00",
+            "label 0x253c": "front_of_station",
+            "num 0x257c": 1.0,
+            "role 0x256c": "kRoleRoam",
+            "zone 0x254c": "front_of_station"
+        },
+        "0x2580": {
+            "classGroup 0x262c": "yy_dt_all_00",
+            "label 0x260c": "sub_street_01",
+            "num 0x264c": 20.0,
+            "role 0x263c": "kRoleRoam",
+            "zone 0x261c": "sub_street_01"
+        },
+        "0x2650": {
+            "classGroup 0x26fc": "yy_dt_all_00",
+            "label 0x26dc": "sub_street_02",
+            "num 0x271c": 10.0,
+            "role 0x270c": "kRoleRoam",
+            "zone 0x26ec": "sub_street_02"
+        },
+        "0x2720": {
+            "classGroup 0x27cc": "yy_dt_all_00",
+            "label 0x27ac": "sub_street_03",
+            "num 0x27ec": 15.0,
+            "role 0x27dc": "kRoleRoam",
+            "zone 0x27bc": "sub_street_03"
+        },
+        "0x27f0": {
+            "classGroup 0x289c": "yy_dt_all_00",
+            "label 0x287c": "sub_street_04",
+            "num 0x28bc": 5.0,
+            "role 0x28ac": "kRoleRoam",
+            "zone 0x288c": "sub_street_04"
+        },
+        "0x28c0": {
+            "classGroup 0x296c": "yy_dt_all_00",
+            "label 0x294c": "sub_street_05",
+            "num 0x298c": 5.0,
+            "role 0x297c": "kRoleRoam",
+            "zone 0x295c": "sub_street_05"
+        },
+        "0x2990": {
+            "classGroup 0x2a3c": "yy_dt_all_00",
+            "label 0x2a1c": "parkside",
+            "num 0x2a5c": 3.0,
+            "role 0x2a4c": "kRoleRoam",
+            "zone 0x2a2c": "park_side_lane_06"
+        },
+        "0x2a60": {
+            "classGroup 0x2b0c": "yy_dt_all_00",
+            "label 0x2aec": "parkside",
+            "num 0x2b2c": 20.0,
+            "role 0x2b1c": "kRoleRoam",
+            "zone 0x2afc": "park_side_lane_08"
+        },
+        "0x2b30": {
+            "classGroup 0x2bdc": "yy_dt_all_00",
+            "label 0x2bbc": "small_station_a_area",
+            "num 0x2bfc": 5.0,
+            "role 0x2bec": "kRoleRoam",
+            "zone 0x2bcc": "space_a"
+        },
+        "0x2c00": {
+            "classGroup 0x2cac": "yy_hek_labor_00",
+            "label 0x2c8c": "small_station_a_area",
+            "num 0x2ccc": 3.0,
+            "role 0x2cbc": "kRoleRoam",
+            "zone 0x2c9c": "space_a"
+        },
+        "0x2cd0": {
+            "classGroup 0x2d7c": "yy_hek_robber_00",
+            "label 0x2d5c": "small_station_a_area",
+            "num 0x2d9c": 1.0,
+            "role 0x2d8c": "kRoleRoam",
+            "zone 0x2d6c": "space_a"
+        },
+        "0x2da0": {
+            "classGroup 0x2e4c": "yy_hek_showbiz_man_00",
+            "label 0x2e2c": "small_station_a_area",
+            "num 0x2e6c": 1.0,
+            "role 0x2e5c": "kRoleRoam",
+            "zone 0x2e3c": "space_a"
+        },
+        "0x2e70": {
+            "classGroup 0x2f1c": "yy_dt_all_00",
+            "label 0x2efc": "small_station_a_area",
+            "num 0x2f3c": 10.0,
+            "role 0x2f2c": "kRoleRoam",
+            "zone 0x2f0c": "space_b"
+        },
+        "0x2f40": {
+            "classGroup 0x2fec": "yy_hek_labor_00",
+            "label 0x2fcc": "small_station_a_area",
+            "num 0x300c": 3.0,
+            "role 0x2ffc": "kRoleRoam",
+            "zone 0x2fdc": "space_b"
+        },
+        "0x3010": {
+            "classGroup 0x30bc": "yy_ed_poor_00",
+            "label 0x309c": "small_station_a_area",
+            "num 0x30dc": 3.0,
+            "role 0x30cc": "kRoleRoam",
+            "zone 0x30ac": "space_b"
+        },
+        "0x30e0": {
+            "classGroup 0x318c": "yy_hek_robber_00",
+            "label 0x316c": "small_station_a_area",
+            "num 0x31ac": 2.0,
+            "role 0x319c": "kRoleRoam",
+            "zone 0x317c": "space_b"
+        },
+        "0x31b0": {
+            "classGroup 0x325c": "yy_hek_showbiz_man_00",
+            "label 0x323c": "small_station_a_area",
+            "num 0x327c": 2.0,
+            "role 0x326c": "kRoleRoam",
+            "zone 0x324c": "space_b"
+        },
+        "0x3280": {
+            "classGroup 0x332c": "yy_dt_all_00",
+            "label 0x330c": "small_station_a_area",
+            "num 0x334c": 5.0,
+            "role 0x333c": "kRoleRoam",
+            "zone 0x331c": "space_c"
+        },
+        "0x3350": {
+            "classGroup 0x33fc": "yy_ed_poor_00",
+            "label 0x33dc": "small_station_a_area",
+            "num 0x341c": 2.0,
+            "role 0x340c": "kRoleRoam",
+            "zone 0x33ec": "space_c"
+        },
+        "0x3420": {
+            "classGroup 0x34cc": "yy_hek_robber_00",
+            "label 0x34ac": "small_station_a_area",
+            "num 0x34ec": 2.0,
+            "role 0x34dc": "kRoleRoam",
+            "zone 0x34bc": "space_c"
+        },
+        "0x34f0": {
+            "classGroup 0x359c": "yy_hek_showbiz_man_00",
+            "label 0x357c": "small_station_a_area",
+            "num 0x35bc": 1.0,
+            "role 0x35ac": "kRoleRoam",
+            "zone 0x358c": "space_c"
+        },
+        "0x35c0": {
+            "classGroup 0x366c": "yy_dt_all_00",
+            "label 0x364c": "housing_area",
+            "num 0x368c": 20.0,
+            "role 0x367c": "kRoleRoam",
+            "zone 0x365c": "sub_street_06"
+        },
+        "0x3690": {
+            "classGroup 0x373c": "yy_dt_all_00",
+            "label 0x371c": "housing_area",
+            "num 0x375c": 10.0,
+            "role 0x374c": "kRoleRoam",
+            "zone 0x372c": "space_d"
+        },
+        "0x3760": {
+            "classGroup 0x380c": "yy_dt_all_00",
+            "label 0x37ec": "housing_area",
+            "num 0x382c": 10.0,
+            "role 0x381c": "kRoleRoam",
+            "zone 0x37fc": "space_e"
+        },
+        "0x3830": {
+            "classGroup 0x38dc": "yy_dt_all_00",
+            "label 0x38bc": "hill_area",
+            "num 0x38fc": 5.0,
+            "role 0x38ec": "kRoleRoam",
+            "zone 0x38cc": "group_e"
+        },
+        "0x3900": {
+            "classGroup 0x39ac": "yy_dt_all_00",
+            "label 0x398c": "hill_area",
+            "num 0x39cc": 3.0,
+            "role 0x39bc": "kRoleRoam",
+            "zone 0x399c": "group_f"
+        },
+        "0x39d0": {
+            "classGroup 0x3a7c": "yy_dt_all_00",
+            "label 0x3a5c": "hill_area",
+            "num 0x3a9c": 2.0,
+            "role 0x3a8c": "kRoleRoam",
+            "zone 0x3a6c": "group_g"
+        },
+        "0x3aa0": {
+            "classGroup 0x3b4c": "yy_dt_all_00",
+            "label 0x3b2c": "hill_area",
+            "num 0x3b6c": 5.0,
+            "role 0x3b5c": "kRoleRoam",
+            "zone 0x3b3c": "group_h"
+        },
+        "0x3b70": {
+            "classGroup 0x3c1c": "yy_dt_all_00",
+            "label 0x3bfc": "hill_area",
+            "num 0x3c3c": 15.0,
+            "role 0x3c2c": "kRoleRoam",
+            "zone 0x3c0c": "group_i"
+        },
+        "0x3c40": {
+            "classGroup 0x3cec": "yy_dt_all_00",
+            "label 0x3ccc": "hill_area",
+            "num 0x3d0c": 5.0,
+            "role 0x3cfc": "kRoleRoam",
+            "zone 0x3cdc": "group_j"
+        },
+        "0x3d10": {
+            "classGroup 0x3dbc": "yy_dt_all_00",
+            "label 0x3d9c": "hill_area",
+            "num 0x3ddc": 15.0,
+            "role 0x3dcc": "kRoleRoam",
+            "zone 0x3dac": "group_k"
+        },
+        "0x3de0": {
+            "classGroup 0x3e8c": "yy_dt_all_00",
+            "label 0x3e6c": "hill_area",
+            "num 0x3eac": 15.0,
+            "role 0x3e9c": "kRoleRoam",
+            "zone 0x3e7c": "group_l"
+        },
+        "0x3eb0": {
+            "classGroup 0x3f5c": "yy_dt_all_00",
+            "label 0x3f3c": "hill_area",
+            "num 0x3f7c": 5.0,
+            "role 0x3f6c": "kRoleRoam",
+            "zone 0x3f4c": "group_m"
+        },
+        "0x3f80": {
+            "classGroup 0x402c": "yy_dt_all_00",
+            "label 0x400c": "underground_area",
+            "num 0x404c": 15.0,
+            "role 0x403c": "kRoleRoam",
+            "zone 0x401c": "area_a"
+        },
+        "0x4050": {
+            "classGroup 0x40fc": "yy_dt_all_00",
+            "label 0x40dc": "underground_area",
+            "num 0x411c": 15.0,
+            "role 0x410c": "kRoleRoam",
+            "zone 0x40ec": "area_b"
+        },
+        "0x4120": {
+            "classGroup 0x41cc": "yy_dt_all_00",
+            "label 0x41ac": "underground_area",
+            "num 0x41ec": 10.0,
+            "role 0x41dc": "kRoleRoam",
+            "zone 0x41bc": "area_c"
+        },
+        "0x41f0": {
+            "classGroup 0x429c": "yy_dt_all_00",
+            "label 0x427c": "underground_area",
+            "num 0x42bc": 10.0,
+            "role 0x42ac": "kRoleRoam",
+            "zone 0x428c": "area_d"
+        },
+        "0x42c0": {
+            "birdNet 0x434c": "birdNet",
+            "classGroup 0x435c": "yy_pigeon",
+            "label 0x433c": "bird",
+            "num 0x436c": 5.0
+        },
+        "0x4370": {
+            "birdNet 0x43fc": "birdNet3",
+            "classGroup 0x440c": "yy_pigeon",
+            "label 0x43ec": "bird",
+            "num 0x441c": 5.0
+        },
+        "0x4420": {
+            "birdNet 0x44ac": "birdNet4",
+            "classGroup 0x44bc": "yy_pigeon",
+            "label 0x449c": "bird",
+            "num 0x44cc": 5.0
+        },
+        "0x44d0": {
+            "birdNet 0x455c": "birdNet7",
+            "classGroup 0x456c": "yy_pigeon",
+            "label 0x454c": "bird",
+            "num 0x457c": 5.0
+        },
+        "0x4580": {
+            "birdNet 0x460c": "birdNet10",
+            "classGroup 0x461c": "yy_pigeon",
+            "label 0x45fc": "bird",
+            "num 0x462c": 5.0
+        },
+        "0x4630": {
+            "birdNet 0x46bc": "birdNet12",
+            "classGroup 0x46cc": "yy_pigeon",
+            "label 0x46ac": "bird",
+            "num 0x46dc": 5.0
+        },
+        "0x46e0": {
+            "birdNet 0x476c": "birdNet18",
+            "classGroup 0x477c": "yy_pigeon",
+            "label 0x475c": "bird",
+            "num 0x478c": 5.0
+        },
+        "0x4790": {
+            "birdNet 0x481c": "birdNet20",
+            "classGroup 0x482c": "yy_pigeon",
+            "label 0x480c": "bird",
+            "num 0x483c": 5.0
+        },
+        "0x4840": {
+            "classGroup 0x48ec": "yy_bird",
+            "label 0x48cc": "bird",
+            "nest 0x48dc": "birdNet27",
+            "num 0x490c": 5.0,
+            "role 0x48fc": "kRoleFlyOff"
+        },
+        "0x4910": {
+            "classGroup 0x49bc": "yy_bird",
+            "label 0x499c": "bird",
+            "nest 0x49ac": "birdNet28",
+            "num 0x49dc": 5.0,
+            "role 0x49cc": "kRoleFlyOff"
+        },
+        "0x49e0": {
+            "classGroup 0x4a8c": "yy_bird",
+            "label 0x4a6c": "bird",
+            "nest 0x4a7c": "birdNet29",
+            "num 0x4aac": 5.0,
+            "role 0x4a9c": "kRoleFlyOff"
+        },
+        "0x4ab0": {
+            "classGroup 0x4b5c": "yy_bird",
+            "label 0x4b3c": "bird",
+            "nest 0x4b4c": "birdNet30",
+            "num 0x4b7c": 5.0,
+            "role 0x4b6c": "kRoleFlyOff"
+        },
+        "0x4b80": {
+            "classGroup 0x4c2c": "yy_bird",
+            "label 0x4c0c": "bird",
+            "nest 0x4c1c": "birdNet31",
+            "num 0x4c4c": 5.0,
+            "role 0x4c3c": "kRoleFlyOff"
+        },
+        "0x4c50": {
+            "classGroup 0x4cfc": "yy_bird",
+            "label 0x4cdc": "bird",
+            "nest 0x4cec": "birdNet32",
+            "num 0x4d1c": 5.0,
+            "role 0x4d0c": "kRoleFlyOff"
+        },
+        "0x4d20": {
+            "classGroup 0x4dcc": "yy_bird",
+            "label 0x4dac": "bird",
+            "nest 0x4dbc": "birdNet33",
+            "num 0x4dec": 5.0,
+            "role 0x4ddc": "kRoleFlyOff"
+        },
+        "0x4df0": {
+            "classGroup 0x4e9c": "yy_bird",
+            "label 0x4e7c": "bird",
+            "nest 0x4e8c": "birdNet34",
+            "num 0x4ebc": 5.0,
+            "role 0x4eac": "kRoleFlyOff"
+        },
+        "0x4ec0": {
+            "classGroup 0x4f6c": "yy_bird",
+            "label 0x4f4c": "bird",
+            "nest 0x4f5c": "birdNet35",
+            "num 0x4f8c": 5.0,
+            "role 0x4f7c": "kRoleFlyOff"
+        },
+        "0x4f90": {
+            "classGroup 0x503c": "yy_bird",
+            "label 0x501c": "bird",
+            "nest 0x502c": "birdNet36",
+            "num 0x505c": 5.0,
+            "role 0x504c": "kRoleFlyOff"
+        },
+        "0x5060": {
+            "classGroup 0x510c": "yy_bird",
+            "label 0x50ec": "bird",
+            "nest 0x50fc": "birdNet37",
+            "num 0x512c": 5.0,
+            "role 0x511c": "kRoleFlyOff"
+        },
+        "0x5130": {
+            "classGroup 0x51dc": "yy_bird",
+            "label 0x51bc": "bird",
+            "nest 0x51cc": "birdNet38",
+            "num 0x51fc": 5.0,
+            "role 0x51ec": "kRoleFlyOff"
+        },
+        "0x5200": {
+            "classGroup 0x52ac": "yy_bird",
+            "label 0x528c": "bird",
+            "nest 0x529c": "birdNet39",
+            "num 0x52cc": 4.0,
+            "role 0x52bc": "kRoleFlyOff"
+        },
+        "0x52d0": {
+            "classGroup 0x537c": "yy_bird",
+            "label 0x535c": "bird",
+            "nest 0x536c": "birdNet40",
+            "num 0x539c": 4.0,
+            "role 0x538c": "kRoleFlyOff"
+        },
+        "0x53a0": {
+            "classGroup 0x544c": "yy_bird",
+            "label 0x542c": "bird",
+            "nest 0x543c": "birdNet41",
+            "num 0x546c": 5.0,
+            "role 0x545c": "kRoleFlyOff"
+        },
+        "0x5470": {
+            "classGroup 0x551c": "yy_bird",
+            "label 0x54fc": "bird",
+            "nest 0x550c": "birdNet42",
+            "num 0x553c": 4.0,
+            "role 0x552c": "kRoleFlyOff"
+        },
+        "0x5540": {
+            "classGroup 0x55ec": "yy_bird",
+            "label 0x55cc": "bird",
+            "nest 0x55dc": "birdNet43",
+            "num 0x560c": 4.0,
+            "role 0x55fc": "kRoleFlyOff"
+        },
+        "0x5610": {
+            "classGroup 0x56bc": "yy_bird",
+            "label 0x569c": "bird",
+            "nest 0x56ac": "birdNet44",
+            "num 0x56dc": 4.0,
+            "role 0x56cc": "kRoleFlyOff"
+        },
+        "0x56e0": {
+            "classGroup 0x578c": "yy_bird",
+            "label 0x576c": "bird",
+            "nest 0x577c": "birdNet45",
+            "num 0x57ac": 3.0,
+            "role 0x579c": "kRoleFlyOff"
+        },
+        "0x57b0": {
+            "classGroup 0x585c": "yy_bird",
+            "label 0x583c": "bird",
+            "nest 0x584c": "birdNet46",
+            "num 0x587c": 3.0,
+            "role 0x586c": "kRoleFlyOff"
+        },
+        "0x5880": {
+            "classGroup 0x592c": "yy_bird",
+            "label 0x590c": "bird",
+            "nest 0x591c": "birdNet47",
+            "num 0x594c": 4.0,
+            "role 0x593c": "kRoleFlyOff"
+        },
+        "0x5950": {
+            "classGroup 0x59fc": "yy_bird",
+            "label 0x59dc": "bird",
+            "nest 0x59ec": "birdNet48",
+            "num 0x5a1c": 4.0,
+            "role 0x5a0c": "kRoleFlyOff"
+        },
+        "0x5a20": {
+            "classGroup 0x5acc": "yy_bird",
+            "label 0x5aac": "bird",
+            "nest 0x5abc": "birdNet49",
+            "num 0x5aec": 4.0,
+            "role 0x5adc": "kRoleFlyOff"
+        },
+        "0x5af0": {
+            "classGroup 0x5b9c": "yy_bird",
+            "label 0x5b7c": "bird",
+            "nest 0x5b8c": "birdNet50",
+            "num 0x5bbc": 5.0,
+            "role 0x5bac": "kRoleFlyOff"
+        },
+        "0x5bc0": {
+            "classGroup 0x5c6c": "yy_bird",
+            "label 0x5c4c": "bird",
+            "nest 0x5c5c": "birdNet51",
+            "num 0x5c8c": 5.0,
+            "role 0x5c7c": "kRoleFlyOff"
+        },
+        "0x5c90": {
+            "classGroup 0x5d3c": "yy_bird",
+            "label 0x5d1c": "bird",
+            "nest 0x5d2c": "birdNet52",
+            "num 0x5d5c": 5.0,
+            "role 0x5d4c": "kRoleFlyOff"
+        },
+        "0x5d60": {
+            "classGroup 0x5e0c": "yy_bird",
+            "label 0x5dec": "bird",
+            "nest 0x5dfc": "birdNet53",
+            "num 0x5e2c": 5.0,
+            "role 0x5e1c": "kRoleFlyOff"
+        },
+        "0x5e30": {
+            "classGroup 0x5edc": "yy_bird",
+            "label 0x5ebc": "bird",
+            "nest 0x5ecc": "birdNet54",
+            "num 0x5efc": 7.0,
+            "role 0x5eec": "kRoleFlyOff"
+        },
+        "0x5f00": {
+            "classGroup 0x5fac": "yy_bird",
+            "label 0x5f8c": "bird",
+            "nest 0x5f9c": "birdNet55",
+            "num 0x5fcc": 5.0,
+            "role 0x5fbc": "kRoleFlyOff"
+        },
+        "0x5fd0": {
+            "classGroup 0x607c": "yy_bird",
+            "label 0x605c": "bird",
+            "nest 0x606c": "birdNet56",
+            "num 0x609c": 4.0,
+            "role 0x608c": "kRoleFlyOff"
+        },
+        "0x60a0": {
+            "classGroup 0x614c": "yy_bird",
+            "label 0x612c": "bird",
+            "nest 0x613c": "birdNet57",
+            "num 0x616c": 4.0,
+            "role 0x615c": "kRoleFlyOff"
+        },
+        "0x6170": {
+            "classGroup 0x621c": "yy_bird",
+            "label 0x61fc": "bird",
+            "nest 0x620c": "birdNet58",
+            "num 0x623c": 4.0,
+            "role 0x622c": "kRoleFlyOff"
+        },
+        "0x6240": {
+            "classGroup 0x62ec": "yy_bird",
+            "label 0x62cc": "bird",
+            "nest 0x62dc": "birdNet59",
+            "num 0x630c": 4.0,
+            "role 0x62fc": "kRoleFlyOff"
+        },
+        "0x6310": {
+            "classGroup 0x63bc": "yy_bird",
+            "label 0x639c": "bird",
+            "nest 0x63ac": "birdNet60",
+            "num 0x63dc": 4.0,
+            "role 0x63cc": "kRoleFlyOff"
+        },
+        "0x63e0": {
+            "classGroup 0x648c": "yy_bird",
+            "label 0x646c": "bird",
+            "nest 0x647c": "birdNet61",
+            "num 0x64ac": 4.0,
+            "role 0x649c": "kRoleFlyOff"
+        },
+        "0x64b0": {
+            "classGroup 0x655c": "yy_bird",
+            "label 0x653c": "bird",
+            "nest 0x654c": "birdNet62",
+            "num 0x657c": 6.0,
+            "role 0x656c": "kRoleFlyOff"
+        }
+    },
+    "bundle_default_stand 0x820": {
+        "0x1070": {
+            "classGroup 0x10fc": "yy_hek_station_00",
+            "guide 0x10ec": "station_04",
+            "num 0x111c": 1.0,
+            "role 0x110c": "kRoleStay"
+        },
+        "0x1120": {
+            "classGroup 0x11ac": "yy_hek_station_00",
+            "guide 0x119c": "station_05",
+            "num 0x11cc": 1.0,
+            "role 0x11bc": "kRoleStay"
+        },
+        "0x11d0": {
+            "classGroup 0x125c": "yy_hek_station_00",
+            "guide 0x124c": "station_06",
+            "num 0x127c": 1.0,
+            "role 0x126c": "kRoleStay"
+        },
+        "0x1280": {
+            "classGroup 0x130c": "yy_hek_station_00",
+            "guide 0x12fc": "station_07",
+            "num 0x132c": 1.0,
+            "role 0x131c": "kRoleStay"
+        },
+        "0x1330": {
+            "classGroup 0x13bc": "yy_hek_station_00",
+            "guide 0x13ac": "station_08",
+            "num 0x13dc": 1.0,
+            "role 0x13cc": "kRoleStay"
+        },
+        "0x13e0": {
+            "classGroup 0x146c": "yy_hek_station_00",
+            "guide 0x145c": "station_09",
+            "num 0x148c": 1.0,
+            "role 0x147c": "kRoleStay"
+        },
+        "0x1490": {
+            "classGroup 0x153c": "yy_photo_man01",
+            "guide 0x152c": "photo_man01",
+            "num 0x157c": 1.0,
+            "role 0x155c": "kRoleStay",
+            "somebodyId 0x154c": 2.0,
+            "standardAppearance 0x156c": true
+        },
+        "0x1580": {
+            "classGroup 0x162c": "yy_photo_wom41",
+            "guide 0x161c": "photo_wom41",
+            "num 0x166c": 1.0,
+            "role 0x164c": "kRoleStay",
+            "somebodyId 0x163c": 2.0,
+            "standardAppearance 0x165c": true
+        },
+        "0x1670": {
+            "classGroup 0x171c": "yy_photo_wom46",
+            "guide 0x170c": "photo_wom46",
+            "num 0x175c": 1.0,
+            "role 0x173c": "kRoleStay",
+            "somebodyId 0x172c": 2.0,
+            "standardAppearance 0x174c": true
+        },
+        "0x1760": {
+            "classGroup 0x17ec": "yy_grigo",
+            "guide 0x17dc": "guard_grigo_01",
+            "num 0x180c": 1.0,
+            "role 0x17fc": "kRoleGuard"
+        },
+        "0x1810": {
+            "classGroup 0x189c": "yy_grigo",
+            "guide 0x188c": "guard_grigo_02",
+            "num 0x18bc": 1.0,
+            "role 0x18ac": "kRoleGuard"
+        },
+        "0x18c0": {
+            "classGroup 0x194c": "yy_hek_showbiz_man_01",
+            "guide 0x193c": "guitar",
+            "num 0x196c": 1.0,
+            "role 0x195c": "kRolePlayGuitar"
+        },
+        "0x990": {
+            "classGroup 0xa1c": "yy_dt_adu_00_not_old",
+            "guide 0xa0c": "guide01",
+            "num 0xa3c": 3.0,
+            "role 0xa2c": "kRoleTalk"
+        },
+        "0xa40": {
+            "classGroup 0xacc": "yy_dt_adu_00_not_old",
+            "guide 0xabc": "guide02",
+            "num 0xaec": 3.0,
+            "role 0xadc": "kRoleTalk"
+        },
+        "0xaf0": {
+            "classGroup 0xb7c": "yy_dt_adu_00_not_old",
+            "guide 0xb6c": "guide06",
+            "num 0xb9c": 3.0,
+            "role 0xb8c": "kRoleTalk"
+        },
+        "0xba0": {
+            "classGroup 0xc2c": "yy_dt_adu_00",
+            "guide 0xc1c": "guide07",
+            "num 0xc4c": 3.0,
+            "role 0xc3c": "kRoleStay"
+        },
+        "0xc50": {
+            "classGroup 0xcdc": "yy_dt_wom_00",
+            "guide 0xccc": "stand_paperbag_01",
+            "num 0xcfc": 1.0,
+            "role 0xcec": "kRoleStandWithPaperBag"
+        },
+        "0xd00": {
+            "classGroup 0xd8c": "yy_dt_chi_00",
+            "guide 0xd7c": "play_sword_01",
+            "num 0xdac": 3.0,
+            "role 0xd9c": "kRolePlayWithSword"
+        },
+        "0xdb0": {
+            "classGroup 0xe3c": "yy_dt_adu_00",
+            "guide 0xe2c": "bubble_01",
+            "num 0xe5c": 1.0,
+            "role 0xe4c": "kRoleReadBook"
+        },
+        "0xe60": {
+            "classGroup 0xeec": "yy_hek_station_00",
+            "guide 0xedc": "station_01",
+            "num 0xf0c": 1.0,
+            "role 0xefc": "kRoleStay"
+        },
+        "0xf10": {
+            "classGroup 0xf9c": "yy_hek_station_00",
+            "guide 0xf8c": "station_02",
+            "num 0xfbc": 1.0,
+            "role 0xfac": "kRoleStay"
+        },
+        "0xfc0": {
+            "classGroup 0x104c": "yy_hek_station_00",
+            "guide 0x103c": "station_03",
+            "num 0x106c": 1.0,
+            "role 0x105c": "kRoleStay"
+        }
+    },
+    "bundle_ep17_a 0x1c3b0": {
+        "0x1c3d0": {
+            "classGroup 0x1c47c": "yy_grigo",
+            "label 0x1c45c": "roamers_ep17_a",
+            "num 0x1c49c": 5.0,
+            "role 0x1c48c": "kRoleRoam",
+            "zone 0x1c46c": "front_of_station"
+        }
+    },
+    "bundle_ep18_a 0x1c4a0": {
+        "0x1c4c0": {
+            "classGroup 0x1c56c": "yy_grigo",
+            "label 0x1c54c": "roamers_ep18_a",
+            "num 0x1c58c": 5.0,
+            "role 0x1c57c": "kRoleRoam",
+            "zone 0x1c55c": "subway_station_a_area"
+        }
+    },
+    "bundle_pre_alpha 0x1b820": {
+        "0x1b910": {
+            "classGroup 0x1b99c": "yy_dt_buds_00",
+            "guide 0x1b98c": "guide01",
+            "num 0x1b9bc": 3.0,
+            "role 0x1b9ac": "kRoleStay"
+        },
+        "0x1b9c0": {
+            "classGroup 0x1ba4c": "yy_dt_buds_01",
+            "guide 0x1ba3c": "guide02",
+            "num 0x1ba6c": 3.0,
+            "role 0x1ba5c": "kRoleStay"
+        },
+        "0x1ba70": {
+            "classGroup 0x1bafc": "yy_dt_buds_02",
+            "guide 0x1baec": "guide03",
+            "num 0x1bb1c": 3.0,
+            "role 0x1bb0c": "kRoleStay"
+        },
+        "0x1bb20": {
+            "classGroup 0x1bbac": "yy_dt_buds_01",
+            "guide 0x1bb9c": "guide05",
+            "num 0x1bbcc": 3.0,
+            "role 0x1bbbc": "kRoleStay"
+        },
+        "0x1bbd0": {
+            "classGroup 0x1bc5c": "yy_dt_adu_00_not_old",
+            "guide 0x1bc4c": "guide06",
+            "num 0x1bc7c": 3.0,
+            "role 0x1bc6c": "kRoleTalk"
+        },
+        "0x1bc80": {
+            "classGroup 0x1bd0c": "yy_dt_buds_00",
+            "guide 0x1bcfc": "guide07",
+            "num 0x1bd2c": 3.0,
+            "role 0x1bd1c": "kRoleStay"
+        },
+        "0x1bd30": {
+            "classGroup 0x1bddc": "yy_grigo",
+            "label 0x1bdbc": "test_grigo",
+            "num 0x1bdfc": 5.0,
+            "role 0x1bdec": "kRoleRoam",
+            "zone 0x1bdcc": "park_side_lane_07"
+        },
+        "0x1be00": {
+            "classGroup 0x1beac": "yy_grigo",
+            "label 0x1be8c": "roamers_ep17_a",
+            "num 0x1becc": 5.0,
+            "role 0x1bebc": "kRoleRoam",
+            "zone 0x1be9c": "front_of_station"
+        },
+        "0x1bed0": {
+            "classGroup 0x1bf7c": "yy_hek_security_00",
+            "label 0x1bf5c": "roamers_ep17_a_2",
+            "num 0x1bf9c": 5.0,
+            "role 0x1bf8c": "kRoleRoam",
+            "zone 0x1bf6c": "front_of_station"
+        },
+        "0x1bfa0": {
+            "classGroup 0x1c04c": "yy_hek_middle_man_00",
+            "label 0x1c02c": "roamers_ep17_a_3",
+            "num 0x1c06c": 5.0,
+            "role 0x1c05c": "kRoleRoam",
+            "zone 0x1c03c": "front_of_station"
+        },
+        "0x1c070": {
+            "classGroup 0x1c11c": "yy_grigo",
+            "label 0x1c0fc": "roamers_ep18_a",
+            "num 0x1c13c": 5.0,
+            "role 0x1c12c": "kRoleRoam",
+            "zone 0x1c10c": "subway_station_a_area"
+        },
+        "0x1c140": {
+            "classGroup 0x1c1ec": "yy_dt_all_00",
+            "label 0x1c1cc": "roamers_sm26",
+            "num 0x1c20c": 10.0,
+            "role 0x1c1fc": "kRoleRoam",
+            "zone 0x1c1dc": "park_side_lane_07"
+        },
+        "0x1c210": {
+            "classGroup 0x1c2bc": "yy_dt_all_00",
+            "label 0x1c29c": "roamers_sm31_a",
+            "num 0x1c2dc": 20.0,
+            "role 0x1c2cc": "kRoleRoam",
+            "zone 0x1c2ac": "subway_station_a_area"
+        },
+        "0x1c2e0": {
+            "classGroup 0x1c38c": "yy_dt_all_00",
+            "label 0x1c36c": "roamers_sm31_b",
+            "num 0x1c3ac": 20.0,
+            "role 0x1c39c": "kRoleRoam",
+            "zone 0x1c37c": "small_station_a_area"
+        }
+    },
+    "bundle_relax_on_ground 0x84c0": {
+        "0x84f0": {
+            "classGroup 0x857c": "yy_dt_man_00",
+            "guide 0x856c": "sleep_01",
+            "num 0x859c": 1.0,
+            "role 0x858c": "kRoleRelaxOnGround"
+        },
+        "0x85a0": {
+            "classGroup 0x862c": "yy_dt_man_00",
+            "guide 0x861c": "sleep_02",
+            "num 0x864c": 1.0,
+            "role 0x863c": "kRoleRelaxOnGround"
+        }
+    },
+    "bundle_search_durga 0x111c0": {
+        "0x11420": {
+            "classGroup 0x114cc": "yy_grigo",
+            "label 0x114ac": "station",
+            "num 0x114ec": 2.0,
+            "role 0x114dc": "kRoleRoam",
+            "zone 0x114bc": "main_street_01"
+        },
+        "0x114f0": {
+            "classGroup 0x1159c": "yy_grigo",
+            "label 0x1157c": "front_of_station",
+            "num 0x115bc": 2.0,
+            "role 0x115ac": "kRoleRoam",
+            "zone 0x1158c": "front_of_station"
+        },
+        "0x115c0": {
+            "classGroup 0x1166c": "yy_grigo",
+            "label 0x1164c": "sub_street_01",
+            "num 0x1168c": 2.0,
+            "role 0x1167c": "kRoleRoam",
+            "zone 0x1165c": "sub_street_01"
+        },
+        "0x11690": {
+            "classGroup 0x1173c": "yy_grigo",
+            "label 0x1171c": "sub_street_02",
+            "num 0x1175c": 2.0,
+            "role 0x1174c": "kRoleRoam",
+            "zone 0x1172c": "sub_street_02"
+        },
+        "0x11760": {
+            "classGroup 0x1180c": "yy_grigo",
+            "label 0x117ec": "sub_street_03",
+            "num 0x1182c": 1.0,
+            "role 0x1181c": "kRoleRoam",
+            "zone 0x117fc": "sub_street_03"
+        },
+        "0x11830": {
+            "classGroup 0x118dc": "yy_grigo",
+            "label 0x118bc": "sub_street_04",
+            "num 0x118fc": 1.0,
+            "role 0x118ec": "kRoleRoam",
+            "zone 0x118cc": "sub_street_04"
+        },
+        "0x11900": {
+            "classGroup 0x119ac": "yy_grigo",
+            "label 0x1198c": "sub_street_05",
+            "num 0x119cc": 2.0,
+            "role 0x119bc": "kRoleRoam",
+            "zone 0x1199c": "sub_street_05"
+        },
+        "0x119d0": {
+            "classGroup 0x11a7c": "yy_grigo",
+            "label 0x11a5c": "subway_station_a_area",
+            "num 0x11a9c": 4.0,
+            "role 0x11a8c": "kRoleRoam",
+            "zone 0x11a6c": "subway_station_a_area"
+        },
+        "0x11aa0": {
+            "classGroup 0x11b4c": "yy_grigo",
+            "label 0x11b2c": "parkside",
+            "num 0x11b6c": 1.0,
+            "role 0x11b5c": "kRoleRoam",
+            "zone 0x11b3c": "park_side_lane_01"
+        },
+        "0x11b70": {
+            "classGroup 0x11c1c": "yy_grigo",
+            "label 0x11bfc": "parkside",
+            "num 0x11c3c": 1.0,
+            "role 0x11c2c": "kRoleRoam",
+            "zone 0x11c0c": "park_side_lane_02"
+        },
+        "0x11c40": {
+            "classGroup 0x11cec": "yy_grigo",
+            "label 0x11ccc": "parkside",
+            "num 0x11d0c": 1.0,
+            "role 0x11cfc": "kRoleRoam",
+            "zone 0x11cdc": "park_side_lane_03"
+        },
+        "0x11d10": {
+            "classGroup 0x11dbc": "yy_grigo",
+            "label 0x11d9c": "parkside",
+            "num 0x11ddc": 1.0,
+            "role 0x11dcc": "kRoleRoam",
+            "zone 0x11dac": "park_side_lane_04"
+        },
+        "0x11de0": {
+            "classGroup 0x11e8c": "yy_grigo",
+            "label 0x11e6c": "parkside",
+            "num 0x11eac": 1.0,
+            "role 0x11e9c": "kRoleRoam",
+            "zone 0x11e7c": "park_side_lane_05"
+        },
+        "0x11eb0": {
+            "classGroup 0x11f5c": "yy_grigo",
+            "label 0x11f3c": "parkside",
+            "num 0x11f7c": 1.0,
+            "role 0x11f6c": "kRoleRoam",
+            "zone 0x11f4c": "park_side_lane_06"
+        },
+        "0x11f80": {
+            "classGroup 0x1202c": "yy_grigo",
+            "label 0x1200c": "parkside",
+            "num 0x1204c": 2.0,
+            "role 0x1203c": "kRoleRoam",
+            "zone 0x1201c": "park_side_lane_07"
+        },
+        "0x12050": {
+            "classGroup 0x120fc": "yy_grigo",
+            "label 0x120dc": "parkside",
+            "num 0x1211c": 2.0,
+            "role 0x1210c": "kRoleRoam",
+            "zone 0x120ec": "park_side_lane_08"
+        },
+        "0x12120": {
+            "classGroup 0x121cc": "yy_grigo",
+            "label 0x121ac": "parkside",
+            "num 0x121ec": 2.0,
+            "role 0x121dc": "kRoleRoam",
+            "zone 0x121bc": "park_side_lane_09"
+        },
+        "0x121f0": {
+            "classGroup 0x1229c": "yy_grigo",
+            "label 0x1227c": "parkside",
+            "num 0x122bc": 2.0,
+            "role 0x122ac": "kRoleRoam",
+            "zone 0x1228c": "park_side_lane_10"
+        },
+        "0x122c0": {
+            "classGroup 0x1236c": "yy_grigo",
+            "label 0x1234c": "small_station_a_area",
+            "num 0x1238c": 2.0,
+            "role 0x1237c": "kRoleRoam",
+            "zone 0x1235c": "space_a"
+        },
+        "0x12390": {
+            "classGroup 0x1243c": "yy_grigo",
+            "label 0x1241c": "small_station_a_area",
+            "num 0x1245c": 1.0,
+            "role 0x1244c": "kRoleRoam",
+            "zone 0x1242c": "space_b"
+        },
+        "0x12460": {
+            "classGroup 0x1250c": "yy_grigo",
+            "label 0x124ec": "small_station_a_area",
+            "num 0x1252c": 2.0,
+            "role 0x1251c": "kRoleRoam",
+            "zone 0x124fc": "space_c"
+        },
+        "0x12530": {
+            "classGroup 0x125dc": "yy_grigo",
+            "label 0x125bc": "housing_area",
+            "num 0x125fc": 2.0,
+            "role 0x125ec": "kRoleRoam",
+            "zone 0x125cc": "sub_street_06"
+        },
+        "0x12600": {
+            "classGroup 0x126ac": "yy_grigo",
+            "label 0x1268c": "housing_area",
+            "num 0x126cc": 2.0,
+            "role 0x126bc": "kRoleRoam",
+            "zone 0x1269c": "space_d"
+        },
+        "0x126d0": {
+            "classGroup 0x1277c": "yy_grigo",
+            "label 0x1275c": "housing_area",
+            "num 0x1279c": 2.0,
+            "role 0x1278c": "kRoleRoam",
+            "zone 0x1276c": "space_e"
+        },
+        "0x127a0": {
+            "classGroup 0x1284c": "yy_grigo",
+            "label 0x1282c": "hill_area",
+            "num 0x1286c": 2.0,
+            "role 0x1285c": "kRoleRoam",
+            "zone 0x1283c": "group_e"
+        },
+        "0x12870": {
+            "classGroup 0x1291c": "yy_grigo",
+            "label 0x128fc": "hill_area",
+            "num 0x1293c": 1.0,
+            "role 0x1292c": "kRoleRoam",
+            "zone 0x1290c": "group_f"
+        },
+        "0x12940": {
+            "classGroup 0x129ec": "yy_grigo",
+            "label 0x129cc": "hill_area",
+            "num 0x12a0c": 2.0,
+            "role 0x129fc": "kRoleRoam",
+            "zone 0x129dc": "group_g"
+        },
+        "0x12a10": {
+            "classGroup 0x12abc": "yy_grigo",
+            "label 0x12a9c": "hill_area",
+            "num 0x12adc": 2.0,
+            "role 0x12acc": "kRoleRoam",
+            "zone 0x12aac": "group_h"
+        },
+        "0x12ae0": {
+            "classGroup 0x12b8c": "yy_grigo",
+            "label 0x12b6c": "hill_area",
+            "num 0x12bac": 2.0,
+            "role 0x12b9c": "kRoleRoam",
+            "zone 0x12b7c": "group_i"
+        },
+        "0x12bb0": {
+            "classGroup 0x12c5c": "yy_grigo",
+            "label 0x12c3c": "hill_area",
+            "num 0x12c7c": 2.0,
+            "role 0x12c6c": "kRoleRoam",
+            "zone 0x12c4c": "group_j"
+        },
+        "0x12c80": {
+            "classGroup 0x12d2c": "yy_grigo",
+            "label 0x12d0c": "hill_area",
+            "num 0x12d4c": 2.0,
+            "role 0x12d3c": "kRoleRoam",
+            "zone 0x12d1c": "group_k"
+        },
+        "0x12d50": {
+            "classGroup 0x12dfc": "yy_grigo",
+            "label 0x12ddc": "hill_area",
+            "num 0x12e1c": 2.0,
+            "role 0x12e0c": "kRoleRoam",
+            "zone 0x12dec": "group_l"
+        },
+        "0x12e20": {
+            "classGroup 0x12ecc": "yy_grigo",
+            "label 0x12eac": "hill_area",
+            "num 0x12eec": 1.0,
+            "role 0x12edc": "kRoleRoam",
+            "zone 0x12ebc": "group_m"
+        },
+        "0x12ef0": {
+            "classGroup 0x12f9c": "yy_grigo",
+            "label 0x12f7c": "underground_area",
+            "num 0x12fbc": 2.0,
+            "role 0x12fac": "kRoleRoam",
+            "zone 0x12f8c": "area_a"
+        },
+        "0x12fc0": {
+            "classGroup 0x1306c": "yy_grigo",
+            "label 0x1304c": "underground_area",
+            "num 0x1308c": 2.0,
+            "role 0x1307c": "kRoleRoam",
+            "zone 0x1305c": "area_b"
+        },
+        "0x13090": {
+            "classGroup 0x1313c": "yy_grigo",
+            "label 0x1311c": "underground_area",
+            "num 0x1315c": 2.0,
+            "role 0x1314c": "kRoleRoam",
+            "zone 0x1312c": "area_c"
+        },
+        "0x13160": {
+            "classGroup 0x1320c": "yy_grigo",
+            "label 0x131ec": "underground_area",
+            "num 0x1322c": 2.0,
+            "role 0x1321c": "kRoleRoam",
+            "zone 0x131fc": "area_d"
+        }
+    },
+    "bundle_search_kat 0xcd50": {
+        "0x100b0": {
+            "classGroup 0x1015c": "yy_grigo",
+            "label 0x1013c": "parkside",
+            "num 0x1017c": 10.0,
+            "role 0x1016c": "kRoleRoam",
+            "zone 0x1014c": "park_side_lane_07"
+        },
+        "0x10180": {
+            "classGroup 0x1022c": "yy_grigo",
+            "label 0x1020c": "parkside",
+            "num 0x1024c": 10.0,
+            "role 0x1023c": "kRoleRoam",
+            "zone 0x1021c": "park_side_lane_08"
+        },
+        "0x10250": {
+            "classGroup 0x102fc": "yy_grigo",
+            "label 0x102dc": "parkside",
+            "num 0x1031c": 10.0,
+            "role 0x1030c": "kRoleRoam",
+            "zone 0x102ec": "park_side_lane_09"
+        },
+        "0x10320": {
+            "classGroup 0x103cc": "yy_grigo",
+            "label 0x103ac": "parkside",
+            "num 0x103ec": 10.0,
+            "role 0x103dc": "kRoleRoam",
+            "zone 0x103bc": "park_side_lane_10"
+        },
+        "0x103f0": {
+            "classGroup 0x1049c": "yy_grigo",
+            "label 0x1047c": "small_station_a_area",
+            "num 0x104bc": 10.0,
+            "role 0x104ac": "kRoleRoam",
+            "zone 0x1048c": "space_a"
+        },
+        "0x104c0": {
+            "classGroup 0x1056c": "yy_grigo",
+            "label 0x1054c": "small_station_a_area",
+            "num 0x1058c": 10.0,
+            "role 0x1057c": "kRoleRoam",
+            "zone 0x1055c": "space_c"
+        },
+        "0x10590": {
+            "classGroup 0x1063c": "yy_grigo",
+            "label 0x1061c": "housing_area",
+            "num 0x1065c": 10.0,
+            "role 0x1064c": "kRoleRoam",
+            "zone 0x1062c": "sub_street_06"
+        },
+        "0x10660": {
+            "classGroup 0x1070c": "yy_grigo",
+            "label 0x106ec": "housing_area",
+            "num 0x1072c": 10.0,
+            "role 0x1071c": "kRoleRoam",
+            "zone 0x106fc": "space_d"
+        },
+        "0x10730": {
+            "classGroup 0x107dc": "yy_grigo",
+            "label 0x107bc": "housing_area",
+            "num 0x107fc": 10.0,
+            "role 0x107ec": "kRoleRoam",
+            "zone 0x107cc": "space_e"
+        },
+        "0x10800": {
+            "classGroup 0x108ac": "yy_grigo",
+            "label 0x1088c": "hill_area",
+            "num 0x108cc": 10.0,
+            "role 0x108bc": "kRoleRoam",
+            "zone 0x1089c": "group_e"
+        },
+        "0x108d0": {
+            "classGroup 0x1097c": "yy_grigo",
+            "label 0x1095c": "hill_area",
+            "num 0x1099c": 10.0,
+            "role 0x1098c": "kRoleRoam",
+            "zone 0x1096c": "group_g"
+        },
+        "0x109a0": {
+            "classGroup 0x10a4c": "yy_grigo",
+            "label 0x10a2c": "hill_area",
+            "num 0x10a6c": 10.0,
+            "role 0x10a5c": "kRoleRoam",
+            "zone 0x10a3c": "group_h"
+        },
+        "0x10a70": {
+            "classGroup 0x10b1c": "yy_grigo",
+            "label 0x10afc": "hill_area",
+            "num 0x10b3c": 10.0,
+            "role 0x10b2c": "kRoleRoam",
+            "zone 0x10b0c": "group_i"
+        },
+        "0x10b40": {
+            "classGroup 0x10bec": "yy_grigo",
+            "label 0x10bcc": "hill_area",
+            "num 0x10c0c": 10.0,
+            "role 0x10bfc": "kRoleRoam",
+            "zone 0x10bdc": "group_j"
+        },
+        "0x10c10": {
+            "classGroup 0x10cbc": "yy_grigo",
+            "label 0x10c9c": "hill_area",
+            "num 0x10cdc": 10.0,
+            "role 0x10ccc": "kRoleRoam",
+            "zone 0x10cac": "group_k"
+        },
+        "0x10ce0": {
+            "classGroup 0x10d8c": "yy_grigo",
+            "label 0x10d6c": "hill_area",
+            "num 0x10dac": 10.0,
+            "role 0x10d9c": "kRoleRoam",
+            "zone 0x10d7c": "group_l"
+        },
+        "0x10db0": {
+            "classGroup 0x10e5c": "yy_grigo",
+            "label 0x10e3c": "underground_area",
+            "num 0x10e7c": 10.0,
+            "role 0x10e6c": "kRoleRoam",
+            "zone 0x10e4c": "area_a"
+        },
+        "0x10e80": {
+            "classGroup 0x10f2c": "yy_grigo",
+            "label 0x10f0c": "underground_area",
+            "num 0x10f4c": 10.0,
+            "role 0x10f3c": "kRoleRoam",
+            "zone 0x10f1c": "area_b"
+        },
+        "0x10f50": {
+            "classGroup 0x10ffc": "yy_grigo",
+            "label 0x10fdc": "underground_area",
+            "num 0x1101c": 10.0,
+            "role 0x1100c": "kRoleRoam",
+            "zone 0x10fec": "area_c"
+        },
+        "0x11020": {
+            "classGroup 0x110cc": "yy_grigo",
+            "label 0x110ac": "underground_area",
+            "num 0x110ec": 10.0,
+            "role 0x110dc": "kRoleRoam",
+            "zone 0x110bc": "area_d"
+        },
+        "0x110f0": {
+            "classGroup 0x1119c": "yy_grigo",
+            "label 0x1117c": "subway_station_a_area",
+            "num 0x111bc": 20.0,
+            "role 0x111ac": "kRoleRoam",
+            "zone 0x1118c": "subway_station_a_area"
+        },
+        "0xd260": {
+            "classGroup 0xd2ec": "yy_hek_security_00",
+            "guide 0xd2dc": "guide01",
+            "num 0xd30c": 1.0,
+            "role 0xd2fc": "kRoleStay"
+        },
+        "0xd310": {
+            "classGroup 0xd39c": "yy_hek_security_00",
+            "guide 0xd38c": "guide02",
+            "num 0xd3bc": 1.0,
+            "role 0xd3ac": "kRoleStay"
+        },
+        "0xd3c0": {
+            "classGroup 0xd44c": "yy_hek_security_00",
+            "guide 0xd43c": "guide06",
+            "num 0xd46c": 1.0,
+            "role 0xd45c": "kRoleStay"
+        },
+        "0xd470": {
+            "classGroup 0xd4fc": "yy_hek_security_00",
+            "guide 0xd4ec": "guide07",
+            "num 0xd51c": 1.0,
+            "role 0xd50c": "kRoleStay"
+        },
+        "0xd520": {
+            "classGroup 0xd5ac": "yy_hek_security_00",
+            "guide 0xd59c": "stand_paperbag_01",
+            "num 0xd5cc": 1.0,
+            "role 0xd5bc": "kRoleStay"
+        },
+        "0xd5d0": {
+            "classGroup 0xd65c": "yy_hek_security_00",
+            "guide 0xd64c": "play_sword_01",
+            "num 0xd67c": 1.0,
+            "role 0xd66c": "kRoleStay"
+        },
+        "0xd680": {
+            "classGroup 0xd70c": "yy_hek_security_00",
+            "guide 0xd6fc": "bubble_01",
+            "num 0xd72c": 1.0,
+            "role 0xd71c": "kRoleStay"
+        },
+        "0xd730": {
+            "classGroup 0xd7bc": "yy_hek_station_00",
+            "guide 0xd7ac": "station_01",
+            "num 0xd7dc": 1.0,
+            "role 0xd7cc": "kRoleStay"
+        },
+        "0xd7e0": {
+            "classGroup 0xd86c": "yy_hek_station_00",
+            "guide 0xd85c": "station_02",
+            "num 0xd88c": 1.0,
+            "role 0xd87c": "kRoleStay"
+        },
+        "0xd890": {
+            "classGroup 0xd91c": "yy_hek_station_00",
+            "guide 0xd90c": "station_03",
+            "num 0xd93c": 1.0,
+            "role 0xd92c": "kRoleStay"
+        },
+        "0xd940": {
+            "classGroup 0xd9cc": "yy_hek_station_00",
+            "guide 0xd9bc": "station_04",
+            "num 0xd9ec": 1.0,
+            "role 0xd9dc": "kRoleStay"
+        },
+        "0xd9f0": {
+            "classGroup 0xda7c": "yy_hek_station_00",
+            "guide 0xda6c": "station_05",
+            "num 0xda9c": 1.0,
+            "role 0xda8c": "kRoleStay"
+        },
+        "0xdaa0": {
+            "classGroup 0xdb2c": "yy_hek_station_00",
+            "guide 0xdb1c": "station_06",
+            "num 0xdb4c": 1.0,
+            "role 0xdb3c": "kRoleStay"
+        },
+        "0xdb50": {
+            "classGroup 0xdbdc": "yy_hek_station_00",
+            "guide 0xdbcc": "station_07",
+            "num 0xdbfc": 1.0,
+            "role 0xdbec": "kRoleStay"
+        },
+        "0xdc00": {
+            "classGroup 0xdc8c": "yy_hek_station_00",
+            "guide 0xdc7c": "station_08",
+            "num 0xdcac": 1.0,
+            "role 0xdc9c": "kRoleStay"
+        },
+        "0xdcb0": {
+            "classGroup 0xdd3c": "yy_hek_station_00",
+            "guide 0xdd2c": "station_09",
+            "num 0xdd5c": 1.0,
+            "role 0xdd4c": "kRoleStay"
+        },
+        "0xdd60": {
+            "classGroup 0xde0c": "yy_photo_man01",
+            "guide 0xddfc": "photo_man01",
+            "num 0xde4c": 1.0,
+            "role 0xde2c": "kRoleStay",
+            "somebodyId 0xde1c": 2.0,
+            "standardAppearance 0xde3c": true
+        },
+        "0xde50": {
+            "classGroup 0xdefc": "yy_photo_wom41",
+            "guide 0xdeec": "photo_wom41",
+            "num 0xdf3c": 1.0,
+            "role 0xdf1c": "kRoleStay",
+            "somebodyId 0xdf0c": 2.0,
+            "standardAppearance 0xdf2c": true
+        },
+        "0xdf40": {
+            "classGroup 0xdfec": "yy_photo_wom46",
+            "guide 0xdfdc": "photo_wom46",
+            "num 0xe02c": 1.0,
+            "role 0xe00c": "kRoleStay",
+            "somebodyId 0xdffc": 2.0,
+            "standardAppearance 0xe01c": true
+        },
+        "0xe030": {
+            "classGroup 0xe0dc": "yy_hek_robber_00",
+            "label 0xe0bc": "station",
+            "num 0xe0fc": 15.0,
+            "role 0xe0ec": "kRoleRoam",
+            "zone 0xe0cc": "main_street_01"
+        },
+        "0xe100": {
+            "classGroup 0xe1ac": "yy_hek_robber_00",
+            "label 0xe18c": "front_of_station",
+            "num 0xe1cc": 8.0,
+            "role 0xe1bc": "kRoleRoam",
+            "zone 0xe19c": "front_of_station"
+        },
+        "0xe1d0": {
+            "classGroup 0xe27c": "yy_hek_robber_00",
+            "label 0xe25c": "sub_street_03",
+            "num 0xe29c": 15.0,
+            "role 0xe28c": "kRoleRoam",
+            "zone 0xe26c": "sub_street_03"
+        },
+        "0xe2a0": {
+            "classGroup 0xe34c": "yy_hek_security_00",
+            "label 0xe32c": "station",
+            "num 0xe36c": 6.0,
+            "role 0xe35c": "kRoleRoam",
+            "zone 0xe33c": "main_street_01"
+        },
+        "0xe370": {
+            "classGroup 0xe41c": "yy_hek_security_00",
+            "label 0xe3fc": "front_of_station",
+            "num 0xe43c": 6.0,
+            "role 0xe42c": "kRoleRoam",
+            "zone 0xe40c": "front_of_station"
+        },
+        "0xe440": {
+            "classGroup 0xe4ec": "yy_hek_security_00",
+            "label 0xe4cc": "sub_street_01",
+            "num 0xe50c": 6.0,
+            "role 0xe4fc": "kRoleRoam",
+            "zone 0xe4dc": "sub_street_01"
+        },
+        "0xe510": {
+            "classGroup 0xe5bc": "yy_hek_security_00",
+            "label 0xe59c": "sub_street_02",
+            "num 0xe5dc": 6.0,
+            "role 0xe5cc": "kRoleRoam",
+            "zone 0xe5ac": "sub_street_02"
+        },
+        "0xe5e0": {
+            "classGroup 0xe68c": "yy_hek_security_00",
+            "label 0xe66c": "sub_street_05",
+            "num 0xe6ac": 6.0,
+            "role 0xe69c": "kRoleRoam",
+            "zone 0xe67c": "sub_street_05"
+        },
+        "0xe6b0": {
+            "classGroup 0xe75c": "yy_hek_security_00",
+            "label 0xe73c": "liberty_park",
+            "num 0xe77c": 6.0,
+            "role 0xe76c": "kRoleRoam",
+            "zone 0xe74c": "park_01"
+        },
+        "0xe780": {
+            "classGroup 0xe82c": "yy_hek_security_00",
+            "label 0xe80c": "liberty_park",
+            "num 0xe84c": 6.0,
+            "role 0xe83c": "kRoleRoam",
+            "zone 0xe81c": "park_02"
+        },
+        "0xe850": {
+            "classGroup 0xe8fc": "yy_hek_security_00",
+            "label 0xe8dc": "liberty_park",
+            "num 0xe91c": 6.0,
+            "role 0xe90c": "kRoleRoam",
+            "zone 0xe8ec": "park_03"
+        },
+        "0xe920": {
+            "classGroup 0xe9cc": "yy_hek_security_00",
+            "label 0xe9ac": "parkside",
+            "num 0xe9ec": 6.0,
+            "role 0xe9dc": "kRoleRoam",
+            "zone 0xe9bc": "park_side_lane_07"
+        },
+        "0xe9f0": {
+            "classGroup 0xea9c": "yy_hek_security_00",
+            "label 0xea7c": "parkside",
+            "num 0xeabc": 6.0,
+            "role 0xeaac": "kRoleRoam",
+            "zone 0xea8c": "park_side_lane_08"
+        },
+        "0xeac0": {
+            "classGroup 0xeb6c": "yy_hek_security_00",
+            "label 0xeb4c": "parkside",
+            "num 0xeb8c": 6.0,
+            "role 0xeb7c": "kRoleRoam",
+            "zone 0xeb5c": "park_side_lane_09"
+        },
+        "0xeb90": {
+            "classGroup 0xec3c": "yy_hek_security_00",
+            "label 0xec1c": "parkside",
+            "num 0xec5c": 6.0,
+            "role 0xec4c": "kRoleRoam",
+            "zone 0xec2c": "park_side_lane_10"
+        },
+        "0xec60": {
+            "classGroup 0xed0c": "yy_hek_security_00",
+            "label 0xecec": "small_station_a_area",
+            "num 0xed2c": 6.0,
+            "role 0xed1c": "kRoleRoam",
+            "zone 0xecfc": "space_a"
+        },
+        "0xed30": {
+            "classGroup 0xeddc": "yy_hek_security_00",
+            "label 0xedbc": "small_station_a_area",
+            "num 0xedfc": 6.0,
+            "role 0xedec": "kRoleRoam",
+            "zone 0xedcc": "space_c"
+        },
+        "0xee00": {
+            "classGroup 0xeeac": "yy_hek_security_00",
+            "label 0xee8c": "housing_area",
+            "num 0xeecc": 6.0,
+            "role 0xeebc": "kRoleRoam",
+            "zone 0xee9c": "sub_street_06"
+        },
+        "0xeed0": {
+            "classGroup 0xef7c": "yy_hek_security_00",
+            "label 0xef5c": "housing_area",
+            "num 0xef9c": 6.0,
+            "role 0xef8c": "kRoleRoam",
+            "zone 0xef6c": "space_d"
+        },
+        "0xefa0": {
+            "classGroup 0xf04c": "yy_hek_security_00",
+            "label 0xf02c": "housing_area",
+            "num 0xf06c": 6.0,
+            "role 0xf05c": "kRoleRoam",
+            "zone 0xf03c": "space_e"
+        },
+        "0xf070": {
+            "classGroup 0xf11c": "yy_hek_security_00",
+            "label 0xf0fc": "hill_area",
+            "num 0xf13c": 6.0,
+            "role 0xf12c": "kRoleRoam",
+            "zone 0xf10c": "group_e"
+        },
+        "0xf140": {
+            "classGroup 0xf1ec": "yy_hek_security_00",
+            "label 0xf1cc": "hill_area",
+            "num 0xf20c": 6.0,
+            "role 0xf1fc": "kRoleRoam",
+            "zone 0xf1dc": "group_g"
+        },
+        "0xf210": {
+            "classGroup 0xf2bc": "yy_hek_security_00",
+            "label 0xf29c": "hill_area",
+            "num 0xf2dc": 6.0,
+            "role 0xf2cc": "kRoleRoam",
+            "zone 0xf2ac": "group_h"
+        },
+        "0xf2e0": {
+            "classGroup 0xf38c": "yy_hek_security_00",
+            "label 0xf36c": "hill_area",
+            "num 0xf3ac": 6.0,
+            "role 0xf39c": "kRoleRoam",
+            "zone 0xf37c": "group_i"
+        },
+        "0xf3b0": {
+            "classGroup 0xf45c": "yy_hek_security_00",
+            "label 0xf43c": "hill_area",
+            "num 0xf47c": 6.0,
+            "role 0xf46c": "kRoleRoam",
+            "zone 0xf44c": "group_j"
+        },
+        "0xf480": {
+            "classGroup 0xf52c": "yy_hek_security_00",
+            "label 0xf50c": "hill_area",
+            "num 0xf54c": 6.0,
+            "role 0xf53c": "kRoleRoam",
+            "zone 0xf51c": "group_k"
+        },
+        "0xf550": {
+            "classGroup 0xf5fc": "yy_hek_security_00",
+            "label 0xf5dc": "hill_area",
+            "num 0xf61c": 6.0,
+            "role 0xf60c": "kRoleRoam",
+            "zone 0xf5ec": "group_l"
+        },
+        "0xf620": {
+            "classGroup 0xf6cc": "yy_hek_security_00",
+            "label 0xf6ac": "underground_area",
+            "num 0xf6ec": 6.0,
+            "role 0xf6dc": "kRoleRoam",
+            "zone 0xf6bc": "area_a"
+        },
+        "0xf6f0": {
+            "classGroup 0xf79c": "yy_hek_security_00",
+            "label 0xf77c": "underground_area",
+            "num 0xf7bc": 6.0,
+            "role 0xf7ac": "kRoleRoam",
+            "zone 0xf78c": "area_b"
+        },
+        "0xf7c0": {
+            "classGroup 0xf86c": "yy_hek_security_00",
+            "label 0xf84c": "underground_area",
+            "num 0xf88c": 6.0,
+            "role 0xf87c": "kRoleRoam",
+            "zone 0xf85c": "area_c"
+        },
+        "0xf890": {
+            "classGroup 0xf93c": "yy_hek_security_00",
+            "label 0xf91c": "underground_area",
+            "num 0xf95c": 6.0,
+            "role 0xf94c": "kRoleRoam",
+            "zone 0xf92c": "area_d"
+        },
+        "0xf960": {
+            "classGroup 0xfa0c": "yy_hek_security_00",
+            "label 0xf9ec": "subway_station_a_area",
+            "num 0xfa2c": 12.0,
+            "role 0xfa1c": "kRoleRoam",
+            "zone 0xf9fc": "subway_station_a_area"
+        },
+        "0xfa30": {
+            "classGroup 0xfadc": "yy_grigo",
+            "label 0xfabc": "station",
+            "num 0xfafc": 10.0,
+            "role 0xfaec": "kRoleRoam",
+            "zone 0xfacc": "main_street_01"
+        },
+        "0xfb00": {
+            "classGroup 0xfbac": "yy_grigo",
+            "label 0xfb8c": "front_of_station",
+            "num 0xfbcc": 10.0,
+            "role 0xfbbc": "kRoleRoam",
+            "zone 0xfb9c": "front_of_station"
+        },
+        "0xfbd0": {
+            "classGroup 0xfc7c": "yy_grigo",
+            "label 0xfc5c": "sub_street_01",
+            "num 0xfc9c": 10.0,
+            "role 0xfc8c": "kRoleRoam",
+            "zone 0xfc6c": "sub_street_01"
+        },
+        "0xfca0": {
+            "classGroup 0xfd4c": "yy_grigo",
+            "label 0xfd2c": "sub_street_02",
+            "num 0xfd6c": 10.0,
+            "role 0xfd5c": "kRoleRoam",
+            "zone 0xfd3c": "sub_street_02"
+        },
+        "0xfd70": {
+            "classGroup 0xfe1c": "yy_grigo",
+            "label 0xfdfc": "sub_street_05",
+            "num 0xfe3c": 10.0,
+            "role 0xfe2c": "kRoleRoam",
+            "zone 0xfe0c": "sub_street_05"
+        },
+        "0xfe40": {
+            "classGroup 0xfeec": "yy_grigo",
+            "label 0xfecc": "liberty_park",
+            "num 0xff0c": 10.0,
+            "role 0xfefc": "kRoleRoam",
+            "zone 0xfedc": "park_01"
+        },
+        "0xff10": {
+            "classGroup 0xffbc": "yy_grigo",
+            "label 0xff9c": "liberty_park",
+            "num 0xffdc": 10.0,
+            "role 0xffcc": "kRoleRoam",
+            "zone 0xffac": "park_02"
+        },
+        "0xffe0": {
+            "classGroup 0x1008c": "yy_grigo",
+            "label 0x1006c": "liberty_park",
+            "num 0x100ac": 10.0,
+            "role 0x1009c": "kRoleRoam",
+            "zone 0x1007c": "park_03"
+        }
+    },
+    "bundle_sm26 0x13230": {
+        "0x137b0": {
+            "classGroup 0x1383c": "yy_dt_all_00",
+            "guide 0x1382c": "sm26_guide_01",
+            "num 0x13860": {
+                "0x1387c": 2.0,
+                "0x1388c": 3.0
+            },
+            "role 0x1384c": "kRoleStay"
+        },
+        "0x13890": {
+            "classGroup 0x1391c": "yy_dt_all_00",
+            "guide 0x1390c": "sm26_guide_02",
+            "num 0x13940": {
+                "0x1395c": 2.0,
+                "0x1396c": 3.0
+            },
+            "role 0x1392c": "kRoleStay"
+        },
+        "0x13970": {
+            "classGroup 0x139fc": "yy_dt_all_00",
+            "guide 0x139ec": "sm26_guide_03",
+            "num 0x13a20": {
+                "0x13a3c": 2.0,
+                "0x13a4c": 3.0
+            },
+            "role 0x13a0c": "kRoleStay"
+        },
+        "0x13a50": {
+            "classGroup 0x13adc": "yy_dt_all_00",
+            "guide 0x13acc": "sm26_guide_04",
+            "num 0x13b00": {
+                "0x13b1c": 2.0,
+                "0x13b2c": 3.0
+            },
+            "role 0x13aec": "kRoleStay"
+        },
+        "0x13b30": {
+            "classGroup 0x13bbc": "yy_dt_all_00",
+            "guide 0x13bac": "sm26_guide_05",
+            "num 0x13be0": {
+                "0x13bfc": 2.0,
+                "0x13c0c": 3.0
+            },
+            "role 0x13bcc": "kRoleStay"
+        },
+        "0x13c10": {
+            "classGroup 0x13c9c": "yy_dt_all_00",
+            "guide 0x13c8c": "sm26_guide_06",
+            "num 0x13cc0": {
+                "0x13cdc": 2.0,
+                "0x13cec": 3.0
+            },
+            "role 0x13cac": "kRoleStay"
+        },
+        "0x13cf0": {
+            "classGroup 0x13d7c": "yy_dt_all_00",
+            "guide 0x13d6c": "sm26_alone_a01",
+            "num 0x13d9c": 1.0,
+            "role 0x13d8c": "kRoleStay"
+        },
+        "0x13da0": {
+            "classGroup 0x13e2c": "yy_dt_all_00",
+            "guide 0x13e1c": "sm26_alone_a02",
+            "num 0x13e4c": 1.0,
+            "role 0x13e3c": "kRoleStay"
+        },
+        "0x13e50": {
+            "classGroup 0x13edc": "yy_dt_all_00",
+            "guide 0x13ecc": "sm26_alone_a03",
+            "num 0x13efc": 1.0,
+            "role 0x13eec": "kRoleStay"
+        },
+        "0x13f00": {
+            "classGroup 0x13f8c": "yy_dt_all_00",
+            "guide 0x13f7c": "sm26_alone_a04",
+            "num 0x13fac": 1.0,
+            "role 0x13f9c": "kRoleStay"
+        },
+        "0x13fb0": {
+            "classGroup 0x1403c": "yy_dt_all_00",
+            "guide 0x1402c": "sm26_alone_a05",
+            "num 0x1405c": 1.0,
+            "role 0x1404c": "kRoleStay"
+        },
+        "0x14060": {
+            "classGroup 0x140ec": "yy_dt_all_00",
+            "guide 0x140dc": "sm26_alone_b01",
+            "num 0x1410c": 1.0,
+            "role 0x140fc": "kRoleStay"
+        },
+        "0x14110": {
+            "classGroup 0x1419c": "yy_dt_all_00",
+            "guide 0x1418c": "sm26_alone_b02",
+            "num 0x141bc": 1.0,
+            "role 0x141ac": "kRoleStay"
+        },
+        "0x141c0": {
+            "classGroup 0x1424c": "yy_dt_all_00",
+            "guide 0x1423c": "sm26_alone_b03",
+            "num 0x1426c": 1.0,
+            "role 0x1425c": "kRoleStay"
+        },
+        "0x14270": {
+            "classGroup 0x142fc": "yy_dt_all_00",
+            "guide 0x142ec": "sm26_alone_b04",
+            "num 0x1431c": 1.0,
+            "role 0x1430c": "kRoleStay"
+        },
+        "0x14320": {
+            "classGroup 0x143ac": "yy_dt_all_00",
+            "guide 0x1439c": "sm26_alone_b05",
+            "num 0x143cc": 1.0,
+            "role 0x143bc": "kRoleStay"
+        },
+        "0x143d0": {
+            "classGroup 0x1445c": "yy_dt_all_00",
+            "guide 0x1444c": "sm26_alone_b06",
+            "num 0x1447c": 1.0,
+            "role 0x1446c": "kRoleStay"
+        },
+        "0x14480": {
+            "classGroup 0x1450c": "yy_dt_all_00",
+            "guide 0x144fc": "sm26_alone_c01",
+            "num 0x1452c": 1.0,
+            "role 0x1451c": "kRoleStay"
+        },
+        "0x14530": {
+            "classGroup 0x145bc": "yy_dt_all_00",
+            "guide 0x145ac": "sm26_alone_c02",
+            "num 0x145dc": 1.0,
+            "role 0x145cc": "kRoleStay"
+        },
+        "0x145e0": {
+            "classGroup 0x1466c": "yy_dt_all_00",
+            "guide 0x1465c": "sm26_alone_c03",
+            "num 0x1468c": 1.0,
+            "role 0x1467c": "kRoleStay"
+        },
+        "0x14690": {
+            "classGroup 0x1471c": "yy_dt_all_00",
+            "guide 0x1470c": "sm26_alone_c04",
+            "num 0x1473c": 1.0,
+            "role 0x1472c": "kRoleStay"
+        },
+        "0x14740": {
+            "classGroup 0x147cc": "yy_dt_all_00",
+            "guide 0x147bc": "sm26_alone_c05",
+            "num 0x147ec": 1.0,
+            "role 0x147dc": "kRoleStay"
+        },
+        "0x147f0": {
+            "classGroup 0x1487c": "yy_dt_all_00",
+            "guide 0x1486c": "sm26_alone_d01",
+            "num 0x1489c": 1.0,
+            "role 0x1488c": "kRoleStay"
+        },
+        "0x148a0": {
+            "classGroup 0x1492c": "yy_dt_all_00",
+            "guide 0x1491c": "sm26_alone_d02",
+            "num 0x1494c": 1.0,
+            "role 0x1493c": "kRoleStay"
+        },
+        "0x14950": {
+            "classGroup 0x149dc": "yy_dt_all_00",
+            "guide 0x149cc": "sm26_alone_d03",
+            "num 0x149fc": 1.0,
+            "role 0x149ec": "kRoleStay"
+        },
+        "0x14a00": {
+            "classGroup 0x14a8c": "yy_dt_all_00",
+            "guide 0x14a7c": "sm26_alone_d04",
+            "num 0x14aac": 1.0,
+            "role 0x14a9c": "kRoleStay"
+        },
+        "0x14ab0": {
+            "classGroup 0x14b3c": "yy_dt_all_00",
+            "guide 0x14b2c": "sm26_alone_d05",
+            "num 0x14b5c": 1.0,
+            "role 0x14b4c": "kRoleStay"
+        },
+        "0x14b60": {
+            "classGroup 0x14bec": "yy_dt_all_00",
+            "guide 0x14bdc": "sm26_alone_d06",
+            "num 0x14c0c": 1.0,
+            "role 0x14bfc": "kRoleStay"
+        },
+        "0x14c10": {
+            "classGroup 0x14c9c": "yy_dt_all_00",
+            "guide 0x14c8c": "sm26_alone_e01",
+            "num 0x14cbc": 1.0,
+            "role 0x14cac": "kRoleStay"
+        },
+        "0x14cc0": {
+            "classGroup 0x14d4c": "yy_dt_all_00",
+            "guide 0x14d3c": "sm26_alone_e02",
+            "num 0x14d6c": 1.0,
+            "role 0x14d5c": "kRoleStay"
+        },
+        "0x14d70": {
+            "classGroup 0x14dfc": "yy_dt_all_00",
+            "guide 0x14dec": "sm26_alone_e03",
+            "num 0x14e1c": 1.0,
+            "role 0x14e0c": "kRoleStay"
+        },
+        "0x14e20": {
+            "classGroup 0x14eac": "yy_dt_all_00",
+            "guide 0x14e9c": "sm26_alone_e04",
+            "num 0x14ecc": 1.0,
+            "role 0x14ebc": "kRoleStay"
+        },
+        "0x14ed0": {
+            "classGroup 0x14f5c": "yy_dt_all_00",
+            "guide 0x14f4c": "sm26_alone_e05",
+            "num 0x14f7c": 1.0,
+            "role 0x14f6c": "kRoleStay"
+        },
+        "0x14f80": {
+            "classGroup 0x1500c": "yy_dt_all_00",
+            "guide 0x14ffc": "sm26_alone_e06",
+            "num 0x1502c": 1.0,
+            "role 0x1501c": "kRoleStay"
+        },
+        "0x15030": {
+            "classGroup 0x150bc": "yy_dt_all_00",
+            "guide 0x150ac": "sm26_alone_e07",
+            "num 0x150dc": 1.0,
+            "role 0x150cc": "kRoleStay"
+        },
+        "0x150e0": {
+            "classGroup 0x1516c": "yy_dt_all_00",
+            "guide 0x1515c": "sm26_alone_f01",
+            "num 0x1518c": 1.0,
+            "role 0x1517c": "kRoleStay"
+        },
+        "0x15190": {
+            "classGroup 0x1521c": "yy_dt_all_00",
+            "guide 0x1520c": "sm26_alone_f02",
+            "num 0x1523c": 1.0,
+            "role 0x1522c": "kRoleStay"
+        },
+        "0x15240": {
+            "classGroup 0x152cc": "yy_dt_all_00",
+            "guide 0x152bc": "sm26_alone_f03",
+            "num 0x152ec": 1.0,
+            "role 0x152dc": "kRoleStay"
+        },
+        "0x152f0": {
+            "classGroup 0x1537c": "yy_dt_all_00",
+            "guide 0x1536c": "sm26_alone_g01",
+            "num 0x1539c": 1.0,
+            "role 0x1538c": "kRoleStay"
+        },
+        "0x153a0": {
+            "classGroup 0x1542c": "yy_dt_all_00",
+            "guide 0x1541c": "sm26_alone_g02",
+            "num 0x1544c": 1.0,
+            "role 0x1543c": "kRoleStay"
+        },
+        "0x15450": {
+            "classGroup 0x154dc": "yy_dt_all_00",
+            "guide 0x154cc": "sm26_alone_g03",
+            "num 0x154fc": 1.0,
+            "role 0x154ec": "kRoleStay"
+        },
+        "0x15500": {
+            "classGroup 0x1558c": "yy_dt_all_00",
+            "guide 0x1557c": "sm26_alone_g04",
+            "num 0x155ac": 1.0,
+            "role 0x1559c": "kRoleStay"
+        },
+        "0x155b0": {
+            "classGroup 0x1563c": "yy_dt_all_00",
+            "guide 0x1562c": "sm26_alone_g05",
+            "num 0x1565c": 1.0,
+            "role 0x1564c": "kRoleStay"
+        },
+        "0x15660": {
+            "classGroup 0x156ec": "yy_dt_all_00",
+            "guide 0x156dc": "sm26_alone_g06",
+            "num 0x1570c": 1.0,
+            "role 0x156fc": "kRoleStay"
+        },
+        "0x15710": {
+            "classGroup 0x1579c": "yy_dt_all_00",
+            "guide 0x1578c": "sm26_alone_g07",
+            "num 0x157bc": 1.0,
+            "role 0x157ac": "kRoleStay"
+        },
+        "0x157c0": {
+            "classGroup 0x1584c": "yy_dt_all_00",
+            "guide 0x1583c": "sm26_alone_h01",
+            "num 0x1586c": 1.0,
+            "role 0x1585c": "kRoleStay"
+        },
+        "0x15870": {
+            "classGroup 0x158fc": "yy_dt_all_00",
+            "guide 0x158ec": "sm26_alone_h02",
+            "num 0x1591c": 1.0,
+            "role 0x1590c": "kRoleStay"
+        },
+        "0x15920": {
+            "classGroup 0x159ac": "yy_dt_all_00",
+            "guide 0x1599c": "sm26_alone_h03",
+            "num 0x159cc": 1.0,
+            "role 0x159bc": "kRoleStay"
+        },
+        "0x159d0": {
+            "classGroup 0x15a5c": "yy_dt_all_00",
+            "guide 0x15a4c": "sm26_alone_h04",
+            "num 0x15a7c": 1.0,
+            "role 0x15a6c": "kRoleStay"
+        },
+        "0x15a80": {
+            "classGroup 0x15b0c": "yy_dt_all_00",
+            "guide 0x15afc": "sm26_alone_h05",
+            "num 0x15b2c": 1.0,
+            "role 0x15b1c": "kRoleStay"
+        },
+        "0x15b30": {
+            "classGroup 0x15bbc": "yy_dt_all_00",
+            "guide 0x15bac": "sm26_alone_h06",
+            "num 0x15bdc": 1.0,
+            "role 0x15bcc": "kRoleStay"
+        },
+        "0x15be0": {
+            "classGroup 0x15c6c": "yy_dt_all_00",
+            "guide 0x15c5c": "sm26_alone_h07",
+            "num 0x15c8c": 1.0,
+            "role 0x15c7c": "kRoleStay"
+        },
+        "0x15c90": {
+            "classGroup 0x15d1c": "yy_dt_all_00",
+            "guide 0x15d0c": "sm26_alone_h08",
+            "num 0x15d3c": 1.0,
+            "role 0x15d2c": "kRoleStay"
+        },
+        "0x15d40": {
+            "classGroup 0x15dcc": "yy_dt_all_00",
+            "guide 0x15dbc": "sm26_alone_h09",
+            "num 0x15dec": 1.0,
+            "role 0x15ddc": "kRoleStay"
+        },
+        "0x15df0": {
+            "classGroup 0x15e7c": "yy_dt_all_00",
+            "guide 0x15e6c": "sm26_alone_h10",
+            "num 0x15e9c": 1.0,
+            "role 0x15e8c": "kRoleStay"
+        },
+        "0x15ea0": {
+            "classGroup 0x15f2c": "yy_dt_all_00",
+            "guide 0x15f1c": "sm26_alone_h11",
+            "num 0x15f4c": 1.0,
+            "role 0x15f3c": "kRoleStay"
+        },
+        "0x15f50": {
+            "classGroup 0x15fdc": "yy_dt_all_00",
+            "guide 0x15fcc": "sm26_alone_h12",
+            "num 0x15ffc": 1.0,
+            "role 0x15fec": "kRoleStay"
+        },
+        "0x16000": {
+            "classGroup 0x1608c": "yy_dt_all_00",
+            "guide 0x1607c": "sm26_alone_i01",
+            "num 0x160ac": 1.0,
+            "role 0x1609c": "kRoleStay"
+        },
+        "0x160b0": {
+            "classGroup 0x1613c": "yy_dt_all_00",
+            "guide 0x1612c": "sm26_alone_i02",
+            "num 0x1615c": 1.0,
+            "role 0x1614c": "kRoleStay"
+        },
+        "0x16160": {
+            "classGroup 0x161ec": "yy_dt_all_00",
+            "guide 0x161dc": "sm26_alone_i03",
+            "num 0x1620c": 1.0,
+            "role 0x161fc": "kRoleStay"
+        },
+        "0x16210": {
+            "classGroup 0x1629c": "yy_dt_all_00",
+            "guide 0x1628c": "sm26_alone_i04",
+            "num 0x162bc": 1.0,
+            "role 0x162ac": "kRoleStay"
+        },
+        "0x162c0": {
+            "classGroup 0x1634c": "yy_dt_all_00",
+            "guide 0x1633c": "sm26_alone_i05",
+            "num 0x1636c": 1.0,
+            "role 0x1635c": "kRoleStay"
+        },
+        "0x16370": {
+            "classGroup 0x163fc": "yy_dt_all_00",
+            "guide 0x163ec": "sm26_alone_i06",
+            "num 0x1641c": 1.0,
+            "role 0x1640c": "kRoleStay"
+        },
+        "0x16420": {
+            "classGroup 0x164ac": "yy_dt_all_00",
+            "guide 0x1649c": "sm26_alone_i07",
+            "num 0x164cc": 1.0,
+            "role 0x164bc": "kRoleStay"
+        },
+        "0x164d0": {
+            "classGroup 0x1655c": "yy_dt_all_00",
+            "guide 0x1654c": "sm26_alone_i08",
+            "num 0x1657c": 1.0,
+            "role 0x1656c": "kRoleStay"
+        },
+        "0x16580": {
+            "classGroup 0x1660c": "yy_dt_all_00",
+            "guide 0x165fc": "sm26_alone_i09",
+            "num 0x1662c": 1.0,
+            "role 0x1661c": "kRoleStay"
+        },
+        "0x16630": {
+            "classGroup 0x166bc": "yy_dt_all_00",
+            "guide 0x166ac": "sm26_alone_j01",
+            "num 0x166dc": 1.0,
+            "role 0x166cc": "kRoleStay"
+        },
+        "0x166e0": {
+            "classGroup 0x1676c": "yy_dt_all_00",
+            "guide 0x1675c": "sm26_alone_j02",
+            "num 0x1678c": 1.0,
+            "role 0x1677c": "kRoleStay"
+        },
+        "0x16790": {
+            "classGroup 0x1681c": "yy_dt_all_00",
+            "guide 0x1680c": "sm26_alone_j03",
+            "num 0x1683c": 1.0,
+            "role 0x1682c": "kRoleStay"
+        },
+        "0x16840": {
+            "classGroup 0x168cc": "yy_dt_all_00",
+            "guide 0x168bc": "sm26_alone_j04",
+            "num 0x168ec": 1.0,
+            "role 0x168dc": "kRoleStay"
+        },
+        "0x168f0": {
+            "classGroup 0x1697c": "yy_dt_all_00",
+            "guide 0x1696c": "sm26_alone_j05",
+            "num 0x1699c": 1.0,
+            "role 0x1698c": "kRoleStay"
+        },
+        "0x169a0": {
+            "classGroup 0x16a2c": "yy_dt_all_00",
+            "guide 0x16a1c": "sm26_alone_j06",
+            "num 0x16a4c": 1.0,
+            "role 0x16a3c": "kRoleStay"
+        },
+        "0x16a50": {
+            "classGroup 0x16adc": "yy_dt_all_00",
+            "guide 0x16acc": "sm26_alone_k01",
+            "num 0x16afc": 1.0,
+            "role 0x16aec": "kRoleStay"
+        },
+        "0x16b00": {
+            "classGroup 0x16b8c": "yy_dt_all_00",
+            "guide 0x16b7c": "sm26_alone_k02",
+            "num 0x16bac": 1.0,
+            "role 0x16b9c": "kRoleStay"
+        },
+        "0x16bb0": {
+            "classGroup 0x16c3c": "yy_dt_all_00",
+            "guide 0x16c2c": "sm26_alone_k03",
+            "num 0x16c5c": 1.0,
+            "role 0x16c4c": "kRoleStay"
+        },
+        "0x16c60": {
+            "classGroup 0x16cec": "yy_dt_all_00",
+            "guide 0x16cdc": "sm26_alone_k04",
+            "num 0x16d0c": 1.0,
+            "role 0x16cfc": "kRoleStay"
+        },
+        "0x16d10": {
+            "classGroup 0x16d9c": "yy_dt_all_00",
+            "guide 0x16d8c": "sm26_alone_k05",
+            "num 0x16dbc": 1.0,
+            "role 0x16dac": "kRoleStay"
+        },
+        "0x16dc0": {
+            "classGroup 0x16e4c": "yy_dt_all_00",
+            "guide 0x16e3c": "sm26_alone_l01",
+            "num 0x16e6c": 1.0,
+            "role 0x16e5c": "kRoleStay"
+        },
+        "0x16e70": {
+            "classGroup 0x16efc": "yy_dt_all_00",
+            "guide 0x16eec": "sm26_alone_l02",
+            "num 0x16f1c": 1.0,
+            "role 0x16f0c": "kRoleStay"
+        },
+        "0x16f20": {
+            "classGroup 0x16fac": "yy_dt_all_00",
+            "guide 0x16f9c": "sm26_alone_l03",
+            "num 0x16fcc": 1.0,
+            "role 0x16fbc": "kRoleStay"
+        },
+        "0x16fd0": {
+            "classGroup 0x1705c": "yy_dt_all_00",
+            "guide 0x1704c": "sm26_alone_l04",
+            "num 0x1707c": 1.0,
+            "role 0x1706c": "kRoleStay"
+        },
+        "0x17080": {
+            "classGroup 0x1710c": "yy_dt_all_00",
+            "guide 0x170fc": "sm26_alone_l05",
+            "num 0x1712c": 1.0,
+            "role 0x1711c": "kRoleStay"
+        },
+        "0x17130": {
+            "classGroup 0x171bc": "yy_dt_all_00",
+            "guide 0x171ac": "sm26_alone_l06",
+            "num 0x171dc": 1.0,
+            "role 0x171cc": "kRoleStay"
+        },
+        "0x171e0": {
+            "classGroup 0x1726c": "yy_dt_all_00",
+            "guide 0x1725c": "sm26_alone_l07",
+            "num 0x1728c": 1.0,
+            "role 0x1727c": "kRoleStay"
+        },
+        "0x17290": {
+            "classGroup 0x1731c": "yy_dt_all_00",
+            "guide 0x1730c": "sm26_alone_l08",
+            "num 0x1733c": 1.0,
+            "role 0x1732c": "kRoleStay"
+        },
+        "0x17340": {
+            "classGroup 0x173cc": "yy_dt_all_00",
+            "guide 0x173bc": "sm26_alone_l09",
+            "num 0x173ec": 1.0,
+            "role 0x173dc": "kRoleStay"
+        },
+        "0x173f0": {
+            "classGroup 0x1747c": "yy_dt_all_00",
+            "guide 0x1746c": "sm26_alone_l10",
+            "num 0x1749c": 1.0,
+            "role 0x1748c": "kRoleStay"
+        }
+    },
+    "bundle_sm31_a 0x1c590": {
+        "0x1c5b0": {
+            "classGroup 0x1c65c": "yy_dt_all_00",
+            "label 0x1c63c": "roamers_sm31_a",
+            "num 0x1c67c": 20.0,
+            "role 0x1c66c": "kRoleRoam",
+            "zone 0x1c64c": "subway_station_a_area"
+        }
+    },
+    "bundle_sm31_b 0x1c680": {
+        "0x1c6a0": {
+            "classGroup 0x1c74c": "yy_dt_all_00",
+            "label 0x1c72c": "roamers_sm31_b",
+            "num 0x1c76c": 20.0,
+            "role 0x1c75c": "kRoleRoam",
+            "zone 0x1c73c": "small_station_a_area"
+        }
+    },
+    "bundle_sm34 0x174a0": {
+        "0x179d0": {
+            "classGroup 0x17a5c": "yy_dt_all_00",
+            "guide 0x17a4c": "sm34_alone_01",
+            "num 0x17a7c": 1.0,
+            "role 0x17a6c": "kRoleStay"
+        },
+        "0x17a80": {
+            "classGroup 0x17b0c": "yy_dt_all_00",
+            "guide 0x17afc": "sm34_alone_02",
+            "num 0x17b2c": 1.0,
+            "role 0x17b1c": "kRoleStay"
+        },
+        "0x17b30": {
+            "classGroup 0x17bbc": "yy_dt_all_00",
+            "guide 0x17bac": "sm34_alone_03",
+            "num 0x17bdc": 1.0,
+            "role 0x17bcc": "kRoleStay"
+        },
+        "0x17be0": {
+            "classGroup 0x17c6c": "yy_dt_all_00",
+            "guide 0x17c5c": "sm34_alone_04",
+            "num 0x17c8c": 1.0,
+            "role 0x17c7c": "kRoleStay"
+        },
+        "0x17c90": {
+            "classGroup 0x17d1c": "yy_dt_all_00",
+            "guide 0x17d0c": "sm34_alone_05",
+            "num 0x17d3c": 1.0,
+            "role 0x17d2c": "kRoleStay"
+        },
+        "0x17d40": {
+            "classGroup 0x17dcc": "yy_dt_all_00",
+            "guide 0x17dbc": "sm34_alone_06",
+            "num 0x17dec": 1.0,
+            "role 0x17ddc": "kRoleStay"
+        },
+        "0x17df0": {
+            "classGroup 0x17e7c": "yy_dt_all_00",
+            "guide 0x17e6c": "sm34_alone_07",
+            "num 0x17e9c": 1.0,
+            "role 0x17e8c": "kRoleStay"
+        },
+        "0x17ea0": {
+            "classGroup 0x17f2c": "yy_dt_all_00",
+            "guide 0x17f1c": "sm34_alone_08",
+            "num 0x17f4c": 1.0,
+            "role 0x17f3c": "kRoleStay"
+        },
+        "0x17f50": {
+            "classGroup 0x17fdc": "yy_dt_all_00",
+            "guide 0x17fcc": "sm34_alone_09",
+            "num 0x17ffc": 1.0,
+            "role 0x17fec": "kRoleStay"
+        },
+        "0x18000": {
+            "classGroup 0x1808c": "yy_dt_all_00",
+            "guide 0x1807c": "sm34_alone_010",
+            "num 0x180ac": 1.0,
+            "role 0x1809c": "kRoleStay"
+        },
+        "0x180b0": {
+            "classGroup 0x1813c": "yy_dt_all_00",
+            "guide 0x1812c": "sm34_alone_011",
+            "num 0x1815c": 1.0,
+            "role 0x1814c": "kRoleStay"
+        },
+        "0x18160": {
+            "classGroup 0x181ec": "yy_dt_all_00",
+            "guide 0x181dc": "sm34_alone_012",
+            "num 0x1820c": 1.0,
+            "role 0x181fc": "kRoleStay"
+        },
+        "0x18210": {
+            "classGroup 0x1829c": "yy_dt_all_00",
+            "guide 0x1828c": "sm34_alone_013",
+            "num 0x182bc": 1.0,
+            "role 0x182ac": "kRoleStay"
+        },
+        "0x182c0": {
+            "classGroup 0x1834c": "yy_dt_all_00",
+            "guide 0x1833c": "sm34_alone_014",
+            "num 0x1836c": 1.0,
+            "role 0x1835c": "kRoleStay"
+        },
+        "0x18370": {
+            "classGroup 0x183fc": "yy_dt_all_00",
+            "guide 0x183ec": "sm34_alone_015",
+            "num 0x1841c": 1.0,
+            "role 0x1840c": "kRoleStay"
+        },
+        "0x18420": {
+            "classGroup 0x184ac": "yy_dt_all_00",
+            "guide 0x1849c": "sm34_alone_016",
+            "num 0x184cc": 1.0,
+            "role 0x184bc": "kRoleStay"
+        },
+        "0x184d0": {
+            "classGroup 0x1855c": "yy_dt_all_00",
+            "guide 0x1854c": "sm34_alone_017",
+            "num 0x1857c": 1.0,
+            "role 0x1856c": "kRoleStay"
+        },
+        "0x18580": {
+            "classGroup 0x1860c": "yy_dt_all_00",
+            "guide 0x185fc": "sm34_alone_018",
+            "num 0x1862c": 1.0,
+            "role 0x1861c": "kRoleStay"
+        },
+        "0x18630": {
+            "classGroup 0x186bc": "yy_dt_all_00",
+            "guide 0x186ac": "sm34_alone_019",
+            "num 0x186dc": 1.0,
+            "role 0x186cc": "kRoleStay"
+        },
+        "0x186e0": {
+            "classGroup 0x1876c": "yy_dt_all_00",
+            "guide 0x1875c": "sm34_alone_020",
+            "num 0x1878c": 1.0,
+            "role 0x1877c": "kRoleStay"
+        },
+        "0x18790": {
+            "classGroup 0x1881c": "yy_dt_all_00",
+            "guide 0x1880c": "sm34_alone_021",
+            "num 0x1883c": 1.0,
+            "role 0x1882c": "kRoleStay"
+        },
+        "0x18840": {
+            "classGroup 0x188cc": "yy_dt_all_00",
+            "guide 0x188bc": "sm34_alone_022",
+            "num 0x188ec": 1.0,
+            "role 0x188dc": "kRoleStay"
+        },
+        "0x188f0": {
+            "classGroup 0x1897c": "yy_dt_all_00",
+            "guide 0x1896c": "sm34_alone_023",
+            "num 0x1899c": 1.0,
+            "role 0x1898c": "kRoleStay"
+        },
+        "0x189a0": {
+            "classGroup 0x18a2c": "yy_dt_all_00",
+            "guide 0x18a1c": "sm34_alone_024",
+            "num 0x18a4c": 1.0,
+            "role 0x18a3c": "kRoleStay"
+        },
+        "0x18a50": {
+            "classGroup 0x18adc": "yy_dt_all_00",
+            "guide 0x18acc": "sm34_alone_025",
+            "num 0x18afc": 1.0,
+            "role 0x18aec": "kRoleStay"
+        },
+        "0x18b00": {
+            "classGroup 0x18b8c": "yy_dt_all_00",
+            "guide 0x18b7c": "sm34_alone_026",
+            "num 0x18bac": 1.0,
+            "role 0x18b9c": "kRoleStay"
+        },
+        "0x18bb0": {
+            "classGroup 0x18c3c": "yy_dt_all_00",
+            "guide 0x18c2c": "sm34_alone_027",
+            "num 0x18c5c": 1.0,
+            "role 0x18c4c": "kRoleStay"
+        },
+        "0x18c60": {
+            "classGroup 0x18cec": "yy_dt_all_00",
+            "guide 0x18cdc": "sm34_alone_028",
+            "num 0x18d0c": 1.0,
+            "role 0x18cfc": "kRoleStay"
+        },
+        "0x18d10": {
+            "classGroup 0x18d9c": "yy_dt_all_00",
+            "guide 0x18d8c": "sm34_alone_029",
+            "num 0x18dbc": 1.0,
+            "role 0x18dac": "kRoleStay"
+        },
+        "0x18dc0": {
+            "classGroup 0x18e4c": "yy_dt_all_00",
+            "guide 0x18e3c": "sm34_alone_030",
+            "num 0x18e6c": 1.0,
+            "role 0x18e5c": "kRoleStay"
+        },
+        "0x18e70": {
+            "classGroup 0x18efc": "yy_dt_all_00",
+            "guide 0x18eec": "sm34_alone_031",
+            "num 0x18f1c": 1.0,
+            "role 0x18f0c": "kRoleStay"
+        },
+        "0x18f20": {
+            "classGroup 0x18fac": "yy_dt_all_00",
+            "guide 0x18f9c": "sm34_alone_032",
+            "num 0x18fcc": 1.0,
+            "role 0x18fbc": "kRoleStay"
+        },
+        "0x18fd0": {
+            "classGroup 0x1905c": "yy_dt_all_00",
+            "guide 0x1904c": "sm34_alone_033",
+            "num 0x1907c": 1.0,
+            "role 0x1906c": "kRoleStay"
+        },
+        "0x19080": {
+            "classGroup 0x1910c": "yy_dt_all_00",
+            "guide 0x190fc": "sm34_alone_034",
+            "num 0x1912c": 1.0,
+            "role 0x1911c": "kRoleStay"
+        },
+        "0x19130": {
+            "classGroup 0x191bc": "yy_dt_all_00",
+            "guide 0x191ac": "sm34_alone_035",
+            "num 0x191dc": 1.0,
+            "role 0x191cc": "kRoleStay"
+        },
+        "0x191e0": {
+            "classGroup 0x1926c": "yy_dt_all_00",
+            "guide 0x1925c": "sm34_alone_036",
+            "num 0x1928c": 1.0,
+            "role 0x1927c": "kRoleStay"
+        },
+        "0x19290": {
+            "classGroup 0x1931c": "yy_dt_all_00",
+            "guide 0x1930c": "sm34_alone_037",
+            "num 0x1933c": 1.0,
+            "role 0x1932c": "kRoleStay"
+        },
+        "0x19340": {
+            "classGroup 0x193cc": "yy_dt_all_00",
+            "guide 0x193bc": "sm34_alone_038",
+            "num 0x193ec": 1.0,
+            "role 0x193dc": "kRoleStay"
+        },
+        "0x193f0": {
+            "classGroup 0x1947c": "yy_dt_all_00",
+            "guide 0x1946c": "sm34_alone_039",
+            "num 0x1949c": 1.0,
+            "role 0x1948c": "kRoleStay"
+        },
+        "0x194a0": {
+            "classGroup 0x1952c": "yy_dt_all_00",
+            "guide 0x1951c": "sm34_alone_040",
+            "num 0x1954c": 1.0,
+            "role 0x1953c": "kRoleStay"
+        },
+        "0x19550": {
+            "classGroup 0x195dc": "yy_dt_all_00",
+            "guide 0x195cc": "sm34_alone_041",
+            "num 0x195fc": 1.0,
+            "role 0x195ec": "kRoleStay"
+        },
+        "0x19600": {
+            "classGroup 0x1968c": "yy_dt_all_00",
+            "guide 0x1967c": "sm34_alone_042",
+            "num 0x196ac": 1.0,
+            "role 0x1969c": "kRoleStay"
+        },
+        "0x196b0": {
+            "classGroup 0x1973c": "yy_dt_all_00",
+            "guide 0x1972c": "sm34_alone_043",
+            "num 0x1975c": 1.0,
+            "role 0x1974c": "kRoleStay"
+        },
+        "0x19760": {
+            "classGroup 0x197ec": "yy_dt_all_00",
+            "guide 0x197dc": "sm34_alone_044",
+            "num 0x1980c": 1.0,
+            "role 0x197fc": "kRoleStay"
+        },
+        "0x19810": {
+            "classGroup 0x1989c": "yy_dt_all_00",
+            "guide 0x1988c": "sm34_alone_045",
+            "num 0x198bc": 1.0,
+            "role 0x198ac": "kRoleStay"
+        },
+        "0x198c0": {
+            "classGroup 0x1994c": "yy_dt_all_00",
+            "guide 0x1993c": "sm34_alone_046",
+            "num 0x1996c": 1.0,
+            "role 0x1995c": "kRoleStay"
+        },
+        "0x19970": {
+            "classGroup 0x199fc": "yy_dt_all_00",
+            "guide 0x199ec": "sm34_alone_047",
+            "num 0x19a1c": 1.0,
+            "role 0x19a0c": "kRoleStay"
+        },
+        "0x19a20": {
+            "classGroup 0x19aac": "yy_dt_all_00",
+            "guide 0x19a9c": "sm34_alone_048",
+            "num 0x19acc": 1.0,
+            "role 0x19abc": "kRoleStay"
+        },
+        "0x19ad0": {
+            "classGroup 0x19b5c": "yy_dt_all_00",
+            "guide 0x19b4c": "sm34_alone_049",
+            "num 0x19b7c": 1.0,
+            "role 0x19b6c": "kRoleStay"
+        },
+        "0x19b80": {
+            "classGroup 0x19c0c": "yy_dt_all_00",
+            "guide 0x19bfc": "sm34_alone_050",
+            "num 0x19c2c": 1.0,
+            "role 0x19c1c": "kRoleStay"
+        },
+        "0x19c30": {
+            "classGroup 0x19cbc": "yy_dt_all_00",
+            "guide 0x19cac": "sm34_alone_051",
+            "num 0x19cdc": 1.0,
+            "role 0x19ccc": "kRoleStay"
+        },
+        "0x19ce0": {
+            "classGroup 0x19d6c": "yy_dt_all_00",
+            "guide 0x19d5c": "sm34_alone_052",
+            "num 0x19d8c": 1.0,
+            "role 0x19d7c": "kRoleStay"
+        },
+        "0x19d90": {
+            "classGroup 0x19e1c": "yy_dt_all_00",
+            "guide 0x19e0c": "sm34_alone_053",
+            "num 0x19e3c": 1.0,
+            "role 0x19e2c": "kRoleStay"
+        },
+        "0x19e40": {
+            "classGroup 0x19ecc": "yy_dt_all_00",
+            "guide 0x19ebc": "sm34_alone_054",
+            "num 0x19eec": 1.0,
+            "role 0x19edc": "kRoleStay"
+        },
+        "0x19ef0": {
+            "classGroup 0x19f7c": "yy_dt_all_00",
+            "guide 0x19f6c": "sm34_alone_055",
+            "num 0x19f9c": 1.0,
+            "role 0x19f8c": "kRoleStay"
+        },
+        "0x19fa0": {
+            "classGroup 0x1a02c": "yy_dt_all_00",
+            "guide 0x1a01c": "sm34_alone_056",
+            "num 0x1a04c": 1.0,
+            "role 0x1a03c": "kRoleStay"
+        },
+        "0x1a050": {
+            "classGroup 0x1a0dc": "yy_dt_all_00",
+            "guide 0x1a0cc": "sm34_alone_057",
+            "num 0x1a0fc": 1.0,
+            "role 0x1a0ec": "kRoleStay"
+        },
+        "0x1a100": {
+            "classGroup 0x1a18c": "yy_dt_all_00",
+            "guide 0x1a17c": "sm34_alone_058",
+            "num 0x1a1ac": 1.0,
+            "role 0x1a19c": "kRoleStay"
+        },
+        "0x1a1b0": {
+            "classGroup 0x1a23c": "yy_dt_all_00",
+            "guide 0x1a22c": "sm34_alone_059",
+            "num 0x1a25c": 1.0,
+            "role 0x1a24c": "kRoleStay"
+        },
+        "0x1a260": {
+            "classGroup 0x1a2ec": "yy_dt_all_00",
+            "guide 0x1a2dc": "sm34_alone_060",
+            "num 0x1a30c": 1.0,
+            "role 0x1a2fc": "kRoleStay"
+        },
+        "0x1a310": {
+            "classGroup 0x1a39c": "yy_dt_all_00",
+            "guide 0x1a38c": "sm34_alone_061",
+            "num 0x1a3bc": 1.0,
+            "role 0x1a3ac": "kRoleStay"
+        },
+        "0x1a3c0": {
+            "classGroup 0x1a44c": "yy_dt_all_00",
+            "guide 0x1a43c": "sm34_alone_062",
+            "num 0x1a46c": 1.0,
+            "role 0x1a45c": "kRoleStay"
+        },
+        "0x1a470": {
+            "classGroup 0x1a4fc": "yy_dt_all_00",
+            "guide 0x1a4ec": "sm34_alone_063",
+            "num 0x1a51c": 1.0,
+            "role 0x1a50c": "kRoleStay"
+        },
+        "0x1a520": {
+            "classGroup 0x1a5ac": "yy_dt_all_00",
+            "guide 0x1a59c": "sm34_alone_064",
+            "num 0x1a5cc": 1.0,
+            "role 0x1a5bc": "kRoleStay"
+        },
+        "0x1a5d0": {
+            "classGroup 0x1a65c": "yy_dt_all_00",
+            "guide 0x1a64c": "sm34_alone_065",
+            "num 0x1a67c": 1.0,
+            "role 0x1a66c": "kRoleStay"
+        },
+        "0x1a680": {
+            "classGroup 0x1a70c": "yy_dt_all_00",
+            "guide 0x1a6fc": "sm34_alone_066",
+            "num 0x1a72c": 1.0,
+            "role 0x1a71c": "kRoleStay"
+        },
+        "0x1a730": {
+            "classGroup 0x1a7bc": "yy_dt_all_00",
+            "guide 0x1a7ac": "sm34_alone_067",
+            "num 0x1a7dc": 1.0,
+            "role 0x1a7cc": "kRoleStay"
+        },
+        "0x1a7e0": {
+            "classGroup 0x1a86c": "yy_dt_all_00",
+            "guide 0x1a85c": "sm34_alone_068",
+            "num 0x1a88c": 1.0,
+            "role 0x1a87c": "kRoleStay"
+        },
+        "0x1a890": {
+            "classGroup 0x1a91c": "yy_dt_all_00",
+            "guide 0x1a90c": "sm34_alone_069",
+            "num 0x1a93c": 1.0,
+            "role 0x1a92c": "kRoleStay"
+        },
+        "0x1a940": {
+            "classGroup 0x1a9cc": "yy_dt_all_00",
+            "guide 0x1a9bc": "sm34_alone_070",
+            "num 0x1a9ec": 1.0,
+            "role 0x1a9dc": "kRoleStay"
+        },
+        "0x1a9f0": {
+            "classGroup 0x1aa7c": "yy_dt_all_00",
+            "guide 0x1aa6c": "sm34_alone_071",
+            "num 0x1aa9c": 1.0,
+            "role 0x1aa8c": "kRoleStay"
+        },
+        "0x1aaa0": {
+            "classGroup 0x1ab2c": "yy_dt_all_00",
+            "guide 0x1ab1c": "sm34_alone_072",
+            "num 0x1ab4c": 1.0,
+            "role 0x1ab3c": "kRoleStay"
+        },
+        "0x1ab50": {
+            "classGroup 0x1abdc": "yy_dt_all_00",
+            "guide 0x1abcc": "sm34_alone_073",
+            "num 0x1abfc": 1.0,
+            "role 0x1abec": "kRoleStay"
+        },
+        "0x1ac00": {
+            "classGroup 0x1ac8c": "yy_dt_all_00",
+            "guide 0x1ac7c": "sm34_alone_074",
+            "num 0x1acac": 1.0,
+            "role 0x1ac9c": "kRoleStay"
+        },
+        "0x1acb0": {
+            "classGroup 0x1ad3c": "yy_dt_all_00",
+            "guide 0x1ad2c": "sm34_alone_075",
+            "num 0x1ad5c": 1.0,
+            "role 0x1ad4c": "kRoleStay"
+        },
+        "0x1ad60": {
+            "classGroup 0x1adec": "yy_dt_all_00",
+            "guide 0x1addc": "sm34_alone_076",
+            "num 0x1ae0c": 1.0,
+            "role 0x1adfc": "kRoleStay"
+        },
+        "0x1ae10": {
+            "classGroup 0x1ae9c": "yy_dt_all_00",
+            "guide 0x1ae8c": "sm34_alone_077",
+            "num 0x1aebc": 1.0,
+            "role 0x1aeac": "kRoleStay"
+        },
+        "0x1aec0": {
+            "classGroup 0x1af4c": "yy_dt_all_00",
+            "guide 0x1af3c": "sm34_alone_078",
+            "num 0x1af6c": 1.0,
+            "role 0x1af5c": "kRoleStay"
+        },
+        "0x1af70": {
+            "classGroup 0x1affc": "yy_dt_all_00",
+            "guide 0x1afec": "sm34_alone_079",
+            "num 0x1b01c": 1.0,
+            "role 0x1b00c": "kRoleStay"
+        },
+        "0x1b020": {
+            "classGroup 0x1b0ac": "yy_dt_all_00",
+            "guide 0x1b09c": "sm34_alone_080",
+            "num 0x1b0cc": 1.0,
+            "role 0x1b0bc": "kRoleStay"
+        },
+        "0x1b0d0": {
+            "classGroup 0x1b17c": "yy_dt_all_00",
+            "label 0x1b15c": "roamers_sm34",
+            "num 0x1b19c": 30.0,
+            "role 0x1b18c": "kRoleRoam",
+            "zone 0x1b16c": "group_b"
+        },
+        "0x1b1a0": {
+            "classGroup 0x1b24c": "yy_dt_all_00",
+            "label 0x1b22c": "roamers_sm34",
+            "num 0x1b26c": 30.0,
+            "role 0x1b25c": "kRoleRoam",
+            "zone 0x1b23c": "group_c"
+        }
+    },
+    "bundle_sm36_a 0x1b270": {
+        "0x1b2e0": {
+            "classGroup 0x1b39c": "yy_navi_sm36_all",
+            "label 0x1b37c": "liberty_park",
+            "num 0x1b3cc": 6.0,
+            "role 0x1b3ac": "kRoleRoam",
+            "standardAppearance 0x1b3bc": true,
+            "zone 0x1b38c": "park_01"
+        },
+        "0x1b3d0": {
+            "classGroup 0x1b47c": "yy_dt_all_00",
+            "label 0x1b45c": "liberty_park",
+            "num 0x1b49c": 6.0,
+            "role 0x1b48c": "kRoleRoam",
+            "zone 0x1b46c": "park_01"
+        },
+        "0x1b4a0": {
+            "classGroup 0x1b55c": "yy_navi_sm36_all",
+            "label 0x1b53c": "liberty_park",
+            "num 0x1b58c": 3.0,
+            "role 0x1b56c": "kRoleRoam",
+            "standardAppearance 0x1b57c": true,
+            "zone 0x1b54c": "park_02"
+        },
+        "0x1b590": {
+            "classGroup 0x1b63c": "yy_dt_all_00",
+            "label 0x1b61c": "liberty_park",
+            "num 0x1b65c": 3.0,
+            "role 0x1b64c": "kRoleRoam",
+            "zone 0x1b62c": "park_02"
+        },
+        "0x1b660": {
+            "classGroup 0x1b71c": "yy_navi_sm36_all",
+            "label 0x1b6fc": "liberty_park",
+            "num 0x1b74c": 6.0,
+            "role 0x1b72c": "kRoleRoam",
+            "standardAppearance 0x1b73c": true,
+            "zone 0x1b70c": "park_03"
+        },
+        "0x1b750": {
+            "classGroup 0x1b7fc": "yy_dt_all_00",
+            "label 0x1b7dc": "liberty_park",
+            "num 0x1b81c": 6.0,
+            "role 0x1b80c": "kRoleRoam",
+            "zone 0x1b7ec": "park_03"
+        }
+    },
+    "bundle_subway_station 0x9010": {
+        "0x9030": {
+            "classGroup 0x90dc": "yy_dt_all_00",
+            "label 0x90bc": "subway_station_a_area",
+            "num 0x90fc": 30.0,
+            "role 0x90ec": "kRoleRoam",
+            "zone 0x90cc": "subway_station_a_area"
+        }
+    },
+    "bundle_subway_station_grigo 0x9100": {
+        "0x9120": {
+            "classGroup 0x91cc": "yy_grigo",
+            "label 0x91ac": "subway_station_a_area",
+            "num 0x91ec": 2.0,
+            "role 0x91dc": "kRoleRoam",
+            "zone 0x91bc": "subway_station_a_area"
+        }
+    }
+}

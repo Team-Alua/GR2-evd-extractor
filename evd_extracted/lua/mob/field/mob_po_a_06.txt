@@ -1,10 +1,10 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "trio01",
             "0x1ec": "trio02",
             "0x1fc": "trio03",
@@ -15,10 +15,10 @@
             "0x24c": "trio08",
             "0x25c": "trio09"
         },
-        "guides 0x260": {
+        "guides": {
             "0x300": {
-                "name 0x34c": "trio01",
-                "points 0x360": {
+                "name": "trio01",
+                "points": {
                     "0x3a0": {
                         "0x3bc": 13.782869338989258,
                         "0x3cc": -10.861651420593262,
@@ -37,8 +37,8 @@
                 }
             },
             "0x460": {
-                "name 0x4ac": "trio02",
-                "points 0x4c0": {
+                "name": "trio02",
+                "points": {
                     "0x500": {
                         "0x51c": 13.674100875854492,
                         "0x52c": -10.587176322937012,
@@ -57,8 +57,8 @@
                 }
             },
             "0x5c0": {
-                "name 0x60c": "trio03",
-                "points 0x620": {
+                "name": "trio03",
+                "points": {
                     "0x670": {
                         "0x68c": 23.396989822387695,
                         "0x69c": -13.408465385437012,
@@ -82,8 +82,8 @@
                 }
             },
             "0x770": {
-                "name 0x7bc": "trio04",
-                "points 0x7d0": {
+                "name": "trio04",
+                "points": {
                     "0x820": {
                         "0x83c": 7.941684246063232,
                         "0x84c": -17.56517219543457,
@@ -107,8 +107,8 @@
                 }
             },
             "0x920": {
-                "name 0x96c": "trio05",
-                "points 0x980": {
+                "name": "trio05",
+                "points": {
                     "0x9c0": {
                         "0x9dc": -2.0692989826202393,
                         "0x9ec": -16.869062423706055,
@@ -127,8 +127,8 @@
                 }
             },
             "0xa80": {
-                "name 0xacc": "trio06",
-                "points 0xae0": {
+                "name": "trio06",
+                "points": {
                     "0xb20": {
                         "0xb3c": -10.71273422241211,
                         "0xb4c": -16.869062423706055,
@@ -147,8 +147,8 @@
                 }
             },
             "0xbe0": {
-                "name 0xc2c": "trio07",
-                "points 0xc40": {
+                "name": "trio07",
+                "points": {
                     "0xc80": {
                         "0xc9c": -2.148059368133545,
                         "0xcac": -10.855177879333496,
@@ -167,8 +167,8 @@
                 }
             },
             "0xd40": {
-                "name 0xd8c": "trio08",
-                "points 0xda0": {
+                "name": "trio08",
+                "points": {
                     "0xde0": {
                         "0xdfc": -5.411674499511719,
                         "0xe0c": 12.678718566894531,
@@ -187,8 +187,8 @@
                 }
             },
             "0xea0": {
-                "name 0xeec": "trio09",
-                "points 0xf00": {
+                "name": "trio09",
+                "points": {
                     "0x1010": {
                         "0x102c": 2.322375535964966,
                         "0x103c": 17.297611236572266,
@@ -213,32 +213,32 @@
             }
         }
     },
-    "volumeGroup 0x1050": {
-        "__numVolumes 0x109c": 1.0,
-        "root 0x10b0": {
-            "children 0x1180": {},
-            "hasShape 0x114c": false,
-            "name 0x115c": "root",
-            "scale 0x1190": {
+    "volumeGroup": {
+        "__numVolumes": 1.0,
+        "root": {
+            "children": {},
+            "hasShape": false,
+            "name": "root",
+            "scale": {
                 "0x11ac": 1.0,
                 "0x11bc": 1.0,
                 "0x11cc": 1.0
             },
-            "translate 0x11d0": {
+            "translate": {
                 "0x11ec": 0.0,
                 "0x11fc": 0.0,
                 "0x120c": 0.0
             }
         }
     },
-    "zoneGroup 0x1210": {
-        "__overlapIndices 0x1300": {
-            "10 0x134c": 3.0,
-            "22 0x135c": 19.0
+    "zoneGroup": {
+        "__overlapIndices": {
+            "10": 3.0,
+            "22": 19.0
         },
-        "_numStops 0x12bc": 21.0,
-        "_numZones 0x12cc": 4.0,
-        "stops 0x1360": {
+        "_numStops": 21.0,
+        "_numZones": 4.0,
+        "stops": {
             "0x14c0": {
                 "0x14dc": -6.399320125579834,
                 "0x14ec": -17.628822326660156,
@@ -366,7 +366,7 @@
                 "0x1b4c": 1.3094682693481445
             }
         },
-        "zoneTree 0x1b50": {
+        "zoneTree": {
             "0x1b6c": "mob_zones",
             "0x1ba0": {
                 "0x1bbc": "zone01"
@@ -378,14 +378,14 @@
                 "0x1bfc": "zone03"
             }
         },
-        "zones 0x1c00": {
+        "zones": {
             "0x1c50": {
-                "name 0x1c9c": "mob_zones",
-                "strips 0x1cb0": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0x1cc0": {
-                "name 0x1d0c": "zone01",
-                "strips 0x1d20": {
+                "name": "zone01",
+                "strips": {
                     "0x1d70": {
                         "0x1d8c": 1.0,
                         "0x1d9c": 2.0
@@ -413,8 +413,8 @@
                 }
             },
             "0x1eb0": {
-                "name 0x1efc": "zone02",
-                "strips 0x1f10": {
+                "name": "zone02",
+                "strips": {
                     "0x1f40": {
                         "0x1f5c": 14.0,
                         "0x1f6c": 15.0,
@@ -429,8 +429,8 @@
                 }
             },
             "0x1fd0": {
-                "name 0x201c": "zone03",
-                "strips 0x2030": {
+                "name": "zone03",
+                "strips": {
                     "0x2050": {
                         "0x206c": 18.0,
                         "0x207c": 19.0,

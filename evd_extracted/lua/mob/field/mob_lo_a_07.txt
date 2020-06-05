@@ -1,18 +1,18 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "lazy_01",
             "0x1ec": "lazy_02",
             "0x1fc": "drink_whisky"
         },
-        "guides 0x200": {
+        "guides": {
             "0x240": {
-                "name 0x28c": "lazy_01",
-                "points 0x2a0": {
+                "name": "lazy_01",
+                "points": {
                     "0x2e0": {
                         "0x2fc": -0.19031387567520142,
                         "0x30c": -5.5426201820373535,
@@ -31,8 +31,8 @@
                 }
             },
             "0x3a0": {
-                "name 0x3ec": "lazy_02",
-                "points 0x400": {
+                "name": "lazy_02",
+                "points": {
                     "0x440": {
                         "0x45c": 15.788802146911621,
                         "0x46c": -9.972620010375977,
@@ -51,8 +51,8 @@
                 }
             },
             "0x500": {
-                "name 0x54c": "drink_whisky",
-                "points 0x560": {
+                "name": "drink_whisky",
+                "points": {
                     "0x5a0": {
                         "0x5bc": 17.273183822631836,
                         "0x5cc": -4.762620449066162,
@@ -72,15 +72,15 @@
             }
         }
     },
-    "volumeGroup 0x660": {
-        "__numVolumes 0x6ac": 0.0,
-        "root 0x6bc": null
+    "volumeGroup": {
+        "__numVolumes": 0.0,
+        "root": null
     },
-    "zoneGroup 0x6c0": {
-        "__overlapIndices 0x7b0": {},
-        "_numStops 0x76c": 8.0,
-        "_numZones 0x77c": 3.0,
-        "stops 0x7c0": {
+    "zoneGroup": {
+        "__overlapIndices": {},
+        "_numStops": 8.0,
+        "_numZones": 3.0,
+        "stops": {
             "0x850": {
                 "0x86c": 0.23046870529651642,
                 "0x87c": -5.5228271484375,
@@ -130,7 +130,7 @@
                 "0xacc": 0.8270422220230103
             }
         },
-        "zoneTree 0xad0": {
+        "zoneTree": {
             "0xaec": "mob_zones",
             "0xb00": {
                 "0xb1c": "deck",
@@ -139,18 +139,18 @@
                 }
             }
         },
-        "zones 0xb50": {
+        "zones": {
             "0xb90": {
-                "name 0xbdc": "mob_zones",
-                "strips 0xbf0": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0xc00": {
-                "name 0xc4c": "deck",
-                "strips 0xc60": {}
+                "name": "deck",
+                "strips": {}
             },
             "0xc70": {
-                "name 0xcbc": "space_01",
-                "strips 0xcd0": {
+                "name": "space_01",
+                "strips": {
                     "0xcf0": {
                         "0xd0c": 0.0,
                         "0xd1c": 1.0,

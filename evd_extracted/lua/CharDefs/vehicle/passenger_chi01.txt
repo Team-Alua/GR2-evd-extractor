@@ -1,48 +1,48 @@
 {
-    "animset 0xb0": {
-        "fall00 0x3a0": {
-            "blendDuration 0x41c": 0.5,
-            "file 0x3fc": "chi01_fall_00",
-            "repeatCount 0x40c": -1.0
+    "animset": {
+        "fall00": {
+            "blendDuration": 0.5,
+            "file": "chi01_fall_00",
+            "repeatCount": -1.0
         },
-        "fall01 0x420": {
-            "blendDuration 0x49c": 0.5,
-            "file 0x47c": "chi01_fall_01",
-            "repeatCount 0x48c": -1.0
+        "fall01": {
+            "blendDuration": 0.5,
+            "file": "chi01_fall_01",
+            "repeatCount": -1.0
         },
-        "hello 0x2a0": {
-            "blendDuration 0x31c": 0.20000000298023224,
-            "file 0x2fc": "chi01_wave_hand_ship_00",
-            "repeatCount 0x30c": 0.0
+        "hello": {
+            "blendDuration": 0.20000000298023224,
+            "file": "chi01_wave_hand_ship_00",
+            "repeatCount": 0.0
         },
-        "reaction00 0x320": {
-            "blendDuration 0x39c": 0.20000000298023224,
-            "file 0x37c": "chi01_reaction_ship_00",
-            "repeatCount 0x38c": 0.0
+        "reaction00": {
+            "blendDuration": 0.20000000298023224,
+            "file": "chi01_reaction_ship_00",
+            "repeatCount": 0.0
         },
-        "stay 0x1a0": {
-            "blendDuration 0x21c": 1.0,
-            "file 0x1fc": "chi01_sit_ship_00",
-            "repeatCount 0x20c": -1.0
+        "stay": {
+            "blendDuration": 1.0,
+            "file": "chi01_sit_ship_00",
+            "repeatCount": -1.0
         },
-        "view 0x220": {
-            "blendDuration 0x29c": 1.0,
-            "file 0x27c": "chi01_sit_ship_01",
-            "repeatCount 0x28c": 0.0
+        "view": {
+            "blendDuration": 1.0,
+            "file": "chi01_sit_ship_01",
+            "repeatCount": 0.0
         }
     },
-    "puppet 0x4a0": {
-        "animset 0x52c": "vehicle/passenger_chi01",
-        "collision 0x550": {
-            "center_y 0x5cc": 0.3499999940395355,
-            "height 0x5bc": 0.699999988079071,
-            "radius 0x5ac": 0.2800000011920929
+    "puppet": {
+        "animset": "vehicle/passenger_chi01",
+        "collision": {
+            "center_y": 0.3499999940395355,
+            "height": 0.699999988079071,
+            "radius": 0.2800000011920929
         },
-        "scale 0x53c": 1.0,
-        "type 0x51c": "Puppet"
+        "scale": 1.0,
+        "type": "Puppet"
     },
-    "vehicle_param 0x5d0": {
-        "keepSeat 0x62c": false,
-        "type 0x61c": "passenger"
+    "vehicle_param": {
+        "keepSeat": false,
+        "type": "passenger"
     }
 }

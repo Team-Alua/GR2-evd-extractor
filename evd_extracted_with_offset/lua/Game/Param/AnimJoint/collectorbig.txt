@@ -1,0 +1,1195 @@
+{
+    "animjoint 0x70": {
+        "0x10d0": {
+            "anim 0x115c": "blow_l",
+            "attr 0x1180": {
+                "0x119c": "Particle",
+                "0x11ac": "ef_bgcl_trl"
+            },
+            "parent 0x116c": "dm_l_finger",
+            "timing 0x11b0": {
+                "0x11cc": 45.0,
+                "0x11dc": 90.0
+            }
+        },
+        "0x11e0": {
+            "anim 0x124c": "blow_l",
+            "attr 0x1260": {
+                "0x127c": "EventMessage",
+                "0x128c": "attack_l_start"
+            },
+            "timing 0x1290": {
+                "0x12ac": 45.0
+            }
+        },
+        "0x12b0": {
+            "anim 0x131c": "blow_l",
+            "attr 0x1330": {
+                "0x134c": "EventMessage",
+                "0x135c": "attack_l_end"
+            },
+            "timing 0x1360": {
+                "0x137c": 91.0
+            }
+        },
+        "0x1380": {
+            "anim 0x13ec": "blow_l",
+            "attr 0x1400": {
+                "0x141c": "EventMessage",
+                "0x142c": "attack_l_hit_on"
+            },
+            "timing 0x1430": {
+                "0x144c": 58.0
+            }
+        },
+        "0x1450": {
+            "anim 0x14bc": "blow_l",
+            "attr 0x14d0": {
+                "0x14ec": "EventMessage",
+                "0x14fc": "attack_l_hit_off"
+            },
+            "timing 0x1500": {
+                "0x151c": 63.0
+            }
+        },
+        "0x1520": {
+            "anim 0x15dc": "blow_combo",
+            "attr 0x15bc": "Attack",
+            "groupId 0x1680": {
+                "0x169c": 0.0
+            },
+            "parent 0x1610": {
+                "0x162c": "bn_r_forearm1",
+                "0x163c": "bn_r_finger4",
+                "0x164c": 4.0
+            },
+            "timing 0x1650": {
+                "0x166c": 52.0,
+                "0x167c": 90.0
+            },
+            "userData 0x15cc": "attack"
+        },
+        "0x16a0": {
+            "anim 0x179c": "blow_combo",
+            "attr 0x177c": "Attack",
+            "force_vector 0x17cc": "outward",
+            "groupId 0x1850": {
+                "0x186c": 0.0
+            },
+            "parent 0x17ac": "bn_bus",
+            "shape 0x17f0": {
+                "0x180c": "Sphere",
+                "0x181c": 2.0
+            },
+            "timing 0x1820": {
+                "0x183c": 52.0,
+                "0x184c": 90.0
+            },
+            "userData 0x178c": "attack"
+        },
+        "0x1870": {
+            "anim 0x193c": "blow_combo",
+            "attr 0x191c": "Attack",
+            "force_vector 0x195c": "outward",
+            "groupId 0x19f0": {
+                "0x1a0c": 1.0
+            },
+            "parent 0x1980": {
+                "0x199c": "bn_l_forearm1",
+                "0x19ac": "dm_l_finger",
+                "0x19bc": 4.0
+            },
+            "timing 0x19c0": {
+                "0x19dc": 132.0,
+                "0x19ec": 177.0
+            },
+            "userData 0x192c": "attack"
+        },
+        "0x1a10": {
+            "anim 0x1a9c": "blow_combo",
+            "attr 0x1ac0": {
+                "0x1adc": "Particle",
+                "0x1aec": "ef_bgcl_trl"
+            },
+            "parent 0x1aac": "dm_r_finger",
+            "timing 0x1af0": {
+                "0x1b0c": 52.0,
+                "0x1b1c": 90.0
+            }
+        },
+        "0x1b20": {
+            "anim 0x1bac": "blow_combo",
+            "attr 0x1bd0": {
+                "0x1bec": "Particle",
+                "0x1bfc": "ef_bgcl_trl"
+            },
+            "parent 0x1bbc": "dm_l_finger",
+            "timing 0x1c00": {
+                "0x1c1c": 132.0,
+                "0x1c2c": 177.0
+            }
+        },
+        "0x1c30": {
+            "anim 0x1c9c": "blow_combo",
+            "attr 0x1cb0": {
+                "0x1ccc": "EventMessage",
+                "0x1cdc": "attack_r_start"
+            },
+            "timing 0x1ce0": {
+                "0x1cfc": 51.0
+            }
+        },
+        "0x1d00": {
+            "anim 0x1d6c": "blow_combo",
+            "attr 0x1d80": {
+                "0x1d9c": "EventMessage",
+                "0x1dac": "attack_r_end"
+            },
+            "timing 0x1db0": {
+                "0x1dcc": 91.0
+            }
+        },
+        "0x1dd0": {
+            "anim 0x1e3c": "blow_combo",
+            "attr 0x1e50": {
+                "0x1e6c": "EventMessage",
+                "0x1e7c": "attack_r_hit_on"
+            },
+            "timing 0x1e80": {
+                "0x1e9c": 51.0
+            }
+        },
+        "0x1ea0": {
+            "anim 0x1f0c": "blow_combo",
+            "attr 0x1f20": {
+                "0x1f3c": "EventMessage",
+                "0x1f4c": "attack_r_hit_off"
+            },
+            "timing 0x1f50": {
+                "0x1f6c": 63.0
+            }
+        },
+        "0x1f70": {
+            "anim 0x1fdc": "blow_combo",
+            "attr 0x1ff0": {
+                "0x200c": "EventMessage",
+                "0x201c": "attack_l_start"
+            },
+            "timing 0x2020": {
+                "0x203c": 131.0
+            }
+        },
+        "0x2040": {
+            "anim 0x20ac": "blow_combo",
+            "attr 0x20c0": {
+                "0x20dc": "EventMessage",
+                "0x20ec": "attack_l_end"
+            },
+            "timing 0x20f0": {
+                "0x210c": 178.0
+            }
+        },
+        "0x2110": {
+            "anim 0x217c": "blow_combo",
+            "attr 0x2190": {
+                "0x21ac": "EventMessage",
+                "0x21bc": "attack_l_hit_on"
+            },
+            "timing 0x21c0": {
+                "0x21dc": 131.0
+            }
+        },
+        "0x21e0": {
+            "anim 0x224c": "blow_combo",
+            "attr 0x2260": {
+                "0x227c": "EventMessage",
+                "0x228c": "attack_l_hit_off"
+            },
+            "timing 0x2290": {
+                "0x22ac": 144.0
+            }
+        },
+        "0x22b0": {
+            "anim 0x237c": "rush_start",
+            "attr 0x235c": "Attack",
+            "groupId 0x2420": {
+                "0x243c": 0.0
+            },
+            "parent 0x238c": "dm_neck",
+            "shape 0x23c0": {
+                "0x23dc": "Sphere",
+                "0x23ec": 4.0
+            },
+            "timing 0x23f0": {
+                "0x240c": 50.0,
+                "0x241c": 10000.0
+            },
+            "userData 0x236c": "dash"
+        },
+        "0x2440": {
+            "anim 0x250c": "rush_start",
+            "attr 0x24ec": "Attack",
+            "groupId 0x25b0": {
+                "0x25cc": 0.0
+            },
+            "parent 0x251c": "bn_root",
+            "shape 0x2550": {
+                "0x256c": "Sphere",
+                "0x257c": 10.0
+            },
+            "timing 0x2580": {
+                "0x259c": 50.0,
+                "0x25ac": 10000.0
+            },
+            "userData 0x24fc": "dash"
+        },
+        "0x25d0": {
+            "anim 0x269c": "rush_loop",
+            "attr 0x267c": "Attack",
+            "groupId 0x2740": {
+                "0x275c": 0.0
+            },
+            "parent 0x26ac": "dm_neck",
+            "shape 0x26e0": {
+                "0x26fc": "Sphere",
+                "0x270c": 4.0
+            },
+            "timing 0x2710": {
+                "0x272c": 0.0,
+                "0x273c": 10000.0
+            },
+            "userData 0x268c": "dash"
+        },
+        "0x2760": {
+            "anim 0x282c": "rush_loop",
+            "attr 0x280c": "Attack",
+            "groupId 0x28d0": {
+                "0x28ec": 0.0
+            },
+            "parent 0x283c": "bn_root",
+            "shape 0x2870": {
+                "0x288c": "Sphere",
+                "0x289c": 10.0
+            },
+            "timing 0x28a0": {
+                "0x28bc": 0.0,
+                "0x28cc": 10000.0
+            },
+            "userData 0x281c": "dash"
+        },
+        "0x28f0": {
+            "anim 0x295c": "rush_start",
+            "attr 0x2970": {
+                "0x298c": "EventMessage",
+                "0x299c": "dash_start"
+            },
+            "timing 0x29a0": {
+                "0x29bc": 50.0
+            }
+        },
+        "0x29c0": {
+            "anim 0x2a2c": "breath_start",
+            "attr 0x2a40": {
+                "0x2a5c": "EventMessage",
+                "0x2a6c": "breath_start"
+            },
+            "timing 0x2a70": {
+                "0x2a8c": 45.0
+            }
+        },
+        "0x2a90": {
+            "anim 0x2b1c": "forward_00",
+            "attr 0x2b40": {
+                "0x2b5c": "Sound",
+                "0x2b6c": "ene_b_col_cloth2"
+            },
+            "parent 0x2b2c": "bn_clock",
+            "timing 0x2b70": {
+                "0x2b8c": 26.0
+            }
+        },
+        "0x2b90": {
+            "anim 0x2c1c": "forward_00",
+            "attr 0x2c40": {
+                "0x2c5c": "Sound",
+                "0x2c6c": "ene_b_col_cloth2"
+            },
+            "parent 0x2c2c": "bn_clock",
+            "timing 0x2c70": {
+                "0x2c8c": 99.0
+            }
+        },
+        "0x2c90": {
+            "anim 0x2d1c": "backward_00",
+            "attr 0x2d40": {
+                "0x2d5c": "Sound",
+                "0x2d6c": "ene_b_col_cloth2"
+            },
+            "parent 0x2d2c": "bn_clock",
+            "timing 0x2d70": {
+                "0x2d8c": 1.0
+            }
+        },
+        "0x2d90": {
+            "anim 0x2e1c": "backward_00",
+            "attr 0x2e40": {
+                "0x2e5c": "Sound",
+                "0x2e6c": "ene_b_col_cloth2"
+            },
+            "parent 0x2e2c": "bn_clock",
+            "timing 0x2e70": {
+                "0x2e8c": 61.0
+            }
+        },
+        "0x2e90": {
+            "anim 0x2f1c": "sidestep_l",
+            "attr 0x2f40": {
+                "0x2f5c": "Sound",
+                "0x2f6c": "ene_b_col_cloth1"
+            },
+            "parent 0x2f2c": "bn_clock",
+            "timing 0x2f70": {
+                "0x2f8c": 26.0
+            }
+        },
+        "0x2f90": {
+            "anim 0x301c": "sidestep_l",
+            "attr 0x3040": {
+                "0x305c": "Sound",
+                "0x306c": "ene_b_col_cloth1"
+            },
+            "parent 0x302c": "bn_clock",
+            "timing 0x3070": {
+                "0x308c": 99.0
+            }
+        },
+        "0x3090": {
+            "anim 0x311c": "sidestep_r",
+            "attr 0x3140": {
+                "0x315c": "Sound",
+                "0x316c": "ene_b_col_cloth1"
+            },
+            "parent 0x312c": "bn_clock",
+            "timing 0x3170": {
+                "0x318c": 26.0
+            }
+        },
+        "0x3190": {
+            "anim 0x321c": "sidestep_r",
+            "attr 0x3240": {
+                "0x325c": "Sound",
+                "0x326c": "ene_b_col_cloth1"
+            },
+            "parent 0x322c": "bn_clock",
+            "timing 0x3270": {
+                "0x328c": 99.0
+            }
+        },
+        "0x3290": {
+            "anim 0x331c": "turn_l",
+            "attr 0x3340": {
+                "0x335c": "Sound",
+                "0x336c": "ene_b_col_cloth1"
+            },
+            "parent 0x332c": "bn_clock",
+            "timing 0x3370": {
+                "0x338c": 4.0
+            }
+        },
+        "0x3390": {
+            "anim 0x341c": "turn_l",
+            "attr 0x3440": {
+                "0x345c": "Sound",
+                "0x346c": "ene_b_col_land"
+            },
+            "parent 0x342c": "bn_clock",
+            "timing 0x3470": {
+                "0x348c": 59.0
+            }
+        },
+        "0x3490": {
+            "anim 0x351c": "turn_r",
+            "attr 0x3540": {
+                "0x355c": "Sound",
+                "0x356c": "ene_b_col_cloth1"
+            },
+            "parent 0x352c": "bn_clock",
+            "timing 0x3570": {
+                "0x358c": 4.0
+            }
+        },
+        "0x3590": {
+            "anim 0x361c": "turn_r",
+            "attr 0x3640": {
+                "0x365c": "Sound",
+                "0x366c": "ene_b_col_land"
+            },
+            "parent 0x362c": "bn_clock",
+            "timing 0x3670": {
+                "0x368c": 59.0
+            }
+        },
+        "0x3690": {
+            "anim 0x371c": "qturn",
+            "attr 0x3740": {
+                "0x375c": "Sound",
+                "0x376c": "ene_b_col_cloth3"
+            },
+            "parent 0x372c": "bn_clock",
+            "timing 0x3770": {
+                "0x378c": 0.0
+            }
+        },
+        "0x3790": {
+            "anim 0x381c": "qturn",
+            "attr 0x3840": {
+                "0x385c": "Sound",
+                "0x386c": "ene_b_col_jump"
+            },
+            "parent 0x382c": "bn_clock",
+            "timing 0x3870": {
+                "0x388c": 20.0
+            }
+        },
+        "0x3890": {
+            "anim 0x391c": "qturn",
+            "attr 0x3940": {
+                "0x395c": "Sound",
+                "0x396c": "ene_b_col_land"
+            },
+            "parent 0x392c": "bn_clock",
+            "timing 0x3970": {
+                "0x398c": 78.0
+            }
+        },
+        "0x3990": {
+            "anim 0x3a1c": "blow_l",
+            "attr 0x3a40": {
+                "0x3a5c": "Sound",
+                "0x3a6c": "ene_b_col_cloth2"
+            },
+            "parent 0x3a2c": "bn_clock",
+            "timing 0x3a70": {
+                "0x3a8c": 0.0
+            }
+        },
+        "0x3a90": {
+            "anim 0x3b1c": "blow_l",
+            "attr 0x3b40": {
+                "0x3b5c": "Sound",
+                "0x3b6c": "ene_b_col_wsh"
+            },
+            "parent 0x3b2c": "bn_l_arm0",
+            "timing 0x3b70": {
+                "0x3b8c": 49.0
+            }
+        },
+        "0x3b90": {
+            "anim 0x3c1c": "blow_l",
+            "attr 0x3c40": {
+                "0x3c5c": "Sound",
+                "0x3c6c": "ene_b_col_vo_atk_s"
+            },
+            "parent 0x3c2c": "bn_neck",
+            "timing 0x3c70": {
+                "0x3c8c": 46.0
+            }
+        },
+        "0x3c90": {
+            "anim 0x3d1c": "blow_l",
+            "attr 0x3d40": {
+                "0x3d5c": "Sound",
+                "0x3d6c": "ene_b_col_cloth1"
+            },
+            "parent 0x3d2c": "bn_clock",
+            "timing 0x3d70": {
+                "0x3d8c": 126.0
+            }
+        },
+        "0x3d90": {
+            "anim 0x3e1c": "blow_l_hit",
+            "attr 0x3e40": {
+                "0x3e5c": "Sound",
+                "0x3e6c": "ene_b_col_cloth3"
+            },
+            "parent 0x3e2c": "bn_clock",
+            "timing 0x3e70": {
+                "0x3e8c": 0.0
+            }
+        },
+        "0x3e90": {
+            "anim 0x3f1c": "blow_l_hit",
+            "attr 0x3f40": {
+                "0x3f5c": "Sound",
+                "0x3f6c": "ene_b_col_vo_dmg_s"
+            },
+            "parent 0x3f2c": "bn_neck",
+            "timing 0x3f70": {
+                "0x3f8c": 0.0
+            }
+        },
+        "0x3f90": {
+            "anim 0x401c": "blow_l_hit",
+            "attr 0x4040": {
+                "0x405c": "Sound",
+                "0x406c": "ene_b_col_cloth1"
+            },
+            "parent 0x402c": "bn_clock",
+            "timing 0x4070": {
+                "0x408c": 36.0
+            }
+        },
+        "0x4090": {
+            "anim 0x411c": "blow_r",
+            "attr 0x4140": {
+                "0x415c": "Sound",
+                "0x416c": "ene_b_col_cloth2"
+            },
+            "parent 0x412c": "bn_clock",
+            "timing 0x4170": {
+                "0x418c": 0.0
+            }
+        },
+        "0x4190": {
+            "anim 0x421c": "blow_r",
+            "attr 0x4240": {
+                "0x425c": "Sound",
+                "0x426c": "ene_b_col_wsh"
+            },
+            "parent 0x422c": "bn_r_arm0",
+            "timing 0x4270": {
+                "0x428c": 49.0
+            }
+        },
+        "0x4290": {
+            "anim 0x431c": "blow_r",
+            "attr 0x4340": {
+                "0x435c": "Sound",
+                "0x436c": "ene_b_col_vo_atk_s"
+            },
+            "parent 0x432c": "bn_neck",
+            "timing 0x4370": {
+                "0x438c": 46.0
+            }
+        },
+        "0x4390": {
+            "anim 0x441c": "blow_r",
+            "attr 0x4440": {
+                "0x445c": "Sound",
+                "0x446c": "ene_b_col_cloth1"
+            },
+            "parent 0x442c": "bn_clock",
+            "timing 0x4470": {
+                "0x448c": 126.0
+            }
+        },
+        "0x4490": {
+            "anim 0x451c": "blow_r_hit",
+            "attr 0x4540": {
+                "0x455c": "Sound",
+                "0x456c": "ene_b_col_cloth3"
+            },
+            "parent 0x452c": "bn_clock",
+            "timing 0x4570": {
+                "0x458c": 0.0
+            }
+        },
+        "0x4590": {
+            "anim 0x461c": "blow_r_hit",
+            "attr 0x4640": {
+                "0x465c": "Sound",
+                "0x466c": "ene_b_col_vo_dmg_s"
+            },
+            "parent 0x462c": "bn_neck",
+            "timing 0x4670": {
+                "0x468c": 0.0
+            }
+        },
+        "0x4690": {
+            "anim 0x471c": "blow_r_hit",
+            "attr 0x4740": {
+                "0x475c": "Sound",
+                "0x476c": "ene_b_col_cloth1"
+            },
+            "parent 0x472c": "bn_clock",
+            "timing 0x4770": {
+                "0x478c": 36.0
+            }
+        },
+        "0x4790": {
+            "anim 0x481c": "blow_combo",
+            "attr 0x4840": {
+                "0x485c": "Sound",
+                "0x486c": "ene_b_col_cloth1"
+            },
+            "parent 0x482c": "bn_clock",
+            "timing 0x4870": {
+                "0x488c": 0.0
+            }
+        },
+        "0x4890": {
+            "anim 0x491c": "blow_combo",
+            "attr 0x4940": {
+                "0x495c": "Sound",
+                "0x496c": "ene_b_col_wsh"
+            },
+            "parent 0x492c": "bn_l_arm0",
+            "timing 0x4970": {
+                "0x498c": 45.0
+            }
+        },
+        "0x4990": {
+            "anim 0x4a1c": "blow_combo",
+            "attr 0x4a40": {
+                "0x4a5c": "Sound",
+                "0x4a6c": "ene_b_col_vo_atk_s"
+            },
+            "parent 0x4a2c": "bn_neck",
+            "timing 0x4a70": {
+                "0x4a8c": 43.0
+            }
+        },
+        "0x4a90": {
+            "anim 0x4b1c": "blow_combo",
+            "attr 0x4b40": {
+                "0x4b5c": "Sound",
+                "0x4b6c": "ene_b_col_cloth3"
+            },
+            "parent 0x4b2c": "bn_clock",
+            "timing 0x4b70": {
+                "0x4b8c": 116.0
+            }
+        },
+        "0x4b90": {
+            "anim 0x4c1c": "blow_combo",
+            "attr 0x4c40": {
+                "0x4c5c": "Sound",
+                "0x4c6c": "ene_b_col_wsh"
+            },
+            "parent 0x4c2c": "bn_r_arm0",
+            "timing 0x4c70": {
+                "0x4c8c": 130.0
+            }
+        },
+        "0x4c90": {
+            "anim 0x4d1c": "blow_combo",
+            "attr 0x4d40": {
+                "0x4d5c": "Sound",
+                "0x4d6c": "ene_b_col_vo_atk_l"
+            },
+            "parent 0x4d2c": "bn_neck",
+            "timing 0x4d70": {
+                "0x4d8c": 126.0
+            }
+        },
+        "0x4d90": {
+            "anim 0x4e1c": "summon_start",
+            "attr 0x4e40": {
+                "0x4e5c": "Sound",
+                "0x4e6c": "ene_b_col_cloth1"
+            },
+            "parent 0x4e2c": "bn_clock",
+            "timing 0x4e70": {
+                "0x4e8c": 0.0
+            }
+        },
+        "0x4e90": {
+            "anim 0x4f1c": "summon_start",
+            "attr 0x4f40": {
+                "0x4f5c": "Sound",
+                "0x4f6c": "ene_b_col_vo_atk_s"
+            },
+            "parent 0x4f2c": "bn_neck",
+            "timing 0x4f70": {
+                "0x4f8c": 4.0
+            }
+        },
+        "0x4f90": {
+            "anim 0x501c": "summon_loopt",
+            "attr 0x5040": {
+                "0x505c": "Sound",
+                "0x506c": "ene_b_col_cloth1"
+            },
+            "parent 0x502c": "bn_clock",
+            "timing 0x5070": {
+                "0x508c": 0.0
+            }
+        },
+        "0x5090": {
+            "anim 0x511c": "summon_loop",
+            "attr 0x5140": {
+                "0x515c": "Sound",
+                "0x516c": "ene_b_col_cloth1"
+            },
+            "parent 0x512c": "bn_clock",
+            "timing 0x5170": {
+                "0x518c": 40.0
+            }
+        },
+        "0x5190": {
+            "anim 0x521c": "summon_end",
+            "attr 0x5240": {
+                "0x525c": "Sound",
+                "0x526c": "ene_b_col_cloth1"
+            },
+            "parent 0x522c": "bn_clock",
+            "timing 0x5270": {
+                "0x528c": 0.0
+            }
+        },
+        "0x5290": {
+            "anim 0x531c": "shot_start",
+            "attr 0x5340": {
+                "0x535c": "Sound",
+                "0x536c": "ene_b_col_cloth3"
+            },
+            "parent 0x532c": "bn_clock",
+            "timing 0x5370": {
+                "0x538c": 0.0
+            }
+        },
+        "0x5390": {
+            "anim 0x541c": "shot_start",
+            "attr 0x5440": {
+                "0x545c": "Sound",
+                "0x546c": "ene_b_col_vo_atk_s"
+            },
+            "parent 0x542c": "bn_neck",
+            "timing 0x5470": {
+                "0x548c": 4.0
+            }
+        },
+        "0x5490": {
+            "anim 0x551c": "shot_end",
+            "attr 0x5540": {
+                "0x555c": "Sound",
+                "0x556c": "ene_b_col_cloth1"
+            },
+            "parent 0x552c": "bn_clock",
+            "timing 0x5570": {
+                "0x558c": 0.0
+            }
+        },
+        "0x5590": {
+            "anim 0x561c": "shot_start",
+            "attr 0x5640": {
+                "0x565c": "Sound",
+                "0x566c": "ene_b_col_vo_atk_l"
+            },
+            "parent 0x562c": "bn_neck",
+            "timing 0x5670": {
+                "0x568c": 0.0
+            }
+        },
+        "0x5690": {
+            "anim 0x571c": "breath_start",
+            "attr 0x5740": {
+                "0x575c": "Sound",
+                "0x576c": "ene_b_col_cloth1"
+            },
+            "parent 0x572c": "bn_clock",
+            "timing 0x5770": {
+                "0x578c": 0.0
+            }
+        },
+        "0x5790": {
+            "anim 0x581c": "breath_start",
+            "attr 0x5840": {
+                "0x585c": "Sound",
+                "0x586c": "ene_b_col_vo_atk_l"
+            },
+            "parent 0x582c": "bn_neck",
+            "timing 0x5870": {
+                "0x588c": 0.0
+            }
+        },
+        "0x5890": {
+            "anim 0x591c": "breath_loopt",
+            "attr 0x5940": {
+                "0x595c": "Sound",
+                "0x596c": "ene_b_col_cloth1"
+            },
+            "parent 0x592c": "bn_clock",
+            "timing 0x5970": {
+                "0x598c": 0.0
+            }
+        },
+        "0x5990": {
+            "anim 0x5a1c": "breath_loop",
+            "attr 0x5a40": {
+                "0x5a5c": "Sound",
+                "0x5a6c": "ene_b_col_cloth1"
+            },
+            "parent 0x5a2c": "bn_clock",
+            "timing 0x5a70": {
+                "0x5a8c": 30.0
+            }
+        },
+        "0x5a90": {
+            "anim 0x5b1c": "breath_end",
+            "attr 0x5b40": {
+                "0x5b5c": "Sound",
+                "0x5b6c": "ene_b_col_cloth1"
+            },
+            "parent 0x5b2c": "bn_clock",
+            "timing 0x5b70": {
+                "0x5b8c": 14.0
+            }
+        },
+        "0x5b90": {
+            "anim 0x5c1c": "rush_start",
+            "attr 0x5c40": {
+                "0x5c5c": "Sound",
+                "0x5c6c": "ene_b_col_cloth2"
+            },
+            "parent 0x5c2c": "bn_clock",
+            "timing 0x5c70": {
+                "0x5c8c": 0.0
+            }
+        },
+        "0x5c90": {
+            "anim 0x5d1c": "rush_start",
+            "attr 0x5d40": {
+                "0x5d5c": "Sound",
+                "0x5d6c": "ene_b_col_cloth3"
+            },
+            "parent 0x5d2c": "bn_clock",
+            "timing 0x5d70": {
+                "0x5d8c": 20.0
+            }
+        },
+        "0x5d90": {
+            "anim 0x5e1c": "breath_start",
+            "attr 0x5e40": {
+                "0x5e5c": "Sound",
+                "0x5e6c": "ene_b_col_vo_atk_l"
+            },
+            "parent 0x5e2c": "bn_neck",
+            "timing 0x5e70": {
+                "0x5e8c": 20.0
+            }
+        },
+        "0x5e90": {
+            "anim 0x5f1c": "rush_end",
+            "attr 0x5f40": {
+                "0x5f5c": "Sound",
+                "0x5f6c": "ene_b_col_cloth1"
+            },
+            "parent 0x5f2c": "bn_clock",
+            "timing 0x5f70": {
+                "0x5f8c": 52.0
+            }
+        },
+        "0x5f90": {
+            "anim 0x601c": "rush_hit",
+            "attr 0x6040": {
+                "0x605c": "Sound",
+                "0x606c": "ene_b_col_cloth1"
+            },
+            "parent 0x602c": "bn_clock",
+            "timing 0x6070": {
+                "0x608c": 0.0
+            }
+        },
+        "0x6090": {
+            "anim 0x611c": "rush_hit",
+            "attr 0x6140": {
+                "0x615c": "Sound",
+                "0x616c": "ene_b_col_vo_dmg_s"
+            },
+            "parent 0x612c": "bn_neck",
+            "timing 0x6170": {
+                "0x618c": 0.0
+            }
+        },
+        "0x6190": {
+            "anim 0x621c": "damage_s_l_add",
+            "attr 0x6240": {
+                "0x625c": "Sound",
+                "0x626c": "ene_b_col_cloth1"
+            },
+            "parent 0x622c": "bn_clock",
+            "timing 0x6270": {
+                "0x628c": 0.0
+            }
+        },
+        "0x6290": {
+            "anim 0x631c": "damage_s_l_add",
+            "attr 0x6340": {
+                "0x635c": "Sound",
+                "0x636c": "ene_b_col_vo_dmg_s"
+            },
+            "parent 0x632c": "bn_neck",
+            "timing 0x6370": {
+                "0x638c": 0.0
+            }
+        },
+        "0x6390": {
+            "anim 0x641c": "damage_s_r_add",
+            "attr 0x6440": {
+                "0x645c": "Sound",
+                "0x646c": "ene_b_col_cloth1"
+            },
+            "parent 0x642c": "bn_clock",
+            "timing 0x6470": {
+                "0x648c": 0.0
+            }
+        },
+        "0x6490": {
+            "anim 0x651c": "damage_s_r_add",
+            "attr 0x6540": {
+                "0x655c": "Sound",
+                "0x656c": "ene_b_col_vo_dmg_s"
+            },
+            "parent 0x652c": "bn_neck",
+            "timing 0x6570": {
+                "0x658c": 0.0
+            }
+        },
+        "0x6590": {
+            "anim 0x661c": "damage_l",
+            "attr 0x6640": {
+                "0x665c": "Sound",
+                "0x666c": "ene_b_col_cloth3"
+            },
+            "parent 0x662c": "bn_clock",
+            "timing 0x6670": {
+                "0x668c": 0.0
+            }
+        },
+        "0x6690": {
+            "anim 0x671c": "damage_l",
+            "attr 0x6740": {
+                "0x675c": "Sound",
+                "0x676c": "ene_b_col_vo_dmg_s"
+            },
+            "parent 0x672c": "bn_neck",
+            "timing 0x6770": {
+                "0x678c": 0.0
+            }
+        },
+        "0x6790": {
+            "anim 0x681c": "damage_l",
+            "attr 0x6840": {
+                "0x685c": "Sound",
+                "0x686c": "ene_b_col_cloth1"
+            },
+            "parent 0x682c": "bn_clock",
+            "timing 0x6870": {
+                "0x688c": 36.0
+            }
+        },
+        "0x6890": {
+            "anim 0x691c": "damage_r",
+            "attr 0x6940": {
+                "0x695c": "Sound",
+                "0x696c": "ene_b_col_cloth3"
+            },
+            "parent 0x692c": "bn_clock",
+            "timing 0x6970": {
+                "0x698c": 0.0
+            }
+        },
+        "0x6990": {
+            "anim 0x6a1c": "damage_l",
+            "attr 0x6a40": {
+                "0x6a5c": "Sound",
+                "0x6a6c": "ene_b_col_vo_dmg_s"
+            },
+            "parent 0x6a2c": "bn_neck",
+            "timing 0x6a70": {
+                "0x6a8c": 0.0
+            }
+        },
+        "0x6a90": {
+            "anim 0x6b1c": "damage_l",
+            "attr 0x6b40": {
+                "0x6b5c": "Sound",
+                "0x6b6c": "ene_b_col_cloth1"
+            },
+            "parent 0x6b2c": "bn_clock",
+            "timing 0x6b70": {
+                "0x6b8c": 36.0
+            }
+        },
+        "0x6b90": {
+            "anim 0x6c1c": "down_start",
+            "attr 0x6c40": {
+                "0x6c5c": "Sound",
+                "0x6c6c": "ene_b_col_cloth1"
+            },
+            "parent 0x6c2c": "bn_clock",
+            "timing 0x6c70": {
+                "0x6c8c": 0.0
+            }
+        },
+        "0x6c90": {
+            "anim 0x6d1c": "damage_l",
+            "attr 0x6d40": {
+                "0x6d5c": "Sound",
+                "0x6d6c": "ene_b_col_vo_tired"
+            },
+            "parent 0x6d2c": "bn_neck",
+            "timing 0x6d70": {
+                "0x6d8c": 14.0
+            }
+        },
+        "0x6d90": {
+            "anim 0x6e1c": "down_end",
+            "attr 0x6e40": {
+                "0x6e5c": "Sound",
+                "0x6e6c": "ene_b_col_cloth3"
+            },
+            "parent 0x6e2c": "bn_clock",
+            "timing 0x6e70": {
+                "0x6e8c": 0.0
+            }
+        },
+        "0x6e90": {
+            "anim 0x6f1c": "down_end",
+            "attr 0x6f40": {
+                "0x6f5c": "Sound",
+                "0x6f6c": "ene_b_col_vo_angry"
+            },
+            "parent 0x6f2c": "bn_neck",
+            "timing 0x6f70": {
+                "0x6f8c": 14.0
+            }
+        },
+        "0x6f90": {
+            "anim 0x701c": "down_end",
+            "attr 0x7040": {
+                "0x705c": "Sound",
+                "0x706c": "ene_b_col_cloth1"
+            },
+            "parent 0x702c": "bn_clock",
+            "timing 0x7070": {
+                "0x708c": 37.0
+            }
+        },
+        "0x700": {
+            "anim 0x7ac": "spawn",
+            "attr 0x78c": "Attack",
+            "shape 0x7d0": {
+                "0x7ec": "Sphere",
+                "0x7fc": 1.75
+            },
+            "timing 0x800": {
+                "0x81c": 0.0,
+                "0x82c": 50.0
+            },
+            "userData 0x79c": "spawn"
+        },
+        "0x7090": {
+            "anim 0x711c": "down_end",
+            "attr 0x7140": {
+                "0x715c": "Sound",
+                "0x716c": "ene_b_col_cloth2"
+            },
+            "parent 0x712c": "bn_clock",
+            "timing 0x7170": {
+                "0x718c": 61.0
+            }
+        },
+        "0x830": {
+            "anim 0x8ec": "blow_r",
+            "attr 0x8cc": "Attack",
+            "groupId 0x990": {
+                "0x9ac": 0.0
+            },
+            "parent 0x920": {
+                "0x93c": "bn_r_forearm1",
+                "0x94c": "bn_r_finger4",
+                "0x95c": 4.0
+            },
+            "timing 0x960": {
+                "0x97c": 52.0,
+                "0x98c": 90.0
+            },
+            "userData 0x8dc": "attack"
+        },
+        "0x9b0": {
+            "anim 0xa7c": "blow_r",
+            "attr 0xa5c": "Attack",
+            "groupId 0xb20": {
+                "0xb3c": 0.0
+            },
+            "parent 0xa8c": "bn_bus",
+            "shape 0xac0": {
+                "0xadc": "Sphere",
+                "0xaec": 2.0
+            },
+            "timing 0xaf0": {
+                "0xb0c": 52.0,
+                "0xb1c": 90.0
+            },
+            "userData 0xa6c": "attack"
+        },
+        "0xb40": {
+            "anim 0xbcc": "blow_r",
+            "attr 0xbf0": {
+                "0xc0c": "Particle",
+                "0xc1c": "ef_bgcl_trl"
+            },
+            "parent 0xbdc": "dm_r_finger",
+            "timing 0xc20": {
+                "0xc3c": 52.0,
+                "0xc4c": 90.0
+            }
+        },
+        "0xc50": {
+            "anim 0xcbc": "blow_r",
+            "attr 0xcd0": {
+                "0xcec": "EventMessage",
+                "0xcfc": "attack_r_start"
+            },
+            "timing 0xd00": {
+                "0xd1c": 51.0
+            }
+        },
+        "0xd20": {
+            "anim 0xd8c": "blow_r",
+            "attr 0xda0": {
+                "0xdbc": "EventMessage",
+                "0xdcc": "attack_r_end"
+            },
+            "timing 0xdd0": {
+                "0xdec": 91.0
+            }
+        },
+        "0xdf0": {
+            "anim 0xe5c": "blow_r",
+            "attr 0xe70": {
+                "0xe8c": "EventMessage",
+                "0xe9c": "attack_r_hit_on"
+            },
+            "timing 0xea0": {
+                "0xebc": 60.0
+            }
+        },
+        "0xec0": {
+            "anim 0xf2c": "blow_r",
+            "attr 0xf40": {
+                "0xf5c": "EventMessage",
+                "0xf6c": "attack_r_hit_off"
+            },
+            "timing 0xf70": {
+                "0xf8c": 67.0
+            }
+        },
+        "0xf90": {
+            "anim 0x103c": "blow_l",
+            "attr 0x101c": "Attack",
+            "parent 0x1060": {
+                "0x107c": "bn_l_forearm1",
+                "0x108c": "bn_l_finger6",
+                "0x109c": 4.0
+            },
+            "timing 0x10a0": {
+                "0x10bc": 45.0,
+                "0x10cc": 90.0
+            },
+            "userData 0x102c": "attack"
+        }
+    }
+}

@@ -1,0 +1,389 @@
+{
+    "easy 1b7a5305 0x1250": {
+        "brain f3912883 0x1320": {
+            "ai_grade 17b9230d 0x140c": "shine 0ce71433",
+            "ai_type a8e9a23c 0x13cc": "runner db12c273",
+            "animjoint 9c2354a2 0x13dc": "runner db12c273",
+            "body_effect 139c5efa 0x13fc": "runner db12c273",
+            "race 98c2bb8e 0x13ec": "nevi 3520c46d",
+            "type 4df12751 0x13bc": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0x2390": {
+            "find 5a85f0bd 0x23dc": 25.0,
+            "lose 785834d1 0x23ec": 30.0
+        },
+        "enemy_actions 877ce571 0x1890": {
+            "attack_bite 3cf0dad0 0x1b50": {
+                "damage_cumulation e2d9c67e 0x1ccc": 0.0,
+                "damage_type c5871e0c 0x1cac": "blow 21c5bc70",
+                "force 8488a979 0x1c8c": 2.0,
+                "height 42bbbdd5 0x1cec": 2.75,
+                "hit_effect_type d7bbb113 0x1cbc": "M 18fd0bc8",
+                "interval 7885ddce 0x1cfc": 2.0,
+                "power 46234ff5 0x1c5c": 20.0,
+                "range d20cdcfa 0x1cdc": 15.0,
+                "rate_of_bg 359b8dca 0x1c7c": 50.0,
+                "rate_of_power 037c9b8a 0x1c6c": 10.0,
+                "upper_force bb35102a 0x1c9c": 8.0
+            },
+            "attack_loop 3c960fce 0x19a0": {
+                "damage_cumulation e2d9c67e 0x1b1c": 0.0,
+                "damage_type c5871e0c 0x1afc": "blow 21c5bc70",
+                "force 8488a979 0x1adc": 4.0,
+                "height 42bbbdd5 0x1b3c": 2.75,
+                "hit_effect_type d7bbb113 0x1b0c": "M 18fd0bc8",
+                "interval 7885ddce 0x1b4c": 2.0,
+                "power 46234ff5 0x1aac": 15.0,
+                "range d20cdcfa 0x1b2c": 15.0,
+                "rate_of_bg 359b8dca 0x1acc": 40.0,
+                "rate_of_power 037c9b8a 0x1abc": 8.0,
+                "upper_force bb35102a 0x1aec": 8.0
+            },
+            "attack_start 861d336f 0x1d00": {
+                "damage_cumulation e2d9c67e 0x1e7c": 0.0,
+                "damage_type c5871e0c 0x1e5c": "blow 21c5bc70",
+                "force 8488a979 0x1e3c": 1.0,
+                "height 42bbbdd5 0x1e9c": 2.75,
+                "hit_effect_type d7bbb113 0x1e6c": "M 18fd0bc8",
+                "interval 7885ddce 0x1eac": 2.0,
+                "power 46234ff5 0x1e0c": 15.0,
+                "range d20cdcfa 0x1e8c": 15.0,
+                "rate_of_bg 359b8dca 0x1e2c": 40.0,
+                "rate_of_power 037c9b8a 0x1e1c": 8.0,
+                "upper_force bb35102a 0x1e4c": 8.0
+            },
+            "damaged_large_start 1fa683f9 0x2280": {
+                "damage_cumulation e2d9c67e 0x238c": 0.0,
+                "damage_type c5871e0c 0x237c": "normal 529c8be6",
+                "force 8488a979 0x235c": 1.0,
+                "power 46234ff5 0x232c": 10.0,
+                "rate_of_bg 359b8dca 0x234c": 20.0,
+                "rate_of_power 037c9b8a 0x233c": -3.0,
+                "upper_force bb35102a 0x236c": 0.0
+            },
+            "damaged_middle_start 33225810 0x2170": {
+                "damage_cumulation e2d9c67e 0x227c": 0.0,
+                "damage_type c5871e0c 0x226c": "normal 529c8be6",
+                "force 8488a979 0x224c": 1.0,
+                "power 46234ff5 0x221c": 10.0,
+                "rate_of_bg 359b8dca 0x223c": 20.0,
+                "rate_of_power 037c9b8a 0x222c": -3.0,
+                "upper_force bb35102a 0x225c": 0.0
+            },
+            "jump_attack_a 323a95b2 0x1eb0": {
+                "damage_cumulation e2d9c67e 0x202c": 0.0,
+                "damage_type c5871e0c 0x200c": "normal 529c8be6",
+                "force 8488a979 0x1fec": 1.0,
+                "height 42bbbdd5 0x204c": 9.0,
+                "hit_effect_type d7bbb113 0x201c": "M 18fd0bc8",
+                "interval 7885ddce 0x205c": 2.0,
+                "power 46234ff5 0x1fbc": 15.0,
+                "range d20cdcfa 0x203c": 5.0,
+                "rate_of_bg 359b8dca 0x1fdc": 40.0,
+                "rate_of_power 037c9b8a 0x1fcc": 20.0,
+                "upper_force bb35102a 0x1ffc": 0.0
+            },
+            "spawn 984d223a 0x2060": {
+                "damage_cumulation e2d9c67e 0x216c": 0.0,
+                "damage_type c5871e0c 0x215c": "normal 529c8be6",
+                "force 8488a979 0x213c": 1.0,
+                "power 46234ff5 0x210c": 10.0,
+                "rate_of_bg 359b8dca 0x212c": 20.0,
+                "rate_of_power 037c9b8a 0x211c": -2.0,
+                "upper_force bb35102a 0x214c": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x1410": {
+            "ash_effect f1d8dab1 0x150c": "ef_nev_death_nvrun_w d5f0a69b",
+            "ash_effect_node 860db1c8 0x151c": "samplelink 5b5f0e56",
+            "ash_se 649d8f77 0x152c": "ene_disappear 87512f04",
+            "battle_field_prio 5324db77 0x155c": 1.0,
+            "battle_field_range 7e1a8055 0x154c": 16.0,
+            "health 8fed986b 0x153c": 60.0,
+            "spawn_effect d4cb9f81 0x14ec": "ef_nev_spw_01 137d7459",
+            "spawn_se 25611442 0x14fc": "ene_come e65e5fbd"
+        },
+        "enemy_parts 7e7c4e31 0x1560": {
+            "loc_nvrun01_tusk_bottom 02bc959d 0x17e0": {
+                "angle 184454ad 0x186c": 360.0,
+                "damage_motion_type 08588c30 0x187c": "FRONT 38ea2ec4",
+                "health 8fed986b 0x185c": 60.0,
+                "homing_angle e1eaa8a7 0x188c": 360.0
+            },
+            "loc_nvrun01_tusk_upper dfa55adc 0x1730": {
+                "angle 184454ad 0x17bc": 360.0,
+                "damage_motion_type 08588c30 0x17cc": "FRONT 38ea2ec4",
+                "health 8fed986b 0x17ac": 60.0,
+                "homing_angle e1eaa8a7 0x17dc": 360.0
+            },
+            "loc_setCore01 368cc729 0x15e0": {
+                "angle 184454ad 0x170c": 270.0,
+                "body_damage ebb248f9 0x16cc": 60.0,
+                "core 7e605edd 0x16fc": true,
+                "damage_motion_type 08588c30 0x171c": "BACK 22684a07",
+                "eye_aim_limit 7825aec6 0x16ec": 30.0,
+                "health 8fed986b 0x16bc": 150.0,
+                "homing_angle e1eaa8a7 0x172c": 200.0,
+                "lockon 3b8d25f8 0x16dc": true
+            }
+        }
+    },
+    "hard dc5bc3e4 0x23f0": {
+        "brain f3912883 0x24c0": {
+            "ai_grade 17b9230d 0x25ac": "shine 0ce71433",
+            "ai_type a8e9a23c 0x256c": "runner db12c273",
+            "animjoint 9c2354a2 0x257c": "runner db12c273",
+            "body_effect 139c5efa 0x259c": "runner db12c273",
+            "race 98c2bb8e 0x258c": "nevi 3520c46d",
+            "type 4df12751 0x255c": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0x3530": {
+            "find 5a85f0bd 0x357c": 25.0,
+            "lose 785834d1 0x358c": 30.0
+        },
+        "enemy_actions 877ce571 0x2a30": {
+            "attack_bite 3cf0dad0 0x2cf0": {
+                "damage_cumulation e2d9c67e 0x2e6c": 0.0,
+                "damage_type c5871e0c 0x2e4c": "blow 21c5bc70",
+                "force 8488a979 0x2e2c": 2.0,
+                "height 42bbbdd5 0x2e8c": 2.75,
+                "hit_effect_type d7bbb113 0x2e5c": "M 18fd0bc8",
+                "interval 7885ddce 0x2e9c": 2.0,
+                "power 46234ff5 0x2dfc": 35.0,
+                "range d20cdcfa 0x2e7c": 15.0,
+                "rate_of_bg 359b8dca 0x2e1c": 50.0,
+                "rate_of_power 037c9b8a 0x2e0c": 10.0,
+                "upper_force bb35102a 0x2e3c": 8.0
+            },
+            "attack_loop 3c960fce 0x2b40": {
+                "damage_cumulation e2d9c67e 0x2cbc": 0.0,
+                "damage_type c5871e0c 0x2c9c": "blow 21c5bc70",
+                "force 8488a979 0x2c7c": 4.0,
+                "height 42bbbdd5 0x2cdc": 2.75,
+                "hit_effect_type d7bbb113 0x2cac": "M 18fd0bc8",
+                "interval 7885ddce 0x2cec": 2.0,
+                "power 46234ff5 0x2c4c": 30.0,
+                "range d20cdcfa 0x2ccc": 15.0,
+                "rate_of_bg 359b8dca 0x2c6c": 40.0,
+                "rate_of_power 037c9b8a 0x2c5c": 8.0,
+                "upper_force bb35102a 0x2c8c": 8.0
+            },
+            "attack_start 861d336f 0x2ea0": {
+                "damage_cumulation e2d9c67e 0x301c": 0.0,
+                "damage_type c5871e0c 0x2ffc": "blow 21c5bc70",
+                "force 8488a979 0x2fdc": 1.0,
+                "height 42bbbdd5 0x303c": 2.75,
+                "hit_effect_type d7bbb113 0x300c": "M 18fd0bc8",
+                "interval 7885ddce 0x304c": 2.0,
+                "power 46234ff5 0x2fac": 30.0,
+                "range d20cdcfa 0x302c": 15.0,
+                "rate_of_bg 359b8dca 0x2fcc": 40.0,
+                "rate_of_power 037c9b8a 0x2fbc": 8.0,
+                "upper_force bb35102a 0x2fec": 8.0
+            },
+            "damaged_large_start 1fa683f9 0x3420": {
+                "damage_cumulation e2d9c67e 0x352c": 0.0,
+                "damage_type c5871e0c 0x351c": "normal 529c8be6",
+                "force 8488a979 0x34fc": 1.0,
+                "power 46234ff5 0x34cc": 10.0,
+                "rate_of_bg 359b8dca 0x34ec": 20.0,
+                "rate_of_power 037c9b8a 0x34dc": -3.0,
+                "upper_force bb35102a 0x350c": 0.0
+            },
+            "damaged_middle_start 33225810 0x3310": {
+                "damage_cumulation e2d9c67e 0x341c": 0.0,
+                "damage_type c5871e0c 0x340c": "normal 529c8be6",
+                "force 8488a979 0x33ec": 1.0,
+                "power 46234ff5 0x33bc": 10.0,
+                "rate_of_bg 359b8dca 0x33dc": 20.0,
+                "rate_of_power 037c9b8a 0x33cc": -3.0,
+                "upper_force bb35102a 0x33fc": 0.0
+            },
+            "jump_attack_a 323a95b2 0x3050": {
+                "damage_cumulation e2d9c67e 0x31cc": 0.0,
+                "damage_type c5871e0c 0x31ac": "normal 529c8be6",
+                "force 8488a979 0x318c": 1.0,
+                "height 42bbbdd5 0x31ec": 9.0,
+                "hit_effect_type d7bbb113 0x31bc": "M 18fd0bc8",
+                "interval 7885ddce 0x31fc": 2.0,
+                "power 46234ff5 0x315c": 30.0,
+                "range d20cdcfa 0x31dc": 5.0,
+                "rate_of_bg 359b8dca 0x317c": 40.0,
+                "rate_of_power 037c9b8a 0x316c": 20.0,
+                "upper_force bb35102a 0x319c": 0.0
+            },
+            "spawn 984d223a 0x3200": {
+                "damage_cumulation e2d9c67e 0x330c": 0.0,
+                "damage_type c5871e0c 0x32fc": "normal 529c8be6",
+                "force 8488a979 0x32dc": 1.0,
+                "power 46234ff5 0x32ac": 10.0,
+                "rate_of_bg 359b8dca 0x32cc": 20.0,
+                "rate_of_power 037c9b8a 0x32bc": -2.0,
+                "upper_force bb35102a 0x32ec": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x25b0": {
+            "ash_effect f1d8dab1 0x26ac": "ef_nev_death_nvrun_w d5f0a69b",
+            "ash_effect_node 860db1c8 0x26bc": "samplelink 5b5f0e56",
+            "ash_se 649d8f77 0x26cc": "ene_disappear 87512f04",
+            "battle_field_prio 5324db77 0x26fc": 1.0,
+            "battle_field_range 7e1a8055 0x26ec": 16.0,
+            "health 8fed986b 0x26dc": 60.0,
+            "spawn_effect d4cb9f81 0x268c": "ef_nev_spw_01 137d7459",
+            "spawn_se 25611442 0x269c": "ene_come e65e5fbd"
+        },
+        "enemy_parts 7e7c4e31 0x2700": {
+            "loc_nvrun01_tusk_bottom 02bc959d 0x2980": {
+                "angle 184454ad 0x2a0c": 360.0,
+                "damage_motion_type 08588c30 0x2a1c": "FRONT 38ea2ec4",
+                "health 8fed986b 0x29fc": 60.0,
+                "homing_angle e1eaa8a7 0x2a2c": 360.0
+            },
+            "loc_nvrun01_tusk_upper dfa55adc 0x28d0": {
+                "angle 184454ad 0x295c": 360.0,
+                "damage_motion_type 08588c30 0x296c": "FRONT 38ea2ec4",
+                "health 8fed986b 0x294c": 60.0,
+                "homing_angle e1eaa8a7 0x297c": 360.0
+            },
+            "loc_setCore01 368cc729 0x2780": {
+                "angle 184454ad 0x28ac": 270.0,
+                "body_damage ebb248f9 0x286c": 60.0,
+                "core 7e605edd 0x289c": true,
+                "damage_motion_type 08588c30 0x28bc": "BACK 22684a07",
+                "eye_aim_limit 7825aec6 0x288c": 30.0,
+                "health 8fed986b 0x285c": 210.0,
+                "homing_angle e1eaa8a7 0x28cc": 200.0,
+                "lockon 3b8d25f8 0x287c": true
+            }
+        }
+    },
+    "normal 529c8be6 0xb0": {
+        "brain f3912883 0x180": {
+            "ai_grade 17b9230d 0x26c": "shine 0ce71433",
+            "ai_type a8e9a23c 0x22c": "runner db12c273",
+            "animjoint 9c2354a2 0x23c": "runner db12c273",
+            "body_effect 139c5efa 0x25c": "runner db12c273",
+            "race 98c2bb8e 0x24c": "nevi 3520c46d",
+            "type 4df12751 0x21c": "EnemyBrain 11f7389c"
+        },
+        "enemy_action_common 627efe6e 0x11f0": {
+            "find 5a85f0bd 0x123c": 25.0,
+            "lose 785834d1 0x124c": 30.0
+        },
+        "enemy_actions 877ce571 0x6f0": {
+            "attack_bite 3cf0dad0 0x9b0": {
+                "damage_cumulation e2d9c67e 0xb2c": 0.0,
+                "damage_type c5871e0c 0xb0c": "blow 21c5bc70",
+                "force 8488a979 0xaec": 2.0,
+                "height 42bbbdd5 0xb4c": 2.75,
+                "hit_effect_type d7bbb113 0xb1c": "M 18fd0bc8",
+                "interval 7885ddce 0xb5c": 2.0,
+                "power 46234ff5 0xabc": 30.0,
+                "range d20cdcfa 0xb3c": 15.0,
+                "rate_of_bg 359b8dca 0xadc": 50.0,
+                "rate_of_power 037c9b8a 0xacc": 10.0,
+                "upper_force bb35102a 0xafc": 8.0
+            },
+            "attack_loop 3c960fce 0x800": {
+                "damage_cumulation e2d9c67e 0x97c": 0.0,
+                "damage_type c5871e0c 0x95c": "blow 21c5bc70",
+                "force 8488a979 0x93c": 4.0,
+                "height 42bbbdd5 0x99c": 2.75,
+                "hit_effect_type d7bbb113 0x96c": "M 18fd0bc8",
+                "interval 7885ddce 0x9ac": 2.0,
+                "power 46234ff5 0x90c": 25.0,
+                "range d20cdcfa 0x98c": 15.0,
+                "rate_of_bg 359b8dca 0x92c": 40.0,
+                "rate_of_power 037c9b8a 0x91c": 8.0,
+                "upper_force bb35102a 0x94c": 8.0
+            },
+            "attack_start 861d336f 0xb60": {
+                "damage_cumulation e2d9c67e 0xcdc": 0.0,
+                "damage_type c5871e0c 0xcbc": "blow 21c5bc70",
+                "force 8488a979 0xc9c": 1.0,
+                "height 42bbbdd5 0xcfc": 2.75,
+                "hit_effect_type d7bbb113 0xccc": "M 18fd0bc8",
+                "interval 7885ddce 0xd0c": 2.0,
+                "power 46234ff5 0xc6c": 25.0,
+                "range d20cdcfa 0xcec": 15.0,
+                "rate_of_bg 359b8dca 0xc8c": 40.0,
+                "rate_of_power 037c9b8a 0xc7c": 8.0,
+                "upper_force bb35102a 0xcac": 8.0
+            },
+            "damaged_large_start 1fa683f9 0x10e0": {
+                "damage_cumulation e2d9c67e 0x11ec": 0.0,
+                "damage_type c5871e0c 0x11dc": "normal 529c8be6",
+                "force 8488a979 0x11bc": 1.0,
+                "power 46234ff5 0x118c": 10.0,
+                "rate_of_bg 359b8dca 0x11ac": 20.0,
+                "rate_of_power 037c9b8a 0x119c": -3.0,
+                "upper_force bb35102a 0x11cc": 0.0
+            },
+            "damaged_middle_start 33225810 0xfd0": {
+                "damage_cumulation e2d9c67e 0x10dc": 0.0,
+                "damage_type c5871e0c 0x10cc": "normal 529c8be6",
+                "force 8488a979 0x10ac": 1.0,
+                "power 46234ff5 0x107c": 10.0,
+                "rate_of_bg 359b8dca 0x109c": 20.0,
+                "rate_of_power 037c9b8a 0x108c": -3.0,
+                "upper_force bb35102a 0x10bc": 0.0
+            },
+            "jump_attack_a 323a95b2 0xd10": {
+                "damage_cumulation e2d9c67e 0xe8c": 0.0,
+                "damage_type c5871e0c 0xe6c": "normal 529c8be6",
+                "force 8488a979 0xe4c": 1.0,
+                "height 42bbbdd5 0xeac": 9.0,
+                "hit_effect_type d7bbb113 0xe7c": "M 18fd0bc8",
+                "interval 7885ddce 0xebc": 2.0,
+                "power 46234ff5 0xe1c": 25.0,
+                "range d20cdcfa 0xe9c": 5.0,
+                "rate_of_bg 359b8dca 0xe3c": 40.0,
+                "rate_of_power 037c9b8a 0xe2c": 20.0,
+                "upper_force bb35102a 0xe5c": 0.0
+            },
+            "spawn 984d223a 0xec0": {
+                "damage_cumulation e2d9c67e 0xfcc": 0.0,
+                "damage_type c5871e0c 0xfbc": "normal 529c8be6",
+                "force 8488a979 0xf9c": 1.0,
+                "power 46234ff5 0xf6c": 10.0,
+                "rate_of_bg 359b8dca 0xf8c": 20.0,
+                "rate_of_power 037c9b8a 0xf7c": -2.0,
+                "upper_force bb35102a 0xfac": 0.0
+            }
+        },
+        "enemy_body f895dcbb 0x270": {
+            "ash_effect f1d8dab1 0x36c": "ef_nev_death_nvrun_w d5f0a69b",
+            "ash_effect_node 860db1c8 0x37c": "samplelink 5b5f0e56",
+            "ash_se 649d8f77 0x38c": "ene_disappear 87512f04",
+            "battle_field_prio 5324db77 0x3bc": 1.0,
+            "battle_field_range 7e1a8055 0x3ac": 16.0,
+            "health 8fed986b 0x39c": 60.0,
+            "spawn_effect d4cb9f81 0x34c": "ef_nev_spw_01 137d7459",
+            "spawn_se 25611442 0x35c": "ene_come e65e5fbd"
+        },
+        "enemy_parts 7e7c4e31 0x3c0": {
+            "loc_nvrun01_tusk_bottom 02bc959d 0x640": {
+                "angle 184454ad 0x6cc": 360.0,
+                "damage_motion_type 08588c30 0x6dc": "FRONT 38ea2ec4",
+                "health 8fed986b 0x6bc": 60.0,
+                "homing_angle e1eaa8a7 0x6ec": 360.0
+            },
+            "loc_nvrun01_tusk_upper dfa55adc 0x590": {
+                "angle 184454ad 0x61c": 360.0,
+                "damage_motion_type 08588c30 0x62c": "FRONT 38ea2ec4",
+                "health 8fed986b 0x60c": 60.0,
+                "homing_angle e1eaa8a7 0x63c": 360.0
+            },
+            "loc_setCore01 368cc729 0x440": {
+                "angle 184454ad 0x56c": 270.0,
+                "body_damage ebb248f9 0x52c": 60.0,
+                "core 7e605edd 0x55c": true,
+                "damage_motion_type 08588c30 0x57c": "BACK 22684a07",
+                "eye_aim_limit 7825aec6 0x54c": 30.0,
+                "health 8fed986b 0x51c": 180.0,
+                "homing_angle e1eaa8a7 0x58c": 200.0,
+                "lockon 3b8d25f8 0x53c": true
+            }
+        }
+    }
+}

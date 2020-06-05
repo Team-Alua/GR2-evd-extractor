@@ -1,0 +1,475 @@
+{
+    "_default_bundles 0xdc": "bundle_default",
+    "_plc_traits 0x140": {
+        "0x1d0": {
+            "classGroup 0x22c": "yy_cc_sittable",
+            "traitName 0x21c": "vendors_sk_01"
+        },
+        "0x230": {
+            "classGroup 0x28c": "yy_cc_sittable",
+            "traitName 0x27c": "vendors_sk_02"
+        },
+        "0x290": {
+            "classGroup 0x2ec": "yy_cc_sittable",
+            "traitName 0x2dc": "vendors_sk_05"
+        },
+        "0x2f0": {
+            "classGroup 0x34c": "yy_cc_sittable",
+            "traitName 0x33c": "bench_kw_01"
+        },
+        "0x350": {
+            "classGroup 0x3ac": "yy_cc_sittable",
+            "traitName 0x39c": "g1_bench_iy_01"
+        },
+        "0x3b0": {
+            "classGroup 0x40c": "yy_cc_sittable",
+            "traitName 0x3fc": "bench_kw_04"
+        },
+        "0x410": {
+            "classGroup 0x46c": "yy_cc_sittable",
+            "traitName 0x45c": "bench_kk_01"
+        },
+        "0x470": {
+            "classGroup 0x4cc": "yy_cc_sittable",
+            "traitName 0x4bc": "bench_kk_03"
+        }
+    },
+    "_virtual_bundles 0x4d0": {
+        "bundle_default 0x510": {
+            "0x52c": "bundle_default_stand",
+            "0x53c": "bundle_default_roam",
+            "0x54c": "bundle_default_fountain",
+            "0x55c": "bundle_pigeon"
+        }
+    },
+    "bundle_default_fountain 0x3690": {
+        "0x36b0": {
+            "classGroup 0x375c": "yy_cc_all_00",
+            "label 0x373c": "main_street",
+            "num 0x377c": 30.0,
+            "role 0x376c": "kRoleRoam",
+            "zone 0x374c": "main_street"
+        }
+    },
+    "bundle_default_roam 0xf80": {
+        "0x1270": {
+            "classGroup 0x131c": "yy_cc_all_00",
+            "label 0x12fc": "main_street",
+            "num 0x133c": 15.0,
+            "role 0x132c": "kRoleRoam",
+            "zone 0x130c": "main_street"
+        },
+        "0x1340": {
+            "classGroup 0x13ec": "yy_cc_all_01",
+            "label 0x13cc": "street3",
+            "num 0x140c": 24.0,
+            "role 0x13fc": "kRoleRoam",
+            "zone 0x13dc": "street3"
+        },
+        "0x1410": {
+            "classGroup 0x14bc": "yy_hek_showbiz_man_00",
+            "label 0x149c": "street3",
+            "num 0x14dc": 6.0,
+            "role 0x14cc": "kRoleRoam",
+            "zone 0x14ac": "street3"
+        },
+        "0x14e0": {
+            "classGroup 0x158c": "yy_cc_all_00",
+            "label 0x156c": "street4",
+            "num 0x15ac": 30.0,
+            "role 0x159c": "kRoleRoam",
+            "zone 0x157c": "street4"
+        },
+        "0x15b0": {
+            "classGroup 0x165c": "yy_cc_all_00",
+            "label 0x163c": "station_stairs",
+            "num 0x167c": 3.0,
+            "role 0x166c": "kRoleRoam",
+            "zone 0x164c": "station_stairs"
+        },
+        "0x1680": {
+            "classGroup 0x172c": "yy_cc_all_00",
+            "label 0x170c": "south_east_block",
+            "num 0x174c": 20.0,
+            "role 0x173c": "kRoleRoam",
+            "zone 0x171c": "south_east_block"
+        },
+        "0x1750": {
+            "classGroup 0x17fc": "yy_cc_all_00",
+            "label 0x17dc": "loop_line_ne",
+            "num 0x181c": 15.0,
+            "role 0x180c": "kRoleRoam",
+            "zone 0x17ec": "loop_line_ne"
+        },
+        "0x1820": {
+            "classGroup 0x18cc": "yy_cc_all_00",
+            "label 0x18ac": "island_block",
+            "num 0x18ec": 20.0,
+            "role 0x18dc": "kRoleRoam",
+            "zone 0x18bc": "island_block"
+        },
+        "0x18f0": {
+            "classGroup 0x199c": "yy_dog_l",
+            "label 0x197c": "animals",
+            "num 0x19bc": 3.0,
+            "role 0x19ac": "kRoleRoam",
+            "zone 0x198c": "street3"
+        },
+        "0x19c0": {
+            "classGroup 0x1a6c": "yy_dog_m",
+            "label 0x1a4c": "animals",
+            "num 0x1a8c": 4.0,
+            "role 0x1a7c": "kRoleRoam",
+            "zone 0x1a5c": "main_street"
+        },
+        "0x1a90": {
+            "classGroup 0x1b3c": "yy_dog_m",
+            "label 0x1b1c": "animals",
+            "num 0x1b5c": 2.0,
+            "role 0x1b4c": "kRoleRoam",
+            "zone 0x1b2c": "south_east_block"
+        },
+        "0x1b60": {
+            "classGroup 0x1c0c": "yy_dog_m_rich",
+            "label 0x1bec": "animals",
+            "num 0x1c2c": 1.0,
+            "role 0x1c1c": "kRoleTamed",
+            "zone 0x1bfc": "island_block"
+        },
+        "0x1c30": {
+            "classGroup 0x1cdc": "yy_dog_l",
+            "label 0x1cbc": "animals",
+            "num 0x1cfc": 1.0,
+            "role 0x1cec": "kRoleRoam",
+            "zone 0x1ccc": "island_block"
+        },
+        "0x1d00": {
+            "birdNet 0x1d8c": "birdNet",
+            "classGroup 0x1d9c": "yy_pigeon",
+            "label 0x1d7c": "bird",
+            "num 0x1dac": 5.0
+        },
+        "0x1db0": {
+            "birdNet 0x1e3c": "birdNet4",
+            "classGroup 0x1e4c": "yy_pigeon",
+            "label 0x1e2c": "bird",
+            "num 0x1e5c": 5.0
+        },
+        "0x1e60": {
+            "birdNet 0x1eec": "birdNet6",
+            "classGroup 0x1efc": "yy_pigeon",
+            "label 0x1edc": "bird",
+            "num 0x1f0c": 5.0
+        },
+        "0x1f10": {
+            "birdNet 0x1f9c": "birdNet8",
+            "classGroup 0x1fac": "yy_pigeon",
+            "label 0x1f8c": "bird",
+            "num 0x1fbc": 5.0
+        },
+        "0x1fc0": {
+            "birdNet 0x204c": "birdNet12",
+            "classGroup 0x205c": "yy_pigeon",
+            "label 0x203c": "bird",
+            "num 0x206c": 5.0
+        },
+        "0x2070": {
+            "birdNet 0x20fc": "birdNet13",
+            "classGroup 0x210c": "yy_pigeon",
+            "label 0x20ec": "bird",
+            "num 0x211c": 5.0
+        },
+        "0x2120": {
+            "birdNet 0x21ac": "birdNet14",
+            "classGroup 0x21bc": "yy_pigeon",
+            "label 0x219c": "bird",
+            "num 0x21cc": 5.0
+        },
+        "0x21d0": {
+            "birdNet 0x225c": "birdNet16",
+            "classGroup 0x226c": "yy_pigeon",
+            "label 0x224c": "bird",
+            "num 0x227c": 5.0
+        },
+        "0x2280": {
+            "birdNet 0x230c": "birdNet17",
+            "classGroup 0x231c": "yy_pigeon",
+            "label 0x22fc": "bird",
+            "num 0x232c": 5.0
+        },
+        "0x2330": {
+            "birdNet 0x23bc": "birdNet21",
+            "classGroup 0x23cc": "yy_pigeon",
+            "label 0x23ac": "bird",
+            "num 0x23dc": 5.0
+        },
+        "0x23e0": {
+            "classGroup 0x248c": "yy_bird",
+            "label 0x246c": "bird",
+            "nest 0x247c": "birdNet35",
+            "num 0x24ac": 5.0,
+            "role 0x249c": "kRoleFlyOff"
+        },
+        "0x24b0": {
+            "classGroup 0x255c": "yy_bird",
+            "label 0x253c": "bird",
+            "nest 0x254c": "birdNet36",
+            "num 0x257c": 5.0,
+            "role 0x256c": "kRoleFlyOff"
+        },
+        "0x2580": {
+            "classGroup 0x262c": "yy_bird",
+            "label 0x260c": "bird",
+            "nest 0x261c": "birdNet37",
+            "num 0x264c": 5.0,
+            "role 0x263c": "kRoleFlyOff"
+        },
+        "0x2650": {
+            "classGroup 0x26fc": "yy_bird",
+            "label 0x26dc": "bird",
+            "nest 0x26ec": "birdNet38",
+            "num 0x271c": 7.0,
+            "role 0x270c": "kRoleFlyOff"
+        },
+        "0x2720": {
+            "classGroup 0x27cc": "yy_bird",
+            "label 0x27ac": "bird",
+            "nest 0x27bc": "birdNet39",
+            "num 0x27ec": 7.0,
+            "role 0x27dc": "kRoleFlyOff"
+        },
+        "0x27f0": {
+            "classGroup 0x289c": "yy_bird",
+            "label 0x287c": "bird",
+            "nest 0x288c": "birdNet40",
+            "num 0x28bc": 7.0,
+            "role 0x28ac": "kRoleFlyOff"
+        },
+        "0x28c0": {
+            "classGroup 0x296c": "yy_bird",
+            "label 0x294c": "bird",
+            "nest 0x295c": "birdNet41",
+            "num 0x298c": 6.0,
+            "role 0x297c": "kRoleFlyOff"
+        },
+        "0x2990": {
+            "classGroup 0x2a3c": "yy_bird",
+            "label 0x2a1c": "bird",
+            "nest 0x2a2c": "birdNet42",
+            "num 0x2a5c": 5.0,
+            "role 0x2a4c": "kRoleFlyOff"
+        },
+        "0x2a60": {
+            "classGroup 0x2b0c": "yy_bird",
+            "label 0x2aec": "bird",
+            "nest 0x2afc": "birdNet43",
+            "num 0x2b2c": 5.0,
+            "role 0x2b1c": "kRoleFlyOff"
+        },
+        "0x2b30": {
+            "classGroup 0x2bdc": "yy_bird",
+            "label 0x2bbc": "bird",
+            "nest 0x2bcc": "birdNet44",
+            "num 0x2bfc": 4.0,
+            "role 0x2bec": "kRoleFlyOff"
+        },
+        "0x2c00": {
+            "classGroup 0x2cac": "yy_bird",
+            "label 0x2c8c": "bird",
+            "nest 0x2c9c": "birdNet45",
+            "num 0x2ccc": 5.0,
+            "role 0x2cbc": "kRoleFlyOff"
+        },
+        "0x2cd0": {
+            "classGroup 0x2d7c": "yy_bird",
+            "label 0x2d5c": "bird",
+            "nest 0x2d6c": "birdNet46",
+            "num 0x2d9c": 4.0,
+            "role 0x2d8c": "kRoleFlyOff"
+        },
+        "0x2da0": {
+            "classGroup 0x2e4c": "yy_bird",
+            "label 0x2e2c": "bird",
+            "nest 0x2e3c": "birdNet47",
+            "num 0x2e6c": 5.0,
+            "role 0x2e5c": "kRoleFlyOff"
+        },
+        "0x2e70": {
+            "classGroup 0x2f1c": "yy_bird",
+            "label 0x2efc": "bird",
+            "nest 0x2f0c": "birdNet48",
+            "num 0x2f3c": 4.0,
+            "role 0x2f2c": "kRoleFlyOff"
+        },
+        "0x2f40": {
+            "classGroup 0x2fec": "yy_bird",
+            "label 0x2fcc": "bird",
+            "nest 0x2fdc": "birdNet49",
+            "num 0x300c": 5.0,
+            "role 0x2ffc": "kRoleFlyOff"
+        },
+        "0x3010": {
+            "classGroup 0x30bc": "yy_bird",
+            "label 0x309c": "bird",
+            "nest 0x30ac": "birdNet50",
+            "num 0x30dc": 4.0,
+            "role 0x30cc": "kRoleFlyOff"
+        },
+        "0x30e0": {
+            "classGroup 0x318c": "yy_bird",
+            "label 0x316c": "bird",
+            "nest 0x317c": "birdNet51",
+            "num 0x31ac": 6.0,
+            "role 0x319c": "kRoleFlyOff"
+        },
+        "0x31b0": {
+            "classGroup 0x325c": "yy_bird",
+            "label 0x323c": "bird",
+            "nest 0x324c": "birdNet52",
+            "num 0x327c": 4.0,
+            "role 0x326c": "kRoleFlyOff"
+        },
+        "0x3280": {
+            "classGroup 0x332c": "yy_bird",
+            "label 0x330c": "bird",
+            "nest 0x331c": "birdNet53",
+            "num 0x334c": 3.0,
+            "role 0x333c": "kRoleFlyOff"
+        },
+        "0x3350": {
+            "classGroup 0x33fc": "yy_bird",
+            "label 0x33dc": "bird",
+            "nest 0x33ec": "birdNet54",
+            "num 0x341c": 5.0,
+            "role 0x340c": "kRoleFlyOff"
+        },
+        "0x3420": {
+            "classGroup 0x34cc": "yy_bird",
+            "label 0x34ac": "bird",
+            "nest 0x34bc": "birdNet55",
+            "num 0x34ec": 4.0,
+            "role 0x34dc": "kRoleFlyOff"
+        },
+        "0x34f0": {
+            "classGroup 0x359c": "yy_bird",
+            "label 0x357c": "bird",
+            "nest 0x358c": "birdNet56",
+            "num 0x35bc": 5.0,
+            "role 0x35ac": "kRoleFlyOff"
+        },
+        "0x35c0": {
+            "classGroup 0x366c": "yy_bird",
+            "label 0x364c": "bird",
+            "nest 0x365c": "birdNet57",
+            "num 0x368c": 5.0,
+            "role 0x367c": "kRoleFlyOff"
+        }
+    },
+    "bundle_default_stand 0x560": {
+        "0x630": {
+            "classGroup 0x6bc": "yy_cc_all_00_not_old",
+            "guide 0x6ac": "guide",
+            "num 0x6e0": {
+                "0x6fc": 2.0,
+                "0x70c": 3.0
+            },
+            "role 0x6cc": "kRoleTalk"
+        },
+        "0x710": {
+            "classGroup 0x79c": "yy_cc_all_00_not_old",
+            "guide 0x78c": "guide1",
+            "num 0x7c0": {
+                "0x7dc": 2.0,
+                "0x7ec": 3.0
+            },
+            "role 0x7ac": "kRoleTalk"
+        },
+        "0x7f0": {
+            "classGroup 0x87c": "yy_cc_all_00_not_old",
+            "guide 0x86c": "guide2",
+            "num 0x8a0": {
+                "0x8bc": 2.0,
+                "0x8cc": 3.0
+            },
+            "role 0x88c": "kRoleTalk"
+        },
+        "0x8d0": {
+            "classGroup 0x95c": "yy_cc_all_00_adu",
+            "guide 0x94c": "read_stand_01",
+            "num 0x97c": 1.0,
+            "role 0x96c": "kRoleReadBook"
+        },
+        "0x980": {
+            "classGroup 0xa0c": "yy_cc_wom_00",
+            "guide 0x9fc": "stand_paperbag_01",
+            "num 0xa2c": 1.0,
+            "role 0xa1c": "kRoleStandWithPaperBag"
+        },
+        "0xa30": {
+            "classGroup 0xabc": "yy_cc_chi_00",
+            "guide 0xaac": "play_sword_01",
+            "num 0xadc": 2.0,
+            "role 0xacc": "kRolePlayWithSword"
+        },
+        "0xae0": {
+            "classGroup 0xb6c": "yy_cc_all_00_not_old",
+            "guide 0xb5c": "talk_normal_01",
+            "num 0xb8c": 2.0,
+            "role 0xb7c": "kRoleTalk"
+        },
+        "0xb90": {
+            "classGroup 0xc1c": "yy_cc_man_00",
+            "guide 0xc0c": "feed_bird_01",
+            "num 0xc3c": 1.0,
+            "role 0xc2c": "kRoleFeedPigion"
+        },
+        "0xc40": {
+            "classGroup 0xccc": "yy_hek_station_00",
+            "guide 0xcbc": "station_01",
+            "num 0xcec": 1.0,
+            "role 0xcdc": "kRoleStay"
+        },
+        "0xcf0": {
+            "classGroup 0xd7c": "yy_hek_station_00",
+            "guide 0xd6c": "station_02",
+            "num 0xd9c": 1.0,
+            "role 0xd8c": "kRoleStay"
+        },
+        "0xda0": {
+            "classGroup 0xe4c": "yy_photo_man82",
+            "guide 0xe3c": "photo_man82",
+            "num 0xe8c": 1.0,
+            "role 0xe6c": "kRoleStay",
+            "somebodyId 0xe5c": 2.0,
+            "standardAppearance 0xe7c": true
+        },
+        "0xe90": {
+            "classGroup 0xf3c": "yy_photo_wom04",
+            "guide 0xf2c": "photo_wom04",
+            "num 0xf7c": 1.0,
+            "role 0xf5c": "kRoleStay",
+            "somebodyId 0xf4c": 2.0,
+            "standardAppearance 0xf6c": true
+        }
+    },
+    "bundle_pigeon 0x3780": {
+        "0x37c0": {
+            "birdNet 0x384c": "birdNet23",
+            "classGroup 0x385c": "yy_pigeon",
+            "label 0x383c": "bird",
+            "num 0x386c": 2.0
+        },
+        "0x3870": {
+            "birdNet 0x38fc": "birdNet27",
+            "classGroup 0x390c": "yy_pigeon",
+            "label 0x38ec": "bird",
+            "num 0x391c": 4.0
+        },
+        "0x3920": {
+            "birdNet 0x39ac": "birdNet31",
+            "classGroup 0x39bc": "yy_pigeon",
+            "label 0x399c": "bird",
+            "num 0x39cc": 4.0
+        }
+    }
+}

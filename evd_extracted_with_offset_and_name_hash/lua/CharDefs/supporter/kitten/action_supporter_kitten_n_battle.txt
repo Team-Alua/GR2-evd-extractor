@@ -1,0 +1,413 @@
+{
+    "params 53685f21 0x70": {
+        "action ff2e64c4 0xd0": {
+            "alight 50d5e6fb 0x3370": {
+                "downward_dist 04e3f057 0x340c": 5.0,
+                "rolling_incidence 472a73a1 0x3420": {
+                    "degree_thre 3380725c 0x346c": 30.0,
+                    "velocity_thre 1232f82b 0x347c": 15.0
+                },
+                "second ddd4f8ab 0x33fc": 5.0,
+                "velocity 321c7432 0x33ec": 6.599999904632568
+            },
+            "avoid 9e06552f 0x20b0": {
+                "back a221b45b 0x2110": {
+                    "accel 931a97e1 0x216c": 40.0,
+                    "duration 0dfda02f 0x218c": 1.0,
+                    "friction bbe21ba5 0x217c": 0.5
+                },
+                "side 5e5eba17 0x2190": {
+                    "accel 931a97e1 0x221c": 40.0,
+                    "alert_radius 201f486d 0x220c": 3.0,
+                    "duration 0dfda02f 0x223c": 1.0,
+                    "friction bbe21ba5 0x222c": 0.5
+                }
+            },
+            "bg2obj_bullet 76373759 0x800": {
+                "m_damage_type a5b744e0 0x96c": "blow",
+                "m_dst_velocity 6e43bda6 0x8fc": 30.0,
+                "m_duration_to_dst_velocity 230edfee 0x90c": 2.0,
+                "m_homing_live_to_time 1897b5df 0x93c": 1.0,
+                "m_homing_ratio d1e0e176 0x91c": 0.4000000059604645,
+                "m_homing_retire_degree f2a18d7a 0x92c": 30.0,
+                "m_init_velocity bf9afbfa 0x8ec": 8.0,
+                "m_keep_distance 322f05a0 0x95c": 20.0,
+                "m_power 665b9b61 0x94c": 30.0
+            },
+            "bgobj_shot 04a7b3c3 0x1620": {
+                "orbit 4f9f3ceb 0x1850": {
+                    "m_linear_damping fd7bf962 0x194c": 2.0,
+                    "m_linear_impulse_coeff 1ec547a8 0x193c": 5.0,
+                    "m_linear_velocity_max 97a4db1d 0x195c": 50.0,
+                    "m_radius_dst 470907fb 0x19ac": 2.5,
+                    "m_radius_duration 0c3b035b 0x19bc": 3.0,
+                    "m_radius_src d2dbcfa7 0x199c": 5.0,
+                    "m_velocity_degree_dst 1f8d02bd 0x197c": 15.0,
+                    "m_velocity_degree_src 0afb458c 0x196c": 8.0,
+                    "m_velocity_duration a3eb38dc 0x198c": 4.0
+                },
+                "scale 711c9782 0x1750": {
+                    "max 19e3a2d7 0x17ac": 0.8500000238418579,
+                    "min 57458fc9 0x179c": 0.5
+                },
+                "shoot 709615b4 0x19c0": {
+                    "damage_type c5871e0c 0x1c4c": "normal",
+                    "homing_live_to_time 38856bcc 0x1c1c": 3.5,
+                    "homing_retire_degree d2b0c76a 0x1c0c": 120.0,
+                    "keep_distance 52cd9072 0x1c3c": 15.0,
+                    "m_accel b3d4a521 0x1b9c": 70.0,
+                    "m_airResistDecel 624185fd 0x1b8c": 0.0,
+                    "m_distFromGround_Shoot a216cf34 0x1b6c": 5.0,
+                    "m_homingAccel 9f5b143b 0x1bcc": 70.0,
+                    "m_homingAirResistDecel 06033c15 0x1bbc": 0.0,
+                    "m_homingBrakeInCloseRange 2ea81da7 0x1bfc": 0.10000000149011612,
+                    "m_homingBreakRange e1f01daa 0x1bec": 0.5,
+                    "m_homingMaxVelocity 9ae55f8e 0x1bdc": 140.0,
+                    "m_initVelocity 44143c24 0x1b5c": 5.0,
+                    "m_linearDamping_Shoot 56f5cdeb 0x1b7c": 0.0,
+                    "m_maxVelocity 2e033575 0x1bac": 140.0,
+                    "power 46234ff5 0x1c2c": 15.0
+                },
+                "spawn 984d223a 0x17b0": {
+                    "count f4ddb139 0x17f0": {
+                        "max 19e3a2d7 0x184c": 10.0,
+                        "min 57458fc9 0x183c": 5.0
+                    }
+                },
+                "spread ce004a49 0x16f0": {
+                    "count_to_shoot_straight 571f11e6 0x174c": 3.0,
+                    "radius_from_target bcbe2d4e 0x173c": 5.0
+                }
+            },
+            "climb 8a766f43 0x2eb0": {
+                "time_to_live f79c92d7 0x2f0c": 100.0,
+                "velocity 321c7432 0x2efc": 15.0
+            },
+            "combo_kick c4ec54e0 0xe00": {
+                "transformed 9a5e7707 0xe40": {
+                    "homing_ratio 71b8f25a 0xe9c": 0.10000000149011612,
+                    "locomotion_weight a58709c1 0xe8c": 2.5
+                }
+            },
+            "damage 404ce959 0x2420": {
+                "air 174a3233 0x2480": {
+                    "back_blow 1fac1bcf 0x2500": {
+                        "backward c42b5d67 0x2560": {
+                            "accel 931a97e1 0x25ec": 20.0,
+                            "duration 0dfda02f 0x260c": 1.2000000476837158,
+                            "friction bbe21ba5 0x25fc": 0.0,
+                            "init_velocity 5f300163 0x25dc": 40.0
+                        },
+                        "downward 83971b34 0x2610": {
+                            "accel 931a97e1 0x269c": 9.800000190734863,
+                            "duration 0dfda02f 0x26bc": 3.0,
+                            "friction bbe21ba5 0x26ac": 0.0,
+                            "init_velocity 5f300163 0x268c": 0.0
+                        }
+                    },
+                    "invincible_sec 56d75e6b 0x24dc": 5.5,
+                    "thrown_blow 289dc4d7 0x26c0": {
+                        "accel 931a97e1 0x274c": 40.0,
+                        "duration 0dfda02f 0x276c": 1.2000000476837158,
+                        "friction bbe21ba5 0x275c": 0.0,
+                        "init_velocity 5f300163 0x273c": 20.0
+                    }
+                },
+                "ground 7ec7a19c 0x2770": {
+                    "invincible_sec 56d75e6b 0x27ac": 8.0
+                }
+            },
+            "damage_resist cf51d0fc 0x2ab0": {
+                "grab_shoot 2f6b8696 0x2c10": {
+                    "intrv_second 73f19ff7 0x2c5c": 3.0,
+                    "reduce_ratio 0b7f6553 0x2c70": {
+                        "end aa758e6a 0x2cdc": 0.8999999761581421,
+                        "per_damage 0c7717ce 0x2cec": 0.10000000149011612,
+                        "start df042b65 0x2ccc": 0.5
+                    }
+                },
+                "others f2c9a523 0x2cf0": {
+                    "intrv_second 73f19ff7 0x2d3c": 0.0,
+                    "reduce_ratio 0b7f6553 0x2d50": {
+                        "end aa758e6a 0x2dbc": 0.0,
+                        "per_damage 0c7717ce 0x2dcc": 0.0,
+                        "start df042b65 0x2dac": 0.0
+                    }
+                },
+                "scratch_tornado 67b74108 0x2b30": {
+                    "intrv_second 73f19ff7 0x2b7c": 3.0,
+                    "reduce_ratio 0b7f6553 0x2b90": {
+                        "end aa758e6a 0x2bfc": 0.8999999761581421,
+                        "per_damage 0c7717ce 0x2c0c": 0.10000000149011612,
+                        "start df042b65 0x2bec": 0.5
+                    }
+                }
+            },
+            "debri_bullet 9ae2d31e 0x1c50": {
+                "held 7e847124 0x1c90": {
+                    "front d8db79e1 0x1cec": 3.0,
+                    "height 42bbbdd5 0x1cfc": 0.5,
+                    "second ddd4f8ab 0x1d0c": 6.0
+                }
+            },
+            "fallkick 0e0c6ac2 0x970": {
+                "duration 0dfda02f 0xa3c": 2.0,
+                "homing_ratio 71b8f25a 0xa4c": 0.18000000715255737,
+                "homing_retire_degree d2b0c76a 0xa5c": 5.0,
+                "power 46234ff5 0xa7c": 20.0,
+                "time e49b3c5d 0xa6c": 3.0,
+                "velocity_dst 8ed771ad 0xa2c": 22.0,
+                "velocity_src 9b881355 0xa1c": 10.0
+            },
+            "fallkick_drill cc59ac16 0xa80": {
+                "angular_velocity 092cae2d 0xc10": {
+                    "dst 9c7a23d3 0xc7c": 0.10000000149011612,
+                    "duration 0dfda02f 0xc8c": 0.15000000596046448,
+                    "src c9e13cd3 0xc6c": 0.0
+                },
+                "contact_time d5a866ff 0xb90": {
+                    "to_enemy_parts b22bf548 0xbec": 5.0,
+                    "to_human d6b12eaf 0xbfc": 1.0,
+                    "to_others f63b5410 0xc0c": 0.5
+                },
+                "disable_sec_passed_through fc372bae 0xb5c": 1.5,
+                "dist_from_target be5a52ab 0xb3c": 1.0,
+                "dist_passed_through 8c6bc162 0xb4c": 0.0,
+                "no_damage_sec e489371e 0xb2c": 0.5,
+                "velocity 321c7432 0xc90": {
+                    "dst 9c7a23d3 0xd8c": 30.0,
+                    "duration 0dfda02f 0xd9c": 1.0,
+                    "limit 34d9da32 0xdac": 40.0,
+                    "resume_dist 6f2f6c6b 0xdfc": 20.0,
+                    "resume_dst f608889e 0xdcc": 50.0,
+                    "resume_duration aba2e29c 0xddc": 0.5,
+                    "resume_limit 9ab71cf7 0xdec": 50.0,
+                    "resume_src 638b19e6 0xdbc": 40.0,
+                    "src c9e13cd3 0xd7c": 0.0
+                }
+            },
+            "follow 704f6c5b 0x28b0": {
+                "miner 8c4b21f7 0x2970": {
+                    "dist_of_keeping_from_owner_end ba3c0035 0x29cc": 10.0,
+                    "dist_of_keeping_from_owner_start 2f1fe214 0x29bc": 40.0
+                },
+                "normal 529c8be6 0x2910": {
+                    "dist_of_keeping_from_owner_end ba3c0035 0x296c": 10.0,
+                    "dist_of_keeping_from_owner_start 2f1fe214 0x295c": 40.0
+                }
+            },
+            "gravity_bullet d290e6ba 0x1140": {
+                "orbit 4f9f3ceb 0x1220": {
+                    "m_linear_damping fd7bf962 0x131c": 2.0,
+                    "m_linear_impulse_coeff 1ec547a8 0x130c": 5.0,
+                    "m_linear_velocity_max 97a4db1d 0x132c": 50.0,
+                    "m_radius_dst 470907fb 0x137c": 1.5,
+                    "m_radius_duration 0c3b035b 0x138c": 3.0,
+                    "m_radius_src d2dbcfa7 0x136c": 3.0,
+                    "m_velocity_degree_dst 1f8d02bd 0x134c": 15.0,
+                    "m_velocity_degree_src 0afb458c 0x133c": 8.0,
+                    "m_velocity_duration a3eb38dc 0x135c": 4.0
+                },
+                "scale 711c9782 0x11c0": {
+                    "max 19e3a2d7 0x121c": 0.8500000238418579,
+                    "min 57458fc9 0x120c": 0.5
+                },
+                "shoot 709615b4 0x1390": {
+                    "damage_type c5871e0c 0x161c": "normal",
+                    "homing_live_to_time 38856bcc 0x15ec": 3.5,
+                    "homing_retire_degree d2b0c76a 0x15dc": 120.0,
+                    "keep_distance 52cd9072 0x160c": 15.0,
+                    "m_accel b3d4a521 0x156c": 5.0,
+                    "m_airResistDecel 624185fd 0x155c": 1.0,
+                    "m_distFromGround_Shoot a216cf34 0x153c": 5.0,
+                    "m_homingAccel 9f5b143b 0x159c": 70.0,
+                    "m_homingAirResistDecel 06033c15 0x158c": 65.0,
+                    "m_homingBrakeInCloseRange 2ea81da7 0x15cc": 0.10000000149011612,
+                    "m_homingBreakRange e1f01daa 0x15bc": 0.5,
+                    "m_homingMaxVelocityCoeff d388a230 0x15ac": 80.0,
+                    "m_initVelocity 44143c24 0x152c": 5.0,
+                    "m_linearDamping_Shoot 56f5cdeb 0x154c": 10.0,
+                    "m_maxVelocityCoeff bf0b35c7 0x157c": 15.0,
+                    "power 46234ff5 0x15fc": 15.0
+                }
+            },
+            "gravity_color d1b976da 0x2dd0": {
+                "change_duration aaf1e8e4 0x2e30": {
+                    "delay d8f1d14e 0x2e8c": 0.10000000149011612,
+                    "from 7580cd95 0x2eac": 0.5,
+                    "to 24484542 0x2e9c": 1.0
+                },
+                "degree_to_revert 16c6be8b 0x2e2c": 5.0
+            },
+            "groggy 4a82fcb4 0x27b0": {
+                "items 8f33793a 0x2810": {
+                    "0x2830": {
+                        "damage_amount 8159e118 0x28ac": 20.0,
+                        "life_ratio 73e81d8c 0x288c": 0.5,
+                        "second ddd4f8ab 0x289c": 1.0
+                    }
+                },
+                "type 4df12751 0x27fc": "none"
+            },
+            "inertia f11083cd 0x3120": {
+                "fallkick_drill cc59ac16 0x3290": {
+                    "air 174a3233 0x32f0": {
+                        "duration 0dfda02f 0x332c": 0.5
+                    },
+                    "ground 7ec7a19c 0x3330": {
+                        "duration 0dfda02f 0x336c": 0.5
+                    }
+                },
+                "follow 704f6c5b 0x3250": {
+                    "duration 0dfda02f 0x328c": 1.0
+                },
+                "miner 8c4b21f7 0x3210": {
+                    "friction bbe21ba5 0x324c": 0.5
+                },
+                "normal 529c8be6 0x31d0": {
+                    "friction bbe21ba5 0x320c": 0.15000000596046448
+                }
+            },
+            "m_bind_cylinder_height 11f1e764 0x76c": 25.0,
+            "m_bind_cylinder_radius 508e5002 0x75c": 5.0,
+            "m_bind_sec 24568866 0x74c": 20.0,
+            "m_bind_valid 9fa916a0 0x73c": 0.0,
+            "m_combo_chase_move_velocity f22e432f 0x57c": 30.0,
+            "m_combo_chase_power 3acea36a 0x58c": 10.0,
+            "m_combo_kick_power c2fe55db 0x59c": 10.0,
+            "m_event_assist_await_time 66b16e3c 0x5dc": 5.0,
+            "m_event_assist_camera_forbidden_dist_during_fallkick e8ac5658 0x5fc": 1.0,
+            "m_event_assist_timeout fbae4492 0x5ec": 3.0,
+            "m_fallkick_double_dist 13d5f5f9 0x77c": 50.0,
+            "m_fallkick_double_interval_sec 00eecbae 0x78c": 1.0,
+            "m_idle_air_time_max 4dac4584 0x5bc": 0.20000000298023224,
+            "m_idle_air_time_min f301326e 0x5cc": 0.10000000149011612,
+            "m_jump_accel_friction 2110af52 0x71c": 0.0,
+            "m_jump_accel_rise fa1cbfc4 0x70c": 40.0,
+            "m_jump_accel_sec 00915fc1 0x72c": 0.20000000298023224,
+            "m_jump_in_air_friction eddf9d8f 0x6ec": 0.05000000074505806,
+            "m_jump_landing_friction b82e24fc 0x6fc": 0.5,
+            "m_life_max 2e1d2ad7 0x79c": 800.0,
+            "m_press_fall_cylinder_downward_offset ac13b84e 0x64c": 2.0,
+            "m_press_fall_cylinder_half_height 557a50a2 0x63c": 0.10000000149011612,
+            "m_press_fall_cylinder_radius 827e8136 0x62c": 2.0,
+            "m_press_fall_cylinder_velocity b77878fd 0x65c": 10.0,
+            "m_press_fall_power d2b4ab04 0x66c": 300.0,
+            "m_press_fall_valid bd3c292e 0x61c": 0.0,
+            "move_around 6840a894 0x1f20": {
+                "ground 7ec7a19c 0x1f60": {
+                    "accel 931a97e1 0x206c": 15.0,
+                    "dist_to_land fd358dd1 0x208c": 3.0,
+                    "height 42bbbdd5 0x209c": 0.30000001192092896,
+                    "optimized_dist e3e8a4f7 0x20ac": 3.0,
+                    "pitch_deg 6e3ddda4 0x204c": 45.0,
+                    "sliding_friction 68bd0b5a 0x207c": 0.20000000298023224,
+                    "type 4df12751 0x203c": 0.0,
+                    "velocity 321c7432 0x205c": 25.0
+                }
+            },
+            "move_brake bc169c4d 0x3480": {
+                "normal 529c8be6 0x34c0": {
+                    "dist a94b604c 0x352c": 5.0,
+                    "end_velocity a8a11ed8 0x353c": 5.0,
+                    "valid 71ea7c43 0x351c": true
+                }
+            },
+            "move_velocity 0610aec6 0x1d10": {
+                "fatal 79f6b73e 0x1e00": {
+                    "feed 256635ab 0x1e4c": 25.0,
+                    "receive a2c5d7fd 0x1e5c": 25.0
+                },
+                "follow 704f6c5b 0x1dac": 12.0,
+                "miner 8c4b21f7 0x1ec0": {
+                    "move_around 6840a894 0x1f1c": 15.0,
+                    "move_in_air b9f57106 0x1f0c": 15.0
+                },
+                "move_around 6840a894 0x1dbc": 8.0,
+                "prepare_jupiter 0abf900a 0x1dcc": 25.0,
+                "special 30d540d9 0x1e60": {
+                    "jupiter 46cd50b0 0x1ebc": 25.0,
+                    "mars 680a7bdf 0x1eac": 25.0
+                }
+            },
+            "scratch_tornado 67b74108 0xea0": {
+                "double 080feba0 0xfd0": {
+                    "orbit_radius_dst da6e999d 0x112c": 0.15000000596046448,
+                    "orbit_radius_duration ef29426d 0x113c": 3.0,
+                    "orbit_radius_src b7324466 0x111c": 0.30000001192092896,
+                    "orbit_velocity_degree_dst 28b67820 0x10fc": 40.0,
+                    "orbit_velocity_degree_src d55382af 0x10ec": 8.0,
+                    "orbit_velocity_duration 5cbaca2a 0x110c": 4.0,
+                    "pursue_ahead_dist d6266412 0x10cc": 0.0,
+                    "pursue_dir_type 20bcfbe9 0x10dc": 0.0,
+                    "pursue_duration 303b7ba9 0x10bc": 1.5
+                },
+                "single e946237f 0xf00": {
+                    "accel 931a97e1 0xf8c": 0.0,
+                    "homing_ratio 71b8f25a 0xfac": 0.8999999761581421,
+                    "init_velocity 5f300163 0xf9c": 14.0,
+                    "power 46234ff5 0xfcc": 10.0,
+                    "time e49b3c5d 0xfbc": 10.0
+                }
+            },
+            "sound 94950d0e 0x2f10": {
+                "move_on_ground 2a1a8dab 0x2f70": {
+                    "run ca4ecd2a 0x2fd0": {
+                        "step_00 50fdc212 0x307c": 7.0,
+                        "step_01 e3fec213 0x308c": 8.0,
+                        "step_02 7600c314 0x309c": 9.0,
+                        "step_03 0902c315 0x30ac": 10.0,
+                        "step_04 9c03c316 0x30bc": 10.0,
+                        "step_05 2f05c317 0x30cc": 10.0,
+                        "step_06 c206c318 0x30dc": 10.0
+                    },
+                    "walk 102226a0 0x2fbc": 0.0
+                },
+                "raven_call 6ae6e489 0x30e0": {
+                    "delay d8f1d14e 0x311c": 1.0
+                }
+            },
+            "step 0f1a44c7 0x2240": {
+                "air 174a3233 0x22a0": {
+                    "back a221b45b 0x22e0": {
+                        "accel 931a97e1 0x233c": 40.0,
+                        "duration 0dfda02f 0x235c": 1.2000000476837158,
+                        "friction bbe21ba5 0x234c": 0.5
+                    }
+                },
+                "ground 7ec7a19c 0x2360": {
+                    "back a221b45b 0x23a0": {
+                        "accel 931a97e1 0x23fc": 15.0,
+                        "duration 0dfda02f 0x241c": 1.0,
+                        "friction bbe21ba5 0x240c": 0.5
+                    }
+                }
+            },
+            "warp af7afa8e 0x29d0": {
+                "normal 529c8be6 0x2a10": {
+                    "dist_to_player adbb10bc 0x2a50": {
+                        "dst 9c7a23d3 0x2aac": 5.0,
+                        "src c9e13cd3 0x2a9c": 300.0
+                    }
+                }
+            }
+        },
+        "camera_view 662085fb 0x3540": {
+            "additional_dist_back 55dd6a94 0x36cc": 5.0,
+            "additional_dist_intp_duration_of_enter 7ba7de6e 0x36ec": 0.4000000059604645,
+            "additional_dist_intp_duration_of_leave 1a9120a1 0x36fc": 3.0,
+            "additional_dist_slice c4b1651a 0x36dc": 5.0,
+            "aiming_power f05856ab 0x372c": 1.0,
+            "damping_ratio_of_enter 96b2e8be 0x370c": 0.5,
+            "damping_ratio_of_leave 4f01eff1 0x371c": 0.20000000298023224,
+            "dist_adjusting_power 19cdbc6f 0x373c": 0.30000001192092896,
+            "enable_fall_view_control d0bfad5e 0x36bc": true,
+            "enable_subjective_demo_view_control 81492084 0x376c": false,
+            "force_factor 5ac7b34f 0x374c": 0.0,
+            "interpolator_type b9fecc2f 0x375c": 1.0,
+            "priority 09e3e494 0x36ac": 0.0,
+            "type 4df12751 0x368c": 1.0,
+            "valid_dist_from_player 2507c752 0x369c": 3.0
+        }
+    }
+}

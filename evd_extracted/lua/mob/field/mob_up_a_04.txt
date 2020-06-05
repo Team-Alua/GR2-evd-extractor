@@ -1,16 +1,16 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "water_01"
         },
-        "guides 0x1e0": {
+        "guides": {
             "0x200": {
-                "name 0x24c": "water_01",
-                "points 0x260": {
+                "name": "water_01",
+                "points": {
                     "0x2a0": {
                         "0x2bc": -0.36545291543006897,
                         "0x2cc": 26.72846031188965,
@@ -30,17 +30,17 @@
             }
         }
     },
-    "volumeGroup 0x360": {
-        "__numVolumes 0x3ac": 0.0,
-        "root 0x3bc": null
+    "volumeGroup": {
+        "__numVolumes": 0.0,
+        "root": null
     },
-    "zoneGroup 0x3c0": {
-        "__overlapIndices 0x4b0": {
-            "8 0x4ec": 0.0
+    "zoneGroup": {
+        "__overlapIndices": {
+            "8": 0.0
         },
-        "_numStops 0x46c": 8.0,
-        "_numZones 0x47c": 3.0,
-        "stops 0x4f0": {
+        "_numStops": 8.0,
+        "_numZones": 3.0,
+        "stops": {
             "0x580": {
                 "0x59c": 30.426525115966797,
                 "0x5ac": 32.49445343017578,
@@ -90,7 +90,7 @@
                 "0x7fc": 2.573655128479004
             }
         },
-        "zoneTree 0x800": {
+        "zoneTree": {
             "0x81c": "mob_zones",
             "0x830": {
                 "0x84c": "garden",
@@ -99,18 +99,18 @@
                 }
             }
         },
-        "zones 0x880": {
+        "zones": {
             "0x8c0": {
-                "name 0x90c": "mob_zones",
-                "strips 0x920": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0x930": {
-                "name 0x97c": "garden",
-                "strips 0x990": {}
+                "name": "garden",
+                "strips": {}
             },
             "0x9a0": {
-                "name 0x9ec": "space_01",
-                "strips 0xa00": {
+                "name": "space_01",
+                "strips": {
                     "0xa20": {
                         "0xa3c": 0.0,
                         "0xa4c": 1.0,

@@ -1,0 +1,479 @@
+{
+    "easy 1b7a5305 0x1730": {
+        "brain f3912883 0x1800": {
+            "ai_grade 17b9230d 0x18cc": "boss",
+            "ai_type a8e9a23c 0x189c": "kali",
+            "animjoint 9c2354a2 0x18ac": "kali",
+            "race 98c2bb8e 0x18bc": "human",
+            "type 4df12751 0x188c": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0x2d50": {
+            "find 5a85f0bd 0x2d9c": 1000.0,
+            "lose 785834d1 0x2dac": 1000.0
+        },
+        "enemy_actions 877ce571 0x1c70": {
+            "attack_a 2587aac2 0x1f30": {
+                "damage_cumulation e2d9c67e 0x208c": 0.0,
+                "damage_type c5871e0c 0x206c": "comboblow",
+                "force 8488a979 0x204c": 2.0,
+                "hit_se 23cc9c38 0x207c": "ene_kali_punch",
+                "power 46234ff5 0x201c": 60.0,
+                "range d20cdcfa 0x209c": 0.0,
+                "rate_of_bg 359b8dca 0x203c": 125.0,
+                "rate_of_power 037c9b8a 0x202c": 12.0,
+                "upper_force bb35102a 0x205c": 0.0
+            },
+            "attack_b 6c82aabf 0x20a0": {
+                "damage_cumulation e2d9c67e 0x21fc": 0.0,
+                "damage_type c5871e0c 0x21dc": "comboknockback",
+                "force 8488a979 0x21bc": 2.0,
+                "hit_se 23cc9c38 0x21ec": "ene_kali_kick",
+                "power 46234ff5 0x218c": 60.0,
+                "range d20cdcfa 0x220c": 0.0,
+                "rate_of_bg 359b8dca 0x21ac": 125.0,
+                "rate_of_power 037c9b8a 0x219c": 12.0,
+                "upper_force bb35102a 0x21cc": 0.0
+            },
+            "attack_c ff83aac0 0x2210": {
+                "damage_cumulation e2d9c67e 0x236c": 0.0,
+                "damage_type c5871e0c 0x234c": "comboblow",
+                "force 8488a979 0x232c": 2.0,
+                "hit_se 23cc9c38 0x235c": "ene_kali_backkick",
+                "power 46234ff5 0x22fc": 60.0,
+                "range d20cdcfa 0x237c": 0.0,
+                "rate_of_bg 359b8dca 0x231c": 125.0,
+                "rate_of_power 037c9b8a 0x230c": 12.0,
+                "upper_force bb35102a 0x233c": 0.0
+            },
+            "attack_grab_air_throw 6cb0ff88 0x2920": {
+                "damage_cumulation e2d9c67e 0x2a5c": 0.0,
+                "damage_type c5871e0c 0x2a4c": "comboblow",
+                "force 8488a979 0x2a2c": 0.0,
+                "power 46234ff5 0x29fc": 100.0,
+                "range d20cdcfa 0x2a6c": 0.0,
+                "rate_of_bg 359b8dca 0x2a1c": 10000.0,
+                "rate_of_power 037c9b8a 0x2a0c": 20.0,
+                "upper_force bb35102a 0x2a3c": 0.0
+            },
+            "attack_grab_throw a3d0f5e6 0x27d0": {
+                "damage_cumulation e2d9c67e 0x290c": 0.0,
+                "damage_type c5871e0c 0x28fc": "comboblow",
+                "force 8488a979 0x28dc": 0.0,
+                "power 46234ff5 0x28ac": 100.0,
+                "range d20cdcfa 0x291c": 0.0,
+                "rate_of_bg 359b8dca 0x28cc": 10000.0,
+                "rate_of_power 037c9b8a 0x28bc": 20.0,
+                "upper_force bb35102a 0x28ec": 0.0
+            },
+            "crystal_attack_00 1b85997e 0x2a70": {
+                "damage_cumulation e2d9c67e 0x2bcc": 0.0,
+                "damage_type c5871e0c 0x2bac": "comboblow",
+                "force 8488a979 0x2b8c": 1.0,
+                "hit_se 23cc9c38 0x2bbc": "ene_kali_crystalattack",
+                "power 46234ff5 0x2b5c": 80.0,
+                "range d20cdcfa 0x2bdc": 0.0,
+                "rate_of_bg 359b8dca 0x2b7c": 10000.0,
+                "rate_of_power 037c9b8a 0x2b6c": 20.0,
+                "upper_force bb35102a 0x2b9c": 0.0
+            },
+            "crystal_attack_01 8883997d 0x2be0": {
+                "damage_cumulation e2d9c67e 0x2d3c": 0.0,
+                "damage_type c5871e0c 0x2d1c": "comboblow",
+                "force 8488a979 0x2cfc": 1.0,
+                "hit_se 23cc9c38 0x2d2c": "ene_kali_crystalattack",
+                "power 46234ff5 0x2ccc": 85.0,
+                "range d20cdcfa 0x2d4c": 0.0,
+                "rate_of_bg 359b8dca 0x2cec": 10000.0,
+                "rate_of_power 037c9b8a 0x2cdc": 22.0,
+                "upper_force bb35102a 0x2d0c": 0.0
+            },
+            "dropkick ea2d1a46 0x2380": {
+                "damage_cumulation e2d9c67e 0x24dc": 0.0,
+                "damage_type c5871e0c 0x24bc": "comboblow",
+                "force 8488a979 0x249c": 3.0,
+                "hit_se 23cc9c38 0x24cc": "ene_kali_dropkick_success",
+                "power 46234ff5 0x246c": 80.0,
+                "range d20cdcfa 0x24ec": 0.0,
+                "rate_of_bg 359b8dca 0x248c": 150.0,
+                "rate_of_power 037c9b8a 0x247c": 15.0,
+                "upper_force bb35102a 0x24ac": 0.0
+            },
+            "jump_attack_a 323a95b2 0x2660": {
+                "damage_cumulation e2d9c67e 0x27bc": 0.0,
+                "damage_type c5871e0c 0x279c": "comboblow",
+                "force 8488a979 0x277c": 10.0,
+                "hit_se 23cc9c38 0x27ac": "ene_kali_punch",
+                "power 46234ff5 0x274c": 80.0,
+                "range d20cdcfa 0x27cc": 0.0,
+                "rate_of_bg 359b8dca 0x276c": 100.0,
+                "rate_of_power 037c9b8a 0x275c": 17.0,
+                "upper_force bb35102a 0x278c": 0.0
+            },
+            "spawn 984d223a 0x1e20": {
+                "damage_cumulation e2d9c67e 0x1f1c": 0.0,
+                "damage_type c5871e0c 0x1f0c": "normal",
+                "force 8488a979 0x1eec": 1.0,
+                "power 46234ff5 0x1ecc": 20.0,
+                "range d20cdcfa 0x1f2c": 2.5,
+                "rate_of_power 037c9b8a 0x1edc": -2.0,
+                "upper_force bb35102a 0x1efc": 0.0
+            },
+            "tackle af6a1142 0x24f0": {
+                "damage_cumulation e2d9c67e 0x264c": 0.0,
+                "damage_type c5871e0c 0x262c": "comboblow",
+                "force 8488a979 0x260c": 2.0,
+                "hit_se 23cc9c38 0x263c": "ene_kali_punch",
+                "power 46234ff5 0x25dc": 120.0,
+                "range d20cdcfa 0x265c": 0.0,
+                "rate_of_bg 359b8dca 0x25fc": 10000.0,
+                "rate_of_power 037c9b8a 0x25ec": 20.0,
+                "upper_force bb35102a 0x261c": 1.0
+            }
+        },
+        "enemy_body f895dcbb 0x18d0": {
+            "ash_se 649d8f77 0x194c": "ene_disappear_L",
+            "battle_field_prio 5324db77 0x197c": 99.0,
+            "battle_field_range 7e1a8055 0x196c": 7.0,
+            "health 8fed986b 0x195c": 10.0
+        },
+        "enemy_parts 7e7c4e31 0x1980": {
+            "loc_top 91f85c50 0x19c0": {
+                "angle 184454ad 0x1c3c": 360.0,
+                "body_damage ebb248f9 0x1b7c": 10.0,
+                "core 7e605edd 0x1c2c": true,
+                "crowspecial_rate a47a385e 0x1c0c": 1.0,
+                "damage_motion_type 08588c30 0x1c4c": "FRONT",
+                "debribullet_rate 28d934a7 0x1bec": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x1bfc": 1.0,
+                "gravitythrow_rate 12b575d6 0x1bbc": 0.4000000059604645,
+                "gravitytyphoon_rate b15c2e8f 0x1b9c": 0.14000000059604645,
+                "health 8fed986b 0x1b6c": 3500.0,
+                "homing_angle e1eaa8a7 0x1c5c": 360.0,
+                "lockon 3b8d25f8 0x1c1c": true,
+                "microblackhole_rate a7e6ad6b 0x1bac": 0.800000011920929,
+                "offset_z af6a5e66 0x1c6c": 0.15000000596046448,
+                "penetrate_rate b6dedea8 0x1bcc": 0.25,
+                "scratchtornado_rate 85446029 0x1b8c": 0.20000000298023224,
+                "vortex_rate 20f1fc29 0x1bdc": 0.5
+            }
+        }
+    },
+    "hard dc5bc3e4 0x2db0": {
+        "brain f3912883 0x2e80": {
+            "ai_grade 17b9230d 0x2f4c": "boss",
+            "ai_type a8e9a23c 0x2f1c": "kali",
+            "animjoint 9c2354a2 0x2f2c": "kali",
+            "race 98c2bb8e 0x2f3c": "human",
+            "type 4df12751 0x2f0c": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0x43d0": {
+            "find 5a85f0bd 0x441c": 1000.0,
+            "lose 785834d1 0x442c": 1000.0
+        },
+        "enemy_actions 877ce571 0x32f0": {
+            "attack_a 2587aac2 0x35b0": {
+                "damage_cumulation e2d9c67e 0x370c": 0.0,
+                "damage_type c5871e0c 0x36ec": "comboblow",
+                "force 8488a979 0x36cc": 2.0,
+                "hit_se 23cc9c38 0x36fc": "ene_kali_punch",
+                "power 46234ff5 0x369c": 60.0,
+                "range d20cdcfa 0x371c": 0.0,
+                "rate_of_bg 359b8dca 0x36bc": 125.0,
+                "rate_of_power 037c9b8a 0x36ac": 12.0,
+                "upper_force bb35102a 0x36dc": 0.0
+            },
+            "attack_b 6c82aabf 0x3720": {
+                "damage_cumulation e2d9c67e 0x387c": 0.0,
+                "damage_type c5871e0c 0x385c": "comboknockback",
+                "force 8488a979 0x383c": 2.0,
+                "hit_se 23cc9c38 0x386c": "ene_kali_kick",
+                "power 46234ff5 0x380c": 60.0,
+                "range d20cdcfa 0x388c": 0.0,
+                "rate_of_bg 359b8dca 0x382c": 125.0,
+                "rate_of_power 037c9b8a 0x381c": 12.0,
+                "upper_force bb35102a 0x384c": 0.0
+            },
+            "attack_c ff83aac0 0x3890": {
+                "damage_cumulation e2d9c67e 0x39ec": 0.0,
+                "damage_type c5871e0c 0x39cc": "comboblow",
+                "force 8488a979 0x39ac": 2.0,
+                "hit_se 23cc9c38 0x39dc": "ene_kali_backkick",
+                "power 46234ff5 0x397c": 60.0,
+                "range d20cdcfa 0x39fc": 0.0,
+                "rate_of_bg 359b8dca 0x399c": 125.0,
+                "rate_of_power 037c9b8a 0x398c": 12.0,
+                "upper_force bb35102a 0x39bc": 0.0
+            },
+            "attack_grab_air_throw 6cb0ff88 0x3fa0": {
+                "damage_cumulation e2d9c67e 0x40dc": 0.0,
+                "damage_type c5871e0c 0x40cc": "comboblow",
+                "force 8488a979 0x40ac": 0.0,
+                "power 46234ff5 0x407c": 100.0,
+                "range d20cdcfa 0x40ec": 0.0,
+                "rate_of_bg 359b8dca 0x409c": 10000.0,
+                "rate_of_power 037c9b8a 0x408c": 20.0,
+                "upper_force bb35102a 0x40bc": 0.0
+            },
+            "attack_grab_throw a3d0f5e6 0x3e50": {
+                "damage_cumulation e2d9c67e 0x3f8c": 0.0,
+                "damage_type c5871e0c 0x3f7c": "comboblow",
+                "force 8488a979 0x3f5c": 0.0,
+                "power 46234ff5 0x3f2c": 100.0,
+                "range d20cdcfa 0x3f9c": 0.0,
+                "rate_of_bg 359b8dca 0x3f4c": 10000.0,
+                "rate_of_power 037c9b8a 0x3f3c": 20.0,
+                "upper_force bb35102a 0x3f6c": 0.0
+            },
+            "crystal_attack_00 1b85997e 0x40f0": {
+                "damage_cumulation e2d9c67e 0x424c": 0.0,
+                "damage_type c5871e0c 0x422c": "comboblow",
+                "force 8488a979 0x420c": 1.0,
+                "hit_se 23cc9c38 0x423c": "ene_kali_crystalattack",
+                "power 46234ff5 0x41dc": 80.0,
+                "range d20cdcfa 0x425c": 0.0,
+                "rate_of_bg 359b8dca 0x41fc": 10000.0,
+                "rate_of_power 037c9b8a 0x41ec": 20.0,
+                "upper_force bb35102a 0x421c": 0.0
+            },
+            "crystal_attack_01 8883997d 0x4260": {
+                "damage_cumulation e2d9c67e 0x43bc": 0.0,
+                "damage_type c5871e0c 0x439c": "comboblow",
+                "force 8488a979 0x437c": 1.0,
+                "hit_se 23cc9c38 0x43ac": "ene_kali_crystalattack",
+                "power 46234ff5 0x434c": 85.0,
+                "range d20cdcfa 0x43cc": 0.0,
+                "rate_of_bg 359b8dca 0x436c": 10000.0,
+                "rate_of_power 037c9b8a 0x435c": 22.0,
+                "upper_force bb35102a 0x438c": 0.0
+            },
+            "dropkick ea2d1a46 0x3a00": {
+                "damage_cumulation e2d9c67e 0x3b5c": 0.0,
+                "damage_type c5871e0c 0x3b3c": "comboblow",
+                "force 8488a979 0x3b1c": 3.0,
+                "hit_se 23cc9c38 0x3b4c": "ene_kali_dropkick_success",
+                "power 46234ff5 0x3aec": 80.0,
+                "range d20cdcfa 0x3b6c": 0.0,
+                "rate_of_bg 359b8dca 0x3b0c": 150.0,
+                "rate_of_power 037c9b8a 0x3afc": 15.0,
+                "upper_force bb35102a 0x3b2c": 0.0
+            },
+            "jump_attack_a 323a95b2 0x3ce0": {
+                "damage_cumulation e2d9c67e 0x3e3c": 0.0,
+                "damage_type c5871e0c 0x3e1c": "comboblow",
+                "force 8488a979 0x3dfc": 10.0,
+                "hit_se 23cc9c38 0x3e2c": "ene_kali_punch",
+                "power 46234ff5 0x3dcc": 80.0,
+                "range d20cdcfa 0x3e4c": 0.0,
+                "rate_of_bg 359b8dca 0x3dec": 100.0,
+                "rate_of_power 037c9b8a 0x3ddc": 17.0,
+                "upper_force bb35102a 0x3e0c": 0.0
+            },
+            "spawn 984d223a 0x34a0": {
+                "damage_cumulation e2d9c67e 0x359c": 0.0,
+                "damage_type c5871e0c 0x358c": "normal",
+                "force 8488a979 0x356c": 1.0,
+                "power 46234ff5 0x354c": 20.0,
+                "range d20cdcfa 0x35ac": 2.5,
+                "rate_of_power 037c9b8a 0x355c": -2.0,
+                "upper_force bb35102a 0x357c": 0.0
+            },
+            "tackle af6a1142 0x3b70": {
+                "damage_cumulation e2d9c67e 0x3ccc": 0.0,
+                "damage_type c5871e0c 0x3cac": "comboblow",
+                "force 8488a979 0x3c8c": 2.0,
+                "hit_se 23cc9c38 0x3cbc": "ene_kali_punch",
+                "power 46234ff5 0x3c5c": 120.0,
+                "range d20cdcfa 0x3cdc": 0.0,
+                "rate_of_bg 359b8dca 0x3c7c": 10000.0,
+                "rate_of_power 037c9b8a 0x3c6c": 20.0,
+                "upper_force bb35102a 0x3c9c": 1.0
+            }
+        },
+        "enemy_body f895dcbb 0x2f50": {
+            "ash_se 649d8f77 0x2fcc": "ene_disappear_L",
+            "battle_field_prio 5324db77 0x2ffc": 99.0,
+            "battle_field_range 7e1a8055 0x2fec": 7.0,
+            "health 8fed986b 0x2fdc": 10.0
+        },
+        "enemy_parts 7e7c4e31 0x3000": {
+            "loc_top 91f85c50 0x3040": {
+                "angle 184454ad 0x32bc": 360.0,
+                "body_damage ebb248f9 0x31fc": 10.0,
+                "core 7e605edd 0x32ac": true,
+                "crowspecial_rate a47a385e 0x328c": 1.0,
+                "damage_motion_type 08588c30 0x32cc": "FRONT",
+                "debribullet_rate 28d934a7 0x326c": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x327c": 1.0,
+                "gravitythrow_rate 12b575d6 0x323c": 0.4000000059604645,
+                "gravitytyphoon_rate b15c2e8f 0x321c": 0.14000000059604645,
+                "health 8fed986b 0x31ec": 3500.0,
+                "homing_angle e1eaa8a7 0x32dc": 360.0,
+                "lockon 3b8d25f8 0x329c": true,
+                "microblackhole_rate a7e6ad6b 0x322c": 0.800000011920929,
+                "offset_z af6a5e66 0x32ec": 0.15000000596046448,
+                "penetrate_rate b6dedea8 0x324c": 0.25,
+                "scratchtornado_rate 85446029 0x320c": 0.20000000298023224,
+                "vortex_rate 20f1fc29 0x325c": 0.5
+            }
+        }
+    },
+    "normal 529c8be6 0xb0": {
+        "brain f3912883 0x180": {
+            "ai_grade 17b9230d 0x24c": "boss",
+            "ai_type a8e9a23c 0x21c": "kali",
+            "animjoint 9c2354a2 0x22c": "kali",
+            "race 98c2bb8e 0x23c": "human",
+            "type 4df12751 0x20c": "EnemyBrain"
+        },
+        "enemy_action_common 627efe6e 0x16d0": {
+            "find 5a85f0bd 0x171c": 1000.0,
+            "lose 785834d1 0x172c": 1000.0
+        },
+        "enemy_actions 877ce571 0x5f0": {
+            "attack_a 2587aac2 0x8b0": {
+                "damage_cumulation e2d9c67e 0xa0c": 0.0,
+                "damage_type c5871e0c 0x9ec": "comboblow",
+                "force 8488a979 0x9cc": 2.0,
+                "hit_se 23cc9c38 0x9fc": "ene_kali_punch",
+                "power 46234ff5 0x99c": 60.0,
+                "range d20cdcfa 0xa1c": 0.0,
+                "rate_of_bg 359b8dca 0x9bc": 125.0,
+                "rate_of_power 037c9b8a 0x9ac": 12.0,
+                "upper_force bb35102a 0x9dc": 0.0
+            },
+            "attack_b 6c82aabf 0xa20": {
+                "damage_cumulation e2d9c67e 0xb7c": 0.0,
+                "damage_type c5871e0c 0xb5c": "comboknockback",
+                "force 8488a979 0xb3c": 2.0,
+                "hit_se 23cc9c38 0xb6c": "ene_kali_kick",
+                "power 46234ff5 0xb0c": 60.0,
+                "range d20cdcfa 0xb8c": 0.0,
+                "rate_of_bg 359b8dca 0xb2c": 125.0,
+                "rate_of_power 037c9b8a 0xb1c": 12.0,
+                "upper_force bb35102a 0xb4c": 0.0
+            },
+            "attack_c ff83aac0 0xb90": {
+                "damage_cumulation e2d9c67e 0xcec": 0.0,
+                "damage_type c5871e0c 0xccc": "comboblow",
+                "force 8488a979 0xcac": 2.0,
+                "hit_se 23cc9c38 0xcdc": "ene_kali_backkick",
+                "power 46234ff5 0xc7c": 60.0,
+                "range d20cdcfa 0xcfc": 0.0,
+                "rate_of_bg 359b8dca 0xc9c": 125.0,
+                "rate_of_power 037c9b8a 0xc8c": 12.0,
+                "upper_force bb35102a 0xcbc": 0.0
+            },
+            "attack_grab_air_throw 6cb0ff88 0x12a0": {
+                "damage_cumulation e2d9c67e 0x13dc": 0.0,
+                "damage_type c5871e0c 0x13cc": "comboblow",
+                "force 8488a979 0x13ac": 0.0,
+                "power 46234ff5 0x137c": 100.0,
+                "range d20cdcfa 0x13ec": 0.0,
+                "rate_of_bg 359b8dca 0x139c": 10000.0,
+                "rate_of_power 037c9b8a 0x138c": 20.0,
+                "upper_force bb35102a 0x13bc": 0.0
+            },
+            "attack_grab_throw a3d0f5e6 0x1150": {
+                "damage_cumulation e2d9c67e 0x128c": 0.0,
+                "damage_type c5871e0c 0x127c": "comboblow",
+                "force 8488a979 0x125c": 0.0,
+                "power 46234ff5 0x122c": 100.0,
+                "range d20cdcfa 0x129c": 0.0,
+                "rate_of_bg 359b8dca 0x124c": 10000.0,
+                "rate_of_power 037c9b8a 0x123c": 20.0,
+                "upper_force bb35102a 0x126c": 0.0
+            },
+            "crystal_attack_00 1b85997e 0x13f0": {
+                "damage_cumulation e2d9c67e 0x154c": 0.0,
+                "damage_type c5871e0c 0x152c": "comboblow",
+                "force 8488a979 0x150c": 1.0,
+                "hit_se 23cc9c38 0x153c": "ene_kali_crystalattack",
+                "power 46234ff5 0x14dc": 80.0,
+                "range d20cdcfa 0x155c": 0.0,
+                "rate_of_bg 359b8dca 0x14fc": 10000.0,
+                "rate_of_power 037c9b8a 0x14ec": 20.0,
+                "upper_force bb35102a 0x151c": 0.0
+            },
+            "crystal_attack_01 8883997d 0x1560": {
+                "damage_cumulation e2d9c67e 0x16bc": 0.0,
+                "damage_type c5871e0c 0x169c": "comboblow",
+                "force 8488a979 0x167c": 1.0,
+                "hit_se 23cc9c38 0x16ac": "ene_kali_crystalattack",
+                "power 46234ff5 0x164c": 85.0,
+                "range d20cdcfa 0x16cc": 0.0,
+                "rate_of_bg 359b8dca 0x166c": 10000.0,
+                "rate_of_power 037c9b8a 0x165c": 22.0,
+                "upper_force bb35102a 0x168c": 0.0
+            },
+            "dropkick ea2d1a46 0xd00": {
+                "damage_cumulation e2d9c67e 0xe5c": 0.0,
+                "damage_type c5871e0c 0xe3c": "comboblow",
+                "force 8488a979 0xe1c": 3.0,
+                "hit_se 23cc9c38 0xe4c": "ene_kali_dropkick_success",
+                "power 46234ff5 0xdec": 80.0,
+                "range d20cdcfa 0xe6c": 0.0,
+                "rate_of_bg 359b8dca 0xe0c": 150.0,
+                "rate_of_power 037c9b8a 0xdfc": 15.0,
+                "upper_force bb35102a 0xe2c": 0.0
+            },
+            "jump_attack_a 323a95b2 0xfe0": {
+                "damage_cumulation e2d9c67e 0x113c": 0.0,
+                "damage_type c5871e0c 0x111c": "comboblow",
+                "force 8488a979 0x10fc": 10.0,
+                "hit_se 23cc9c38 0x112c": "ene_kali_punch",
+                "power 46234ff5 0x10cc": 80.0,
+                "range d20cdcfa 0x114c": 0.0,
+                "rate_of_bg 359b8dca 0x10ec": 100.0,
+                "rate_of_power 037c9b8a 0x10dc": 17.0,
+                "upper_force bb35102a 0x110c": 0.0
+            },
+            "spawn 984d223a 0x7a0": {
+                "damage_cumulation e2d9c67e 0x89c": 0.0,
+                "damage_type c5871e0c 0x88c": "normal",
+                "force 8488a979 0x86c": 1.0,
+                "power 46234ff5 0x84c": 20.0,
+                "range d20cdcfa 0x8ac": 2.5,
+                "rate_of_power 037c9b8a 0x85c": -2.0,
+                "upper_force bb35102a 0x87c": 0.0
+            },
+            "tackle af6a1142 0xe70": {
+                "damage_cumulation e2d9c67e 0xfcc": 0.0,
+                "damage_type c5871e0c 0xfac": "comboblow",
+                "force 8488a979 0xf8c": 2.0,
+                "hit_se 23cc9c38 0xfbc": "ene_kali_punch",
+                "power 46234ff5 0xf5c": 120.0,
+                "range d20cdcfa 0xfdc": 0.0,
+                "rate_of_bg 359b8dca 0xf7c": 10000.0,
+                "rate_of_power 037c9b8a 0xf6c": 20.0,
+                "upper_force bb35102a 0xf9c": 1.0
+            }
+        },
+        "enemy_body f895dcbb 0x250": {
+            "ash_se 649d8f77 0x2cc": "ene_disappear_L",
+            "battle_field_prio 5324db77 0x2fc": 99.0,
+            "battle_field_range 7e1a8055 0x2ec": 7.0,
+            "health 8fed986b 0x2dc": 10.0
+        },
+        "enemy_parts 7e7c4e31 0x300": {
+            "loc_top 91f85c50 0x340": {
+                "angle 184454ad 0x5bc": 360.0,
+                "body_damage ebb248f9 0x4fc": 10.0,
+                "core 7e605edd 0x5ac": true,
+                "crowspecial_rate a47a385e 0x58c": 1.0,
+                "damage_motion_type 08588c30 0x5cc": "FRONT",
+                "debribullet_rate 28d934a7 0x56c": 0.6000000238418579,
+                "drillkick_rate 470e15ee 0x57c": 1.0,
+                "gravitythrow_rate 12b575d6 0x53c": 0.4000000059604645,
+                "gravitytyphoon_rate b15c2e8f 0x51c": 0.14000000059604645,
+                "health 8fed986b 0x4ec": 3500.0,
+                "homing_angle e1eaa8a7 0x5dc": 360.0,
+                "lockon 3b8d25f8 0x59c": true,
+                "microblackhole_rate a7e6ad6b 0x52c": 0.800000011920929,
+                "offset_z af6a5e66 0x5ec": 0.15000000596046448,
+                "penetrate_rate b6dedea8 0x54c": 0.25,
+                "scratchtornado_rate 85446029 0x50c": 0.20000000298023224,
+                "vortex_rate 20f1fc29 0x55c": 0.5
+            }
+        }
+    }
+}

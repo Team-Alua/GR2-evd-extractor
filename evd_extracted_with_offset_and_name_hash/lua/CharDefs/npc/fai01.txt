@@ -1,0 +1,45 @@
+{
+    "animset c0c373e2 0x120": {
+        "fly e262f1bf 0x180": {
+            "blendDuration 4896a897 0x1dc": 0.10000000149011612,
+            "file 4357eaaa 0x1ec": "fai01_fly_00",
+            "repeatCount c19d74e0 0x1fc": -1.0
+        },
+        "stay 201e3bc6 0x200": {
+            "blendDuration 4896a897 0x25c": 0.10000000149011612,
+            "file 4357eaaa 0x26c": "fai01_fly_stay_00",
+            "repeatCount c19d74e0 0x27c": -1.0
+        }
+    },
+    "brain f3912883 0x280": {
+        "ai_type a8e9a23c 0x2cc": "npc",
+        "type 4df12751 0x2dc": "EnemyBrain"
+    },
+    "enemy_action_common 627efe6e 0x2e0": {
+        "find 5a85f0bd 0x32c": 40.0,
+        "lose 785834d1 0x33c": 45.0
+    },
+    "enemy_body f895dcbb 0x340": {
+        "health 8fed986b 0x38c": 9999.0,
+        "hit aab8d202 0x39c": true
+    },
+    "npc_param ca10d731 0x3a0": {
+        "param 32360e4e 0x400": {
+            "category 71422fcf 0x45c": "fairy",
+            "damage_type c5871e0c 0x46c": 0.0,
+            "grabbed_type 232c1fef 0x47c": 0.0
+        },
+        "valid 71ea7c43 0x3fc": true
+    },
+    "puppet af1330e6 0x480": {
+        "animset c0c373e2 0x50c": "npc/fai01",
+        "collision 8fdb7621 0x550": {
+            "center_y a88d0e22 0x5ac": 0.4000000059604645,
+            "height 42bbbdd5 0x5bc": 0.009999999776482582,
+            "radius b34cba0d 0x5cc": 0.009999999776482582
+        },
+        "modelName 014b8a4a 0x52c": "fai01_base",
+        "scale 711c9782 0x53c": 3.0,
+        "type 4df12751 0x54c": "Puppet"
+    }
+}

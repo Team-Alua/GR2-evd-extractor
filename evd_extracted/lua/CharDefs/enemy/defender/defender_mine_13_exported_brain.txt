@@ -1,64 +1,64 @@
 {
-    "easy 0x1360": {
-        "brain 0x1430": {
-            "ai_grade 0x153c": "strong",
-            "ai_type 0x14ec": "defender",
-            "animjoint 0x14fc": "defender",
-            "body_effect 0x152c": "defender",
-            "race 0x150c": "nevi",
-            "tailchain 0x151c": "defender",
-            "type 0x14dc": "EnemyBrain"
+    "easy": {
+        "brain": {
+            "ai_grade": "strong",
+            "ai_type": "defender",
+            "animjoint": "defender",
+            "body_effect": "defender",
+            "race": "nevi",
+            "tailchain": "defender",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x25b0": {
-            "find 0x25fc": 40.0,
-            "lose 0x260c": 45.0
+        "enemy_action_common": {
+            "find": 40.0,
+            "lose": 45.0
         },
-        "enemy_actions 0x2270": {
-            "attack 0x2420": {
-                "damage_cumulation 0x257c": 0.0,
-                "damage_type 0x256c": "normal",
-                "force 0x254c": 1.0,
-                "ignore_super_armor 0x25ac": true,
-                "interval 0x259c": 5.0,
-                "power 0x251c": 60.0,
-                "range 0x258c": 20.0,
-                "rate_of_bg 0x253c": 75.0,
-                "rate_of_power 0x252c": 0.5,
-                "upper_force 0x255c": 0.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "ignore_super_armor": true,
+                "interval": 5.0,
+                "power": 60.0,
+                "range": 20.0,
+                "rate_of_bg": 75.0,
+                "rate_of_power": 0.5,
+                "upper_force": 0.0
             },
-            "spawn 0x22d0": {
-                "damage_cumulation 0x240c": 0.0,
-                "damage_type 0x23fc": "normal",
-                "force 0x23dc": 1.0,
-                "power 0x23ac": 10.0,
-                "range 0x241c": 1.5,
-                "rate_of_bg 0x23cc": 30.0,
-                "rate_of_power 0x23bc": -2.0,
-                "upper_force 0x23ec": 0.0
+            "spawn": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "range": 1.5,
+                "rate_of_bg": 30.0,
+                "rate_of_power": -2.0,
+                "upper_force": 0.0
             }
         },
-        "enemy_body 0x1540": {
-            "ash_effect 0x165c": "ef_nev_death_nvdef",
-            "ash_effect_node 0x166c": "samplelink",
-            "ash_se 0x167c": "ene_disappear",
-            "ash_vanish_start_time 0x168c": 0.30000001192092896,
-            "ash_vanish_time 0x169c": 1.0,
-            "battle_field_prio 0x16cc": 1.0,
-            "battle_field_range 0x16bc": 12.0,
-            "health 0x16ac": 60.0,
-            "spawn_effect 0x163c": "ef_nev_spw01",
-            "spawn_se 0x164c": "ene_come"
+        "enemy_body": {
+            "ash_effect": "ef_nev_death_nvdef",
+            "ash_effect_node": "samplelink",
+            "ash_se": "ene_disappear",
+            "ash_vanish_start_time": 0.30000001192092896,
+            "ash_vanish_time": 1.0,
+            "battle_field_prio": 1.0,
+            "battle_field_range": 12.0,
+            "health": 60.0,
+            "spawn_effect": "ef_nev_spw01",
+            "spawn_se": "ene_come"
         },
-        "enemy_parts 0x16d0": {
-            "loc_nvdef01armor01 0x1ab0": {
-                "health 0x1aec": 30.0
+        "enemy_parts": {
+            "loc_nvdef01armor01": {
+                "health": 30.0
             },
-            "loc_setCore03 0x18a0": {
-                "angle 0x19ec": 180.0,
-                "body_damage 0x199c": 60.0,
-                "core 0x19dc": true,
-                "damage_motion_type 0x19fc": "FRONT",
-                "defenders 0x1a10": {
+            "loc_setCore03": {
+                "angle": 180.0,
+                "body_damage": 60.0,
+                "core": true,
+                "damage_motion_type": "FRONT",
+                "defenders": {
                     "0x1a2c": "loc_nvdef01armor01",
                     "0x1a3c": "loc_setshield01",
                     "0x1a4c": "loc_setshield02",
@@ -69,14 +69,14 @@
                     "0x1a9c": "loc_setshield07",
                     "0x1aac": "loc_setshield08"
                 },
-                "eye_aim_limit 0x19cc": true,
-                "health 0x198c": 300.0,
-                "homing_angle 0x1a0c": 180.0,
-                "lockon 0x19bc": true
+                "eye_aim_limit": true,
+                "health": 300.0,
+                "homing_angle": 180.0,
+                "lockon": true
             },
-            "loc_setshield01 0x1af0": {
-                "health 0x1b3c": 30.0,
-                "reject_parts_from_damage 0x1b50": {
+            "loc_setshield01": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x1b6c": "loc_setshield02",
                     "0x1b7c": "loc_setshield03",
                     "0x1b8c": "loc_setshield04",
@@ -86,9 +86,9 @@
                     "0x1bcc": "loc_setshield08"
                 }
             },
-            "loc_setshield02 0x1bd0": {
-                "health 0x1c1c": 30.0,
-                "reject_parts_from_damage 0x1c30": {
+            "loc_setshield02": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x1c4c": "loc_setshield01",
                     "0x1c5c": "loc_setshield03",
                     "0x1c6c": "loc_setshield04",
@@ -98,9 +98,9 @@
                     "0x1cac": "loc_setshield08"
                 }
             },
-            "loc_setshield03 0x1cb0": {
-                "health 0x1cfc": 30.0,
-                "reject_parts_from_damage 0x1d10": {
+            "loc_setshield03": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x1d2c": "loc_setshield01",
                     "0x1d3c": "loc_setshield02",
                     "0x1d4c": "loc_setshield04",
@@ -110,9 +110,9 @@
                     "0x1d8c": "loc_setshield08"
                 }
             },
-            "loc_setshield04 0x1d90": {
-                "health 0x1ddc": 30.0,
-                "reject_parts_from_damage 0x1df0": {
+            "loc_setshield04": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x1e0c": "loc_setshield01",
                     "0x1e1c": "loc_setshield02",
                     "0x1e2c": "loc_setshield03",
@@ -122,9 +122,9 @@
                     "0x1e6c": "loc_setshield08"
                 }
             },
-            "loc_setshield05 0x1e70": {
-                "health 0x1ebc": 30.0,
-                "reject_parts_from_damage 0x1ed0": {
+            "loc_setshield05": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x1eec": "loc_setshield01",
                     "0x1efc": "loc_setshield02",
                     "0x1f0c": "loc_setshield03",
@@ -134,9 +134,9 @@
                     "0x1f4c": "loc_setshield08"
                 }
             },
-            "loc_setshield06 0x1f50": {
-                "health 0x1f9c": 30.0,
-                "reject_parts_from_damage 0x1fb0": {
+            "loc_setshield06": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x1fcc": "loc_setshield01",
                     "0x1fdc": "loc_setshield02",
                     "0x1fec": "loc_setshield03",
@@ -146,9 +146,9 @@
                     "0x202c": "loc_setshield08"
                 }
             },
-            "loc_setshield07 0x2030": {
-                "health 0x207c": 30.0,
-                "reject_parts_from_damage 0x2090": {
+            "loc_setshield07": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x20ac": "loc_setshield01",
                     "0x20bc": "loc_setshield02",
                     "0x20cc": "loc_setshield03",
@@ -158,9 +158,9 @@
                     "0x210c": "loc_setshield08"
                 }
             },
-            "loc_setshield08 0x2110": {
-                "health 0x215c": 30.0,
-                "reject_parts_from_damage 0x2170": {
+            "loc_setshield08": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x218c": "loc_setshield01",
                     "0x219c": "loc_setshield02",
                     "0x21ac": "loc_setshield03",
@@ -170,74 +170,74 @@
                     "0x21ec": "loc_setshield07"
                 }
             },
-            "loc_spear01 0x21f0": {
-                "health 0x222c": 100.0
+            "loc_spear01": {
+                "health": 100.0
             },
-            "loc_spear02 0x2230": {
-                "health 0x226c": 100.0
+            "loc_spear02": {
+                "health": 100.0
             }
         }
     },
-    "hard 0x2610": {
-        "brain 0x26e0": {
-            "ai_grade 0x27ec": "strong",
-            "ai_type 0x279c": "defender",
-            "animjoint 0x27ac": "defender",
-            "body_effect 0x27dc": "defender",
-            "race 0x27bc": "nevi",
-            "tailchain 0x27cc": "defender",
-            "type 0x278c": "EnemyBrain"
+    "hard": {
+        "brain": {
+            "ai_grade": "strong",
+            "ai_type": "defender",
+            "animjoint": "defender",
+            "body_effect": "defender",
+            "race": "nevi",
+            "tailchain": "defender",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x3860": {
-            "find 0x38ac": 40.0,
-            "lose 0x38bc": 45.0
+        "enemy_action_common": {
+            "find": 40.0,
+            "lose": 45.0
         },
-        "enemy_actions 0x3520": {
-            "attack 0x36d0": {
-                "damage_cumulation 0x382c": 0.0,
-                "damage_type 0x381c": "normal",
-                "force 0x37fc": 1.0,
-                "ignore_super_armor 0x385c": true,
-                "interval 0x384c": 5.0,
-                "power 0x37cc": 60.0,
-                "range 0x383c": 20.0,
-                "rate_of_bg 0x37ec": 75.0,
-                "rate_of_power 0x37dc": 0.5,
-                "upper_force 0x380c": 0.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "ignore_super_armor": true,
+                "interval": 5.0,
+                "power": 60.0,
+                "range": 20.0,
+                "rate_of_bg": 75.0,
+                "rate_of_power": 0.5,
+                "upper_force": 0.0
             },
-            "spawn 0x3580": {
-                "damage_cumulation 0x36bc": 0.0,
-                "damage_type 0x36ac": "normal",
-                "force 0x368c": 1.0,
-                "power 0x365c": 10.0,
-                "range 0x36cc": 1.5,
-                "rate_of_bg 0x367c": 30.0,
-                "rate_of_power 0x366c": -2.0,
-                "upper_force 0x369c": 0.0
+            "spawn": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "range": 1.5,
+                "rate_of_bg": 30.0,
+                "rate_of_power": -2.0,
+                "upper_force": 0.0
             }
         },
-        "enemy_body 0x27f0": {
-            "ash_effect 0x290c": "ef_nev_death_nvdef",
-            "ash_effect_node 0x291c": "samplelink",
-            "ash_se 0x292c": "ene_disappear",
-            "ash_vanish_start_time 0x293c": 0.30000001192092896,
-            "ash_vanish_time 0x294c": 1.0,
-            "battle_field_prio 0x297c": 1.0,
-            "battle_field_range 0x296c": 12.0,
-            "health 0x295c": 60.0,
-            "spawn_effect 0x28ec": "ef_nev_spw01",
-            "spawn_se 0x28fc": "ene_come"
+        "enemy_body": {
+            "ash_effect": "ef_nev_death_nvdef",
+            "ash_effect_node": "samplelink",
+            "ash_se": "ene_disappear",
+            "ash_vanish_start_time": 0.30000001192092896,
+            "ash_vanish_time": 1.0,
+            "battle_field_prio": 1.0,
+            "battle_field_range": 12.0,
+            "health": 60.0,
+            "spawn_effect": "ef_nev_spw01",
+            "spawn_se": "ene_come"
         },
-        "enemy_parts 0x2980": {
-            "loc_nvdef01armor01 0x2d60": {
-                "health 0x2d9c": 30.0
+        "enemy_parts": {
+            "loc_nvdef01armor01": {
+                "health": 30.0
             },
-            "loc_setCore03 0x2b50": {
-                "angle 0x2c9c": 180.0,
-                "body_damage 0x2c4c": 60.0,
-                "core 0x2c8c": true,
-                "damage_motion_type 0x2cac": "FRONT",
-                "defenders 0x2cc0": {
+            "loc_setCore03": {
+                "angle": 180.0,
+                "body_damage": 60.0,
+                "core": true,
+                "damage_motion_type": "FRONT",
+                "defenders": {
                     "0x2cdc": "loc_nvdef01armor01",
                     "0x2cec": "loc_setshield01",
                     "0x2cfc": "loc_setshield02",
@@ -248,14 +248,14 @@
                     "0x2d4c": "loc_setshield07",
                     "0x2d5c": "loc_setshield08"
                 },
-                "eye_aim_limit 0x2c7c": true,
-                "health 0x2c3c": 300.0,
-                "homing_angle 0x2cbc": 180.0,
-                "lockon 0x2c6c": true
+                "eye_aim_limit": true,
+                "health": 300.0,
+                "homing_angle": 180.0,
+                "lockon": true
             },
-            "loc_setshield01 0x2da0": {
-                "health 0x2dec": 30.0,
-                "reject_parts_from_damage 0x2e00": {
+            "loc_setshield01": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x2e1c": "loc_setshield02",
                     "0x2e2c": "loc_setshield03",
                     "0x2e3c": "loc_setshield04",
@@ -265,9 +265,9 @@
                     "0x2e7c": "loc_setshield08"
                 }
             },
-            "loc_setshield02 0x2e80": {
-                "health 0x2ecc": 30.0,
-                "reject_parts_from_damage 0x2ee0": {
+            "loc_setshield02": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x2efc": "loc_setshield01",
                     "0x2f0c": "loc_setshield03",
                     "0x2f1c": "loc_setshield04",
@@ -277,9 +277,9 @@
                     "0x2f5c": "loc_setshield08"
                 }
             },
-            "loc_setshield03 0x2f60": {
-                "health 0x2fac": 30.0,
-                "reject_parts_from_damage 0x2fc0": {
+            "loc_setshield03": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x2fdc": "loc_setshield01",
                     "0x2fec": "loc_setshield02",
                     "0x2ffc": "loc_setshield04",
@@ -289,9 +289,9 @@
                     "0x303c": "loc_setshield08"
                 }
             },
-            "loc_setshield04 0x3040": {
-                "health 0x308c": 30.0,
-                "reject_parts_from_damage 0x30a0": {
+            "loc_setshield04": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x30bc": "loc_setshield01",
                     "0x30cc": "loc_setshield02",
                     "0x30dc": "loc_setshield03",
@@ -301,9 +301,9 @@
                     "0x311c": "loc_setshield08"
                 }
             },
-            "loc_setshield05 0x3120": {
-                "health 0x316c": 30.0,
-                "reject_parts_from_damage 0x3180": {
+            "loc_setshield05": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x319c": "loc_setshield01",
                     "0x31ac": "loc_setshield02",
                     "0x31bc": "loc_setshield03",
@@ -313,9 +313,9 @@
                     "0x31fc": "loc_setshield08"
                 }
             },
-            "loc_setshield06 0x3200": {
-                "health 0x324c": 30.0,
-                "reject_parts_from_damage 0x3260": {
+            "loc_setshield06": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x327c": "loc_setshield01",
                     "0x328c": "loc_setshield02",
                     "0x329c": "loc_setshield03",
@@ -325,9 +325,9 @@
                     "0x32dc": "loc_setshield08"
                 }
             },
-            "loc_setshield07 0x32e0": {
-                "health 0x332c": 30.0,
-                "reject_parts_from_damage 0x3340": {
+            "loc_setshield07": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x335c": "loc_setshield01",
                     "0x336c": "loc_setshield02",
                     "0x337c": "loc_setshield03",
@@ -337,9 +337,9 @@
                     "0x33bc": "loc_setshield08"
                 }
             },
-            "loc_setshield08 0x33c0": {
-                "health 0x340c": 30.0,
-                "reject_parts_from_damage 0x3420": {
+            "loc_setshield08": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x343c": "loc_setshield01",
                     "0x344c": "loc_setshield02",
                     "0x345c": "loc_setshield03",
@@ -349,74 +349,74 @@
                     "0x349c": "loc_setshield07"
                 }
             },
-            "loc_spear01 0x34a0": {
-                "health 0x34dc": 100.0
+            "loc_spear01": {
+                "health": 100.0
             },
-            "loc_spear02 0x34e0": {
-                "health 0x351c": 100.0
+            "loc_spear02": {
+                "health": 100.0
             }
         }
     },
-    "normal 0xb0": {
-        "brain 0x180": {
-            "ai_grade 0x28c": "strong",
-            "ai_type 0x23c": "defender",
-            "animjoint 0x24c": "defender",
-            "body_effect 0x27c": "defender",
-            "race 0x25c": "nevi",
-            "tailchain 0x26c": "defender",
-            "type 0x22c": "EnemyBrain"
+    "normal": {
+        "brain": {
+            "ai_grade": "strong",
+            "ai_type": "defender",
+            "animjoint": "defender",
+            "body_effect": "defender",
+            "race": "nevi",
+            "tailchain": "defender",
+            "type": "EnemyBrain"
         },
-        "enemy_action_common 0x1300": {
-            "find 0x134c": 40.0,
-            "lose 0x135c": 45.0
+        "enemy_action_common": {
+            "find": 40.0,
+            "lose": 45.0
         },
-        "enemy_actions 0xfc0": {
-            "attack 0x1170": {
-                "damage_cumulation 0x12cc": 0.0,
-                "damage_type 0x12bc": "normal",
-                "force 0x129c": 1.0,
-                "ignore_super_armor 0x12fc": true,
-                "interval 0x12ec": 5.0,
-                "power 0x126c": 60.0,
-                "range 0x12dc": 20.0,
-                "rate_of_bg 0x128c": 75.0,
-                "rate_of_power 0x127c": 0.5,
-                "upper_force 0x12ac": 0.0
+        "enemy_actions": {
+            "attack": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "ignore_super_armor": true,
+                "interval": 5.0,
+                "power": 60.0,
+                "range": 20.0,
+                "rate_of_bg": 75.0,
+                "rate_of_power": 0.5,
+                "upper_force": 0.0
             },
-            "spawn 0x1020": {
-                "damage_cumulation 0x115c": 0.0,
-                "damage_type 0x114c": "normal",
-                "force 0x112c": 1.0,
-                "power 0x10fc": 10.0,
-                "range 0x116c": 1.5,
-                "rate_of_bg 0x111c": 30.0,
-                "rate_of_power 0x110c": -2.0,
-                "upper_force 0x113c": 0.0
+            "spawn": {
+                "damage_cumulation": 0.0,
+                "damage_type": "normal",
+                "force": 1.0,
+                "power": 10.0,
+                "range": 1.5,
+                "rate_of_bg": 30.0,
+                "rate_of_power": -2.0,
+                "upper_force": 0.0
             }
         },
-        "enemy_body 0x290": {
-            "ash_effect 0x3ac": "ef_nev_death_nvdef",
-            "ash_effect_node 0x3bc": "samplelink",
-            "ash_se 0x3cc": "ene_disappear",
-            "ash_vanish_start_time 0x3dc": 0.30000001192092896,
-            "ash_vanish_time 0x3ec": 1.0,
-            "battle_field_prio 0x41c": 1.0,
-            "battle_field_range 0x40c": 12.0,
-            "health 0x3fc": 60.0,
-            "spawn_effect 0x38c": "ef_nev_spw01",
-            "spawn_se 0x39c": "ene_come"
+        "enemy_body": {
+            "ash_effect": "ef_nev_death_nvdef",
+            "ash_effect_node": "samplelink",
+            "ash_se": "ene_disappear",
+            "ash_vanish_start_time": 0.30000001192092896,
+            "ash_vanish_time": 1.0,
+            "battle_field_prio": 1.0,
+            "battle_field_range": 12.0,
+            "health": 60.0,
+            "spawn_effect": "ef_nev_spw01",
+            "spawn_se": "ene_come"
         },
-        "enemy_parts 0x420": {
-            "loc_nvdef01armor01 0x800": {
-                "health 0x83c": 30.0
+        "enemy_parts": {
+            "loc_nvdef01armor01": {
+                "health": 30.0
             },
-            "loc_setCore03 0x5f0": {
-                "angle 0x73c": 180.0,
-                "body_damage 0x6ec": 60.0,
-                "core 0x72c": true,
-                "damage_motion_type 0x74c": "FRONT",
-                "defenders 0x760": {
+            "loc_setCore03": {
+                "angle": 180.0,
+                "body_damage": 60.0,
+                "core": true,
+                "damage_motion_type": "FRONT",
+                "defenders": {
                     "0x77c": "loc_nvdef01armor01",
                     "0x78c": "loc_setshield01",
                     "0x79c": "loc_setshield02",
@@ -427,14 +427,14 @@
                     "0x7ec": "loc_setshield07",
                     "0x7fc": "loc_setshield08"
                 },
-                "eye_aim_limit 0x71c": true,
-                "health 0x6dc": 300.0,
-                "homing_angle 0x75c": 180.0,
-                "lockon 0x70c": true
+                "eye_aim_limit": true,
+                "health": 300.0,
+                "homing_angle": 180.0,
+                "lockon": true
             },
-            "loc_setshield01 0x840": {
-                "health 0x88c": 30.0,
-                "reject_parts_from_damage 0x8a0": {
+            "loc_setshield01": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x8bc": "loc_setshield02",
                     "0x8cc": "loc_setshield03",
                     "0x8dc": "loc_setshield04",
@@ -444,9 +444,9 @@
                     "0x91c": "loc_setshield08"
                 }
             },
-            "loc_setshield02 0x920": {
-                "health 0x96c": 30.0,
-                "reject_parts_from_damage 0x980": {
+            "loc_setshield02": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0x99c": "loc_setshield01",
                     "0x9ac": "loc_setshield03",
                     "0x9bc": "loc_setshield04",
@@ -456,9 +456,9 @@
                     "0x9fc": "loc_setshield08"
                 }
             },
-            "loc_setshield03 0xa00": {
-                "health 0xa4c": 30.0,
-                "reject_parts_from_damage 0xa60": {
+            "loc_setshield03": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0xa7c": "loc_setshield01",
                     "0xa8c": "loc_setshield02",
                     "0xa9c": "loc_setshield04",
@@ -468,9 +468,9 @@
                     "0xadc": "loc_setshield08"
                 }
             },
-            "loc_setshield04 0xae0": {
-                "health 0xb2c": 30.0,
-                "reject_parts_from_damage 0xb40": {
+            "loc_setshield04": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0xb5c": "loc_setshield01",
                     "0xb6c": "loc_setshield02",
                     "0xb7c": "loc_setshield03",
@@ -480,9 +480,9 @@
                     "0xbbc": "loc_setshield08"
                 }
             },
-            "loc_setshield05 0xbc0": {
-                "health 0xc0c": 30.0,
-                "reject_parts_from_damage 0xc20": {
+            "loc_setshield05": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0xc3c": "loc_setshield01",
                     "0xc4c": "loc_setshield02",
                     "0xc5c": "loc_setshield03",
@@ -492,9 +492,9 @@
                     "0xc9c": "loc_setshield08"
                 }
             },
-            "loc_setshield06 0xca0": {
-                "health 0xcec": 30.0,
-                "reject_parts_from_damage 0xd00": {
+            "loc_setshield06": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0xd1c": "loc_setshield01",
                     "0xd2c": "loc_setshield02",
                     "0xd3c": "loc_setshield03",
@@ -504,9 +504,9 @@
                     "0xd7c": "loc_setshield08"
                 }
             },
-            "loc_setshield07 0xd80": {
-                "health 0xdcc": 30.0,
-                "reject_parts_from_damage 0xde0": {
+            "loc_setshield07": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0xdfc": "loc_setshield01",
                     "0xe0c": "loc_setshield02",
                     "0xe1c": "loc_setshield03",
@@ -516,9 +516,9 @@
                     "0xe5c": "loc_setshield08"
                 }
             },
-            "loc_setshield08 0xe60": {
-                "health 0xeac": 30.0,
-                "reject_parts_from_damage 0xec0": {
+            "loc_setshield08": {
+                "health": 30.0,
+                "reject_parts_from_damage": {
                     "0xedc": "loc_setshield01",
                     "0xeec": "loc_setshield02",
                     "0xefc": "loc_setshield03",
@@ -528,11 +528,11 @@
                     "0xf3c": "loc_setshield07"
                 }
             },
-            "loc_spear01 0xf40": {
-                "health 0xf7c": 100.0
+            "loc_spear01": {
+                "health": 100.0
             },
-            "loc_spear02 0xf80": {
-                "health 0xfbc": 100.0
+            "loc_spear02": {
+                "health": 100.0
             }
         }
     }

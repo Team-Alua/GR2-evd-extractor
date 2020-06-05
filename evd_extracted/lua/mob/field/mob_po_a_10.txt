@@ -1,18 +1,18 @@
 {
-    "birdNetHolder 0xe0": {
-        "__netNames 0x140": {},
-        "nets 0x150": {}
+    "birdNetHolder": {
+        "__netNames": {},
+        "nets": {}
     },
-    "guideInfo 0x160": {
-        "__guideNames 0x1c0": {
+    "guideInfo": {
+        "__guideNames": {
             "0x1dc": "trio01",
             "0x1ec": "alone01",
             "0x1fc": "alone02"
         },
-        "guides 0x200": {
+        "guides": {
             "0x240": {
-                "name 0x28c": "trio01",
-                "points 0x2a0": {
+                "name": "trio01",
+                "points": {
                     "0x2e0": {
                         "0x2fc": -24.91380500793457,
                         "0x30c": -2.969202995300293,
@@ -31,54 +31,54 @@
                 }
             },
             "0x3a0": {
-                "name 0x3fc": "alone01",
-                "points 0x420": {
+                "name": "alone01",
+                "points": {
                     "0x440": {
                         "0x45c": 10.313529014587402,
                         "0x46c": 0.008759783580899239,
                         "0x47c": -7.488967418670654
                     }
                 },
-                "yaw 0x41c": 2.12954044342041
+                "yaw": 2.12954044342041
             },
             "0x480": {
-                "name 0x4dc": "alone02",
-                "points 0x500": {
+                "name": "alone02",
+                "points": {
                     "0x520": {
                         "0x53c": 4.867679595947266,
                         "0x54c": 15.531012535095215,
                         "0x55c": -2.442319393157959
                     }
                 },
-                "yaw 0x4fc": 0.820827305316925
+                "yaw": 0.820827305316925
             }
         }
     },
-    "volumeGroup 0x560": {
-        "__numVolumes 0x5ac": 1.0,
-        "root 0x5c0": {
-            "children 0x690": {},
-            "hasShape 0x65c": false,
-            "name 0x66c": "root",
-            "scale 0x6a0": {
+    "volumeGroup": {
+        "__numVolumes": 1.0,
+        "root": {
+            "children": {},
+            "hasShape": false,
+            "name": "root",
+            "scale": {
                 "0x6bc": 1.0,
                 "0x6cc": 1.0,
                 "0x6dc": 1.0
             },
-            "translate 0x6e0": {
+            "translate": {
                 "0x6fc": 0.0,
                 "0x70c": 0.0,
                 "0x71c": 0.0
             }
         }
     },
-    "zoneGroup 0x720": {
-        "__overlapIndices 0x810": {
-            "7 0x84c": 1.0
+    "zoneGroup": {
+        "__overlapIndices": {
+            "7": 1.0
         },
-        "_numStops 0x7cc": 7.0,
-        "_numZones 0x7dc": 2.0,
-        "stops 0x850": {
+        "_numStops": 7.0,
+        "_numZones": 2.0,
+        "stops": {
             "0x8d0": {
                 "0x8ec": -26.354568481445312,
                 "0x8fc": -3.0147011280059814,
@@ -122,20 +122,20 @@
                 "0xafc": 0.7788696885108948
             }
         },
-        "zoneTree 0xb00": {
+        "zoneTree": {
             "0xb1c": "mob_zones",
             "0xb30": {
                 "0xb4c": "zone01"
             }
         },
-        "zones 0xb50": {
+        "zones": {
             "0xb80": {
-                "name 0xbcc": "mob_zones",
-                "strips 0xbe0": {}
+                "name": "mob_zones",
+                "strips": {}
             },
             "0xbf0": {
-                "name 0xc3c": "zone01",
-                "strips 0xc50": {
+                "name": "zone01",
+                "strips": {
                     "0xc70": {
                         "0xc8c": 0.0,
                         "0xc9c": 1.0,

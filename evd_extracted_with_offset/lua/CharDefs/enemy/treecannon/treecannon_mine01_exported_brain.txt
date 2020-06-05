@@ -1,0 +1,335 @@
+{
+    "easy 0xfa0": {
+        "brain 0x1070": {
+            "ai_type 0x110c": "treecannon",
+            "animjoint 0x111c": "treecannon",
+            "body_effect 0x113c": "treecannon",
+            "race 0x112c": "nevi",
+            "type 0x10fc": "EnemyBrain"
+        },
+        "enemy_action_common 0x1e30": {
+            "find 0x1e7c": 45.0,
+            "lose 0x1e8c": 50.0
+        },
+        "enemy_actions 0x1b10": {
+            "attack 0x1b70": {
+                "damage_cumulation 0x1cec": 0.0,
+                "damage_type 0x1ccc": "normal",
+                "force 0x1cac": 1.0,
+                "hit_effect_type 0x1cdc": "L",
+                "interval 0x1d0c": 3.0,
+                "power 0x1c7c": 30.0,
+                "range 0x1cfc": 55.0,
+                "rate_of_bg 0x1c9c": 40.0,
+                "rate_of_power 0x1c8c": 15.0,
+                "upper_force 0x1cbc": 0.0,
+                "velocity 0x1d1c": 10.0
+            },
+            "spawn 0x1d20": {
+                "damage_cumulation 0x1e2c": 0.0,
+                "damage_type 0x1e1c": "normal",
+                "force 0x1dfc": 1.0,
+                "power 0x1dcc": 10.0,
+                "rate_of_bg 0x1dec": 20.0,
+                "rate_of_power 0x1ddc": -2.0,
+                "upper_force 0x1e0c": 0.0
+            }
+        },
+        "enemy_body 0x1140": {
+            "ash_effect 0x124c": "ef_nev_death_nvtre",
+            "ash_effect_node 0x125c": "samplelink",
+            "ash_se 0x126c": "ene_disappear",
+            "ash_vanish_time 0x127c": 1.350000023841858,
+            "battle_field_prio 0x12ac": 1.0,
+            "battle_field_range 0x129c": 20.0,
+            "health 0x128c": 10.0,
+            "spawn_effect 0x122c": "ef_nev_spw_01",
+            "spawn_se 0x123c": "ene_come"
+        },
+        "enemy_parts 0x12b0": {
+            "loc_nvtre01_core04 0x1580": {
+                "angle 0x16ac": 360.0,
+                "body_damage 0x166c": 10.0,
+                "core 0x169c": true,
+                "damage_motion_type 0x16bc": "FRONT",
+                "eye_aim_limit 0x168c": 30.0,
+                "health 0x165c": 250.0,
+                "homing_angle 0x16cc": 270.0,
+                "lockon 0x167c": true
+            },
+            "loc_setRock01_1 0x16d0": {
+                "health 0x170c": 30.0
+            },
+            "loc_setRock01_2 0x1790": {
+                "health 0x17cc": 30.0
+            },
+            "loc_setRock01_3 0x1850": {
+                "health 0x188c": 30.0
+            },
+            "loc_setRock01_4 0x1910": {
+                "health 0x194c": 30.0
+            },
+            "loc_setRock01_5 0x19d0": {
+                "health 0x1a0c": 30.0
+            },
+            "loc_setRock01_6 0x1a90": {
+                "health 0x1acc": 30.0
+            },
+            "loc_setRock02_1 0x1710": {
+                "health 0x174c": 30.0
+            },
+            "loc_setRock02_2 0x17d0": {
+                "health 0x180c": 30.0
+            },
+            "loc_setRock02_3 0x1890": {
+                "health 0x18cc": 30.0
+            },
+            "loc_setRock02_4 0x1950": {
+                "health 0x198c": 30.0
+            },
+            "loc_setRock02_5 0x1a10": {
+                "health 0x1a4c": 30.0
+            },
+            "loc_setRock03_1 0x1750": {
+                "health 0x178c": 30.0
+            },
+            "loc_setRock03_2 0x1810": {
+                "health 0x184c": 30.0
+            },
+            "loc_setRock03_3 0x18d0": {
+                "health 0x190c": 30.0
+            },
+            "loc_setRock03_4 0x1990": {
+                "health 0x19cc": 30.0
+            },
+            "loc_setRock03_5 0x1a50": {
+                "health 0x1a8c": 30.0
+            },
+            "loc_setRock04_1 0x1ad0": {
+                "health 0x1b0c": 30.0
+            }
+        }
+    },
+    "hard 0x1e90": {
+        "brain 0x1f60": {
+            "ai_type 0x1ffc": "treecannon",
+            "animjoint 0x200c": "treecannon",
+            "body_effect 0x202c": "treecannon",
+            "race 0x201c": "nevi",
+            "type 0x1fec": "EnemyBrain"
+        },
+        "enemy_action_common 0x2d20": {
+            "find 0x2d6c": 45.0,
+            "lose 0x2d7c": 50.0
+        },
+        "enemy_actions 0x2a00": {
+            "attack 0x2a60": {
+                "damage_cumulation 0x2bdc": 0.0,
+                "damage_type 0x2bbc": "normal",
+                "force 0x2b9c": 1.0,
+                "hit_effect_type 0x2bcc": "L",
+                "interval 0x2bfc": 3.0,
+                "power 0x2b6c": 30.0,
+                "range 0x2bec": 55.0,
+                "rate_of_bg 0x2b8c": 40.0,
+                "rate_of_power 0x2b7c": 15.0,
+                "upper_force 0x2bac": 0.0,
+                "velocity 0x2c0c": 10.0
+            },
+            "spawn 0x2c10": {
+                "damage_cumulation 0x2d1c": 0.0,
+                "damage_type 0x2d0c": "normal",
+                "force 0x2cec": 1.0,
+                "power 0x2cbc": 10.0,
+                "rate_of_bg 0x2cdc": 20.0,
+                "rate_of_power 0x2ccc": -2.0,
+                "upper_force 0x2cfc": 0.0
+            }
+        },
+        "enemy_body 0x2030": {
+            "ash_effect 0x213c": "ef_nev_death_nvtre",
+            "ash_effect_node 0x214c": "samplelink",
+            "ash_se 0x215c": "ene_disappear",
+            "ash_vanish_time 0x216c": 1.350000023841858,
+            "battle_field_prio 0x219c": 1.0,
+            "battle_field_range 0x218c": 20.0,
+            "health 0x217c": 10.0,
+            "spawn_effect 0x211c": "ef_nev_spw_01",
+            "spawn_se 0x212c": "ene_come"
+        },
+        "enemy_parts 0x21a0": {
+            "loc_nvtre01_core04 0x2470": {
+                "angle 0x259c": 360.0,
+                "body_damage 0x255c": 10.0,
+                "core 0x258c": true,
+                "damage_motion_type 0x25ac": "FRONT",
+                "eye_aim_limit 0x257c": 30.0,
+                "health 0x254c": 250.0,
+                "homing_angle 0x25bc": 270.0,
+                "lockon 0x256c": true
+            },
+            "loc_setRock01_1 0x25c0": {
+                "health 0x25fc": 30.0
+            },
+            "loc_setRock01_2 0x2680": {
+                "health 0x26bc": 30.0
+            },
+            "loc_setRock01_3 0x2740": {
+                "health 0x277c": 30.0
+            },
+            "loc_setRock01_4 0x2800": {
+                "health 0x283c": 30.0
+            },
+            "loc_setRock01_5 0x28c0": {
+                "health 0x28fc": 30.0
+            },
+            "loc_setRock01_6 0x2980": {
+                "health 0x29bc": 30.0
+            },
+            "loc_setRock02_1 0x2600": {
+                "health 0x263c": 30.0
+            },
+            "loc_setRock02_2 0x26c0": {
+                "health 0x26fc": 30.0
+            },
+            "loc_setRock02_3 0x2780": {
+                "health 0x27bc": 30.0
+            },
+            "loc_setRock02_4 0x2840": {
+                "health 0x287c": 30.0
+            },
+            "loc_setRock02_5 0x2900": {
+                "health 0x293c": 30.0
+            },
+            "loc_setRock03_1 0x2640": {
+                "health 0x267c": 30.0
+            },
+            "loc_setRock03_2 0x2700": {
+                "health 0x273c": 30.0
+            },
+            "loc_setRock03_3 0x27c0": {
+                "health 0x27fc": 30.0
+            },
+            "loc_setRock03_4 0x2880": {
+                "health 0x28bc": 30.0
+            },
+            "loc_setRock03_5 0x2940": {
+                "health 0x297c": 30.0
+            },
+            "loc_setRock04_1 0x29c0": {
+                "health 0x29fc": 30.0
+            }
+        }
+    },
+    "normal 0xb0": {
+        "brain 0x180": {
+            "ai_type 0x21c": "treecannon",
+            "animjoint 0x22c": "treecannon",
+            "body_effect 0x24c": "treecannon",
+            "race 0x23c": "nevi",
+            "type 0x20c": "EnemyBrain"
+        },
+        "enemy_action_common 0xf40": {
+            "find 0xf8c": 45.0,
+            "lose 0xf9c": 50.0
+        },
+        "enemy_actions 0xc20": {
+            "attack 0xc80": {
+                "damage_cumulation 0xdfc": 0.0,
+                "damage_type 0xddc": "normal",
+                "force 0xdbc": 1.0,
+                "hit_effect_type 0xdec": "L",
+                "interval 0xe1c": 3.0,
+                "power 0xd8c": 30.0,
+                "range 0xe0c": 55.0,
+                "rate_of_bg 0xdac": 40.0,
+                "rate_of_power 0xd9c": 15.0,
+                "upper_force 0xdcc": 0.0,
+                "velocity 0xe2c": 10.0
+            },
+            "spawn 0xe30": {
+                "damage_cumulation 0xf3c": 0.0,
+                "damage_type 0xf2c": "normal",
+                "force 0xf0c": 1.0,
+                "power 0xedc": 10.0,
+                "rate_of_bg 0xefc": 20.0,
+                "rate_of_power 0xeec": -2.0,
+                "upper_force 0xf1c": 0.0
+            }
+        },
+        "enemy_body 0x250": {
+            "ash_effect 0x35c": "ef_nev_death_nvtre",
+            "ash_effect_node 0x36c": "samplelink",
+            "ash_se 0x37c": "ene_disappear",
+            "ash_vanish_time 0x38c": 1.350000023841858,
+            "battle_field_prio 0x3bc": 1.0,
+            "battle_field_range 0x3ac": 20.0,
+            "health 0x39c": 10.0,
+            "spawn_effect 0x33c": "ef_nev_spw_01",
+            "spawn_se 0x34c": "ene_come"
+        },
+        "enemy_parts 0x3c0": {
+            "loc_nvtre01_core04 0x690": {
+                "angle 0x7bc": 360.0,
+                "body_damage 0x77c": 10.0,
+                "core 0x7ac": true,
+                "damage_motion_type 0x7cc": "FRONT",
+                "eye_aim_limit 0x79c": 30.0,
+                "health 0x76c": 250.0,
+                "homing_angle 0x7dc": 270.0,
+                "lockon 0x78c": true
+            },
+            "loc_setRock01_1 0x7e0": {
+                "health 0x81c": 30.0
+            },
+            "loc_setRock01_2 0x8a0": {
+                "health 0x8dc": 30.0
+            },
+            "loc_setRock01_3 0x960": {
+                "health 0x99c": 30.0
+            },
+            "loc_setRock01_4 0xa20": {
+                "health 0xa5c": 30.0
+            },
+            "loc_setRock01_5 0xae0": {
+                "health 0xb1c": 30.0
+            },
+            "loc_setRock01_6 0xba0": {
+                "health 0xbdc": 30.0
+            },
+            "loc_setRock02_1 0x820": {
+                "health 0x85c": 30.0
+            },
+            "loc_setRock02_2 0x8e0": {
+                "health 0x91c": 30.0
+            },
+            "loc_setRock02_3 0x9a0": {
+                "health 0x9dc": 30.0
+            },
+            "loc_setRock02_4 0xa60": {
+                "health 0xa9c": 30.0
+            },
+            "loc_setRock02_5 0xb20": {
+                "health 0xb5c": 30.0
+            },
+            "loc_setRock03_1 0x860": {
+                "health 0x89c": 30.0
+            },
+            "loc_setRock03_2 0x920": {
+                "health 0x95c": 30.0
+            },
+            "loc_setRock03_3 0x9e0": {
+                "health 0xa1c": 30.0
+            },
+            "loc_setRock03_4 0xaa0": {
+                "health 0xadc": 30.0
+            },
+            "loc_setRock03_5 0xb60": {
+                "health 0xb9c": 30.0
+            },
+            "loc_setRock04_1 0xbe0": {
+                "health 0xc1c": 30.0
+            }
+        }
+    }
+}

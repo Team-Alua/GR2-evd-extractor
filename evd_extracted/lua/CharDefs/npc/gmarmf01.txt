@@ -1,70 +1,70 @@
 {
-    "animset 0x120": {
-        "appear_00 0x230": {
-            "blendDuration 0x28c": 1.0,
-            "file 0x29c": "gmarmf01_appear_00",
-            "repeatCount 0x2ac": 0.0
+    "animset": {
+        "appear_00": {
+            "blendDuration": 1.0,
+            "file": "gmarmf01_appear_00",
+            "repeatCount": 0.0
         },
-        "attack_l_00 0x2b0": {
-            "blendDuration 0x30c": 1.0,
-            "file 0x31c": "gmarmf01_attack_l_00",
-            "repeatCount 0x32c": 0.0
+        "attack_l_00": {
+            "blendDuration": 1.0,
+            "file": "gmarmf01_attack_l_00",
+            "repeatCount": 0.0
         },
-        "attack_r_00 0x330": {
-            "blendDuration 0x38c": 1.0,
-            "file 0x39c": "gmarmf01_attack_r_00",
-            "repeatCount 0x3ac": 0.0
+        "attack_r_00": {
+            "blendDuration": 1.0,
+            "file": "gmarmf01_attack_r_00",
+            "repeatCount": 0.0
         },
-        "dead_00 0x3b0": {
-            "blendDuration 0x40c": 1.0,
-            "file 0x41c": "gmarmf01_damage_dead_00",
-            "repeatCount 0x42c": 0.0
+        "dead_00": {
+            "blendDuration": 1.0,
+            "file": "gmarmf01_damage_dead_00",
+            "repeatCount": 0.0
         },
-        "stay 0x430": {
-            "blendDuration 0x48c": 1.0,
-            "file 0x49c": "gmarmf01_stay_00",
-            "repeatCount 0x4ac": -1.0
+        "stay": {
+            "blendDuration": 1.0,
+            "file": "gmarmf01_stay_00",
+            "repeatCount": -1.0
         },
-        "stay_01 0x4b0": {
-            "blendDuration 0x50c": 1.0,
-            "file 0x51c": "gmarmf01_stay_01",
-            "repeatCount 0x52c": -1.0
+        "stay_01": {
+            "blendDuration": 1.0,
+            "file": "gmarmf01_stay_01",
+            "repeatCount": -1.0
         },
-        "walk 0x530": {
-            "blendDuration 0x58c": 1.0,
-            "file 0x59c": "gmarmf01_walk_00",
-            "repeatCount 0x5ac": -1.0
+        "walk": {
+            "blendDuration": 1.0,
+            "file": "gmarmf01_walk_00",
+            "repeatCount": -1.0
         }
     },
-    "brain 0x5b0": {
-        "ai_type 0x5fc": "npc",
-        "type 0x60c": "EnemyBrain"
+    "brain": {
+        "ai_type": "npc",
+        "type": "EnemyBrain"
     },
-    "enemy_action_common 0x610": {
-        "find 0x65c": 40.0,
-        "lose 0x66c": 45.0
+    "enemy_action_common": {
+        "find": 40.0,
+        "lose": 45.0
     },
-    "enemy_body 0x670": {
-        "health 0x6bc": 9999.0,
-        "hit 0x6cc": false
+    "enemy_body": {
+        "health": 9999.0,
+        "hit": false
     },
-    "npc_param 0x6d0": {
-        "param 0x730": {
-            "category 0x78c": "noarea",
-            "damage_type 0x79c": 0.0,
-            "grabbed_type 0x7ac": 0.0
+    "npc_param": {
+        "param": {
+            "category": "noarea",
+            "damage_type": 0.0,
+            "grabbed_type": 0.0
         },
-        "valid 0x72c": true
+        "valid": true
     },
-    "puppet 0x7b0": {
-        "animset 0x83c": "npc/gmarmf01",
-        "collision 0x880": {
-            "center_y 0x8dc": 0.0,
-            "height 0x8ec": 0.0,
-            "radius 0x8fc": 0.0
+    "puppet": {
+        "animset": "npc/gmarmf01",
+        "collision": {
+            "center_y": 0.0,
+            "height": 0.0,
+            "radius": 0.0
         },
-        "modelName 0x85c": "gmarmf01_base",
-        "scale 0x86c": 1.0,
-        "type 0x87c": "Puppet"
+        "modelName": "gmarmf01_base",
+        "scale": 1.0,
+        "type": "Puppet"
     }
 }
